@@ -311,8 +311,114 @@ tbody tr:hover td.match-faint { background: #262c1f; }
 }
 
 .drop {
+  position: relative;
   display: grid;
   gap: 3px;
+  padding-right: 28px;
+}
+
+.bonus-roll {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 22px;
+  height: 22px;
+  padding: 0;
+  border: 1px solid #2a2416;
+  border-radius: 3px;
+  background: #0c0b08;
+  box-shadow: inset 0 1px 0 #c4a85a, 0 0 0 1px #6d5a2c;
+  cursor: pointer;
+  line-height: 0;
+}
+
+.bonus-roll img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 2px;
+}
+
+.bonus-roll:hover,
+.bonus-roll:focus-visible {
+  border-color: #f0d36a;
+  box-shadow: inset 0 1px 0 #f2e08a, 0 0 0 1px #c9a227, 0 0 8px rgba(255, 214, 90, 0.45);
+}
+
+.drop.bonus-won {
+  padding-right: 0;
+  opacity: 0.22;
+  filter: grayscale(0.45);
+  pointer-events: none;
+}
+
+.bonus-summary {
+  padding: 8px 24px 40px;
+  max-width: 880px;
+}
+
+.bonus-summary h2 {
+  margin: 0 0 12px;
+  color: var(--ink);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.bonus-empty {
+  margin: 0;
+  color: var(--muted);
+}
+
+.bonus-wins {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.bonus-win {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--bg-elevated);
+}
+
+.bonus-win .copy {
+  display: grid;
+  gap: 2px;
+}
+
+.bonus-win .name {
+  font-weight: 650;
+}
+
+.bonus-win .meta {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.bonus-win button {
+  flex: 0 0 auto;
+  padding: 4px 8px;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: transparent;
+  color: var(--muted);
+  font: inherit;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.bonus-win button:hover,
+.bonus-win button:focus-visible {
+  color: var(--ink);
+  border-color: #5a5548;
+  background: #2c3226;
 }
 
 .drop + .drop {

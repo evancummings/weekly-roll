@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Midnight Season 2 Loot</title>
-  <link rel="stylesheet" href="styles.css?v=sep2">
+  <link rel="stylesheet" href="styles.css?v=bonus-fade">
 </head>
 <body>
   <header class="topbar">
@@ -35,9 +35,13 @@
         <tbody></tbody>
       </table>
     </div>
+    <section class="bonus-summary" aria-labelledby="bonus-heading">
+      <h2 id="bonus-heading">Won by bonus roll</h2>
+      <div id="bonus-wins"></div>
+    </section>
   </main>
 
   <script src="loot-data.js"></script>
-  <script src="app.js"></script>
+  <script src="app.js?v=bonus-fade"></script>
 </body>
 </html>

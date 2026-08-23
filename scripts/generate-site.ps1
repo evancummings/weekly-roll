@@ -168,6 +168,7 @@ foreach ($dungeon in $data.dungeons) {
             }
 
             $entry = New-Object System.Collections.Hashtable
+            $entry["id"] = [int]$itemId
             $entry["name"] = [string]$item.name
             $entry["droppedBy"] = $item.droppedBy
             $entry["stats"] = $stats.ToArray()
