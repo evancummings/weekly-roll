@@ -802,9 +802,10 @@
           : escapeHtml(titleParts.join(" — "));
     const tagHtml = tag ? `<span class="hand-tag">${escapeHtml(tag)}</span>` : "";
     const bisHtml = tier === "perfect" ? `<span class="bis-tag">BIS</span>` : "";
+    const rolledHtml = won ? `<span class="rolled-tag">Rolled</span>` : "";
     const statsHtml = stats.length
-      ? `<span class="stat-line">${stats.map((stat) => `<span class="stat ${statClassName(stat)}">${escapeHtml(stat)}</span>`).join(" / ")}</span>${bisHtml}`
-      : `<span class="item-name">${tagHtml}${escapeHtml(entry.name || "No stats")}</span>`;
+      ? `<span class="stat-line">${stats.map((stat) => `<span class="stat ${statClassName(stat)}">${escapeHtml(stat)}</span>`).join(" / ")}</span>${bisHtml}${rolledHtml}`
+      : `<span class="item-name">${tagHtml}${escapeHtml(entry.name || "No stats")}${rolledHtml}</span>`;
     const nameHtml = stats.length && entry.name
       ? `<div class="item-name">${tagHtml}<span>${escapeHtml(entry.name)}</span></div>`
       : "";
