@@ -404,7 +404,7 @@ h1 {
 }
 
 .profile-field {
-  min-width: 280px;
+  min-width: 196px;
 }
 
 .profile-controls {
@@ -418,23 +418,27 @@ h1 {
   min-width: 140px;
 }
 
-.profile-edit {
+.profile-manage {
+  flex: 0 0 var(--control-h);
+  display: inline-grid;
+  place-items: center;
+  width: var(--control-h);
   height: var(--control-h);
-  padding: 0 10px;
+  padding: 0;
   border: 1px solid var(--line);
   border-radius: 6px;
   background: var(--bg-elevated);
-  color: var(--ink);
-  font: inherit;
-  font-size: 12px;
-  font-weight: 700;
-  letter-spacing: 0.03em;
-  white-space: nowrap;
+  color: var(--muted);
   cursor: pointer;
 }
 
-.profile-edit:hover,
-.profile-edit:focus-visible {
+.profile-manage svg {
+  width: 18px;
+  height: 18px;
+}
+
+.profile-manage:hover,
+.profile-manage:focus-visible {
   border-color: var(--accent);
   color: #f2e08a;
   outline: none;
@@ -896,6 +900,32 @@ tbody tr:hover td.match-faint { background: #262c1f; }
 
 .profile-form .help-open {
   justify-self: start;
+}
+
+.profile-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+
+.profile-delete {
+  height: var(--control-h);
+  padding: 0 14px;
+  border: 1px solid #5a3530;
+  border-radius: 6px;
+  background: #2a1b18;
+  color: #e8b4aa;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.profile-delete:hover,
+.profile-delete:focus-visible {
+  border-color: #c45a4a;
+  color: #f0c8c0;
+  outline: none;
 }
 
 .bonus-empty {

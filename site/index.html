@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Weighted Dice</title>
-  <link rel="stylesheet" href="styles.css?v=profile-edit">
+  <link rel="stylesheet" href="styles.css?v=profile-gear">
 </head>
 <body>
   <header class="topbar">
@@ -20,8 +20,11 @@
           <span>Profile</span>
           <div class="profile-controls">
             <select id="profile-select"></select>
-            <button type="button" id="profile-rename" class="profile-edit">Rename</button>
-            <button type="button" id="profile-delete" class="profile-edit">Delete</button>
+            <button type="button" id="profile-manage" class="profile-manage" aria-label="Manage profile" aria-haspopup="dialog" aria-controls="profile-modal" title="Manage profile">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path fill="currentColor" d="M19.14 12.94c.04-.31.06-.63.06-.94s-.02-.63-.06-.94l2.03-1.58a.5.5 0 0 0 .12-.64l-1.92-3.32a.5.5 0 0 0-.6-.22l-2.39.96a7.03 7.03 0 0 0-1.63-.94l-.36-2.54A.5.5 0 0 0 13.9 2h-3.8a.5.5 0 0 0-.49.42l-.36 2.54c-.59.24-1.13.55-1.63.94l-2.39-.96a.5.5 0 0 0-.6.22L2.81 8.48a.5.5 0 0 0 .12.64L4.96 10.7c-.04.31-.06.63-.06.94s.02.63.06.94L2.93 14.16a.5.5 0 0 0-.12.64l1.92 3.32c.13.23.4.32.64.22l2.39-.96c.5.39 1.04.7 1.63.94l.36 2.54c.05.24.25.42.49.42h3.8c.24 0 .44-.18.49-.42l.36-2.54c.59-.24 1.13-.55 1.63-.94l2.39.96c.24.1.51 0 .64-.22l1.92-3.32a.5.5 0 0 0-.12-.64l-2.03-1.58ZM12 15.5A3.5 3.5 0 1 1 12 8.5a3.5 3.5 0 0 1 0 7Z"/>
+              </svg>
+            </button>
           </div>
         </label>
         <label>
@@ -73,7 +76,7 @@
       <div class="help-body">
         <section>
           <h3>Profiles</h3>
-          <p>A profile is always active. Create one per character; class, spec, stats, weapons, slots, weekly-roll math, and bonus-roll history stay on that profile. Use <strong>Rename</strong> or <strong>Delete</strong> beside the dropdown. Deleting the last profile makes a new Default.</p>
+          <p>A profile is always active. Create one per character; class, spec, stats, weapons, slots, weekly-roll math, and bonus-roll history stay on that profile. Use the gear beside the dropdown to rename or delete. Deleting the last profile makes a new Default.</p>
         </section>
         <section>
           <h3>Class, spec, and stats</h3>
@@ -119,7 +122,10 @@
           <span>Profile name</span>
           <input id="profile-name" type="text" maxlength="40" required placeholder="Arms Warrior" autocomplete="off">
         </label>
-        <button type="submit" id="profile-submit" class="help-open plan-open">Create</button>
+        <div class="profile-actions">
+          <button type="submit" id="profile-submit" class="help-open plan-open">Create</button>
+          <button type="button" id="profile-delete" class="profile-delete" hidden>Delete</button>
+        </div>
       </form>
     </div>
   </dialog>
@@ -148,6 +154,6 @@
 
   <script src="loot-data.js"></script>
   <script src="spec-stat-defaults.js"></script>
-  <script src="app.js?v=profile-edit"></script>
+  <script src="app.js?v=profile-gear"></script>
 </body>
 </html>

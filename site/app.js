@@ -54,7 +54,7 @@
   const profileCancel = document.getElementById("profile-cancel");
   const profileTitle = document.getElementById("profile-title");
   const profileSubmit = document.getElementById("profile-submit");
-  const profileRename = document.getElementById("profile-rename");
+  const profileManage = document.getElementById("profile-manage");
   const profileDelete = document.getElementById("profile-delete");
   const params = new URLSearchParams(window.location.search);
 
@@ -306,6 +306,7 @@
     if (!window.confirm(`Delete profile "${current.name}"? This cannot be undone.`)) return;
     delete profiles[activeProfileId];
     const remaining = profileList();
+    if (profileModal?.open) profileModal.close();
     if (!remaining.length) {
       const id = newProfileId();
       profiles[id] = emptyProfileData("Default", id);
@@ -319,10 +320,12 @@
     if (!profileModal || typeof profileModal.showModal !== "function") return;
     profileModalMode = mode;
     const current = profiles[activeProfileId];
-    if (profileTitle) profileTitle.textContent = mode === "rename" ? "Rename Profile" : "Create Profile";
-    if (profileSubmit) profileSubmit.textContent = mode === "rename" ? "Save" : "Create";
+    const managing = mode === "manage";
+    if (profileTitle) profileTitle.textContent = managing ? "Manage Profile" : "Create Profile";
+    if (profileSubmit) profileSubmit.textContent = managing ? "Save" : "Create";
+    if (profileDelete) profileDelete.hidden = !managing;
     if (profileNameInput) {
-      profileNameInput.value = mode === "rename" && current ? current.name : "";
+      profileNameInput.value = managing && current ? current.name : "";
     }
     profileModal.showModal();
     profileNameInput?.focus();
@@ -1008,14 +1011,14 @@
         profileNameInput?.focus();
         return;
       }
-      if (profileModalMode === "rename") renameActiveProfile(name);
+      if (profileModalMode === "manage") renameActiveProfile(name);
       else createProfile(name);
       if (profileModal.open) profileModal.close();
     });
   }
 
-  if (profileRename) {
-    profileRename.addEventListener("click", () => openProfileModal("rename"));
+  if (profileManage) {
+    profileManage.addEventListener("click", () => openProfileModal("manage"));
   }
 
   if (profileDelete) {
