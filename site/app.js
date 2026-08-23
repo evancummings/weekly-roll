@@ -302,7 +302,7 @@
 
   function deleteActiveProfile() {
     const current = profiles[activeProfileId];
-    if (!current) return;
+    if (!current || profileList().length < 2) return;
     if (!window.confirm(`Delete profile "${current.name}"? This cannot be undone.`)) return;
     delete profiles[activeProfileId];
     const remaining = profileList();
@@ -323,7 +323,7 @@
     const managing = mode === "manage";
     if (profileTitle) profileTitle.textContent = managing ? "Manage Profile" : "Create Profile";
     if (profileSubmit) profileSubmit.textContent = managing ? "Save" : "Create";
-    if (profileDelete) profileDelete.hidden = !managing;
+    if (profileDelete) profileDelete.hidden = !managing || profileList().length < 2;
     if (profileNameInput) {
       profileNameInput.value = managing && current ? current.name : "";
     }
