@@ -241,7 +241,7 @@
     const rows = profileList();
     profileSelect.innerHTML = `${rows.map((profile) => {
       return `<option value="${escapeHtml(profile.id)}">${escapeHtml(profile.name)}</option>`;
-    }).join("")}<option value="${CREATE_PROFILE}">Create Profile</option>`;
+    }).join("")}<option value="${CREATE_PROFILE}">Create Profile...</option>`;
     profileSelect.value = activeProfileId && profiles[activeProfileId] ? activeProfileId : CREATE_PROFILE;
   }
 
