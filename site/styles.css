@@ -202,6 +202,40 @@ h1 {
   margin-top: 8px;
 }
 
+#help-modal {
+  width: min(720px, calc(100vw - 32px));
+}
+
+#help-modal .help-card > header {
+  padding: 22px 24px 16px;
+}
+
+#help-modal .help-card h2 {
+  font-size: 24px;
+  line-height: 1.25;
+}
+
+#help-modal .help-body {
+  gap: 20px;
+  padding: 20px 24px 24px;
+}
+
+#help-modal .help-body h3 {
+  margin-bottom: 8px;
+  font-size: 13px;
+  letter-spacing: 0.06em;
+}
+
+#help-modal .help-body p {
+  color: #e8e2d2;
+  font-size: 17px;
+  line-height: 1.55;
+}
+
+#help-modal .help-body p + p {
+  margin-top: 10px;
+}
+
 .plan-modal {
   width: min(1280px, calc(100vw - 24px));
   max-height: calc(100vh - 20px);
