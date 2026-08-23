@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Weighted Dice</title>
-  <link rel="stylesheet" href="styles.css?v=drop-hover">
+  <link rel="stylesheet" href="styles.css?v=header-tools">
 </head>
 <body>
   <header class="topbar">
@@ -12,7 +12,6 @@
       <p class="eyebrow">Midnight Season 2</p>
       <div class="brand-row">
         <h1>Weighted Dice</h1>
-        <button type="button" id="help-open" class="help-open" aria-haspopup="dialog" aria-controls="help-modal">Instructions</button>
       </div>
     </div>
     <div class="controls">
@@ -30,13 +29,19 @@
         <span>Stat priority</span>
         <ol id="stat-order" class="stat-order"></ol>
       </div>
-      <fieldset class="weapon-style">
-        <legend>Weapons</legend>
-        <div class="weapon-picks">
-          <label><input type="radio" name="weapon-style" value="2h"> 2-handed</label>
-          <label><input type="radio" name="weapon-style" value="mhoh"> MH/OH</label>
+      <div class="header-tools">
+        <div class="header-actions">
+          <button type="button" id="help-open" class="help-open" aria-haspopup="dialog" aria-controls="help-modal">Instructions</button>
+          <button type="button" id="plan-open" class="help-open" aria-haspopup="dialog" aria-controls="plan-modal">Weekly roll</button>
         </div>
-      </fieldset>
+        <fieldset class="weapon-style">
+          <legend>Weapons</legend>
+          <div class="weapon-picks">
+            <label><input type="radio" name="weapon-style" value="2h"> 2-handed</label>
+            <label><input type="radio" name="weapon-style" value="mhoh"> MH/OH</label>
+          </div>
+        </fieldset>
+      </div>
     </div>
   </header>
 
@@ -83,6 +88,10 @@
           <p><strong>Total Items</strong> is what is still in that dungeon’s pool. <strong>BIS</strong> is remaining items with both top stats. <strong>Upgrade</strong> has exactly one. <strong>Waste</strong> is everything else, including filled slots and the wrong weapon style. The percentages are your odds of rolling each from what is left.</p>
         </section>
         <section>
+          <h3>Weekly roll</h3>
+          <p>Open <strong>Weekly roll</strong> for ranked scenarios of where to spend a bonus roll, based on the remaining pool after your current setup and wins.</p>
+        </section>
+        <section>
           <h3>Your session</h3>
           <p>Class, spec, priorities, weapon style, slot checkboxes, and bonus-roll wins stay in this browser. You can reopen this any time from <strong>Instructions</strong>.</p>
         </section>
@@ -90,8 +99,18 @@
     </div>
   </dialog>
 
+  <dialog id="plan-modal" class="help-modal plan-modal" aria-labelledby="plan-title">
+    <div class="help-card">
+      <header>
+        <h2 id="plan-title">Weekly bonus-roll plan</h2>
+        <button type="button" id="plan-close" class="help-close">Close</button>
+      </header>
+      <div id="plan-body" class="help-body plan-body"></div>
+    </div>
+  </dialog>
+
   <script src="loot-data.js"></script>
   <script src="spec-stat-defaults.js"></script>
-  <script src="app.js?v=help"></script>
+  <script src="app.js?v=weekly-plan"></script>
 </body>
 </html>

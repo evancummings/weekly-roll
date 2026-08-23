@@ -37,6 +37,10 @@
   const helpModal = document.getElementById("help-modal");
   const helpOpen = document.getElementById("help-open");
   const helpClose = document.getElementById("help-close");
+  const planModal = document.getElementById("plan-modal");
+  const planOpen = document.getElementById("plan-open");
+  const planClose = document.getElementById("plan-close");
+  const planBody = document.getElementById("plan-body");
   const params = new URLSearchParams(window.location.search);
 
   let specStatOrders = readSpecStatOrders();
@@ -356,6 +360,106 @@
       upgradePct: ratio(counts.upgrade),
       netPct: ratio(counts.bis + counts.upgrade)
     };
+  }
+
+  function dungeonPlanRows() {
+    const specGrid = data.grid[specSelect.value] || {};
+    return data.dungeons.map((dungeon) => {
+      const stats = poolStats(specGrid, dungeon);
+      const targets = [];
+      remainingPool(specGrid, dungeon).forEach(({ entry, slot }) => {
+        const kind = poolKind(entry, slot);
+        if (kind !== "bis" && kind !== "upgrade") return;
+        targets.push({ kind, entry, slot });
+      });
+      targets.sort((a, b) => Number(a.kind !== "bis") - Number(b.kind !== "bis"));
+      return { dungeon, ...stats, targets };
+    });
+  }
+
+  function comparePlanNet(a, b) {
+    return (b.netPct || 0) - (a.netPct || 0)
+      || (b.bisPct || 0) - (a.bisPct || 0)
+      || b.bis - a.bis
+      || b.remaining - a.remaining;
+  }
+
+  function comparePlanBis(a, b) {
+    return (b.bisPct || 0) - (a.bisPct || 0)
+      || b.bis - a.bis
+      || (b.netPct || 0) - (a.netPct || 0)
+      || b.remaining - a.remaining;
+  }
+
+  function comparePlanWaste(a, b) {
+    const wasteA = a.remaining ? a.waste / a.remaining : 1;
+    const wasteB = b.remaining ? b.waste / b.remaining : 1;
+    return wasteA - wasteB
+      || (b.netPct || 0) - (a.netPct || 0)
+      || b.bis - a.bis;
+  }
+
+  function renderPlanTargets(targets) {
+    if (!targets.length) {
+      return `<p class="plan-odds">No remaining BIS or upgrade items.</p>`;
+    }
+    return `<ul class="plan-targets">${targets.map(({ kind, entry, slot }) => {
+      const stats = (entry.stats || []).join(" / ");
+      const detail = [slot.name, stats].filter(Boolean).join(" · ");
+      return `<li><span class="plan-tag ${kind}">${kind === "bis" ? "BIS" : "UP"}</span>${escapeHtml(entry.name || "Unknown")}${detail ? ` · ${escapeHtml(detail)}` : ""}</li>`;
+    }).join("")}</ul>`;
+  }
+
+  function renderPlanRanks(rows) {
+    return `<ol class="plan-ranks">${rows.map((row) => {
+      return `<li>
+        <div class="plan-rank-head">
+          <strong>${escapeHtml(row.dungeon.name)}</strong>
+          <span class="plan-short">${escapeHtml(row.dungeon.shortName)}</span>
+        </div>
+        <p class="plan-odds">${formatPct(row.netPct)} net · ${formatPct(row.bisPct)} BIS · ${row.bis} BIS / ${row.upgrade} upgrade / ${row.remaining} left</p>
+        ${renderPlanTargets(row.targets)}
+      </li>`;
+    }).join("")}</ol>`;
+  }
+
+  function renderWeeklyPlan() {
+    const rows = dungeonPlanRows();
+    const live = rows.filter((row) => row.remaining > 0);
+    if (!live.length) {
+      planBody.innerHTML = `<p class="plan-lead">Nothing left in the remaining pools. Uncheck fewer slots or remove a bonus-roll win to plan again.</p>`;
+      return;
+    }
+
+    const byNet = live.slice().sort(comparePlanNet);
+    const byBis = live.slice().sort(comparePlanBis);
+    const byWaste = live.slice().sort(comparePlanWaste);
+    const pick = byNet[0];
+    const specName = specSelect.options[specSelect.selectedIndex]?.text || "this spec";
+
+    planBody.innerHTML = `
+      <p class="plan-lead">Ranked from the remaining ${escapeHtml(specName)} pool after your current stat order, weapon style, included slots, and bonus-roll wins. A weekly bonus roll is a uniform draw from that dungeon’s leftover items.</p>
+      <div class="plan-pick">
+        <p class="label">Recommended spend</p>
+        <strong>${escapeHtml(pick.dungeon.name)}</strong>
+        <p class="meta">${formatPct(pick.netPct)} chance of a BIS or upgrade · ${formatPct(pick.bisPct)} chance of BIS</p>
+      </div>
+      <section class="plan-scenario">
+        <h3>Best net upgrade</h3>
+        <p>Highest odds that the roll is not waste.</p>
+        ${renderPlanRanks(byNet)}
+      </section>
+      <section class="plan-scenario">
+        <h3>Chase BIS</h3>
+        <p>Highest odds of both top stats, even if the dungeon is riskier overall.</p>
+        ${renderPlanRanks(byBis)}
+      </section>
+      <section class="plan-scenario">
+        <h3>Least waste</h3>
+        <p>Lowest share of remaining items that would not help.</p>
+        ${renderPlanRanks(byWaste)}
+      </section>
+    `;
   }
 
   function formatPct(value) {
@@ -746,6 +850,23 @@
       if (event.target === helpModal) helpModal.close();
     });
     helpModal.addEventListener("close", markInstructionsSeen);
+  }
+
+  function openWeeklyPlan() {
+    renderWeeklyPlan();
+    if (planModal && typeof planModal.showModal === "function") planModal.showModal();
+  }
+
+  if (planOpen) planOpen.addEventListener("click", openWeeklyPlan);
+  if (planClose) {
+    planClose.addEventListener("click", () => {
+      if (planModal.open) planModal.close();
+    });
+  }
+  if (planModal) {
+    planModal.addEventListener("click", (event) => {
+      if (event.target === planModal) planModal.close();
+    });
   }
 
   fillClasses();
