@@ -24,6 +24,7 @@
   const table = document.getElementById("loot-table");
   const thead = table.querySelector("thead");
   const tbody = table.querySelector("tbody");
+  const tfoot = table.querySelector("tfoot");
   const bonusWinsEl = document.getElementById("bonus-wins");
   const params = new URLSearchParams(window.location.search);
 
@@ -170,6 +171,64 @@
     return { tier: null, score };
   }
 
+  function itemStats(entry) {
+    return [...new Set((entry.stats || []).map(normalizeStat).filter((stat) => DEFAULT_STATS.includes(stat)))];
+  }
+
+  function poolKind(entry) {
+    const present = itemStats(entry);
+    const hasFirst = present.includes(statOrder[0]);
+    const hasSecond = present.includes(statOrder[1]);
+    if (hasFirst && hasSecond) return "bis";
+    if (hasFirst || hasSecond) return "upgrade";
+    return "waste";
+  }
+
+  function remainingPool(specGrid, dungeon) {
+    const items = [];
+    data.slots.forEach((slot) => {
+      const entries = (specGrid[dungeon.id] && specGrid[dungeon.id][slot.id]) || [];
+      entries.forEach((entry) => {
+        if (!isBonusWin(dropKey(dungeon, slot, entry))) items.push(entry);
+      });
+    });
+    return items;
+  }
+
+  function poolStats(specGrid, dungeon) {
+    const items = remainingPool(specGrid, dungeon);
+    const counts = { remaining: items.length, bis: 0, upgrade: 0, waste: 0 };
+    items.forEach((entry) => {
+      counts[poolKind(entry)] += 1;
+    });
+    const ratio = (part) => counts.remaining ? part / counts.remaining : null;
+    return {
+      ...counts,
+      bisPct: ratio(counts.bis),
+      upgradePct: ratio(counts.upgrade),
+      netPct: ratio(counts.bis + counts.upgrade)
+    };
+  }
+
+  function formatPct(value) {
+    if (value == null) return "—";
+    const pct = Math.round(value * 1000) / 10;
+    return Number.isInteger(pct) ? `${pct}%` : `${pct.toFixed(1)}%`;
+  }
+
+  function heatColor(t) {
+    const clamped = Math.max(0, Math.min(1, t));
+    const hue = Math.round(8 + clamped * 112);
+    const sat = Math.round(40 + clamped * 16);
+    const light = Math.round(15 + clamped * 9);
+    return `hsl(${hue} ${sat}% ${light}%)`;
+  }
+
+  function heatStyle(value, max) {
+    if (value == null || !max) return "";
+    return `background:${heatColor(value / max)}`;
+  }
+
   function bestTier(entries, dungeon, slot) {
     let best = null;
     entries.forEach((entry) => {
@@ -279,6 +338,56 @@
 
       return `<tr><th>${slot.name}</th>${cells}</tr>`;
     }).join("");
+
+    renderFooter(specGrid);
+  }
+
+  function renderFooter(specGrid) {
+    const columns = data.dungeons.map((dungeon) => poolStats(specGrid, dungeon));
+    const maxBis = Math.max(0, ...columns.map((col) => col.bisPct || 0));
+    const maxUpgrade = Math.max(0, ...columns.map((col) => col.upgradePct || 0));
+    const maxNet = Math.max(0, ...columns.map((col) => col.netPct || 0));
+
+    const countCells = (key) => columns.map((col) => {
+      return `<td class="pool-count">${col[key]}</td>`;
+    }).join("");
+
+    const pctTitle = (col, hits) => {
+      if (!col.remaining) return "No remaining items";
+      return `${hits} of ${col.remaining} remaining`;
+    };
+
+    const pctCells = (key, hitsKey, max) => columns.map((col) => {
+      const hits = typeof hitsKey === "function" ? hitsKey(col) : col[hitsKey];
+      return `<td class="pool-pct" style="${heatStyle(col[key], max)}" title="${escapeHtml(pctTitle(col, hits))}">${formatPct(col[key])}</td>`;
+    }).join("");
+
+    tfoot.innerHTML = `
+      <tr class="pool-counts">
+        <th title="Remaining items with both of your top two stats">BIS</th>
+        ${countCells("bis")}
+      </tr>
+      <tr class="pool-counts">
+        <th title="Remaining items with exactly one of your top two stats">Upgrade</th>
+        ${countCells("upgrade")}
+      </tr>
+      <tr class="pool-counts">
+        <th title="Remaining items with neither of your top two stats">Waste</th>
+        ${countCells("waste")}
+      </tr>
+      <tr class="pool-pcts">
+        <th title="Odds of rolling a remaining BIS item">BIS Upgrade %</th>
+        ${pctCells("bisPct", "bis", maxBis)}
+      </tr>
+      <tr class="pool-pcts">
+        <th title="Odds of rolling a remaining minor upgrade">Minor Upgrade %</th>
+        ${pctCells("upgradePct", "upgrade", maxUpgrade)}
+      </tr>
+      <tr class="pool-pcts">
+        <th title="Odds of rolling a remaining BIS or Upgrade item">Net Upgrade %</th>
+        ${pctCells("netPct", (col) => col.bis + col.upgrade, maxNet)}
+      </tr>
+    `;
   }
 
   function persist() {

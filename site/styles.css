@@ -215,12 +215,13 @@ thead th .dungeon-name {
 }
 
 thead th.slot-col,
-tbody th {
+tbody th,
+tfoot th {
   position: sticky;
   left: 0;
   z-index: 2;
-  width: 108px;
-  min-width: 108px;
+  width: 118px;
+  min-width: 118px;
   background: #1f241c;
   text-align: left;
 }
@@ -452,6 +453,54 @@ td.match-perfect .drop + .drop {
 
 .empty {
   color: var(--empty);
+}
+
+tfoot tr:first-child th,
+tfoot tr:first-child td {
+  border-top: 2px solid #6d5a2c;
+}
+
+tfoot th {
+  padding: 10px 12px;
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  background: #1a1e16;
+}
+
+tfoot td {
+  text-align: center;
+  vertical-align: middle;
+  background: #181c14;
+}
+
+tfoot .pool-count {
+  color: var(--ink);
+  font-size: 16px;
+  font-weight: 750;
+}
+
+tfoot .pool-pcts th,
+tfoot .pool-pcts td {
+  border-top-color: #3d3828;
+}
+
+tfoot .pool-pct {
+  color: #f2ead2;
+  font-size: 17px;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+}
+
+tfoot tr.pool-pcts:last-child th,
+tfoot tr.pool-pcts:last-child td {
+  font-size: 12px;
+}
+
+tfoot tr.pool-pcts:last-child td {
+  font-size: 18px;
 }
 
 @media (max-width: 720px) {
