@@ -150,7 +150,7 @@ function Add-WowheadNames($Items) {
         $powershell = [powershell]::Create().AddScript({
             param($Id)
             $url = "https://nether.wowhead.com/tooltip/item/$Id"
-            $payload = Invoke-RestMethod -Uri $url -Headers @{ "User-Agent" = "roll-planner-keystoneloot-extract/1.0" } -TimeoutSec 20
+            $payload = Invoke-RestMethod -Uri $url -Headers @{ "User-Agent" = "weighted-dice-keystoneloot-extract/1.0" } -TimeoutSec 20
             $droppedBy = $null
             if ($payload.tooltip -match "Dropped by:\s*([^<]+)") {
                 $droppedBy = $Matches[1].Trim()
@@ -229,7 +229,7 @@ function Add-WowheadInventory($Items) {
         $powershell = [powershell]::Create().AddScript({
             param($Id, $HandById)
             $url = "https://www.wowhead.com/item=$Id&xml"
-            $raw = Invoke-WebRequest -Uri $url -Headers @{ "User-Agent" = "roll-planner-keystoneloot-extract/1.0" } -TimeoutSec 20 -UseBasicParsing
+            $raw = Invoke-WebRequest -Uri $url -Headers @{ "User-Agent" = "weighted-dice-keystoneloot-extract/1.0" } -TimeoutSec 20 -UseBasicParsing
             [xml]$doc = $raw.Content
             $item = $doc.wowhead.item
             if (-not $item -or -not $item.inventorySlot) { return $null }

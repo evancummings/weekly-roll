@@ -235,7 +235,7 @@ def fetch_wowhead_item(item_id: int) -> dict:
     url = f"https://nether.wowhead.com/tooltip/item/{item_id}"
     request = urllib.request.Request(
         url,
-        headers={"User-Agent": "roll-planner-keystoneloot-extract/1.0"},
+        headers={"User-Agent": "weighted-dice-keystoneloot-extract/1.0"},
     )
     with urllib.request.urlopen(request, timeout=20) as response:
         payload = json.loads(response.read().decode("utf-8"))

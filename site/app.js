@@ -5,15 +5,13 @@
     return;
   }
 
-  const STORAGE_CLASS = "roll-planner.classId";
-  const STORAGE_SPEC = "roll-planner.specId";
-  const STORAGE_STATS = "roll-planner.statOrder";
-  const STORAGE_BONUS = "roll-planner.bonusWins";
-  const STORAGE_CRAFTED = "roll-planner.craftedSlots";
-  const STORAGE_ALT = "roll-planner.altSlots";
-  const STORAGE_INCLUDE = "roll-planner.includeSlots";
-  const STORAGE_WEAPON = "roll-planner.weaponStyle";
-  const STORAGE_SPEC_STATS = "roll-planner.specStatOrders";
+  const STORAGE_CLASS = "weighted-dice.classId";
+  const STORAGE_SPEC = "weighted-dice.specId";
+  const STORAGE_STATS = "weighted-dice.statOrder";
+  const STORAGE_BONUS = "weighted-dice.bonusWins";
+  const STORAGE_INCLUDE = "weighted-dice.includeSlots";
+  const STORAGE_WEAPON = "weighted-dice.weaponStyle";
+  const STORAGE_SPEC_STATS = "weighted-dice.specStatOrders";
   const SLOT_WEAPON = 10;
   const SLOT_OFFHAND = 11;
   const SLOT_FINGER = 12;
@@ -139,21 +137,8 @@
     return 1;
   }
 
-  function invertExcludedCounts(excluded) {
-    const included = {};
-    Object.entries(excluded).forEach(([id, count]) => {
-      const cap = slotCapacity(id);
-      if (count > 0) included[id] = Math.max(0, cap - Math.min(cap, count));
-    });
-    return included;
-  }
-
   function readIncludeSlots() {
-    const includedRaw = params.get("include") || localStorage.getItem(STORAGE_INCLUDE);
-    if (includedRaw) return parseSlotCounts(includedRaw);
-    const excludedRaw = params.get("alts") || params.get("crafts")
-      || localStorage.getItem(STORAGE_ALT) || localStorage.getItem(STORAGE_CRAFTED);
-    return invertExcludedCounts(parseSlotCounts(excludedRaw));
+    return parseSlotCounts(params.get("include") || localStorage.getItem(STORAGE_INCLUDE));
   }
 
   function includedCount(slot) {
@@ -610,9 +595,6 @@
       next.searchParams.set("spec", specSelect.value);
       next.searchParams.set("stats", statOrder.join(","));
       next.searchParams.set("weapons", weaponStyle);
-      next.searchParams.delete("crafted");
-      next.searchParams.delete("alts");
-      next.searchParams.delete("crafts");
       const included = includeParam();
       if (included) next.searchParams.set("include", included);
       else next.searchParams.delete("include");
@@ -719,6 +701,14 @@
     document.querySelectorAll("input[name='weapon-style']").forEach((input) => {
       input.checked = input.value === weaponStyle;
     });
+  }
+
+  try {
+    Object.keys(localStorage).forEach((key) => {
+      if (key.startsWith("roll-planner.")) localStorage.removeItem(key);
+    });
+  } catch (error) {
+    // file:// and some editor previews block storage
   }
 
   fillClasses();
