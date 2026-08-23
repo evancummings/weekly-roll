@@ -12,6 +12,7 @@
   const STORAGE_INCLUDE = "weighted-dice.includeSlots";
   const STORAGE_WEAPON = "weighted-dice.weaponStyle";
   const STORAGE_SPEC_STATS = "weighted-dice.specStatOrders";
+  const STORAGE_HELP = "weighted-dice.seenInstructions";
   const SLOT_WEAPON = 10;
   const SLOT_OFFHAND = 11;
   const SLOT_FINGER = 12;
@@ -33,6 +34,9 @@
   const tbody = table.querySelector("tbody");
   const tfoot = table.querySelector("tfoot");
   const bonusWinsEl = document.getElementById("bonus-wins");
+  const helpModal = document.getElementById("help-modal");
+  const helpOpen = document.getElementById("help-open");
+  const helpClose = document.getElementById("help-close");
   const params = new URLSearchParams(window.location.search);
 
   let specStatOrders = readSpecStatOrders();
@@ -711,6 +715,39 @@
     // file:// and some editor previews block storage
   }
 
+  function hasSeenInstructions() {
+    try {
+      return localStorage.getItem(STORAGE_HELP) === "1";
+    } catch (error) {
+      return false;
+    }
+  }
+
+  function markInstructionsSeen() {
+    try {
+      localStorage.setItem(STORAGE_HELP, "1");
+    } catch (error) {
+      // file:// and some editor previews block storage
+    }
+  }
+
+  function openInstructions() {
+    if (helpModal && typeof helpModal.showModal === "function") helpModal.showModal();
+  }
+
+  if (helpOpen) helpOpen.addEventListener("click", openInstructions);
+  if (helpClose) {
+    helpClose.addEventListener("click", () => {
+      if (helpModal.open) helpModal.close();
+    });
+  }
+  if (helpModal) {
+    helpModal.addEventListener("click", (event) => {
+      if (event.target === helpModal) helpModal.close();
+    });
+    helpModal.addEventListener("close", markInstructionsSeen);
+  }
+
   fillClasses();
   fillSpecs();
   loadOrderForCurrentSpec(true);
@@ -719,6 +756,7 @@
   renderTable();
   renderBonusSummary();
   persist();
+  if (!hasSeenInstructions()) openInstructions();
 
   window.addEventListener("pagehide", persist);
   document.addEventListener("visibilitychange", () => {

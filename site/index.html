@@ -4,33 +4,38 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Weighted Dice</title>
-  <link rel="stylesheet" href="styles.css?v=weighted-dice">
+  <link rel="stylesheet" href="styles.css?v=drop-hover">
 </head>
 <body>
   <header class="topbar">
     <div class="brand">
       <p class="eyebrow">Midnight Season 2</p>
-      <h1>Weighted Dice</h1>
+      <div class="brand-row">
+        <h1>Weighted Dice</h1>
+        <button type="button" id="help-open" class="help-open" aria-haspopup="dialog" aria-controls="help-modal">Instructions</button>
+      </div>
     </div>
-    <form class="filters" autocomplete="off">
-      <label>
-        <span>Class</span>
-        <select id="class-select"></select>
-      </label>
-      <label>
-        <span>Spec</span>
-        <select id="spec-select"></select>
-      </label>
-    </form>
-    <div class="pref">
-      <span>Stat priority</span>
-      <ol id="stat-order" class="stat-order"></ol>
-    </div>
-    <div class="pref setup">
+    <div class="controls">
+      <form class="filters" autocomplete="off">
+        <label>
+          <span>Class</span>
+          <select id="class-select"></select>
+        </label>
+        <label>
+          <span>Spec</span>
+          <select id="spec-select"></select>
+        </label>
+      </form>
+      <div class="pref">
+        <span>Stat priority</span>
+        <ol id="stat-order" class="stat-order"></ol>
+      </div>
       <fieldset class="weapon-style">
         <legend>Weapons</legend>
-        <label><input type="radio" name="weapon-style" value="2h"> 2-handed</label>
-        <label><input type="radio" name="weapon-style" value="mhoh"> MH/OH</label>
+        <div class="weapon-picks">
+          <label><input type="radio" name="weapon-style" value="2h"> 2-handed</label>
+          <label><input type="radio" name="weapon-style" value="mhoh"> MH/OH</label>
+        </div>
       </fieldset>
     </div>
   </header>
@@ -49,8 +54,44 @@
     </section>
   </main>
 
+  <dialog id="help-modal" class="help-modal" aria-labelledby="help-title">
+    <div class="help-card">
+      <header>
+        <h2 id="help-title">How to use Weighted Dice</h2>
+        <button type="button" id="help-close" class="help-close">Got it</button>
+      </header>
+      <div class="help-body">
+        <section>
+          <h3>Class, spec, and stats</h3>
+          <p>Pick your class and spec. Stat priority starts from Wowhead defaults for that spec. Drag the chips or use the arrows if you disagree. Each spec remembers its own order.</p>
+        </section>
+        <section>
+          <h3>Weapons</h3>
+          <p>Choose <strong>2-handed</strong> or <strong>MH/OH</strong>. The other style is treated as waste in the remaining pool, so a 2H spec does not count one-hand drops as upgrades.</p>
+        </section>
+        <section>
+          <h3>Reading the table</h3>
+          <p>Gold cells with a <strong>BEST</strong> tag match both of your top two stats. Green-tinted cells are partial matches. Uncheck a slot when you already have that piece from raid, crafting, or anywhere else so those dungeon drops stop counting.</p>
+          <p>Finger and trinket have two checkboxes. One filled slot does not waste the whole row.</p>
+        </section>
+        <section>
+          <h3>Bonus rolls</h3>
+          <p>Click the dice on a drop when you win it. The item stays on the table but fades out of the remaining pool. Use <strong>Remove</strong> under the table if that was a mistake; it asks for confirmation.</p>
+        </section>
+        <section>
+          <h3>The footer math</h3>
+          <p><strong>Total Items</strong> is what is still in that dungeon’s pool. <strong>BIS</strong> is remaining items with both top stats. <strong>Upgrade</strong> has exactly one. <strong>Waste</strong> is everything else, including filled slots and the wrong weapon style. The percentages are your odds of rolling each from what is left.</p>
+        </section>
+        <section>
+          <h3>Your session</h3>
+          <p>Class, spec, priorities, weapon style, slot checkboxes, and bonus-roll wins stay in this browser. You can reopen this any time from <strong>Instructions</strong>.</p>
+        </section>
+      </div>
+    </div>
+  </dialog>
+
   <script src="loot-data.js"></script>
   <script src="spec-stat-defaults.js"></script>
-  <script src="app.js?v=weighted-dice"></script>
+  <script src="app.js?v=help"></script>
 </body>
 </html>
