@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Weighted Dice</title>
-  <link rel="stylesheet" href="styles.css?v=profiles">
+  <link rel="stylesheet" href="styles.css?v=profile-edit">
 </head>
 <body>
   <header class="topbar">
@@ -16,9 +16,13 @@
     </div>
     <div class="controls">
       <form class="filters" autocomplete="off">
-        <label>
+        <label class="profile-field">
           <span>Profile</span>
-          <select id="profile-select"></select>
+          <div class="profile-controls">
+            <select id="profile-select"></select>
+            <button type="button" id="profile-rename" class="profile-edit">Rename</button>
+            <button type="button" id="profile-delete" class="profile-edit">Delete</button>
+          </div>
         </label>
         <label>
           <span>Class</span>
@@ -69,7 +73,7 @@
       <div class="help-body">
         <section>
           <h3>Profiles</h3>
-          <p>Create a profile for each character. Class, spec, stat order, weapon style, included slots, weekly-roll math, and bonus-roll history all stay on that profile. Use <strong>Create Profile</strong> in the dropdown to add another.</p>
+          <p>A profile is always active. Create one per character; class, spec, stats, weapons, slots, weekly-roll math, and bonus-roll history stay on that profile. Use <strong>Rename</strong> or <strong>Delete</strong> beside the dropdown. Deleting the last profile makes a new Default.</p>
         </section>
         <section>
           <h3>Class, spec, and stats</h3>
@@ -115,7 +119,7 @@
           <span>Profile name</span>
           <input id="profile-name" type="text" maxlength="40" required placeholder="Arms Warrior" autocomplete="off">
         </label>
-        <button type="submit" class="help-open plan-open">Create</button>
+        <button type="submit" id="profile-submit" class="help-open plan-open">Create</button>
       </form>
     </div>
   </dialog>
@@ -144,6 +148,6 @@
 
   <script src="loot-data.js"></script>
   <script src="spec-stat-defaults.js"></script>
-  <script src="app.js?v=profiles"></script>
+  <script src="app.js?v=profile-edit"></script>
 </body>
 </html>

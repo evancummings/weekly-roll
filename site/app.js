@@ -52,6 +52,10 @@
   const profileForm = document.getElementById("profile-form");
   const profileNameInput = document.getElementById("profile-name");
   const profileCancel = document.getElementById("profile-cancel");
+  const profileTitle = document.getElementById("profile-title");
+  const profileSubmit = document.getElementById("profile-submit");
+  const profileRename = document.getElementById("profile-rename");
+  const profileDelete = document.getElementById("profile-delete");
   const params = new URLSearchParams(window.location.search);
 
   let specStatOrders = readSpecStatOrders();
@@ -61,6 +65,7 @@
   let includeSlots = readIncludeSlots();
   let profiles = readProfiles();
   let activeProfileId = readActiveProfileId();
+  let profileModalMode = "create";
   let dragIndex = null;
 
   function selectedClass() {
@@ -267,21 +272,65 @@
 
   function createProfile(name) {
     const id = newProfileId();
-    const first = !profileList().length;
-    const profile = first ? currentProfileData(name, id) : emptyProfileData(name, id);
+    const profile = emptyProfileData(name, id);
     profiles[id] = profile;
     applyProfile(profile);
   }
 
-  function openCreateProfile() {
-    if (!profileModal || typeof profileModal.showModal !== "function") return;
-    if (profileNameInput) {
-      profileNameInput.value = "";
-      profileModal.showModal();
-      profileNameInput.focus();
-    } else {
-      profileModal.showModal();
+  function renameActiveProfile(name) {
+    if (!activeProfileId || !profiles[activeProfileId]) return;
+    profiles[activeProfileId].name = name;
+    fillProfileSelect();
+    persist();
+  }
+
+  function ensureDefaultProfile() {
+    if (profileList().length) {
+      if (!activeProfileId || !profiles[activeProfileId]) {
+        activeProfileId = profileList()[0].id;
+      }
+      return;
     }
+    const id = newProfileId();
+    const profile = classSelect.value
+      ? currentProfileData("Default", id)
+      : emptyProfileData("Default", id);
+    profiles[id] = profile;
+    activeProfileId = id;
+    writeProfiles();
+  }
+
+  function deleteActiveProfile() {
+    const current = profiles[activeProfileId];
+    if (!current) return;
+    if (!window.confirm(`Delete profile "${current.name}"? This cannot be undone.`)) return;
+    delete profiles[activeProfileId];
+    const remaining = profileList();
+    if (!remaining.length) {
+      const id = newProfileId();
+      profiles[id] = emptyProfileData("Default", id);
+      applyProfile(profiles[id]);
+      return;
+    }
+    applyProfile(remaining[0]);
+  }
+
+  function openProfileModal(mode) {
+    if (!profileModal || typeof profileModal.showModal !== "function") return;
+    profileModalMode = mode;
+    const current = profiles[activeProfileId];
+    if (profileTitle) profileTitle.textContent = mode === "rename" ? "Rename Profile" : "Create Profile";
+    if (profileSubmit) profileSubmit.textContent = mode === "rename" ? "Save" : "Create";
+    if (profileNameInput) {
+      profileNameInput.value = mode === "rename" && current ? current.name : "";
+    }
+    profileModal.showModal();
+    profileNameInput?.focus();
+    profileNameInput?.select();
+  }
+
+  function openCreateProfile() {
+    openProfileModal("create");
   }
 
   function includedCount(slot) {
@@ -959,9 +1008,18 @@
         profileNameInput?.focus();
         return;
       }
-      createProfile(name);
+      if (profileModalMode === "rename") renameActiveProfile(name);
+      else createProfile(name);
       if (profileModal.open) profileModal.close();
     });
+  }
+
+  if (profileRename) {
+    profileRename.addEventListener("click", () => openProfileModal("rename"));
+  }
+
+  if (profileDelete) {
+    profileDelete.addEventListener("click", deleteActiveProfile);
   }
 
   classSelect.addEventListener("change", () => {
@@ -1107,19 +1165,12 @@
     });
   }
 
-  fillProfileSelect();
   fillClasses();
   fillSpecs(params.get("spec") || localStorage.getItem(STORAGE_SPEC));
   loadOrderForCurrentSpec(true);
   syncSetupControls();
-  if (activeProfileId && profiles[activeProfileId]) {
-    applyProfile(profiles[activeProfileId]);
-  } else {
-    renderStatOrder();
-    renderTable();
-    renderBonusSummary();
-    persist();
-  }
+  ensureDefaultProfile();
+  applyProfile(profiles[activeProfileId]);
   if (!hasSeenInstructions()) openInstructions();
 
   window.addEventListener("pagehide", persist);

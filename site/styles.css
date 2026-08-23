@@ -403,6 +403,43 @@ h1 {
   min-width: 168px;
 }
 
+.profile-field {
+  min-width: 280px;
+}
+
+.profile-controls {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.profile-controls select {
+  flex: 1 1 auto;
+  min-width: 140px;
+}
+
+.profile-edit {
+  height: var(--control-h);
+  padding: 0 10px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--bg-elevated);
+  color: var(--ink);
+  font: inherit;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.profile-edit:hover,
+.profile-edit:focus-visible {
+  border-color: var(--accent);
+  color: #f2e08a;
+  outline: none;
+}
+
 .filters span {
   color: var(--muted);
   font-size: 11px;
@@ -1052,6 +1089,7 @@ tfoot tr.pool-net td {
   }
 
   .filters label,
+  .profile-field,
   .pref,
   .setup-row {
     min-width: 0;
