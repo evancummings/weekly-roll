@@ -9,6 +9,13 @@
   const STORAGE_SPEC = "roll-planner.specId";
   const STORAGE_STATS = "roll-planner.statOrder";
   const STORAGE_BONUS = "roll-planner.bonusWins";
+  const STORAGE_CRAFTED_ON = "roll-planner.includeCrafted";
+  const STORAGE_CRAFTED = "roll-planner.craftedSlots";
+  const STORAGE_WEAPON = "roll-planner.weaponStyle";
+  const SLOT_WEAPON = 10;
+  const SLOT_OFFHAND = 11;
+  const SLOT_FINGER = 12;
+  const SLOT_TRINKET = 13;
   const DEFAULT_STATS = ["crit", "haste", "mastery", "versatility"];
   const STAT_LABELS = {
     crit: "Crit",
@@ -26,10 +33,14 @@
   const tbody = table.querySelector("tbody");
   const tfoot = table.querySelector("tfoot");
   const bonusWinsEl = document.getElementById("bonus-wins");
+  const includeCraftedEl = document.getElementById("include-crafted");
   const params = new URLSearchParams(window.location.search);
 
   let statOrder = readStatOrder();
   let bonusWins = readBonusWins();
+  let includeCrafted = readIncludeCrafted();
+  let craftedSlots = readCraftedSlots();
+  let weaponStyle = readWeaponStyle();
   let dragIndex = null;
 
   function selectedClass() {
@@ -53,6 +64,76 @@
 
   function readStatOrder() {
     return parseStatList(params.get("stats") || localStorage.getItem(STORAGE_STATS));
+  }
+
+  function readFlag(value) {
+    return value === "1" || value === "true" || value === "yes";
+  }
+
+  function readIncludeCrafted() {
+    const raw = params.get("crafted") ?? localStorage.getItem(STORAGE_CRAFTED_ON);
+    return raw == null ? false : readFlag(raw);
+  }
+
+  function readWeaponStyle() {
+    const raw = (params.get("weapons") || localStorage.getItem(STORAGE_WEAPON) || "2h").toLowerCase();
+    return raw === "dw" || raw === "dual" ? "dw" : "2h";
+  }
+
+  function readCraftedSlots() {
+    const raw = params.get("crafts") || localStorage.getItem(STORAGE_CRAFTED);
+    const slots = {};
+    if (!raw) return slots;
+    try {
+      if (raw.trim().startsWith("{")) {
+        const parsed = JSON.parse(raw);
+        Object.entries(parsed || {}).forEach(([id, count]) => {
+          slots[id] = Math.max(0, Number(count) || 0);
+        });
+        return slots;
+      }
+    } catch (error) {
+      // fall through to compact format
+    }
+    String(raw).split(",").forEach((part) => {
+      const [id, count] = part.split(":");
+      if (id) slots[id] = Math.max(0, Number(count) || 0);
+    });
+    return slots;
+  }
+
+  function craftedParam() {
+    return Object.entries(craftedSlots)
+      .filter(([, count]) => count > 0)
+      .map(([id, count]) => `${id}:${count}`)
+      .join(",");
+  }
+
+  function slotCapacity(slot) {
+    const id = Number(slot.id ?? slot);
+    if (id === SLOT_FINGER || id === SLOT_TRINKET) return 2;
+    if (id === SLOT_WEAPON) return weaponStyle === "dw" ? 2 : 1;
+    return 1;
+  }
+
+  function craftedCount(slot) {
+    const id = String(slot.id ?? slot);
+    return Math.min(slotCapacity(slot), Math.max(0, Number(craftedSlots[id]) || 0));
+  }
+
+  function bonusFillCount(slot) {
+    const id = Number(slot.id ?? slot);
+    return bonusWins.filter((win) => Number(win.slotId) === id).length;
+  }
+
+  function isOffhandUnused() {
+    return weaponStyle === "2h";
+  }
+
+  function isSlotFilled(slot) {
+    if (Number(slot.id) === SLOT_OFFHAND && isOffhandUnused()) return true;
+    if (!includeCrafted) return false;
+    return craftedCount(slot) + bonusFillCount(slot) >= slotCapacity(slot);
   }
 
   function readBonusWins() {
@@ -175,7 +256,8 @@
     return [...new Set((entry.stats || []).map(normalizeStat).filter((stat) => DEFAULT_STATS.includes(stat)))];
   }
 
-  function poolKind(entry) {
+  function poolKind(entry, slot) {
+    if (isSlotFilled(slot)) return "waste";
     const present = itemStats(entry);
     const hasFirst = present.includes(statOrder[0]);
     const hasSecond = present.includes(statOrder[1]);
@@ -189,7 +271,7 @@
     data.slots.forEach((slot) => {
       const entries = (specGrid[dungeon.id] && specGrid[dungeon.id][slot.id]) || [];
       entries.forEach((entry) => {
-        if (!isBonusWin(dropKey(dungeon, slot, entry))) items.push(entry);
+        if (!isBonusWin(dropKey(dungeon, slot, entry))) items.push({ entry, slot });
       });
     });
     return items;
@@ -198,8 +280,8 @@
   function poolStats(specGrid, dungeon) {
     const items = remainingPool(specGrid, dungeon);
     const counts = { remaining: items.length, bis: 0, upgrade: 0, waste: 0 };
-    items.forEach((entry) => {
-      counts[poolKind(entry)] += 1;
+    items.forEach(({ entry, slot }) => {
+      counts[poolKind(entry, slot)] += 1;
     });
     const ratio = (part) => counts.remaining ? part / counts.remaining : null;
     return {
@@ -230,6 +312,7 @@
   }
 
   function bestTier(entries, dungeon, slot) {
+    if (isSlotFilled(slot)) return null;
     let best = null;
     entries.forEach((entry) => {
       if (isBonusWin(dropKey(dungeon, slot, entry))) return;
@@ -244,11 +327,14 @@
     const stats = entry.stats || [];
     const key = dropKey(dungeon, slot, entry);
     const won = isBonusWin(key);
-    const tier = won ? null : matchInfo(stats).tier;
+    const filled = isSlotFilled(slot);
+    const tier = won || filled ? null : matchInfo(stats).tier;
     const titleParts = [entry.name, entry.droppedBy].filter(Boolean);
     const title = won
       ? escapeHtml(`${titleParts.join(" — ")} — won by bonus roll, removed from pool`)
-      : escapeHtml(titleParts.join(" — "));
+      : filled
+        ? escapeHtml(`${titleParts.join(" — ")} — slot filled, treated as waste`)
+        : escapeHtml(titleParts.join(" — "));
     const statsHtml = stats.length
       ? stats.map((stat) => `<span class="stat ${statClassName(stat)}">${escapeHtml(stat)}</span>`).join(" / ")
       : `<span class="item-name">${escapeHtml(entry.name || "No stats")}</span>`;
@@ -261,7 +347,7 @@
         <img src="icons/inv_misc_dice_02.jpg" alt="" width="22" height="22">
       </button>`;
 
-    return `<div class="drop${tier ? ` match-${tier}` : ""}${won ? " bonus-won" : ""}" title="${title}">
+    return `<div class="drop${tier ? ` match-${tier}` : ""}${won ? " bonus-won" : ""}${filled && !won ? " slot-filled" : ""}" title="${title}">
       ${rollHtml}
       <div class="stats">${statsHtml}</div>
       ${nameHtml}
@@ -319,8 +405,10 @@
     const specId = specSelect.value;
     const specGrid = data.grid[specId] || {};
 
+    table.classList.toggle("craft-active", includeCrafted);
+
     thead.innerHTML = `<tr>
-      <th class="slot-col">Slot</th>
+      <th class="slot-col">Slot<span class="dungeon-name">Crafted</span></th>
       ${data.dungeons.map((dungeon) => {
         return `<th>${dungeon.shortName}<span class="dungeon-name">${dungeon.name}</span></th>`;
       }).join("")}
@@ -336,10 +424,29 @@
         return `<td class="${tier ? `match-${tier}` : ""}"><div class="drops">${entries.map((entry) => renderDrop(entry, dungeon, slot)).join("")}</div></td>`;
       }).join("");
 
-      return `<tr><th>${slot.name}</th>${cells}</tr>`;
+      return `<tr>${renderSlotHead(slot)}${cells}</tr>`;
     }).join("");
 
     renderFooter(specGrid);
+  }
+
+  function renderSlotHead(slot) {
+    const cap = slotCapacity(slot);
+    const count = craftedCount(slot);
+    const unused = Number(slot.id) === SLOT_OFFHAND && isOffhandUnused();
+    const boxes = Array.from({ length: cap }, (_, index) => {
+      const checked = index < count;
+      const label = cap > 1 ? `Crafted ${slot.name} ${index + 1}` : `Crafted ${slot.name}`;
+      return `<label class="craft-box" title="${escapeHtml(label)}">
+        <input type="checkbox" data-craft-slot="${escapeHtml(slot.id)}" data-craft-index="${index}" ${checked ? "checked" : ""} ${unused ? "disabled" : ""}>
+      </label>`;
+    }).join("");
+    return `<th>
+      <div class="slot-head">
+        <span>${escapeHtml(slot.name)}</span>
+        <span class="craft-boxes${includeCrafted && !unused ? "" : " inactive"}">${boxes}</span>
+      </div>
+    </th>`;
   }
 
   function renderFooter(specGrid) {
@@ -395,6 +502,9 @@
       localStorage.setItem(STORAGE_CLASS, classSelect.value);
       localStorage.setItem(STORAGE_SPEC, specSelect.value);
       localStorage.setItem(STORAGE_STATS, statOrder.join(","));
+      localStorage.setItem(STORAGE_CRAFTED_ON, includeCrafted ? "1" : "0");
+      localStorage.setItem(STORAGE_CRAFTED, craftedParam());
+      localStorage.setItem(STORAGE_WEAPON, weaponStyle);
     } catch (error) {
       // file:// and some editor previews block storage
     }
@@ -408,6 +518,11 @@
       next.searchParams.set("class", classSelect.value);
       next.searchParams.set("spec", specSelect.value);
       next.searchParams.set("stats", statOrder.join(","));
+      next.searchParams.set("crafted", includeCrafted ? "1" : "0");
+      next.searchParams.set("weapons", weaponStyle);
+      const crafts = craftedParam();
+      if (crafts) next.searchParams.set("crafts", crafts);
+      else next.searchParams.delete("crafts");
       history.replaceState(null, "", next);
     } catch (error) {
       // ignore preview / file-origin history restrictions
@@ -456,6 +571,33 @@
     renderTable();
   });
 
+  includeCraftedEl.addEventListener("change", () => {
+    includeCrafted = includeCraftedEl.checked;
+    persist();
+    renderTable();
+  });
+
+  document.querySelectorAll("input[name='weapon-style']").forEach((input) => {
+    input.addEventListener("change", () => {
+      if (!input.checked) return;
+      weaponStyle = input.value === "dw" ? "dw" : "2h";
+      craftedSlots[String(SLOT_WEAPON)] = Math.min(slotCapacity(SLOT_WEAPON), craftedCount(SLOT_WEAPON));
+      persist();
+      renderTable();
+    });
+  });
+
+  tbody.addEventListener("change", (event) => {
+    const input = event.target.closest("input[data-craft-slot]");
+    if (!input) return;
+    const slotId = input.dataset.craftSlot;
+    const checked = [...tbody.querySelectorAll(`input[data-craft-slot="${slotId}"]`)]
+      .filter((box) => box.checked).length;
+    craftedSlots[slotId] = Math.min(slotCapacity(slotId), checked);
+    persist();
+    renderTable();
+  });
+
   tbody.addEventListener("click", (event) => {
     const button = event.target.closest(".bonus-roll");
     if (!button) return;
@@ -475,8 +617,16 @@
     renderBonusSummary();
   });
 
+  function syncSetupControls() {
+    includeCraftedEl.checked = includeCrafted;
+    document.querySelectorAll("input[name='weapon-style']").forEach((input) => {
+      input.checked = input.value === weaponStyle;
+    });
+  }
+
   fillClasses();
   fillSpecs();
+  syncSetupControls();
   renderStatOrder();
   renderTable();
   renderBonusSummary();

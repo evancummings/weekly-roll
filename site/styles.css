@@ -105,6 +105,60 @@ select:focus {
   flex: 1 1 100%;
 }
 
+.setup {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px 24px;
+}
+
+.toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--ink);
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.toggle input {
+  accent-color: var(--accent);
+}
+
+.weapon-style {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 14px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.weapon-style legend {
+  float: left;
+  margin-right: 12px;
+  padding: 0;
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.weapon-style label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--ink);
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.weapon-style input {
+  accent-color: var(--accent);
+}
+
 .pref > span {
   color: var(--muted);
   font-size: 11px;
@@ -220,8 +274,8 @@ tfoot th {
   position: sticky;
   left: 0;
   z-index: 2;
-  width: 118px;
-  min-width: 118px;
+  width: 148px;
+  min-width: 148px;
   background: #1f241c;
   text-align: left;
 }
@@ -237,6 +291,44 @@ tbody th {
   font-weight: 700;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+}
+
+.slot-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.craft-boxes {
+  display: flex;
+  gap: 4px;
+}
+
+.craft-boxes.inactive {
+  opacity: 0.38;
+}
+
+.craft-box {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.craft-box input {
+  width: 14px;
+  height: 14px;
+  margin: 0;
+  accent-color: var(--accent);
+}
+
+.craft-box input:disabled {
+  cursor: not-allowed;
+}
+
+.drop.slot-filled {
+  opacity: 0.35;
+  filter: grayscale(0.3);
 }
 
 td {
