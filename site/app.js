@@ -13,6 +13,9 @@
   const STORAGE_WEAPON = "weighted-dice.weaponStyle";
   const STORAGE_SPEC_STATS = "weighted-dice.specStatOrders";
   const STORAGE_HELP = "weighted-dice.seenInstructions";
+  const STORAGE_PROFILES = "weighted-dice.profiles";
+  const STORAGE_ACTIVE_PROFILE = "weighted-dice.activeProfileId";
+  const CREATE_PROFILE = "__create__";
   const SLOT_WEAPON = 10;
   const SLOT_OFFHAND = 11;
   const SLOT_FINGER = 12;
@@ -26,6 +29,7 @@
   };
   const TIER_RANK = { perfect: 5, high: 4, mid: 3, low: 2, faint: 1 };
 
+  const profileSelect = document.getElementById("profile-select");
   const classSelect = document.getElementById("class-select");
   const specSelect = document.getElementById("spec-select");
   const statOrderEl = document.getElementById("stat-order");
@@ -44,6 +48,10 @@
   const historyModal = document.getElementById("history-modal");
   const historyOpen = document.getElementById("history-open");
   const historyClose = document.getElementById("history-close");
+  const profileModal = document.getElementById("profile-modal");
+  const profileForm = document.getElementById("profile-form");
+  const profileNameInput = document.getElementById("profile-name");
+  const profileCancel = document.getElementById("profile-cancel");
   const params = new URLSearchParams(window.location.search);
 
   let specStatOrders = readSpecStatOrders();
@@ -51,6 +59,8 @@
   let bonusWins = readBonusWins();
   let weaponStyle = readWeaponStyle();
   let includeSlots = readIncludeSlots();
+  let profiles = readProfiles();
+  let activeProfileId = readActiveProfileId();
   let dragIndex = null;
 
   function selectedClass() {
@@ -152,6 +162,128 @@
     return parseSlotCounts(params.get("include") || localStorage.getItem(STORAGE_INCLUDE));
   }
 
+  function readProfiles() {
+    try {
+      const parsed = JSON.parse(localStorage.getItem(STORAGE_PROFILES) || "{}");
+      if (!parsed || typeof parsed !== "object" || Array.isArray(parsed)) return {};
+      const next = {};
+      Object.values(parsed).forEach((profile) => {
+        if (profile && profile.id && profile.name) next[profile.id] = profile;
+      });
+      return next;
+    } catch (error) {
+      return {};
+    }
+  }
+
+  function readActiveProfileId() {
+    const requested = params.get("profile") || localStorage.getItem(STORAGE_ACTIVE_PROFILE);
+    if (requested && profiles[requested]) return requested;
+    const ids = Object.keys(profiles);
+    return ids[0] || "";
+  }
+
+  function newProfileId() {
+    return `p_${Date.now().toString(36)}_${Math.random().toString(36).slice(2, 7)}`;
+  }
+
+  function profileList() {
+    return Object.values(profiles).sort((a, b) => a.name.localeCompare(b.name, undefined, { sensitivity: "base" }));
+  }
+
+  function currentProfileData(name, id) {
+    return {
+      id,
+      name,
+      classId: classSelect.value,
+      specId: specSelect.value,
+      statOrder: statOrder.join(","),
+      specStatOrders: { ...specStatOrders },
+      weaponStyle,
+      includeSlots: includeParam(),
+      bonusWins: bonusWins.slice()
+    };
+  }
+
+  function emptyProfileData(name, id) {
+    const cls = data.classes[0];
+    const spec = cls?.specs?.[0];
+    const specId = spec ? String(spec.id) : "";
+    return {
+      id,
+      name,
+      classId: cls ? String(cls.id) : "",
+      specId,
+      statOrder: wowheadDefault(specId).join(","),
+      specStatOrders: {},
+      weaponStyle: "2h",
+      includeSlots: "",
+      bonusWins: []
+    };
+  }
+
+  function writeProfiles() {
+    try {
+      localStorage.setItem(STORAGE_PROFILES, JSON.stringify(profiles));
+      if (activeProfileId) localStorage.setItem(STORAGE_ACTIVE_PROFILE, activeProfileId);
+    } catch (error) {
+      // file:// and some editor previews block storage
+    }
+  }
+
+  function fillProfileSelect() {
+    if (!profileSelect) return;
+    const rows = profileList();
+    profileSelect.innerHTML = `${rows.map((profile) => {
+      return `<option value="${escapeHtml(profile.id)}">${escapeHtml(profile.name)}</option>`;
+    }).join("")}<option value="${CREATE_PROFILE}">Create Profile</option>`;
+    profileSelect.value = activeProfileId && profiles[activeProfileId] ? activeProfileId : CREATE_PROFILE;
+  }
+
+  function applyProfile(profile) {
+    if (!profile) return;
+    activeProfileId = profile.id;
+    specStatOrders = profile.specStatOrders && typeof profile.specStatOrders === "object" && !Array.isArray(profile.specStatOrders)
+      ? { ...profile.specStatOrders }
+      : {};
+    if (profile.classId && data.classes.some((cls) => String(cls.id) === String(profile.classId))) {
+      classSelect.value = String(profile.classId);
+    }
+    fillSpecs(profile.specId);
+    statOrder = parseStatList(profile.statOrder);
+    rememberCurrentOrder();
+    weaponStyle = profile.weaponStyle === "mhoh" ? "mhoh" : "2h";
+    includeSlots = typeof profile.includeSlots === "object" && profile.includeSlots && !Array.isArray(profile.includeSlots)
+      ? profile.includeSlots
+      : parseSlotCounts(profile.includeSlots || "");
+    bonusWins = Array.isArray(profile.bonusWins) ? profile.bonusWins.filter((win) => win && win.key) : [];
+    fillProfileSelect();
+    syncSetupControls();
+    renderStatOrder();
+    renderTable();
+    renderBonusSummary();
+    persist();
+  }
+
+  function createProfile(name) {
+    const id = newProfileId();
+    const first = !profileList().length;
+    const profile = first ? currentProfileData(name, id) : emptyProfileData(name, id);
+    profiles[id] = profile;
+    applyProfile(profile);
+  }
+
+  function openCreateProfile() {
+    if (!profileModal || typeof profileModal.showModal !== "function") return;
+    if (profileNameInput) {
+      profileNameInput.value = "";
+      profileModal.showModal();
+      profileNameInput.focus();
+    } else {
+      profileModal.showModal();
+    }
+  }
+
   function includedCount(slot) {
     const id = String(slot.id ?? slot);
     const cap = slotCapacity(slot);
@@ -218,11 +350,7 @@
   }
 
   function persistBonusWins() {
-    try {
-      localStorage.setItem(STORAGE_BONUS, JSON.stringify(bonusWins));
-    } catch (error) {
-      // file:// and some editor previews block storage
-    }
+    persist();
   }
 
   function dropKey(dungeon, slot, entry) {
@@ -276,15 +404,15 @@
     }
   }
 
-  function fillSpecs() {
+  function fillSpecs(preferredSpec) {
     const cls = selectedClass();
     specSelect.innerHTML = (cls?.specs || []).map((spec) => {
       return `<option value="${spec.id}">${spec.name}</option>`;
     }).join("");
 
-    const requestedSpec = params.get("spec") || localStorage.getItem(STORAGE_SPEC);
-    if (requestedSpec && (cls?.specs || []).some((spec) => String(spec.id) === requestedSpec)) {
-      specSelect.value = requestedSpec;
+    const requestedSpec = preferredSpec || "";
+    if (requestedSpec && (cls?.specs || []).some((spec) => String(spec.id) === String(requestedSpec))) {
+      specSelect.value = String(requestedSpec);
     }
   }
 
@@ -728,6 +856,10 @@
   }
 
   function persist() {
+    if (activeProfileId && profiles[activeProfileId]) {
+      profiles[activeProfileId] = currentProfileData(profiles[activeProfileId].name, activeProfileId);
+    }
+
     try {
       localStorage.setItem(STORAGE_CLASS, classSelect.value);
       localStorage.setItem(STORAGE_SPEC, specSelect.value);
@@ -736,6 +868,7 @@
       localStorage.setItem(STORAGE_INCLUDE, includeParam());
       localStorage.setItem(STORAGE_WEAPON, weaponStyle);
       localStorage.setItem(STORAGE_BONUS, JSON.stringify(bonusWins));
+      writeProfiles();
     } catch (error) {
       // file:// and some editor previews block storage
     }
@@ -746,6 +879,8 @@
 
     try {
       const next = new URL(window.location.href);
+      if (activeProfileId) next.searchParams.set("profile", activeProfileId);
+      else next.searchParams.delete("profile");
       next.searchParams.set("class", classSelect.value);
       next.searchParams.set("spec", specSelect.value);
       next.searchParams.set("stats", statOrder.join(","));
@@ -789,6 +924,45 @@
     if (!chip || dragIndex === null) return;
     moveStat(dragIndex, Number(chip.dataset.index) - dragIndex);
   });
+
+  if (profileSelect) {
+    profileSelect.addEventListener("change", () => {
+      if (profileSelect.value === CREATE_PROFILE) {
+        profileSelect.value = activeProfileId && profiles[activeProfileId] ? activeProfileId : CREATE_PROFILE;
+        openCreateProfile();
+        return;
+      }
+      const next = profiles[profileSelect.value];
+      if (!next || next.id === activeProfileId) return;
+      persist();
+      applyProfile(next);
+    });
+  }
+
+  if (profileCancel) {
+    profileCancel.addEventListener("click", () => {
+      if (profileModal.open) profileModal.close();
+    });
+  }
+
+  if (profileModal) {
+    profileModal.addEventListener("click", (event) => {
+      if (event.target === profileModal) profileModal.close();
+    });
+  }
+
+  if (profileForm) {
+    profileForm.addEventListener("submit", (event) => {
+      event.preventDefault();
+      const name = String(profileNameInput?.value || "").trim();
+      if (!name) {
+        profileNameInput?.focus();
+        return;
+      }
+      createProfile(name);
+      if (profileModal.open) profileModal.close();
+    });
+  }
 
   classSelect.addEventListener("change", () => {
     fillSpecs();
@@ -933,14 +1107,19 @@
     });
   }
 
+  fillProfileSelect();
   fillClasses();
-  fillSpecs();
+  fillSpecs(params.get("spec") || localStorage.getItem(STORAGE_SPEC));
   loadOrderForCurrentSpec(true);
   syncSetupControls();
-  renderStatOrder();
-  renderTable();
-  renderBonusSummary();
-  persist();
+  if (activeProfileId && profiles[activeProfileId]) {
+    applyProfile(profiles[activeProfileId]);
+  } else {
+    renderStatOrder();
+    renderTable();
+    renderBonusSummary();
+    persist();
+  }
   if (!hasSeenInstructions()) openInstructions();
 
   window.addEventListener("pagehide", persist);

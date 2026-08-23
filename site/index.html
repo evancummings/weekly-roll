@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Weighted Dice</title>
-  <link rel="stylesheet" href="styles.css?v=weapon-with-stats">
+  <link rel="stylesheet" href="styles.css?v=profiles">
 </head>
 <body>
   <header class="topbar">
@@ -16,6 +16,10 @@
     </div>
     <div class="controls">
       <form class="filters" autocomplete="off">
+        <label>
+          <span>Profile</span>
+          <select id="profile-select"></select>
+        </label>
         <label>
           <span>Class</span>
           <select id="class-select"></select>
@@ -64,6 +68,10 @@
       </header>
       <div class="help-body">
         <section>
+          <h3>Profiles</h3>
+          <p>Create a profile for each character. Class, spec, stat order, weapon style, included slots, weekly-roll math, and bonus-roll history all stay on that profile. Use <strong>Create Profile</strong> in the dropdown to add another.</p>
+        </section>
+        <section>
           <h3>Class, spec, and stats</h3>
           <p>Pick your class and spec. Stat priority starts from Wowhead defaults for that spec. Drag the chips or use the arrows if you disagree. Each spec remembers its own order.</p>
         </section>
@@ -90,9 +98,25 @@
         </section>
         <section>
           <h3>Your session</h3>
-          <p>Class, spec, priorities, weapon style, slot checkboxes, and bonus-roll wins stay in this browser. You can reopen this any time from <strong>How This Works</strong>.</p>
+          <p>Each profile stays in this browser. You can reopen this any time from <strong>How This Works</strong>.</p>
         </section>
       </div>
+    </div>
+  </dialog>
+
+  <dialog id="profile-modal" class="help-modal profile-modal" aria-labelledby="profile-title">
+    <div class="help-card">
+      <header>
+        <h2 id="profile-title">Create Profile</h2>
+        <button type="button" id="profile-cancel" class="help-close">Cancel</button>
+      </header>
+      <form id="profile-form" class="help-body profile-form">
+        <label>
+          <span>Profile name</span>
+          <input id="profile-name" type="text" maxlength="40" required placeholder="Arms Warrior" autocomplete="off">
+        </label>
+        <button type="submit" class="help-open plan-open">Create</button>
+      </form>
     </div>
   </dialog>
 
@@ -120,6 +144,6 @@
 
   <script src="loot-data.js"></script>
   <script src="spec-stat-defaults.js"></script>
-  <script src="app.js?v=roll-date"></script>
+  <script src="app.js?v=profiles"></script>
 </body>
 </html>
