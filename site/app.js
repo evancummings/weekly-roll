@@ -812,7 +812,7 @@
     const rollHtml = won
       ? ""
       : `<button type="button" class="bonus-roll" data-key="${escapeHtml(key)}" data-dungeon="${escapeHtml(dungeon.id)}" data-slot="${escapeHtml(slot.id)}" aria-label="Mark as won by bonus roll" title="Mark as won by bonus roll">
-        <img src="icons/inv_misc_dice_02.jpg" alt="" width="22" height="22">
+        <img src="icons/dice.png?v=alpha" alt="" width="22" height="22">
       </button>`;
 
     return `<div class="drop${tier ? ` match-${tier}` : ""}${won ? " bonus-won" : ""}${wasted && !won ? " slot-filled" : ""}" title="${title}">
