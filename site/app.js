@@ -15,7 +15,10 @@
   const STORAGE_HELP = "weighted-dice.seenInstructions";
   const STORAGE_PROFILES = "weighted-dice.profiles";
   const STORAGE_ACTIVE_PROFILE = "weighted-dice.activeProfileId";
+  const STORAGE_MODE = "weighted-dice.contentMode";
+  const STORAGE_RAID = "weighted-dice.raidId";
   const CREATE_PROFILE = "__create__";
+  const DEFAULT_RAID_ID = 1320;
   const SLOT_WEAPON = 10;
   const SLOT_OFFHAND = 11;
   const SLOT_FINGER = 12;
@@ -56,6 +59,8 @@
   const profileSubmit = document.getElementById("profile-submit");
   const profileManage = document.getElementById("profile-manage");
   const profileDelete = document.getElementById("profile-delete");
+  const raidField = document.getElementById("raid-field");
+  const raidSelect = document.getElementById("raid-select");
   const params = new URLSearchParams(window.location.search);
 
   let specStatOrders = readSpecStatOrders();
@@ -65,8 +70,69 @@
   let includeSlots = readIncludeSlots();
   let profiles = readProfiles();
   let activeProfileId = readActiveProfileId();
+  let contentMode = readContentMode();
+  let selectedRaidId = readRaidId();
   let profileModalMode = "create";
   let dragIndex = null;
+
+  function raidList() {
+    return Array.isArray(data.raids) ? data.raids : [];
+  }
+
+  function bossList() {
+    return Array.isArray(data.bosses) ? data.bosses : [];
+  }
+
+  function defaultRaidId() {
+    if (raidList().some((raid) => Number(raid.id) === DEFAULT_RAID_ID)) return DEFAULT_RAID_ID;
+    return raidList()[0] ? Number(raidList()[0].id) : null;
+  }
+
+  function normalizeMode(value) {
+    return value === "raid" && raidList().length ? "raid" : "mplus";
+  }
+
+  function normalizeRaidId(value) {
+    const id = Number(value);
+    if (raidList().some((raid) => Number(raid.id) === id)) return id;
+    return defaultRaidId();
+  }
+
+  function readContentMode() {
+    return normalizeMode(params.get("mode") || localStorage.getItem(STORAGE_MODE));
+  }
+
+  function readRaidId() {
+    return normalizeRaidId(params.get("raid") || localStorage.getItem(STORAGE_RAID));
+  }
+
+  function isRaidMode() {
+    return contentMode === "raid";
+  }
+
+  function activeColumns() {
+    if (!isRaidMode()) return data.dungeons;
+    return bossList().filter((boss) => Number(boss.raidId) === Number(selectedRaidId));
+  }
+
+  function activeGrid() {
+    const specId = specSelect.value;
+    if (!isRaidMode()) return data.grid[specId] || {};
+    return (data.raidGrid && data.raidGrid[specId]) || {};
+  }
+
+  function findColumn(columnId) {
+    const id = String(columnId);
+    return activeColumns().find((column) => String(column.id) === id)
+      || data.dungeons.find((column) => String(column.id) === id)
+      || bossList().find((column) => String(column.id) === id)
+      || null;
+  }
+
+  function columnNoun(plural) {
+    if (isRaidMode()) return plural ? "bosses" : "boss";
+    return plural ? "dungeons" : "dungeon";
+  }
 
   function selectedClass() {
     return data.classes.find((cls) => String(cls.id) === classSelect.value);
@@ -206,7 +272,9 @@
       specStatOrders: { ...specStatOrders },
       weaponStyle,
       includeSlots: includeParam(),
-      bonusWins: bonusWins.slice()
+      bonusWins: bonusWins.slice(),
+      contentMode,
+      raidId: selectedRaidId
     };
   }
 
@@ -223,7 +291,9 @@
       specStatOrders: {},
       weaponStyle: "2h",
       includeSlots: "",
-      bonusWins: []
+      bonusWins: [],
+      contentMode: "mplus",
+      raidId: defaultRaidId()
     };
   }
 
@@ -262,6 +332,8 @@
       ? profile.includeSlots
       : parseSlotCounts(profile.includeSlots || "");
     bonusWins = Array.isArray(profile.bonusWins) ? profile.bonusWins.filter((win) => win && win.key) : [];
+    contentMode = normalizeMode(profile.contentMode || contentMode);
+    selectedRaidId = normalizeRaidId(profile.raidId || selectedRaidId);
     fillProfileSelect();
     syncSetupControls();
     renderStatOrder();
@@ -415,11 +487,16 @@
   }
 
   function findEntry(dungeonId, slotId, key) {
-    const specGrid = data.grid[specSelect.value] || {};
-    const entries = (specGrid[dungeonId] && specGrid[dungeonId][slotId]) || [];
-    const dungeon = data.dungeons.find((item) => String(item.id) === String(dungeonId));
+    const column = findColumn(dungeonId);
     const slot = data.slots.find((item) => String(item.id) === String(slotId));
-    return entries.find((entry) => dropKey(dungeon, slot, entry) === key) || null;
+    const specId = specSelect.value;
+    const grids = [data.grid[specId] || {}, (data.raidGrid && data.raidGrid[specId]) || {}];
+    for (let i = 0; i < grids.length; i += 1) {
+      const entries = (grids[i][dungeonId] && grids[i][dungeonId][slotId]) || [];
+      const found = entries.find((entry) => dropKey(column, slot, entry) === key);
+      if (found) return found;
+    }
+    return null;
   }
 
   function markBonusWin(dungeon, slot, entry) {
@@ -530,12 +607,12 @@
     return "waste";
   }
 
-  function remainingPool(specGrid, dungeon) {
+  function remainingPool(specGrid, column) {
     const items = [];
     data.slots.forEach((slot) => {
-      const entries = (specGrid[dungeon.id] && specGrid[dungeon.id][slot.id]) || [];
+      const entries = (specGrid[column.id] && specGrid[column.id][slot.id]) || [];
       entries.forEach((entry) => {
-        if (!isBonusWin(dropKey(dungeon, slot, entry))) items.push({ entry, slot });
+        if (!isBonusWin(dropKey(column, slot, entry))) items.push({ entry, slot });
       });
     });
     return items;
@@ -557,8 +634,8 @@
   }
 
   function dungeonPlanRows() {
-    const specGrid = data.grid[specSelect.value] || {};
-    return data.dungeons.map((dungeon) => {
+    const specGrid = activeGrid();
+    return activeColumns().map((dungeon) => {
       const stats = poolStats(specGrid, dungeon);
       const targets = [];
       remainingPool(specGrid, dungeon).forEach(({ entry, slot }) => {
@@ -645,7 +722,7 @@
     const specName = specSelect.options[specSelect.selectedIndex]?.text || "this spec";
 
     planBody.innerHTML = `
-      <p class="plan-lead">Two weekly-roll rankings from the remaining ${escapeHtml(specName)} pool after your current stat order, weapon style, included slots, and bonus-roll wins. A bonus roll is a uniform draw from that dungeon’s leftover items.</p>
+      <p class="plan-lead">Two weekly-roll rankings from the remaining ${escapeHtml(specName)} pool after your current stat order, weapon style, included slots, and bonus-roll wins. A bonus roll is a uniform draw from that ${columnNoun(false)}’s leftover items.</p>
       <div class="plan-columns">
         ${renderPlanColumn(
           "Prioritize upgrades",
@@ -656,7 +733,7 @@
         )}
         ${renderPlanColumn(
           "Prioritize BIS",
-          "Highest odds of both top stats, even if the dungeon is riskier overall.",
+          `Highest odds of both top stats, even if the ${columnNoun(false)} is riskier overall.`,
           byBis[0],
           byBis,
           "bis"
@@ -808,18 +885,18 @@
   }
 
   function renderTable() {
-    const specId = specSelect.value;
-    const specGrid = data.grid[specId] || {};
+    const specGrid = activeGrid();
+    const columns = activeColumns();
 
     thead.innerHTML = `<tr>
       <th class="slot-col">Slot<span class="dungeon-name">Include</span></th>
-      ${data.dungeons.map((dungeon) => {
+      ${columns.map((dungeon) => {
         return `<th>${dungeon.shortName}<span class="dungeon-name">${dungeon.name}</span></th>`;
       }).join("")}
     </tr>`;
 
     tbody.innerHTML = data.slots.map((slot) => {
-      const cells = data.dungeons.map((dungeon) => {
+      const cells = columns.map((dungeon) => {
         const entries = (specGrid[dungeon.id] && specGrid[dungeon.id][slot.id]) || [];
         if (!entries.length) {
           return `<td><span class="empty">—</span></td>`;
@@ -856,7 +933,7 @@
   }
 
   function renderFooter(specGrid) {
-    const columns = data.dungeons.map((dungeon) => poolStats(specGrid, dungeon));
+    const columns = activeColumns().map((dungeon) => poolStats(specGrid, dungeon));
     const maxBis = Math.max(0, ...columns.map((col) => col.bisPct || 0));
     const maxUpgrade = Math.max(0, ...columns.map((col) => col.upgradePct || 0));
     const maxNet = Math.max(0, ...columns.map((col) => col.netPct || 0));
@@ -877,7 +954,7 @@
 
     tfoot.innerHTML = `
       <tr class="pool-counts pool-total">
-        <th title="Remaining items in this dungeon pool">Total Items</th>
+        <th title="Remaining items in this ${columnNoun(false)} pool">Total Items</th>
         ${countCells("remaining")}
       </tr>
       <tr class="pool-counts">
@@ -920,6 +997,8 @@
       localStorage.setItem(STORAGE_INCLUDE, includeParam());
       localStorage.setItem(STORAGE_WEAPON, weaponStyle);
       localStorage.setItem(STORAGE_BONUS, JSON.stringify(bonusWins));
+      localStorage.setItem(STORAGE_MODE, contentMode);
+      if (selectedRaidId != null) localStorage.setItem(STORAGE_RAID, String(selectedRaidId));
       writeProfiles();
     } catch (error) {
       // file:// and some editor previews block storage
@@ -937,6 +1016,9 @@
       next.searchParams.set("spec", specSelect.value);
       next.searchParams.set("stats", statOrder.join(","));
       next.searchParams.set("weapons", weaponStyle);
+      next.searchParams.set("mode", contentMode);
+      if (selectedRaidId != null) next.searchParams.set("raid", String(selectedRaidId));
+      else next.searchParams.delete("raid");
       const included = includeParam();
       if (included) next.searchParams.set("include", included);
       else next.searchParams.delete("include");
@@ -1040,6 +1122,24 @@
     renderTable();
   });
 
+  document.querySelectorAll("input[name='content-mode']").forEach((input) => {
+    input.addEventListener("change", () => {
+      if (!input.checked) return;
+      contentMode = normalizeMode(input.value);
+      persist();
+      syncModeControls();
+      renderTable();
+    });
+  });
+
+  if (raidSelect) {
+    raidSelect.addEventListener("change", () => {
+      selectedRaidId = normalizeRaidId(raidSelect.value);
+      persist();
+      renderTable();
+    });
+  }
+
   document.querySelectorAll("input[name='weapon-style']").forEach((input) => {
     input.addEventListener("change", () => {
       if (!input.checked) return;
@@ -1068,7 +1168,7 @@
   tbody.addEventListener("click", (event) => {
     const button = event.target.closest(".bonus-roll");
     if (!button) return;
-    const dungeon = data.dungeons.find((item) => String(item.id) === button.dataset.dungeon);
+    const dungeon = findColumn(button.dataset.dungeon);
     const slot = data.slots.find((item) => String(item.id) === button.dataset.slot);
     const entry = dungeon && slot ? findEntry(dungeon.id, slot.id, button.dataset.key) : null;
     if (!entry) return;
@@ -1087,10 +1187,30 @@
     renderBonusSummary();
   });
 
+  function fillRaidSelect() {
+    if (!raidSelect) return;
+    const raids = raidList();
+    raidSelect.innerHTML = raids.map((raid) => {
+      return `<option value="${raid.id}">${escapeHtml(raid.name)}</option>`;
+    }).join("");
+    if (selectedRaidId != null) raidSelect.value = String(selectedRaidId);
+  }
+
+  function syncModeControls() {
+    document.querySelectorAll("input[name='content-mode']").forEach((input) => {
+      input.checked = input.value === contentMode;
+    });
+    fillRaidSelect();
+    if (raidField) raidField.hidden = !isRaidMode() || !raidList().length;
+    const modeField = document.querySelector(".content-mode");
+    if (modeField) modeField.hidden = !raidList().length;
+  }
+
   function syncSetupControls() {
     document.querySelectorAll("input[name='weapon-style']").forEach((input) => {
       input.checked = input.value === weaponStyle;
     });
+    syncModeControls();
   }
 
   try {

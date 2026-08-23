@@ -407,6 +407,15 @@ h1 {
   min-width: 196px;
 }
 
+.content-mode {
+  min-width: 0;
+}
+
+#raid-field[hidden],
+.content-mode[hidden] {
+  display: none;
+}
+
 .profile-controls {
   display: flex;
   align-items: center;
@@ -1120,6 +1129,7 @@ tfoot tr.pool-net td {
 
   .filters label,
   .profile-field,
+  .content-mode,
   .pref,
   .setup-row {
     min-width: 0;

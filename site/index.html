@@ -6,7 +6,7 @@
   <title>Weighted Dice</title>
   <link rel="icon" href="icons/inv_misc_dice_02.jpg" type="image/jpeg">
   <link rel="apple-touch-icon" href="icons/inv_misc_dice_02.jpg">
-  <link rel="stylesheet" href="styles.css?v=profile-nodelete">
+  <link rel="stylesheet" href="styles.css?v=raid-mode">
 </head>
 <body>
   <header class="topbar">
@@ -36,6 +36,17 @@
         <label>
           <span>Spec</span>
           <select id="spec-select"></select>
+        </label>
+        <fieldset class="weapon-style content-mode">
+          <legend>Mode</legend>
+          <div class="weapon-picks">
+            <label><input type="radio" name="content-mode" value="mplus"> Mythic+</label>
+            <label><input type="radio" name="content-mode" value="raid"> Raid</label>
+          </div>
+        </fieldset>
+        <label id="raid-field" hidden>
+          <span>Raid</span>
+          <select id="raid-select"></select>
         </label>
       </form>
       <div class="setup-row">
@@ -78,7 +89,11 @@
       <div class="help-body">
         <section>
           <h3>Profiles</h3>
-          <p>A profile is always active. Create one per character; class, spec, stats, weapons, slots, weekly-roll math, and bonus-roll history stay on that profile. Use the gear beside the dropdown to rename or delete. Deleting the last profile makes a new Default.</p>
+          <p>A profile is always active. Create one per character; class, spec, stats, weapons, slots, mode, weekly-roll math, and bonus-roll history stay on that profile. Use the gear beside the dropdown to rename or delete. Deleting the last profile makes a new Default.</p>
+        </section>
+        <section>
+          <h3>Mythic+ and Raid</h3>
+          <p>Switch <strong>Mode</strong> to plan Mythic+ dungeons or raid bosses. Raid columns are bosses; pick the raid from the dropdown. Include-slots, stat priority, weapons, and bonus-roll wins stay on the same profile in both modes.</p>
         </section>
         <section>
           <h3>Class, spec, and stats</h3>
@@ -90,7 +105,7 @@
         </section>
         <section>
           <h3>Reading the table</h3>
-          <p>Gold cells with a <strong>BEST</strong> tag match both of your top two stats. Green-tinted cells are partial matches. Uncheck a slot when you already have that piece from raid, crafting, or anywhere else so those dungeon drops stop counting.</p>
+          <p>Gold cells with a <strong>BEST</strong> tag match both of your top two stats. Green-tinted cells are partial matches. Uncheck a slot when you already have that piece from the other mode, crafting, or anywhere else so those drops stop counting.</p>
           <p>Finger and trinket have two checkboxes. One filled slot does not waste the whole row.</p>
         </section>
         <section>
@@ -99,11 +114,11 @@
         </section>
         <section>
           <h3>The footer math</h3>
-          <p><strong>Total Items</strong> is what is still in that dungeon’s pool. <strong>BIS</strong> is remaining items with both top stats. <strong>Upgrade</strong> has exactly one. <strong>Waste</strong> is everything else, including filled slots and the wrong weapon style. The percentages are your odds of rolling each from what is left.</p>
+          <p><strong>Total Items</strong> is what is still in that dungeon or boss pool. <strong>BIS</strong> is remaining items with both top stats. <strong>Upgrade</strong> has exactly one. <strong>Waste</strong> is everything else, including filled slots and the wrong weapon style. The percentages are your odds of rolling each from what is left.</p>
         </section>
         <section>
           <h3>Weekly roll</h3>
-          <p>Open <strong>Weekly roll</strong> for ranked scenarios of where to spend a bonus roll, based on the remaining pool after your current setup and wins.</p>
+          <p>Open <strong>Weekly roll</strong> for ranked scenarios of where to spend a bonus roll. In Mythic+ it ranks dungeons; in Raid it ranks bosses. Both use the remaining pool after your current setup and wins.</p>
         </section>
         <section>
           <h3>Your session</h3>
@@ -156,6 +171,6 @@
 
   <script src="loot-data.js"></script>
   <script src="spec-stat-defaults.js"></script>
-  <script src="app.js?v=create-ellipsis"></script>
+  <script src="app.js?v=raid-mode"></script>
 </body>
 </html>

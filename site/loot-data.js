@@ -239,6 +239,18013 @@ window.LOOT_DATA = {
       ]
     }
   ],
+  "dungeons": [
+    {
+      "name": "Kings' Rest",
+      "id": 249,
+      "shortName": "KR"
+    },
+    {
+      "name": "Temple of Sethraliss",
+      "id": 250,
+      "shortName": "TOS"
+    },
+    {
+      "name": "Ruby Life Pools",
+      "id": 399,
+      "shortName": "RLP"
+    },
+    {
+      "name": "The Blinding Vale",
+      "id": 584,
+      "shortName": "TBV"
+    },
+    {
+      "name": "Voidscar Arena",
+      "id": 585,
+      "shortName": "VSA"
+    },
+    {
+      "name": "Den of Nalorakk",
+      "id": 586,
+      "shortName": "DON"
+    },
+    {
+      "name": "Murder Row",
+      "id": 587,
+      "shortName": "MR"
+    },
+    {
+      "name": "Altar of Fangs",
+      "id": 588,
+      "shortName": "AOF"
+    }
+  ],
+  "bosses": [
+    {
+      "raidId": 1317,
+      "name": "Nymrissa Wavecaller",
+      "id": 2849,
+      "shortName": "NYM"
+    },
+    {
+      "raidId": 1320,
+      "name": "Nek'zali the Soulcoiler",
+      "id": 2888,
+      "shortName": "NEK"
+    },
+    {
+      "raidId": 1320,
+      "name": "Entombed Sentinels",
+      "id": 2874,
+      "shortName": "ES"
+    },
+    {
+      "raidId": 1320,
+      "name": "The Lost Explorers",
+      "id": 2894,
+      "shortName": "LE"
+    },
+    {
+      "raidId": 1320,
+      "name": "Vashnik the Malignant",
+      "id": 2882,
+      "shortName": "VAS"
+    },
+    {
+      "raidId": 1320,
+      "name": "Sszorak",
+      "id": 2871,
+      "shortName": "SSZ"
+    },
+    {
+      "raidId": 1320,
+      "name": "The Twin Fangs",
+      "id": 2887,
+      "shortName": "TF"
+    },
+    {
+      "raidId": 1320,
+      "name": "The Coiled Altar",
+      "id": 2883,
+      "shortName": "CA"
+    },
+    {
+      "raidId": 1320,
+      "name": "Ula'tek",
+      "id": 2895,
+      "shortName": "ULA"
+    }
+  ],
+  "raidGrid": {
+    "262": {
+      "2887": {
+        "4": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Ophidian Fangmail",
+            "id": 268223,
+            "icon": "inv_chest_mail_raidhunterulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [],
+            "name": "Venomcast Effigy",
+            "id": 270916,
+            "icon": "inv_jewelcrafting_goldenserpent"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Amulet of the Twin Fangs",
+            "id": 268251,
+            "icon": "inv_121_jewelry_neck01_red"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [],
+            "name": "Vexhul's Everflowing Gland",
+            "id": 270170,
+            "icon": "inv_11_0_misc_organmass_color3"
+          }
+        ]
+      },
+      "2895": {
+        "13": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Mastery"
+            ],
+            "name": "Font of Venomous Rage",
+            "id": 270168,
+            "icon": "inv_10_dungeonjewelry_dragon_trinket_3djardintrophy_green"
+          }
+        ],
+        "10": [
+          {
+            "id": 271092,
+            "inventorySlotId": 13,
+            "name": "Jan'thrazet, the Soul Fang",
+            "handLabel": "1H",
+            "stats": [
+              "Haste"
+            ],
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Ula'tek",
+            "icon": "inv_knife_1h_ulatekfang_d_01_spirit"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Aqirbane Reliquary",
+            "id": 268265,
+            "icon": "inv_121_jewelry_neck03_green"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Awoken Dreadfang Cuirass",
+            "id": 271876,
+            "icon": "inv_chest_mail_raidevokerulatek_d_01"
+          }
+        ]
+      },
+      "2849": {
+        "5": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Rising Tide Wristguards",
+            "id": 268217,
+            "icon": "inv_bracer_mail_raidhunterulatek_d_01"
+          }
+        ],
+        "11": [
+          {
+            "id": 268262,
+            "inventorySlotId": 14,
+            "name": "Bubblefin Splash Guard",
+            "handLabel": "OH",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "oh",
+            "weaponClass": "Shield",
+            "droppedBy": "Nymrissa Wavecaller",
+            "icon": "inv_shield_1h_ulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Alluring Bubbleband",
+            "id": 268266,
+            "icon": "inv_70_raid_ring8c"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Grips of Swirling Fury",
+            "id": 268238,
+            "icon": "inv_glove_mail_raidevokerulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste"
+            ],
+            "name": "Wavecaller's Seastone",
+            "id": 270167,
+            "icon": "inv_tradeskillitem_sorcererswater"
+          }
+        ]
+      },
+      "2888": {
+        "10": [
+          {
+            "id": 268203,
+            "inventorySlotId": 13,
+            "name": "Hexing Spiritrender",
+            "handLabel": "1H",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": null,
+            "icon": "inv_knife_1h_ulatek_d_02"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Crown of the Eternal Fang",
+            "id": 268230,
+            "icon": "inv_helm_mail_raidshamanulatek_d_01"
+          },
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Soulcoiler's Rush'kah",
+            "id": 281227,
+            "icon": "inv_helm_armor_hextrollpriestess_d_01"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Versatility"
+            ],
+            "name": "Amani Summoning Shawl",
+            "id": 268248,
+            "icon": "inv_cape_leather_raidmonkulatek_d_01"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Versatility"
+            ],
+            "name": "Cursed Reliquary Cincture",
+            "id": 268216,
+            "icon": "inv_belt_mail_raidevokerulatek_d_01"
+          }
+        ]
+      },
+      "2882": {
+        "12": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Vile Alchemist's Band",
+            "id": 268249,
+            "icon": "inv_121_jewelry_ring01_purple"
+          }
+        ],
+        "10": [
+          {
+            "id": 268205,
+            "inventorySlotId": 17,
+            "name": "Venomancer's Winged Channeler",
+            "handLabel": "2H",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": null,
+            "icon": "inv_staff_2h_ulatek_d_02"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Fang of Umbral Malignance",
+            "id": 270161,
+            "icon": "inv_121_trinket_raid_ulatek_fang_purple"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Serpentine Mixing Belt",
+            "id": 268254,
+            "icon": "inv_belt_mail_raidshamanulatek_d_01"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Venomcast Icon",
+            "id": 270928,
+            "icon": "inv_jewelcrafting_goldenserpent"
+          }
+        ]
+      },
+      "2871": {
+        "8": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [],
+            "name": "Venomcast Relic",
+            "id": 270920,
+            "icon": "inv_jewelcrafting_goldenserpent"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Ferocious Scaleboots",
+            "id": 268233,
+            "icon": "inv_boot_mail_raidhunterulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Apex Brute's Claw Ring",
+            "id": 268252,
+            "icon": "inv_121_jewelry_ring03_red"
+          }
+        ]
+      },
+      "2883": {
+        "2": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Soulslither Spaulders",
+            "id": 268231,
+            "icon": "inv_shoulder_mail_raidshamanulatek_d_01"
+          }
+        ],
+        "8": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Cuisses of the Uncoiled Union",
+            "id": 268237,
+            "icon": "inv_pant_mail_raidevokerulatek_d_01"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Silken Voodoo Drape",
+            "id": 268253,
+            "icon": "inv_cape_leather_raidrogueulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste"
+            ],
+            "name": "Hex Lord's Dooming Idol",
+            "id": 270169,
+            "icon": "inv_archaeology_orcclans_crackedidol"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Visage",
+            "id": 275937,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          },
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Gaze",
+            "id": 275938,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          }
+        ]
+      },
+      "2874": {
+        "6": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [],
+            "name": "Venomcast Idol",
+            "id": 270912,
+            "icon": "inv_jewelcrafting_goldenserpent"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Sentinel's Vitriolic Chain",
+            "id": 268250,
+            "icon": "inv_121_jewelry_neck02_green"
+          }
+        ]
+      },
+      "2894": {
+        "2": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Venomcast Remnant",
+            "id": 270924,
+            "icon": "inv_jewelcrafting_goldenserpent"
+          }
+        ],
+        "10": [
+          {
+            "id": 268210,
+            "inventorySlotId": 13,
+            "name": "Malevolent Spiritcudgel",
+            "handLabel": "1H",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "hand": "1h",
+            "weaponClass": "Mace",
+            "droppedBy": "Mor'zahi",
+            "icon": "inv_mace_1h_ulatek_d_01"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Boots of the Reckless Wayfarer",
+            "id": 268258,
+            "icon": "inv_boot_mail_raidevokerulatek_d_01"
+          }
+        ],
+        "11": [
+          {
+            "id": 268196,
+            "inventorySlotId": 14,
+            "name": "Venom-Slashed Scuteward",
+            "handLabel": "OH",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "hand": "oh",
+            "weaponClass": "Shield",
+            "droppedBy": "Mor'zahi",
+            "icon": "inv_shield_1h_ulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Gebbo's Bottomless Bag",
+            "id": 270164,
+            "icon": "inv_10_tailoring_bag1_color2"
+          }
+        ]
+      }
+    },
+    "103": {
+      "2887": {
+        "1": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Amulet of the Twin Fangs",
+            "id": 268251,
+            "icon": "inv_121_jewelry_neck01_red"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [],
+            "name": "Venomcured Effigy",
+            "id": 270915,
+            "icon": "inv_jewelcrafting_purpleserpent"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Bespittled Slitherslippers",
+            "id": 268261,
+            "icon": "inv_boot_leather_raidmonkulatek_d_01"
+          }
+        ]
+      },
+      "2895": {
+        "10": [
+          {
+            "id": 268215,
+            "inventorySlotId": 17,
+            "name": "Abyssal Broodfiend's Bardiche",
+            "handLabel": "2H",
+            "stats": [
+              "Mastery"
+            ],
+            "hand": "2h",
+            "weaponClass": "Polearm",
+            "droppedBy": "Ula'tek",
+            "icon": "inv_polearm_2h_ulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Haste"
+            ],
+            "name": "Gaze of the Coiled Watcher",
+            "id": 271875,
+            "icon": "inv_helm_leather_raiddruidulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Aqirbane Reliquary",
+            "id": 268265,
+            "icon": "inv_121_jewelry_neck03_green"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Mastery"
+            ],
+            "name": "Font of Venomous Rage",
+            "id": 270168,
+            "icon": "inv_10_dungeonjewelry_dragon_trinket_3djardintrophy_green"
+          },
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Voracious Heart of Ula'tek",
+            "id": 270175,
+            "icon": "inv_121_trinket_raid_ulatek_heart"
+          }
+        ]
+      },
+      "2849": {
+        "10": [
+          {
+            "id": 268199,
+            "inventorySlotId": 17,
+            "name": "Tidepiercer's Bubble Popper",
+            "handLabel": "2H",
+            "stats": [
+              "Crit",
+              "Versatility"
+            ],
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": "Nymrissa Wavecaller",
+            "icon": "inv_staff_2h_ulatek_d_01"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Breakwater Boots",
+            "id": 268247,
+            "icon": "inv_boot_leather_raiddemonhunterulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Alluring Bubbleband",
+            "id": 268266,
+            "icon": "inv_70_raid_ring8c"
+          }
+        ]
+      },
+      "2888": {
+        "5": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Restless Spirit Shackles",
+            "id": 268240,
+            "icon": "8095063"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Versatility"
+            ],
+            "name": "Amani Summoning Shawl",
+            "id": 268248,
+            "icon": "inv_cape_leather_raidmonkulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Soulcoiler's Rush'kah",
+            "id": 281227,
+            "icon": "inv_helm_armor_hextrollpriestess_d_01"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Vestment of the Awakening",
+            "id": 268235,
+            "icon": "inv_robe_leather_raiddruidulatek_d_01"
+          }
+        ]
+      },
+      "2882": {
+        "2": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Frothing Venom Spaulders",
+            "id": 268246,
+            "icon": "inv_shoulder_leather_raiddemonhunterulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Vile Alchemist's Band",
+            "id": 268249,
+            "icon": "inv_121_jewelry_ring01_purple"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Vashnik's Sanguine Rancor",
+            "id": 270166,
+            "icon": "inv_11_0_raid_gruesomesyringe_blue"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Venomcured Icon",
+            "id": 270927,
+            "icon": "inv_jewelcrafting_purpleserpent"
+          }
+        ]
+      },
+      "2871": {
+        "8": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [],
+            "name": "Venomcured Relic",
+            "id": 270919,
+            "icon": "inv_jewelcrafting_purpleserpent"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Ruthless Slaughtergrips",
+            "id": 268234,
+            "icon": "inv_glove_leather_raiddemonhunterulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Apex Brute's Claw Ring",
+            "id": 268252,
+            "icon": "inv_121_jewelry_ring03_red"
+          }
+        ]
+      },
+      "2883": {
+        "8": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Coiled Hex Legguards",
+            "id": 268225,
+            "icon": "inv_pant_leather_raidmonkulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Visage",
+            "id": 275937,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          },
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Gaze",
+            "id": 275938,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Silken Voodoo Drape",
+            "id": 268253,
+            "icon": "inv_cape_leather_raidrogueulatek_d_01"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Sash of the Forlorn Vessel",
+            "id": 268256,
+            "icon": "inv_belt_leather_raiddruidulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Zul'jin's Guillotine Technique",
+            "id": 270173,
+            "icon": "inv_121_trinket_raid_ulatek_trolltablet"
+          }
+        ]
+      },
+      "2874": {
+        "0": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Mastery",
+              "Versatility"
+            ],
+            "name": "Shadow Hunter's Warmask",
+            "id": 268219,
+            "icon": "inv_helm_leather_raidrogueulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Sentinel's Vitriolic Chain",
+            "id": 268250,
+            "icon": "inv_121_jewelry_neck02_green"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [],
+            "name": "Venomcured Idol",
+            "id": 270911,
+            "icon": "inv_jewelcrafting_purpleserpent"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [],
+            "name": "Keeper's Seething Core",
+            "id": 270165,
+            "icon": "inv_121_trinket_raid_ulatek_golemhearts_green"
+          }
+        ]
+      },
+      "2894": {
+        "2": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Venomcured Remnant",
+            "id": 270923,
+            "icon": "inv_jewelcrafting_purpleserpent"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Unpossessed Skullsash",
+            "id": 268227,
+            "icon": "inv_belt_leather_raidrogueulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Gebbo's Bottomless Bag",
+            "id": 270164,
+            "icon": "inv_10_tailoring_bag1_color2"
+          }
+        ]
+      }
+    },
+    "102": {
+      "2887": {
+        "1": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Amulet of the Twin Fangs",
+            "id": 268251,
+            "icon": "inv_121_jewelry_neck01_red"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [],
+            "name": "Venomcured Effigy",
+            "id": 270915,
+            "icon": "inv_jewelcrafting_purpleserpent"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Bespittled Slitherslippers",
+            "id": 268261,
+            "icon": "inv_boot_leather_raidmonkulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [],
+            "name": "Vexhul's Everflowing Gland",
+            "id": 270170,
+            "icon": "inv_11_0_misc_organmass_color3"
+          }
+        ]
+      },
+      "2895": {
+        "10": [
+          {
+            "id": 271092,
+            "inventorySlotId": 13,
+            "name": "Jan'thrazet, the Soul Fang",
+            "handLabel": "1H",
+            "stats": [
+              "Haste"
+            ],
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Ula'tek",
+            "icon": "inv_knife_1h_ulatekfang_d_01_spirit"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Haste"
+            ],
+            "name": "Gaze of the Coiled Watcher",
+            "id": 271875,
+            "icon": "inv_helm_leather_raiddruidulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Aqirbane Reliquary",
+            "id": 268265,
+            "icon": "inv_121_jewelry_neck03_green"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Mastery"
+            ],
+            "name": "Font of Venomous Rage",
+            "id": 270168,
+            "icon": "inv_10_dungeonjewelry_dragon_trinket_3djardintrophy_green"
+          }
+        ]
+      },
+      "2849": {
+        "12": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Alluring Bubbleband",
+            "id": 268266,
+            "icon": "inv_70_raid_ring8c"
+          }
+        ],
+        "11": [
+          {
+            "id": 268263,
+            "inventorySlotId": 23,
+            "name": "Frostscale's Mystic Frond",
+            "handLabel": "OH",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Nymrissa Wavecaller",
+            "icon": "inv_offhand_1h_ulatek_d_01"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Breakwater Boots",
+            "id": 268247,
+            "icon": "inv_boot_leather_raiddemonhunterulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste"
+            ],
+            "name": "Wavecaller's Seastone",
+            "id": 270167,
+            "icon": "inv_tradeskillitem_sorcererswater"
+          }
+        ]
+      },
+      "2888": {
+        "5": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Restless Spirit Shackles",
+            "id": 268240,
+            "icon": "8095063"
+          }
+        ],
+        "10": [
+          {
+            "id": 268203,
+            "inventorySlotId": 13,
+            "name": "Hexing Spiritrender",
+            "handLabel": "1H",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": null,
+            "icon": "inv_knife_1h_ulatek_d_02"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Versatility"
+            ],
+            "name": "Amani Summoning Shawl",
+            "id": 268248,
+            "icon": "inv_cape_leather_raidmonkulatek_d_01"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Vestment of the Awakening",
+            "id": 268235,
+            "icon": "inv_robe_leather_raiddruidulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Soulcoiler's Rush'kah",
+            "id": 281227,
+            "icon": "inv_helm_armor_hextrollpriestess_d_01"
+          }
+        ]
+      },
+      "2882": {
+        "2": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Frothing Venom Spaulders",
+            "id": 268246,
+            "icon": "inv_shoulder_leather_raiddemonhunterulatek_d_01"
+          }
+        ],
+        "10": [
+          {
+            "id": 268205,
+            "inventorySlotId": 17,
+            "name": "Venomancer's Winged Channeler",
+            "handLabel": "2H",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": null,
+            "icon": "inv_staff_2h_ulatek_d_02"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Vile Alchemist's Band",
+            "id": 268249,
+            "icon": "inv_121_jewelry_ring01_purple"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Venomcured Icon",
+            "id": 270927,
+            "icon": "inv_jewelcrafting_purpleserpent"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Fang of Umbral Malignance",
+            "id": 270161,
+            "icon": "inv_121_trinket_raid_ulatek_fang_purple"
+          }
+        ]
+      },
+      "2871": {
+        "8": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [],
+            "name": "Venomcured Relic",
+            "id": 270919,
+            "icon": "inv_jewelcrafting_purpleserpent"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Ruthless Slaughtergrips",
+            "id": 268234,
+            "icon": "inv_glove_leather_raiddemonhunterulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Apex Brute's Claw Ring",
+            "id": 268252,
+            "icon": "inv_121_jewelry_ring03_red"
+          }
+        ]
+      },
+      "2883": {
+        "8": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Coiled Hex Legguards",
+            "id": 268225,
+            "icon": "inv_pant_leather_raidmonkulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Visage",
+            "id": 275937,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          },
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Gaze",
+            "id": 275938,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Silken Voodoo Drape",
+            "id": 268253,
+            "icon": "inv_cape_leather_raidrogueulatek_d_01"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Sash of the Forlorn Vessel",
+            "id": 268256,
+            "icon": "inv_belt_leather_raiddruidulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste"
+            ],
+            "name": "Hex Lord's Dooming Idol",
+            "id": 270169,
+            "icon": "inv_archaeology_orcclans_crackedidol"
+          }
+        ]
+      },
+      "2874": {
+        "11": [
+          {
+            "id": 268197,
+            "inventorySlotId": 23,
+            "name": "Spine of the Hissing Abyss",
+            "handLabel": "OH",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Breath of Ula'tek",
+            "icon": "inv_offhand_1h_ulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Mastery",
+              "Versatility"
+            ],
+            "name": "Shadow Hunter's Warmask",
+            "id": 268219,
+            "icon": "inv_helm_leather_raidrogueulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Sentinel's Vitriolic Chain",
+            "id": 268250,
+            "icon": "inv_121_jewelry_neck02_green"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [],
+            "name": "Venomcured Idol",
+            "id": 270911,
+            "icon": "inv_jewelcrafting_purpleserpent"
+          }
+        ]
+      },
+      "2894": {
+        "2": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Venomcured Remnant",
+            "id": 270923,
+            "icon": "inv_jewelcrafting_purpleserpent"
+          }
+        ],
+        "10": [
+          {
+            "id": 268210,
+            "inventorySlotId": 13,
+            "name": "Malevolent Spiritcudgel",
+            "handLabel": "1H",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "hand": "1h",
+            "weaponClass": "Mace",
+            "droppedBy": "Mor'zahi",
+            "icon": "inv_mace_1h_ulatek_d_01"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Unpossessed Skullsash",
+            "id": 268227,
+            "icon": "inv_belt_leather_raidrogueulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Gebbo's Bottomless Bag",
+            "id": 270164,
+            "icon": "inv_10_tailoring_bag1_color2"
+          }
+        ]
+      }
+    },
+    "105": {
+      "2887": {
+        "1": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Amulet of the Twin Fangs",
+            "id": 268251,
+            "icon": "inv_121_jewelry_neck01_red"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [],
+            "name": "Venomcured Effigy",
+            "id": 270915,
+            "icon": "inv_jewelcrafting_purpleserpent"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Bespittled Slitherslippers",
+            "id": 268261,
+            "icon": "inv_boot_leather_raidmonkulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Preternatural Antivenom",
+            "id": 270171,
+            "icon": "inv_11_0_dungeon_tentaclevial_green"
+          }
+        ]
+      },
+      "2895": {
+        "10": [
+          {
+            "id": 271092,
+            "inventorySlotId": 13,
+            "name": "Jan'thrazet, the Soul Fang",
+            "handLabel": "1H",
+            "stats": [
+              "Haste"
+            ],
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Ula'tek",
+            "icon": "inv_knife_1h_ulatekfang_d_01_spirit"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Haste"
+            ],
+            "name": "Gaze of the Coiled Watcher",
+            "id": 271875,
+            "icon": "inv_helm_leather_raiddruidulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Aqirbane Reliquary",
+            "id": 268265,
+            "icon": "inv_121_jewelry_neck03_green"
+          }
+        ]
+      },
+      "2849": {
+        "12": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Alluring Bubbleband",
+            "id": 268266,
+            "icon": "inv_70_raid_ring8c"
+          }
+        ],
+        "11": [
+          {
+            "id": 268263,
+            "inventorySlotId": 23,
+            "name": "Frostscale's Mystic Frond",
+            "handLabel": "OH",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Nymrissa Wavecaller",
+            "icon": "inv_offhand_1h_ulatek_d_01"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Breakwater Boots",
+            "id": 268247,
+            "icon": "inv_boot_leather_raiddemonhunterulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste"
+            ],
+            "name": "Wavecaller's Seastone",
+            "id": 270167,
+            "icon": "inv_tradeskillitem_sorcererswater"
+          }
+        ]
+      },
+      "2888": {
+        "10": [
+          {
+            "id": 268203,
+            "inventorySlotId": 13,
+            "name": "Hexing Spiritrender",
+            "handLabel": "1H",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": null,
+            "icon": "inv_knife_1h_ulatek_d_02"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Vestment of the Awakening",
+            "id": 268235,
+            "icon": "inv_robe_leather_raiddruidulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Soulcoiler Ritual Vessel",
+            "id": 270162,
+            "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+          }
+        ],
+        "5": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Restless Spirit Shackles",
+            "id": 268240,
+            "icon": "8095063"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Versatility"
+            ],
+            "name": "Amani Summoning Shawl",
+            "id": 268248,
+            "icon": "inv_cape_leather_raidmonkulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Soulcoiler's Rush'kah",
+            "id": 281227,
+            "icon": "inv_helm_armor_hextrollpriestess_d_01"
+          }
+        ]
+      },
+      "2882": {
+        "2": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Frothing Venom Spaulders",
+            "id": 268246,
+            "icon": "inv_shoulder_leather_raiddemonhunterulatek_d_01"
+          }
+        ],
+        "10": [
+          {
+            "id": 268205,
+            "inventorySlotId": 17,
+            "name": "Venomancer's Winged Channeler",
+            "handLabel": "2H",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": null,
+            "icon": "inv_staff_2h_ulatek_d_02"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Vile Alchemist's Band",
+            "id": 268249,
+            "icon": "inv_121_jewelry_ring01_purple"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Venomcured Icon",
+            "id": 270927,
+            "icon": "inv_jewelcrafting_purpleserpent"
+          }
+        ]
+      },
+      "2871": {
+        "8": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [],
+            "name": "Venomcured Relic",
+            "id": 270919,
+            "icon": "inv_jewelcrafting_purpleserpent"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Ruthless Slaughtergrips",
+            "id": 268234,
+            "icon": "inv_glove_leather_raiddemonhunterulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Apex Brute's Claw Ring",
+            "id": 268252,
+            "icon": "inv_121_jewelry_ring03_red"
+          }
+        ]
+      },
+      "2883": {
+        "8": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Coiled Hex Legguards",
+            "id": 268225,
+            "icon": "inv_pant_leather_raidmonkulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Visage",
+            "id": 275937,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          },
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Gaze",
+            "id": 275938,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Silken Voodoo Drape",
+            "id": 268253,
+            "icon": "inv_cape_leather_raidrogueulatek_d_01"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Sash of the Forlorn Vessel",
+            "id": 268256,
+            "icon": "inv_belt_leather_raiddruidulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste"
+            ],
+            "name": "Hex Lord's Dooming Idol",
+            "id": 270169,
+            "icon": "inv_archaeology_orcclans_crackedidol"
+          }
+        ]
+      },
+      "2874": {
+        "11": [
+          {
+            "id": 268197,
+            "inventorySlotId": 23,
+            "name": "Spine of the Hissing Abyss",
+            "handLabel": "OH",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Breath of Ula'tek",
+            "icon": "inv_offhand_1h_ulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Mastery",
+              "Versatility"
+            ],
+            "name": "Shadow Hunter's Warmask",
+            "id": 268219,
+            "icon": "inv_helm_leather_raidrogueulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Sentinel's Vitriolic Chain",
+            "id": 268250,
+            "icon": "inv_121_jewelry_neck02_green"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [],
+            "name": "Venomcured Idol",
+            "id": 270911,
+            "icon": "inv_jewelcrafting_purpleserpent"
+          }
+        ]
+      },
+      "2894": {
+        "2": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Venomcured Remnant",
+            "id": 270923,
+            "icon": "inv_jewelcrafting_purpleserpent"
+          }
+        ],
+        "10": [
+          {
+            "id": 268210,
+            "inventorySlotId": 13,
+            "name": "Malevolent Spiritcudgel",
+            "handLabel": "1H",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "hand": "1h",
+            "weaponClass": "Mace",
+            "droppedBy": "Mor'zahi",
+            "icon": "inv_mace_1h_ulatek_d_01"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Unpossessed Skullsash",
+            "id": 268227,
+            "icon": "inv_belt_leather_raidrogueulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Gebbo's Bottomless Bag",
+            "id": 270164,
+            "icon": "inv_10_tailoring_bag1_color2"
+          }
+        ]
+      }
+    },
+    "104": {
+      "2887": {
+        "1": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Amulet of the Twin Fangs",
+            "id": 268251,
+            "icon": "inv_121_jewelry_neck01_red"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [],
+            "name": "Venomcured Effigy",
+            "id": 270915,
+            "icon": "inv_jewelcrafting_purpleserpent"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Bespittled Slitherslippers",
+            "id": 268261,
+            "icon": "inv_boot_leather_raidmonkulatek_d_01"
+          }
+        ]
+      },
+      "2895": {
+        "10": [
+          {
+            "id": 268215,
+            "inventorySlotId": 17,
+            "name": "Abyssal Broodfiend's Bardiche",
+            "handLabel": "2H",
+            "stats": [
+              "Mastery"
+            ],
+            "hand": "2h",
+            "weaponClass": "Polearm",
+            "droppedBy": "Ula'tek",
+            "icon": "inv_polearm_2h_ulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Haste"
+            ],
+            "name": "Gaze of the Coiled Watcher",
+            "id": 271875,
+            "icon": "inv_helm_leather_raiddruidulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Aqirbane Reliquary",
+            "id": 268265,
+            "icon": "inv_121_jewelry_neck03_green"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Voracious Heart of Ula'tek",
+            "id": 270175,
+            "icon": "inv_121_trinket_raid_ulatek_heart"
+          }
+        ]
+      },
+      "2849": {
+        "10": [
+          {
+            "id": 268199,
+            "inventorySlotId": 17,
+            "name": "Tidepiercer's Bubble Popper",
+            "handLabel": "2H",
+            "stats": [
+              "Crit",
+              "Versatility"
+            ],
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": "Nymrissa Wavecaller",
+            "icon": "inv_staff_2h_ulatek_d_01"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Breakwater Boots",
+            "id": 268247,
+            "icon": "inv_boot_leather_raiddemonhunterulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Alluring Bubbleband",
+            "id": 268266,
+            "icon": "inv_70_raid_ring8c"
+          }
+        ]
+      },
+      "2888": {
+        "5": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Restless Spirit Shackles",
+            "id": 268240,
+            "icon": "8095063"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Versatility"
+            ],
+            "name": "Amani Summoning Shawl",
+            "id": 268248,
+            "icon": "inv_cape_leather_raidmonkulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Soulcoiler's Rush'kah",
+            "id": 281227,
+            "icon": "inv_helm_armor_hextrollpriestess_d_01"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Vestment of the Awakening",
+            "id": 268235,
+            "icon": "inv_robe_leather_raiddruidulatek_d_01"
+          }
+        ]
+      },
+      "2882": {
+        "2": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Frothing Venom Spaulders",
+            "id": 268246,
+            "icon": "inv_shoulder_leather_raiddemonhunterulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Vile Alchemist's Band",
+            "id": 268249,
+            "icon": "inv_121_jewelry_ring01_purple"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Venomcured Icon",
+            "id": 270927,
+            "icon": "inv_jewelcrafting_purpleserpent"
+          }
+        ]
+      },
+      "2871": {
+        "12": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Apex Brute's Claw Ring",
+            "id": 268252,
+            "icon": "inv_121_jewelry_ring03_red"
+          }
+        ],
+        "8": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [],
+            "name": "Venomcured Relic",
+            "id": 270919,
+            "icon": "inv_jewelcrafting_purpleserpent"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Ruthless Slaughtergrips",
+            "id": 268234,
+            "icon": "inv_glove_leather_raiddemonhunterulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Mastery"
+            ],
+            "name": "Idol of the Howling Nexus",
+            "id": 270174,
+            "icon": "inv_jewelcrafting_jadeserpent"
+          }
+        ]
+      },
+      "2883": {
+        "8": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Coiled Hex Legguards",
+            "id": 268225,
+            "icon": "inv_pant_leather_raidmonkulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Visage",
+            "id": 275937,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          },
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Gaze",
+            "id": 275938,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Silken Voodoo Drape",
+            "id": 268253,
+            "icon": "inv_cape_leather_raidrogueulatek_d_01"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Sash of the Forlorn Vessel",
+            "id": 268256,
+            "icon": "inv_belt_leather_raiddruidulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Zul'jin's Guillotine Technique",
+            "id": 270173,
+            "icon": "inv_121_trinket_raid_ulatek_trolltablet"
+          }
+        ]
+      },
+      "2874": {
+        "0": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Mastery",
+              "Versatility"
+            ],
+            "name": "Shadow Hunter's Warmask",
+            "id": 268219,
+            "icon": "inv_helm_leather_raidrogueulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Sentinel's Vitriolic Chain",
+            "id": 268250,
+            "icon": "inv_121_jewelry_neck02_green"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [],
+            "name": "Venomcured Idol",
+            "id": 270911,
+            "icon": "inv_jewelcrafting_purpleserpent"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [],
+            "name": "Keeper's Seething Core",
+            "id": 270165,
+            "icon": "inv_121_trinket_raid_ulatek_golemhearts_green"
+          }
+        ]
+      },
+      "2894": {
+        "2": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Venomcured Remnant",
+            "id": 270923,
+            "icon": "inv_jewelcrafting_purpleserpent"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Unpossessed Skullsash",
+            "id": 268227,
+            "icon": "inv_belt_leather_raidrogueulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "First Mate's Shellward",
+            "id": 270160,
+            "icon": "inv_cape_special_turtleshell_c_02"
+          },
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Gebbo's Bottomless Bag",
+            "id": 270164,
+            "icon": "inv_10_tailoring_bag1_color2"
+          }
+        ]
+      }
+    },
+    "252": {
+      "2887": {
+        "0": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [],
+            "name": "Venomforged Effigy",
+            "id": 270917,
+            "icon": "inv_jewelcrafting_rubyserpent"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Amulet of the Twin Fangs",
+            "id": 268251,
+            "icon": "inv_121_jewelry_neck01_red"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Scaleplate Strangulators",
+            "id": 268220,
+            "icon": "inv_glove_plate_raidpaladinulatek_d_01"
+          }
+        ]
+      },
+      "2895": {
+        "8": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Mastery"
+            ],
+            "name": "Chausses of Unbound Rancor",
+            "id": 271878,
+            "icon": "inv_pant_plate_raiddeathknightulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Aqirbane Reliquary",
+            "id": 268265,
+            "icon": "inv_121_jewelry_neck03_green"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Mastery"
+            ],
+            "name": "Font of Venomous Rage",
+            "id": 270168,
+            "icon": "inv_10_dungeonjewelry_dragon_trinket_3djardintrophy_green"
+          },
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Voracious Heart of Ula'tek",
+            "id": 270175,
+            "icon": "inv_121_trinket_raid_ulatek_heart"
+          }
+        ]
+      },
+      "2849": {
+        "2": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Swelling Sea Spaulders",
+            "id": 268226,
+            "icon": "inv_shoulder_plate_raidpaladinulatek_d_01"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Forgotten Grotto Girdle",
+            "id": 268244,
+            "icon": "inv_belt_plate_raiddeathknightulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Alluring Bubbleband",
+            "id": 268266,
+            "icon": "inv_70_raid_ring8c"
+          }
+        ]
+      },
+      "2888": {
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Versatility"
+            ],
+            "name": "Amani Summoning Shawl",
+            "id": 268248,
+            "icon": "inv_cape_leather_raidmonkulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Skullguard of the Risen Sacrifice",
+            "id": 268229,
+            "icon": "inv_helm_plate_raiddeathknightulatek_d_01"
+          },
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Soulcoiler's Rush'kah",
+            "id": 281227,
+            "icon": "inv_helm_armor_hextrollpriestess_d_01"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Entombed Cultist's Sabatons",
+            "id": 268245,
+            "icon": "inv_boot_plate_raidwarriorulatek_d_01"
+          }
+        ]
+      },
+      "2882": {
+        "12": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Vile Alchemist's Band",
+            "id": 268249,
+            "icon": "inv_121_jewelry_ring01_purple"
+          }
+        ],
+        "10": [
+          {
+            "id": 268214,
+            "inventorySlotId": 17,
+            "name": "Malignant Toothed Edge",
+            "handLabel": "2H",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "2h",
+            "weaponClass": "Sword",
+            "droppedBy": null,
+            "icon": "inv_sword_2h_ulatek_d_01"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Scaled Fiend's Warboots",
+            "id": 268260,
+            "icon": "inv_boot_plate_raidpaladinulatek_d_01"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Venomforged Icon",
+            "id": 270929,
+            "icon": "inv_jewelcrafting_rubyserpent"
+          }
+        ]
+      },
+      "2871": {
+        "12": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Apex Brute's Claw Ring",
+            "id": 268252,
+            "icon": "inv_121_jewelry_ring03_red"
+          }
+        ],
+        "8": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [],
+            "name": "Venomforged Relic",
+            "id": 270921,
+            "icon": "inv_jewelcrafting_rubyserpent"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [],
+            "name": "Sszorak's Ferocity",
+            "id": 270163,
+            "icon": "inv_121_trinket_raid_ulatek_ulatekclaw"
+          }
+        ]
+      },
+      "2883": {
+        "10": [
+          {
+            "id": 268213,
+            "inventorySlotId": 17,
+            "name": "Maze-roa, Warlord's Fury",
+            "handLabel": "2H",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "hand": "2h",
+            "weaponClass": "Axe",
+            "droppedBy": null,
+            "icon": "inv_axe_2h_ulatek_d_01"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Girdle of Toxic Regret",
+            "id": 268259,
+            "icon": "inv_belt_plate_raidpaladinulatek_d_01"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Reckless Spirit Breastplate",
+            "id": 268222,
+            "icon": "inv_chest_plate_raidwarriorulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Zul'jin's Guillotine Technique",
+            "id": 270173,
+            "icon": "inv_121_trinket_raid_ulatek_trolltablet"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Silken Voodoo Drape",
+            "id": 268253,
+            "icon": "inv_cape_leather_raidrogueulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Visage",
+            "id": 275937,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          },
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Gaze",
+            "id": 275938,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          }
+        ]
+      },
+      "2874": {
+        "10": [
+          {
+            "id": 268198,
+            "inventorySlotId": 17,
+            "name": "Caustic Keeper-Crusher",
+            "handLabel": "2H",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "hand": "2h",
+            "weaponClass": "Mace",
+            "droppedBy": "Breath of Ula'tek",
+            "icon": "inv_mace_2h_ulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Sentinel's Vitriolic Chain",
+            "id": 268250,
+            "icon": "inv_121_jewelry_neck02_green"
+          }
+        ],
+        "8": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Venom Warden's Greaves",
+            "id": 268224,
+            "icon": "inv_pant_plate_raidwarriorulatek_d_01"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [],
+            "name": "Venomforged Idol",
+            "id": 270913,
+            "icon": "inv_jewelcrafting_rubyserpent"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [],
+            "name": "Keeper's Seething Core",
+            "id": 270165,
+            "icon": "inv_121_trinket_raid_ulatek_golemhearts_green"
+          }
+        ]
+      },
+      "2894": {
+        "2": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Venomforged Remnant",
+            "id": 270925,
+            "icon": "inv_jewelcrafting_rubyserpent"
+          }
+        ],
+        "5": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Shellbound Bracers",
+            "id": 268239,
+            "icon": "inv_bracer_plate_raiddeathknightulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Gebbo's Bottomless Bag",
+            "id": 270164,
+            "icon": "inv_10_tailoring_bag1_color2"
+          }
+        ]
+      }
+    },
+    "1480": {
+      "2887": {
+        "1": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Amulet of the Twin Fangs",
+            "id": 268251,
+            "icon": "inv_121_jewelry_neck01_red"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [],
+            "name": "Venomcured Effigy",
+            "id": 270915,
+            "icon": "inv_jewelcrafting_purpleserpent"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Bespittled Slitherslippers",
+            "id": 268261,
+            "icon": "inv_boot_leather_raidmonkulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [],
+            "name": "Vexhul's Everflowing Gland",
+            "id": 270170,
+            "icon": "inv_11_0_misc_organmass_color3"
+          }
+        ]
+      },
+      "2895": {
+        "10": [
+          {
+            "id": 271092,
+            "inventorySlotId": 13,
+            "name": "Jan'thrazet, the Soul Fang",
+            "handLabel": "1H",
+            "stats": [
+              "Haste"
+            ],
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Ula'tek",
+            "icon": "inv_knife_1h_ulatekfang_d_01_spirit"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Haste"
+            ],
+            "name": "Gaze of the Coiled Watcher",
+            "id": 271875,
+            "icon": "inv_helm_leather_raiddruidulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Aqirbane Reliquary",
+            "id": 268265,
+            "icon": "inv_121_jewelry_neck03_green"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Mastery"
+            ],
+            "name": "Font of Venomous Rage",
+            "id": 270168,
+            "icon": "inv_10_dungeonjewelry_dragon_trinket_3djardintrophy_green"
+          }
+        ]
+      },
+      "2849": {
+        "12": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Alluring Bubbleband",
+            "id": 268266,
+            "icon": "inv_70_raid_ring8c"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Breakwater Boots",
+            "id": 268247,
+            "icon": "inv_boot_leather_raiddemonhunterulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste"
+            ],
+            "name": "Wavecaller's Seastone",
+            "id": 270167,
+            "icon": "inv_tradeskillitem_sorcererswater"
+          }
+        ]
+      },
+      "2888": {
+        "5": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Restless Spirit Shackles",
+            "id": 268240,
+            "icon": "8095063"
+          }
+        ],
+        "10": [
+          {
+            "id": 268203,
+            "inventorySlotId": 13,
+            "name": "Hexing Spiritrender",
+            "handLabel": "1H",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": null,
+            "icon": "inv_knife_1h_ulatek_d_02"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Versatility"
+            ],
+            "name": "Amani Summoning Shawl",
+            "id": 268248,
+            "icon": "inv_cape_leather_raidmonkulatek_d_01"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Vestment of the Awakening",
+            "id": 268235,
+            "icon": "inv_robe_leather_raiddruidulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Soulcoiler's Rush'kah",
+            "id": 281227,
+            "icon": "inv_helm_armor_hextrollpriestess_d_01"
+          }
+        ]
+      },
+      "2882": {
+        "2": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Frothing Venom Spaulders",
+            "id": 268246,
+            "icon": "inv_shoulder_leather_raiddemonhunterulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Vile Alchemist's Band",
+            "id": 268249,
+            "icon": "inv_121_jewelry_ring01_purple"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Fang of Umbral Malignance",
+            "id": 270161,
+            "icon": "inv_121_trinket_raid_ulatek_fang_purple"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Venomcured Icon",
+            "id": 270927,
+            "icon": "inv_jewelcrafting_purpleserpent"
+          }
+        ]
+      },
+      "2871": {
+        "10": [
+          {
+            "id": 268201,
+            "inventorySlotId": 13,
+            "name": "Venomous Boneglaive",
+            "handLabel": "1H",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "hand": "1h",
+            "weaponClass": "Warglaive",
+            "droppedBy": "Sszorak",
+            "icon": "inv_glaive_1h_ulatek_d_01"
+          }
+        ],
+        "8": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [],
+            "name": "Venomcured Relic",
+            "id": 270919,
+            "icon": "inv_jewelcrafting_purpleserpent"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Ruthless Slaughtergrips",
+            "id": 268234,
+            "icon": "inv_glove_leather_raiddemonhunterulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Apex Brute's Claw Ring",
+            "id": 268252,
+            "icon": "inv_121_jewelry_ring03_red"
+          }
+        ]
+      },
+      "2883": {
+        "10": [
+          {
+            "id": 268211,
+            "inventorySlotId": 13,
+            "name": "Baleful Hexblade",
+            "handLabel": "1H",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "1h",
+            "weaponClass": "Sword",
+            "droppedBy": null,
+            "icon": "inv_sword_1h_ulatek_d_01"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Sash of the Forlorn Vessel",
+            "id": 268256,
+            "icon": "inv_belt_leather_raiddruidulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste"
+            ],
+            "name": "Hex Lord's Dooming Idol",
+            "id": 270169,
+            "icon": "inv_archaeology_orcclans_crackedidol"
+          }
+        ],
+        "8": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Coiled Hex Legguards",
+            "id": 268225,
+            "icon": "inv_pant_leather_raidmonkulatek_d_01"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Silken Voodoo Drape",
+            "id": 268253,
+            "icon": "inv_cape_leather_raidrogueulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Visage",
+            "id": 275937,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          },
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Gaze",
+            "id": 275938,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          }
+        ]
+      },
+      "2874": {
+        "0": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Mastery",
+              "Versatility"
+            ],
+            "name": "Shadow Hunter's Warmask",
+            "id": 268219,
+            "icon": "inv_helm_leather_raidrogueulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Sentinel's Vitriolic Chain",
+            "id": 268250,
+            "icon": "inv_121_jewelry_neck02_green"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [],
+            "name": "Venomcured Idol",
+            "id": 270911,
+            "icon": "inv_jewelcrafting_purpleserpent"
+          }
+        ]
+      },
+      "2894": {
+        "2": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Venomcured Remnant",
+            "id": 270923,
+            "icon": "inv_jewelcrafting_purpleserpent"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Unpossessed Skullsash",
+            "id": 268227,
+            "icon": "inv_belt_leather_raidrogueulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Gebbo's Bottomless Bag",
+            "id": 270164,
+            "icon": "inv_10_tailoring_bag1_color2"
+          }
+        ]
+      }
+    },
+    "62": {
+      "2887": {
+        "2": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Ornaments of the Eternal Coil",
+            "id": 268241,
+            "icon": "inv_shoulder_cloth_raidmageulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [],
+            "name": "Venomwoven Effigy",
+            "id": 270914,
+            "icon": "inv_jewelcrafting_azureserpent"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Amulet of the Twin Fangs",
+            "id": 268251,
+            "icon": "inv_121_jewelry_neck01_red"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [],
+            "name": "Vexhul's Everflowing Gland",
+            "id": 270170,
+            "icon": "inv_11_0_misc_organmass_color3"
+          }
+        ]
+      },
+      "2895": {
+        "10": [
+          {
+            "id": 271092,
+            "inventorySlotId": 13,
+            "name": "Jan'thrazet, the Soul Fang",
+            "handLabel": "1H",
+            "stats": [
+              "Haste"
+            ],
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Ula'tek",
+            "icon": "inv_knife_1h_ulatekfang_d_01_spirit"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Mastery"
+            ],
+            "name": "Venomkeeper's Horrific Cowl",
+            "id": 271874,
+            "icon": "inv_helm_cloth_raidwarlockulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Aqirbane Reliquary",
+            "id": 268265,
+            "icon": "inv_121_jewelry_neck03_green"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Mastery"
+            ],
+            "name": "Font of Venomous Rage",
+            "id": 270168,
+            "icon": "inv_10_dungeonjewelry_dragon_trinket_3djardintrophy_green"
+          }
+        ]
+      },
+      "2849": {
+        "4": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Tidebound Sorcereress's Robes",
+            "id": 268221,
+            "icon": "inv_robe_cloth_raidwarlockulatek_d_01"
+          }
+        ],
+        "11": [
+          {
+            "id": 268263,
+            "inventorySlotId": 23,
+            "name": "Frostscale's Mystic Frond",
+            "handLabel": "OH",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Nymrissa Wavecaller",
+            "icon": "inv_offhand_1h_ulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste"
+            ],
+            "name": "Wavecaller's Seastone",
+            "id": 270167,
+            "icon": "inv_tradeskillitem_sorcererswater"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Crit",
+              "Versatility"
+            ],
+            "name": "Cincture of the Abyssal Grotto",
+            "id": 268232,
+            "icon": "inv_belt_cloth_raidmageulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Alluring Bubbleband",
+            "id": 268266,
+            "icon": "inv_70_raid_ring8c"
+          }
+        ]
+      },
+      "2888": {
+        "10": [
+          {
+            "id": 268203,
+            "inventorySlotId": 13,
+            "name": "Hexing Spiritrender",
+            "handLabel": "1H",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": null,
+            "icon": "inv_knife_1h_ulatek_d_02"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Soulcoiler's Rush'kah",
+            "id": 281227,
+            "icon": "inv_helm_armor_hextrollpriestess_d_01"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Nek'zali's Spiritwalkers",
+            "id": 268218,
+            "icon": "inv_boot_cloth_raidpriestulatek_d_01"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Versatility"
+            ],
+            "name": "Amani Summoning Shawl",
+            "id": 268248,
+            "icon": "inv_cape_leather_raidmonkulatek_d_01"
+          }
+        ],
+        "8": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Mastery",
+              "Versatility"
+            ],
+            "name": "Initiate's Sacrificial Tights",
+            "id": 268236,
+            "icon": "inv_pant_cloth_raidpriestulatek_d_01"
+          }
+        ]
+      },
+      "2882": {
+        "12": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Vile Alchemist's Band",
+            "id": 268249,
+            "icon": "inv_121_jewelry_ring01_purple"
+          }
+        ],
+        "10": [
+          {
+            "id": 268205,
+            "inventorySlotId": 17,
+            "name": "Venomancer's Winged Channeler",
+            "handLabel": "2H",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": null,
+            "icon": "inv_staff_2h_ulatek_d_02"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Venomwoven Icon",
+            "id": 270926,
+            "icon": "inv_jewelcrafting_azureserpent"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Fang of Umbral Malignance",
+            "id": 270161,
+            "icon": "inv_121_trinket_raid_ulatek_fang_purple"
+          }
+        ]
+      },
+      "2871": {
+        "8": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [],
+            "name": "Venomwoven Relic",
+            "id": 270918,
+            "icon": "inv_jewelcrafting_azureserpent"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Caustic Chain-Wrapped Sash",
+            "id": 268257,
+            "icon": "inv_belt_cloth_raidwarlockulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Apex Brute's Claw Ring",
+            "id": 268252,
+            "icon": "inv_121_jewelry_ring03_red"
+          }
+        ]
+      },
+      "2883": {
+        "10": [
+          {
+            "id": 268211,
+            "inventorySlotId": 13,
+            "name": "Baleful Hexblade",
+            "handLabel": "1H",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "1h",
+            "weaponClass": "Sword",
+            "droppedBy": null,
+            "icon": "inv_sword_1h_ulatek_d_01"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Grasps of the Eternal Shadow",
+            "id": 268243,
+            "icon": "inv_glove_cloth_raidwarlockulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste"
+            ],
+            "name": "Hex Lord's Dooming Idol",
+            "id": 270169,
+            "icon": "inv_archaeology_orcclans_crackedidol"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Cackling Soultreads",
+            "id": 268255,
+            "icon": "inv_boot_cloth_raidmageulatek_d_01"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Silken Voodoo Drape",
+            "id": 268253,
+            "icon": "inv_cape_leather_raidrogueulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Visage",
+            "id": 275937,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          },
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Gaze",
+            "id": 275938,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          }
+        ]
+      },
+      "2874": {
+        "5": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Venom-Singed Cuffs",
+            "id": 268228,
+            "icon": "inv_bracer_cloth_raidmageulatek_d_01"
+          }
+        ],
+        "11": [
+          {
+            "id": 268197,
+            "inventorySlotId": 23,
+            "name": "Spine of the Hissing Abyss",
+            "handLabel": "OH",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Breath of Ula'tek",
+            "icon": "inv_offhand_1h_ulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Sentinel's Vitriolic Chain",
+            "id": 268250,
+            "icon": "inv_121_jewelry_neck02_green"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [],
+            "name": "Venomwoven Idol",
+            "id": 270910,
+            "icon": "inv_jewelcrafting_azureserpent"
+          }
+        ]
+      },
+      "2894": {
+        "2": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Venomwoven Remnant",
+            "id": 270922,
+            "icon": "inv_jewelcrafting_azureserpent"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Errant Scrollsage's Hood",
+            "id": 268242,
+            "icon": "inv_helm_cloth_raidpriestulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Gebbo's Bottomless Bag",
+            "id": 270164,
+            "icon": "inv_10_tailoring_bag1_color2"
+          }
+        ]
+      }
+    },
+    "268": {
+      "2887": {
+        "1": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Amulet of the Twin Fangs",
+            "id": 268251,
+            "icon": "inv_121_jewelry_neck01_red"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [],
+            "name": "Venomcured Effigy",
+            "id": 270915,
+            "icon": "inv_jewelcrafting_purpleserpent"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Bespittled Slitherslippers",
+            "id": 268261,
+            "icon": "inv_boot_leather_raidmonkulatek_d_01"
+          }
+        ]
+      },
+      "2895": {
+        "10": [
+          {
+            "id": 268215,
+            "inventorySlotId": 17,
+            "name": "Abyssal Broodfiend's Bardiche",
+            "handLabel": "2H",
+            "stats": [
+              "Mastery"
+            ],
+            "hand": "2h",
+            "weaponClass": "Polearm",
+            "droppedBy": "Ula'tek",
+            "icon": "inv_polearm_2h_ulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Haste"
+            ],
+            "name": "Gaze of the Coiled Watcher",
+            "id": 271875,
+            "icon": "inv_helm_leather_raiddruidulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Aqirbane Reliquary",
+            "id": 268265,
+            "icon": "inv_121_jewelry_neck03_green"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Voracious Heart of Ula'tek",
+            "id": 270175,
+            "icon": "inv_121_trinket_raid_ulatek_heart"
+          }
+        ]
+      },
+      "2849": {
+        "10": [
+          {
+            "id": 268199,
+            "inventorySlotId": 17,
+            "name": "Tidepiercer's Bubble Popper",
+            "handLabel": "2H",
+            "stats": [
+              "Crit",
+              "Versatility"
+            ],
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": "Nymrissa Wavecaller",
+            "icon": "inv_staff_2h_ulatek_d_01"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Breakwater Boots",
+            "id": 268247,
+            "icon": "inv_boot_leather_raiddemonhunterulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Alluring Bubbleband",
+            "id": 268266,
+            "icon": "inv_70_raid_ring8c"
+          }
+        ]
+      },
+      "2888": {
+        "5": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Restless Spirit Shackles",
+            "id": 268240,
+            "icon": "8095063"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Versatility"
+            ],
+            "name": "Amani Summoning Shawl",
+            "id": 268248,
+            "icon": "inv_cape_leather_raidmonkulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Soulcoiler's Rush'kah",
+            "id": 281227,
+            "icon": "inv_helm_armor_hextrollpriestess_d_01"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Vestment of the Awakening",
+            "id": 268235,
+            "icon": "inv_robe_leather_raiddruidulatek_d_01"
+          }
+        ],
+        "10": [
+          {
+            "id": 270930,
+            "inventorySlotId": 13,
+            "name": "Tomb-Creeper's Claw",
+            "handLabel": "1H",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "hand": "1h",
+            "weaponClass": "Fist",
+            "droppedBy": null,
+            "icon": "inv_hand_1h_ulatek_d_01"
+          }
+        ]
+      },
+      "2882": {
+        "2": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Frothing Venom Spaulders",
+            "id": 268246,
+            "icon": "inv_shoulder_leather_raiddemonhunterulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Vile Alchemist's Band",
+            "id": 268249,
+            "icon": "inv_121_jewelry_ring01_purple"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Venomcured Icon",
+            "id": 270927,
+            "icon": "inv_jewelcrafting_purpleserpent"
+          }
+        ]
+      },
+      "2871": {
+        "12": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Apex Brute's Claw Ring",
+            "id": 268252,
+            "icon": "inv_121_jewelry_ring03_red"
+          }
+        ],
+        "10": [
+          {
+            "id": 268206,
+            "inventorySlotId": 13,
+            "name": "Slithering Savage's Gavel",
+            "handLabel": "1H",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "hand": "1h",
+            "weaponClass": "Mace",
+            "droppedBy": "Sszorak",
+            "icon": "inv_mace_1h_ulatek_d_01"
+          }
+        ],
+        "8": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [],
+            "name": "Venomcured Relic",
+            "id": 270919,
+            "icon": "inv_jewelcrafting_purpleserpent"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Ruthless Slaughtergrips",
+            "id": 268234,
+            "icon": "inv_glove_leather_raiddemonhunterulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Mastery"
+            ],
+            "name": "Idol of the Howling Nexus",
+            "id": 270174,
+            "icon": "inv_jewelcrafting_jadeserpent"
+          }
+        ]
+      },
+      "2883": {
+        "10": [
+          {
+            "id": 268209,
+            "inventorySlotId": 21,
+            "name": "Aman'muso, Warlord's Vengeance",
+            "handLabel": "1H",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "1h",
+            "weaponClass": "Axe",
+            "droppedBy": null,
+            "icon": "inv_axe_1h_ulatek_d_01"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Sash of the Forlorn Vessel",
+            "id": 268256,
+            "icon": "inv_belt_leather_raiddruidulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Zul'jin's Guillotine Technique",
+            "id": 270173,
+            "icon": "inv_121_trinket_raid_ulatek_trolltablet"
+          }
+        ],
+        "8": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Coiled Hex Legguards",
+            "id": 268225,
+            "icon": "inv_pant_leather_raidmonkulatek_d_01"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Silken Voodoo Drape",
+            "id": 268253,
+            "icon": "inv_cape_leather_raidrogueulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Visage",
+            "id": 275937,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          },
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Gaze",
+            "id": 275938,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          }
+        ]
+      },
+      "2874": {
+        "0": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Mastery",
+              "Versatility"
+            ],
+            "name": "Shadow Hunter's Warmask",
+            "id": 268219,
+            "icon": "inv_helm_leather_raidrogueulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Sentinel's Vitriolic Chain",
+            "id": 268250,
+            "icon": "inv_121_jewelry_neck02_green"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [],
+            "name": "Venomcured Idol",
+            "id": 270911,
+            "icon": "inv_jewelcrafting_purpleserpent"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [],
+            "name": "Keeper's Seething Core",
+            "id": 270165,
+            "icon": "inv_121_trinket_raid_ulatek_golemhearts_green"
+          }
+        ]
+      },
+      "2894": {
+        "2": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Venomcured Remnant",
+            "id": 270923,
+            "icon": "inv_jewelcrafting_purpleserpent"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Unpossessed Skullsash",
+            "id": 268227,
+            "icon": "inv_belt_leather_raidrogueulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "First Mate's Shellward",
+            "id": 270160,
+            "icon": "inv_cape_special_turtleshell_c_02"
+          },
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Gebbo's Bottomless Bag",
+            "id": 270164,
+            "icon": "inv_10_tailoring_bag1_color2"
+          }
+        ]
+      }
+    },
+    "258": {
+      "2887": {
+        "2": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Ornaments of the Eternal Coil",
+            "id": 268241,
+            "icon": "inv_shoulder_cloth_raidmageulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [],
+            "name": "Venomwoven Effigy",
+            "id": 270914,
+            "icon": "inv_jewelcrafting_azureserpent"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Amulet of the Twin Fangs",
+            "id": 268251,
+            "icon": "inv_121_jewelry_neck01_red"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [],
+            "name": "Vexhul's Everflowing Gland",
+            "id": 270170,
+            "icon": "inv_11_0_misc_organmass_color3"
+          }
+        ]
+      },
+      "2895": {
+        "10": [
+          {
+            "id": 271092,
+            "inventorySlotId": 13,
+            "name": "Jan'thrazet, the Soul Fang",
+            "handLabel": "1H",
+            "stats": [
+              "Haste"
+            ],
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Ula'tek",
+            "icon": "inv_knife_1h_ulatekfang_d_01_spirit"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Mastery"
+            ],
+            "name": "Venomkeeper's Horrific Cowl",
+            "id": 271874,
+            "icon": "inv_helm_cloth_raidwarlockulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Aqirbane Reliquary",
+            "id": 268265,
+            "icon": "inv_121_jewelry_neck03_green"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Mastery"
+            ],
+            "name": "Font of Venomous Rage",
+            "id": 270168,
+            "icon": "inv_10_dungeonjewelry_dragon_trinket_3djardintrophy_green"
+          }
+        ]
+      },
+      "2849": {
+        "4": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Tidebound Sorcereress's Robes",
+            "id": 268221,
+            "icon": "inv_robe_cloth_raidwarlockulatek_d_01"
+          }
+        ],
+        "11": [
+          {
+            "id": 268263,
+            "inventorySlotId": 23,
+            "name": "Frostscale's Mystic Frond",
+            "handLabel": "OH",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Nymrissa Wavecaller",
+            "icon": "inv_offhand_1h_ulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste"
+            ],
+            "name": "Wavecaller's Seastone",
+            "id": 270167,
+            "icon": "inv_tradeskillitem_sorcererswater"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Crit",
+              "Versatility"
+            ],
+            "name": "Cincture of the Abyssal Grotto",
+            "id": 268232,
+            "icon": "inv_belt_cloth_raidmageulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Alluring Bubbleband",
+            "id": 268266,
+            "icon": "inv_70_raid_ring8c"
+          }
+        ]
+      },
+      "2888": {
+        "10": [
+          {
+            "id": 268203,
+            "inventorySlotId": 13,
+            "name": "Hexing Spiritrender",
+            "handLabel": "1H",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": null,
+            "icon": "inv_knife_1h_ulatek_d_02"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Soulcoiler's Rush'kah",
+            "id": 281227,
+            "icon": "inv_helm_armor_hextrollpriestess_d_01"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Nek'zali's Spiritwalkers",
+            "id": 268218,
+            "icon": "inv_boot_cloth_raidpriestulatek_d_01"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Versatility"
+            ],
+            "name": "Amani Summoning Shawl",
+            "id": 268248,
+            "icon": "inv_cape_leather_raidmonkulatek_d_01"
+          }
+        ],
+        "8": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Mastery",
+              "Versatility"
+            ],
+            "name": "Initiate's Sacrificial Tights",
+            "id": 268236,
+            "icon": "inv_pant_cloth_raidpriestulatek_d_01"
+          }
+        ]
+      },
+      "2882": {
+        "12": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Vile Alchemist's Band",
+            "id": 268249,
+            "icon": "inv_121_jewelry_ring01_purple"
+          }
+        ],
+        "10": [
+          {
+            "id": 268205,
+            "inventorySlotId": 17,
+            "name": "Venomancer's Winged Channeler",
+            "handLabel": "2H",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": null,
+            "icon": "inv_staff_2h_ulatek_d_02"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Venomwoven Icon",
+            "id": 270926,
+            "icon": "inv_jewelcrafting_azureserpent"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Fang of Umbral Malignance",
+            "id": 270161,
+            "icon": "inv_121_trinket_raid_ulatek_fang_purple"
+          }
+        ]
+      },
+      "2871": {
+        "8": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [],
+            "name": "Venomwoven Relic",
+            "id": 270918,
+            "icon": "inv_jewelcrafting_azureserpent"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Caustic Chain-Wrapped Sash",
+            "id": 268257,
+            "icon": "inv_belt_cloth_raidwarlockulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Apex Brute's Claw Ring",
+            "id": 268252,
+            "icon": "inv_121_jewelry_ring03_red"
+          }
+        ]
+      },
+      "2883": {
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Silken Voodoo Drape",
+            "id": 268253,
+            "icon": "inv_cape_leather_raidrogueulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Visage",
+            "id": 275937,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          },
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Gaze",
+            "id": 275938,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Cackling Soultreads",
+            "id": 268255,
+            "icon": "inv_boot_cloth_raidmageulatek_d_01"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Grasps of the Eternal Shadow",
+            "id": 268243,
+            "icon": "inv_glove_cloth_raidwarlockulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste"
+            ],
+            "name": "Hex Lord's Dooming Idol",
+            "id": 270169,
+            "icon": "inv_archaeology_orcclans_crackedidol"
+          }
+        ]
+      },
+      "2874": {
+        "5": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Venom-Singed Cuffs",
+            "id": 268228,
+            "icon": "inv_bracer_cloth_raidmageulatek_d_01"
+          }
+        ],
+        "11": [
+          {
+            "id": 268197,
+            "inventorySlotId": 23,
+            "name": "Spine of the Hissing Abyss",
+            "handLabel": "OH",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Breath of Ula'tek",
+            "icon": "inv_offhand_1h_ulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Sentinel's Vitriolic Chain",
+            "id": 268250,
+            "icon": "inv_121_jewelry_neck02_green"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [],
+            "name": "Venomwoven Idol",
+            "id": 270910,
+            "icon": "inv_jewelcrafting_azureserpent"
+          }
+        ]
+      },
+      "2894": {
+        "2": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Venomwoven Remnant",
+            "id": 270922,
+            "icon": "inv_jewelcrafting_azureserpent"
+          }
+        ],
+        "10": [
+          {
+            "id": 268210,
+            "inventorySlotId": 13,
+            "name": "Malevolent Spiritcudgel",
+            "handLabel": "1H",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "hand": "1h",
+            "weaponClass": "Mace",
+            "droppedBy": "Mor'zahi",
+            "icon": "inv_mace_1h_ulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Errant Scrollsage's Hood",
+            "id": 268242,
+            "icon": "inv_helm_cloth_raidpriestulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Gebbo's Bottomless Bag",
+            "id": 270164,
+            "icon": "inv_10_tailoring_bag1_color2"
+          }
+        ]
+      }
+    },
+    "259": {
+      "2887": {
+        "10": [
+          {
+            "id": 268264,
+            "inventorySlotId": 13,
+            "name": "Ravenous Feaster's Fang",
+            "handLabel": "1H",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Vexhul",
+            "icon": "inv_knife_1h_ulatek_d_02"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [],
+            "name": "Venomcured Effigy",
+            "id": 270915,
+            "icon": "inv_jewelcrafting_purpleserpent"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Bespittled Slitherslippers",
+            "id": 268261,
+            "icon": "inv_boot_leather_raidmonkulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Amulet of the Twin Fangs",
+            "id": 268251,
+            "icon": "inv_121_jewelry_neck01_red"
+          }
+        ]
+      },
+      "2895": {
+        "10": [
+          {
+            "id": 271093,
+            "inventorySlotId": 13,
+            "name": "Zatha'tek, Breath of Corruption",
+            "handLabel": "1H",
+            "stats": [
+              "Crit"
+            ],
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Ula'tek",
+            "icon": "inv_knife_1h_ulatekfang_d_01_poison"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Haste"
+            ],
+            "name": "Gaze of the Coiled Watcher",
+            "id": 271875,
+            "icon": "inv_helm_leather_raiddruidulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Aqirbane Reliquary",
+            "id": 268265,
+            "icon": "inv_121_jewelry_neck03_green"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Mastery"
+            ],
+            "name": "Font of Venomous Rage",
+            "id": 270168,
+            "icon": "inv_10_dungeonjewelry_dragon_trinket_3djardintrophy_green"
+          },
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Voracious Heart of Ula'tek",
+            "id": 270175,
+            "icon": "inv_121_trinket_raid_ulatek_heart"
+          }
+        ]
+      },
+      "2849": {
+        "9": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Breakwater Boots",
+            "id": 268247,
+            "icon": "inv_boot_leather_raiddemonhunterulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Alluring Bubbleband",
+            "id": 268266,
+            "icon": "inv_70_raid_ring8c"
+          }
+        ]
+      },
+      "2888": {
+        "5": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Restless Spirit Shackles",
+            "id": 268240,
+            "icon": "8095063"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Versatility"
+            ],
+            "name": "Amani Summoning Shawl",
+            "id": 268248,
+            "icon": "inv_cape_leather_raidmonkulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Soulcoiler's Rush'kah",
+            "id": 281227,
+            "icon": "inv_helm_armor_hextrollpriestess_d_01"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Vestment of the Awakening",
+            "id": 268235,
+            "icon": "inv_robe_leather_raiddruidulatek_d_01"
+          }
+        ]
+      },
+      "2882": {
+        "2": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Frothing Venom Spaulders",
+            "id": 268246,
+            "icon": "inv_shoulder_leather_raiddemonhunterulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Vile Alchemist's Band",
+            "id": 268249,
+            "icon": "inv_121_jewelry_ring01_purple"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Vashnik's Sanguine Rancor",
+            "id": 270166,
+            "icon": "inv_11_0_raid_gruesomesyringe_blue"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Venomcured Icon",
+            "id": 270927,
+            "icon": "inv_jewelcrafting_purpleserpent"
+          }
+        ]
+      },
+      "2871": {
+        "8": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [],
+            "name": "Venomcured Relic",
+            "id": 270919,
+            "icon": "inv_jewelcrafting_purpleserpent"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Ruthless Slaughtergrips",
+            "id": 268234,
+            "icon": "inv_glove_leather_raiddemonhunterulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Apex Brute's Claw Ring",
+            "id": 268252,
+            "icon": "inv_121_jewelry_ring03_red"
+          }
+        ]
+      },
+      "2883": {
+        "8": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Coiled Hex Legguards",
+            "id": 268225,
+            "icon": "inv_pant_leather_raidmonkulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Visage",
+            "id": 275937,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          },
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Gaze",
+            "id": 275938,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Silken Voodoo Drape",
+            "id": 268253,
+            "icon": "inv_cape_leather_raidrogueulatek_d_01"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Sash of the Forlorn Vessel",
+            "id": 268256,
+            "icon": "inv_belt_leather_raiddruidulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Zul'jin's Guillotine Technique",
+            "id": 270173,
+            "icon": "inv_121_trinket_raid_ulatek_trolltablet"
+          }
+        ]
+      },
+      "2874": {
+        "10": [
+          {
+            "id": 268204,
+            "inventorySlotId": 13,
+            "name": "Ancient Construct's Venomshiv",
+            "handLabel": "1H",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Breath of Ula'tek",
+            "icon": "inv_knife_1h_ulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Mastery",
+              "Versatility"
+            ],
+            "name": "Shadow Hunter's Warmask",
+            "id": 268219,
+            "icon": "inv_helm_leather_raidrogueulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Sentinel's Vitriolic Chain",
+            "id": 268250,
+            "icon": "inv_121_jewelry_neck02_green"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [],
+            "name": "Venomcured Idol",
+            "id": 270911,
+            "icon": "inv_jewelcrafting_purpleserpent"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [],
+            "name": "Keeper's Seething Core",
+            "id": 270165,
+            "icon": "inv_121_trinket_raid_ulatek_golemhearts_green"
+          }
+        ]
+      },
+      "2894": {
+        "2": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Venomcured Remnant",
+            "id": 270923,
+            "icon": "inv_jewelcrafting_purpleserpent"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Unpossessed Skullsash",
+            "id": 268227,
+            "icon": "inv_belt_leather_raidrogueulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Gebbo's Bottomless Bag",
+            "id": 270164,
+            "icon": "inv_10_tailoring_bag1_color2"
+          }
+        ]
+      }
+    },
+    "65": {
+      "2887": {
+        "0": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [],
+            "name": "Venomforged Effigy",
+            "id": 270917,
+            "icon": "inv_jewelcrafting_rubyserpent"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Amulet of the Twin Fangs",
+            "id": 268251,
+            "icon": "inv_121_jewelry_neck01_red"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Scaleplate Strangulators",
+            "id": 268220,
+            "icon": "inv_glove_plate_raidpaladinulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Preternatural Antivenom",
+            "id": 270171,
+            "icon": "inv_11_0_dungeon_tentaclevial_green"
+          }
+        ]
+      },
+      "2895": {
+        "1": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Aqirbane Reliquary",
+            "id": 268265,
+            "icon": "inv_121_jewelry_neck03_green"
+          }
+        ],
+        "8": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Mastery"
+            ],
+            "name": "Chausses of Unbound Rancor",
+            "id": 271878,
+            "icon": "inv_pant_plate_raiddeathknightulatek_d_01"
+          }
+        ]
+      },
+      "2849": {
+        "2": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Swelling Sea Spaulders",
+            "id": 268226,
+            "icon": "inv_shoulder_plate_raidpaladinulatek_d_01"
+          }
+        ],
+        "11": [
+          {
+            "id": 268262,
+            "inventorySlotId": 14,
+            "name": "Bubblefin Splash Guard",
+            "handLabel": "OH",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "oh",
+            "weaponClass": "Shield",
+            "droppedBy": "Nymrissa Wavecaller",
+            "icon": "inv_shield_1h_ulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Alluring Bubbleband",
+            "id": 268266,
+            "icon": "inv_70_raid_ring8c"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Forgotten Grotto Girdle",
+            "id": 268244,
+            "icon": "inv_belt_plate_raiddeathknightulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste"
+            ],
+            "name": "Wavecaller's Seastone",
+            "id": 270167,
+            "icon": "inv_tradeskillitem_sorcererswater"
+          }
+        ]
+      },
+      "2888": {
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Versatility"
+            ],
+            "name": "Amani Summoning Shawl",
+            "id": 268248,
+            "icon": "inv_cape_leather_raidmonkulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Skullguard of the Risen Sacrifice",
+            "id": 268229,
+            "icon": "inv_helm_plate_raiddeathknightulatek_d_01"
+          },
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Soulcoiler's Rush'kah",
+            "id": 281227,
+            "icon": "inv_helm_armor_hextrollpriestess_d_01"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Entombed Cultist's Sabatons",
+            "id": 268245,
+            "icon": "inv_boot_plate_raidwarriorulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Soulcoiler Ritual Vessel",
+            "id": 270162,
+            "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+          }
+        ]
+      },
+      "2882": {
+        "12": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Vile Alchemist's Band",
+            "id": 268249,
+            "icon": "inv_121_jewelry_ring01_purple"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Scaled Fiend's Warboots",
+            "id": 268260,
+            "icon": "inv_boot_plate_raidpaladinulatek_d_01"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Venomforged Icon",
+            "id": 270929,
+            "icon": "inv_jewelcrafting_rubyserpent"
+          }
+        ]
+      },
+      "2871": {
+        "12": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Apex Brute's Claw Ring",
+            "id": 268252,
+            "icon": "inv_121_jewelry_ring03_red"
+          }
+        ],
+        "8": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [],
+            "name": "Venomforged Relic",
+            "id": 270921,
+            "icon": "inv_jewelcrafting_rubyserpent"
+          }
+        ]
+      },
+      "2883": {
+        "10": [
+          {
+            "id": 268211,
+            "inventorySlotId": 13,
+            "name": "Baleful Hexblade",
+            "handLabel": "1H",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "1h",
+            "weaponClass": "Sword",
+            "droppedBy": null,
+            "icon": "inv_sword_1h_ulatek_d_01"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Girdle of Toxic Regret",
+            "id": 268259,
+            "icon": "inv_belt_plate_raidpaladinulatek_d_01"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Reckless Spirit Breastplate",
+            "id": 268222,
+            "icon": "inv_chest_plate_raidwarriorulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste"
+            ],
+            "name": "Hex Lord's Dooming Idol",
+            "id": 270169,
+            "icon": "inv_archaeology_orcclans_crackedidol"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Silken Voodoo Drape",
+            "id": 268253,
+            "icon": "inv_cape_leather_raidrogueulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Visage",
+            "id": 275937,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          },
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Gaze",
+            "id": 275938,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          }
+        ]
+      },
+      "2874": {
+        "8": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Venom Warden's Greaves",
+            "id": 268224,
+            "icon": "inv_pant_plate_raidwarriorulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Sentinel's Vitriolic Chain",
+            "id": 268250,
+            "icon": "inv_121_jewelry_neck02_green"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [],
+            "name": "Venomforged Idol",
+            "id": 270913,
+            "icon": "inv_jewelcrafting_rubyserpent"
+          }
+        ]
+      },
+      "2894": {
+        "5": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Shellbound Bracers",
+            "id": 268239,
+            "icon": "inv_bracer_plate_raiddeathknightulatek_d_01"
+          }
+        ],
+        "10": [
+          {
+            "id": 268210,
+            "inventorySlotId": 13,
+            "name": "Malevolent Spiritcudgel",
+            "handLabel": "1H",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "hand": "1h",
+            "weaponClass": "Mace",
+            "droppedBy": "Mor'zahi",
+            "icon": "inv_mace_1h_ulatek_d_01"
+          }
+        ],
+        "2": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Venomforged Remnant",
+            "id": 270925,
+            "icon": "inv_jewelcrafting_rubyserpent"
+          }
+        ],
+        "11": [
+          {
+            "id": 268196,
+            "inventorySlotId": 14,
+            "name": "Venom-Slashed Scuteward",
+            "handLabel": "OH",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "hand": "oh",
+            "weaponClass": "Shield",
+            "droppedBy": "Mor'zahi",
+            "icon": "inv_shield_1h_ulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Gebbo's Bottomless Bag",
+            "id": 270164,
+            "icon": "inv_10_tailoring_bag1_color2"
+          }
+        ]
+      }
+    },
+    "250": {
+      "2887": {
+        "0": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [],
+            "name": "Venomforged Effigy",
+            "id": 270917,
+            "icon": "inv_jewelcrafting_rubyserpent"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Amulet of the Twin Fangs",
+            "id": 268251,
+            "icon": "inv_121_jewelry_neck01_red"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Scaleplate Strangulators",
+            "id": 268220,
+            "icon": "inv_glove_plate_raidpaladinulatek_d_01"
+          }
+        ]
+      },
+      "2895": {
+        "8": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Mastery"
+            ],
+            "name": "Chausses of Unbound Rancor",
+            "id": 271878,
+            "icon": "inv_pant_plate_raiddeathknightulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Aqirbane Reliquary",
+            "id": 268265,
+            "icon": "inv_121_jewelry_neck03_green"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Voracious Heart of Ula'tek",
+            "id": 270175,
+            "icon": "inv_121_trinket_raid_ulatek_heart"
+          }
+        ]
+      },
+      "2849": {
+        "2": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Swelling Sea Spaulders",
+            "id": 268226,
+            "icon": "inv_shoulder_plate_raidpaladinulatek_d_01"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Forgotten Grotto Girdle",
+            "id": 268244,
+            "icon": "inv_belt_plate_raiddeathknightulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Alluring Bubbleband",
+            "id": 268266,
+            "icon": "inv_70_raid_ring8c"
+          }
+        ]
+      },
+      "2888": {
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Versatility"
+            ],
+            "name": "Amani Summoning Shawl",
+            "id": 268248,
+            "icon": "inv_cape_leather_raidmonkulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Skullguard of the Risen Sacrifice",
+            "id": 268229,
+            "icon": "inv_helm_plate_raiddeathknightulatek_d_01"
+          },
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Soulcoiler's Rush'kah",
+            "id": 281227,
+            "icon": "inv_helm_armor_hextrollpriestess_d_01"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Entombed Cultist's Sabatons",
+            "id": 268245,
+            "icon": "inv_boot_plate_raidwarriorulatek_d_01"
+          }
+        ]
+      },
+      "2882": {
+        "12": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Vile Alchemist's Band",
+            "id": 268249,
+            "icon": "inv_121_jewelry_ring01_purple"
+          }
+        ],
+        "10": [
+          {
+            "id": 268214,
+            "inventorySlotId": 17,
+            "name": "Malignant Toothed Edge",
+            "handLabel": "2H",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "2h",
+            "weaponClass": "Sword",
+            "droppedBy": null,
+            "icon": "inv_sword_2h_ulatek_d_01"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Scaled Fiend's Warboots",
+            "id": 268260,
+            "icon": "inv_boot_plate_raidpaladinulatek_d_01"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Venomforged Icon",
+            "id": 270929,
+            "icon": "inv_jewelcrafting_rubyserpent"
+          }
+        ]
+      },
+      "2871": {
+        "12": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Apex Brute's Claw Ring",
+            "id": 268252,
+            "icon": "inv_121_jewelry_ring03_red"
+          }
+        ],
+        "8": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [],
+            "name": "Venomforged Relic",
+            "id": 270921,
+            "icon": "inv_jewelcrafting_rubyserpent"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [],
+            "name": "Sszorak's Ferocity",
+            "id": 270163,
+            "icon": "inv_121_trinket_raid_ulatek_ulatekclaw"
+          },
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Mastery"
+            ],
+            "name": "Idol of the Howling Nexus",
+            "id": 270174,
+            "icon": "inv_jewelcrafting_jadeserpent"
+          }
+        ]
+      },
+      "2883": {
+        "10": [
+          {
+            "id": 268213,
+            "inventorySlotId": 17,
+            "name": "Maze-roa, Warlord's Fury",
+            "handLabel": "2H",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "hand": "2h",
+            "weaponClass": "Axe",
+            "droppedBy": null,
+            "icon": "inv_axe_2h_ulatek_d_01"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Girdle of Toxic Regret",
+            "id": 268259,
+            "icon": "inv_belt_plate_raidpaladinulatek_d_01"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Reckless Spirit Breastplate",
+            "id": 268222,
+            "icon": "inv_chest_plate_raidwarriorulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Zul'jin's Guillotine Technique",
+            "id": 270173,
+            "icon": "inv_121_trinket_raid_ulatek_trolltablet"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Silken Voodoo Drape",
+            "id": 268253,
+            "icon": "inv_cape_leather_raidrogueulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Visage",
+            "id": 275937,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          },
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Gaze",
+            "id": 275938,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          }
+        ]
+      },
+      "2874": {
+        "10": [
+          {
+            "id": 268198,
+            "inventorySlotId": 17,
+            "name": "Caustic Keeper-Crusher",
+            "handLabel": "2H",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "hand": "2h",
+            "weaponClass": "Mace",
+            "droppedBy": "Breath of Ula'tek",
+            "icon": "inv_mace_2h_ulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Sentinel's Vitriolic Chain",
+            "id": 268250,
+            "icon": "inv_121_jewelry_neck02_green"
+          }
+        ],
+        "8": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Venom Warden's Greaves",
+            "id": 268224,
+            "icon": "inv_pant_plate_raidwarriorulatek_d_01"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [],
+            "name": "Venomforged Idol",
+            "id": 270913,
+            "icon": "inv_jewelcrafting_rubyserpent"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [],
+            "name": "Keeper's Seething Core",
+            "id": 270165,
+            "icon": "inv_121_trinket_raid_ulatek_golemhearts_green"
+          }
+        ]
+      },
+      "2894": {
+        "2": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Venomforged Remnant",
+            "id": 270925,
+            "icon": "inv_jewelcrafting_rubyserpent"
+          }
+        ],
+        "5": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Shellbound Bracers",
+            "id": 268239,
+            "icon": "inv_bracer_plate_raiddeathknightulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "First Mate's Shellward",
+            "id": 270160,
+            "icon": "inv_cape_special_turtleshell_c_02"
+          },
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Gebbo's Bottomless Bag",
+            "id": 270164,
+            "icon": "inv_10_tailoring_bag1_color2"
+          }
+        ]
+      }
+    },
+    "251": {
+      "2887": {
+        "0": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [],
+            "name": "Venomforged Effigy",
+            "id": 270917,
+            "icon": "inv_jewelcrafting_rubyserpent"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Amulet of the Twin Fangs",
+            "id": 268251,
+            "icon": "inv_121_jewelry_neck01_red"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Scaleplate Strangulators",
+            "id": 268220,
+            "icon": "inv_glove_plate_raidpaladinulatek_d_01"
+          }
+        ]
+      },
+      "2895": {
+        "10": [
+          {
+            "id": 268202,
+            "inventorySlotId": 13,
+            "name": "Jaw of the Shackled Goddess",
+            "handLabel": "1H",
+            "stats": [
+              "Haste"
+            ],
+            "hand": "1h",
+            "weaponClass": "Sword",
+            "droppedBy": "Ula'tek",
+            "icon": "inv_sword_1h_ulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Aqirbane Reliquary",
+            "id": 268265,
+            "icon": "inv_121_jewelry_neck03_green"
+          }
+        ],
+        "8": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Mastery"
+            ],
+            "name": "Chausses of Unbound Rancor",
+            "id": 271878,
+            "icon": "inv_pant_plate_raiddeathknightulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Mastery"
+            ],
+            "name": "Font of Venomous Rage",
+            "id": 270168,
+            "icon": "inv_10_dungeonjewelry_dragon_trinket_3djardintrophy_green"
+          },
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Voracious Heart of Ula'tek",
+            "id": 270175,
+            "icon": "inv_121_trinket_raid_ulatek_heart"
+          }
+        ]
+      },
+      "2849": {
+        "2": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Swelling Sea Spaulders",
+            "id": 268226,
+            "icon": "inv_shoulder_plate_raidpaladinulatek_d_01"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Forgotten Grotto Girdle",
+            "id": 268244,
+            "icon": "inv_belt_plate_raiddeathknightulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Alluring Bubbleband",
+            "id": 268266,
+            "icon": "inv_70_raid_ring8c"
+          }
+        ]
+      },
+      "2888": {
+        "10": [
+          {
+            "id": 268208,
+            "inventorySlotId": 13,
+            "name": "Strongblood's Ceremonial Cleaver",
+            "handLabel": "1H",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "hand": "1h",
+            "weaponClass": "Axe",
+            "droppedBy": null,
+            "icon": "inv_axe_1h_ulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Skullguard of the Risen Sacrifice",
+            "id": 268229,
+            "icon": "inv_helm_plate_raiddeathknightulatek_d_01"
+          },
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Soulcoiler's Rush'kah",
+            "id": 281227,
+            "icon": "inv_helm_armor_hextrollpriestess_d_01"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Entombed Cultist's Sabatons",
+            "id": 268245,
+            "icon": "inv_boot_plate_raidwarriorulatek_d_01"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Versatility"
+            ],
+            "name": "Amani Summoning Shawl",
+            "id": 268248,
+            "icon": "inv_cape_leather_raidmonkulatek_d_01"
+          }
+        ]
+      },
+      "2882": {
+        "12": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Vile Alchemist's Band",
+            "id": 268249,
+            "icon": "inv_121_jewelry_ring01_purple"
+          }
+        ],
+        "10": [
+          {
+            "id": 268214,
+            "inventorySlotId": 17,
+            "name": "Malignant Toothed Edge",
+            "handLabel": "2H",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "2h",
+            "weaponClass": "Sword",
+            "droppedBy": null,
+            "icon": "inv_sword_2h_ulatek_d_01"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Scaled Fiend's Warboots",
+            "id": 268260,
+            "icon": "inv_boot_plate_raidpaladinulatek_d_01"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Venomforged Icon",
+            "id": 270929,
+            "icon": "inv_jewelcrafting_rubyserpent"
+          }
+        ]
+      },
+      "2871": {
+        "12": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Apex Brute's Claw Ring",
+            "id": 268252,
+            "icon": "inv_121_jewelry_ring03_red"
+          }
+        ],
+        "8": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [],
+            "name": "Venomforged Relic",
+            "id": 270921,
+            "icon": "inv_jewelcrafting_rubyserpent"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [],
+            "name": "Sszorak's Ferocity",
+            "id": 270163,
+            "icon": "inv_121_trinket_raid_ulatek_ulatekclaw"
+          }
+        ]
+      },
+      "2883": {
+        "10": [
+          {
+            "id": 268209,
+            "inventorySlotId": 21,
+            "name": "Aman'muso, Warlord's Vengeance",
+            "handLabel": "1H",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "1h",
+            "weaponClass": "Axe",
+            "droppedBy": null,
+            "icon": "inv_axe_1h_ulatek_d_01"
+          },
+          {
+            "id": 268213,
+            "inventorySlotId": 17,
+            "name": "Maze-roa, Warlord's Fury",
+            "handLabel": "2H",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "hand": "2h",
+            "weaponClass": "Axe",
+            "droppedBy": null,
+            "icon": "inv_axe_2h_ulatek_d_01"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Girdle of Toxic Regret",
+            "id": 268259,
+            "icon": "inv_belt_plate_raidpaladinulatek_d_01"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Reckless Spirit Breastplate",
+            "id": 268222,
+            "icon": "inv_chest_plate_raidwarriorulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Zul'jin's Guillotine Technique",
+            "id": 270173,
+            "icon": "inv_121_trinket_raid_ulatek_trolltablet"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Silken Voodoo Drape",
+            "id": 268253,
+            "icon": "inv_cape_leather_raidrogueulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Visage",
+            "id": 275937,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          },
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Gaze",
+            "id": 275938,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          }
+        ]
+      },
+      "2874": {
+        "10": [
+          {
+            "id": 268198,
+            "inventorySlotId": 17,
+            "name": "Caustic Keeper-Crusher",
+            "handLabel": "2H",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "hand": "2h",
+            "weaponClass": "Mace",
+            "droppedBy": "Breath of Ula'tek",
+            "icon": "inv_mace_2h_ulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Sentinel's Vitriolic Chain",
+            "id": 268250,
+            "icon": "inv_121_jewelry_neck02_green"
+          }
+        ],
+        "8": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Venom Warden's Greaves",
+            "id": 268224,
+            "icon": "inv_pant_plate_raidwarriorulatek_d_01"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [],
+            "name": "Venomforged Idol",
+            "id": 270913,
+            "icon": "inv_jewelcrafting_rubyserpent"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [],
+            "name": "Keeper's Seething Core",
+            "id": 270165,
+            "icon": "inv_121_trinket_raid_ulatek_golemhearts_green"
+          }
+        ]
+      },
+      "2894": {
+        "2": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Venomforged Remnant",
+            "id": 270925,
+            "icon": "inv_jewelcrafting_rubyserpent"
+          }
+        ],
+        "5": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Shellbound Bracers",
+            "id": 268239,
+            "icon": "inv_bracer_plate_raiddeathknightulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Gebbo's Bottomless Bag",
+            "id": 270164,
+            "icon": "inv_10_tailoring_bag1_color2"
+          }
+        ]
+      }
+    },
+    "1473": {
+      "2887": {
+        "4": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Ophidian Fangmail",
+            "id": 268223,
+            "icon": "inv_chest_mail_raidhunterulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [],
+            "name": "Venomcast Effigy",
+            "id": 270916,
+            "icon": "inv_jewelcrafting_goldenserpent"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Amulet of the Twin Fangs",
+            "id": 268251,
+            "icon": "inv_121_jewelry_neck01_red"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [],
+            "name": "Vexhul's Everflowing Gland",
+            "id": 270170,
+            "icon": "inv_11_0_misc_organmass_color3"
+          }
+        ]
+      },
+      "2895": {
+        "13": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Mastery"
+            ],
+            "name": "Font of Venomous Rage",
+            "id": 270168,
+            "icon": "inv_10_dungeonjewelry_dragon_trinket_3djardintrophy_green"
+          }
+        ],
+        "10": [
+          {
+            "id": 271092,
+            "inventorySlotId": 13,
+            "name": "Jan'thrazet, the Soul Fang",
+            "handLabel": "1H",
+            "stats": [
+              "Haste"
+            ],
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Ula'tek",
+            "icon": "inv_knife_1h_ulatekfang_d_01_spirit"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Aqirbane Reliquary",
+            "id": 268265,
+            "icon": "inv_121_jewelry_neck03_green"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Awoken Dreadfang Cuirass",
+            "id": 271876,
+            "icon": "inv_chest_mail_raidevokerulatek_d_01"
+          }
+        ]
+      },
+      "2849": {
+        "5": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Rising Tide Wristguards",
+            "id": 268217,
+            "icon": "inv_bracer_mail_raidhunterulatek_d_01"
+          }
+        ],
+        "11": [
+          {
+            "id": 268263,
+            "inventorySlotId": 23,
+            "name": "Frostscale's Mystic Frond",
+            "handLabel": "OH",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Nymrissa Wavecaller",
+            "icon": "inv_offhand_1h_ulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Alluring Bubbleband",
+            "id": 268266,
+            "icon": "inv_70_raid_ring8c"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Grips of Swirling Fury",
+            "id": 268238,
+            "icon": "inv_glove_mail_raidevokerulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste"
+            ],
+            "name": "Wavecaller's Seastone",
+            "id": 270167,
+            "icon": "inv_tradeskillitem_sorcererswater"
+          }
+        ]
+      },
+      "2888": {
+        "10": [
+          {
+            "id": 268203,
+            "inventorySlotId": 13,
+            "name": "Hexing Spiritrender",
+            "handLabel": "1H",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": null,
+            "icon": "inv_knife_1h_ulatek_d_02"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Crown of the Eternal Fang",
+            "id": 268230,
+            "icon": "inv_helm_mail_raidshamanulatek_d_01"
+          },
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Soulcoiler's Rush'kah",
+            "id": 281227,
+            "icon": "inv_helm_armor_hextrollpriestess_d_01"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Versatility"
+            ],
+            "name": "Amani Summoning Shawl",
+            "id": 268248,
+            "icon": "inv_cape_leather_raidmonkulatek_d_01"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Versatility"
+            ],
+            "name": "Cursed Reliquary Cincture",
+            "id": 268216,
+            "icon": "inv_belt_mail_raidevokerulatek_d_01"
+          }
+        ]
+      },
+      "2882": {
+        "12": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Vile Alchemist's Band",
+            "id": 268249,
+            "icon": "inv_121_jewelry_ring01_purple"
+          }
+        ],
+        "10": [
+          {
+            "id": 268205,
+            "inventorySlotId": 17,
+            "name": "Venomancer's Winged Channeler",
+            "handLabel": "2H",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": null,
+            "icon": "inv_staff_2h_ulatek_d_02"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Fang of Umbral Malignance",
+            "id": 270161,
+            "icon": "inv_121_trinket_raid_ulatek_fang_purple"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Serpentine Mixing Belt",
+            "id": 268254,
+            "icon": "inv_belt_mail_raidshamanulatek_d_01"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Venomcast Icon",
+            "id": 270928,
+            "icon": "inv_jewelcrafting_goldenserpent"
+          }
+        ]
+      },
+      "2871": {
+        "8": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [],
+            "name": "Venomcast Relic",
+            "id": 270920,
+            "icon": "inv_jewelcrafting_goldenserpent"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Ferocious Scaleboots",
+            "id": 268233,
+            "icon": "inv_boot_mail_raidhunterulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Apex Brute's Claw Ring",
+            "id": 268252,
+            "icon": "inv_121_jewelry_ring03_red"
+          }
+        ]
+      },
+      "2883": {
+        "10": [
+          {
+            "id": 268211,
+            "inventorySlotId": 13,
+            "name": "Baleful Hexblade",
+            "handLabel": "1H",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "1h",
+            "weaponClass": "Sword",
+            "droppedBy": null,
+            "icon": "inv_sword_1h_ulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste"
+            ],
+            "name": "Hex Lord's Dooming Idol",
+            "id": 270169,
+            "icon": "inv_archaeology_orcclans_crackedidol"
+          }
+        ],
+        "8": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Cuisses of the Uncoiled Union",
+            "id": 268237,
+            "icon": "inv_pant_mail_raidevokerulatek_d_01"
+          }
+        ],
+        "2": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Soulslither Spaulders",
+            "id": 268231,
+            "icon": "inv_shoulder_mail_raidshamanulatek_d_01"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Silken Voodoo Drape",
+            "id": 268253,
+            "icon": "inv_cape_leather_raidrogueulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Visage",
+            "id": 275937,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          },
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Gaze",
+            "id": 275938,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          }
+        ]
+      },
+      "2874": {
+        "11": [
+          {
+            "id": 268197,
+            "inventorySlotId": 23,
+            "name": "Spine of the Hissing Abyss",
+            "handLabel": "OH",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Breath of Ula'tek",
+            "icon": "inv_offhand_1h_ulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Sentinel's Vitriolic Chain",
+            "id": 268250,
+            "icon": "inv_121_jewelry_neck02_green"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [],
+            "name": "Venomcast Idol",
+            "id": 270912,
+            "icon": "inv_jewelcrafting_goldenserpent"
+          }
+        ]
+      },
+      "2894": {
+        "2": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Venomcast Remnant",
+            "id": 270924,
+            "icon": "inv_jewelcrafting_goldenserpent"
+          }
+        ],
+        "10": [
+          {
+            "id": 268210,
+            "inventorySlotId": 13,
+            "name": "Malevolent Spiritcudgel",
+            "handLabel": "1H",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "hand": "1h",
+            "weaponClass": "Mace",
+            "droppedBy": "Mor'zahi",
+            "icon": "inv_mace_1h_ulatek_d_01"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Boots of the Reckless Wayfarer",
+            "id": 268258,
+            "icon": "inv_boot_mail_raidevokerulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Gebbo's Bottomless Bag",
+            "id": 270164,
+            "icon": "inv_10_tailoring_bag1_color2"
+          }
+        ]
+      }
+    },
+    "253": {
+      "2887": {
+        "0": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [],
+            "name": "Venomcast Effigy",
+            "id": 270916,
+            "icon": "inv_jewelcrafting_goldenserpent"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Amulet of the Twin Fangs",
+            "id": 268251,
+            "icon": "inv_121_jewelry_neck01_red"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Ophidian Fangmail",
+            "id": 268223,
+            "icon": "inv_chest_mail_raidhunterulatek_d_01"
+          }
+        ]
+      },
+      "2895": {
+        "13": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Mastery"
+            ],
+            "name": "Font of Venomous Rage",
+            "id": 270168,
+            "icon": "inv_10_dungeonjewelry_dragon_trinket_3djardintrophy_green"
+          },
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Voracious Heart of Ula'tek",
+            "id": 270175,
+            "icon": "inv_121_trinket_raid_ulatek_heart"
+          }
+        ],
+        "10": [
+          {
+            "id": 268207,
+            "inventorySlotId": 15,
+            "name": "Caustic Repose Greatbow",
+            "handLabel": "Ranged",
+            "stats": [
+              "Crit"
+            ],
+            "hand": "ranged",
+            "weaponClass": "Bow",
+            "droppedBy": "Ula'tek",
+            "icon": "inv_bow_1h_ulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Aqirbane Reliquary",
+            "id": 268265,
+            "icon": "inv_121_jewelry_neck03_green"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Awoken Dreadfang Cuirass",
+            "id": 271876,
+            "icon": "inv_chest_mail_raidevokerulatek_d_01"
+          }
+        ]
+      },
+      "2849": {
+        "5": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Rising Tide Wristguards",
+            "id": 268217,
+            "icon": "inv_bracer_mail_raidhunterulatek_d_01"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Grips of Swirling Fury",
+            "id": 268238,
+            "icon": "inv_glove_mail_raidevokerulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Alluring Bubbleband",
+            "id": 268266,
+            "icon": "inv_70_raid_ring8c"
+          }
+        ]
+      },
+      "2888": {
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Versatility"
+            ],
+            "name": "Amani Summoning Shawl",
+            "id": 268248,
+            "icon": "inv_cape_leather_raidmonkulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Crown of the Eternal Fang",
+            "id": 268230,
+            "icon": "inv_helm_mail_raidshamanulatek_d_01"
+          },
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Soulcoiler's Rush'kah",
+            "id": 281227,
+            "icon": "inv_helm_armor_hextrollpriestess_d_01"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Versatility"
+            ],
+            "name": "Cursed Reliquary Cincture",
+            "id": 268216,
+            "icon": "inv_belt_mail_raidevokerulatek_d_01"
+          }
+        ]
+      },
+      "2882": {
+        "12": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Vile Alchemist's Band",
+            "id": 268249,
+            "icon": "inv_121_jewelry_ring01_purple"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Vashnik's Sanguine Rancor",
+            "id": 270166,
+            "icon": "inv_11_0_raid_gruesomesyringe_blue"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Serpentine Mixing Belt",
+            "id": 268254,
+            "icon": "inv_belt_mail_raidshamanulatek_d_01"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Venomcast Icon",
+            "id": 270928,
+            "icon": "inv_jewelcrafting_goldenserpent"
+          }
+        ]
+      },
+      "2871": {
+        "8": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [],
+            "name": "Venomcast Relic",
+            "id": 270920,
+            "icon": "inv_jewelcrafting_goldenserpent"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Ferocious Scaleboots",
+            "id": 268233,
+            "icon": "inv_boot_mail_raidhunterulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Apex Brute's Claw Ring",
+            "id": 268252,
+            "icon": "inv_121_jewelry_ring03_red"
+          }
+        ]
+      },
+      "2883": {
+        "2": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Soulslither Spaulders",
+            "id": 268231,
+            "icon": "inv_shoulder_mail_raidshamanulatek_d_01"
+          }
+        ],
+        "8": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Cuisses of the Uncoiled Union",
+            "id": 268237,
+            "icon": "inv_pant_mail_raidevokerulatek_d_01"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Silken Voodoo Drape",
+            "id": 268253,
+            "icon": "inv_cape_leather_raidrogueulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Zul'jin's Guillotine Technique",
+            "id": 270173,
+            "icon": "inv_121_trinket_raid_ulatek_trolltablet"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Visage",
+            "id": 275937,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          },
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Gaze",
+            "id": 275938,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          }
+        ]
+      },
+      "2874": {
+        "1": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Sentinel's Vitriolic Chain",
+            "id": 268250,
+            "icon": "inv_121_jewelry_neck02_green"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [],
+            "name": "Venomcast Idol",
+            "id": 270912,
+            "icon": "inv_jewelcrafting_goldenserpent"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [],
+            "name": "Keeper's Seething Core",
+            "id": 270165,
+            "icon": "inv_121_trinket_raid_ulatek_golemhearts_green"
+          }
+        ]
+      },
+      "2894": {
+        "2": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Venomcast Remnant",
+            "id": 270924,
+            "icon": "inv_jewelcrafting_goldenserpent"
+          }
+        ],
+        "10": [
+          {
+            "id": 268200,
+            "inventorySlotId": 15,
+            "name": "Gebbo's Backup Blaster",
+            "handLabel": "Ranged",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "ranged",
+            "weaponClass": "Gun",
+            "droppedBy": "Mor'zahi",
+            "icon": "inv_firearm_2h_ulatek_d_01"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Boots of the Reckless Wayfarer",
+            "id": 268258,
+            "icon": "inv_boot_mail_raidevokerulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Gebbo's Bottomless Bag",
+            "id": 270164,
+            "icon": "inv_10_tailoring_bag1_color2"
+          }
+        ]
+      }
+    },
+    "254": {
+      "2887": {
+        "0": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [],
+            "name": "Venomcast Effigy",
+            "id": 270916,
+            "icon": "inv_jewelcrafting_goldenserpent"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Amulet of the Twin Fangs",
+            "id": 268251,
+            "icon": "inv_121_jewelry_neck01_red"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Ophidian Fangmail",
+            "id": 268223,
+            "icon": "inv_chest_mail_raidhunterulatek_d_01"
+          }
+        ]
+      },
+      "2895": {
+        "13": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Mastery"
+            ],
+            "name": "Font of Venomous Rage",
+            "id": 270168,
+            "icon": "inv_10_dungeonjewelry_dragon_trinket_3djardintrophy_green"
+          },
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Voracious Heart of Ula'tek",
+            "id": 270175,
+            "icon": "inv_121_trinket_raid_ulatek_heart"
+          }
+        ],
+        "10": [
+          {
+            "id": 268207,
+            "inventorySlotId": 15,
+            "name": "Caustic Repose Greatbow",
+            "handLabel": "Ranged",
+            "stats": [
+              "Crit"
+            ],
+            "hand": "ranged",
+            "weaponClass": "Bow",
+            "droppedBy": "Ula'tek",
+            "icon": "inv_bow_1h_ulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Aqirbane Reliquary",
+            "id": 268265,
+            "icon": "inv_121_jewelry_neck03_green"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Awoken Dreadfang Cuirass",
+            "id": 271876,
+            "icon": "inv_chest_mail_raidevokerulatek_d_01"
+          }
+        ]
+      },
+      "2849": {
+        "5": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Rising Tide Wristguards",
+            "id": 268217,
+            "icon": "inv_bracer_mail_raidhunterulatek_d_01"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Grips of Swirling Fury",
+            "id": 268238,
+            "icon": "inv_glove_mail_raidevokerulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Alluring Bubbleband",
+            "id": 268266,
+            "icon": "inv_70_raid_ring8c"
+          }
+        ]
+      },
+      "2888": {
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Versatility"
+            ],
+            "name": "Amani Summoning Shawl",
+            "id": 268248,
+            "icon": "inv_cape_leather_raidmonkulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Crown of the Eternal Fang",
+            "id": 268230,
+            "icon": "inv_helm_mail_raidshamanulatek_d_01"
+          },
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Soulcoiler's Rush'kah",
+            "id": 281227,
+            "icon": "inv_helm_armor_hextrollpriestess_d_01"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Versatility"
+            ],
+            "name": "Cursed Reliquary Cincture",
+            "id": 268216,
+            "icon": "inv_belt_mail_raidevokerulatek_d_01"
+          }
+        ]
+      },
+      "2882": {
+        "12": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Vile Alchemist's Band",
+            "id": 268249,
+            "icon": "inv_121_jewelry_ring01_purple"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Vashnik's Sanguine Rancor",
+            "id": 270166,
+            "icon": "inv_11_0_raid_gruesomesyringe_blue"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Serpentine Mixing Belt",
+            "id": 268254,
+            "icon": "inv_belt_mail_raidshamanulatek_d_01"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Venomcast Icon",
+            "id": 270928,
+            "icon": "inv_jewelcrafting_goldenserpent"
+          }
+        ]
+      },
+      "2871": {
+        "8": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [],
+            "name": "Venomcast Relic",
+            "id": 270920,
+            "icon": "inv_jewelcrafting_goldenserpent"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Ferocious Scaleboots",
+            "id": 268233,
+            "icon": "inv_boot_mail_raidhunterulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Apex Brute's Claw Ring",
+            "id": 268252,
+            "icon": "inv_121_jewelry_ring03_red"
+          }
+        ]
+      },
+      "2883": {
+        "2": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Soulslither Spaulders",
+            "id": 268231,
+            "icon": "inv_shoulder_mail_raidshamanulatek_d_01"
+          }
+        ],
+        "8": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Cuisses of the Uncoiled Union",
+            "id": 268237,
+            "icon": "inv_pant_mail_raidevokerulatek_d_01"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Silken Voodoo Drape",
+            "id": 268253,
+            "icon": "inv_cape_leather_raidrogueulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Zul'jin's Guillotine Technique",
+            "id": 270173,
+            "icon": "inv_121_trinket_raid_ulatek_trolltablet"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Visage",
+            "id": 275937,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          },
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Gaze",
+            "id": 275938,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          }
+        ]
+      },
+      "2874": {
+        "1": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Sentinel's Vitriolic Chain",
+            "id": 268250,
+            "icon": "inv_121_jewelry_neck02_green"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [],
+            "name": "Venomcast Idol",
+            "id": 270912,
+            "icon": "inv_jewelcrafting_goldenserpent"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [],
+            "name": "Keeper's Seething Core",
+            "id": 270165,
+            "icon": "inv_121_trinket_raid_ulatek_golemhearts_green"
+          }
+        ]
+      },
+      "2894": {
+        "2": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Venomcast Remnant",
+            "id": 270924,
+            "icon": "inv_jewelcrafting_goldenserpent"
+          }
+        ],
+        "10": [
+          {
+            "id": 268200,
+            "inventorySlotId": 15,
+            "name": "Gebbo's Backup Blaster",
+            "handLabel": "Ranged",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "ranged",
+            "weaponClass": "Gun",
+            "droppedBy": "Mor'zahi",
+            "icon": "inv_firearm_2h_ulatek_d_01"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Boots of the Reckless Wayfarer",
+            "id": 268258,
+            "icon": "inv_boot_mail_raidevokerulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Gebbo's Bottomless Bag",
+            "id": 270164,
+            "icon": "inv_10_tailoring_bag1_color2"
+          }
+        ]
+      }
+    },
+    "255": {
+      "2887": {
+        "10": [
+          {
+            "id": 268264,
+            "inventorySlotId": 13,
+            "name": "Ravenous Feaster's Fang",
+            "handLabel": "1H",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Vexhul",
+            "icon": "inv_knife_1h_ulatek_d_02"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [],
+            "name": "Venomcast Effigy",
+            "id": 270916,
+            "icon": "inv_jewelcrafting_goldenserpent"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Amulet of the Twin Fangs",
+            "id": 268251,
+            "icon": "inv_121_jewelry_neck01_red"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Ophidian Fangmail",
+            "id": 268223,
+            "icon": "inv_chest_mail_raidhunterulatek_d_01"
+          }
+        ]
+      },
+      "2895": {
+        "13": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Mastery"
+            ],
+            "name": "Font of Venomous Rage",
+            "id": 270168,
+            "icon": "inv_10_dungeonjewelry_dragon_trinket_3djardintrophy_green"
+          },
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Voracious Heart of Ula'tek",
+            "id": 270175,
+            "icon": "inv_121_trinket_raid_ulatek_heart"
+          }
+        ],
+        "10": [
+          {
+            "id": 268215,
+            "inventorySlotId": 17,
+            "name": "Abyssal Broodfiend's Bardiche",
+            "handLabel": "2H",
+            "stats": [
+              "Mastery"
+            ],
+            "hand": "2h",
+            "weaponClass": "Polearm",
+            "droppedBy": "Ula'tek",
+            "icon": "inv_polearm_2h_ulatek_d_01"
+          },
+          {
+            "id": 271093,
+            "inventorySlotId": 13,
+            "name": "Zatha'tek, Breath of Corruption",
+            "handLabel": "1H",
+            "stats": [
+              "Crit"
+            ],
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Ula'tek",
+            "icon": "inv_knife_1h_ulatekfang_d_01_poison"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Aqirbane Reliquary",
+            "id": 268265,
+            "icon": "inv_121_jewelry_neck03_green"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Awoken Dreadfang Cuirass",
+            "id": 271876,
+            "icon": "inv_chest_mail_raidevokerulatek_d_01"
+          }
+        ]
+      },
+      "2849": {
+        "5": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Rising Tide Wristguards",
+            "id": 268217,
+            "icon": "inv_bracer_mail_raidhunterulatek_d_01"
+          }
+        ],
+        "10": [
+          {
+            "id": 268199,
+            "inventorySlotId": 17,
+            "name": "Tidepiercer's Bubble Popper",
+            "handLabel": "2H",
+            "stats": [
+              "Crit",
+              "Versatility"
+            ],
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": "Nymrissa Wavecaller",
+            "icon": "inv_staff_2h_ulatek_d_01"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Grips of Swirling Fury",
+            "id": 268238,
+            "icon": "inv_glove_mail_raidevokerulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Alluring Bubbleband",
+            "id": 268266,
+            "icon": "inv_70_raid_ring8c"
+          }
+        ]
+      },
+      "2888": {
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Versatility"
+            ],
+            "name": "Amani Summoning Shawl",
+            "id": 268248,
+            "icon": "inv_cape_leather_raidmonkulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Crown of the Eternal Fang",
+            "id": 268230,
+            "icon": "inv_helm_mail_raidshamanulatek_d_01"
+          },
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Soulcoiler's Rush'kah",
+            "id": 281227,
+            "icon": "inv_helm_armor_hextrollpriestess_d_01"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Versatility"
+            ],
+            "name": "Cursed Reliquary Cincture",
+            "id": 268216,
+            "icon": "inv_belt_mail_raidevokerulatek_d_01"
+          }
+        ]
+      },
+      "2882": {
+        "12": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Vile Alchemist's Band",
+            "id": 268249,
+            "icon": "inv_121_jewelry_ring01_purple"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Vashnik's Sanguine Rancor",
+            "id": 270166,
+            "icon": "inv_11_0_raid_gruesomesyringe_blue"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Serpentine Mixing Belt",
+            "id": 268254,
+            "icon": "inv_belt_mail_raidshamanulatek_d_01"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Venomcast Icon",
+            "id": 270928,
+            "icon": "inv_jewelcrafting_goldenserpent"
+          }
+        ]
+      },
+      "2871": {
+        "8": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [],
+            "name": "Venomcast Relic",
+            "id": 270920,
+            "icon": "inv_jewelcrafting_goldenserpent"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Ferocious Scaleboots",
+            "id": 268233,
+            "icon": "inv_boot_mail_raidhunterulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Apex Brute's Claw Ring",
+            "id": 268252,
+            "icon": "inv_121_jewelry_ring03_red"
+          }
+        ]
+      },
+      "2883": {
+        "10": [
+          {
+            "id": 268209,
+            "inventorySlotId": 21,
+            "name": "Aman'muso, Warlord's Vengeance",
+            "handLabel": "1H",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "1h",
+            "weaponClass": "Axe",
+            "droppedBy": null,
+            "icon": "inv_axe_1h_ulatek_d_01"
+          },
+          {
+            "id": 268213,
+            "inventorySlotId": 17,
+            "name": "Maze-roa, Warlord's Fury",
+            "handLabel": "2H",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "hand": "2h",
+            "weaponClass": "Axe",
+            "droppedBy": null,
+            "icon": "inv_axe_2h_ulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Zul'jin's Guillotine Technique",
+            "id": 270173,
+            "icon": "inv_121_trinket_raid_ulatek_trolltablet"
+          }
+        ],
+        "8": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Cuisses of the Uncoiled Union",
+            "id": 268237,
+            "icon": "inv_pant_mail_raidevokerulatek_d_01"
+          }
+        ],
+        "2": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Soulslither Spaulders",
+            "id": 268231,
+            "icon": "inv_shoulder_mail_raidshamanulatek_d_01"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Silken Voodoo Drape",
+            "id": 268253,
+            "icon": "inv_cape_leather_raidrogueulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Visage",
+            "id": 275937,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          },
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Gaze",
+            "id": 275938,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          }
+        ]
+      },
+      "2874": {
+        "10": [
+          {
+            "id": 268204,
+            "inventorySlotId": 13,
+            "name": "Ancient Construct's Venomshiv",
+            "handLabel": "1H",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Breath of Ula'tek",
+            "icon": "inv_knife_1h_ulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Sentinel's Vitriolic Chain",
+            "id": 268250,
+            "icon": "inv_121_jewelry_neck02_green"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [],
+            "name": "Venomcast Idol",
+            "id": 270912,
+            "icon": "inv_jewelcrafting_goldenserpent"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [],
+            "name": "Keeper's Seething Core",
+            "id": 270165,
+            "icon": "inv_121_trinket_raid_ulatek_golemhearts_green"
+          }
+        ]
+      },
+      "2894": {
+        "2": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Venomcast Remnant",
+            "id": 270924,
+            "icon": "inv_jewelcrafting_goldenserpent"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Boots of the Reckless Wayfarer",
+            "id": 268258,
+            "icon": "inv_boot_mail_raidevokerulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Gebbo's Bottomless Bag",
+            "id": 270164,
+            "icon": "inv_10_tailoring_bag1_color2"
+          }
+        ]
+      }
+    },
+    "256": {
+      "2887": {
+        "2": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Ornaments of the Eternal Coil",
+            "id": 268241,
+            "icon": "inv_shoulder_cloth_raidmageulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [],
+            "name": "Venomwoven Effigy",
+            "id": 270914,
+            "icon": "inv_jewelcrafting_azureserpent"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Amulet of the Twin Fangs",
+            "id": 268251,
+            "icon": "inv_121_jewelry_neck01_red"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Preternatural Antivenom",
+            "id": 270171,
+            "icon": "inv_11_0_dungeon_tentaclevial_green"
+          }
+        ]
+      },
+      "2895": {
+        "10": [
+          {
+            "id": 271092,
+            "inventorySlotId": 13,
+            "name": "Jan'thrazet, the Soul Fang",
+            "handLabel": "1H",
+            "stats": [
+              "Haste"
+            ],
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Ula'tek",
+            "icon": "inv_knife_1h_ulatekfang_d_01_spirit"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Mastery"
+            ],
+            "name": "Venomkeeper's Horrific Cowl",
+            "id": 271874,
+            "icon": "inv_helm_cloth_raidwarlockulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Aqirbane Reliquary",
+            "id": 268265,
+            "icon": "inv_121_jewelry_neck03_green"
+          }
+        ]
+      },
+      "2849": {
+        "4": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Tidebound Sorcereress's Robes",
+            "id": 268221,
+            "icon": "inv_robe_cloth_raidwarlockulatek_d_01"
+          }
+        ],
+        "11": [
+          {
+            "id": 268263,
+            "inventorySlotId": 23,
+            "name": "Frostscale's Mystic Frond",
+            "handLabel": "OH",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Nymrissa Wavecaller",
+            "icon": "inv_offhand_1h_ulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste"
+            ],
+            "name": "Wavecaller's Seastone",
+            "id": 270167,
+            "icon": "inv_tradeskillitem_sorcererswater"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Crit",
+              "Versatility"
+            ],
+            "name": "Cincture of the Abyssal Grotto",
+            "id": 268232,
+            "icon": "inv_belt_cloth_raidmageulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Alluring Bubbleband",
+            "id": 268266,
+            "icon": "inv_70_raid_ring8c"
+          }
+        ]
+      },
+      "2888": {
+        "10": [
+          {
+            "id": 268203,
+            "inventorySlotId": 13,
+            "name": "Hexing Spiritrender",
+            "handLabel": "1H",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": null,
+            "icon": "inv_knife_1h_ulatek_d_02"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Soulcoiler Ritual Vessel",
+            "id": 270162,
+            "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+          }
+        ],
+        "8": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Mastery",
+              "Versatility"
+            ],
+            "name": "Initiate's Sacrificial Tights",
+            "id": 268236,
+            "icon": "inv_pant_cloth_raidpriestulatek_d_01"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Nek'zali's Spiritwalkers",
+            "id": 268218,
+            "icon": "inv_boot_cloth_raidpriestulatek_d_01"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Versatility"
+            ],
+            "name": "Amani Summoning Shawl",
+            "id": 268248,
+            "icon": "inv_cape_leather_raidmonkulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Soulcoiler's Rush'kah",
+            "id": 281227,
+            "icon": "inv_helm_armor_hextrollpriestess_d_01"
+          }
+        ]
+      },
+      "2882": {
+        "12": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Vile Alchemist's Band",
+            "id": 268249,
+            "icon": "inv_121_jewelry_ring01_purple"
+          }
+        ],
+        "10": [
+          {
+            "id": 268205,
+            "inventorySlotId": 17,
+            "name": "Venomancer's Winged Channeler",
+            "handLabel": "2H",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": null,
+            "icon": "inv_staff_2h_ulatek_d_02"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Venomwoven Icon",
+            "id": 270926,
+            "icon": "inv_jewelcrafting_azureserpent"
+          }
+        ]
+      },
+      "2871": {
+        "8": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [],
+            "name": "Venomwoven Relic",
+            "id": 270918,
+            "icon": "inv_jewelcrafting_azureserpent"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Caustic Chain-Wrapped Sash",
+            "id": 268257,
+            "icon": "inv_belt_cloth_raidwarlockulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Apex Brute's Claw Ring",
+            "id": 268252,
+            "icon": "inv_121_jewelry_ring03_red"
+          }
+        ]
+      },
+      "2883": {
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Silken Voodoo Drape",
+            "id": 268253,
+            "icon": "inv_cape_leather_raidrogueulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Visage",
+            "id": 275937,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          },
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Gaze",
+            "id": 275938,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Cackling Soultreads",
+            "id": 268255,
+            "icon": "inv_boot_cloth_raidmageulatek_d_01"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Grasps of the Eternal Shadow",
+            "id": 268243,
+            "icon": "inv_glove_cloth_raidwarlockulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste"
+            ],
+            "name": "Hex Lord's Dooming Idol",
+            "id": 270169,
+            "icon": "inv_archaeology_orcclans_crackedidol"
+          }
+        ]
+      },
+      "2874": {
+        "5": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Venom-Singed Cuffs",
+            "id": 268228,
+            "icon": "inv_bracer_cloth_raidmageulatek_d_01"
+          }
+        ],
+        "11": [
+          {
+            "id": 268197,
+            "inventorySlotId": 23,
+            "name": "Spine of the Hissing Abyss",
+            "handLabel": "OH",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Breath of Ula'tek",
+            "icon": "inv_offhand_1h_ulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Sentinel's Vitriolic Chain",
+            "id": 268250,
+            "icon": "inv_121_jewelry_neck02_green"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [],
+            "name": "Venomwoven Idol",
+            "id": 270910,
+            "icon": "inv_jewelcrafting_azureserpent"
+          }
+        ]
+      },
+      "2894": {
+        "2": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Venomwoven Remnant",
+            "id": 270922,
+            "icon": "inv_jewelcrafting_azureserpent"
+          }
+        ],
+        "10": [
+          {
+            "id": 268210,
+            "inventorySlotId": 13,
+            "name": "Malevolent Spiritcudgel",
+            "handLabel": "1H",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "hand": "1h",
+            "weaponClass": "Mace",
+            "droppedBy": "Mor'zahi",
+            "icon": "inv_mace_1h_ulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Errant Scrollsage's Hood",
+            "id": 268242,
+            "icon": "inv_helm_cloth_raidpriestulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Gebbo's Bottomless Bag",
+            "id": 270164,
+            "icon": "inv_10_tailoring_bag1_color2"
+          }
+        ]
+      }
+    },
+    "257": {
+      "2887": {
+        "2": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Ornaments of the Eternal Coil",
+            "id": 268241,
+            "icon": "inv_shoulder_cloth_raidmageulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [],
+            "name": "Venomwoven Effigy",
+            "id": 270914,
+            "icon": "inv_jewelcrafting_azureserpent"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Amulet of the Twin Fangs",
+            "id": 268251,
+            "icon": "inv_121_jewelry_neck01_red"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Preternatural Antivenom",
+            "id": 270171,
+            "icon": "inv_11_0_dungeon_tentaclevial_green"
+          }
+        ]
+      },
+      "2895": {
+        "10": [
+          {
+            "id": 271092,
+            "inventorySlotId": 13,
+            "name": "Jan'thrazet, the Soul Fang",
+            "handLabel": "1H",
+            "stats": [
+              "Haste"
+            ],
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Ula'tek",
+            "icon": "inv_knife_1h_ulatekfang_d_01_spirit"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Mastery"
+            ],
+            "name": "Venomkeeper's Horrific Cowl",
+            "id": 271874,
+            "icon": "inv_helm_cloth_raidwarlockulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Aqirbane Reliquary",
+            "id": 268265,
+            "icon": "inv_121_jewelry_neck03_green"
+          }
+        ]
+      },
+      "2849": {
+        "4": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Tidebound Sorcereress's Robes",
+            "id": 268221,
+            "icon": "inv_robe_cloth_raidwarlockulatek_d_01"
+          }
+        ],
+        "11": [
+          {
+            "id": 268263,
+            "inventorySlotId": 23,
+            "name": "Frostscale's Mystic Frond",
+            "handLabel": "OH",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Nymrissa Wavecaller",
+            "icon": "inv_offhand_1h_ulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste"
+            ],
+            "name": "Wavecaller's Seastone",
+            "id": 270167,
+            "icon": "inv_tradeskillitem_sorcererswater"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Crit",
+              "Versatility"
+            ],
+            "name": "Cincture of the Abyssal Grotto",
+            "id": 268232,
+            "icon": "inv_belt_cloth_raidmageulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Alluring Bubbleband",
+            "id": 268266,
+            "icon": "inv_70_raid_ring8c"
+          }
+        ]
+      },
+      "2888": {
+        "10": [
+          {
+            "id": 268203,
+            "inventorySlotId": 13,
+            "name": "Hexing Spiritrender",
+            "handLabel": "1H",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": null,
+            "icon": "inv_knife_1h_ulatek_d_02"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Soulcoiler Ritual Vessel",
+            "id": 270162,
+            "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+          }
+        ],
+        "8": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Mastery",
+              "Versatility"
+            ],
+            "name": "Initiate's Sacrificial Tights",
+            "id": 268236,
+            "icon": "inv_pant_cloth_raidpriestulatek_d_01"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Nek'zali's Spiritwalkers",
+            "id": 268218,
+            "icon": "inv_boot_cloth_raidpriestulatek_d_01"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Versatility"
+            ],
+            "name": "Amani Summoning Shawl",
+            "id": 268248,
+            "icon": "inv_cape_leather_raidmonkulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Soulcoiler's Rush'kah",
+            "id": 281227,
+            "icon": "inv_helm_armor_hextrollpriestess_d_01"
+          }
+        ]
+      },
+      "2882": {
+        "12": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Vile Alchemist's Band",
+            "id": 268249,
+            "icon": "inv_121_jewelry_ring01_purple"
+          }
+        ],
+        "10": [
+          {
+            "id": 268205,
+            "inventorySlotId": 17,
+            "name": "Venomancer's Winged Channeler",
+            "handLabel": "2H",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": null,
+            "icon": "inv_staff_2h_ulatek_d_02"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Venomwoven Icon",
+            "id": 270926,
+            "icon": "inv_jewelcrafting_azureserpent"
+          }
+        ]
+      },
+      "2871": {
+        "8": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [],
+            "name": "Venomwoven Relic",
+            "id": 270918,
+            "icon": "inv_jewelcrafting_azureserpent"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Caustic Chain-Wrapped Sash",
+            "id": 268257,
+            "icon": "inv_belt_cloth_raidwarlockulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Apex Brute's Claw Ring",
+            "id": 268252,
+            "icon": "inv_121_jewelry_ring03_red"
+          }
+        ]
+      },
+      "2883": {
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Silken Voodoo Drape",
+            "id": 268253,
+            "icon": "inv_cape_leather_raidrogueulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Visage",
+            "id": 275937,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          },
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Gaze",
+            "id": 275938,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Cackling Soultreads",
+            "id": 268255,
+            "icon": "inv_boot_cloth_raidmageulatek_d_01"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Grasps of the Eternal Shadow",
+            "id": 268243,
+            "icon": "inv_glove_cloth_raidwarlockulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste"
+            ],
+            "name": "Hex Lord's Dooming Idol",
+            "id": 270169,
+            "icon": "inv_archaeology_orcclans_crackedidol"
+          }
+        ]
+      },
+      "2874": {
+        "5": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Venom-Singed Cuffs",
+            "id": 268228,
+            "icon": "inv_bracer_cloth_raidmageulatek_d_01"
+          }
+        ],
+        "11": [
+          {
+            "id": 268197,
+            "inventorySlotId": 23,
+            "name": "Spine of the Hissing Abyss",
+            "handLabel": "OH",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Breath of Ula'tek",
+            "icon": "inv_offhand_1h_ulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Sentinel's Vitriolic Chain",
+            "id": 268250,
+            "icon": "inv_121_jewelry_neck02_green"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [],
+            "name": "Venomwoven Idol",
+            "id": 270910,
+            "icon": "inv_jewelcrafting_azureserpent"
+          }
+        ]
+      },
+      "2894": {
+        "2": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Venomwoven Remnant",
+            "id": 270922,
+            "icon": "inv_jewelcrafting_azureserpent"
+          }
+        ],
+        "10": [
+          {
+            "id": 268210,
+            "inventorySlotId": 13,
+            "name": "Malevolent Spiritcudgel",
+            "handLabel": "1H",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "hand": "1h",
+            "weaponClass": "Mace",
+            "droppedBy": "Mor'zahi",
+            "icon": "inv_mace_1h_ulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Errant Scrollsage's Hood",
+            "id": 268242,
+            "icon": "inv_helm_cloth_raidpriestulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Gebbo's Bottomless Bag",
+            "id": 270164,
+            "icon": "inv_10_tailoring_bag1_color2"
+          }
+        ]
+      }
+    },
+    "70": {
+      "2887": {
+        "0": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [],
+            "name": "Venomforged Effigy",
+            "id": 270917,
+            "icon": "inv_jewelcrafting_rubyserpent"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Amulet of the Twin Fangs",
+            "id": 268251,
+            "icon": "inv_121_jewelry_neck01_red"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Scaleplate Strangulators",
+            "id": 268220,
+            "icon": "inv_glove_plate_raidpaladinulatek_d_01"
+          }
+        ]
+      },
+      "2895": {
+        "8": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Mastery"
+            ],
+            "name": "Chausses of Unbound Rancor",
+            "id": 271878,
+            "icon": "inv_pant_plate_raiddeathknightulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Aqirbane Reliquary",
+            "id": 268265,
+            "icon": "inv_121_jewelry_neck03_green"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Mastery"
+            ],
+            "name": "Font of Venomous Rage",
+            "id": 270168,
+            "icon": "inv_10_dungeonjewelry_dragon_trinket_3djardintrophy_green"
+          },
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Voracious Heart of Ula'tek",
+            "id": 270175,
+            "icon": "inv_121_trinket_raid_ulatek_heart"
+          }
+        ]
+      },
+      "2849": {
+        "2": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Swelling Sea Spaulders",
+            "id": 268226,
+            "icon": "inv_shoulder_plate_raidpaladinulatek_d_01"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Forgotten Grotto Girdle",
+            "id": 268244,
+            "icon": "inv_belt_plate_raiddeathknightulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Alluring Bubbleband",
+            "id": 268266,
+            "icon": "inv_70_raid_ring8c"
+          }
+        ]
+      },
+      "2888": {
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Versatility"
+            ],
+            "name": "Amani Summoning Shawl",
+            "id": 268248,
+            "icon": "inv_cape_leather_raidmonkulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Skullguard of the Risen Sacrifice",
+            "id": 268229,
+            "icon": "inv_helm_plate_raiddeathknightulatek_d_01"
+          },
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Soulcoiler's Rush'kah",
+            "id": 281227,
+            "icon": "inv_helm_armor_hextrollpriestess_d_01"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Entombed Cultist's Sabatons",
+            "id": 268245,
+            "icon": "inv_boot_plate_raidwarriorulatek_d_01"
+          }
+        ]
+      },
+      "2882": {
+        "12": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Vile Alchemist's Band",
+            "id": 268249,
+            "icon": "inv_121_jewelry_ring01_purple"
+          }
+        ],
+        "10": [
+          {
+            "id": 268214,
+            "inventorySlotId": 17,
+            "name": "Malignant Toothed Edge",
+            "handLabel": "2H",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "2h",
+            "weaponClass": "Sword",
+            "droppedBy": null,
+            "icon": "inv_sword_2h_ulatek_d_01"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Scaled Fiend's Warboots",
+            "id": 268260,
+            "icon": "inv_boot_plate_raidpaladinulatek_d_01"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Venomforged Icon",
+            "id": 270929,
+            "icon": "inv_jewelcrafting_rubyserpent"
+          }
+        ]
+      },
+      "2871": {
+        "12": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Apex Brute's Claw Ring",
+            "id": 268252,
+            "icon": "inv_121_jewelry_ring03_red"
+          }
+        ],
+        "8": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [],
+            "name": "Venomforged Relic",
+            "id": 270921,
+            "icon": "inv_jewelcrafting_rubyserpent"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [],
+            "name": "Sszorak's Ferocity",
+            "id": 270163,
+            "icon": "inv_121_trinket_raid_ulatek_ulatekclaw"
+          }
+        ]
+      },
+      "2883": {
+        "10": [
+          {
+            "id": 268213,
+            "inventorySlotId": 17,
+            "name": "Maze-roa, Warlord's Fury",
+            "handLabel": "2H",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "hand": "2h",
+            "weaponClass": "Axe",
+            "droppedBy": null,
+            "icon": "inv_axe_2h_ulatek_d_01"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Girdle of Toxic Regret",
+            "id": 268259,
+            "icon": "inv_belt_plate_raidpaladinulatek_d_01"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Reckless Spirit Breastplate",
+            "id": 268222,
+            "icon": "inv_chest_plate_raidwarriorulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Zul'jin's Guillotine Technique",
+            "id": 270173,
+            "icon": "inv_121_trinket_raid_ulatek_trolltablet"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Silken Voodoo Drape",
+            "id": 268253,
+            "icon": "inv_cape_leather_raidrogueulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Visage",
+            "id": 275937,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          },
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Gaze",
+            "id": 275938,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          }
+        ]
+      },
+      "2874": {
+        "10": [
+          {
+            "id": 268198,
+            "inventorySlotId": 17,
+            "name": "Caustic Keeper-Crusher",
+            "handLabel": "2H",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "hand": "2h",
+            "weaponClass": "Mace",
+            "droppedBy": "Breath of Ula'tek",
+            "icon": "inv_mace_2h_ulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Sentinel's Vitriolic Chain",
+            "id": 268250,
+            "icon": "inv_121_jewelry_neck02_green"
+          }
+        ],
+        "8": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Venom Warden's Greaves",
+            "id": 268224,
+            "icon": "inv_pant_plate_raidwarriorulatek_d_01"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [],
+            "name": "Venomforged Idol",
+            "id": 270913,
+            "icon": "inv_jewelcrafting_rubyserpent"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [],
+            "name": "Keeper's Seething Core",
+            "id": 270165,
+            "icon": "inv_121_trinket_raid_ulatek_golemhearts_green"
+          }
+        ]
+      },
+      "2894": {
+        "2": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Venomforged Remnant",
+            "id": 270925,
+            "icon": "inv_jewelcrafting_rubyserpent"
+          }
+        ],
+        "5": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Shellbound Bracers",
+            "id": 268239,
+            "icon": "inv_bracer_plate_raiddeathknightulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Gebbo's Bottomless Bag",
+            "id": 270164,
+            "icon": "inv_10_tailoring_bag1_color2"
+          }
+        ]
+      }
+    },
+    "269": {
+      "2887": {
+        "1": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Amulet of the Twin Fangs",
+            "id": 268251,
+            "icon": "inv_121_jewelry_neck01_red"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [],
+            "name": "Venomcured Effigy",
+            "id": 270915,
+            "icon": "inv_jewelcrafting_purpleserpent"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Bespittled Slitherslippers",
+            "id": 268261,
+            "icon": "inv_boot_leather_raidmonkulatek_d_01"
+          }
+        ]
+      },
+      "2895": {
+        "10": [
+          {
+            "id": 268215,
+            "inventorySlotId": 17,
+            "name": "Abyssal Broodfiend's Bardiche",
+            "handLabel": "2H",
+            "stats": [
+              "Mastery"
+            ],
+            "hand": "2h",
+            "weaponClass": "Polearm",
+            "droppedBy": "Ula'tek",
+            "icon": "inv_polearm_2h_ulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Haste"
+            ],
+            "name": "Gaze of the Coiled Watcher",
+            "id": 271875,
+            "icon": "inv_helm_leather_raiddruidulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Aqirbane Reliquary",
+            "id": 268265,
+            "icon": "inv_121_jewelry_neck03_green"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Mastery"
+            ],
+            "name": "Font of Venomous Rage",
+            "id": 270168,
+            "icon": "inv_10_dungeonjewelry_dragon_trinket_3djardintrophy_green"
+          },
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Voracious Heart of Ula'tek",
+            "id": 270175,
+            "icon": "inv_121_trinket_raid_ulatek_heart"
+          }
+        ]
+      },
+      "2849": {
+        "10": [
+          {
+            "id": 268199,
+            "inventorySlotId": 17,
+            "name": "Tidepiercer's Bubble Popper",
+            "handLabel": "2H",
+            "stats": [
+              "Crit",
+              "Versatility"
+            ],
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": "Nymrissa Wavecaller",
+            "icon": "inv_staff_2h_ulatek_d_01"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Breakwater Boots",
+            "id": 268247,
+            "icon": "inv_boot_leather_raiddemonhunterulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Alluring Bubbleband",
+            "id": 268266,
+            "icon": "inv_70_raid_ring8c"
+          }
+        ]
+      },
+      "2888": {
+        "5": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Restless Spirit Shackles",
+            "id": 268240,
+            "icon": "8095063"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Versatility"
+            ],
+            "name": "Amani Summoning Shawl",
+            "id": 268248,
+            "icon": "inv_cape_leather_raidmonkulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Soulcoiler's Rush'kah",
+            "id": 281227,
+            "icon": "inv_helm_armor_hextrollpriestess_d_01"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Vestment of the Awakening",
+            "id": 268235,
+            "icon": "inv_robe_leather_raiddruidulatek_d_01"
+          }
+        ],
+        "10": [
+          {
+            "id": 270930,
+            "inventorySlotId": 13,
+            "name": "Tomb-Creeper's Claw",
+            "handLabel": "1H",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "hand": "1h",
+            "weaponClass": "Fist",
+            "droppedBy": null,
+            "icon": "inv_hand_1h_ulatek_d_01"
+          }
+        ]
+      },
+      "2882": {
+        "2": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Frothing Venom Spaulders",
+            "id": 268246,
+            "icon": "inv_shoulder_leather_raiddemonhunterulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Vile Alchemist's Band",
+            "id": 268249,
+            "icon": "inv_121_jewelry_ring01_purple"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Vashnik's Sanguine Rancor",
+            "id": 270166,
+            "icon": "inv_11_0_raid_gruesomesyringe_blue"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Venomcured Icon",
+            "id": 270927,
+            "icon": "inv_jewelcrafting_purpleserpent"
+          }
+        ]
+      },
+      "2871": {
+        "10": [
+          {
+            "id": 268206,
+            "inventorySlotId": 13,
+            "name": "Slithering Savage's Gavel",
+            "handLabel": "1H",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "hand": "1h",
+            "weaponClass": "Mace",
+            "droppedBy": "Sszorak",
+            "icon": "inv_mace_1h_ulatek_d_01"
+          }
+        ],
+        "8": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [],
+            "name": "Venomcured Relic",
+            "id": 270919,
+            "icon": "inv_jewelcrafting_purpleserpent"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Ruthless Slaughtergrips",
+            "id": 268234,
+            "icon": "inv_glove_leather_raiddemonhunterulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Apex Brute's Claw Ring",
+            "id": 268252,
+            "icon": "inv_121_jewelry_ring03_red"
+          }
+        ]
+      },
+      "2883": {
+        "10": [
+          {
+            "id": 268209,
+            "inventorySlotId": 21,
+            "name": "Aman'muso, Warlord's Vengeance",
+            "handLabel": "1H",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "1h",
+            "weaponClass": "Axe",
+            "droppedBy": null,
+            "icon": "inv_axe_1h_ulatek_d_01"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Sash of the Forlorn Vessel",
+            "id": 268256,
+            "icon": "inv_belt_leather_raiddruidulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Zul'jin's Guillotine Technique",
+            "id": 270173,
+            "icon": "inv_121_trinket_raid_ulatek_trolltablet"
+          }
+        ],
+        "8": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Coiled Hex Legguards",
+            "id": 268225,
+            "icon": "inv_pant_leather_raidmonkulatek_d_01"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Silken Voodoo Drape",
+            "id": 268253,
+            "icon": "inv_cape_leather_raidrogueulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Visage",
+            "id": 275937,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          },
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Gaze",
+            "id": 275938,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          }
+        ]
+      },
+      "2874": {
+        "0": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Mastery",
+              "Versatility"
+            ],
+            "name": "Shadow Hunter's Warmask",
+            "id": 268219,
+            "icon": "inv_helm_leather_raidrogueulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Sentinel's Vitriolic Chain",
+            "id": 268250,
+            "icon": "inv_121_jewelry_neck02_green"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [],
+            "name": "Venomcured Idol",
+            "id": 270911,
+            "icon": "inv_jewelcrafting_purpleserpent"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [],
+            "name": "Keeper's Seething Core",
+            "id": 270165,
+            "icon": "inv_121_trinket_raid_ulatek_golemhearts_green"
+          }
+        ]
+      },
+      "2894": {
+        "2": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Venomcured Remnant",
+            "id": 270923,
+            "icon": "inv_jewelcrafting_purpleserpent"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Unpossessed Skullsash",
+            "id": 268227,
+            "icon": "inv_belt_leather_raidrogueulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Gebbo's Bottomless Bag",
+            "id": 270164,
+            "icon": "inv_10_tailoring_bag1_color2"
+          }
+        ]
+      }
+    },
+    "71": {
+      "2887": {
+        "0": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [],
+            "name": "Venomforged Effigy",
+            "id": 270917,
+            "icon": "inv_jewelcrafting_rubyserpent"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Amulet of the Twin Fangs",
+            "id": 268251,
+            "icon": "inv_121_jewelry_neck01_red"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Scaleplate Strangulators",
+            "id": 268220,
+            "icon": "inv_glove_plate_raidpaladinulatek_d_01"
+          }
+        ]
+      },
+      "2895": {
+        "8": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Mastery"
+            ],
+            "name": "Chausses of Unbound Rancor",
+            "id": 271878,
+            "icon": "inv_pant_plate_raiddeathknightulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Aqirbane Reliquary",
+            "id": 268265,
+            "icon": "inv_121_jewelry_neck03_green"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Mastery"
+            ],
+            "name": "Font of Venomous Rage",
+            "id": 270168,
+            "icon": "inv_10_dungeonjewelry_dragon_trinket_3djardintrophy_green"
+          },
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Voracious Heart of Ula'tek",
+            "id": 270175,
+            "icon": "inv_121_trinket_raid_ulatek_heart"
+          }
+        ]
+      },
+      "2849": {
+        "2": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Swelling Sea Spaulders",
+            "id": 268226,
+            "icon": "inv_shoulder_plate_raidpaladinulatek_d_01"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Forgotten Grotto Girdle",
+            "id": 268244,
+            "icon": "inv_belt_plate_raiddeathknightulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Alluring Bubbleband",
+            "id": 268266,
+            "icon": "inv_70_raid_ring8c"
+          }
+        ]
+      },
+      "2888": {
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Versatility"
+            ],
+            "name": "Amani Summoning Shawl",
+            "id": 268248,
+            "icon": "inv_cape_leather_raidmonkulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Skullguard of the Risen Sacrifice",
+            "id": 268229,
+            "icon": "inv_helm_plate_raiddeathknightulatek_d_01"
+          },
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Soulcoiler's Rush'kah",
+            "id": 281227,
+            "icon": "inv_helm_armor_hextrollpriestess_d_01"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Entombed Cultist's Sabatons",
+            "id": 268245,
+            "icon": "inv_boot_plate_raidwarriorulatek_d_01"
+          }
+        ]
+      },
+      "2882": {
+        "12": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Vile Alchemist's Band",
+            "id": 268249,
+            "icon": "inv_121_jewelry_ring01_purple"
+          }
+        ],
+        "10": [
+          {
+            "id": 268214,
+            "inventorySlotId": 17,
+            "name": "Malignant Toothed Edge",
+            "handLabel": "2H",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "2h",
+            "weaponClass": "Sword",
+            "droppedBy": null,
+            "icon": "inv_sword_2h_ulatek_d_01"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Scaled Fiend's Warboots",
+            "id": 268260,
+            "icon": "inv_boot_plate_raidpaladinulatek_d_01"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Venomforged Icon",
+            "id": 270929,
+            "icon": "inv_jewelcrafting_rubyserpent"
+          }
+        ]
+      },
+      "2871": {
+        "12": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Apex Brute's Claw Ring",
+            "id": 268252,
+            "icon": "inv_121_jewelry_ring03_red"
+          }
+        ],
+        "8": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [],
+            "name": "Venomforged Relic",
+            "id": 270921,
+            "icon": "inv_jewelcrafting_rubyserpent"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [],
+            "name": "Sszorak's Ferocity",
+            "id": 270163,
+            "icon": "inv_121_trinket_raid_ulatek_ulatekclaw"
+          }
+        ]
+      },
+      "2883": {
+        "10": [
+          {
+            "id": 268213,
+            "inventorySlotId": 17,
+            "name": "Maze-roa, Warlord's Fury",
+            "handLabel": "2H",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "hand": "2h",
+            "weaponClass": "Axe",
+            "droppedBy": null,
+            "icon": "inv_axe_2h_ulatek_d_01"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Girdle of Toxic Regret",
+            "id": 268259,
+            "icon": "inv_belt_plate_raidpaladinulatek_d_01"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Reckless Spirit Breastplate",
+            "id": 268222,
+            "icon": "inv_chest_plate_raidwarriorulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Zul'jin's Guillotine Technique",
+            "id": 270173,
+            "icon": "inv_121_trinket_raid_ulatek_trolltablet"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Silken Voodoo Drape",
+            "id": 268253,
+            "icon": "inv_cape_leather_raidrogueulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Visage",
+            "id": 275937,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          },
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Gaze",
+            "id": 275938,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          }
+        ]
+      },
+      "2874": {
+        "10": [
+          {
+            "id": 268198,
+            "inventorySlotId": 17,
+            "name": "Caustic Keeper-Crusher",
+            "handLabel": "2H",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "hand": "2h",
+            "weaponClass": "Mace",
+            "droppedBy": "Breath of Ula'tek",
+            "icon": "inv_mace_2h_ulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Sentinel's Vitriolic Chain",
+            "id": 268250,
+            "icon": "inv_121_jewelry_neck02_green"
+          }
+        ],
+        "8": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Venom Warden's Greaves",
+            "id": 268224,
+            "icon": "inv_pant_plate_raidwarriorulatek_d_01"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [],
+            "name": "Venomforged Idol",
+            "id": 270913,
+            "icon": "inv_jewelcrafting_rubyserpent"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [],
+            "name": "Keeper's Seething Core",
+            "id": 270165,
+            "icon": "inv_121_trinket_raid_ulatek_golemhearts_green"
+          }
+        ]
+      },
+      "2894": {
+        "2": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Venomforged Remnant",
+            "id": 270925,
+            "icon": "inv_jewelcrafting_rubyserpent"
+          }
+        ],
+        "5": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Shellbound Bracers",
+            "id": 268239,
+            "icon": "inv_bracer_plate_raiddeathknightulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Gebbo's Bottomless Bag",
+            "id": 270164,
+            "icon": "inv_10_tailoring_bag1_color2"
+          }
+        ]
+      }
+    },
+    "66": {
+      "2887": {
+        "0": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [],
+            "name": "Venomforged Effigy",
+            "id": 270917,
+            "icon": "inv_jewelcrafting_rubyserpent"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Amulet of the Twin Fangs",
+            "id": 268251,
+            "icon": "inv_121_jewelry_neck01_red"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Scaleplate Strangulators",
+            "id": 268220,
+            "icon": "inv_glove_plate_raidpaladinulatek_d_01"
+          }
+        ]
+      },
+      "2895": {
+        "10": [
+          {
+            "id": 268202,
+            "inventorySlotId": 13,
+            "name": "Jaw of the Shackled Goddess",
+            "handLabel": "1H",
+            "stats": [
+              "Haste"
+            ],
+            "hand": "1h",
+            "weaponClass": "Sword",
+            "droppedBy": "Ula'tek",
+            "icon": "inv_sword_1h_ulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Aqirbane Reliquary",
+            "id": 268265,
+            "icon": "inv_121_jewelry_neck03_green"
+          }
+        ],
+        "8": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Mastery"
+            ],
+            "name": "Chausses of Unbound Rancor",
+            "id": 271878,
+            "icon": "inv_pant_plate_raiddeathknightulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Voracious Heart of Ula'tek",
+            "id": 270175,
+            "icon": "inv_121_trinket_raid_ulatek_heart"
+          }
+        ]
+      },
+      "2849": {
+        "2": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Swelling Sea Spaulders",
+            "id": 268226,
+            "icon": "inv_shoulder_plate_raidpaladinulatek_d_01"
+          }
+        ],
+        "11": [
+          {
+            "id": 268262,
+            "inventorySlotId": 14,
+            "name": "Bubblefin Splash Guard",
+            "handLabel": "OH",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "oh",
+            "weaponClass": "Shield",
+            "droppedBy": "Nymrissa Wavecaller",
+            "icon": "inv_shield_1h_ulatek_d_01"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Forgotten Grotto Girdle",
+            "id": 268244,
+            "icon": "inv_belt_plate_raiddeathknightulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Alluring Bubbleband",
+            "id": 268266,
+            "icon": "inv_70_raid_ring8c"
+          }
+        ]
+      },
+      "2888": {
+        "10": [
+          {
+            "id": 268208,
+            "inventorySlotId": 13,
+            "name": "Strongblood's Ceremonial Cleaver",
+            "handLabel": "1H",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "hand": "1h",
+            "weaponClass": "Axe",
+            "droppedBy": null,
+            "icon": "inv_axe_1h_ulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Skullguard of the Risen Sacrifice",
+            "id": 268229,
+            "icon": "inv_helm_plate_raiddeathknightulatek_d_01"
+          },
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Soulcoiler's Rush'kah",
+            "id": 281227,
+            "icon": "inv_helm_armor_hextrollpriestess_d_01"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Entombed Cultist's Sabatons",
+            "id": 268245,
+            "icon": "inv_boot_plate_raidwarriorulatek_d_01"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Versatility"
+            ],
+            "name": "Amani Summoning Shawl",
+            "id": 268248,
+            "icon": "inv_cape_leather_raidmonkulatek_d_01"
+          }
+        ]
+      },
+      "2882": {
+        "12": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Vile Alchemist's Band",
+            "id": 268249,
+            "icon": "inv_121_jewelry_ring01_purple"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Scaled Fiend's Warboots",
+            "id": 268260,
+            "icon": "inv_boot_plate_raidpaladinulatek_d_01"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Venomforged Icon",
+            "id": 270929,
+            "icon": "inv_jewelcrafting_rubyserpent"
+          }
+        ]
+      },
+      "2871": {
+        "12": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Apex Brute's Claw Ring",
+            "id": 268252,
+            "icon": "inv_121_jewelry_ring03_red"
+          }
+        ],
+        "8": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [],
+            "name": "Venomforged Relic",
+            "id": 270921,
+            "icon": "inv_jewelcrafting_rubyserpent"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [],
+            "name": "Sszorak's Ferocity",
+            "id": 270163,
+            "icon": "inv_121_trinket_raid_ulatek_ulatekclaw"
+          },
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Mastery"
+            ],
+            "name": "Idol of the Howling Nexus",
+            "id": 270174,
+            "icon": "inv_jewelcrafting_jadeserpent"
+          }
+        ]
+      },
+      "2883": {
+        "10": [
+          {
+            "id": 268209,
+            "inventorySlotId": 21,
+            "name": "Aman'muso, Warlord's Vengeance",
+            "handLabel": "1H",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "1h",
+            "weaponClass": "Axe",
+            "droppedBy": null,
+            "icon": "inv_axe_1h_ulatek_d_01"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Girdle of Toxic Regret",
+            "id": 268259,
+            "icon": "inv_belt_plate_raidpaladinulatek_d_01"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Reckless Spirit Breastplate",
+            "id": 268222,
+            "icon": "inv_chest_plate_raidwarriorulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Zul'jin's Guillotine Technique",
+            "id": 270173,
+            "icon": "inv_121_trinket_raid_ulatek_trolltablet"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Silken Voodoo Drape",
+            "id": 268253,
+            "icon": "inv_cape_leather_raidrogueulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Visage",
+            "id": 275937,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          },
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Gaze",
+            "id": 275938,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          }
+        ]
+      },
+      "2874": {
+        "8": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Venom Warden's Greaves",
+            "id": 268224,
+            "icon": "inv_pant_plate_raidwarriorulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Sentinel's Vitriolic Chain",
+            "id": 268250,
+            "icon": "inv_121_jewelry_neck02_green"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [],
+            "name": "Venomforged Idol",
+            "id": 270913,
+            "icon": "inv_jewelcrafting_rubyserpent"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [],
+            "name": "Keeper's Seething Core",
+            "id": 270165,
+            "icon": "inv_121_trinket_raid_ulatek_golemhearts_green"
+          }
+        ]
+      },
+      "2894": {
+        "5": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Shellbound Bracers",
+            "id": 268239,
+            "icon": "inv_bracer_plate_raiddeathknightulatek_d_01"
+          }
+        ],
+        "11": [
+          {
+            "id": 268196,
+            "inventorySlotId": 14,
+            "name": "Venom-Slashed Scuteward",
+            "handLabel": "OH",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "hand": "oh",
+            "weaponClass": "Shield",
+            "droppedBy": "Mor'zahi",
+            "icon": "inv_shield_1h_ulatek_d_01"
+          }
+        ],
+        "2": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Venomforged Remnant",
+            "id": 270925,
+            "icon": "inv_jewelcrafting_rubyserpent"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "First Mate's Shellward",
+            "id": 270160,
+            "icon": "inv_cape_special_turtleshell_c_02"
+          },
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Gebbo's Bottomless Bag",
+            "id": 270164,
+            "icon": "inv_10_tailoring_bag1_color2"
+          }
+        ]
+      }
+    },
+    "260": {
+      "2887": {
+        "1": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Amulet of the Twin Fangs",
+            "id": 268251,
+            "icon": "inv_121_jewelry_neck01_red"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [],
+            "name": "Venomcured Effigy",
+            "id": 270915,
+            "icon": "inv_jewelcrafting_purpleserpent"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Bespittled Slitherslippers",
+            "id": 268261,
+            "icon": "inv_boot_leather_raidmonkulatek_d_01"
+          }
+        ]
+      },
+      "2895": {
+        "0": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Haste"
+            ],
+            "name": "Gaze of the Coiled Watcher",
+            "id": 271875,
+            "icon": "inv_helm_leather_raiddruidulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Aqirbane Reliquary",
+            "id": 268265,
+            "icon": "inv_121_jewelry_neck03_green"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Mastery"
+            ],
+            "name": "Font of Venomous Rage",
+            "id": 270168,
+            "icon": "inv_10_dungeonjewelry_dragon_trinket_3djardintrophy_green"
+          },
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Voracious Heart of Ula'tek",
+            "id": 270175,
+            "icon": "inv_121_trinket_raid_ulatek_heart"
+          }
+        ]
+      },
+      "2849": {
+        "9": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Breakwater Boots",
+            "id": 268247,
+            "icon": "inv_boot_leather_raiddemonhunterulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Alluring Bubbleband",
+            "id": 268266,
+            "icon": "inv_70_raid_ring8c"
+          }
+        ]
+      },
+      "2888": {
+        "5": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Restless Spirit Shackles",
+            "id": 268240,
+            "icon": "8095063"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Versatility"
+            ],
+            "name": "Amani Summoning Shawl",
+            "id": 268248,
+            "icon": "inv_cape_leather_raidmonkulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Soulcoiler's Rush'kah",
+            "id": 281227,
+            "icon": "inv_helm_armor_hextrollpriestess_d_01"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Vestment of the Awakening",
+            "id": 268235,
+            "icon": "inv_robe_leather_raiddruidulatek_d_01"
+          }
+        ],
+        "10": [
+          {
+            "id": 270930,
+            "inventorySlotId": 13,
+            "name": "Tomb-Creeper's Claw",
+            "handLabel": "1H",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "hand": "1h",
+            "weaponClass": "Fist",
+            "droppedBy": null,
+            "icon": "inv_hand_1h_ulatek_d_01"
+          }
+        ]
+      },
+      "2882": {
+        "2": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Frothing Venom Spaulders",
+            "id": 268246,
+            "icon": "inv_shoulder_leather_raiddemonhunterulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Vile Alchemist's Band",
+            "id": 268249,
+            "icon": "inv_121_jewelry_ring01_purple"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Vashnik's Sanguine Rancor",
+            "id": 270166,
+            "icon": "inv_11_0_raid_gruesomesyringe_blue"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Venomcured Icon",
+            "id": 270927,
+            "icon": "inv_jewelcrafting_purpleserpent"
+          }
+        ]
+      },
+      "2871": {
+        "10": [
+          {
+            "id": 268206,
+            "inventorySlotId": 13,
+            "name": "Slithering Savage's Gavel",
+            "handLabel": "1H",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "hand": "1h",
+            "weaponClass": "Mace",
+            "droppedBy": "Sszorak",
+            "icon": "inv_mace_1h_ulatek_d_01"
+          }
+        ],
+        "8": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [],
+            "name": "Venomcured Relic",
+            "id": 270919,
+            "icon": "inv_jewelcrafting_purpleserpent"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Ruthless Slaughtergrips",
+            "id": 268234,
+            "icon": "inv_glove_leather_raiddemonhunterulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Apex Brute's Claw Ring",
+            "id": 268252,
+            "icon": "inv_121_jewelry_ring03_red"
+          }
+        ]
+      },
+      "2883": {
+        "10": [
+          {
+            "id": 268209,
+            "inventorySlotId": 21,
+            "name": "Aman'muso, Warlord's Vengeance",
+            "handLabel": "1H",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "1h",
+            "weaponClass": "Axe",
+            "droppedBy": null,
+            "icon": "inv_axe_1h_ulatek_d_01"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Sash of the Forlorn Vessel",
+            "id": 268256,
+            "icon": "inv_belt_leather_raiddruidulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Zul'jin's Guillotine Technique",
+            "id": 270173,
+            "icon": "inv_121_trinket_raid_ulatek_trolltablet"
+          }
+        ],
+        "8": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Coiled Hex Legguards",
+            "id": 268225,
+            "icon": "inv_pant_leather_raidmonkulatek_d_01"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Silken Voodoo Drape",
+            "id": 268253,
+            "icon": "inv_cape_leather_raidrogueulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Visage",
+            "id": 275937,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          },
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Gaze",
+            "id": 275938,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          }
+        ]
+      },
+      "2874": {
+        "0": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Mastery",
+              "Versatility"
+            ],
+            "name": "Shadow Hunter's Warmask",
+            "id": 268219,
+            "icon": "inv_helm_leather_raidrogueulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Sentinel's Vitriolic Chain",
+            "id": 268250,
+            "icon": "inv_121_jewelry_neck02_green"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [],
+            "name": "Venomcured Idol",
+            "id": 270911,
+            "icon": "inv_jewelcrafting_purpleserpent"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [],
+            "name": "Keeper's Seething Core",
+            "id": 270165,
+            "icon": "inv_121_trinket_raid_ulatek_golemhearts_green"
+          }
+        ]
+      },
+      "2894": {
+        "2": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Venomcured Remnant",
+            "id": 270923,
+            "icon": "inv_jewelcrafting_purpleserpent"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Unpossessed Skullsash",
+            "id": 268227,
+            "icon": "inv_belt_leather_raidrogueulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Gebbo's Bottomless Bag",
+            "id": 270164,
+            "icon": "inv_10_tailoring_bag1_color2"
+          }
+        ]
+      }
+    },
+    "1467": {
+      "2887": {
+        "4": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Ophidian Fangmail",
+            "id": 268223,
+            "icon": "inv_chest_mail_raidhunterulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [],
+            "name": "Venomcast Effigy",
+            "id": 270916,
+            "icon": "inv_jewelcrafting_goldenserpent"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Amulet of the Twin Fangs",
+            "id": 268251,
+            "icon": "inv_121_jewelry_neck01_red"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [],
+            "name": "Vexhul's Everflowing Gland",
+            "id": 270170,
+            "icon": "inv_11_0_misc_organmass_color3"
+          }
+        ]
+      },
+      "2895": {
+        "13": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Mastery"
+            ],
+            "name": "Font of Venomous Rage",
+            "id": 270168,
+            "icon": "inv_10_dungeonjewelry_dragon_trinket_3djardintrophy_green"
+          }
+        ],
+        "10": [
+          {
+            "id": 271092,
+            "inventorySlotId": 13,
+            "name": "Jan'thrazet, the Soul Fang",
+            "handLabel": "1H",
+            "stats": [
+              "Haste"
+            ],
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Ula'tek",
+            "icon": "inv_knife_1h_ulatekfang_d_01_spirit"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Aqirbane Reliquary",
+            "id": 268265,
+            "icon": "inv_121_jewelry_neck03_green"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Awoken Dreadfang Cuirass",
+            "id": 271876,
+            "icon": "inv_chest_mail_raidevokerulatek_d_01"
+          }
+        ]
+      },
+      "2849": {
+        "5": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Rising Tide Wristguards",
+            "id": 268217,
+            "icon": "inv_bracer_mail_raidhunterulatek_d_01"
+          }
+        ],
+        "11": [
+          {
+            "id": 268263,
+            "inventorySlotId": 23,
+            "name": "Frostscale's Mystic Frond",
+            "handLabel": "OH",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Nymrissa Wavecaller",
+            "icon": "inv_offhand_1h_ulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Alluring Bubbleband",
+            "id": 268266,
+            "icon": "inv_70_raid_ring8c"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Grips of Swirling Fury",
+            "id": 268238,
+            "icon": "inv_glove_mail_raidevokerulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste"
+            ],
+            "name": "Wavecaller's Seastone",
+            "id": 270167,
+            "icon": "inv_tradeskillitem_sorcererswater"
+          }
+        ]
+      },
+      "2888": {
+        "10": [
+          {
+            "id": 268203,
+            "inventorySlotId": 13,
+            "name": "Hexing Spiritrender",
+            "handLabel": "1H",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": null,
+            "icon": "inv_knife_1h_ulatek_d_02"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Crown of the Eternal Fang",
+            "id": 268230,
+            "icon": "inv_helm_mail_raidshamanulatek_d_01"
+          },
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Soulcoiler's Rush'kah",
+            "id": 281227,
+            "icon": "inv_helm_armor_hextrollpriestess_d_01"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Versatility"
+            ],
+            "name": "Amani Summoning Shawl",
+            "id": 268248,
+            "icon": "inv_cape_leather_raidmonkulatek_d_01"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Versatility"
+            ],
+            "name": "Cursed Reliquary Cincture",
+            "id": 268216,
+            "icon": "inv_belt_mail_raidevokerulatek_d_01"
+          }
+        ]
+      },
+      "2882": {
+        "12": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Vile Alchemist's Band",
+            "id": 268249,
+            "icon": "inv_121_jewelry_ring01_purple"
+          }
+        ],
+        "10": [
+          {
+            "id": 268205,
+            "inventorySlotId": 17,
+            "name": "Venomancer's Winged Channeler",
+            "handLabel": "2H",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": null,
+            "icon": "inv_staff_2h_ulatek_d_02"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Fang of Umbral Malignance",
+            "id": 270161,
+            "icon": "inv_121_trinket_raid_ulatek_fang_purple"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Serpentine Mixing Belt",
+            "id": 268254,
+            "icon": "inv_belt_mail_raidshamanulatek_d_01"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Venomcast Icon",
+            "id": 270928,
+            "icon": "inv_jewelcrafting_goldenserpent"
+          }
+        ]
+      },
+      "2871": {
+        "8": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [],
+            "name": "Venomcast Relic",
+            "id": 270920,
+            "icon": "inv_jewelcrafting_goldenserpent"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Ferocious Scaleboots",
+            "id": 268233,
+            "icon": "inv_boot_mail_raidhunterulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Apex Brute's Claw Ring",
+            "id": 268252,
+            "icon": "inv_121_jewelry_ring03_red"
+          }
+        ]
+      },
+      "2883": {
+        "10": [
+          {
+            "id": 268211,
+            "inventorySlotId": 13,
+            "name": "Baleful Hexblade",
+            "handLabel": "1H",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "1h",
+            "weaponClass": "Sword",
+            "droppedBy": null,
+            "icon": "inv_sword_1h_ulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste"
+            ],
+            "name": "Hex Lord's Dooming Idol",
+            "id": 270169,
+            "icon": "inv_archaeology_orcclans_crackedidol"
+          }
+        ],
+        "8": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Cuisses of the Uncoiled Union",
+            "id": 268237,
+            "icon": "inv_pant_mail_raidevokerulatek_d_01"
+          }
+        ],
+        "2": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Soulslither Spaulders",
+            "id": 268231,
+            "icon": "inv_shoulder_mail_raidshamanulatek_d_01"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Silken Voodoo Drape",
+            "id": 268253,
+            "icon": "inv_cape_leather_raidrogueulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Visage",
+            "id": 275937,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          },
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Gaze",
+            "id": 275938,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          }
+        ]
+      },
+      "2874": {
+        "11": [
+          {
+            "id": 268197,
+            "inventorySlotId": 23,
+            "name": "Spine of the Hissing Abyss",
+            "handLabel": "OH",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Breath of Ula'tek",
+            "icon": "inv_offhand_1h_ulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Sentinel's Vitriolic Chain",
+            "id": 268250,
+            "icon": "inv_121_jewelry_neck02_green"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [],
+            "name": "Venomcast Idol",
+            "id": 270912,
+            "icon": "inv_jewelcrafting_goldenserpent"
+          }
+        ]
+      },
+      "2894": {
+        "2": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Venomcast Remnant",
+            "id": 270924,
+            "icon": "inv_jewelcrafting_goldenserpent"
+          }
+        ],
+        "10": [
+          {
+            "id": 268210,
+            "inventorySlotId": 13,
+            "name": "Malevolent Spiritcudgel",
+            "handLabel": "1H",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "hand": "1h",
+            "weaponClass": "Mace",
+            "droppedBy": "Mor'zahi",
+            "icon": "inv_mace_1h_ulatek_d_01"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Boots of the Reckless Wayfarer",
+            "id": 268258,
+            "icon": "inv_boot_mail_raidevokerulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Gebbo's Bottomless Bag",
+            "id": 270164,
+            "icon": "inv_10_tailoring_bag1_color2"
+          }
+        ]
+      }
+    },
+    "270": {
+      "2887": {
+        "1": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Amulet of the Twin Fangs",
+            "id": 268251,
+            "icon": "inv_121_jewelry_neck01_red"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [],
+            "name": "Venomcured Effigy",
+            "id": 270915,
+            "icon": "inv_jewelcrafting_purpleserpent"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Bespittled Slitherslippers",
+            "id": 268261,
+            "icon": "inv_boot_leather_raidmonkulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Preternatural Antivenom",
+            "id": 270171,
+            "icon": "inv_11_0_dungeon_tentaclevial_green"
+          }
+        ]
+      },
+      "2895": {
+        "0": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Haste"
+            ],
+            "name": "Gaze of the Coiled Watcher",
+            "id": 271875,
+            "icon": "inv_helm_leather_raiddruidulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Aqirbane Reliquary",
+            "id": 268265,
+            "icon": "inv_121_jewelry_neck03_green"
+          }
+        ]
+      },
+      "2849": {
+        "12": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Alluring Bubbleband",
+            "id": 268266,
+            "icon": "inv_70_raid_ring8c"
+          }
+        ],
+        "11": [
+          {
+            "id": 268263,
+            "inventorySlotId": 23,
+            "name": "Frostscale's Mystic Frond",
+            "handLabel": "OH",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Nymrissa Wavecaller",
+            "icon": "inv_offhand_1h_ulatek_d_01"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Breakwater Boots",
+            "id": 268247,
+            "icon": "inv_boot_leather_raiddemonhunterulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste"
+            ],
+            "name": "Wavecaller's Seastone",
+            "id": 270167,
+            "icon": "inv_tradeskillitem_sorcererswater"
+          }
+        ]
+      },
+      "2888": {
+        "5": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Restless Spirit Shackles",
+            "id": 268240,
+            "icon": "8095063"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Versatility"
+            ],
+            "name": "Amani Summoning Shawl",
+            "id": 268248,
+            "icon": "inv_cape_leather_raidmonkulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Soulcoiler's Rush'kah",
+            "id": 281227,
+            "icon": "inv_helm_armor_hextrollpriestess_d_01"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Vestment of the Awakening",
+            "id": 268235,
+            "icon": "inv_robe_leather_raiddruidulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Soulcoiler Ritual Vessel",
+            "id": 270162,
+            "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+          }
+        ]
+      },
+      "2882": {
+        "2": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Frothing Venom Spaulders",
+            "id": 268246,
+            "icon": "inv_shoulder_leather_raiddemonhunterulatek_d_01"
+          }
+        ],
+        "10": [
+          {
+            "id": 268205,
+            "inventorySlotId": 17,
+            "name": "Venomancer's Winged Channeler",
+            "handLabel": "2H",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": null,
+            "icon": "inv_staff_2h_ulatek_d_02"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Vile Alchemist's Band",
+            "id": 268249,
+            "icon": "inv_121_jewelry_ring01_purple"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Venomcured Icon",
+            "id": 270927,
+            "icon": "inv_jewelcrafting_purpleserpent"
+          }
+        ]
+      },
+      "2871": {
+        "8": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [],
+            "name": "Venomcured Relic",
+            "id": 270919,
+            "icon": "inv_jewelcrafting_purpleserpent"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Ruthless Slaughtergrips",
+            "id": 268234,
+            "icon": "inv_glove_leather_raiddemonhunterulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Apex Brute's Claw Ring",
+            "id": 268252,
+            "icon": "inv_121_jewelry_ring03_red"
+          }
+        ]
+      },
+      "2883": {
+        "10": [
+          {
+            "id": 268211,
+            "inventorySlotId": 13,
+            "name": "Baleful Hexblade",
+            "handLabel": "1H",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "1h",
+            "weaponClass": "Sword",
+            "droppedBy": null,
+            "icon": "inv_sword_1h_ulatek_d_01"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Sash of the Forlorn Vessel",
+            "id": 268256,
+            "icon": "inv_belt_leather_raiddruidulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste"
+            ],
+            "name": "Hex Lord's Dooming Idol",
+            "id": 270169,
+            "icon": "inv_archaeology_orcclans_crackedidol"
+          }
+        ],
+        "8": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Coiled Hex Legguards",
+            "id": 268225,
+            "icon": "inv_pant_leather_raidmonkulatek_d_01"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Silken Voodoo Drape",
+            "id": 268253,
+            "icon": "inv_cape_leather_raidrogueulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Visage",
+            "id": 275937,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          },
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Gaze",
+            "id": 275938,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          }
+        ]
+      },
+      "2874": {
+        "11": [
+          {
+            "id": 268197,
+            "inventorySlotId": 23,
+            "name": "Spine of the Hissing Abyss",
+            "handLabel": "OH",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Breath of Ula'tek",
+            "icon": "inv_offhand_1h_ulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Mastery",
+              "Versatility"
+            ],
+            "name": "Shadow Hunter's Warmask",
+            "id": 268219,
+            "icon": "inv_helm_leather_raidrogueulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Sentinel's Vitriolic Chain",
+            "id": 268250,
+            "icon": "inv_121_jewelry_neck02_green"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [],
+            "name": "Venomcured Idol",
+            "id": 270911,
+            "icon": "inv_jewelcrafting_purpleserpent"
+          }
+        ]
+      },
+      "2894": {
+        "2": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Venomcured Remnant",
+            "id": 270923,
+            "icon": "inv_jewelcrafting_purpleserpent"
+          }
+        ],
+        "10": [
+          {
+            "id": 268210,
+            "inventorySlotId": 13,
+            "name": "Malevolent Spiritcudgel",
+            "handLabel": "1H",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "hand": "1h",
+            "weaponClass": "Mace",
+            "droppedBy": "Mor'zahi",
+            "icon": "inv_mace_1h_ulatek_d_01"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Unpossessed Skullsash",
+            "id": 268227,
+            "icon": "inv_belt_leather_raidrogueulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Gebbo's Bottomless Bag",
+            "id": 270164,
+            "icon": "inv_10_tailoring_bag1_color2"
+          }
+        ]
+      }
+    },
+    "263": {
+      "2887": {
+        "0": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [],
+            "name": "Venomcast Effigy",
+            "id": 270916,
+            "icon": "inv_jewelcrafting_goldenserpent"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Amulet of the Twin Fangs",
+            "id": 268251,
+            "icon": "inv_121_jewelry_neck01_red"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Ophidian Fangmail",
+            "id": 268223,
+            "icon": "inv_chest_mail_raidhunterulatek_d_01"
+          }
+        ]
+      },
+      "2895": {
+        "13": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Mastery"
+            ],
+            "name": "Font of Venomous Rage",
+            "id": 270168,
+            "icon": "inv_10_dungeonjewelry_dragon_trinket_3djardintrophy_green"
+          },
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Voracious Heart of Ula'tek",
+            "id": 270175,
+            "icon": "inv_121_trinket_raid_ulatek_heart"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Aqirbane Reliquary",
+            "id": 268265,
+            "icon": "inv_121_jewelry_neck03_green"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Awoken Dreadfang Cuirass",
+            "id": 271876,
+            "icon": "inv_chest_mail_raidevokerulatek_d_01"
+          }
+        ]
+      },
+      "2849": {
+        "5": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Rising Tide Wristguards",
+            "id": 268217,
+            "icon": "inv_bracer_mail_raidhunterulatek_d_01"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Grips of Swirling Fury",
+            "id": 268238,
+            "icon": "inv_glove_mail_raidevokerulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Alluring Bubbleband",
+            "id": 268266,
+            "icon": "inv_70_raid_ring8c"
+          }
+        ]
+      },
+      "2888": {
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Versatility"
+            ],
+            "name": "Amani Summoning Shawl",
+            "id": 268248,
+            "icon": "inv_cape_leather_raidmonkulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Crown of the Eternal Fang",
+            "id": 268230,
+            "icon": "inv_helm_mail_raidshamanulatek_d_01"
+          },
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Soulcoiler's Rush'kah",
+            "id": 281227,
+            "icon": "inv_helm_armor_hextrollpriestess_d_01"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Versatility"
+            ],
+            "name": "Cursed Reliquary Cincture",
+            "id": 268216,
+            "icon": "inv_belt_mail_raidevokerulatek_d_01"
+          }
+        ],
+        "10": [
+          {
+            "id": 270930,
+            "inventorySlotId": 13,
+            "name": "Tomb-Creeper's Claw",
+            "handLabel": "1H",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "hand": "1h",
+            "weaponClass": "Fist",
+            "droppedBy": null,
+            "icon": "inv_hand_1h_ulatek_d_01"
+          }
+        ]
+      },
+      "2882": {
+        "12": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Vile Alchemist's Band",
+            "id": 268249,
+            "icon": "inv_121_jewelry_ring01_purple"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Vashnik's Sanguine Rancor",
+            "id": 270166,
+            "icon": "inv_11_0_raid_gruesomesyringe_blue"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Serpentine Mixing Belt",
+            "id": 268254,
+            "icon": "inv_belt_mail_raidshamanulatek_d_01"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Venomcast Icon",
+            "id": 270928,
+            "icon": "inv_jewelcrafting_goldenserpent"
+          }
+        ]
+      },
+      "2871": {
+        "10": [
+          {
+            "id": 268206,
+            "inventorySlotId": 13,
+            "name": "Slithering Savage's Gavel",
+            "handLabel": "1H",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "hand": "1h",
+            "weaponClass": "Mace",
+            "droppedBy": "Sszorak",
+            "icon": "inv_mace_1h_ulatek_d_01"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Ferocious Scaleboots",
+            "id": 268233,
+            "icon": "inv_boot_mail_raidhunterulatek_d_01"
+          }
+        ],
+        "8": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [],
+            "name": "Venomcast Relic",
+            "id": 270920,
+            "icon": "inv_jewelcrafting_goldenserpent"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Apex Brute's Claw Ring",
+            "id": 268252,
+            "icon": "inv_121_jewelry_ring03_red"
+          }
+        ]
+      },
+      "2883": {
+        "10": [
+          {
+            "id": 268209,
+            "inventorySlotId": 21,
+            "name": "Aman'muso, Warlord's Vengeance",
+            "handLabel": "1H",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "1h",
+            "weaponClass": "Axe",
+            "droppedBy": null,
+            "icon": "inv_axe_1h_ulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Zul'jin's Guillotine Technique",
+            "id": 270173,
+            "icon": "inv_121_trinket_raid_ulatek_trolltablet"
+          }
+        ],
+        "8": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Cuisses of the Uncoiled Union",
+            "id": 268237,
+            "icon": "inv_pant_mail_raidevokerulatek_d_01"
+          }
+        ],
+        "2": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Soulslither Spaulders",
+            "id": 268231,
+            "icon": "inv_shoulder_mail_raidshamanulatek_d_01"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Silken Voodoo Drape",
+            "id": 268253,
+            "icon": "inv_cape_leather_raidrogueulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Visage",
+            "id": 275937,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          },
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Gaze",
+            "id": 275938,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          }
+        ]
+      },
+      "2874": {
+        "1": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Sentinel's Vitriolic Chain",
+            "id": 268250,
+            "icon": "inv_121_jewelry_neck02_green"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [],
+            "name": "Venomcast Idol",
+            "id": 270912,
+            "icon": "inv_jewelcrafting_goldenserpent"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [],
+            "name": "Keeper's Seething Core",
+            "id": 270165,
+            "icon": "inv_121_trinket_raid_ulatek_golemhearts_green"
+          }
+        ]
+      },
+      "2894": {
+        "2": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Venomcast Remnant",
+            "id": 270924,
+            "icon": "inv_jewelcrafting_goldenserpent"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Boots of the Reckless Wayfarer",
+            "id": 268258,
+            "icon": "inv_boot_mail_raidevokerulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Gebbo's Bottomless Bag",
+            "id": 270164,
+            "icon": "inv_10_tailoring_bag1_color2"
+          }
+        ]
+      }
+    },
+    "264": {
+      "2887": {
+        "4": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Ophidian Fangmail",
+            "id": 268223,
+            "icon": "inv_chest_mail_raidhunterulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [],
+            "name": "Venomcast Effigy",
+            "id": 270916,
+            "icon": "inv_jewelcrafting_goldenserpent"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Amulet of the Twin Fangs",
+            "id": 268251,
+            "icon": "inv_121_jewelry_neck01_red"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Preternatural Antivenom",
+            "id": 270171,
+            "icon": "inv_11_0_dungeon_tentaclevial_green"
+          }
+        ]
+      },
+      "2895": {
+        "10": [
+          {
+            "id": 271092,
+            "inventorySlotId": 13,
+            "name": "Jan'thrazet, the Soul Fang",
+            "handLabel": "1H",
+            "stats": [
+              "Haste"
+            ],
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Ula'tek",
+            "icon": "inv_knife_1h_ulatekfang_d_01_spirit"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Aqirbane Reliquary",
+            "id": 268265,
+            "icon": "inv_121_jewelry_neck03_green"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Awoken Dreadfang Cuirass",
+            "id": 271876,
+            "icon": "inv_chest_mail_raidevokerulatek_d_01"
+          }
+        ]
+      },
+      "2849": {
+        "5": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Rising Tide Wristguards",
+            "id": 268217,
+            "icon": "inv_bracer_mail_raidhunterulatek_d_01"
+          }
+        ],
+        "11": [
+          {
+            "id": 268262,
+            "inventorySlotId": 14,
+            "name": "Bubblefin Splash Guard",
+            "handLabel": "OH",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "oh",
+            "weaponClass": "Shield",
+            "droppedBy": "Nymrissa Wavecaller",
+            "icon": "inv_shield_1h_ulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Alluring Bubbleband",
+            "id": 268266,
+            "icon": "inv_70_raid_ring8c"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Grips of Swirling Fury",
+            "id": 268238,
+            "icon": "inv_glove_mail_raidevokerulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste"
+            ],
+            "name": "Wavecaller's Seastone",
+            "id": 270167,
+            "icon": "inv_tradeskillitem_sorcererswater"
+          }
+        ]
+      },
+      "2888": {
+        "10": [
+          {
+            "id": 268203,
+            "inventorySlotId": 13,
+            "name": "Hexing Spiritrender",
+            "handLabel": "1H",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": null,
+            "icon": "inv_knife_1h_ulatek_d_02"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Crown of the Eternal Fang",
+            "id": 268230,
+            "icon": "inv_helm_mail_raidshamanulatek_d_01"
+          },
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Soulcoiler's Rush'kah",
+            "id": 281227,
+            "icon": "inv_helm_armor_hextrollpriestess_d_01"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Versatility"
+            ],
+            "name": "Amani Summoning Shawl",
+            "id": 268248,
+            "icon": "inv_cape_leather_raidmonkulatek_d_01"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Versatility"
+            ],
+            "name": "Cursed Reliquary Cincture",
+            "id": 268216,
+            "icon": "inv_belt_mail_raidevokerulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Soulcoiler Ritual Vessel",
+            "id": 270162,
+            "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+          }
+        ]
+      },
+      "2882": {
+        "12": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Vile Alchemist's Band",
+            "id": 268249,
+            "icon": "inv_121_jewelry_ring01_purple"
+          }
+        ],
+        "10": [
+          {
+            "id": 268205,
+            "inventorySlotId": 17,
+            "name": "Venomancer's Winged Channeler",
+            "handLabel": "2H",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": null,
+            "icon": "inv_staff_2h_ulatek_d_02"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Serpentine Mixing Belt",
+            "id": 268254,
+            "icon": "inv_belt_mail_raidshamanulatek_d_01"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Venomcast Icon",
+            "id": 270928,
+            "icon": "inv_jewelcrafting_goldenserpent"
+          }
+        ]
+      },
+      "2871": {
+        "8": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [],
+            "name": "Venomcast Relic",
+            "id": 270920,
+            "icon": "inv_jewelcrafting_goldenserpent"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Ferocious Scaleboots",
+            "id": 268233,
+            "icon": "inv_boot_mail_raidhunterulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Apex Brute's Claw Ring",
+            "id": 268252,
+            "icon": "inv_121_jewelry_ring03_red"
+          }
+        ]
+      },
+      "2883": {
+        "2": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Soulslither Spaulders",
+            "id": 268231,
+            "icon": "inv_shoulder_mail_raidshamanulatek_d_01"
+          }
+        ],
+        "8": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Cuisses of the Uncoiled Union",
+            "id": 268237,
+            "icon": "inv_pant_mail_raidevokerulatek_d_01"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Silken Voodoo Drape",
+            "id": 268253,
+            "icon": "inv_cape_leather_raidrogueulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste"
+            ],
+            "name": "Hex Lord's Dooming Idol",
+            "id": 270169,
+            "icon": "inv_archaeology_orcclans_crackedidol"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Visage",
+            "id": 275937,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          },
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Gaze",
+            "id": 275938,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          }
+        ]
+      },
+      "2874": {
+        "6": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [],
+            "name": "Venomcast Idol",
+            "id": 270912,
+            "icon": "inv_jewelcrafting_goldenserpent"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Sentinel's Vitriolic Chain",
+            "id": 268250,
+            "icon": "inv_121_jewelry_neck02_green"
+          }
+        ]
+      },
+      "2894": {
+        "2": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Venomcast Remnant",
+            "id": 270924,
+            "icon": "inv_jewelcrafting_goldenserpent"
+          }
+        ],
+        "10": [
+          {
+            "id": 268210,
+            "inventorySlotId": 13,
+            "name": "Malevolent Spiritcudgel",
+            "handLabel": "1H",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "hand": "1h",
+            "weaponClass": "Mace",
+            "droppedBy": "Mor'zahi",
+            "icon": "inv_mace_1h_ulatek_d_01"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Boots of the Reckless Wayfarer",
+            "id": 268258,
+            "icon": "inv_boot_mail_raidevokerulatek_d_01"
+          }
+        ],
+        "11": [
+          {
+            "id": 268196,
+            "inventorySlotId": 14,
+            "name": "Venom-Slashed Scuteward",
+            "handLabel": "OH",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "hand": "oh",
+            "weaponClass": "Shield",
+            "droppedBy": "Mor'zahi",
+            "icon": "inv_shield_1h_ulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Gebbo's Bottomless Bag",
+            "id": 270164,
+            "icon": "inv_10_tailoring_bag1_color2"
+          }
+        ]
+      }
+    },
+    "265": {
+      "2887": {
+        "2": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Ornaments of the Eternal Coil",
+            "id": 268241,
+            "icon": "inv_shoulder_cloth_raidmageulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [],
+            "name": "Venomwoven Effigy",
+            "id": 270914,
+            "icon": "inv_jewelcrafting_azureserpent"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Amulet of the Twin Fangs",
+            "id": 268251,
+            "icon": "inv_121_jewelry_neck01_red"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [],
+            "name": "Vexhul's Everflowing Gland",
+            "id": 270170,
+            "icon": "inv_11_0_misc_organmass_color3"
+          }
+        ]
+      },
+      "2895": {
+        "10": [
+          {
+            "id": 271092,
+            "inventorySlotId": 13,
+            "name": "Jan'thrazet, the Soul Fang",
+            "handLabel": "1H",
+            "stats": [
+              "Haste"
+            ],
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Ula'tek",
+            "icon": "inv_knife_1h_ulatekfang_d_01_spirit"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Mastery"
+            ],
+            "name": "Venomkeeper's Horrific Cowl",
+            "id": 271874,
+            "icon": "inv_helm_cloth_raidwarlockulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Aqirbane Reliquary",
+            "id": 268265,
+            "icon": "inv_121_jewelry_neck03_green"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Mastery"
+            ],
+            "name": "Font of Venomous Rage",
+            "id": 270168,
+            "icon": "inv_10_dungeonjewelry_dragon_trinket_3djardintrophy_green"
+          }
+        ]
+      },
+      "2849": {
+        "4": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Tidebound Sorcereress's Robes",
+            "id": 268221,
+            "icon": "inv_robe_cloth_raidwarlockulatek_d_01"
+          }
+        ],
+        "11": [
+          {
+            "id": 268263,
+            "inventorySlotId": 23,
+            "name": "Frostscale's Mystic Frond",
+            "handLabel": "OH",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Nymrissa Wavecaller",
+            "icon": "inv_offhand_1h_ulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste"
+            ],
+            "name": "Wavecaller's Seastone",
+            "id": 270167,
+            "icon": "inv_tradeskillitem_sorcererswater"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Crit",
+              "Versatility"
+            ],
+            "name": "Cincture of the Abyssal Grotto",
+            "id": 268232,
+            "icon": "inv_belt_cloth_raidmageulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Alluring Bubbleband",
+            "id": 268266,
+            "icon": "inv_70_raid_ring8c"
+          }
+        ]
+      },
+      "2888": {
+        "10": [
+          {
+            "id": 268203,
+            "inventorySlotId": 13,
+            "name": "Hexing Spiritrender",
+            "handLabel": "1H",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": null,
+            "icon": "inv_knife_1h_ulatek_d_02"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Soulcoiler's Rush'kah",
+            "id": 281227,
+            "icon": "inv_helm_armor_hextrollpriestess_d_01"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Nek'zali's Spiritwalkers",
+            "id": 268218,
+            "icon": "inv_boot_cloth_raidpriestulatek_d_01"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Versatility"
+            ],
+            "name": "Amani Summoning Shawl",
+            "id": 268248,
+            "icon": "inv_cape_leather_raidmonkulatek_d_01"
+          }
+        ],
+        "8": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Mastery",
+              "Versatility"
+            ],
+            "name": "Initiate's Sacrificial Tights",
+            "id": 268236,
+            "icon": "inv_pant_cloth_raidpriestulatek_d_01"
+          }
+        ]
+      },
+      "2882": {
+        "12": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Vile Alchemist's Band",
+            "id": 268249,
+            "icon": "inv_121_jewelry_ring01_purple"
+          }
+        ],
+        "10": [
+          {
+            "id": 268205,
+            "inventorySlotId": 17,
+            "name": "Venomancer's Winged Channeler",
+            "handLabel": "2H",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": null,
+            "icon": "inv_staff_2h_ulatek_d_02"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Venomwoven Icon",
+            "id": 270926,
+            "icon": "inv_jewelcrafting_azureserpent"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Fang of Umbral Malignance",
+            "id": 270161,
+            "icon": "inv_121_trinket_raid_ulatek_fang_purple"
+          }
+        ]
+      },
+      "2871": {
+        "8": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [],
+            "name": "Venomwoven Relic",
+            "id": 270918,
+            "icon": "inv_jewelcrafting_azureserpent"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Caustic Chain-Wrapped Sash",
+            "id": 268257,
+            "icon": "inv_belt_cloth_raidwarlockulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Apex Brute's Claw Ring",
+            "id": 268252,
+            "icon": "inv_121_jewelry_ring03_red"
+          }
+        ]
+      },
+      "2883": {
+        "10": [
+          {
+            "id": 268211,
+            "inventorySlotId": 13,
+            "name": "Baleful Hexblade",
+            "handLabel": "1H",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "1h",
+            "weaponClass": "Sword",
+            "droppedBy": null,
+            "icon": "inv_sword_1h_ulatek_d_01"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Grasps of the Eternal Shadow",
+            "id": 268243,
+            "icon": "inv_glove_cloth_raidwarlockulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste"
+            ],
+            "name": "Hex Lord's Dooming Idol",
+            "id": 270169,
+            "icon": "inv_archaeology_orcclans_crackedidol"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Cackling Soultreads",
+            "id": 268255,
+            "icon": "inv_boot_cloth_raidmageulatek_d_01"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Silken Voodoo Drape",
+            "id": 268253,
+            "icon": "inv_cape_leather_raidrogueulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Visage",
+            "id": 275937,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          },
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Gaze",
+            "id": 275938,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          }
+        ]
+      },
+      "2874": {
+        "5": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Venom-Singed Cuffs",
+            "id": 268228,
+            "icon": "inv_bracer_cloth_raidmageulatek_d_01"
+          }
+        ],
+        "11": [
+          {
+            "id": 268197,
+            "inventorySlotId": 23,
+            "name": "Spine of the Hissing Abyss",
+            "handLabel": "OH",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Breath of Ula'tek",
+            "icon": "inv_offhand_1h_ulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Sentinel's Vitriolic Chain",
+            "id": 268250,
+            "icon": "inv_121_jewelry_neck02_green"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [],
+            "name": "Venomwoven Idol",
+            "id": 270910,
+            "icon": "inv_jewelcrafting_azureserpent"
+          }
+        ]
+      },
+      "2894": {
+        "2": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Venomwoven Remnant",
+            "id": 270922,
+            "icon": "inv_jewelcrafting_azureserpent"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Errant Scrollsage's Hood",
+            "id": 268242,
+            "icon": "inv_helm_cloth_raidpriestulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Gebbo's Bottomless Bag",
+            "id": 270164,
+            "icon": "inv_10_tailoring_bag1_color2"
+          }
+        ]
+      }
+    },
+    "266": {
+      "2887": {
+        "2": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Ornaments of the Eternal Coil",
+            "id": 268241,
+            "icon": "inv_shoulder_cloth_raidmageulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [],
+            "name": "Venomwoven Effigy",
+            "id": 270914,
+            "icon": "inv_jewelcrafting_azureserpent"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Amulet of the Twin Fangs",
+            "id": 268251,
+            "icon": "inv_121_jewelry_neck01_red"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [],
+            "name": "Vexhul's Everflowing Gland",
+            "id": 270170,
+            "icon": "inv_11_0_misc_organmass_color3"
+          }
+        ]
+      },
+      "2895": {
+        "10": [
+          {
+            "id": 271092,
+            "inventorySlotId": 13,
+            "name": "Jan'thrazet, the Soul Fang",
+            "handLabel": "1H",
+            "stats": [
+              "Haste"
+            ],
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Ula'tek",
+            "icon": "inv_knife_1h_ulatekfang_d_01_spirit"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Mastery"
+            ],
+            "name": "Venomkeeper's Horrific Cowl",
+            "id": 271874,
+            "icon": "inv_helm_cloth_raidwarlockulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Aqirbane Reliquary",
+            "id": 268265,
+            "icon": "inv_121_jewelry_neck03_green"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Mastery"
+            ],
+            "name": "Font of Venomous Rage",
+            "id": 270168,
+            "icon": "inv_10_dungeonjewelry_dragon_trinket_3djardintrophy_green"
+          }
+        ]
+      },
+      "2849": {
+        "4": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Tidebound Sorcereress's Robes",
+            "id": 268221,
+            "icon": "inv_robe_cloth_raidwarlockulatek_d_01"
+          }
+        ],
+        "11": [
+          {
+            "id": 268263,
+            "inventorySlotId": 23,
+            "name": "Frostscale's Mystic Frond",
+            "handLabel": "OH",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Nymrissa Wavecaller",
+            "icon": "inv_offhand_1h_ulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste"
+            ],
+            "name": "Wavecaller's Seastone",
+            "id": 270167,
+            "icon": "inv_tradeskillitem_sorcererswater"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Crit",
+              "Versatility"
+            ],
+            "name": "Cincture of the Abyssal Grotto",
+            "id": 268232,
+            "icon": "inv_belt_cloth_raidmageulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Alluring Bubbleband",
+            "id": 268266,
+            "icon": "inv_70_raid_ring8c"
+          }
+        ]
+      },
+      "2888": {
+        "10": [
+          {
+            "id": 268203,
+            "inventorySlotId": 13,
+            "name": "Hexing Spiritrender",
+            "handLabel": "1H",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": null,
+            "icon": "inv_knife_1h_ulatek_d_02"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Soulcoiler's Rush'kah",
+            "id": 281227,
+            "icon": "inv_helm_armor_hextrollpriestess_d_01"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Nek'zali's Spiritwalkers",
+            "id": 268218,
+            "icon": "inv_boot_cloth_raidpriestulatek_d_01"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Versatility"
+            ],
+            "name": "Amani Summoning Shawl",
+            "id": 268248,
+            "icon": "inv_cape_leather_raidmonkulatek_d_01"
+          }
+        ],
+        "8": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Mastery",
+              "Versatility"
+            ],
+            "name": "Initiate's Sacrificial Tights",
+            "id": 268236,
+            "icon": "inv_pant_cloth_raidpriestulatek_d_01"
+          }
+        ]
+      },
+      "2882": {
+        "12": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Vile Alchemist's Band",
+            "id": 268249,
+            "icon": "inv_121_jewelry_ring01_purple"
+          }
+        ],
+        "10": [
+          {
+            "id": 268205,
+            "inventorySlotId": 17,
+            "name": "Venomancer's Winged Channeler",
+            "handLabel": "2H",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": null,
+            "icon": "inv_staff_2h_ulatek_d_02"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Venomwoven Icon",
+            "id": 270926,
+            "icon": "inv_jewelcrafting_azureserpent"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Fang of Umbral Malignance",
+            "id": 270161,
+            "icon": "inv_121_trinket_raid_ulatek_fang_purple"
+          }
+        ]
+      },
+      "2871": {
+        "8": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [],
+            "name": "Venomwoven Relic",
+            "id": 270918,
+            "icon": "inv_jewelcrafting_azureserpent"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Caustic Chain-Wrapped Sash",
+            "id": 268257,
+            "icon": "inv_belt_cloth_raidwarlockulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Apex Brute's Claw Ring",
+            "id": 268252,
+            "icon": "inv_121_jewelry_ring03_red"
+          }
+        ]
+      },
+      "2883": {
+        "10": [
+          {
+            "id": 268211,
+            "inventorySlotId": 13,
+            "name": "Baleful Hexblade",
+            "handLabel": "1H",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "1h",
+            "weaponClass": "Sword",
+            "droppedBy": null,
+            "icon": "inv_sword_1h_ulatek_d_01"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Grasps of the Eternal Shadow",
+            "id": 268243,
+            "icon": "inv_glove_cloth_raidwarlockulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste"
+            ],
+            "name": "Hex Lord's Dooming Idol",
+            "id": 270169,
+            "icon": "inv_archaeology_orcclans_crackedidol"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Cackling Soultreads",
+            "id": 268255,
+            "icon": "inv_boot_cloth_raidmageulatek_d_01"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Silken Voodoo Drape",
+            "id": 268253,
+            "icon": "inv_cape_leather_raidrogueulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Visage",
+            "id": 275937,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          },
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Gaze",
+            "id": 275938,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          }
+        ]
+      },
+      "2874": {
+        "5": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Venom-Singed Cuffs",
+            "id": 268228,
+            "icon": "inv_bracer_cloth_raidmageulatek_d_01"
+          }
+        ],
+        "11": [
+          {
+            "id": 268197,
+            "inventorySlotId": 23,
+            "name": "Spine of the Hissing Abyss",
+            "handLabel": "OH",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Breath of Ula'tek",
+            "icon": "inv_offhand_1h_ulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Sentinel's Vitriolic Chain",
+            "id": 268250,
+            "icon": "inv_121_jewelry_neck02_green"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [],
+            "name": "Venomwoven Idol",
+            "id": 270910,
+            "icon": "inv_jewelcrafting_azureserpent"
+          }
+        ]
+      },
+      "2894": {
+        "2": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Venomwoven Remnant",
+            "id": 270922,
+            "icon": "inv_jewelcrafting_azureserpent"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Errant Scrollsage's Hood",
+            "id": 268242,
+            "icon": "inv_helm_cloth_raidpriestulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Gebbo's Bottomless Bag",
+            "id": 270164,
+            "icon": "inv_10_tailoring_bag1_color2"
+          }
+        ]
+      }
+    },
+    "267": {
+      "2887": {
+        "2": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Ornaments of the Eternal Coil",
+            "id": 268241,
+            "icon": "inv_shoulder_cloth_raidmageulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [],
+            "name": "Venomwoven Effigy",
+            "id": 270914,
+            "icon": "inv_jewelcrafting_azureserpent"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Amulet of the Twin Fangs",
+            "id": 268251,
+            "icon": "inv_121_jewelry_neck01_red"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [],
+            "name": "Vexhul's Everflowing Gland",
+            "id": 270170,
+            "icon": "inv_11_0_misc_organmass_color3"
+          }
+        ]
+      },
+      "2895": {
+        "10": [
+          {
+            "id": 271092,
+            "inventorySlotId": 13,
+            "name": "Jan'thrazet, the Soul Fang",
+            "handLabel": "1H",
+            "stats": [
+              "Haste"
+            ],
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Ula'tek",
+            "icon": "inv_knife_1h_ulatekfang_d_01_spirit"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Mastery"
+            ],
+            "name": "Venomkeeper's Horrific Cowl",
+            "id": 271874,
+            "icon": "inv_helm_cloth_raidwarlockulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Aqirbane Reliquary",
+            "id": 268265,
+            "icon": "inv_121_jewelry_neck03_green"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Mastery"
+            ],
+            "name": "Font of Venomous Rage",
+            "id": 270168,
+            "icon": "inv_10_dungeonjewelry_dragon_trinket_3djardintrophy_green"
+          }
+        ]
+      },
+      "2849": {
+        "4": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Tidebound Sorcereress's Robes",
+            "id": 268221,
+            "icon": "inv_robe_cloth_raidwarlockulatek_d_01"
+          }
+        ],
+        "11": [
+          {
+            "id": 268263,
+            "inventorySlotId": 23,
+            "name": "Frostscale's Mystic Frond",
+            "handLabel": "OH",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Nymrissa Wavecaller",
+            "icon": "inv_offhand_1h_ulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste"
+            ],
+            "name": "Wavecaller's Seastone",
+            "id": 270167,
+            "icon": "inv_tradeskillitem_sorcererswater"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Crit",
+              "Versatility"
+            ],
+            "name": "Cincture of the Abyssal Grotto",
+            "id": 268232,
+            "icon": "inv_belt_cloth_raidmageulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Alluring Bubbleband",
+            "id": 268266,
+            "icon": "inv_70_raid_ring8c"
+          }
+        ]
+      },
+      "2888": {
+        "10": [
+          {
+            "id": 268203,
+            "inventorySlotId": 13,
+            "name": "Hexing Spiritrender",
+            "handLabel": "1H",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": null,
+            "icon": "inv_knife_1h_ulatek_d_02"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Soulcoiler's Rush'kah",
+            "id": 281227,
+            "icon": "inv_helm_armor_hextrollpriestess_d_01"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Nek'zali's Spiritwalkers",
+            "id": 268218,
+            "icon": "inv_boot_cloth_raidpriestulatek_d_01"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Versatility"
+            ],
+            "name": "Amani Summoning Shawl",
+            "id": 268248,
+            "icon": "inv_cape_leather_raidmonkulatek_d_01"
+          }
+        ],
+        "8": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Mastery",
+              "Versatility"
+            ],
+            "name": "Initiate's Sacrificial Tights",
+            "id": 268236,
+            "icon": "inv_pant_cloth_raidpriestulatek_d_01"
+          }
+        ]
+      },
+      "2882": {
+        "12": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Vile Alchemist's Band",
+            "id": 268249,
+            "icon": "inv_121_jewelry_ring01_purple"
+          }
+        ],
+        "10": [
+          {
+            "id": 268205,
+            "inventorySlotId": 17,
+            "name": "Venomancer's Winged Channeler",
+            "handLabel": "2H",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": null,
+            "icon": "inv_staff_2h_ulatek_d_02"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Venomwoven Icon",
+            "id": 270926,
+            "icon": "inv_jewelcrafting_azureserpent"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Fang of Umbral Malignance",
+            "id": 270161,
+            "icon": "inv_121_trinket_raid_ulatek_fang_purple"
+          }
+        ]
+      },
+      "2871": {
+        "8": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [],
+            "name": "Venomwoven Relic",
+            "id": 270918,
+            "icon": "inv_jewelcrafting_azureserpent"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Caustic Chain-Wrapped Sash",
+            "id": 268257,
+            "icon": "inv_belt_cloth_raidwarlockulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Apex Brute's Claw Ring",
+            "id": 268252,
+            "icon": "inv_121_jewelry_ring03_red"
+          }
+        ]
+      },
+      "2883": {
+        "10": [
+          {
+            "id": 268211,
+            "inventorySlotId": 13,
+            "name": "Baleful Hexblade",
+            "handLabel": "1H",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "1h",
+            "weaponClass": "Sword",
+            "droppedBy": null,
+            "icon": "inv_sword_1h_ulatek_d_01"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Grasps of the Eternal Shadow",
+            "id": 268243,
+            "icon": "inv_glove_cloth_raidwarlockulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste"
+            ],
+            "name": "Hex Lord's Dooming Idol",
+            "id": 270169,
+            "icon": "inv_archaeology_orcclans_crackedidol"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Cackling Soultreads",
+            "id": 268255,
+            "icon": "inv_boot_cloth_raidmageulatek_d_01"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Silken Voodoo Drape",
+            "id": 268253,
+            "icon": "inv_cape_leather_raidrogueulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Visage",
+            "id": 275937,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          },
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Gaze",
+            "id": 275938,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          }
+        ]
+      },
+      "2874": {
+        "5": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Venom-Singed Cuffs",
+            "id": 268228,
+            "icon": "inv_bracer_cloth_raidmageulatek_d_01"
+          }
+        ],
+        "11": [
+          {
+            "id": 268197,
+            "inventorySlotId": 23,
+            "name": "Spine of the Hissing Abyss",
+            "handLabel": "OH",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Breath of Ula'tek",
+            "icon": "inv_offhand_1h_ulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Sentinel's Vitriolic Chain",
+            "id": 268250,
+            "icon": "inv_121_jewelry_neck02_green"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [],
+            "name": "Venomwoven Idol",
+            "id": 270910,
+            "icon": "inv_jewelcrafting_azureserpent"
+          }
+        ]
+      },
+      "2894": {
+        "2": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Venomwoven Remnant",
+            "id": 270922,
+            "icon": "inv_jewelcrafting_azureserpent"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Errant Scrollsage's Hood",
+            "id": 268242,
+            "icon": "inv_helm_cloth_raidpriestulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Gebbo's Bottomless Bag",
+            "id": 270164,
+            "icon": "inv_10_tailoring_bag1_color2"
+          }
+        ]
+      }
+    },
+    "261": {
+      "2887": {
+        "10": [
+          {
+            "id": 268264,
+            "inventorySlotId": 13,
+            "name": "Ravenous Feaster's Fang",
+            "handLabel": "1H",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Vexhul",
+            "icon": "inv_knife_1h_ulatek_d_02"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [],
+            "name": "Venomcured Effigy",
+            "id": 270915,
+            "icon": "inv_jewelcrafting_purpleserpent"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Bespittled Slitherslippers",
+            "id": 268261,
+            "icon": "inv_boot_leather_raidmonkulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Amulet of the Twin Fangs",
+            "id": 268251,
+            "icon": "inv_121_jewelry_neck01_red"
+          }
+        ]
+      },
+      "2895": {
+        "10": [
+          {
+            "id": 271093,
+            "inventorySlotId": 13,
+            "name": "Zatha'tek, Breath of Corruption",
+            "handLabel": "1H",
+            "stats": [
+              "Crit"
+            ],
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Ula'tek",
+            "icon": "inv_knife_1h_ulatekfang_d_01_poison"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Haste"
+            ],
+            "name": "Gaze of the Coiled Watcher",
+            "id": 271875,
+            "icon": "inv_helm_leather_raiddruidulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Aqirbane Reliquary",
+            "id": 268265,
+            "icon": "inv_121_jewelry_neck03_green"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Mastery"
+            ],
+            "name": "Font of Venomous Rage",
+            "id": 270168,
+            "icon": "inv_10_dungeonjewelry_dragon_trinket_3djardintrophy_green"
+          },
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Voracious Heart of Ula'tek",
+            "id": 270175,
+            "icon": "inv_121_trinket_raid_ulatek_heart"
+          }
+        ]
+      },
+      "2849": {
+        "9": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Breakwater Boots",
+            "id": 268247,
+            "icon": "inv_boot_leather_raiddemonhunterulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Alluring Bubbleband",
+            "id": 268266,
+            "icon": "inv_70_raid_ring8c"
+          }
+        ]
+      },
+      "2888": {
+        "5": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Restless Spirit Shackles",
+            "id": 268240,
+            "icon": "8095063"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Versatility"
+            ],
+            "name": "Amani Summoning Shawl",
+            "id": 268248,
+            "icon": "inv_cape_leather_raidmonkulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Soulcoiler's Rush'kah",
+            "id": 281227,
+            "icon": "inv_helm_armor_hextrollpriestess_d_01"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Vestment of the Awakening",
+            "id": 268235,
+            "icon": "inv_robe_leather_raiddruidulatek_d_01"
+          }
+        ]
+      },
+      "2882": {
+        "2": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Frothing Venom Spaulders",
+            "id": 268246,
+            "icon": "inv_shoulder_leather_raiddemonhunterulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Vile Alchemist's Band",
+            "id": 268249,
+            "icon": "inv_121_jewelry_ring01_purple"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Vashnik's Sanguine Rancor",
+            "id": 270166,
+            "icon": "inv_11_0_raid_gruesomesyringe_blue"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Venomcured Icon",
+            "id": 270927,
+            "icon": "inv_jewelcrafting_purpleserpent"
+          }
+        ]
+      },
+      "2871": {
+        "8": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [],
+            "name": "Venomcured Relic",
+            "id": 270919,
+            "icon": "inv_jewelcrafting_purpleserpent"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Ruthless Slaughtergrips",
+            "id": 268234,
+            "icon": "inv_glove_leather_raiddemonhunterulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Apex Brute's Claw Ring",
+            "id": 268252,
+            "icon": "inv_121_jewelry_ring03_red"
+          }
+        ]
+      },
+      "2883": {
+        "8": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Coiled Hex Legguards",
+            "id": 268225,
+            "icon": "inv_pant_leather_raidmonkulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Visage",
+            "id": 275937,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          },
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Gaze",
+            "id": 275938,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Silken Voodoo Drape",
+            "id": 268253,
+            "icon": "inv_cape_leather_raidrogueulatek_d_01"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Sash of the Forlorn Vessel",
+            "id": 268256,
+            "icon": "inv_belt_leather_raiddruidulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Zul'jin's Guillotine Technique",
+            "id": 270173,
+            "icon": "inv_121_trinket_raid_ulatek_trolltablet"
+          }
+        ]
+      },
+      "2874": {
+        "10": [
+          {
+            "id": 268204,
+            "inventorySlotId": 13,
+            "name": "Ancient Construct's Venomshiv",
+            "handLabel": "1H",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Breath of Ula'tek",
+            "icon": "inv_knife_1h_ulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Mastery",
+              "Versatility"
+            ],
+            "name": "Shadow Hunter's Warmask",
+            "id": 268219,
+            "icon": "inv_helm_leather_raidrogueulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Sentinel's Vitriolic Chain",
+            "id": 268250,
+            "icon": "inv_121_jewelry_neck02_green"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [],
+            "name": "Venomcured Idol",
+            "id": 270911,
+            "icon": "inv_jewelcrafting_purpleserpent"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [],
+            "name": "Keeper's Seething Core",
+            "id": 270165,
+            "icon": "inv_121_trinket_raid_ulatek_golemhearts_green"
+          }
+        ]
+      },
+      "2894": {
+        "2": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Venomcured Remnant",
+            "id": 270923,
+            "icon": "inv_jewelcrafting_purpleserpent"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Unpossessed Skullsash",
+            "id": 268227,
+            "icon": "inv_belt_leather_raidrogueulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Gebbo's Bottomless Bag",
+            "id": 270164,
+            "icon": "inv_10_tailoring_bag1_color2"
+          }
+        ]
+      }
+    },
+    "64": {
+      "2887": {
+        "2": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Ornaments of the Eternal Coil",
+            "id": 268241,
+            "icon": "inv_shoulder_cloth_raidmageulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [],
+            "name": "Venomwoven Effigy",
+            "id": 270914,
+            "icon": "inv_jewelcrafting_azureserpent"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Amulet of the Twin Fangs",
+            "id": 268251,
+            "icon": "inv_121_jewelry_neck01_red"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [],
+            "name": "Vexhul's Everflowing Gland",
+            "id": 270170,
+            "icon": "inv_11_0_misc_organmass_color3"
+          }
+        ]
+      },
+      "2895": {
+        "10": [
+          {
+            "id": 271092,
+            "inventorySlotId": 13,
+            "name": "Jan'thrazet, the Soul Fang",
+            "handLabel": "1H",
+            "stats": [
+              "Haste"
+            ],
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Ula'tek",
+            "icon": "inv_knife_1h_ulatekfang_d_01_spirit"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Mastery"
+            ],
+            "name": "Venomkeeper's Horrific Cowl",
+            "id": 271874,
+            "icon": "inv_helm_cloth_raidwarlockulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Aqirbane Reliquary",
+            "id": 268265,
+            "icon": "inv_121_jewelry_neck03_green"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Mastery"
+            ],
+            "name": "Font of Venomous Rage",
+            "id": 270168,
+            "icon": "inv_10_dungeonjewelry_dragon_trinket_3djardintrophy_green"
+          }
+        ]
+      },
+      "2849": {
+        "4": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Tidebound Sorcereress's Robes",
+            "id": 268221,
+            "icon": "inv_robe_cloth_raidwarlockulatek_d_01"
+          }
+        ],
+        "11": [
+          {
+            "id": 268263,
+            "inventorySlotId": 23,
+            "name": "Frostscale's Mystic Frond",
+            "handLabel": "OH",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Nymrissa Wavecaller",
+            "icon": "inv_offhand_1h_ulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste"
+            ],
+            "name": "Wavecaller's Seastone",
+            "id": 270167,
+            "icon": "inv_tradeskillitem_sorcererswater"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Crit",
+              "Versatility"
+            ],
+            "name": "Cincture of the Abyssal Grotto",
+            "id": 268232,
+            "icon": "inv_belt_cloth_raidmageulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Alluring Bubbleband",
+            "id": 268266,
+            "icon": "inv_70_raid_ring8c"
+          }
+        ]
+      },
+      "2888": {
+        "10": [
+          {
+            "id": 268203,
+            "inventorySlotId": 13,
+            "name": "Hexing Spiritrender",
+            "handLabel": "1H",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": null,
+            "icon": "inv_knife_1h_ulatek_d_02"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Soulcoiler's Rush'kah",
+            "id": 281227,
+            "icon": "inv_helm_armor_hextrollpriestess_d_01"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Nek'zali's Spiritwalkers",
+            "id": 268218,
+            "icon": "inv_boot_cloth_raidpriestulatek_d_01"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Versatility"
+            ],
+            "name": "Amani Summoning Shawl",
+            "id": 268248,
+            "icon": "inv_cape_leather_raidmonkulatek_d_01"
+          }
+        ],
+        "8": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Mastery",
+              "Versatility"
+            ],
+            "name": "Initiate's Sacrificial Tights",
+            "id": 268236,
+            "icon": "inv_pant_cloth_raidpriestulatek_d_01"
+          }
+        ]
+      },
+      "2882": {
+        "12": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Vile Alchemist's Band",
+            "id": 268249,
+            "icon": "inv_121_jewelry_ring01_purple"
+          }
+        ],
+        "10": [
+          {
+            "id": 268205,
+            "inventorySlotId": 17,
+            "name": "Venomancer's Winged Channeler",
+            "handLabel": "2H",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": null,
+            "icon": "inv_staff_2h_ulatek_d_02"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Venomwoven Icon",
+            "id": 270926,
+            "icon": "inv_jewelcrafting_azureserpent"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Fang of Umbral Malignance",
+            "id": 270161,
+            "icon": "inv_121_trinket_raid_ulatek_fang_purple"
+          }
+        ]
+      },
+      "2871": {
+        "8": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [],
+            "name": "Venomwoven Relic",
+            "id": 270918,
+            "icon": "inv_jewelcrafting_azureserpent"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Caustic Chain-Wrapped Sash",
+            "id": 268257,
+            "icon": "inv_belt_cloth_raidwarlockulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Apex Brute's Claw Ring",
+            "id": 268252,
+            "icon": "inv_121_jewelry_ring03_red"
+          }
+        ]
+      },
+      "2883": {
+        "10": [
+          {
+            "id": 268211,
+            "inventorySlotId": 13,
+            "name": "Baleful Hexblade",
+            "handLabel": "1H",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "1h",
+            "weaponClass": "Sword",
+            "droppedBy": null,
+            "icon": "inv_sword_1h_ulatek_d_01"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Grasps of the Eternal Shadow",
+            "id": 268243,
+            "icon": "inv_glove_cloth_raidwarlockulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste"
+            ],
+            "name": "Hex Lord's Dooming Idol",
+            "id": 270169,
+            "icon": "inv_archaeology_orcclans_crackedidol"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Cackling Soultreads",
+            "id": 268255,
+            "icon": "inv_boot_cloth_raidmageulatek_d_01"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Silken Voodoo Drape",
+            "id": 268253,
+            "icon": "inv_cape_leather_raidrogueulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Visage",
+            "id": 275937,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          },
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Gaze",
+            "id": 275938,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          }
+        ]
+      },
+      "2874": {
+        "5": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Venom-Singed Cuffs",
+            "id": 268228,
+            "icon": "inv_bracer_cloth_raidmageulatek_d_01"
+          }
+        ],
+        "11": [
+          {
+            "id": 268197,
+            "inventorySlotId": 23,
+            "name": "Spine of the Hissing Abyss",
+            "handLabel": "OH",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Breath of Ula'tek",
+            "icon": "inv_offhand_1h_ulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Sentinel's Vitriolic Chain",
+            "id": 268250,
+            "icon": "inv_121_jewelry_neck02_green"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [],
+            "name": "Venomwoven Idol",
+            "id": 270910,
+            "icon": "inv_jewelcrafting_azureserpent"
+          }
+        ]
+      },
+      "2894": {
+        "2": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Venomwoven Remnant",
+            "id": 270922,
+            "icon": "inv_jewelcrafting_azureserpent"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Errant Scrollsage's Hood",
+            "id": 268242,
+            "icon": "inv_helm_cloth_raidpriestulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Gebbo's Bottomless Bag",
+            "id": 270164,
+            "icon": "inv_10_tailoring_bag1_color2"
+          }
+        ]
+      }
+    },
+    "72": {
+      "2887": {
+        "0": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [],
+            "name": "Venomforged Effigy",
+            "id": 270917,
+            "icon": "inv_jewelcrafting_rubyserpent"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Amulet of the Twin Fangs",
+            "id": 268251,
+            "icon": "inv_121_jewelry_neck01_red"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Scaleplate Strangulators",
+            "id": 268220,
+            "icon": "inv_glove_plate_raidpaladinulatek_d_01"
+          }
+        ]
+      },
+      "2895": {
+        "8": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Mastery"
+            ],
+            "name": "Chausses of Unbound Rancor",
+            "id": 271878,
+            "icon": "inv_pant_plate_raiddeathknightulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Aqirbane Reliquary",
+            "id": 268265,
+            "icon": "inv_121_jewelry_neck03_green"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Mastery"
+            ],
+            "name": "Font of Venomous Rage",
+            "id": 270168,
+            "icon": "inv_10_dungeonjewelry_dragon_trinket_3djardintrophy_green"
+          },
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Voracious Heart of Ula'tek",
+            "id": 270175,
+            "icon": "inv_121_trinket_raid_ulatek_heart"
+          }
+        ]
+      },
+      "2849": {
+        "2": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Swelling Sea Spaulders",
+            "id": 268226,
+            "icon": "inv_shoulder_plate_raidpaladinulatek_d_01"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Forgotten Grotto Girdle",
+            "id": 268244,
+            "icon": "inv_belt_plate_raiddeathknightulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Alluring Bubbleband",
+            "id": 268266,
+            "icon": "inv_70_raid_ring8c"
+          }
+        ]
+      },
+      "2888": {
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Versatility"
+            ],
+            "name": "Amani Summoning Shawl",
+            "id": 268248,
+            "icon": "inv_cape_leather_raidmonkulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Skullguard of the Risen Sacrifice",
+            "id": 268229,
+            "icon": "inv_helm_plate_raiddeathknightulatek_d_01"
+          },
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Soulcoiler's Rush'kah",
+            "id": 281227,
+            "icon": "inv_helm_armor_hextrollpriestess_d_01"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Entombed Cultist's Sabatons",
+            "id": 268245,
+            "icon": "inv_boot_plate_raidwarriorulatek_d_01"
+          }
+        ]
+      },
+      "2882": {
+        "12": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Vile Alchemist's Band",
+            "id": 268249,
+            "icon": "inv_121_jewelry_ring01_purple"
+          }
+        ],
+        "10": [
+          {
+            "id": 268214,
+            "inventorySlotId": 17,
+            "name": "Malignant Toothed Edge",
+            "handLabel": "2H",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "2h",
+            "weaponClass": "Sword",
+            "droppedBy": null,
+            "icon": "inv_sword_2h_ulatek_d_01"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Scaled Fiend's Warboots",
+            "id": 268260,
+            "icon": "inv_boot_plate_raidpaladinulatek_d_01"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Venomforged Icon",
+            "id": 270929,
+            "icon": "inv_jewelcrafting_rubyserpent"
+          }
+        ]
+      },
+      "2871": {
+        "12": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Apex Brute's Claw Ring",
+            "id": 268252,
+            "icon": "inv_121_jewelry_ring03_red"
+          }
+        ],
+        "8": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [],
+            "name": "Venomforged Relic",
+            "id": 270921,
+            "icon": "inv_jewelcrafting_rubyserpent"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [],
+            "name": "Sszorak's Ferocity",
+            "id": 270163,
+            "icon": "inv_121_trinket_raid_ulatek_ulatekclaw"
+          }
+        ]
+      },
+      "2883": {
+        "10": [
+          {
+            "id": 268213,
+            "inventorySlotId": 17,
+            "name": "Maze-roa, Warlord's Fury",
+            "handLabel": "2H",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "hand": "2h",
+            "weaponClass": "Axe",
+            "droppedBy": null,
+            "icon": "inv_axe_2h_ulatek_d_01"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Girdle of Toxic Regret",
+            "id": 268259,
+            "icon": "inv_belt_plate_raidpaladinulatek_d_01"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Reckless Spirit Breastplate",
+            "id": 268222,
+            "icon": "inv_chest_plate_raidwarriorulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Zul'jin's Guillotine Technique",
+            "id": 270173,
+            "icon": "inv_121_trinket_raid_ulatek_trolltablet"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Silken Voodoo Drape",
+            "id": 268253,
+            "icon": "inv_cape_leather_raidrogueulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Visage",
+            "id": 275937,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          },
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Gaze",
+            "id": 275938,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          }
+        ]
+      },
+      "2874": {
+        "10": [
+          {
+            "id": 268198,
+            "inventorySlotId": 17,
+            "name": "Caustic Keeper-Crusher",
+            "handLabel": "2H",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "hand": "2h",
+            "weaponClass": "Mace",
+            "droppedBy": "Breath of Ula'tek",
+            "icon": "inv_mace_2h_ulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Sentinel's Vitriolic Chain",
+            "id": 268250,
+            "icon": "inv_121_jewelry_neck02_green"
+          }
+        ],
+        "8": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Venom Warden's Greaves",
+            "id": 268224,
+            "icon": "inv_pant_plate_raidwarriorulatek_d_01"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [],
+            "name": "Venomforged Idol",
+            "id": 270913,
+            "icon": "inv_jewelcrafting_rubyserpent"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [],
+            "name": "Keeper's Seething Core",
+            "id": 270165,
+            "icon": "inv_121_trinket_raid_ulatek_golemhearts_green"
+          }
+        ]
+      },
+      "2894": {
+        "2": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Venomforged Remnant",
+            "id": 270925,
+            "icon": "inv_jewelcrafting_rubyserpent"
+          }
+        ],
+        "5": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Shellbound Bracers",
+            "id": 268239,
+            "icon": "inv_bracer_plate_raiddeathknightulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Gebbo's Bottomless Bag",
+            "id": 270164,
+            "icon": "inv_10_tailoring_bag1_color2"
+          }
+        ]
+      }
+    },
+    "63": {
+      "2887": {
+        "2": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Ornaments of the Eternal Coil",
+            "id": 268241,
+            "icon": "inv_shoulder_cloth_raidmageulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [],
+            "name": "Venomwoven Effigy",
+            "id": 270914,
+            "icon": "inv_jewelcrafting_azureserpent"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Amulet of the Twin Fangs",
+            "id": 268251,
+            "icon": "inv_121_jewelry_neck01_red"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [],
+            "name": "Vexhul's Everflowing Gland",
+            "id": 270170,
+            "icon": "inv_11_0_misc_organmass_color3"
+          }
+        ]
+      },
+      "2895": {
+        "10": [
+          {
+            "id": 271092,
+            "inventorySlotId": 13,
+            "name": "Jan'thrazet, the Soul Fang",
+            "handLabel": "1H",
+            "stats": [
+              "Haste"
+            ],
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Ula'tek",
+            "icon": "inv_knife_1h_ulatekfang_d_01_spirit"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Mastery"
+            ],
+            "name": "Venomkeeper's Horrific Cowl",
+            "id": 271874,
+            "icon": "inv_helm_cloth_raidwarlockulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Aqirbane Reliquary",
+            "id": 268265,
+            "icon": "inv_121_jewelry_neck03_green"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Mastery"
+            ],
+            "name": "Font of Venomous Rage",
+            "id": 270168,
+            "icon": "inv_10_dungeonjewelry_dragon_trinket_3djardintrophy_green"
+          }
+        ]
+      },
+      "2849": {
+        "4": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Tidebound Sorcereress's Robes",
+            "id": 268221,
+            "icon": "inv_robe_cloth_raidwarlockulatek_d_01"
+          }
+        ],
+        "11": [
+          {
+            "id": 268263,
+            "inventorySlotId": 23,
+            "name": "Frostscale's Mystic Frond",
+            "handLabel": "OH",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Nymrissa Wavecaller",
+            "icon": "inv_offhand_1h_ulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste"
+            ],
+            "name": "Wavecaller's Seastone",
+            "id": 270167,
+            "icon": "inv_tradeskillitem_sorcererswater"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Crit",
+              "Versatility"
+            ],
+            "name": "Cincture of the Abyssal Grotto",
+            "id": 268232,
+            "icon": "inv_belt_cloth_raidmageulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Alluring Bubbleband",
+            "id": 268266,
+            "icon": "inv_70_raid_ring8c"
+          }
+        ]
+      },
+      "2888": {
+        "10": [
+          {
+            "id": 268203,
+            "inventorySlotId": 13,
+            "name": "Hexing Spiritrender",
+            "handLabel": "1H",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": null,
+            "icon": "inv_knife_1h_ulatek_d_02"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Soulcoiler's Rush'kah",
+            "id": 281227,
+            "icon": "inv_helm_armor_hextrollpriestess_d_01"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Nek'zali's Spiritwalkers",
+            "id": 268218,
+            "icon": "inv_boot_cloth_raidpriestulatek_d_01"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Versatility"
+            ],
+            "name": "Amani Summoning Shawl",
+            "id": 268248,
+            "icon": "inv_cape_leather_raidmonkulatek_d_01"
+          }
+        ],
+        "8": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Mastery",
+              "Versatility"
+            ],
+            "name": "Initiate's Sacrificial Tights",
+            "id": 268236,
+            "icon": "inv_pant_cloth_raidpriestulatek_d_01"
+          }
+        ]
+      },
+      "2882": {
+        "12": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Vile Alchemist's Band",
+            "id": 268249,
+            "icon": "inv_121_jewelry_ring01_purple"
+          }
+        ],
+        "10": [
+          {
+            "id": 268205,
+            "inventorySlotId": 17,
+            "name": "Venomancer's Winged Channeler",
+            "handLabel": "2H",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": null,
+            "icon": "inv_staff_2h_ulatek_d_02"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Venomwoven Icon",
+            "id": 270926,
+            "icon": "inv_jewelcrafting_azureserpent"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Fang of Umbral Malignance",
+            "id": 270161,
+            "icon": "inv_121_trinket_raid_ulatek_fang_purple"
+          }
+        ]
+      },
+      "2871": {
+        "8": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [],
+            "name": "Venomwoven Relic",
+            "id": 270918,
+            "icon": "inv_jewelcrafting_azureserpent"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Caustic Chain-Wrapped Sash",
+            "id": 268257,
+            "icon": "inv_belt_cloth_raidwarlockulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Apex Brute's Claw Ring",
+            "id": 268252,
+            "icon": "inv_121_jewelry_ring03_red"
+          }
+        ]
+      },
+      "2883": {
+        "10": [
+          {
+            "id": 268211,
+            "inventorySlotId": 13,
+            "name": "Baleful Hexblade",
+            "handLabel": "1H",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "1h",
+            "weaponClass": "Sword",
+            "droppedBy": null,
+            "icon": "inv_sword_1h_ulatek_d_01"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Grasps of the Eternal Shadow",
+            "id": 268243,
+            "icon": "inv_glove_cloth_raidwarlockulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste"
+            ],
+            "name": "Hex Lord's Dooming Idol",
+            "id": 270169,
+            "icon": "inv_archaeology_orcclans_crackedidol"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Cackling Soultreads",
+            "id": 268255,
+            "icon": "inv_boot_cloth_raidmageulatek_d_01"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Silken Voodoo Drape",
+            "id": 268253,
+            "icon": "inv_cape_leather_raidrogueulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Visage",
+            "id": 275937,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          },
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Gaze",
+            "id": 275938,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          }
+        ]
+      },
+      "2874": {
+        "5": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Venom-Singed Cuffs",
+            "id": 268228,
+            "icon": "inv_bracer_cloth_raidmageulatek_d_01"
+          }
+        ],
+        "11": [
+          {
+            "id": 268197,
+            "inventorySlotId": 23,
+            "name": "Spine of the Hissing Abyss",
+            "handLabel": "OH",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Breath of Ula'tek",
+            "icon": "inv_offhand_1h_ulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Sentinel's Vitriolic Chain",
+            "id": 268250,
+            "icon": "inv_121_jewelry_neck02_green"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [],
+            "name": "Venomwoven Idol",
+            "id": 270910,
+            "icon": "inv_jewelcrafting_azureserpent"
+          }
+        ]
+      },
+      "2894": {
+        "2": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Venomwoven Remnant",
+            "id": 270922,
+            "icon": "inv_jewelcrafting_azureserpent"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Errant Scrollsage's Hood",
+            "id": 268242,
+            "icon": "inv_helm_cloth_raidpriestulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Gebbo's Bottomless Bag",
+            "id": 270164,
+            "icon": "inv_10_tailoring_bag1_color2"
+          }
+        ]
+      }
+    },
+    "73": {
+      "2887": {
+        "0": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [],
+            "name": "Venomforged Effigy",
+            "id": 270917,
+            "icon": "inv_jewelcrafting_rubyserpent"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Amulet of the Twin Fangs",
+            "id": 268251,
+            "icon": "inv_121_jewelry_neck01_red"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Scaleplate Strangulators",
+            "id": 268220,
+            "icon": "inv_glove_plate_raidpaladinulatek_d_01"
+          }
+        ]
+      },
+      "2895": {
+        "10": [
+          {
+            "id": 268202,
+            "inventorySlotId": 13,
+            "name": "Jaw of the Shackled Goddess",
+            "handLabel": "1H",
+            "stats": [
+              "Haste"
+            ],
+            "hand": "1h",
+            "weaponClass": "Sword",
+            "droppedBy": "Ula'tek",
+            "icon": "inv_sword_1h_ulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Aqirbane Reliquary",
+            "id": 268265,
+            "icon": "inv_121_jewelry_neck03_green"
+          }
+        ],
+        "8": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Mastery"
+            ],
+            "name": "Chausses of Unbound Rancor",
+            "id": 271878,
+            "icon": "inv_pant_plate_raiddeathknightulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Voracious Heart of Ula'tek",
+            "id": 270175,
+            "icon": "inv_121_trinket_raid_ulatek_heart"
+          }
+        ]
+      },
+      "2849": {
+        "2": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Swelling Sea Spaulders",
+            "id": 268226,
+            "icon": "inv_shoulder_plate_raidpaladinulatek_d_01"
+          }
+        ],
+        "11": [
+          {
+            "id": 268262,
+            "inventorySlotId": 14,
+            "name": "Bubblefin Splash Guard",
+            "handLabel": "OH",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "oh",
+            "weaponClass": "Shield",
+            "droppedBy": "Nymrissa Wavecaller",
+            "icon": "inv_shield_1h_ulatek_d_01"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Forgotten Grotto Girdle",
+            "id": 268244,
+            "icon": "inv_belt_plate_raiddeathknightulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Alluring Bubbleband",
+            "id": 268266,
+            "icon": "inv_70_raid_ring8c"
+          }
+        ]
+      },
+      "2888": {
+        "10": [
+          {
+            "id": 268208,
+            "inventorySlotId": 13,
+            "name": "Strongblood's Ceremonial Cleaver",
+            "handLabel": "1H",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "hand": "1h",
+            "weaponClass": "Axe",
+            "droppedBy": null,
+            "icon": "inv_axe_1h_ulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Skullguard of the Risen Sacrifice",
+            "id": 268229,
+            "icon": "inv_helm_plate_raiddeathknightulatek_d_01"
+          },
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Soulcoiler's Rush'kah",
+            "id": 281227,
+            "icon": "inv_helm_armor_hextrollpriestess_d_01"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Entombed Cultist's Sabatons",
+            "id": 268245,
+            "icon": "inv_boot_plate_raidwarriorulatek_d_01"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Versatility"
+            ],
+            "name": "Amani Summoning Shawl",
+            "id": 268248,
+            "icon": "inv_cape_leather_raidmonkulatek_d_01"
+          }
+        ]
+      },
+      "2882": {
+        "12": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Vile Alchemist's Band",
+            "id": 268249,
+            "icon": "inv_121_jewelry_ring01_purple"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Scaled Fiend's Warboots",
+            "id": 268260,
+            "icon": "inv_boot_plate_raidpaladinulatek_d_01"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Venomforged Icon",
+            "id": 270929,
+            "icon": "inv_jewelcrafting_rubyserpent"
+          }
+        ]
+      },
+      "2871": {
+        "12": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Apex Brute's Claw Ring",
+            "id": 268252,
+            "icon": "inv_121_jewelry_ring03_red"
+          }
+        ],
+        "8": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [],
+            "name": "Venomforged Relic",
+            "id": 270921,
+            "icon": "inv_jewelcrafting_rubyserpent"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [],
+            "name": "Sszorak's Ferocity",
+            "id": 270163,
+            "icon": "inv_121_trinket_raid_ulatek_ulatekclaw"
+          },
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Mastery"
+            ],
+            "name": "Idol of the Howling Nexus",
+            "id": 270174,
+            "icon": "inv_jewelcrafting_jadeserpent"
+          }
+        ]
+      },
+      "2883": {
+        "10": [
+          {
+            "id": 268209,
+            "inventorySlotId": 21,
+            "name": "Aman'muso, Warlord's Vengeance",
+            "handLabel": "1H",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "1h",
+            "weaponClass": "Axe",
+            "droppedBy": null,
+            "icon": "inv_axe_1h_ulatek_d_01"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Girdle of Toxic Regret",
+            "id": 268259,
+            "icon": "inv_belt_plate_raidpaladinulatek_d_01"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Reckless Spirit Breastplate",
+            "id": 268222,
+            "icon": "inv_chest_plate_raidwarriorulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Zul'jin's Guillotine Technique",
+            "id": 270173,
+            "icon": "inv_121_trinket_raid_ulatek_trolltablet"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Silken Voodoo Drape",
+            "id": 268253,
+            "icon": "inv_cape_leather_raidrogueulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Visage",
+            "id": 275937,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          },
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Gaze",
+            "id": 275938,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          }
+        ]
+      },
+      "2874": {
+        "8": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Venom Warden's Greaves",
+            "id": 268224,
+            "icon": "inv_pant_plate_raidwarriorulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Sentinel's Vitriolic Chain",
+            "id": 268250,
+            "icon": "inv_121_jewelry_neck02_green"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [],
+            "name": "Venomforged Idol",
+            "id": 270913,
+            "icon": "inv_jewelcrafting_rubyserpent"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [],
+            "name": "Keeper's Seething Core",
+            "id": 270165,
+            "icon": "inv_121_trinket_raid_ulatek_golemhearts_green"
+          }
+        ]
+      },
+      "2894": {
+        "5": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Shellbound Bracers",
+            "id": 268239,
+            "icon": "inv_bracer_plate_raiddeathknightulatek_d_01"
+          }
+        ],
+        "11": [
+          {
+            "id": 268196,
+            "inventorySlotId": 14,
+            "name": "Venom-Slashed Scuteward",
+            "handLabel": "OH",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "hand": "oh",
+            "weaponClass": "Shield",
+            "droppedBy": "Mor'zahi",
+            "icon": "inv_shield_1h_ulatek_d_01"
+          }
+        ],
+        "2": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Venomforged Remnant",
+            "id": 270925,
+            "icon": "inv_jewelcrafting_rubyserpent"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "First Mate's Shellward",
+            "id": 270160,
+            "icon": "inv_cape_special_turtleshell_c_02"
+          },
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Gebbo's Bottomless Bag",
+            "id": 270164,
+            "icon": "inv_10_tailoring_bag1_color2"
+          }
+        ]
+      }
+    },
+    "581": {
+      "2887": {
+        "1": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Amulet of the Twin Fangs",
+            "id": 268251,
+            "icon": "inv_121_jewelry_neck01_red"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [],
+            "name": "Venomcured Effigy",
+            "id": 270915,
+            "icon": "inv_jewelcrafting_purpleserpent"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Bespittled Slitherslippers",
+            "id": 268261,
+            "icon": "inv_boot_leather_raidmonkulatek_d_01"
+          }
+        ]
+      },
+      "2895": {
+        "0": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Haste"
+            ],
+            "name": "Gaze of the Coiled Watcher",
+            "id": 271875,
+            "icon": "inv_helm_leather_raiddruidulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Aqirbane Reliquary",
+            "id": 268265,
+            "icon": "inv_121_jewelry_neck03_green"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Voracious Heart of Ula'tek",
+            "id": 270175,
+            "icon": "inv_121_trinket_raid_ulatek_heart"
+          }
+        ]
+      },
+      "2849": {
+        "9": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Breakwater Boots",
+            "id": 268247,
+            "icon": "inv_boot_leather_raiddemonhunterulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Alluring Bubbleband",
+            "id": 268266,
+            "icon": "inv_70_raid_ring8c"
+          }
+        ]
+      },
+      "2888": {
+        "5": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Restless Spirit Shackles",
+            "id": 268240,
+            "icon": "8095063"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Versatility"
+            ],
+            "name": "Amani Summoning Shawl",
+            "id": 268248,
+            "icon": "inv_cape_leather_raidmonkulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Soulcoiler's Rush'kah",
+            "id": 281227,
+            "icon": "inv_helm_armor_hextrollpriestess_d_01"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Vestment of the Awakening",
+            "id": 268235,
+            "icon": "inv_robe_leather_raiddruidulatek_d_01"
+          }
+        ],
+        "10": [
+          {
+            "id": 270930,
+            "inventorySlotId": 13,
+            "name": "Tomb-Creeper's Claw",
+            "handLabel": "1H",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "hand": "1h",
+            "weaponClass": "Fist",
+            "droppedBy": null,
+            "icon": "inv_hand_1h_ulatek_d_01"
+          }
+        ]
+      },
+      "2882": {
+        "2": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Frothing Venom Spaulders",
+            "id": 268246,
+            "icon": "inv_shoulder_leather_raiddemonhunterulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Vile Alchemist's Band",
+            "id": 268249,
+            "icon": "inv_121_jewelry_ring01_purple"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Venomcured Icon",
+            "id": 270927,
+            "icon": "inv_jewelcrafting_purpleserpent"
+          }
+        ]
+      },
+      "2871": {
+        "12": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Apex Brute's Claw Ring",
+            "id": 268252,
+            "icon": "inv_121_jewelry_ring03_red"
+          }
+        ],
+        "10": [
+          {
+            "id": 268201,
+            "inventorySlotId": 13,
+            "name": "Venomous Boneglaive",
+            "handLabel": "1H",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "hand": "1h",
+            "weaponClass": "Warglaive",
+            "droppedBy": "Sszorak",
+            "icon": "inv_glaive_1h_ulatek_d_01"
+          }
+        ],
+        "8": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [],
+            "name": "Venomcured Relic",
+            "id": 270919,
+            "icon": "inv_jewelcrafting_purpleserpent"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Ruthless Slaughtergrips",
+            "id": 268234,
+            "icon": "inv_glove_leather_raiddemonhunterulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Mastery"
+            ],
+            "name": "Idol of the Howling Nexus",
+            "id": 270174,
+            "icon": "inv_jewelcrafting_jadeserpent"
+          }
+        ]
+      },
+      "2883": {
+        "10": [
+          {
+            "id": 268209,
+            "inventorySlotId": 21,
+            "name": "Aman'muso, Warlord's Vengeance",
+            "handLabel": "1H",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "1h",
+            "weaponClass": "Axe",
+            "droppedBy": null,
+            "icon": "inv_axe_1h_ulatek_d_01"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Sash of the Forlorn Vessel",
+            "id": 268256,
+            "icon": "inv_belt_leather_raiddruidulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Zul'jin's Guillotine Technique",
+            "id": 270173,
+            "icon": "inv_121_trinket_raid_ulatek_trolltablet"
+          }
+        ],
+        "8": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Coiled Hex Legguards",
+            "id": 268225,
+            "icon": "inv_pant_leather_raidmonkulatek_d_01"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Silken Voodoo Drape",
+            "id": 268253,
+            "icon": "inv_cape_leather_raidrogueulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Visage",
+            "id": 275937,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          },
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Gaze",
+            "id": 275938,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          }
+        ]
+      },
+      "2874": {
+        "0": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Mastery",
+              "Versatility"
+            ],
+            "name": "Shadow Hunter's Warmask",
+            "id": 268219,
+            "icon": "inv_helm_leather_raidrogueulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Sentinel's Vitriolic Chain",
+            "id": 268250,
+            "icon": "inv_121_jewelry_neck02_green"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [],
+            "name": "Venomcured Idol",
+            "id": 270911,
+            "icon": "inv_jewelcrafting_purpleserpent"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [],
+            "name": "Keeper's Seething Core",
+            "id": 270165,
+            "icon": "inv_121_trinket_raid_ulatek_golemhearts_green"
+          }
+        ]
+      },
+      "2894": {
+        "2": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Venomcured Remnant",
+            "id": 270923,
+            "icon": "inv_jewelcrafting_purpleserpent"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Unpossessed Skullsash",
+            "id": 268227,
+            "icon": "inv_belt_leather_raidrogueulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "First Mate's Shellward",
+            "id": 270160,
+            "icon": "inv_cape_special_turtleshell_c_02"
+          },
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Gebbo's Bottomless Bag",
+            "id": 270164,
+            "icon": "inv_10_tailoring_bag1_color2"
+          }
+        ]
+      }
+    },
+    "1468": {
+      "2887": {
+        "4": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Ophidian Fangmail",
+            "id": 268223,
+            "icon": "inv_chest_mail_raidhunterulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [],
+            "name": "Venomcast Effigy",
+            "id": 270916,
+            "icon": "inv_jewelcrafting_goldenserpent"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Amulet of the Twin Fangs",
+            "id": 268251,
+            "icon": "inv_121_jewelry_neck01_red"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Preternatural Antivenom",
+            "id": 270171,
+            "icon": "inv_11_0_dungeon_tentaclevial_green"
+          }
+        ]
+      },
+      "2895": {
+        "10": [
+          {
+            "id": 271092,
+            "inventorySlotId": 13,
+            "name": "Jan'thrazet, the Soul Fang",
+            "handLabel": "1H",
+            "stats": [
+              "Haste"
+            ],
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Ula'tek",
+            "icon": "inv_knife_1h_ulatekfang_d_01_spirit"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Aqirbane Reliquary",
+            "id": 268265,
+            "icon": "inv_121_jewelry_neck03_green"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Awoken Dreadfang Cuirass",
+            "id": 271876,
+            "icon": "inv_chest_mail_raidevokerulatek_d_01"
+          }
+        ]
+      },
+      "2849": {
+        "5": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Rising Tide Wristguards",
+            "id": 268217,
+            "icon": "inv_bracer_mail_raidhunterulatek_d_01"
+          }
+        ],
+        "11": [
+          {
+            "id": 268263,
+            "inventorySlotId": 23,
+            "name": "Frostscale's Mystic Frond",
+            "handLabel": "OH",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Nymrissa Wavecaller",
+            "icon": "inv_offhand_1h_ulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Alluring Bubbleband",
+            "id": 268266,
+            "icon": "inv_70_raid_ring8c"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Grips of Swirling Fury",
+            "id": 268238,
+            "icon": "inv_glove_mail_raidevokerulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste"
+            ],
+            "name": "Wavecaller's Seastone",
+            "id": 270167,
+            "icon": "inv_tradeskillitem_sorcererswater"
+          }
+        ]
+      },
+      "2888": {
+        "10": [
+          {
+            "id": 268203,
+            "inventorySlotId": 13,
+            "name": "Hexing Spiritrender",
+            "handLabel": "1H",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": null,
+            "icon": "inv_knife_1h_ulatek_d_02"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Crown of the Eternal Fang",
+            "id": 268230,
+            "icon": "inv_helm_mail_raidshamanulatek_d_01"
+          },
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Soulcoiler's Rush'kah",
+            "id": 281227,
+            "icon": "inv_helm_armor_hextrollpriestess_d_01"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Versatility"
+            ],
+            "name": "Amani Summoning Shawl",
+            "id": 268248,
+            "icon": "inv_cape_leather_raidmonkulatek_d_01"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Versatility"
+            ],
+            "name": "Cursed Reliquary Cincture",
+            "id": 268216,
+            "icon": "inv_belt_mail_raidevokerulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Soulcoiler Ritual Vessel",
+            "id": 270162,
+            "icon": "inv_121_trinket_raid_ulatek_ritualvessel"
+          }
+        ]
+      },
+      "2882": {
+        "12": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Vile Alchemist's Band",
+            "id": 268249,
+            "icon": "inv_121_jewelry_ring01_purple"
+          }
+        ],
+        "10": [
+          {
+            "id": 268205,
+            "inventorySlotId": 17,
+            "name": "Venomancer's Winged Channeler",
+            "handLabel": "2H",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": null,
+            "icon": "inv_staff_2h_ulatek_d_02"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Serpentine Mixing Belt",
+            "id": 268254,
+            "icon": "inv_belt_mail_raidshamanulatek_d_01"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Venomcast Icon",
+            "id": 270928,
+            "icon": "inv_jewelcrafting_goldenserpent"
+          }
+        ]
+      },
+      "2871": {
+        "8": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [],
+            "name": "Venomcast Relic",
+            "id": 270920,
+            "icon": "inv_jewelcrafting_goldenserpent"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Ferocious Scaleboots",
+            "id": 268233,
+            "icon": "inv_boot_mail_raidhunterulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Apex Brute's Claw Ring",
+            "id": 268252,
+            "icon": "inv_121_jewelry_ring03_red"
+          }
+        ]
+      },
+      "2883": {
+        "10": [
+          {
+            "id": 268211,
+            "inventorySlotId": 13,
+            "name": "Baleful Hexblade",
+            "handLabel": "1H",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "1h",
+            "weaponClass": "Sword",
+            "droppedBy": null,
+            "icon": "inv_sword_1h_ulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste"
+            ],
+            "name": "Hex Lord's Dooming Idol",
+            "id": 270169,
+            "icon": "inv_archaeology_orcclans_crackedidol"
+          }
+        ],
+        "8": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Cuisses of the Uncoiled Union",
+            "id": 268237,
+            "icon": "inv_pant_mail_raidevokerulatek_d_01"
+          }
+        ],
+        "2": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Soulslither Spaulders",
+            "id": 268231,
+            "icon": "inv_shoulder_mail_raidshamanulatek_d_01"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Silken Voodoo Drape",
+            "id": 268253,
+            "icon": "inv_cape_leather_raidrogueulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Visage",
+            "id": 275937,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          },
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Gaze",
+            "id": 275938,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          }
+        ]
+      },
+      "2874": {
+        "11": [
+          {
+            "id": 268197,
+            "inventorySlotId": 23,
+            "name": "Spine of the Hissing Abyss",
+            "handLabel": "OH",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Breath of Ula'tek",
+            "icon": "inv_offhand_1h_ulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Sentinel's Vitriolic Chain",
+            "id": 268250,
+            "icon": "inv_121_jewelry_neck02_green"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [],
+            "name": "Venomcast Idol",
+            "id": 270912,
+            "icon": "inv_jewelcrafting_goldenserpent"
+          }
+        ]
+      },
+      "2894": {
+        "2": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Venomcast Remnant",
+            "id": 270924,
+            "icon": "inv_jewelcrafting_goldenserpent"
+          }
+        ],
+        "10": [
+          {
+            "id": 268210,
+            "inventorySlotId": 13,
+            "name": "Malevolent Spiritcudgel",
+            "handLabel": "1H",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "hand": "1h",
+            "weaponClass": "Mace",
+            "droppedBy": "Mor'zahi",
+            "icon": "inv_mace_1h_ulatek_d_01"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Boots of the Reckless Wayfarer",
+            "id": 268258,
+            "icon": "inv_boot_mail_raidevokerulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Gebbo's Bottomless Bag",
+            "id": 270164,
+            "icon": "inv_10_tailoring_bag1_color2"
+          }
+        ]
+      }
+    },
+    "577": {
+      "2887": {
+        "1": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Amulet of the Twin Fangs",
+            "id": 268251,
+            "icon": "inv_121_jewelry_neck01_red"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [],
+            "name": "Venomcured Effigy",
+            "id": 270915,
+            "icon": "inv_jewelcrafting_purpleserpent"
+          }
+        ],
+        "9": [
+          {
+            "droppedBy": "Vexhul",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Bespittled Slitherslippers",
+            "id": 268261,
+            "icon": "inv_boot_leather_raidmonkulatek_d_01"
+          }
+        ]
+      },
+      "2895": {
+        "0": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Haste"
+            ],
+            "name": "Gaze of the Coiled Watcher",
+            "id": 271875,
+            "icon": "inv_helm_leather_raiddruidulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Aqirbane Reliquary",
+            "id": 268265,
+            "icon": "inv_121_jewelry_neck03_green"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Mastery"
+            ],
+            "name": "Font of Venomous Rage",
+            "id": 270168,
+            "icon": "inv_10_dungeonjewelry_dragon_trinket_3djardintrophy_green"
+          },
+          {
+            "droppedBy": "Ula'tek",
+            "stats": [
+              "Crit"
+            ],
+            "name": "Voracious Heart of Ula'tek",
+            "id": 270175,
+            "icon": "inv_121_trinket_raid_ulatek_heart"
+          }
+        ]
+      },
+      "2849": {
+        "9": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Breakwater Boots",
+            "id": 268247,
+            "icon": "inv_boot_leather_raiddemonhunterulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": "Nymrissa Wavecaller",
+            "stats": [
+              "Haste",
+              "Versatility"
+            ],
+            "name": "Alluring Bubbleband",
+            "id": 268266,
+            "icon": "inv_70_raid_ring8c"
+          }
+        ]
+      },
+      "2888": {
+        "5": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Restless Spirit Shackles",
+            "id": 268240,
+            "icon": "8095063"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Versatility"
+            ],
+            "name": "Amani Summoning Shawl",
+            "id": 268248,
+            "icon": "inv_cape_leather_raidmonkulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Soulcoiler's Rush'kah",
+            "id": 281227,
+            "icon": "inv_helm_armor_hextrollpriestess_d_01"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Vestment of the Awakening",
+            "id": 268235,
+            "icon": "inv_robe_leather_raiddruidulatek_d_01"
+          }
+        ],
+        "10": [
+          {
+            "id": 270930,
+            "inventorySlotId": 13,
+            "name": "Tomb-Creeper's Claw",
+            "handLabel": "1H",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "hand": "1h",
+            "weaponClass": "Fist",
+            "droppedBy": null,
+            "icon": "inv_hand_1h_ulatek_d_01"
+          }
+        ]
+      },
+      "2882": {
+        "2": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Frothing Venom Spaulders",
+            "id": 268246,
+            "icon": "inv_shoulder_leather_raiddemonhunterulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Vile Alchemist's Band",
+            "id": 268249,
+            "icon": "inv_121_jewelry_ring01_purple"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Vashnik's Sanguine Rancor",
+            "id": 270166,
+            "icon": "inv_11_0_raid_gruesomesyringe_blue"
+          }
+        ],
+        "4": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Venomcured Icon",
+            "id": 270927,
+            "icon": "inv_jewelcrafting_purpleserpent"
+          }
+        ]
+      },
+      "2871": {
+        "10": [
+          {
+            "id": 268201,
+            "inventorySlotId": 13,
+            "name": "Venomous Boneglaive",
+            "handLabel": "1H",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "hand": "1h",
+            "weaponClass": "Warglaive",
+            "droppedBy": "Sszorak",
+            "icon": "inv_glaive_1h_ulatek_d_01"
+          }
+        ],
+        "8": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [],
+            "name": "Venomcured Relic",
+            "id": 270919,
+            "icon": "inv_jewelcrafting_purpleserpent"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Ruthless Slaughtergrips",
+            "id": 268234,
+            "icon": "inv_glove_leather_raiddemonhunterulatek_d_01"
+          }
+        ],
+        "12": [
+          {
+            "droppedBy": "Sszorak",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Apex Brute's Claw Ring",
+            "id": 268252,
+            "icon": "inv_121_jewelry_ring03_red"
+          }
+        ]
+      },
+      "2883": {
+        "10": [
+          {
+            "id": 268209,
+            "inventorySlotId": 21,
+            "name": "Aman'muso, Warlord's Vengeance",
+            "handLabel": "1H",
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "hand": "1h",
+            "weaponClass": "Axe",
+            "droppedBy": null,
+            "icon": "inv_axe_1h_ulatek_d_01"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Sash of the Forlorn Vessel",
+            "id": 268256,
+            "icon": "inv_belt_leather_raiddruidulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Zul'jin's Guillotine Technique",
+            "id": 270173,
+            "icon": "inv_121_trinket_raid_ulatek_trolltablet"
+          }
+        ],
+        "8": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Coiled Hex Legguards",
+            "id": 268225,
+            "icon": "inv_pant_leather_raidmonkulatek_d_01"
+          }
+        ],
+        "3": [
+          {
+            "droppedBy": null,
+            "stats": [
+              "Haste",
+              "Mastery"
+            ],
+            "name": "Silken Voodoo Drape",
+            "id": 268253,
+            "icon": "inv_cape_leather_raidrogueulatek_d_01"
+          }
+        ],
+        "0": [
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Visage",
+            "id": 275937,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          },
+          {
+            "droppedBy": null,
+            "stats": [],
+            "name": "Hex Lord's Gaze",
+            "id": 275938,
+            "icon": "inv_helm_armor_hexlordmalacrass_d_01"
+          }
+        ]
+      },
+      "2874": {
+        "0": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Mastery",
+              "Versatility"
+            ],
+            "name": "Shadow Hunter's Warmask",
+            "id": 268219,
+            "icon": "inv_helm_leather_raidrogueulatek_d_01"
+          }
+        ],
+        "1": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [
+              "Crit",
+              "Haste"
+            ],
+            "name": "Sentinel's Vitriolic Chain",
+            "id": 268250,
+            "icon": "inv_121_jewelry_neck02_green"
+          }
+        ],
+        "6": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [],
+            "name": "Venomcured Idol",
+            "id": 270911,
+            "icon": "inv_jewelcrafting_purpleserpent"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Breath of Ula'tek",
+            "stats": [],
+            "name": "Keeper's Seething Core",
+            "id": 270165,
+            "icon": "inv_121_trinket_raid_ulatek_golemhearts_green"
+          }
+        ]
+      },
+      "2894": {
+        "2": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Venomcured Remnant",
+            "id": 270923,
+            "icon": "inv_jewelcrafting_purpleserpent"
+          }
+        ],
+        "7": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [
+              "Crit",
+              "Mastery"
+            ],
+            "name": "Unpossessed Skullsash",
+            "id": 268227,
+            "icon": "inv_belt_leather_raidrogueulatek_d_01"
+          }
+        ],
+        "13": [
+          {
+            "droppedBy": "Mor'zahi",
+            "stats": [],
+            "name": "Gebbo's Bottomless Bag",
+            "id": 270164,
+            "icon": "inv_10_tailoring_bag1_color2"
+          }
+        ]
+      }
+    }
+  },
+  "meta": {
+    "expansion": "Midnight",
+    "extractedAt": "2026-08-23T20:25:29Z",
+    "wowBuild": "12.1.0 (69299)",
+    "seasonNumber": 2
+  },
+  "raids": [
+    {
+      "bossIds": [
+        2849
+      ],
+      "name": "Tidebound Grotto",
+      "id": 1317,
+      "shortName": "TBG"
+    },
+    {
+      "bossIds": [
+        2888,
+        2874,
+        2894,
+        2882,
+        2871,
+        2887,
+        2883,
+        2895
+      ],
+      "name": "The Venomous Abyss",
+      "id": 1320,
+      "shortName": "VA"
+    }
+  ],
+  "slots": [
+    {
+      "id": 0,
+      "name": "Head"
+    },
+    {
+      "id": 1,
+      "name": "Neck"
+    },
+    {
+      "id": 2,
+      "name": "Shoulder"
+    },
+    {
+      "id": 3,
+      "name": "Back"
+    },
+    {
+      "id": 4,
+      "name": "Chest"
+    },
+    {
+      "id": 5,
+      "name": "Wrist"
+    },
+    {
+      "id": 6,
+      "name": "Hands"
+    },
+    {
+      "id": 7,
+      "name": "Waist"
+    },
+    {
+      "id": 8,
+      "name": "Legs"
+    },
+    {
+      "id": 9,
+      "name": "Feet"
+    },
+    {
+      "id": 12,
+      "name": "Finger"
+    },
+    {
+      "id": 13,
+      "name": "Trinket"
+    },
+    {
+      "id": 10,
+      "name": "Weapon"
+    },
+    {
+      "id": 11,
+      "name": "Offhand"
+    }
+  ],
   "grid": {
     "262": {
       "585": {
@@ -32131,111 +50138,5 @@ window.LOOT_DATA = {
         ]
       }
     }
-  },
-  "dungeons": [
-    {
-      "name": "Kings' Rest",
-      "id": 249,
-      "shortName": "KR"
-    },
-    {
-      "name": "Temple of Sethraliss",
-      "id": 250,
-      "shortName": "TOS"
-    },
-    {
-      "name": "Ruby Life Pools",
-      "id": 399,
-      "shortName": "RLP"
-    },
-    {
-      "name": "The Blinding Vale",
-      "id": 584,
-      "shortName": "TBV"
-    },
-    {
-      "name": "Voidscar Arena",
-      "id": 585,
-      "shortName": "VSA"
-    },
-    {
-      "name": "Den of Nalorakk",
-      "id": 586,
-      "shortName": "DON"
-    },
-    {
-      "name": "Murder Row",
-      "id": 587,
-      "shortName": "MR"
-    },
-    {
-      "name": "Altar of Fangs",
-      "id": 588,
-      "shortName": "AOF"
-    }
-  ],
-  "meta": {
-    "expansion": "Midnight",
-    "extractedAt": "2026-08-23T20:25:29Z",
-    "wowBuild": "12.1.0 (69299)",
-    "seasonNumber": 2
-  },
-  "slots": [
-    {
-      "id": 0,
-      "name": "Head"
-    },
-    {
-      "id": 1,
-      "name": "Neck"
-    },
-    {
-      "id": 2,
-      "name": "Shoulder"
-    },
-    {
-      "id": 3,
-      "name": "Back"
-    },
-    {
-      "id": 4,
-      "name": "Chest"
-    },
-    {
-      "id": 5,
-      "name": "Wrist"
-    },
-    {
-      "id": 6,
-      "name": "Hands"
-    },
-    {
-      "id": 7,
-      "name": "Waist"
-    },
-    {
-      "id": 8,
-      "name": "Legs"
-    },
-    {
-      "id": 9,
-      "name": "Feet"
-    },
-    {
-      "id": 12,
-      "name": "Finger"
-    },
-    {
-      "id": 13,
-      "name": "Trinket"
-    },
-    {
-      "id": 10,
-      "name": "Weapon"
-    },
-    {
-      "id": 11,
-      "name": "Offhand"
-    }
-  ]
+  }
 };

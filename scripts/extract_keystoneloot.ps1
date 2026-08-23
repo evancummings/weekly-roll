@@ -2,8 +2,10 @@
 param(
     [string]$AddonDir = "C:\Program Files (x86)\World of Warcraft\_retail_\Interface\AddOns\KeystoneLoot",
     [string]$OutputPath = (Join-Path $PSScriptRoot "..\data\dungeon-drop-tables.json"),
+    [string]$RaidOutputPath = (Join-Path $PSScriptRoot "..\data\raid-drop-tables.json"),
     [switch]$SkipWowhead,
-    [switch]$StampInventory
+    [switch]$StampInventory,
+    [switch]$RaidsOnly
 )
 
 $ErrorActionPreference = "Stop"
@@ -73,6 +75,23 @@ $DungeonMeta = @{
     588 = @{ name = "Altar of Fangs"; shortName = "AOF"; slug = "altar-of-fangs"; expansion = "Midnight" }
 }
 
+$RaidMeta = @{
+    1317 = @{ name = "Tidebound Grotto"; shortName = "TBG"; slug = "tidebound-grotto" }
+    1320 = @{ name = "The Venomous Abyss"; shortName = "VA"; slug = "the-venomous-abyss" }
+}
+
+$BossMeta = @{
+    2849 = @{ name = "Nymrissa Wavecaller"; shortName = "NYM" }
+    2888 = @{ name = "Nek'zali the Soulcoiler"; shortName = "NEK" }
+    2874 = @{ name = "Entombed Sentinels"; shortName = "ES" }
+    2894 = @{ name = "The Lost Explorers"; shortName = "LE" }
+    2882 = @{ name = "Vashnik the Malignant"; shortName = "VAS" }
+    2871 = @{ name = "Sszorak"; shortName = "SSZ" }
+    2887 = @{ name = "The Twin Fangs"; shortName = "TF" }
+    2883 = @{ name = "The Coiled Altar"; shortName = "CA" }
+    2895 = @{ name = "Ula'tek"; shortName = "ULA" }
+}
+
 function Get-IntList([string]$Text) {
     $values = New-Object System.Collections.Generic.List[int]
     foreach ($match in [regex]::Matches($Text, "\d+")) {
@@ -114,11 +133,10 @@ function Get-Dungeons([string]$Text) {
     return $results
 }
 
-function Get-Items([string]$Text) {
-    $dungeonSection = ($Text -split "-- Raids", 2)[0]
+function Get-ItemsFromSection([string]$Text) {
     $pattern = '\[(?<itemId>\d+)\] = \{ classes = \{ (?<classes>.+?) \}, (?:stats = \{ (?<stats>[\d, ]+) \}, )?slotId = (?<slotId>\d+) \}'
     $items = @{}
-    foreach ($match in [regex]::Matches($dungeonSection, $pattern)) {
+    foreach ($match in [regex]::Matches($Text, $pattern)) {
         $itemId = [int]$match.Groups["itemId"].Value
         $classes = @{}
         foreach ($classMatch in [regex]::Matches($match.Groups["classes"].Value, '\[(\d+)\] = \{ ([\d, ]+) \}')) {
@@ -136,6 +154,61 @@ function Get-Items([string]$Text) {
         }
     }
     return $items
+}
+
+function Get-Items([string]$Text) {
+    $dungeonSection = ($Text -split "-- Raids", 2)[0]
+    return Get-ItemsFromSection $dungeonSection
+}
+
+function Get-RaidItems([string]$Text) {
+    $parts = $Text -split "-- Raids", 2
+    if ($parts.Count -lt 2) { return @{} }
+    return Get-ItemsFromSection $parts[1]
+}
+
+function Get-UniqueItemIds([string]$Text) {
+    $seen = New-Object 'System.Collections.Generic.HashSet[int]'
+    $ids = New-Object System.Collections.Generic.List[int]
+    foreach ($match in [regex]::Matches($Text, '\[(?:14|15|16|17)\] = \{ (?<ids>[^}]+) \}')) {
+        foreach ($itemId in (Get-IntList $match.Groups["ids"].Value)) {
+            if ($seen.Add($itemId)) { $ids.Add($itemId) }
+        }
+    }
+    return @($ids)
+}
+
+function Get-Raids([string]$Text) {
+    $results = New-Object System.Collections.Generic.List[object]
+    $chunks = [regex]::Split($Text, '(?=journalInstanceId = \d+)')
+    foreach ($chunk in $chunks) {
+        $raidMatch = [regex]::Match($chunk, 'journalInstanceId = (?<journalId>\d+),\s*instanceId = (?<instanceId>\d+),')
+        if (-not $raidMatch.Success) { continue }
+        $journalId = [int]$raidMatch.Groups["journalId"].Value
+        $instanceId = [int]$raidMatch.Groups["instanceId"].Value
+        $knownRaid = $RaidMeta[$journalId]
+        $bosses = New-Object System.Collections.Generic.List[object]
+        foreach ($bossMatch in [regex]::Matches($chunk, 'bossId = (?<bossId>\d+),\s*lootTable = \{(?<lootTable>[\s\S]*?)\n\s*\}')) {
+            $bossId = [int]$bossMatch.Groups["bossId"].Value
+            $knownBoss = $BossMeta[$bossId]
+            $bosses.Add(@{
+                bossId    = $bossId
+                raidId    = $journalId
+                name      = if ($knownBoss) { $knownBoss.name } else { "Unknown $bossId" }
+                shortName = if ($knownBoss) { $knownBoss.shortName } else { "$bossId" }
+                itemIds   = @(Get-UniqueItemIds $bossMatch.Groups["lootTable"].Value)
+            })
+        }
+        $results.Add(@{
+            journalInstanceId = $journalId
+            instanceId        = $instanceId
+            name              = if ($knownRaid) { $knownRaid.name } else { "Unknown $journalId" }
+            shortName         = if ($knownRaid) { $knownRaid.shortName } else { "$journalId" }
+            slug              = if ($knownRaid) { $knownRaid.slug } else { $null }
+            bosses            = $bosses.ToArray()
+        })
+    }
+    return $results
 }
 
 function Add-WowheadNames($Items) {
@@ -479,6 +552,27 @@ if (-not (Test-Path $dungeonsPath) -or -not (Test-Path $itemsPath)) {
 $dungeonsText = Get-Content -Raw -Encoding UTF8 $dungeonsPath
 $itemsText = Get-Content -Raw -Encoding UTF8 $itemsPath
 $header = Get-LuaHeader $dungeonsText
+$lookupsClasses = @{}
+foreach ($classId in ($Classes.Keys | Sort-Object)) {
+    $specMap = @{}
+    foreach ($specId in ($Classes[$classId].specs.Keys | Sort-Object)) {
+        $specMap["$specId"] = $Classes[$classId].specs[$specId]
+    }
+    $lookupsClasses["$classId"] = @{
+        name  = $Classes[$classId].name
+        specs = $specMap
+    }
+}
+$lookups = New-Object System.Collections.Hashtable
+$lookups["stats"] = @{ "0" = "crit"; "1" = "haste"; "2" = "mastery"; "3" = "versatility" }
+$lookups["slots"] = @{
+    "0" = "head"; "1" = "neck"; "2" = "shoulder"; "3" = "back"; "4" = "chest"
+    "5" = "wrist"; "6" = "hands"; "7" = "waist"; "8" = "legs"; "9" = "feet"
+    "10" = "weapon"; "11" = "offhand"; "12" = "finger"; "13" = "trinket"; "14" = "other"
+}
+$lookups["classes"] = $lookupsClasses
+
+if (-not $RaidsOnly) {
 $parsedDungeons = Get-Dungeons $dungeonsText
 $dungeons = New-Object System.Collections.Generic.List[object]
 foreach ($dungeon in $parsedDungeons) { $dungeons.Add($dungeon) }
@@ -499,18 +593,6 @@ $usedItems = @{}
 foreach ($itemId in $dungeonItemIds) {
     if ($items.ContainsKey($itemId)) {
         $usedItems[$itemId] = $items[$itemId]
-    }
-}
-
-$lookupsClasses = @{}
-foreach ($classId in ($Classes.Keys | Sort-Object)) {
-    $specMap = @{}
-    foreach ($specId in ($Classes[$classId].specs.Keys | Sort-Object)) {
-        $specMap["$specId"] = $Classes[$classId].specs[$specId]
-    }
-    $lookupsClasses["$classId"] = @{
-        name  = $Classes[$classId].name
-        specs = $specMap
     }
 }
 
@@ -550,15 +632,6 @@ $meta["notes"] = [string[]]@(
     "slot 14 (other) is typically a pet, toy, or cosmetic. Use gearPoolSize to ignore those."
 )
 
-$lookups = New-Object System.Collections.Hashtable
-$lookups["stats"] = @{ "0" = "crit"; "1" = "haste"; "2" = "mastery"; "3" = "versatility" }
-$lookups["slots"] = @{
-    "0" = "head"; "1" = "neck"; "2" = "shoulder"; "3" = "back"; "4" = "chest"
-    "5" = "wrist"; "6" = "hands"; "7" = "waist"; "8" = "legs"; "9" = "feet"
-    "10" = "weapon"; "11" = "offhand"; "12" = "finger"; "13" = "trinket"; "14" = "other"
-}
-$lookups["classes"] = $lookupsClasses
-
 $payload = New-Object System.Collections.Hashtable
 $payload["meta"] = $meta
 $payload["lookups"] = $lookups
@@ -580,4 +653,108 @@ Write-Host "  items: $($itemRecords.Count)"
 $unnamed = @($itemRecords.Values | Where-Object { -not $_.name } | ForEach-Object { $_.id })
 if ($unnamed.Count -gt 0) {
     Write-Host "  unnamed items: $($unnamed -join ', ')"
+}
+}
+
+$raidsPath = Join-Path $AddonDir "data\raids.lua"
+if (-not (Test-Path $raidsPath)) {
+    Write-Host "Skipping raid extract: raids.lua not found in $AddonDir"
+    return
+}
+
+$raidsText = Get-Content -Raw -Encoding UTF8 $raidsPath
+$parsedRaids = @(Get-Raids $raidsText)
+$raidItems = Get-RaidItems $itemsText
+Write-Host "Parsed $($parsedRaids.Count) raids and $($raidItems.Count) raid item definitions"
+
+if (-not $SkipWowhead) {
+    Add-WowheadNames $raidItems
+    Add-WowheadInventory $raidItems
+}
+
+$raidItemIds = New-Object 'System.Collections.Generic.HashSet[int]'
+foreach ($raid in $parsedRaids) {
+    foreach ($boss in $raid.bosses) {
+        foreach ($itemId in $boss.itemIds) { [void]$raidItemIds.Add($itemId) }
+    }
+}
+
+$usedRaidItems = @{}
+foreach ($itemId in $raidItemIds) {
+    if ($raidItems.ContainsKey($itemId)) {
+        $usedRaidItems[$itemId] = $raidItems[$itemId]
+    } else {
+        Write-Host "Warning: raid loot ID missing from items.lua: $itemId"
+    }
+}
+
+$raidItemRecords = @{}
+foreach ($itemId in ($usedRaidItems.Keys | Sort-Object)) {
+    $raidItemRecords["$itemId"] = New-ItemRecord $usedRaidItems[$itemId]
+}
+
+$raidRecords = New-Object System.Collections.Generic.List[object]
+$bossRecords = New-Object System.Collections.Generic.List[object]
+foreach ($raid in $parsedRaids) {
+    $raidBosses = New-Object System.Collections.Generic.List[object]
+    foreach ($boss in $raid.bosses) {
+        $bossRecord = New-Object System.Collections.Hashtable
+        $bossRecord["bossId"] = [int]$boss.bossId
+        $bossRecord["raidId"] = [int]$raid.journalInstanceId
+        $bossRecord["name"] = $boss.name
+        $bossRecord["shortName"] = $boss.shortName
+        $bossRecord["itemIds"] = @($boss.itemIds | ForEach-Object { [int]$_ })
+        $bossRecord["itemCount"] = @($boss.itemIds).Count
+        $bossRecord["pools"] = New-Pools $boss.itemIds $usedRaidItems
+        $raidBosses.Add($bossRecord)
+        $bossRecords.Add($bossRecord)
+    }
+    $raidRecord = New-Object System.Collections.Hashtable
+    $raidRecord["journalInstanceId"] = [int]$raid.journalInstanceId
+    $raidRecord["instanceId"] = [int]$raid.instanceId
+    $raidRecord["name"] = $raid.name
+    $raidRecord["shortName"] = $raid.shortName
+    $raidRecord["slug"] = $raid.slug
+    $raidRecord["bosses"] = $raidBosses.ToArray()
+    $raidRecords.Add($raidRecord)
+}
+
+$raidMeta = New-Object System.Collections.Hashtable
+$raidMeta["sourceAddon"] = "KeystoneLoot"
+$raidMeta["sourceTimestamp"] = $header.timestamp
+$raidMeta["wowBuild"] = $header.wowBuild
+$raidMeta["seasonId"] = $header.season
+$raidMeta["expansion"] = "Midnight"
+$raidMeta["seasonNumber"] = 2
+$raidMeta["extractedAt"] = (Get-Date).ToUniversalTime().ToString("yyyy-MM-ddTHH:mm:ssZ")
+$raidMeta["notes"] = [string[]]@(
+    "KeystoneLoot stores per-boss raid loot tables keyed by difficulty (14/15/16/17)."
+    "Item IDs are the unique union across difficulties because this planner does not track item level."
+    "A bonus roll is modeled as a uniform draw from that boss's leftover spec pool."
+    "slot 14 (other) is typically a token, pet, toy, or cosmetic. Use gearPoolSize to ignore those."
+)
+
+$raidPayload = New-Object System.Collections.Hashtable
+$raidPayload["meta"] = $raidMeta
+$raidPayload["lookups"] = $lookups
+$raidPayload["items"] = $raidItemRecords
+$raidPayload["raids"] = $raidRecords.ToArray()
+$raidPayload["bosses"] = $bossRecords.ToArray()
+
+$resolvedRaidOutput = [System.IO.Path]::GetFullPath($RaidOutputPath)
+$raidOutputDir = Split-Path -Parent $resolvedRaidOutput
+if (-not (Test-Path $raidOutputDir)) {
+    New-Item -ItemType Directory -Path $raidOutputDir | Out-Null
+}
+
+$raidJson = ConvertTo-JsonValue $raidPayload
+[System.IO.File]::WriteAllText($resolvedRaidOutput, $raidJson + "`n")
+
+Write-Host "Wrote $resolvedRaidOutput"
+Write-Host "  raids: $($raidRecords.Count)"
+Write-Host "  bosses: $($bossRecords.Count)"
+Write-Host "  items: $($raidItemRecords.Count)"
+$unnamedRaid = @($raidItemRecords.Values | Where-Object { -not $_.name } | ForEach-Object { $_.id })
+if ($unnamedRaid.Count -gt 0) {
+    Write-Host "  unnamed raid items: $($unnamedRaid -join ', ')"
 }

@@ -7,6 +7,7 @@
 
 param(
     [string]$DataPath = (Join-Path $PSScriptRoot "..\data\dungeon-drop-tables.json"),
+    [string]$RaidDataPath = (Join-Path $PSScriptRoot "..\data\raid-drop-tables.json"),
     [string]$OutputPath = (Join-Path $PSScriptRoot "..\site\loot-data.js")
 )
 
@@ -99,6 +100,84 @@ function ConvertTo-JsonValue {
     return ('"' + (Escape-JsonString "$Value") + '"')
 }
 
+function New-LootEntry($Item, [int]$ItemId) {
+    $stats = New-Object System.Collections.Generic.List[string]
+    foreach ($stat in (Get-AsArray $Item.stats)) {
+        $label = $StatLabels["$stat"]
+        if (-not $label) { $label = [string]$stat }
+        $stats.Add($label)
+    }
+
+    $entry = New-Object System.Collections.Hashtable
+    $entry["id"] = $ItemId
+    $entry["name"] = [string]$Item.name
+    $entry["droppedBy"] = $Item.droppedBy
+    $entry["stats"] = $stats.ToArray()
+    if ($Item.icon) { $entry["icon"] = [string]$Item.icon }
+    if ($Item.hand) {
+        $entry["hand"] = [string]$Item.hand
+        $entry["handLabel"] = switch ([string]$Item.hand) {
+            "1h" { "1H" }
+            "2h" { "2H" }
+            "oh" { "OH" }
+            "ranged" { "Ranged" }
+            default { [string]$Item.hand }
+        }
+    }
+    if ($Item.weaponClass) { $entry["weaponClass"] = [string]$Item.weaponClass }
+    if ($null -ne $Item.inventorySlotId -and "$($Item.inventorySlotId)" -ne "") {
+        $entry["inventorySlotId"] = [int]$Item.inventorySlotId
+    }
+    return $entry
+}
+
+function ConvertTo-SourceGrid($Sources, [string]$IdKey, $ItemsRoot) {
+    $grid = New-Object System.Collections.Hashtable
+    foreach ($source in $Sources) {
+        $sourceId = [string](Get-JsonProperty $source $IdKey)
+        foreach ($pool in (Get-AsArray $source.pools)) {
+            $specId = [string]$pool.specId
+            if (-not $grid.ContainsKey($specId)) {
+                $grid[$specId] = New-Object System.Collections.Hashtable
+            }
+            $specGrid = $grid[$specId]
+            if (-not $specGrid.ContainsKey($sourceId)) {
+                $specGrid[$sourceId] = New-Object System.Collections.Hashtable
+            }
+            $sourceGrid = $specGrid[$sourceId]
+
+            foreach ($itemId in (Get-AsArray $pool.gearItemIds)) {
+                $item = Get-JsonProperty $ItemsRoot "$itemId"
+                if (-not $item) { continue }
+                if ([int]$item.slotId -eq 14) { continue }
+
+                $slotId = [string]$item.slotId
+                if (-not $sourceGrid.ContainsKey($slotId)) {
+                    $sourceGrid[$slotId] = New-Object System.Collections.Generic.List[object]
+                }
+
+                $existing = $sourceGrid[$slotId] | Where-Object { $_.id -eq [int]$itemId }
+                if ($existing) { continue }
+                $sourceGrid[$slotId].Add((New-LootEntry $item ([int]$itemId)))
+            }
+        }
+    }
+
+    $gridForJson = New-Object System.Collections.Hashtable
+    foreach ($specId in $grid.Keys) {
+        $specOut = New-Object System.Collections.Hashtable
+        foreach ($sourceId in $grid[$specId].Keys) {
+            $sourceOut = New-Object System.Collections.Hashtable
+            foreach ($slotId in $grid[$specId][$sourceId].Keys) {
+                $sourceOut[$slotId] = $grid[$specId][$sourceId][$slotId].ToArray()
+            }
+            $specOut[$sourceId] = $sourceOut
+        }
+        $gridForJson[$specId] = $specOut
+    }
+    return $gridForJson
+}
+
 $resolvedData = [System.IO.Path]::GetFullPath($DataPath)
 if (-not (Test-Path $resolvedData)) {
     throw "Drop table file not found: $resolvedData"
@@ -136,74 +215,36 @@ foreach ($classInfo in $ClassOrder) {
     $classes.Add($classRecord)
 }
 
-$grid = New-Object System.Collections.Hashtable
-foreach ($dungeon in $data.dungeons) {
-    $dungeonId = [string]$dungeon.challengeModeId
-    foreach ($pool in $dungeon.pools) {
-        $specId = [string]$pool.specId
-        if (-not $grid.ContainsKey($specId)) {
-            $grid[$specId] = New-Object System.Collections.Hashtable
+$gridForJson = ConvertTo-SourceGrid $data.dungeons "challengeModeId" $itemsRoot
+
+$raids = New-Object System.Collections.Generic.List[object]
+$bosses = New-Object System.Collections.Generic.List[object]
+$raidGridForJson = New-Object System.Collections.Hashtable
+$resolvedRaidData = [System.IO.Path]::GetFullPath($RaidDataPath)
+if (Test-Path $resolvedRaidData) {
+    $raidData = Get-Content -Raw -Encoding UTF8 $resolvedRaidData | ConvertFrom-Json
+    $raidItemsRoot = $raidData.items
+    foreach ($raid in (Get-AsArray $raidData.raids)) {
+        $bossIds = New-Object System.Collections.Generic.List[int]
+        foreach ($boss in (Get-AsArray $raid.bosses)) {
+            $bossIds.Add([int]$boss.bossId)
         }
-        $specGrid = $grid[$specId]
-        if (-not $specGrid.ContainsKey($dungeonId)) {
-            $specGrid[$dungeonId] = New-Object System.Collections.Hashtable
-        }
-        $dungeonGrid = $specGrid[$dungeonId]
-
-        foreach ($itemId in (Get-AsArray $pool.gearItemIds)) {
-            $item = Get-JsonProperty $itemsRoot "$itemId"
-            if (-not $item) { continue }
-            if ([int]$item.slotId -eq 14) { continue }
-
-            $slotId = [string]$item.slotId
-            if (-not $dungeonGrid.ContainsKey($slotId)) {
-                $dungeonGrid[$slotId] = New-Object System.Collections.Generic.List[object]
-            }
-
-            $stats = New-Object System.Collections.Generic.List[string]
-            foreach ($stat in (Get-AsArray $item.stats)) {
-                $label = $StatLabels["$stat"]
-                if (-not $label) { $label = [string]$stat }
-                $stats.Add($label)
-            }
-
-            $entry = New-Object System.Collections.Hashtable
-            $entry["id"] = [int]$itemId
-            $entry["name"] = [string]$item.name
-            $entry["droppedBy"] = $item.droppedBy
-            $entry["stats"] = $stats.ToArray()
-            if ($item.icon) { $entry["icon"] = [string]$item.icon }
-            if ($item.hand) {
-                $entry["hand"] = [string]$item.hand
-                $entry["handLabel"] = switch ([string]$item.hand) {
-                    "1h" { "1H" }
-                    "2h" { "2H" }
-                    "oh" { "OH" }
-                    "ranged" { "Ranged" }
-                    default { [string]$item.hand }
-                }
-            }
-            if ($item.weaponClass) { $entry["weaponClass"] = [string]$item.weaponClass }
-            if ($null -ne $item.inventorySlotId -and "$($item.inventorySlotId)" -ne "") {
-                $entry["inventorySlotId"] = [int]$item.inventorySlotId
-            }
-            $dungeonGrid[$slotId].Add($entry)
-        }
+        $raids.Add(@{
+            id        = [int]$raid.journalInstanceId
+            name      = [string]$raid.name
+            shortName = [string]$raid.shortName
+            bossIds   = $bossIds.ToArray()
+        })
     }
-}
-
-# Convert slot lists to arrays so the JSON writer emits [] not a dictionary.
-$gridForJson = New-Object System.Collections.Hashtable
-foreach ($specId in $grid.Keys) {
-    $specOut = New-Object System.Collections.Hashtable
-    foreach ($dungeonId in $grid[$specId].Keys) {
-        $dungeonOut = New-Object System.Collections.Hashtable
-        foreach ($slotId in $grid[$specId][$dungeonId].Keys) {
-            $dungeonOut[$slotId] = $grid[$specId][$dungeonId][$slotId].ToArray()
-        }
-        $specOut[$dungeonId] = $dungeonOut
+    foreach ($boss in (Get-AsArray $raidData.bosses)) {
+        $bosses.Add(@{
+            id        = [int]$boss.bossId
+            name      = [string]$boss.name
+            shortName = [string]$boss.shortName
+            raidId    = [int]$boss.raidId
+        })
     }
-    $gridForJson[$specId] = $specOut
+    $raidGridForJson = ConvertTo-SourceGrid $raidData.bosses "bossId" $raidItemsRoot
 }
 
 $payload = New-Object System.Collections.Hashtable
@@ -214,9 +255,12 @@ $payload["meta"] = @{
     extractedAt  = [string]$data.meta.extractedAt
 }
 $payload["dungeons"] = $dungeons.ToArray()
+$payload["raids"] = $raids.ToArray()
+$payload["bosses"] = $bosses.ToArray()
 $payload["slots"] = @($SlotOrder)
 $payload["classes"] = $classes.ToArray()
 $payload["grid"] = $gridForJson
+$payload["raidGrid"] = $raidGridForJson
 
 $resolvedOutput = [System.IO.Path]::GetFullPath($OutputPath)
 $outputDir = Split-Path -Parent $resolvedOutput
@@ -229,5 +273,7 @@ $js = "window.LOOT_DATA = " + (ConvertTo-JsonValue $payload) + ";`n"
 
 Write-Host "Wrote $resolvedOutput"
 Write-Host "  dungeons: $($dungeons.Count)"
+Write-Host "  raids: $($raids.Count)"
+Write-Host "  bosses: $($bosses.Count)"
 Write-Host "  classes: $($classes.Count)"
 Write-Host "  specs: $($gridForJson.Count)"

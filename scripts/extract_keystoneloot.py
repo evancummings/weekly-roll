@@ -101,6 +101,31 @@ CLASSES = {
     },
 }
 
+RAIDS = {
+    1317: {
+        "name": "Tidebound Grotto",
+        "shortName": "TBG",
+        "slug": "tidebound-grotto",
+    },
+    1320: {
+        "name": "The Venomous Abyss",
+        "shortName": "VA",
+        "slug": "the-venomous-abyss",
+    },
+}
+
+BOSSES = {
+    2849: {"name": "Nymrissa Wavecaller", "shortName": "NYM"},
+    2888: {"name": "Nek'zali the Soulcoiler", "shortName": "NEK"},
+    2874: {"name": "Entombed Sentinels", "shortName": "ES"},
+    2894: {"name": "The Lost Explorers", "shortName": "LE"},
+    2882: {"name": "Vashnik the Malignant", "shortName": "VAS"},
+    2871: {"name": "Sszorak", "shortName": "SSZ"},
+    2887: {"name": "The Twin Fangs", "shortName": "TF"},
+    2883: {"name": "The Coiled Altar", "shortName": "CA"},
+    2895: {"name": "Ula'tek", "shortName": "ULA"},
+}
+
 DUNGEONS = {
     249: {
         "name": "Kings' Rest",
@@ -210,10 +235,9 @@ def parse_dungeons(text: str) -> list[dict]:
     return dungeons
 
 
-def parse_items(text: str) -> dict[int, dict]:
-    dungeon_section = text.split("-- Raids", 1)[0]
+def parse_items_from_section(text: str) -> dict[int, dict]:
     items: dict[int, dict] = {}
-    for match in ITEM_RE.finditer(dungeon_section):
+    for match in ITEM_RE.finditer(text):
         item_id = int(match.group("itemId"))
         classes = {
             int(class_id): parse_int_list(spec_ids)
@@ -229,6 +253,70 @@ def parse_items(text: str) -> dict[int, dict]:
             "classes": classes,
         }
     return items
+
+
+def parse_items(text: str) -> dict[int, dict]:
+    return parse_items_from_section(text.split("-- Raids", 1)[0])
+
+
+def parse_raid_items(text: str) -> dict[int, dict]:
+    parts = text.split("-- Raids", 1)
+    if len(parts) < 2:
+        return {}
+    return parse_items_from_section(parts[1])
+
+
+def unique_loot_ids(text: str) -> list[int]:
+    ids: list[int] = []
+    seen: set[int] = set()
+    for match in re.finditer(r"\[(?:14|15|16|17)\] = \{ ([^}]+) \}", text):
+        for item_id in parse_int_list(match.group(1)):
+            if item_id not in seen:
+                seen.add(item_id)
+                ids.append(item_id)
+    return ids
+
+
+def parse_raids(text: str) -> list[dict]:
+    raids = []
+    chunks = re.split(r"(?=journalInstanceId = \d+)", text)
+    for chunk in chunks:
+        raid_match = re.search(
+            r"journalInstanceId = (?P<journalId>\d+),\s*instanceId = (?P<instanceId>\d+),",
+            chunk,
+        )
+        if not raid_match:
+            continue
+        journal_id = int(raid_match.group("journalId"))
+        instance_id = int(raid_match.group("instanceId"))
+        known_raid = RAIDS.get(journal_id, {})
+        bosses = []
+        for boss_match in re.finditer(
+            r"bossId = (?P<bossId>\d+),\s*lootTable = \{(?P<lootTable>[\s\S]*?)\n\s*\}",
+            chunk,
+        ):
+            boss_id = int(boss_match.group("bossId"))
+            known_boss = BOSSES.get(boss_id, {})
+            bosses.append(
+                {
+                    "bossId": boss_id,
+                    "raidId": journal_id,
+                    "name": known_boss.get("name") or f"Unknown {boss_id}",
+                    "shortName": known_boss.get("shortName") or str(boss_id),
+                    "itemIds": unique_loot_ids(boss_match.group("lootTable")),
+                }
+            )
+        raids.append(
+            {
+                "journalInstanceId": journal_id,
+                "instanceId": instance_id,
+                "name": known_raid.get("name") or f"Unknown {journal_id}",
+                "shortName": known_raid.get("shortName") or str(journal_id),
+                "slug": known_raid.get("slug"),
+                "bosses": bosses,
+            }
+        )
+    return raids
 
 
 def fetch_wowhead_item(item_id: int) -> dict:
@@ -394,6 +482,73 @@ def build_output(header: dict, dungeons: list[dict], items: dict[int, dict]) -> 
     }
 
 
+def build_raid_output(header: dict, raids: list[dict], items: dict[int, dict]) -> dict:
+    raid_item_ids = {item_id for raid in raids for boss in raid["bosses"] for item_id in boss["itemIds"]}
+    used_items = {item_id: items[item_id] for item_id in raid_item_ids if item_id in items}
+    missing = sorted(raid_item_ids - used_items.keys())
+    if missing:
+        print(f"Warning: raid loot IDs missing from items.lua: {missing}", file=sys.stderr)
+
+    boss_records = []
+    raid_records = []
+    for raid in raids:
+        bosses = []
+        for boss in raid["bosses"]:
+            record = {
+                "bossId": boss["bossId"],
+                "raidId": raid["journalInstanceId"],
+                "name": boss["name"],
+                "shortName": boss["shortName"],
+                "itemIds": boss["itemIds"],
+                "itemCount": len(boss["itemIds"]),
+                "pools": build_pools(boss["itemIds"], used_items),
+            }
+            bosses.append(record)
+            boss_records.append(record)
+        raid_records.append(
+            {
+                "journalInstanceId": raid["journalInstanceId"],
+                "instanceId": raid["instanceId"],
+                "name": raid["name"],
+                "shortName": raid["shortName"],
+                "slug": raid["slug"],
+                "bosses": bosses,
+            }
+        )
+
+    return {
+        "meta": {
+            "sourceAddon": "KeystoneLoot",
+            "sourceTimestamp": header.get("timestamp"),
+            "wowBuild": header.get("wowBuild"),
+            "seasonId": header.get("season"),
+            "expansion": "Midnight",
+            "seasonNumber": 2,
+            "extractedAt": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+            "notes": [
+                "KeystoneLoot stores per-boss raid loot tables keyed by difficulty (14/15/16/17).",
+                "Item IDs are the unique union across difficulties because this planner does not track item level.",
+                "A bonus roll is modeled as a uniform draw from that boss's leftover spec pool.",
+                "slot 14 (other) is typically a token, pet, toy, or cosmetic. Use gearPoolSize to ignore those.",
+            ],
+        },
+        "lookups": {
+            "stats": {str(stat_id): name for stat_id, name in STAT_BY_ID.items()},
+            "slots": {str(slot_id): name for slot_id, name in SLOT_BY_ID.items()},
+            "classes": {
+                str(class_id): {
+                    "name": info["name"],
+                    "specs": {str(spec_id): spec_name for spec_id, spec_name in info["specs"].items()},
+                }
+                for class_id, info in CLASSES.items()
+            },
+        },
+        "items": {str(item_id): build_item_record(item) for item_id, item in sorted(used_items.items())},
+        "raids": raid_records,
+        "bosses": boss_records,
+    }
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--addon-dir", type=Path, default=DEFAULT_ADDON_DIR)
@@ -402,12 +557,19 @@ def main() -> int:
         type=Path,
         default=Path(__file__).resolve().parents[1] / "data" / "dungeon-drop-tables.json",
     )
+    parser.add_argument(
+        "--raid-output",
+        type=Path,
+        default=Path(__file__).resolve().parents[1] / "data" / "raid-drop-tables.json",
+    )
     parser.add_argument("--workers", type=int, default=8)
     parser.add_argument("--skip-wowhead", action="store_true")
+    parser.add_argument("--raids-only", action="store_true")
     args = parser.parse_args()
 
     dungeons_path = args.addon_dir / "data" / "dungeons.lua"
     items_path = args.addon_dir / "data" / "items.lua"
+    raids_path = args.addon_dir / "data" / "raids.lua"
     if not dungeons_path.exists() or not items_path.exists():
         print(f"Could not find KeystoneLoot data files in {args.addon_dir}", file=sys.stderr)
         return 1
@@ -415,21 +577,40 @@ def main() -> int:
     dungeons_text = dungeons_path.read_text(encoding="utf-8")
     items_text = items_path.read_text(encoding="utf-8")
     header = parse_header(dungeons_text)
-    dungeons = parse_dungeons(dungeons_text)
-    items = parse_items(items_text)
 
-    if not args.skip_wowhead:
-        enrich_items(items, args.workers)
+    if not args.raids_only:
+        dungeons = parse_dungeons(dungeons_text)
+        items = parse_items(items_text)
+        if not args.skip_wowhead:
+            enrich_items(items, args.workers)
+        output = build_output(header, dungeons, items)
+        args.output.parent.mkdir(parents=True, exist_ok=True)
+        args.output.write_text(json.dumps(output, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+        print(f"Wrote {args.output}")
+        print(f"  dungeons: {len(output['dungeons'])}")
+        print(f"  items: {len(output['items'])}")
+        unnamed = [item["id"] for item in output["items"].values() if not item.get("name")]
+        if unnamed:
+            print(f"  unnamed items: {unnamed}")
 
-    output = build_output(header, dungeons, items)
-    args.output.parent.mkdir(parents=True, exist_ok=True)
-    args.output.write_text(json.dumps(output, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    print(f"Wrote {args.output}")
-    print(f"  dungeons: {len(output['dungeons'])}")
-    print(f"  items: {len(output['items'])}")
-    unnamed = [item["id"] for item in output["items"].values() if not item.get("name")]
-    if unnamed:
-        print(f"  unnamed items: {unnamed}")
+    if raids_path.exists():
+        raids = parse_raids(raids_path.read_text(encoding="utf-8"))
+        raid_items = parse_raid_items(items_text)
+        if not args.skip_wowhead:
+            enrich_items(raid_items, args.workers)
+        raid_output = build_raid_output(header, raids, raid_items)
+        args.raid_output.parent.mkdir(parents=True, exist_ok=True)
+        args.raid_output.write_text(json.dumps(raid_output, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+        print(f"Wrote {args.raid_output}")
+        print(f"  raids: {len(raid_output['raids'])}")
+        print(f"  bosses: {len(raid_output['bosses'])}")
+        print(f"  items: {len(raid_output['items'])}")
+        unnamed_raid = [item["id"] for item in raid_output["items"].values() if not item.get("name")]
+        if unnamed_raid:
+            print(f"  unnamed raid items: {unnamed_raid}")
+    else:
+        print(f"Skipping raid extract: raids.lua not found in {args.addon_dir}", file=sys.stderr)
+
     return 0
 
 
