@@ -598,8 +598,13 @@
     return [...new Set((entry.stats || []).map(normalizeStat).filter((stat) => DEFAULT_STATS.includes(stat)))];
   }
 
+  function isTrinketSlot(slot) {
+    return Number(slot.id ?? slot) === SLOT_TRINKET;
+  }
+
   function poolKind(entry, slot) {
     if (isSlotFilled(slot) || isWrongWeaponStyle(entry, slot)) return "waste";
+    if (isTrinketSlot(slot)) return "upgrade";
     const present = itemStats(entry);
     const hasFirst = present.includes(statOrder[0]);
     const hasSecond = present.includes(statOrder[1]);
@@ -672,7 +677,7 @@
       return Number(a.kind !== "bis") - Number(b.kind !== "bis");
     });
     return `<ul class="plan-targets">${ordered.map(({ kind, entry, slot }) => {
-      const stats = (entry.stats || []).join(" / ");
+      const stats = isTrinketSlot(slot) ? "" : (entry.stats || []).join(" / ");
       const detail = [slot.name, stats].filter(Boolean).join(" · ");
       return `<li><span class="plan-tag ${kind}">${kind === "bis" ? "BIS" : "UP"}</span>${iconHtml(entry.icon)}${escapeHtml(entry.name || "Unknown")}${detail ? ` · ${escapeHtml(detail)}` : ""}</li>`;
     }).join("")}</ul>`;
@@ -768,6 +773,7 @@
     entries.forEach((entry) => {
       if (isBonusWin(dropKey(dungeon, slot, entry))) return;
       if (isWrongWeaponStyle(entry, slot)) return;
+      if (isTrinketSlot(slot)) return;
       const tier = matchInfo(entry.stats).tier;
       if (!tier) return;
       if (!best || TIER_RANK[tier] > TIER_RANK[best]) best = tier;
@@ -776,13 +782,13 @@
   }
 
   function renderDrop(entry, dungeon, slot) {
-    const stats = entry.stats || [];
+    const stats = isTrinketSlot(slot) ? [] : (entry.stats || []);
     const key = dropKey(dungeon, slot, entry);
     const won = isBonusWin(key);
     const filled = isSlotFilled(slot);
     const wrongStyle = isWrongWeaponStyle(entry, slot);
     const wasted = filled || wrongStyle;
-    const tier = won || wasted ? null : matchInfo(stats).tier;
+    const tier = won || wasted || isTrinketSlot(slot) ? null : matchInfo(stats).tier;
     const tag = handLabel(entry);
     const type = entry.weaponClass ? `${tag ? `${tag} ` : ""}${entry.weaponClass}` : tag;
     const titleParts = [entry.name, type, entry.droppedBy].filter(Boolean);
@@ -852,10 +858,10 @@
     }
 
     bonusWinsEl.innerHTML = `<ul class="bonus-wins">${bonusWins.map((win) => {
-      const stats = win.stats || [];
+      const stats = isTrinketSlot(win.slotId) ? [] : (win.stats || []);
       const statsHtml = stats.length
         ? stats.map((stat) => `<span class="stat ${statClassName(stat)}">${escapeHtml(stat)}</span>`).join(" / ")
-        : "No stats";
+        : "";
       const place = [handLabel(win), win.slotName, win.dungeonShort || win.dungeonName].filter(Boolean).join(" · ");
       const when = formatWonAt(win.wonAt);
       const source = winSourceType(win);
@@ -865,7 +871,7 @@
       return `<li class="bonus-win">
         <div class="copy">
           <div class="name">${iconHtml(win.icon)}${escapeHtml(win.name)}${badge}</div>
-          <div class="meta">${statsHtml} · ${escapeHtml(place)}</div>
+          <div class="meta">${statsHtml ? `${statsHtml} · ` : ""}${escapeHtml(place)}</div>
           <div class="when">${when ? escapeHtml(when) : "Date unknown"}</div>
         </div>
         <button type="button" data-remove-win="${escapeHtml(win.key)}">Remove</button>
