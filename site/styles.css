@@ -404,7 +404,7 @@ h1 {
 }
 
 .profile-field {
-  min-width: 196px;
+  min-width: 248px;
 }
 
 .content-mode {
@@ -451,6 +451,25 @@ h1 {
   border-color: var(--accent);
   color: #f2e08a;
   outline: none;
+}
+
+.history-open {
+  width: auto;
+  min-width: var(--control-h);
+  padding: 0 8px;
+  gap: 4px;
+  grid-auto-flow: column;
+}
+
+.history-count {
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  color: #f2e08a;
+}
+
+.history-count[hidden] {
+  display: none;
 }
 
 .filters span {

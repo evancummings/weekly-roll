@@ -6,7 +6,7 @@
   <title>Weighted Dice</title>
   <link rel="icon" href="icons/inv_misc_dice_02.jpg" type="image/jpeg">
   <link rel="apple-touch-icon" href="icons/inv_misc_dice_02.jpg">
-  <link rel="stylesheet" href="styles.css?v=bonus-blue">
+  <link rel="stylesheet" href="styles.css?v=history-icon">
 </head>
 <body>
   <header class="topbar">
@@ -22,6 +22,12 @@
           <span>Profile</span>
           <div class="profile-controls">
             <select id="profile-select"></select>
+            <button type="button" id="history-open" class="profile-manage history-open" aria-label="Roll History" aria-haspopup="dialog" aria-controls="history-modal" title="Roll History">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path fill="currentColor" d="M13 3a9 9 0 1 0 8.2 12.7l-1.85-.7A7 7 0 1 1 13 5v3.1l3.8-3.8L13 .5V3zm-1 5.5h1.7v4.3l3.2 1.9-.85 1.45L12 13.7V8.5z"/>
+              </svg>
+              <span id="history-count" class="history-count" hidden></span>
+            </button>
             <button type="button" id="profile-manage" class="profile-manage" aria-label="Manage profile" aria-haspopup="dialog" aria-controls="profile-modal" title="Manage profile">
               <svg viewBox="0 0 24 24" aria-hidden="true">
                 <path fill="currentColor" d="M19.14 12.94c.04-.31.06-.63.06-.94s-.02-.63-.06-.94l2.03-1.58a.5.5 0 0 0 .12-.64l-1.92-3.32a.5.5 0 0 0-.6-.22l-2.39.96a7.03 7.03 0 0 0-1.63-.94l-.36-2.54A.5.5 0 0 0 13.9 2h-3.8a.5.5 0 0 0-.49.42l-.36 2.54c-.59.24-1.13.55-1.63.94l-2.39-.96a.5.5 0 0 0-.6.22L2.81 8.48a.5.5 0 0 0 .12.64L4.96 10.7c-.04.31-.06.63-.06.94s.02.63.06.94L2.93 14.16a.5.5 0 0 0-.12.64l1.92 3.32c.13.23.4.32.64.22l2.39-.96c.5.39 1.04.7 1.63.94l.36 2.54c.05.24.25.42.49.42h3.8c.24 0 .44-.18.49-.42l.36-2.54c.59-.24 1.13-.55 1.63-.94l2.39.96c.24.1.51 0 .64-.22l1.92-3.32a.5.5 0 0 0-.12-.64l-2.03-1.58ZM12 15.5A3.5 3.5 0 1 1 12 8.5a3.5 3.5 0 0 1 0 7Z"/>
@@ -65,7 +71,6 @@
       <div class="header-actions">
         <button type="button" id="help-open" class="help-open" aria-haspopup="dialog" aria-controls="help-modal">How This Works</button>
         <button type="button" id="plan-open" class="help-open plan-open" aria-haspopup="dialog" aria-controls="plan-modal">Weekly roll</button>
-        <button type="button" id="history-open" class="help-open" aria-haspopup="dialog" aria-controls="history-modal">Roll History</button>
       </div>
     </div>
   </header>
@@ -171,6 +176,6 @@
 
   <script src="loot-data.js"></script>
   <script src="spec-stat-defaults.js"></script>
-  <script src="app.js?v=trinket-nograde"></script>
+  <script src="app.js?v=history-icon"></script>
 </body>
 </html>

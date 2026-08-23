@@ -50,6 +50,7 @@
   const planBody = document.getElementById("plan-body");
   const historyModal = document.getElementById("history-modal");
   const historyOpen = document.getElementById("history-open");
+  const historyCount = document.getElementById("history-count");
   const historyClose = document.getElementById("history-close");
   const profileModal = document.getElementById("profile-modal");
   const profileForm = document.getElementById("profile-form");
@@ -825,9 +826,14 @@
 
   function syncHistoryButton() {
     if (!historyOpen) return;
-    historyOpen.textContent = bonusWins.length
-      ? `Roll History (${bonusWins.length})`
-      : "Roll History";
+    const count = bonusWins.length;
+    const label = count ? `Roll History (${count})` : "Roll History";
+    historyOpen.setAttribute("aria-label", label);
+    historyOpen.title = label;
+    if (historyCount) {
+      historyCount.hidden = count === 0;
+      historyCount.textContent = String(count);
+    }
   }
 
   function formatWonAt(value) {
