@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Midnight Season 2 Loot</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <p class="eyebrow">Midnight Season 2</p>
+      <h1>Dungeon loot by slot</h1>
+    </div>
+    <form class="filters" autocomplete="off">
+      <label>
+        <span>Class</span>
+        <select id="class-select"></select>
+      </label>
+      <label>
+        <span>Spec</span>
+        <select id="spec-select"></select>
+      </label>
+    </form>
+  </header>
+
+  <main>
+    <div class="table-scroll">
+      <table id="loot-table">
+        <thead></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </main>
+
+  <script src="loot-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

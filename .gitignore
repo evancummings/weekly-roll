@@ -16,3 +16,6 @@ venv/
 # Local env
 .env
 .env.local
+
+# Local verification dumps
+site/_verify*
