@@ -254,7 +254,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Dagger",
-            "droppedBy": "Atroxus"
+            "droppedBy": "Atroxus",
+            "icon": "inv_knife_1h_dungeonharronir_c_02"
           }
         ],
         "7": [
@@ -265,7 +266,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Behemoth Waistband",
-            "id": 251228
+            "id": 251228,
+            "icon": "inv_belt_mail_dungeonharronir_c_01"
           }
         ],
         "4": [
@@ -276,7 +278,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Manipulator's Vest",
-            "id": 251233
+            "id": 251233,
+            "icon": "inv_chest_mail_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -284,7 +287,8 @@ window.LOOT_DATA = {
             "droppedBy": "Charonus",
             "stats": [],
             "name": "Mindpiercer's Sigil",
-            "id": 250224
+            "id": 250224,
+            "icon": "inv_icon_shadowcouncilorb_purple"
           }
         ],
         "12": [
@@ -295,7 +299,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sickening Signet of Atroxus",
-            "id": 252258
+            "id": 252258,
+            "icon": "inv_12_jewelry_devouringhost_ring_bronze2"
           }
         ],
         "1": [
@@ -306,7 +311,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Graft of the Domanaar",
-            "id": 251234
+            "id": 251234,
+            "icon": "inv_12_jewelry_devouringhost_necklace_silver2"
           }
         ],
         "0": [
@@ -317,7 +323,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Voidscarred Crown",
-            "id": 251220
+            "id": 251220,
+            "icon": "inv_helm_mail_dungeonharronir_c_01"
           }
         ]
       },
@@ -330,7 +337,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Lightwarden's Bind",
-            "id": 251194
+            "id": 251194,
+            "icon": "inv12_jewelrytrinkets_rutaani_ring_yellow"
           }
         ],
         "6": [
@@ -341,7 +349,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Pulverizing Pads",
-            "id": 251165
+            "id": 251165,
+            "icon": "inv_glove_mail_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -351,13 +360,15 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Lightspire Core",
-            "id": 250214
+            "id": 250214,
+            "icon": "inv_enchant_essenceastrallarge"
           },
           {
             "droppedBy": "Ziekket",
             "stats": [],
             "name": "Sapling of the Dawnroot",
-            "id": 250259
+            "id": 250259,
+            "icon": "inv_misc_herb_nightmarevine"
           }
         ],
         "5": [
@@ -368,7 +379,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Saptorbane Guards",
-            "id": 251200
+            "id": 251200,
+            "icon": "inv_bracer_mail_dungeonharronir_c_01"
           }
         ],
         "11": [
@@ -383,7 +395,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Shield",
-            "droppedBy": "Ziekket"
+            "droppedBy": "Ziekket",
+            "icon": "inv_shield_1h_rutaani_b_01"
           }
         ],
         "2": [
@@ -394,7 +407,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Ironroot Collar",
-            "id": 251184
+            "id": 251184,
+            "icon": "inv_shoulder_mail_dungeonharronir_c_01"
           }
         ],
         "3": [
@@ -405,7 +419,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Bloodthorn Burnous",
-            "id": 251190
+            "id": 251190,
+            "icon": "inv_cape_mail_dungeonharronir_c_01"
           }
         ]
       },
@@ -418,7 +433,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Ritual Binder's Ring",
-            "id": 159459
+            "id": 159459,
+            "icon": "inv_ring_80_03e"
           }
         ],
         "6": [
@@ -429,7 +445,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sepulchral Construct's Gloves",
-            "id": 160213
+            "id": 160213,
+            "icon": "inv_glove_mail_zandalardungeon_c_01"
           }
         ],
         "7": [
@@ -440,7 +457,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Belt of the Consecrated Tomb",
-            "id": 159369
+            "id": 159369,
+            "icon": "inv_belt_mail_zandalardungeon_c_01"
           }
         ],
         "4": [
@@ -451,7 +469,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Loa-Blessed Chestguard",
-            "id": 239046
+            "id": 239046,
+            "icon": "inv_chest_mail_zandalardungeon_c_01"
           }
         ],
         "13": [
@@ -459,7 +478,8 @@ window.LOOT_DATA = {
             "droppedBy": "King Dazar",
             "stats": [],
             "name": "Stormbound Emblem of Dazar",
-            "id": 273649
+            "id": 273649,
+            "icon": "inv_7_0raid_necklace_14a"
           }
         ],
         "3": [
@@ -470,7 +490,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Cloak of the Restless Tribes",
-            "id": 159288
+            "id": 159288,
+            "icon": "inv_cape_mail_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -481,7 +502,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Boots of the Headlong Conqueror",
-            "id": 159371
+            "id": 159371,
+            "icon": "inv_boot_mail_zandalardungeon_c_01"
           }
         ],
         "2": [
@@ -492,7 +514,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Spaulders of Prime Emperor",
-            "id": 239049
+            "id": 239049,
+            "icon": "inv_shoulder_mail_zandalardungeon_c_01"
           }
         ],
         "10": [
@@ -507,7 +530,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Dagger",
-            "droppedBy": "The Golden Serpent"
+            "droppedBy": "The Golden Serpent",
+            "icon": "inv_knife_1h_battledungeon_c_01"
           }
         ]
       },
@@ -524,7 +548,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": "Melidrussa Chillworn"
+            "droppedBy": "Melidrussa Chillworn",
+            "icon": "inv_staff_2h_dragondungeon_c_02"
           }
         ],
         "6": [
@@ -535,7 +560,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Galerattle Gauntlets",
-            "id": 193752
+            "id": 193752,
+            "icon": "inv_mail_dragondungeon_c_01_glove"
           }
         ],
         "13": [
@@ -543,7 +569,8 @@ window.LOOT_DATA = {
             "droppedBy": "Melidrussa Chillworn",
             "stats": [],
             "name": "Ruby Whelp Shell",
-            "id": 193757
+            "id": 193757,
+            "icon": "inv_item_dragonegg_redbroken01"
           }
         ],
         "8": [
@@ -554,7 +581,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Egg Tender's Leggings",
-            "id": 193759
+            "id": 193759,
+            "icon": "inv_mail_dragondungeon_c_01_pant"
           }
         ],
         "11": [
@@ -569,7 +597,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Shield",
-            "droppedBy": null
+            "droppedBy": null,
+            "icon": "inv_shield_1h_drakonid_c_01"
           }
         ],
         "3": [
@@ -580,7 +609,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Fireproof Drape",
-            "id": 193763
+            "id": 193763,
+            "icon": "inv_mail_dragondungeon_c_01_cape"
           }
         ],
         "0": [
@@ -591,7 +621,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Blazebound Lieutenant's Helm",
-            "id": 193765
+            "id": 193765,
+            "icon": "inv_mail_dragondungeon_c_01_helm"
           }
         ]
       },
@@ -604,7 +635,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Charged Sandstone Band",
-            "id": 158366
+            "id": 158366,
+            "icon": "inv_ring_80_03d"
           },
           {
             "droppedBy": "Merektha",
@@ -613,7 +645,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Jade Ophidian Band",
-            "id": 162544
+            "id": 162544,
+            "icon": "inv_ring_80_04c"
           }
         ],
         "4": [
@@ -624,7 +657,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Corrupted Hexxer's Vestments",
-            "id": 239034
+            "id": 239034,
+            "icon": "inv_chest_mail_zandalardungeon_c_01"
           }
         ],
         "13": [
@@ -632,7 +666,8 @@ window.LOOT_DATA = {
             "droppedBy": "Avatar of Sethraliss",
             "stats": [],
             "name": "Sethraliss' Defiled Relic",
-            "id": 158368
+            "id": 158368,
+            "icon": "inv_staff_2h_snakeman_c_01"
           }
         ],
         "5": [
@@ -643,7 +678,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Arc-Glass Bindings",
-            "id": 159380
+            "id": 159380,
+            "icon": "inv_bracer_mail_zandalardungeon_c_01"
           }
         ],
         "8": [
@@ -654,7 +690,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Legguards of the Awakening Brood",
-            "id": 159375
+            "id": 159375,
+            "icon": "inv_pant_mail_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -665,7 +702,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sabatons of Coruscating Energy",
-            "id": 159388
+            "id": 159388,
+            "icon": "inv_boot_mail_zandalardungeon_c_01"
           }
         ],
         "11": [
@@ -680,7 +718,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Shield",
-            "droppedBy": "Galvazzt"
+            "droppedBy": "Galvazzt",
+            "icon": "inv_shield_1h_battledungeon_c_02"
           }
         ],
         "10": [
@@ -695,7 +734,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Mace",
-            "droppedBy": "Galvazzt"
+            "droppedBy": "Galvazzt",
+            "icon": "inv_mace_1h_pandaraid_d_01"
           },
           {
             "id": 159636,
@@ -708,7 +748,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": null
+            "droppedBy": null,
+            "icon": "inv_staff_2h_battledungeon_c_04"
           }
         ],
         "0": [
@@ -719,7 +760,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sethraliss' Fanged Helm",
-            "id": 239035
+            "id": 239035,
+            "icon": "inv_helm_mail_zandalardungeon_c_01"
           }
         ]
       },
@@ -732,7 +774,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Strand of Warding Fangs",
-            "id": 273781
+            "id": 273781,
+            "icon": "inv_121_jewelry_neck03_teal"
           }
         ],
         "4": [
@@ -743,7 +786,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Chestguard of Corroded Scales",
-            "id": 273789
+            "id": 273789,
+            "icon": "inv_chest_mail_outdooramaniloa_c_01"
           }
         ],
         "13": [
@@ -751,13 +795,15 @@ window.LOOT_DATA = {
             "droppedBy": "The Writhing Coil",
             "stats": [],
             "name": "Knot of Writhing Serpents",
-            "id": 273794
+            "id": 273794,
+            "icon": "inv_121_trinket_dungeon_ulatek_writhe"
           },
           {
             "droppedBy": "Rav'i",
             "stats": [],
             "name": "Vile Vial of Volatile Venom",
-            "id": 273796
+            "id": 273796,
+            "icon": "inv_121_trinket_dungeon_ulatek_vile"
           }
         ],
         "5": [
@@ -768,7 +814,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Hydra Scale Wristguards",
-            "id": 273775
+            "id": 273775,
+            "icon": "inv_bracer_mail_outdooramaniloa_c_01"
           }
         ],
         "12": [
@@ -779,7 +826,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Band of the Amani Warlord",
-            "id": 273792
+            "id": 273792,
+            "icon": "inv_121_jewelry_ring02_green"
           }
         ],
         "10": [
@@ -794,7 +842,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Dagger",
-            "droppedBy": "Zul'jan"
+            "droppedBy": "Zul'jan",
+            "icon": "inv_knife_1h_zuljin_d_01"
           },
           {
             "id": 273780,
@@ -807,7 +856,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Axe",
-            "droppedBy": "Rav'i"
+            "droppedBy": "Rav'i",
+            "icon": "inv_axe_1h_outdooramaniloa_c_01"
           }
         ]
       },
@@ -820,7 +870,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Pendant of Malefic Fury",
-            "id": 251142
+            "id": 251142,
+            "icon": "inv_12_jewelry_silvermoonelf_necklace_green"
           }
         ],
         "3": [
@@ -831,7 +882,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Speakeasy Shroud",
-            "id": 251132
+            "id": 251132,
+            "icon": "inv_cape_leather_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -839,7 +891,8 @@ window.LOOT_DATA = {
             "droppedBy": "Zaen Bladesorrow",
             "stats": [],
             "name": "Freightrunner's Flask",
-            "id": 250215
+            "id": 250215,
+            "icon": "inv_alchemy_90_flask_red"
           }
         ],
         "8": [
@@ -850,7 +903,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Lithiel's Linked Leggings",
-            "id": 251141
+            "id": 251141,
+            "icon": "inv_pant_mail_dungeonharronir_c_01"
           }
         ],
         "9": [
@@ -861,7 +915,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Felsoaked Soles",
-            "id": 251125
+            "id": 251125,
+            "icon": "inv_boot_mail_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -872,7 +927,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Signet of Snarling Servitude",
-            "id": 251136
+            "id": 251136,
+            "icon": "inv_12_jewelry_voidelf_ring_teal"
           }
         ],
         "2": [
@@ -883,7 +939,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Jangling Felpaulets",
-            "id": 251131
+            "id": 251131,
+            "icon": "inv_shoulder_mail_dungeonharronir_c_01"
           }
         ],
         "10": [
@@ -898,7 +955,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": "Kystia Manaheart"
+            "droppedBy": "Kystia Manaheart",
+            "icon": "inv_staff_2h_dungeonharronir_c_02"
           },
           {
             "id": 258045,
@@ -908,7 +966,8 @@ window.LOOT_DATA = {
             "stats": [],
             "hand": "1h",
             "weaponClass": "Warglaive",
-            "droppedBy": "Lithiel Cinderfury"
+            "droppedBy": "Lithiel Cinderfury",
+            "icon": "inv_glaive_1h_questbloodelf_b_01"
           }
         ]
       },
@@ -921,7 +980,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Pilfered Precious Band",
-            "id": 251148
+            "id": 251148,
+            "icon": "inv_12_jewelry_zulaman_troll_ring_green2"
           }
         ],
         "6": [
@@ -932,7 +992,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Season's Turn Gauntlets",
-            "id": 251152
+            "id": 251152,
+            "icon": "inv_glove_mail_dungeonharronir_c_01"
           }
         ],
         "7": [
@@ -943,7 +1004,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Tribal Defender's Cord",
-            "id": 251155
+            "id": 251155,
+            "icon": "inv_belt_mail_dungeonharronir_c_01"
           }
         ],
         "11": [
@@ -958,7 +1020,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Shield",
-            "droppedBy": "Sentinel of Winter"
+            "droppedBy": "Sentinel of Winter",
+            "icon": "inv_shield_1h_dungeonharronir_c_01"
           }
         ],
         "9": [
@@ -969,7 +1032,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Forgotten Tribe Footguards",
-            "id": 251145
+            "id": 251145,
+            "icon": "inv_boot_mail_dungeonharronir_c_01"
           }
         ],
         "10": [
@@ -984,7 +1048,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": "Nalorakk"
+            "droppedBy": "Nalorakk",
+            "icon": "inv_staff_2h_amani_c_01"
           }
         ],
         "1": [
@@ -995,7 +1060,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Yoke of the Charging Bear",
-            "id": 251173
+            "id": 251173,
+            "icon": "inv_12_jewelry_zulaman_troll_necklace_green1"
           }
         ],
         "0": [
@@ -1006,7 +1072,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Nalorakk's Nightmare",
-            "id": 251158
+            "id": 251158,
+            "icon": "inv_helm_mail_dungeonharronir_c_01"
           }
         ]
       }
@@ -1021,7 +1088,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Graft of the Domanaar",
-            "id": 251234
+            "id": 251234,
+            "icon": "inv_12_jewelry_devouringhost_necklace_silver2"
           }
         ],
         "7": [
@@ -1032,7 +1100,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Gravitic Girdle",
-            "id": 251235
+            "id": 251235,
+            "icon": "inv_belt_leather_dungeonharronir_c_01"
           }
         ],
         "4": [
@@ -1043,7 +1112,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Hide of Pestilence",
-            "id": 251226
+            "id": 251226,
+            "icon": "inv_chest_leather_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -1051,7 +1121,8 @@ window.LOOT_DATA = {
             "droppedBy": "Taz'Rah",
             "stats": [],
             "name": "Void Execution Mandate",
-            "id": 250225
+            "id": 250225,
+            "icon": "inv_inscription_80_warscroll_intellect"
           }
         ],
         "12": [
@@ -1062,7 +1133,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sickening Signet of Atroxus",
-            "id": 252258
+            "id": 252258,
+            "icon": "inv_12_jewelry_devouringhost_ring_bronze2"
           }
         ],
         "2": [
@@ -1073,7 +1145,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Somber Spaulders",
-            "id": 251223
+            "id": 251223,
+            "icon": "inv_shoulder_leather_dungeonharronir_c_01"
           }
         ]
       },
@@ -1090,7 +1163,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": "Lightwarden Ruia"
+            "droppedBy": "Lightwarden Ruia",
+            "icon": "inv_staff_2h_dungeonharronir_c_01"
           }
         ],
         "7": [
@@ -1101,7 +1175,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Rootwalker Harness",
-            "id": 251189
+            "id": 251189,
+            "icon": "inv_belt_leather_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -1111,13 +1186,15 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Lightspire Core",
-            "id": 250214
+            "id": 250214,
+            "icon": "inv_enchant_essenceastrallarge"
           },
           {
             "droppedBy": "Ziekket",
             "stats": [],
             "name": "Sapling of the Dawnroot",
-            "id": 250259
+            "id": 250259,
+            "icon": "inv_misc_herb_nightmarevine"
           }
         ],
         "5": [
@@ -1128,7 +1205,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Rootwarden Wraps",
-            "id": 251183
+            "id": 251183,
+            "icon": "inv_bracer_leather_dungeonharronir_c_01"
           }
         ],
         "8": [
@@ -1139,7 +1217,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Lightspore Leggings",
-            "id": 251198
+            "id": 251198,
+            "icon": "inv_pant_leather_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -1150,7 +1229,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Lightwarden's Bind",
-            "id": 251194
+            "id": 251194,
+            "icon": "inv12_jewelrytrinkets_rutaani_ring_yellow"
           }
         ],
         "3": [
@@ -1161,7 +1241,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Bloodthorn Burnous",
-            "id": 251190
+            "id": 251190,
+            "icon": "inv_cape_mail_dungeonharronir_c_01"
           }
         ]
       },
@@ -1174,7 +1255,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Ritual Binder's Ring",
-            "id": 159459
+            "id": 159459,
+            "icon": "inv_ring_80_03e"
           }
         ],
         "6": [
@@ -1185,7 +1267,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Desiccator's Blessed Gloves",
-            "id": 159312
+            "id": 159312,
+            "icon": "inv_glove_leather_zandalardungeon_c_01"
           }
         ],
         "7": [
@@ -1196,7 +1279,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Primal Dinomancer's Belt",
-            "id": 159301
+            "id": 159301,
+            "icon": "inv_belt_leather_zandalardungeon_c_01"
           }
         ],
         "4": [
@@ -1207,7 +1291,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Vest of Reverent Adoration",
-            "id": 239048
+            "id": 239048,
+            "icon": "inv_chest_leather_zandalardungeon_c_01"
           }
         ],
         "5": [
@@ -1218,7 +1303,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Kula's Butchering Wristwraps",
-            "id": 159300
+            "id": 159300,
+            "icon": "inv_bracer_leather_zandalardungeon_c_01"
           }
         ],
         "8": [
@@ -1229,7 +1315,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Breeches of the Sacred Hall",
-            "id": 159313
+            "id": 159313,
+            "icon": "inv_pant_leather_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -1240,7 +1327,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Goldfeather Boots",
-            "id": 159304
+            "id": 159304,
+            "icon": "inv_boot_leather_zandalardungeon_c_01"
           }
         ],
         "13": [
@@ -1248,7 +1336,8 @@ window.LOOT_DATA = {
             "droppedBy": "The Golden Serpent",
             "stats": [],
             "name": "Lustrous Golden Plumage",
-            "id": 159617
+            "id": 159617,
+            "icon": "inv_icon_feather06a"
           }
         ],
         "3": [
@@ -1259,7 +1348,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Cloak of the Restless Tribes",
-            "id": 159288
+            "id": 159288,
+            "icon": "inv_cape_mail_zandalardungeon_c_01"
           }
         ],
         "10": [
@@ -1274,7 +1364,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Polearm",
-            "droppedBy": "Mchimba the Embalmer"
+            "droppedBy": "Mchimba the Embalmer",
+            "icon": "inv_polearm_2h_zandalariguard_b_01"
           }
         ]
       },
@@ -1287,7 +1378,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Fireproof Drape",
-            "id": 193763
+            "id": 193763,
+            "icon": "inv_mail_dragondungeon_c_01_cape"
           }
         ],
         "0": [
@@ -1298,7 +1390,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Crown of Roaring Storms",
-            "id": 193751
+            "id": 193751,
+            "icon": "inv_leather_dragondungeon_c_01_helm"
           }
         ],
         "13": [
@@ -1306,7 +1399,8 @@ window.LOOT_DATA = {
             "droppedBy": "Melidrussa Chillworn",
             "stats": [],
             "name": "Ruby Whelp Shell",
-            "id": 193757
+            "id": 193757,
+            "icon": "inv_item_dragonegg_redbroken01"
           }
         ],
         "6": [
@@ -1317,7 +1411,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Subjugator's Chilling Grips",
-            "id": 193758
+            "id": 193758,
+            "icon": "inv_leather_dragondungeon_c_01_glove"
           }
         ],
         "4": [
@@ -1328,7 +1423,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Invader's Firestorm Chestguard",
-            "id": 193764
+            "id": 193764,
+            "icon": "inv_leather_dragondungeon_c_01_chest"
           }
         ]
       },
@@ -1341,7 +1437,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Charged Sandstone Band",
-            "id": 158366
+            "id": 158366,
+            "icon": "inv_ring_80_03d"
           },
           {
             "droppedBy": "Merektha",
@@ -1350,7 +1447,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Jade Ophidian Band",
-            "id": 162544
+            "id": 162544,
+            "icon": "inv_ring_80_04c"
           }
         ],
         "6": [
@@ -1361,7 +1459,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Grips of Electrified Defense",
-            "id": 159337
+            "id": 159337,
+            "icon": "inv_glove_leather_zandalardungeon_c_01"
           }
         ],
         "7": [
@@ -1372,7 +1471,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Whirling Dervish Sash",
-            "id": 159317
+            "id": 159317,
+            "icon": "inv_belt_leather_zandalardungeon_c_01"
           }
         ],
         "13": [
@@ -1380,7 +1480,8 @@ window.LOOT_DATA = {
             "droppedBy": "Galvazzt",
             "stats": [],
             "name": "Tiny Electromental in a Jar",
-            "id": 158374
+            "id": 158374,
+            "icon": "inv_alchemy_71_potion4"
           }
         ],
         "8": [
@@ -1391,7 +1492,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Leggings of the Galeforce Viper",
-            "id": 159329
+            "id": 159329,
+            "icon": "inv_pant_leather_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -1402,7 +1504,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sand-Shined Snakeskin Sandals",
-            "id": 159327
+            "id": 159327,
+            "icon": "inv_boot_leather_zandalardungeon_c_01"
           }
         ],
         "10": [
@@ -1417,7 +1520,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Polearm",
-            "droppedBy": null
+            "droppedBy": null,
+            "icon": "inv_polearm_2h_snakeman_c_01"
           }
         ],
         "0": [
@@ -1428,7 +1532,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Hood of the Slithering Loa",
-            "id": 239033
+            "id": 239033,
+            "icon": "inv_helm_leather_zandalardungeon_c_01"
           }
         ]
       },
@@ -1441,7 +1546,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Band of the Amani Warlord",
-            "id": 273792
+            "id": 273792,
+            "icon": "inv_121_jewelry_ring02_green"
           }
         ],
         "13": [
@@ -1449,13 +1555,15 @@ window.LOOT_DATA = {
             "droppedBy": "Rav'i",
             "stats": [],
             "name": "Vile Vial of Volatile Venom",
-            "id": 273796
+            "id": 273796,
+            "icon": "inv_121_trinket_dungeon_ulatek_vile"
           },
           {
             "droppedBy": "Zul'jan",
             "stats": [],
             "name": "Tattered Amani War Banner",
-            "id": 273797
+            "id": 273797,
+            "icon": "inv_121_trinket_dungeon_ulatek_banner"
           }
         ],
         "10": [
@@ -1470,7 +1578,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": "The Writhing Coil"
+            "droppedBy": "The Writhing Coil",
+            "icon": "inv_staff_2h_outdooramaniloa_c_01"
           }
         ],
         "2": [
@@ -1481,7 +1590,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Snakeskin Spaulders",
-            "id": 273774
+            "id": 273774,
+            "icon": "inv_shoulder_leather_outdooramaniloa_c_01"
           }
         ],
         "1": [
@@ -1492,7 +1602,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Strand of Warding Fangs",
-            "id": 273781
+            "id": 273781,
+            "icon": "inv_121_jewelry_neck03_teal"
           }
         ],
         "0": [
@@ -1503,7 +1614,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Spare Speaker's Hood",
-            "id": 273791
+            "id": 273791,
+            "icon": "inv_helm_leather_outdooramaniloa_c_01"
           }
         ]
       },
@@ -1516,7 +1628,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Signet of Snarling Servitude",
-            "id": 251136
+            "id": 251136,
+            "icon": "inv_12_jewelry_voidelf_ring_teal"
           }
         ],
         "6": [
@@ -1527,7 +1640,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Gauntlets of Fevered Defense",
-            "id": 251124
+            "id": 251124,
+            "icon": "inv_glove_leather_dungeonharronir_c_01"
           }
         ],
         "3": [
@@ -1538,7 +1652,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Speakeasy Shroud",
-            "id": 251132
+            "id": 251132,
+            "icon": "inv_cape_leather_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -1546,13 +1661,15 @@ window.LOOT_DATA = {
             "droppedBy": "Zaen Bladesorrow",
             "stats": [],
             "name": "Freightrunner's Flask",
-            "id": 250215
+            "id": 250215,
+            "icon": "inv_alchemy_90_flask_red"
           },
           {
             "droppedBy": "Xathuux the Annihilator",
             "stats": [],
             "name": "Resonant Bellowstone",
-            "id": 250228
+            "id": 250228,
+            "icon": "inv_alchemy_90_stone_green"
           }
         ],
         "5": [
@@ -1563,7 +1680,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Fury-fletched Armlets",
-            "id": 251135
+            "id": 251135,
+            "icon": "inv_bracer_leather_dungeonharronir_c_01"
           }
         ],
         "8": [
@@ -1574,7 +1692,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Breeches of Deft Deals",
-            "id": 251130
+            "id": 251130,
+            "icon": "inv_pant_leather_dungeonharronir_c_01"
           }
         ],
         "1": [
@@ -1585,7 +1704,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Pendant of Malefic Fury",
-            "id": 251142
+            "id": 251142,
+            "icon": "inv_12_jewelry_silvermoonelf_necklace_green"
           }
         ],
         "10": [
@@ -1597,7 +1717,8 @@ window.LOOT_DATA = {
             "stats": [],
             "hand": "1h",
             "weaponClass": "Warglaive",
-            "droppedBy": "Lithiel Cinderfury"
+            "droppedBy": "Lithiel Cinderfury",
+            "icon": "inv_glaive_1h_questbloodelf_b_01"
           }
         ],
         "0": [
@@ -1608,7 +1729,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Vilefiend's Guise",
-            "id": 251140
+            "id": 251140,
+            "icon": "inv_helm_leather_dungeonharronir_c_01"
           }
         ]
       },
@@ -1621,7 +1743,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Pilfered Precious Band",
-            "id": 251148
+            "id": 251148,
+            "icon": "inv_12_jewelry_zulaman_troll_ring_green2"
           }
         ],
         "4": [
@@ -1632,7 +1755,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "War Trial Vestments",
-            "id": 251159
+            "id": 251159,
+            "icon": "inv_chest_leather_dungeonharronir_c_01"
           }
         ],
         "9": [
@@ -1643,7 +1767,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Arctic Explorer's Legwraps",
-            "id": 251153
+            "id": 251153,
+            "icon": "inv_boot_leather_dungeonharronir_c_01"
           }
         ],
         "10": [
@@ -1658,7 +1783,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Polearm",
-            "droppedBy": "Sentinel of Winter"
+            "droppedBy": "Sentinel of Winter",
+            "icon": "inv_polearm_2h_dungeonharronir_c_01"
           }
         ],
         "2": [
@@ -1669,7 +1795,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Scavenger's Spaulders",
-            "id": 251146
+            "id": 251146,
+            "icon": "inv_shoulder_leather_dungeonharronir_c_01"
           }
         ],
         "1": [
@@ -1680,7 +1807,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Yoke of the Charging Bear",
-            "id": 251173
+            "id": 251173,
+            "icon": "inv_12_jewelry_zulaman_troll_necklace_green1"
           }
         ]
       }
@@ -1695,7 +1823,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Graft of the Domanaar",
-            "id": 251234
+            "id": 251234,
+            "icon": "inv_12_jewelry_devouringhost_necklace_silver2"
           }
         ],
         "7": [
@@ -1706,7 +1835,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Gravitic Girdle",
-            "id": 251235
+            "id": 251235,
+            "icon": "inv_belt_leather_dungeonharronir_c_01"
           }
         ],
         "4": [
@@ -1717,7 +1847,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Hide of Pestilence",
-            "id": 251226
+            "id": 251226,
+            "icon": "inv_chest_leather_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -1725,7 +1856,8 @@ window.LOOT_DATA = {
             "droppedBy": "Charonus",
             "stats": [],
             "name": "Mindpiercer's Sigil",
-            "id": 250224
+            "id": 250224,
+            "icon": "inv_icon_shadowcouncilorb_purple"
           }
         ],
         "12": [
@@ -1736,7 +1868,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sickening Signet of Atroxus",
-            "id": 252258
+            "id": 252258,
+            "icon": "inv_12_jewelry_devouringhost_ring_bronze2"
           }
         ],
         "2": [
@@ -1747,7 +1880,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Somber Spaulders",
-            "id": 251223
+            "id": 251223,
+            "icon": "inv_shoulder_leather_dungeonharronir_c_01"
           }
         ],
         "10": [
@@ -1762,7 +1896,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Dagger",
-            "droppedBy": "Atroxus"
+            "droppedBy": "Atroxus",
+            "icon": "inv_knife_1h_dungeonharronir_c_02"
           }
         ]
       },
@@ -1775,7 +1910,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Lightwarden's Bind",
-            "id": 251194
+            "id": 251194,
+            "icon": "inv12_jewelrytrinkets_rutaani_ring_yellow"
           }
         ],
         "7": [
@@ -1786,7 +1922,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Rootwalker Harness",
-            "id": 251189
+            "id": 251189,
+            "icon": "inv_belt_leather_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -1796,13 +1933,15 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Lightspire Core",
-            "id": 250214
+            "id": 250214,
+            "icon": "inv_enchant_essenceastrallarge"
           },
           {
             "droppedBy": "Ziekket",
             "stats": [],
             "name": "Sapling of the Dawnroot",
-            "id": 250259
+            "id": 250259,
+            "icon": "inv_misc_herb_nightmarevine"
           }
         ],
         "5": [
@@ -1813,7 +1952,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Rootwarden Wraps",
-            "id": 251183
+            "id": 251183,
+            "icon": "inv_bracer_leather_dungeonharronir_c_01"
           }
         ],
         "8": [
@@ -1824,7 +1964,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Lightspore Leggings",
-            "id": 251198
+            "id": 251198,
+            "icon": "inv_pant_leather_dungeonharronir_c_01"
           }
         ],
         "11": [
@@ -1839,7 +1980,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "Lightwarden Ruia"
+            "droppedBy": "Lightwarden Ruia",
+            "icon": "inv_offhand_1h_dungeonharronir_c_01"
           }
         ],
         "3": [
@@ -1850,7 +1992,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Bloodthorn Burnous",
-            "id": 251190
+            "id": 251190,
+            "icon": "inv_cape_mail_dungeonharronir_c_01"
           }
         ]
       },
@@ -1867,7 +2010,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Dagger",
-            "droppedBy": "The Golden Serpent"
+            "droppedBy": "The Golden Serpent",
+            "icon": "inv_knife_1h_battledungeon_c_01"
           }
         ],
         "6": [
@@ -1878,7 +2022,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Desiccator's Blessed Gloves",
-            "id": 159312
+            "id": 159312,
+            "icon": "inv_glove_leather_zandalardungeon_c_01"
           }
         ],
         "7": [
@@ -1889,7 +2034,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Primal Dinomancer's Belt",
-            "id": 159301
+            "id": 159301,
+            "icon": "inv_belt_leather_zandalardungeon_c_01"
           }
         ],
         "4": [
@@ -1900,7 +2046,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Vest of Reverent Adoration",
-            "id": 239048
+            "id": 239048,
+            "icon": "inv_chest_leather_zandalardungeon_c_01"
           }
         ],
         "5": [
@@ -1911,7 +2058,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Kula's Butchering Wristwraps",
-            "id": 159300
+            "id": 159300,
+            "icon": "inv_bracer_leather_zandalardungeon_c_01"
           }
         ],
         "8": [
@@ -1922,7 +2070,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Breeches of the Sacred Hall",
-            "id": 159313
+            "id": 159313,
+            "icon": "inv_pant_leather_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -1933,7 +2082,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Goldfeather Boots",
-            "id": 159304
+            "id": 159304,
+            "icon": "inv_boot_leather_zandalardungeon_c_01"
           }
         ],
         "13": [
@@ -1941,7 +2091,8 @@ window.LOOT_DATA = {
             "droppedBy": "King Dazar",
             "stats": [],
             "name": "Stormbound Emblem of Dazar",
-            "id": 273649
+            "id": 273649,
+            "icon": "inv_7_0raid_necklace_14a"
           }
         ],
         "11": [
@@ -1956,7 +2107,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "Mchimba the Embalmer"
+            "droppedBy": "Mchimba the Embalmer",
+            "icon": "inv_offhand_1h_battledungeon_c_02"
           }
         ],
         "12": [
@@ -1967,7 +2119,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Ritual Binder's Ring",
-            "id": 159459
+            "id": 159459,
+            "icon": "inv_ring_80_03e"
           }
         ],
         "3": [
@@ -1978,7 +2131,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Cloak of the Restless Tribes",
-            "id": 159288
+            "id": 159288,
+            "icon": "inv_cape_mail_zandalardungeon_c_01"
           }
         ]
       },
@@ -1995,7 +2149,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": "Melidrussa Chillworn"
+            "droppedBy": "Melidrussa Chillworn",
+            "icon": "inv_staff_2h_dragondungeon_c_02"
           }
         ],
         "6": [
@@ -2006,7 +2161,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Subjugator's Chilling Grips",
-            "id": 193758
+            "id": 193758,
+            "icon": "inv_leather_dragondungeon_c_01_glove"
           }
         ],
         "4": [
@@ -2017,7 +2173,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Invader's Firestorm Chestguard",
-            "id": 193764
+            "id": 193764,
+            "icon": "inv_leather_dragondungeon_c_01_chest"
           }
         ],
         "11": [
@@ -2032,7 +2189,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "Kokia Blazehoof"
+            "droppedBy": "Kokia Blazehoof",
+            "icon": "inv_offhand_1h_drakonid_c_01"
           }
         ],
         "13": [
@@ -2040,7 +2198,8 @@ window.LOOT_DATA = {
             "droppedBy": "Melidrussa Chillworn",
             "stats": [],
             "name": "Ruby Whelp Shell",
-            "id": 193757
+            "id": 193757,
+            "icon": "inv_item_dragonegg_redbroken01"
           }
         ],
         "3": [
@@ -2051,7 +2210,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Fireproof Drape",
-            "id": 193763
+            "id": 193763,
+            "icon": "inv_mail_dragondungeon_c_01_cape"
           }
         ],
         "0": [
@@ -2062,7 +2222,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Crown of Roaring Storms",
-            "id": 193751
+            "id": 193751,
+            "icon": "inv_leather_dragondungeon_c_01_helm"
           }
         ]
       },
@@ -2075,7 +2236,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Charged Sandstone Band",
-            "id": 158366
+            "id": 158366,
+            "icon": "inv_ring_80_03d"
           },
           {
             "droppedBy": "Merektha",
@@ -2084,7 +2246,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Jade Ophidian Band",
-            "id": 162544
+            "id": 162544,
+            "icon": "inv_ring_80_04c"
           }
         ],
         "6": [
@@ -2095,7 +2258,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Grips of Electrified Defense",
-            "id": 159337
+            "id": 159337,
+            "icon": "inv_glove_leather_zandalardungeon_c_01"
           }
         ],
         "7": [
@@ -2106,7 +2270,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Whirling Dervish Sash",
-            "id": 159317
+            "id": 159317,
+            "icon": "inv_belt_leather_zandalardungeon_c_01"
           }
         ],
         "13": [
@@ -2114,7 +2279,8 @@ window.LOOT_DATA = {
             "droppedBy": "Avatar of Sethraliss",
             "stats": [],
             "name": "Sethraliss' Defiled Relic",
-            "id": 158368
+            "id": 158368,
+            "icon": "inv_staff_2h_snakeman_c_01"
           }
         ],
         "8": [
@@ -2125,7 +2291,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Leggings of the Galeforce Viper",
-            "id": 159329
+            "id": 159329,
+            "icon": "inv_pant_leather_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -2136,7 +2303,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sand-Shined Snakeskin Sandals",
-            "id": 159327
+            "id": 159327,
+            "icon": "inv_boot_leather_zandalardungeon_c_01"
           }
         ],
         "10": [
@@ -2151,7 +2319,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Mace",
-            "droppedBy": "Galvazzt"
+            "droppedBy": "Galvazzt",
+            "icon": "inv_mace_1h_pandaraid_d_01"
           },
           {
             "id": 159636,
@@ -2164,7 +2333,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": null
+            "droppedBy": null,
+            "icon": "inv_staff_2h_battledungeon_c_04"
           }
         ],
         "0": [
@@ -2175,7 +2345,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Hood of the Slithering Loa",
-            "id": 239033
+            "id": 239033,
+            "icon": "inv_helm_leather_zandalardungeon_c_01"
           }
         ]
       },
@@ -2188,7 +2359,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Strand of Warding Fangs",
-            "id": 273781
+            "id": 273781,
+            "icon": "inv_121_jewelry_neck03_teal"
           }
         ],
         "13": [
@@ -2196,13 +2368,15 @@ window.LOOT_DATA = {
             "droppedBy": "The Writhing Coil",
             "stats": [],
             "name": "Knot of Writhing Serpents",
-            "id": 273794
+            "id": 273794,
+            "icon": "inv_121_trinket_dungeon_ulatek_writhe"
           },
           {
             "droppedBy": "Rav'i",
             "stats": [],
             "name": "Vile Vial of Volatile Venom",
-            "id": 273796
+            "id": 273796,
+            "icon": "inv_121_trinket_dungeon_ulatek_vile"
           }
         ],
         "11": [
@@ -2217,7 +2391,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "The Writhing Coil"
+            "droppedBy": "The Writhing Coil",
+            "icon": "inv_offhand_1h_outdooramaniloa_c_01"
           }
         ],
         "12": [
@@ -2228,7 +2403,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Band of the Amani Warlord",
-            "id": 273792
+            "id": 273792,
+            "icon": "inv_121_jewelry_ring02_green"
           }
         ],
         "2": [
@@ -2239,7 +2415,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Snakeskin Spaulders",
-            "id": 273774
+            "id": 273774,
+            "icon": "inv_shoulder_leather_outdooramaniloa_c_01"
           }
         ],
         "10": [
@@ -2254,7 +2431,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Dagger",
-            "droppedBy": "Zul'jan"
+            "droppedBy": "Zul'jan",
+            "icon": "inv_knife_1h_zuljin_d_01"
           }
         ],
         "0": [
@@ -2265,7 +2443,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Spare Speaker's Hood",
-            "id": 273791
+            "id": 273791,
+            "icon": "inv_helm_leather_outdooramaniloa_c_01"
           }
         ]
       },
@@ -2282,7 +2461,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": "Kystia Manaheart"
+            "droppedBy": "Kystia Manaheart",
+            "icon": "inv_staff_2h_dungeonharronir_c_02"
           },
           {
             "id": 258045,
@@ -2292,7 +2472,8 @@ window.LOOT_DATA = {
             "stats": [],
             "hand": "1h",
             "weaponClass": "Warglaive",
-            "droppedBy": "Lithiel Cinderfury"
+            "droppedBy": "Lithiel Cinderfury",
+            "icon": "inv_glaive_1h_questbloodelf_b_01"
           }
         ],
         "6": [
@@ -2303,7 +2484,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Gauntlets of Fevered Defense",
-            "id": 251124
+            "id": 251124,
+            "icon": "inv_glove_leather_dungeonharronir_c_01"
           }
         ],
         "3": [
@@ -2314,7 +2496,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Speakeasy Shroud",
-            "id": 251132
+            "id": 251132,
+            "icon": "inv_cape_leather_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -2322,7 +2505,8 @@ window.LOOT_DATA = {
             "droppedBy": "Zaen Bladesorrow",
             "stats": [],
             "name": "Freightrunner's Flask",
-            "id": 250215
+            "id": 250215,
+            "icon": "inv_alchemy_90_flask_red"
           }
         ],
         "5": [
@@ -2333,7 +2517,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Fury-fletched Armlets",
-            "id": 251135
+            "id": 251135,
+            "icon": "inv_bracer_leather_dungeonharronir_c_01"
           }
         ],
         "8": [
@@ -2344,7 +2529,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Breeches of Deft Deals",
-            "id": 251130
+            "id": 251130,
+            "icon": "inv_pant_leather_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -2355,7 +2541,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Signet of Snarling Servitude",
-            "id": 251136
+            "id": 251136,
+            "icon": "inv_12_jewelry_voidelf_ring_teal"
           }
         ],
         "1": [
@@ -2366,7 +2553,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Pendant of Malefic Fury",
-            "id": 251142
+            "id": 251142,
+            "icon": "inv_12_jewelry_silvermoonelf_necklace_green"
           }
         ],
         "0": [
@@ -2377,7 +2565,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Vilefiend's Guise",
-            "id": 251140
+            "id": 251140,
+            "icon": "inv_helm_leather_dungeonharronir_c_01"
           }
         ]
       },
@@ -2390,7 +2579,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Pilfered Precious Band",
-            "id": 251148
+            "id": 251148,
+            "icon": "inv_12_jewelry_zulaman_troll_ring_green2"
           }
         ],
         "4": [
@@ -2401,7 +2591,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "War Trial Vestments",
-            "id": 251159
+            "id": 251159,
+            "icon": "inv_chest_leather_dungeonharronir_c_01"
           }
         ],
         "11": [
@@ -2416,7 +2607,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "Sentinel of Winter"
+            "droppedBy": "Sentinel of Winter",
+            "icon": "inv_offhand_1h_dungeonharronir_c_01"
           }
         ],
         "9": [
@@ -2427,7 +2619,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Arctic Explorer's Legwraps",
-            "id": 251153
+            "id": 251153,
+            "icon": "inv_boot_leather_dungeonharronir_c_01"
           }
         ],
         "10": [
@@ -2442,7 +2635,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": "Nalorakk"
+            "droppedBy": "Nalorakk",
+            "icon": "inv_staff_2h_amani_c_01"
           }
         ],
         "2": [
@@ -2453,7 +2647,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Scavenger's Spaulders",
-            "id": 251146
+            "id": 251146,
+            "icon": "inv_shoulder_leather_dungeonharronir_c_01"
           }
         ],
         "1": [
@@ -2464,7 +2659,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Yoke of the Charging Bear",
-            "id": 251173
+            "id": 251173,
+            "icon": "inv_12_jewelry_zulaman_troll_necklace_green1"
           }
         ]
       }
@@ -2479,7 +2675,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Graft of the Domanaar",
-            "id": 251234
+            "id": 251234,
+            "icon": "inv_12_jewelry_devouringhost_necklace_silver2"
           }
         ],
         "7": [
@@ -2490,7 +2687,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Gravitic Girdle",
-            "id": 251235
+            "id": 251235,
+            "icon": "inv_belt_leather_dungeonharronir_c_01"
           }
         ],
         "4": [
@@ -2501,7 +2699,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Hide of Pestilence",
-            "id": 251226
+            "id": 251226,
+            "icon": "inv_chest_leather_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -2509,7 +2708,8 @@ window.LOOT_DATA = {
             "droppedBy": "Charonus",
             "stats": [],
             "name": "Mindpiercer's Sigil",
-            "id": 250224
+            "id": 250224,
+            "icon": "inv_icon_shadowcouncilorb_purple"
           }
         ],
         "12": [
@@ -2520,7 +2720,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sickening Signet of Atroxus",
-            "id": 252258
+            "id": 252258,
+            "icon": "inv_12_jewelry_devouringhost_ring_bronze2"
           }
         ],
         "2": [
@@ -2531,7 +2732,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Somber Spaulders",
-            "id": 251223
+            "id": 251223,
+            "icon": "inv_shoulder_leather_dungeonharronir_c_01"
           }
         ],
         "10": [
@@ -2546,7 +2748,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Dagger",
-            "droppedBy": "Atroxus"
+            "droppedBy": "Atroxus",
+            "icon": "inv_knife_1h_dungeonharronir_c_02"
           }
         ]
       },
@@ -2559,7 +2762,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Lightwarden's Bind",
-            "id": 251194
+            "id": 251194,
+            "icon": "inv12_jewelrytrinkets_rutaani_ring_yellow"
           }
         ],
         "7": [
@@ -2570,7 +2774,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Rootwalker Harness",
-            "id": 251189
+            "id": 251189,
+            "icon": "inv_belt_leather_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -2580,19 +2785,22 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Lightspire Core",
-            "id": 250214
+            "id": 250214,
+            "icon": "inv_enchant_essenceastrallarge"
           },
           {
             "droppedBy": "Meittik",
             "stats": [],
             "name": "Seed of Radiant Hope",
-            "id": 250254
+            "id": 250254,
+            "icon": "inv12_jewelrytrinkets_dungeon_seedofradianthope"
           },
           {
             "droppedBy": "Ziekket",
             "stats": [],
             "name": "Sapling of the Dawnroot",
-            "id": 250259
+            "id": 250259,
+            "icon": "inv_misc_herb_nightmarevine"
           }
         ],
         "5": [
@@ -2603,7 +2811,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Rootwarden Wraps",
-            "id": 251183
+            "id": 251183,
+            "icon": "inv_bracer_leather_dungeonharronir_c_01"
           }
         ],
         "8": [
@@ -2614,7 +2823,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Lightspore Leggings",
-            "id": 251198
+            "id": 251198,
+            "icon": "inv_pant_leather_dungeonharronir_c_01"
           }
         ],
         "11": [
@@ -2629,7 +2839,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "Lightwarden Ruia"
+            "droppedBy": "Lightwarden Ruia",
+            "icon": "inv_offhand_1h_dungeonharronir_c_01"
           }
         ],
         "3": [
@@ -2640,7 +2851,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Bloodthorn Burnous",
-            "id": 251190
+            "id": 251190,
+            "icon": "inv_cape_mail_dungeonharronir_c_01"
           }
         ]
       },
@@ -2657,7 +2869,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Dagger",
-            "droppedBy": "The Golden Serpent"
+            "droppedBy": "The Golden Serpent",
+            "icon": "inv_knife_1h_battledungeon_c_01"
           }
         ],
         "6": [
@@ -2668,7 +2881,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Desiccator's Blessed Gloves",
-            "id": 159312
+            "id": 159312,
+            "icon": "inv_glove_leather_zandalardungeon_c_01"
           }
         ],
         "7": [
@@ -2679,7 +2893,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Primal Dinomancer's Belt",
-            "id": 159301
+            "id": 159301,
+            "icon": "inv_belt_leather_zandalardungeon_c_01"
           }
         ],
         "4": [
@@ -2690,7 +2905,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Vest of Reverent Adoration",
-            "id": 239048
+            "id": 239048,
+            "icon": "inv_chest_leather_zandalardungeon_c_01"
           }
         ],
         "5": [
@@ -2701,7 +2917,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Kula's Butchering Wristwraps",
-            "id": 159300
+            "id": 159300,
+            "icon": "inv_bracer_leather_zandalardungeon_c_01"
           }
         ],
         "8": [
@@ -2712,7 +2929,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Breeches of the Sacred Hall",
-            "id": 159313
+            "id": 159313,
+            "icon": "inv_pant_leather_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -2723,7 +2941,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Goldfeather Boots",
-            "id": 159304
+            "id": 159304,
+            "icon": "inv_boot_leather_zandalardungeon_c_01"
           }
         ],
         "13": [
@@ -2731,7 +2950,8 @@ window.LOOT_DATA = {
             "droppedBy": "King Dazar",
             "stats": [],
             "name": "Stormbound Emblem of Dazar",
-            "id": 273649
+            "id": 273649,
+            "icon": "inv_7_0raid_necklace_14a"
           }
         ],
         "11": [
@@ -2746,7 +2966,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "Mchimba the Embalmer"
+            "droppedBy": "Mchimba the Embalmer",
+            "icon": "inv_offhand_1h_battledungeon_c_02"
           }
         ],
         "12": [
@@ -2757,7 +2978,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Ritual Binder's Ring",
-            "id": 159459
+            "id": 159459,
+            "icon": "inv_ring_80_03e"
           }
         ],
         "3": [
@@ -2768,7 +2990,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Cloak of the Restless Tribes",
-            "id": 159288
+            "id": 159288,
+            "icon": "inv_cape_mail_zandalardungeon_c_01"
           }
         ]
       },
@@ -2785,7 +3008,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": "Melidrussa Chillworn"
+            "droppedBy": "Melidrussa Chillworn",
+            "icon": "inv_staff_2h_dragondungeon_c_02"
           }
         ],
         "6": [
@@ -2796,7 +3020,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Subjugator's Chilling Grips",
-            "id": 193758
+            "id": 193758,
+            "icon": "inv_leather_dragondungeon_c_01_glove"
           }
         ],
         "4": [
@@ -2807,7 +3032,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Invader's Firestorm Chestguard",
-            "id": 193764
+            "id": 193764,
+            "icon": "inv_leather_dragondungeon_c_01_chest"
           }
         ],
         "11": [
@@ -2822,7 +3048,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "Kokia Blazehoof"
+            "droppedBy": "Kokia Blazehoof",
+            "icon": "inv_offhand_1h_drakonid_c_01"
           }
         ],
         "13": [
@@ -2832,13 +3059,15 @@ window.LOOT_DATA = {
               "Crit"
             ],
             "name": "Kyrakka's Searing Embers",
-            "id": 193748
+            "id": 193748,
+            "icon": "inv_10_dungeonjewelry_primalist_trinket_4_fire"
           },
           {
             "droppedBy": "Melidrussa Chillworn",
             "stats": [],
             "name": "Ruby Whelp Shell",
-            "id": 193757
+            "id": 193757,
+            "icon": "inv_item_dragonegg_redbroken01"
           }
         ],
         "3": [
@@ -2849,7 +3078,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Fireproof Drape",
-            "id": 193763
+            "id": 193763,
+            "icon": "inv_mail_dragondungeon_c_01_cape"
           }
         ],
         "0": [
@@ -2860,7 +3090,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Crown of Roaring Storms",
-            "id": 193751
+            "id": 193751,
+            "icon": "inv_leather_dragondungeon_c_01_helm"
           }
         ]
       },
@@ -2873,7 +3104,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Charged Sandstone Band",
-            "id": 158366
+            "id": 158366,
+            "icon": "inv_ring_80_03d"
           },
           {
             "droppedBy": "Merektha",
@@ -2882,7 +3114,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Jade Ophidian Band",
-            "id": 162544
+            "id": 162544,
+            "icon": "inv_ring_80_04c"
           }
         ],
         "6": [
@@ -2893,7 +3126,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Grips of Electrified Defense",
-            "id": 159337
+            "id": 159337,
+            "icon": "inv_glove_leather_zandalardungeon_c_01"
           }
         ],
         "7": [
@@ -2904,7 +3138,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Whirling Dervish Sash",
-            "id": 159317
+            "id": 159317,
+            "icon": "inv_belt_leather_zandalardungeon_c_01"
           }
         ],
         "8": [
@@ -2915,7 +3150,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Leggings of the Galeforce Viper",
-            "id": 159329
+            "id": 159329,
+            "icon": "inv_pant_leather_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -2926,7 +3162,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sand-Shined Snakeskin Sandals",
-            "id": 159327
+            "id": 159327,
+            "icon": "inv_boot_leather_zandalardungeon_c_01"
           }
         ],
         "10": [
@@ -2941,7 +3178,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Mace",
-            "droppedBy": "Galvazzt"
+            "droppedBy": "Galvazzt",
+            "icon": "inv_mace_1h_pandaraid_d_01"
           },
           {
             "id": 159636,
@@ -2954,7 +3192,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": null
+            "droppedBy": null,
+            "icon": "inv_staff_2h_battledungeon_c_04"
           }
         ],
         "0": [
@@ -2965,7 +3204,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Hood of the Slithering Loa",
-            "id": 239033
+            "id": 239033,
+            "icon": "inv_helm_leather_zandalardungeon_c_01"
           }
         ]
       },
@@ -2978,7 +3218,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Strand of Warding Fangs",
-            "id": 273781
+            "id": 273781,
+            "icon": "inv_121_jewelry_neck03_teal"
           }
         ],
         "13": [
@@ -2986,7 +3227,8 @@ window.LOOT_DATA = {
             "droppedBy": "Rav'i",
             "stats": [],
             "name": "Vile Vial of Volatile Venom",
-            "id": 273796
+            "id": 273796,
+            "icon": "inv_121_trinket_dungeon_ulatek_vile"
           }
         ],
         "11": [
@@ -3001,7 +3243,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "The Writhing Coil"
+            "droppedBy": "The Writhing Coil",
+            "icon": "inv_offhand_1h_outdooramaniloa_c_01"
           }
         ],
         "12": [
@@ -3012,7 +3255,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Band of the Amani Warlord",
-            "id": 273792
+            "id": 273792,
+            "icon": "inv_121_jewelry_ring02_green"
           }
         ],
         "2": [
@@ -3023,7 +3267,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Snakeskin Spaulders",
-            "id": 273774
+            "id": 273774,
+            "icon": "inv_shoulder_leather_outdooramaniloa_c_01"
           }
         ],
         "10": [
@@ -3038,7 +3283,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Dagger",
-            "droppedBy": "Zul'jan"
+            "droppedBy": "Zul'jan",
+            "icon": "inv_knife_1h_zuljin_d_01"
           }
         ],
         "0": [
@@ -3049,7 +3295,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Spare Speaker's Hood",
-            "id": 273791
+            "id": 273791,
+            "icon": "inv_helm_leather_outdooramaniloa_c_01"
           }
         ]
       },
@@ -3066,7 +3313,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": "Kystia Manaheart"
+            "droppedBy": "Kystia Manaheart",
+            "icon": "inv_staff_2h_dungeonharronir_c_02"
           },
           {
             "id": 258045,
@@ -3076,7 +3324,8 @@ window.LOOT_DATA = {
             "stats": [],
             "hand": "1h",
             "weaponClass": "Warglaive",
-            "droppedBy": "Lithiel Cinderfury"
+            "droppedBy": "Lithiel Cinderfury",
+            "icon": "inv_glaive_1h_questbloodelf_b_01"
           }
         ],
         "6": [
@@ -3087,7 +3336,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Gauntlets of Fevered Defense",
-            "id": 251124
+            "id": 251124,
+            "icon": "inv_glove_leather_dungeonharronir_c_01"
           }
         ],
         "3": [
@@ -3098,7 +3348,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Speakeasy Shroud",
-            "id": 251132
+            "id": 251132,
+            "icon": "inv_cape_leather_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -3106,13 +3357,15 @@ window.LOOT_DATA = {
             "droppedBy": "Zaen Bladesorrow",
             "stats": [],
             "name": "Freightrunner's Flask",
-            "id": 250215
+            "id": 250215,
+            "icon": "inv_alchemy_90_flask_red"
           },
           {
             "droppedBy": "Lithiel Cinderfury",
             "stats": [],
             "name": "Unstable Felheart Crystal",
-            "id": 250255
+            "id": 250255,
+            "icon": "tooltip_crystallizedfel"
           }
         ],
         "5": [
@@ -3123,7 +3376,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Fury-fletched Armlets",
-            "id": 251135
+            "id": 251135,
+            "icon": "inv_bracer_leather_dungeonharronir_c_01"
           }
         ],
         "8": [
@@ -3134,7 +3388,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Breeches of Deft Deals",
-            "id": 251130
+            "id": 251130,
+            "icon": "inv_pant_leather_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -3145,7 +3400,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Signet of Snarling Servitude",
-            "id": 251136
+            "id": 251136,
+            "icon": "inv_12_jewelry_voidelf_ring_teal"
           }
         ],
         "1": [
@@ -3156,7 +3412,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Pendant of Malefic Fury",
-            "id": 251142
+            "id": 251142,
+            "icon": "inv_12_jewelry_silvermoonelf_necklace_green"
           }
         ],
         "0": [
@@ -3167,7 +3424,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Vilefiend's Guise",
-            "id": 251140
+            "id": 251140,
+            "icon": "inv_helm_leather_dungeonharronir_c_01"
           }
         ]
       },
@@ -3184,7 +3442,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": "Nalorakk"
+            "droppedBy": "Nalorakk",
+            "icon": "inv_staff_2h_amani_c_01"
           }
         ],
         "4": [
@@ -3195,7 +3454,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "War Trial Vestments",
-            "id": 251159
+            "id": 251159,
+            "icon": "inv_chest_leather_dungeonharronir_c_01"
           }
         ],
         "11": [
@@ -3210,7 +3470,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "Sentinel of Winter"
+            "droppedBy": "Sentinel of Winter",
+            "icon": "inv_offhand_1h_dungeonharronir_c_01"
           }
         ],
         "9": [
@@ -3221,7 +3482,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Arctic Explorer's Legwraps",
-            "id": 251153
+            "id": 251153,
+            "icon": "inv_boot_leather_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -3229,7 +3491,8 @@ window.LOOT_DATA = {
             "droppedBy": "The Hoardmonger",
             "stats": [],
             "name": "Mycolic Medicine",
-            "id": 250248
+            "id": 250248,
+            "icon": "inv_misc_starspecklemushroom"
           }
         ],
         "12": [
@@ -3240,7 +3503,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Pilfered Precious Band",
-            "id": 251148
+            "id": 251148,
+            "icon": "inv_12_jewelry_zulaman_troll_ring_green2"
           }
         ],
         "2": [
@@ -3251,7 +3515,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Scavenger's Spaulders",
-            "id": 251146
+            "id": 251146,
+            "icon": "inv_shoulder_leather_dungeonharronir_c_01"
           }
         ],
         "1": [
@@ -3262,7 +3527,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Yoke of the Charging Bear",
-            "id": 251173
+            "id": 251173,
+            "icon": "inv_12_jewelry_zulaman_troll_necklace_green1"
           }
         ]
       }
@@ -3277,7 +3543,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Graft of the Domanaar",
-            "id": 251234
+            "id": 251234,
+            "icon": "inv_12_jewelry_devouringhost_necklace_silver2"
           }
         ],
         "7": [
@@ -3288,7 +3555,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Gravitic Girdle",
-            "id": 251235
+            "id": 251235,
+            "icon": "inv_belt_leather_dungeonharronir_c_01"
           }
         ],
         "4": [
@@ -3299,7 +3567,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Hide of Pestilence",
-            "id": 251226
+            "id": 251226,
+            "icon": "inv_chest_leather_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -3307,13 +3576,15 @@ window.LOOT_DATA = {
             "droppedBy": "Taz'Rah",
             "stats": [],
             "name": "Void Execution Mandate",
-            "id": 250225
+            "id": 250225,
+            "icon": "inv_inscription_80_warscroll_intellect"
           },
           {
             "droppedBy": "Atroxus",
             "stats": [],
             "name": "Tumor of the Swarm",
-            "id": 250245
+            "id": 250245,
+            "icon": "ability_pet_baneling"
           }
         ],
         "12": [
@@ -3324,7 +3595,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sickening Signet of Atroxus",
-            "id": 252258
+            "id": 252258,
+            "icon": "inv_12_jewelry_devouringhost_ring_bronze2"
           }
         ],
         "2": [
@@ -3335,7 +3607,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Somber Spaulders",
-            "id": 251223
+            "id": 251223,
+            "icon": "inv_shoulder_leather_dungeonharronir_c_01"
           }
         ]
       },
@@ -3352,7 +3625,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": "Lightwarden Ruia"
+            "droppedBy": "Lightwarden Ruia",
+            "icon": "inv_staff_2h_dungeonharronir_c_01"
           }
         ],
         "7": [
@@ -3363,7 +3637,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Rootwalker Harness",
-            "id": 251189
+            "id": 251189,
+            "icon": "inv_belt_leather_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -3373,13 +3648,15 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Lightspire Core",
-            "id": 250214
+            "id": 250214,
+            "icon": "inv_enchant_essenceastrallarge"
           },
           {
             "droppedBy": "Ziekket",
             "stats": [],
             "name": "Sapling of the Dawnroot",
-            "id": 250259
+            "id": 250259,
+            "icon": "inv_misc_herb_nightmarevine"
           }
         ],
         "5": [
@@ -3390,7 +3667,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Rootwarden Wraps",
-            "id": 251183
+            "id": 251183,
+            "icon": "inv_bracer_leather_dungeonharronir_c_01"
           }
         ],
         "8": [
@@ -3401,7 +3679,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Lightspore Leggings",
-            "id": 251198
+            "id": 251198,
+            "icon": "inv_pant_leather_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -3412,7 +3691,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Lightwarden's Bind",
-            "id": 251194
+            "id": 251194,
+            "icon": "inv12_jewelrytrinkets_rutaani_ring_yellow"
           }
         ],
         "3": [
@@ -3423,7 +3703,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Bloodthorn Burnous",
-            "id": 251190
+            "id": 251190,
+            "icon": "inv_cape_mail_dungeonharronir_c_01"
           }
         ]
       },
@@ -3436,7 +3717,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Ritual Binder's Ring",
-            "id": 159459
+            "id": 159459,
+            "icon": "inv_ring_80_03e"
           }
         ],
         "6": [
@@ -3447,7 +3729,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Desiccator's Blessed Gloves",
-            "id": 159312
+            "id": 159312,
+            "icon": "inv_glove_leather_zandalardungeon_c_01"
           }
         ],
         "7": [
@@ -3458,7 +3741,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Primal Dinomancer's Belt",
-            "id": 159301
+            "id": 159301,
+            "icon": "inv_belt_leather_zandalardungeon_c_01"
           }
         ],
         "4": [
@@ -3469,7 +3753,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Vest of Reverent Adoration",
-            "id": 239048
+            "id": 239048,
+            "icon": "inv_chest_leather_zandalardungeon_c_01"
           }
         ],
         "5": [
@@ -3480,7 +3765,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Kula's Butchering Wristwraps",
-            "id": 159300
+            "id": 159300,
+            "icon": "inv_bracer_leather_zandalardungeon_c_01"
           }
         ],
         "8": [
@@ -3491,7 +3777,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Breeches of the Sacred Hall",
-            "id": 159313
+            "id": 159313,
+            "icon": "inv_pant_leather_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -3502,7 +3789,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Goldfeather Boots",
-            "id": 159304
+            "id": 159304,
+            "icon": "inv_boot_leather_zandalardungeon_c_01"
           }
         ],
         "13": [
@@ -3510,13 +3798,15 @@ window.LOOT_DATA = {
             "droppedBy": "The Golden Serpent",
             "stats": [],
             "name": "Lustrous Golden Plumage",
-            "id": 159617
+            "id": 159617,
+            "icon": "inv_icon_feather06a"
           },
           {
             "droppedBy": "Mchimba the Embalmer",
             "stats": [],
             "name": "Mchimba's Ritual Bandages",
-            "id": 159618
+            "id": 159618,
+            "icon": "inv_misc_emberweavebandagelight"
           }
         ],
         "3": [
@@ -3527,7 +3817,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Cloak of the Restless Tribes",
-            "id": 159288
+            "id": 159288,
+            "icon": "inv_cape_mail_zandalardungeon_c_01"
           }
         ],
         "10": [
@@ -3542,7 +3833,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Polearm",
-            "droppedBy": "Mchimba the Embalmer"
+            "droppedBy": "Mchimba the Embalmer",
+            "icon": "inv_polearm_2h_zandalariguard_b_01"
           }
         ]
       },
@@ -3555,7 +3847,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Fireproof Drape",
-            "id": 193763
+            "id": 193763,
+            "icon": "inv_mail_dragondungeon_c_01_cape"
           }
         ],
         "0": [
@@ -3566,7 +3859,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Crown of Roaring Storms",
-            "id": 193751
+            "id": 193751,
+            "icon": "inv_leather_dragondungeon_c_01_helm"
           }
         ],
         "13": [
@@ -3574,7 +3868,8 @@ window.LOOT_DATA = {
             "droppedBy": "Melidrussa Chillworn",
             "stats": [],
             "name": "Ruby Whelp Shell",
-            "id": 193757
+            "id": 193757,
+            "icon": "inv_item_dragonegg_redbroken01"
           }
         ],
         "6": [
@@ -3585,7 +3880,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Subjugator's Chilling Grips",
-            "id": 193758
+            "id": 193758,
+            "icon": "inv_leather_dragondungeon_c_01_glove"
           }
         ],
         "4": [
@@ -3596,7 +3892,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Invader's Firestorm Chestguard",
-            "id": 193764
+            "id": 193764,
+            "icon": "inv_leather_dragondungeon_c_01_chest"
           }
         ]
       },
@@ -3609,7 +3906,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Charged Sandstone Band",
-            "id": 158366
+            "id": 158366,
+            "icon": "inv_ring_80_03d"
           },
           {
             "droppedBy": "Merektha",
@@ -3618,7 +3916,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Jade Ophidian Band",
-            "id": 162544
+            "id": 162544,
+            "icon": "inv_ring_80_04c"
           }
         ],
         "6": [
@@ -3629,7 +3928,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Grips of Electrified Defense",
-            "id": 159337
+            "id": 159337,
+            "icon": "inv_glove_leather_zandalardungeon_c_01"
           }
         ],
         "7": [
@@ -3640,7 +3940,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Whirling Dervish Sash",
-            "id": 159317
+            "id": 159317,
+            "icon": "inv_belt_leather_zandalardungeon_c_01"
           }
         ],
         "8": [
@@ -3651,7 +3952,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Leggings of the Galeforce Viper",
-            "id": 159329
+            "id": 159329,
+            "icon": "inv_pant_leather_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -3662,7 +3964,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sand-Shined Snakeskin Sandals",
-            "id": 159327
+            "id": 159327,
+            "icon": "inv_boot_leather_zandalardungeon_c_01"
           }
         ],
         "10": [
@@ -3677,7 +3980,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Polearm",
-            "droppedBy": null
+            "droppedBy": null,
+            "icon": "inv_polearm_2h_snakeman_c_01"
           }
         ],
         "0": [
@@ -3688,7 +3992,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Hood of the Slithering Loa",
-            "id": 239033
+            "id": 239033,
+            "icon": "inv_helm_leather_zandalardungeon_c_01"
           }
         ]
       },
@@ -3701,7 +4006,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Band of the Amani Warlord",
-            "id": 273792
+            "id": 273792,
+            "icon": "inv_121_jewelry_ring02_green"
           }
         ],
         "13": [
@@ -3709,7 +4015,8 @@ window.LOOT_DATA = {
             "droppedBy": "Rav'i",
             "stats": [],
             "name": "Vile Vial of Volatile Venom",
-            "id": 273796
+            "id": 273796,
+            "icon": "inv_121_trinket_dungeon_ulatek_vile"
           }
         ],
         "10": [
@@ -3724,7 +4031,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": "The Writhing Coil"
+            "droppedBy": "The Writhing Coil",
+            "icon": "inv_staff_2h_outdooramaniloa_c_01"
           }
         ],
         "2": [
@@ -3735,7 +4043,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Snakeskin Spaulders",
-            "id": 273774
+            "id": 273774,
+            "icon": "inv_shoulder_leather_outdooramaniloa_c_01"
           }
         ],
         "1": [
@@ -3746,7 +4055,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Strand of Warding Fangs",
-            "id": 273781
+            "id": 273781,
+            "icon": "inv_121_jewelry_neck03_teal"
           }
         ],
         "0": [
@@ -3757,7 +4067,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Spare Speaker's Hood",
-            "id": 273791
+            "id": 273791,
+            "icon": "inv_helm_leather_outdooramaniloa_c_01"
           }
         ]
       },
@@ -3770,7 +4081,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Signet of Snarling Servitude",
-            "id": 251136
+            "id": 251136,
+            "icon": "inv_12_jewelry_voidelf_ring_teal"
           }
         ],
         "6": [
@@ -3781,7 +4093,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Gauntlets of Fevered Defense",
-            "id": 251124
+            "id": 251124,
+            "icon": "inv_glove_leather_dungeonharronir_c_01"
           }
         ],
         "3": [
@@ -3792,7 +4105,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Speakeasy Shroud",
-            "id": 251132
+            "id": 251132,
+            "icon": "inv_cape_leather_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -3800,19 +4114,22 @@ window.LOOT_DATA = {
             "droppedBy": "Zaen Bladesorrow",
             "stats": [],
             "name": "Freightrunner's Flask",
-            "id": 250215
+            "id": 250215,
+            "icon": "inv_alchemy_90_flask_red"
           },
           {
             "droppedBy": "Xathuux the Annihilator",
             "stats": [],
             "name": "Resonant Bellowstone",
-            "id": 250228
+            "id": 250228,
+            "icon": "inv_alchemy_90_stone_green"
           },
           {
             "droppedBy": "Kystia Manaheart",
             "stats": [],
             "name": "Manaheart's Binding Flame",
-            "id": 250243
+            "id": 250243,
+            "icon": "inv_ember_fel"
           }
         ],
         "5": [
@@ -3823,7 +4140,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Fury-fletched Armlets",
-            "id": 251135
+            "id": 251135,
+            "icon": "inv_bracer_leather_dungeonharronir_c_01"
           }
         ],
         "8": [
@@ -3834,7 +4152,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Breeches of Deft Deals",
-            "id": 251130
+            "id": 251130,
+            "icon": "inv_pant_leather_dungeonharronir_c_01"
           }
         ],
         "1": [
@@ -3845,7 +4164,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Pendant of Malefic Fury",
-            "id": 251142
+            "id": 251142,
+            "icon": "inv_12_jewelry_silvermoonelf_necklace_green"
           }
         ],
         "10": [
@@ -3857,7 +4177,8 @@ window.LOOT_DATA = {
             "stats": [],
             "hand": "1h",
             "weaponClass": "Warglaive",
-            "droppedBy": "Lithiel Cinderfury"
+            "droppedBy": "Lithiel Cinderfury",
+            "icon": "inv_glaive_1h_questbloodelf_b_01"
           }
         ],
         "0": [
@@ -3868,7 +4189,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Vilefiend's Guise",
-            "id": 251140
+            "id": 251140,
+            "icon": "inv_helm_leather_dungeonharronir_c_01"
           }
         ]
       },
@@ -3885,7 +4207,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Polearm",
-            "droppedBy": "Sentinel of Winter"
+            "droppedBy": "Sentinel of Winter",
+            "icon": "inv_polearm_2h_dungeonharronir_c_01"
           }
         ],
         "4": [
@@ -3896,7 +4219,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "War Trial Vestments",
-            "id": 251159
+            "id": 251159,
+            "icon": "inv_chest_leather_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -3904,7 +4228,8 @@ window.LOOT_DATA = {
             "droppedBy": "Sentinel of Winter",
             "stats": [],
             "name": "Permafrost Essence",
-            "id": 250244
+            "id": 250244,
+            "icon": "inv12_jewelrytrinkets_dungeon_permafrostreservoir"
           }
         ],
         "9": [
@@ -3915,7 +4240,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Arctic Explorer's Legwraps",
-            "id": 251153
+            "id": 251153,
+            "icon": "inv_boot_leather_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -3926,7 +4252,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Pilfered Precious Band",
-            "id": 251148
+            "id": 251148,
+            "icon": "inv_12_jewelry_zulaman_troll_ring_green2"
           }
         ],
         "2": [
@@ -3937,7 +4264,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Scavenger's Spaulders",
-            "id": 251146
+            "id": 251146,
+            "icon": "inv_shoulder_leather_dungeonharronir_c_01"
           }
         ],
         "1": [
@@ -3948,7 +4276,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Yoke of the Charging Bear",
-            "id": 251173
+            "id": 251173,
+            "icon": "inv_12_jewelry_zulaman_troll_necklace_green1"
           }
         ]
       }
@@ -3967,7 +4296,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Polearm",
-            "droppedBy": "Charonus"
+            "droppedBy": "Charonus",
+            "icon": "inv_polearm_2h_domanaar_b_01"
           }
         ],
         "0": [
@@ -3978,7 +4308,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Visor of the Predator",
-            "id": 251229
+            "id": 251229,
+            "icon": "inv_helm_armor_domanaar_d_01"
           }
         ],
         "1": [
@@ -3989,7 +4320,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Graft of the Domanaar",
-            "id": 251234
+            "id": 251234,
+            "icon": "inv_12_jewelry_devouringhost_necklace_silver2"
           }
         ],
         "6": [
@@ -4000,7 +4332,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Despondent's Gauntlets",
-            "id": 251221
+            "id": 251221,
+            "icon": "inv_glove_plate_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -4011,7 +4344,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sickening Signet of Atroxus",
-            "id": 252258
+            "id": 252258,
+            "icon": "inv_12_jewelry_devouringhost_ring_bronze2"
           }
         ]
       },
@@ -4028,7 +4362,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Polearm",
-            "droppedBy": "Meittik"
+            "droppedBy": "Meittik",
+            "icon": "inv_polearm_2h_rutaani_b_01"
           }
         ],
         "6": [
@@ -4039,7 +4374,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Thornspike Gauntlets",
-            "id": 251197
+            "id": 251197,
+            "icon": "inv_glove_plate_dungeonharronir_c_01"
           }
         ],
         "4": [
@@ -4050,7 +4386,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Taproot Ribs",
-            "id": 251193
+            "id": 251193,
+            "icon": "inv_chest_plate_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -4058,13 +4395,15 @@ window.LOOT_DATA = {
             "droppedBy": "Ikuzz the Light Hunter",
             "stats": [],
             "name": "Seed of the Devouring Wild",
-            "id": 250238
+            "id": 250238,
+            "icon": "inv12_jewelrytrinkets_dungeon_seedofthedevouringwild"
           },
           {
             "droppedBy": "Ziekket",
             "stats": [],
             "name": "Sapling of the Dawnroot",
-            "id": 250259
+            "id": 250259,
+            "icon": "inv_misc_herb_nightmarevine"
           }
         ],
         "8": [
@@ -4075,7 +4414,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Bedrock Breeches",
-            "id": 251182
+            "id": 251182,
+            "icon": "inv_pant_plate_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -4086,7 +4426,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Lightwarden's Bind",
-            "id": 251194
+            "id": 251194,
+            "icon": "inv12_jewelrytrinkets_rutaani_ring_yellow"
           }
         ],
         "3": [
@@ -4097,7 +4438,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Bloodthorn Burnous",
-            "id": 251190
+            "id": 251190,
+            "icon": "inv_cape_mail_dungeonharronir_c_01"
           }
         ]
       },
@@ -4110,7 +4452,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Ritual Binder's Ring",
-            "id": 159459
+            "id": 159459,
+            "icon": "inv_ring_80_03e"
           }
         ],
         "6": [
@@ -4121,7 +4464,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Gauntlets of the Avian Sentinel",
-            "id": 159413
+            "id": 159413,
+            "icon": "inv_glove_plate_zandalardungeon_c_01"
           }
         ],
         "7": [
@@ -4132,7 +4476,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Girdle of Pestilent Purification",
-            "id": 159418
+            "id": 159418,
+            "icon": "inv_belt_plate_zandalardungeon_c_01"
           }
         ],
         "3": [
@@ -4143,7 +4488,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Cloak of the Restless Tribes",
-            "id": 159288
+            "id": 159288,
+            "icon": "inv_cape_mail_zandalardungeon_c_01"
           }
         ],
         "5": [
@@ -4154,7 +4500,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Embalmer's Steadying Bracers",
-            "id": 159409
+            "id": 159409,
+            "icon": "inv_bracer_plate_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -4165,7 +4512,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Auric Puddle Stompers",
-            "id": 159412
+            "id": 159412,
+            "icon": "inv_boot_plate_zandalardungeon_c_01"
           }
         ],
         "2": [
@@ -4176,7 +4524,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Pauldrons of the Great Unifier",
-            "id": 239051
+            "id": 239051,
+            "icon": "inv_shoulder_plate_zandalardungeon_c_01"
           }
         ],
         "10": [
@@ -4188,7 +4537,8 @@ window.LOOT_DATA = {
             "stats": [],
             "hand": "2h",
             "weaponClass": "Sword",
-            "droppedBy": "King Dazar"
+            "droppedBy": "King Dazar",
+            "icon": "inv_sword_2h_battledungeon_c_01"
           }
         ],
         "0": [
@@ -4199,7 +4549,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Helm of the Raptor King",
-            "id": 239050
+            "id": 239050,
+            "icon": "inv_helm_plate_zandalardungeon_c_01"
           }
         ]
       },
@@ -4216,7 +4567,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Axe",
-            "droppedBy": null
+            "droppedBy": null,
+            "icon": "inv_axe_2h_drakonoid_c_01"
           }
         ],
         "9": [
@@ -4227,7 +4579,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Scaleguard's Stalwart Greatboots",
-            "id": 193728
+            "id": 193728,
+            "icon": "inv_plate_dragondungeon_c_01_boot"
           }
         ],
         "3": [
@@ -4238,7 +4591,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Fireproof Drape",
-            "id": 193763
+            "id": 193763,
+            "icon": "inv_mail_dragondungeon_c_01_cape"
           }
         ],
         "4": [
@@ -4249,7 +4603,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Breastplate of Soaring Terror",
-            "id": 193753
+            "id": 193753,
+            "icon": "inv_plate_dragondungeon_c_01_chest"
           }
         ],
         "13": [
@@ -4257,7 +4612,8 @@ window.LOOT_DATA = {
             "droppedBy": "Melidrussa Chillworn",
             "stats": [],
             "name": "Ruby Whelp Shell",
-            "id": 193757
+            "id": 193757,
+            "icon": "inv_item_dragonegg_redbroken01"
           },
           {
             "droppedBy": "Kokia Blazehoof",
@@ -4265,7 +4621,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Blazebinder's Hoof",
-            "id": 193762
+            "id": 193762,
+            "icon": "inv_10_dungeonjewelry_primalist_trinket_2_fire"
           }
         ]
       },
@@ -4278,7 +4635,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Charged Sandstone Band",
-            "id": 158366
+            "id": 158366,
+            "icon": "inv_ring_80_03d"
           },
           {
             "droppedBy": "Merektha",
@@ -4287,7 +4645,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Jade Ophidian Band",
-            "id": 162544
+            "id": 162544,
+            "icon": "inv_ring_80_04c"
           }
         ],
         "7": [
@@ -4298,7 +4657,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Sand-Scoured Greatbelt",
-            "id": 159442
+            "id": 159442,
+            "icon": "inv_belt_plate_zandalardungeon_c_01"
           }
         ],
         "4": [
@@ -4309,7 +4669,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Desert Guardian's Breastplate",
-            "id": 239036
+            "id": 239036,
+            "icon": "inv_chest_plate_zandalardungeon_c_01"
           }
         ],
         "13": [
@@ -4317,7 +4678,8 @@ window.LOOT_DATA = {
             "droppedBy": "Merektha",
             "stats": [],
             "name": "Merektha's Fang",
-            "id": 158367
+            "id": 158367,
+            "icon": "inv_misc_food_87_sporelingsnack"
           }
         ],
         "5": [
@@ -4328,7 +4690,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Shard-Tipped Vambraces",
-            "id": 159425
+            "id": 159425,
+            "icon": "inv_bracer_plate_zandalardungeon_c_01"
           }
         ],
         "8": [
@@ -4339,7 +4702,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Legplates of Charged Duality",
-            "id": 159435
+            "id": 159435,
+            "icon": "inv_pant_plate_zandalardungeon_c_01"
           }
         ],
         "2": [
@@ -4350,7 +4714,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "C'thraxxi Binders Pauldrons",
-            "id": 239037
+            "id": 239037,
+            "icon": "inv_shoulder_plate_zandalardungeon_c_01"
           }
         ]
       },
@@ -4367,7 +4732,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Polearm",
-            "droppedBy": "The Writhing Coil"
+            "droppedBy": "The Writhing Coil",
+            "icon": "inv_polearm_2h_outdooramaniloa_c_01"
           }
         ],
         "4": [
@@ -4378,7 +4744,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Aged Interwoven Scaleplate",
-            "id": 273787
+            "id": 273787,
+            "icon": "inv_chest_plate_outdooramaniloa_c_01"
           }
         ],
         "13": [
@@ -4386,19 +4753,22 @@ window.LOOT_DATA = {
             "droppedBy": "Rav'i",
             "stats": [],
             "name": "Coiled Fangstone",
-            "id": 273795
+            "id": 273795,
+            "icon": "inv_121_trinket_dungeon_ulatek_fangstone"
           },
           {
             "droppedBy": "Rav'i",
             "stats": [],
             "name": "Vile Vial of Volatile Venom",
-            "id": 273796
+            "id": 273796,
+            "icon": "inv_121_trinket_dungeon_ulatek_vile"
           },
           {
             "droppedBy": "Zul'jan",
             "stats": [],
             "name": "Tattered Amani War Banner",
-            "id": 273797
+            "id": 273797,
+            "icon": "inv_121_trinket_dungeon_ulatek_banner"
           }
         ],
         "8": [
@@ -4409,7 +4779,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Ancient General's Obsidian Pillars",
-            "id": 273776
+            "id": 273776,
+            "icon": "inv_pant_plate_outdooramaniloa_c_01"
           }
         ],
         "9": [
@@ -4420,7 +4791,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Poison-Proof Stompers",
-            "id": 273777
+            "id": 273777,
+            "icon": "inv_boot_plate_outdooramaniloa_c_01"
           }
         ],
         "12": [
@@ -4431,7 +4803,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Band of the Amani Warlord",
-            "id": 273792
+            "id": 273792,
+            "icon": "inv_121_jewelry_ring02_green"
           }
         ],
         "1": [
@@ -4442,7 +4815,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Strand of Warding Fangs",
-            "id": 273781
+            "id": 273781,
+            "icon": "inv_121_jewelry_neck03_teal"
           }
         ]
       },
@@ -4455,7 +4829,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Pendant of Malefic Fury",
-            "id": 251142
+            "id": 251142,
+            "icon": "inv_12_jewelry_silvermoonelf_necklace_green"
           }
         ],
         "3": [
@@ -4466,7 +4841,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Speakeasy Shroud",
-            "id": 251132
+            "id": 251132,
+            "icon": "inv_cape_leather_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -4474,7 +4850,8 @@ window.LOOT_DATA = {
             "droppedBy": "Xathuux the Annihilator",
             "stats": [],
             "name": "Resonant Bellowstone",
-            "id": 250228
+            "id": 250228,
+            "icon": "inv_alchemy_90_stone_green"
           }
         ],
         "5": [
@@ -4485,7 +4862,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Overseer's Vambraces",
-            "id": 251133
+            "id": 251133,
+            "icon": "inv_bracer_plate_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -4496,7 +4874,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Signet of Snarling Servitude",
-            "id": 251136
+            "id": 251136,
+            "icon": "inv_12_jewelry_voidelf_ring_teal"
           }
         ],
         "2": [
@@ -4507,7 +4886,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Cinderfury Shoulderguards",
-            "id": 251138
+            "id": 251138,
+            "icon": "inv_shoulder_plate_dungeonharronir_c_01"
           }
         ],
         "10": [
@@ -4522,7 +4902,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Axe",
-            "droppedBy": "Xathuux the Annihilator"
+            "droppedBy": "Xathuux the Annihilator",
+            "icon": "inv_axe_2h_dungeonharronir_c_01"
           },
           {
             "id": 258045,
@@ -4532,7 +4913,8 @@ window.LOOT_DATA = {
             "stats": [],
             "hand": "1h",
             "weaponClass": "Warglaive",
-            "droppedBy": "Lithiel Cinderfury"
+            "droppedBy": "Lithiel Cinderfury",
+            "icon": "inv_glaive_1h_questbloodelf_b_01"
           }
         ],
         "0": [
@@ -4543,7 +4925,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Greathelm of Temptation",
-            "id": 251126
+            "id": 251126,
+            "icon": "inv_helm_plate_dungeonharronir_c_01"
           }
         ]
       },
@@ -4556,7 +4939,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Yoke of the Charging Bear",
-            "id": 251173
+            "id": 251173,
+            "icon": "inv_12_jewelry_zulaman_troll_necklace_green1"
           }
         ],
         "6": [
@@ -4567,7 +4951,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Bonds of the Hash'ura",
-            "id": 251214
+            "id": 251214,
+            "icon": "inv_glove_plate_dungeonharronir_c_01"
           }
         ],
         "7": [
@@ -4578,7 +4963,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Autumn's Boon Belt",
-            "id": 251144
+            "id": 251144,
+            "icon": "inv_belt_plate_dungeonharronir_c_01"
           }
         ],
         "4": [
@@ -4589,7 +4975,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sentinel Challenger's Prize",
-            "id": 251151
+            "id": 251151,
+            "icon": "inv_chest_plate_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -4599,7 +4986,8 @@ window.LOOT_DATA = {
               "Crit"
             ],
             "name": "Idol of the War Loa",
-            "id": 250229
+            "id": 250229,
+            "icon": "inv12_jewelrytrinkets_dungeon_idolofthewargod"
           }
         ],
         "12": [
@@ -4610,7 +4998,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Pilfered Precious Band",
-            "id": 251148
+            "id": 251148,
+            "icon": "inv_12_jewelry_zulaman_troll_ring_green2"
           }
         ]
       }
@@ -4625,7 +5014,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Graft of the Domanaar",
-            "id": 251234
+            "id": 251234,
+            "icon": "inv_12_jewelry_devouringhost_necklace_silver2"
           }
         ],
         "7": [
@@ -4636,7 +5026,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Gravitic Girdle",
-            "id": 251235
+            "id": 251235,
+            "icon": "inv_belt_leather_dungeonharronir_c_01"
           }
         ],
         "4": [
@@ -4647,7 +5038,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Hide of Pestilence",
-            "id": 251226
+            "id": 251226,
+            "icon": "inv_chest_leather_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -4655,7 +5047,8 @@ window.LOOT_DATA = {
             "droppedBy": "Charonus",
             "stats": [],
             "name": "Mindpiercer's Sigil",
-            "id": 250224
+            "id": 250224,
+            "icon": "inv_icon_shadowcouncilorb_purple"
           }
         ],
         "12": [
@@ -4666,7 +5059,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sickening Signet of Atroxus",
-            "id": 252258
+            "id": 252258,
+            "icon": "inv_12_jewelry_devouringhost_ring_bronze2"
           }
         ],
         "2": [
@@ -4677,7 +5071,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Somber Spaulders",
-            "id": 251223
+            "id": 251223,
+            "icon": "inv_shoulder_leather_dungeonharronir_c_01"
           }
         ],
         "10": [
@@ -4692,7 +5087,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Dagger",
-            "droppedBy": "Atroxus"
+            "droppedBy": "Atroxus",
+            "icon": "inv_knife_1h_dungeonharronir_c_02"
           },
           {
             "id": 251231,
@@ -4705,7 +5101,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Warglaive",
-            "droppedBy": "Charonus"
+            "droppedBy": "Charonus",
+            "icon": "inv_glaive_1h_dungeonharronir_c_01"
           }
         ]
       },
@@ -4718,7 +5115,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Lightwarden's Bind",
-            "id": 251194
+            "id": 251194,
+            "icon": "inv12_jewelrytrinkets_rutaani_ring_yellow"
           }
         ],
         "7": [
@@ -4729,7 +5127,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Rootwalker Harness",
-            "id": 251189
+            "id": 251189,
+            "icon": "inv_belt_leather_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -4739,13 +5138,15 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Lightspire Core",
-            "id": 250214
+            "id": 250214,
+            "icon": "inv_enchant_essenceastrallarge"
           },
           {
             "droppedBy": "Ziekket",
             "stats": [],
             "name": "Sapling of the Dawnroot",
-            "id": 250259
+            "id": 250259,
+            "icon": "inv_misc_herb_nightmarevine"
           }
         ],
         "5": [
@@ -4756,7 +5157,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Rootwarden Wraps",
-            "id": 251183
+            "id": 251183,
+            "icon": "inv_bracer_leather_dungeonharronir_c_01"
           }
         ],
         "8": [
@@ -4767,7 +5169,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Lightspore Leggings",
-            "id": 251198
+            "id": 251198,
+            "icon": "inv_pant_leather_dungeonharronir_c_01"
           }
         ],
         "3": [
@@ -4778,7 +5181,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Bloodthorn Burnous",
-            "id": 251190
+            "id": 251190,
+            "icon": "inv_cape_mail_dungeonharronir_c_01"
           }
         ]
       },
@@ -4795,7 +5199,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Dagger",
-            "droppedBy": "The Golden Serpent"
+            "droppedBy": "The Golden Serpent",
+            "icon": "inv_knife_1h_battledungeon_c_01"
           },
           {
             "id": 160216,
@@ -4808,7 +5213,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Sword",
-            "droppedBy": "Aka'ali the Conqueror"
+            "droppedBy": "Aka'ali the Conqueror",
+            "icon": "inv_sword_1h_battledungeon_c_02"
           }
         ],
         "6": [
@@ -4819,7 +5225,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Desiccator's Blessed Gloves",
-            "id": 159312
+            "id": 159312,
+            "icon": "inv_glove_leather_zandalardungeon_c_01"
           }
         ],
         "7": [
@@ -4830,7 +5237,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Primal Dinomancer's Belt",
-            "id": 159301
+            "id": 159301,
+            "icon": "inv_belt_leather_zandalardungeon_c_01"
           }
         ],
         "4": [
@@ -4841,7 +5249,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Vest of Reverent Adoration",
-            "id": 239048
+            "id": 239048,
+            "icon": "inv_chest_leather_zandalardungeon_c_01"
           }
         ],
         "5": [
@@ -4852,7 +5261,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Kula's Butchering Wristwraps",
-            "id": 159300
+            "id": 159300,
+            "icon": "inv_bracer_leather_zandalardungeon_c_01"
           }
         ],
         "8": [
@@ -4863,7 +5273,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Breeches of the Sacred Hall",
-            "id": 159313
+            "id": 159313,
+            "icon": "inv_pant_leather_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -4874,7 +5285,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Goldfeather Boots",
-            "id": 159304
+            "id": 159304,
+            "icon": "inv_boot_leather_zandalardungeon_c_01"
           }
         ],
         "13": [
@@ -4882,7 +5294,8 @@ window.LOOT_DATA = {
             "droppedBy": "King Dazar",
             "stats": [],
             "name": "Stormbound Emblem of Dazar",
-            "id": 273649
+            "id": 273649,
+            "icon": "inv_7_0raid_necklace_14a"
           }
         ],
         "12": [
@@ -4893,7 +5306,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Ritual Binder's Ring",
-            "id": 159459
+            "id": 159459,
+            "icon": "inv_ring_80_03e"
           }
         ],
         "3": [
@@ -4904,7 +5318,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Cloak of the Restless Tribes",
-            "id": 159288
+            "id": 159288,
+            "icon": "inv_cape_mail_zandalardungeon_c_01"
           }
         ]
       },
@@ -4917,7 +5332,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Fireproof Drape",
-            "id": 193763
+            "id": 193763,
+            "icon": "inv_mail_dragondungeon_c_01_cape"
           }
         ],
         "0": [
@@ -4928,7 +5344,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Crown of Roaring Storms",
-            "id": 193751
+            "id": 193751,
+            "icon": "inv_leather_dragondungeon_c_01_helm"
           }
         ],
         "13": [
@@ -4936,7 +5353,8 @@ window.LOOT_DATA = {
             "droppedBy": "Melidrussa Chillworn",
             "stats": [],
             "name": "Ruby Whelp Shell",
-            "id": 193757
+            "id": 193757,
+            "icon": "inv_item_dragonegg_redbroken01"
           }
         ],
         "6": [
@@ -4947,7 +5365,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Subjugator's Chilling Grips",
-            "id": 193758
+            "id": 193758,
+            "icon": "inv_leather_dragondungeon_c_01_glove"
           }
         ],
         "4": [
@@ -4958,7 +5377,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Invader's Firestorm Chestguard",
-            "id": 193764
+            "id": 193764,
+            "icon": "inv_leather_dragondungeon_c_01_chest"
           }
         ]
       },
@@ -4971,7 +5391,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Charged Sandstone Band",
-            "id": 158366
+            "id": 158366,
+            "icon": "inv_ring_80_03d"
           },
           {
             "droppedBy": "Merektha",
@@ -4980,7 +5401,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Jade Ophidian Band",
-            "id": 162544
+            "id": 162544,
+            "icon": "inv_ring_80_04c"
           }
         ],
         "6": [
@@ -4991,7 +5413,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Grips of Electrified Defense",
-            "id": 159337
+            "id": 159337,
+            "icon": "inv_glove_leather_zandalardungeon_c_01"
           }
         ],
         "7": [
@@ -5002,7 +5425,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Whirling Dervish Sash",
-            "id": 159317
+            "id": 159317,
+            "icon": "inv_belt_leather_zandalardungeon_c_01"
           }
         ],
         "13": [
@@ -5010,7 +5434,8 @@ window.LOOT_DATA = {
             "droppedBy": "Avatar of Sethraliss",
             "stats": [],
             "name": "Sethraliss' Defiled Relic",
-            "id": 158368
+            "id": 158368,
+            "icon": "inv_staff_2h_snakeman_c_01"
           }
         ],
         "8": [
@@ -5021,7 +5446,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Leggings of the Galeforce Viper",
-            "id": 159329
+            "id": 159329,
+            "icon": "inv_pant_leather_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -5032,7 +5458,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sand-Shined Snakeskin Sandals",
-            "id": 159327
+            "id": 159327,
+            "icon": "inv_boot_leather_zandalardungeon_c_01"
           }
         ],
         "0": [
@@ -5043,7 +5470,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Hood of the Slithering Loa",
-            "id": 239033
+            "id": 239033,
+            "icon": "inv_helm_leather_zandalardungeon_c_01"
           }
         ]
       },
@@ -5056,7 +5484,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Band of the Amani Warlord",
-            "id": 273792
+            "id": 273792,
+            "icon": "inv_121_jewelry_ring02_green"
           }
         ],
         "13": [
@@ -5064,13 +5493,15 @@ window.LOOT_DATA = {
             "droppedBy": "The Writhing Coil",
             "stats": [],
             "name": "Knot of Writhing Serpents",
-            "id": 273794
+            "id": 273794,
+            "icon": "inv_121_trinket_dungeon_ulatek_writhe"
           },
           {
             "droppedBy": "Rav'i",
             "stats": [],
             "name": "Vile Vial of Volatile Venom",
-            "id": 273796
+            "id": 273796,
+            "icon": "inv_121_trinket_dungeon_ulatek_vile"
           }
         ],
         "10": [
@@ -5085,7 +5516,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Dagger",
-            "droppedBy": "Zul'jan"
+            "droppedBy": "Zul'jan",
+            "icon": "inv_knife_1h_zuljin_d_01"
           },
           {
             "id": 273780,
@@ -5098,7 +5530,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Axe",
-            "droppedBy": "Rav'i"
+            "droppedBy": "Rav'i",
+            "icon": "inv_axe_1h_outdooramaniloa_c_01"
           },
           {
             "id": 273793,
@@ -5111,7 +5544,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Warglaive",
-            "droppedBy": "Rav'i"
+            "droppedBy": "Rav'i",
+            "icon": "inv_glaive_1h_outdooramaniloa_c_01"
           }
         ],
         "2": [
@@ -5122,7 +5556,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Snakeskin Spaulders",
-            "id": 273774
+            "id": 273774,
+            "icon": "inv_shoulder_leather_outdooramaniloa_c_01"
           }
         ],
         "1": [
@@ -5133,7 +5568,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Strand of Warding Fangs",
-            "id": 273781
+            "id": 273781,
+            "icon": "inv_121_jewelry_neck03_teal"
           }
         ],
         "0": [
@@ -5144,7 +5580,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Spare Speaker's Hood",
-            "id": 273791
+            "id": 273791,
+            "icon": "inv_helm_leather_outdooramaniloa_c_01"
           }
         ]
       },
@@ -5157,7 +5594,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Signet of Snarling Servitude",
-            "id": 251136
+            "id": 251136,
+            "icon": "inv_12_jewelry_voidelf_ring_teal"
           }
         ],
         "6": [
@@ -5168,7 +5606,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Gauntlets of Fevered Defense",
-            "id": 251124
+            "id": 251124,
+            "icon": "inv_glove_leather_dungeonharronir_c_01"
           }
         ],
         "3": [
@@ -5179,7 +5618,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Speakeasy Shroud",
-            "id": 251132
+            "id": 251132,
+            "icon": "inv_cape_leather_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -5187,7 +5627,8 @@ window.LOOT_DATA = {
             "droppedBy": "Zaen Bladesorrow",
             "stats": [],
             "name": "Freightrunner's Flask",
-            "id": 250215
+            "id": 250215,
+            "icon": "inv_alchemy_90_flask_red"
           }
         ],
         "5": [
@@ -5198,7 +5639,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Fury-fletched Armlets",
-            "id": 251135
+            "id": 251135,
+            "icon": "inv_bracer_leather_dungeonharronir_c_01"
           }
         ],
         "8": [
@@ -5209,7 +5651,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Breeches of Deft Deals",
-            "id": 251130
+            "id": 251130,
+            "icon": "inv_pant_leather_dungeonharronir_c_01"
           }
         ],
         "1": [
@@ -5220,7 +5663,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Pendant of Malefic Fury",
-            "id": 251142
+            "id": 251142,
+            "icon": "inv_12_jewelry_silvermoonelf_necklace_green"
           }
         ],
         "10": [
@@ -5232,7 +5676,8 @@ window.LOOT_DATA = {
             "stats": [],
             "hand": "1h",
             "weaponClass": "Warglaive",
-            "droppedBy": "Lithiel Cinderfury"
+            "droppedBy": "Lithiel Cinderfury",
+            "icon": "inv_glaive_1h_questbloodelf_b_01"
           }
         ],
         "0": [
@@ -5243,7 +5688,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Vilefiend's Guise",
-            "id": 251140
+            "id": 251140,
+            "icon": "inv_helm_leather_dungeonharronir_c_01"
           }
         ]
       },
@@ -5256,7 +5702,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Scavenger's Spaulders",
-            "id": 251146
+            "id": 251146,
+            "icon": "inv_shoulder_leather_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -5267,7 +5714,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Pilfered Precious Band",
-            "id": 251148
+            "id": 251148,
+            "icon": "inv_12_jewelry_zulaman_troll_ring_green2"
           }
         ],
         "9": [
@@ -5278,7 +5726,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Arctic Explorer's Legwraps",
-            "id": 251153
+            "id": 251153,
+            "icon": "inv_boot_leather_dungeonharronir_c_01"
           }
         ],
         "1": [
@@ -5289,7 +5738,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Yoke of the Charging Bear",
-            "id": 251173
+            "id": 251173,
+            "icon": "inv_12_jewelry_zulaman_troll_necklace_green1"
           }
         ],
         "4": [
@@ -5300,7 +5750,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "War Trial Vestments",
-            "id": 251159
+            "id": 251159,
+            "icon": "inv_chest_leather_dungeonharronir_c_01"
           }
         ]
       }
@@ -5319,7 +5770,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Dagger",
-            "droppedBy": "Atroxus"
+            "droppedBy": "Atroxus",
+            "icon": "inv_knife_1h_dungeonharronir_c_02"
           }
         ],
         "7": [
@@ -5330,7 +5782,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Ethereal Netherwrap",
-            "id": 251222
+            "id": 251222,
+            "icon": "inv_belt_cloth_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -5338,7 +5791,8 @@ window.LOOT_DATA = {
             "droppedBy": "Charonus",
             "stats": [],
             "name": "Mindpiercer's Sigil",
-            "id": 250224
+            "id": 250224,
+            "icon": "inv_icon_shadowcouncilorb_purple"
           }
         ],
         "9": [
@@ -5349,7 +5803,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Riftworn Stompers",
-            "id": 251219
+            "id": 251219,
+            "icon": "inv_boot_cloth_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -5360,7 +5815,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sickening Signet of Atroxus",
-            "id": 252258
+            "id": 252258,
+            "icon": "inv_12_jewelry_devouringhost_ring_bronze2"
           }
         ],
         "2": [
@@ -5371,7 +5827,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Poisoner's Pauldrons",
-            "id": 251227
+            "id": 251227,
+            "icon": "inv_shoulder_cloth_dungeonharronir_c_01"
           }
         ],
         "1": [
@@ -5382,7 +5839,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Graft of the Domanaar",
-            "id": 251234
+            "id": 251234,
+            "icon": "inv_12_jewelry_devouringhost_necklace_silver2"
           }
         ],
         "0": [
@@ -5393,7 +5851,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Overseer's Diadem",
-            "id": 251232
+            "id": 251232,
+            "icon": "inv_helm_cloth_dungeonharronir_c_01"
           }
         ]
       },
@@ -5410,7 +5869,8 @@ window.LOOT_DATA = {
             ],
             "hand": "ranged",
             "weaponClass": "Wand",
-            "droppedBy": "Ikuzz the Light Hunter"
+            "droppedBy": "Ikuzz the Light Hunter",
+            "icon": "inv_wand_1h_dungeonharronir_c_01"
           }
         ],
         "7": [
@@ -5421,7 +5881,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Lightblossom Cinch",
-            "id": 251185
+            "id": 251185,
+            "icon": "inv_belt_cloth_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -5431,13 +5892,15 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Lightspire Core",
-            "id": 250214
+            "id": 250214,
+            "icon": "inv_enchant_essenceastrallarge"
           },
           {
             "droppedBy": "Ziekket",
             "stats": [],
             "name": "Sapling of the Dawnroot",
-            "id": 250259
+            "id": 250259,
+            "icon": "inv_misc_herb_nightmarevine"
           }
         ],
         "11": [
@@ -5452,7 +5915,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "Lightwarden Ruia"
+            "droppedBy": "Lightwarden Ruia",
+            "icon": "inv_offhand_1h_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -5463,7 +5927,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Lightwarden's Bind",
-            "id": 251194
+            "id": 251194,
+            "icon": "inv12_jewelrytrinkets_rutaani_ring_yellow"
           }
         ],
         "3": [
@@ -5474,7 +5939,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Bloodthorn Burnous",
-            "id": 251190
+            "id": 251190,
+            "icon": "inv_cape_mail_dungeonharronir_c_01"
           }
         ],
         "0": [
@@ -5485,7 +5951,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Worldroot Canopy",
-            "id": 251199
+            "id": 251199,
+            "icon": "inv_helm_cloth_dungeonharronir_c_01"
           }
         ]
       },
@@ -5498,7 +5965,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Ritual Binder's Ring",
-            "id": 159459
+            "id": 159459,
+            "icon": "inv_ring_80_03e"
           }
         ],
         "3": [
@@ -5509,7 +5977,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Cloak of the Restless Tribes",
-            "id": 159288
+            "id": 159288,
+            "icon": "inv_cape_mail_zandalardungeon_c_01"
           }
         ],
         "11": [
@@ -5524,7 +5993,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "Mchimba the Embalmer"
+            "droppedBy": "Mchimba the Embalmer",
+            "icon": "inv_offhand_1h_battledungeon_c_02"
           }
         ],
         "8": [
@@ -5535,7 +6005,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Down-Lined Breeches",
-            "id": 159234
+            "id": 159234,
+            "icon": "inv_pant_cloth_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -5546,7 +6017,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Sandals of Wise Voodoo",
-            "id": 159243
+            "id": 159243,
+            "icon": "inv_boot_cloth_zandalardungeon_c_01"
           }
         ],
         "13": [
@@ -5554,7 +6026,8 @@ window.LOOT_DATA = {
             "droppedBy": "King Dazar",
             "stats": [],
             "name": "Stormbound Emblem of Dazar",
-            "id": 273649
+            "id": 273649,
+            "icon": "inv_7_0raid_necklace_14a"
           }
         ],
         "2": [
@@ -5565,7 +6038,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Mantle of Ceremonial Ascension",
-            "id": 239045
+            "id": 239045,
+            "icon": "inv_shoulder_cloth_zandalardungeon_c_01"
           }
         ],
         "10": [
@@ -5580,7 +6054,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Dagger",
-            "droppedBy": "The Golden Serpent"
+            "droppedBy": "The Golden Serpent",
+            "icon": "inv_knife_1h_battledungeon_c_01"
           },
           {
             "id": 160216,
@@ -5593,7 +6068,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Sword",
-            "droppedBy": "Aka'ali the Conqueror"
+            "droppedBy": "Aka'ali the Conqueror",
+            "icon": "inv_sword_1h_battledungeon_c_02"
           }
         ],
         "0": [
@@ -5604,7 +6080,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Headdress of the First Empire",
-            "id": 239047
+            "id": 239047,
+            "icon": "inv_helm_cloth_zandalardungeon_c_01"
           }
         ]
       },
@@ -5621,7 +6098,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": "Melidrussa Chillworn"
+            "droppedBy": "Melidrussa Chillworn",
+            "icon": "inv_staff_2h_dragondungeon_c_02"
           }
         ],
         "7": [
@@ -5632,7 +6110,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sky Saddle Cord",
-            "id": 193691
+            "id": 193691,
+            "icon": "inv_belt_dragondungeon_c_01"
           }
         ],
         "13": [
@@ -5640,7 +6119,8 @@ window.LOOT_DATA = {
             "droppedBy": "Melidrussa Chillworn",
             "stats": [],
             "name": "Ruby Whelp Shell",
-            "id": 193757
+            "id": 193757,
+            "icon": "inv_item_dragonegg_redbroken01"
           }
         ],
         "8": [
@@ -5651,7 +6131,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Wind Soarer's Breeches",
-            "id": 193750
+            "id": 193750,
+            "icon": "inv_pant_cloth_dragondungeon_c_01"
           }
         ],
         "11": [
@@ -5666,7 +6147,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "Kokia Blazehoof"
+            "droppedBy": "Kokia Blazehoof",
+            "icon": "inv_offhand_1h_drakonid_c_01"
           }
         ],
         "3": [
@@ -5677,7 +6159,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Fireproof Drape",
-            "id": 193763
+            "id": 193763,
+            "icon": "inv_mail_dragondungeon_c_01_cape"
           }
         ]
       },
@@ -5690,7 +6173,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Charged Sandstone Band",
-            "id": 158366
+            "id": 158366,
+            "icon": "inv_ring_80_03d"
           },
           {
             "droppedBy": "Merektha",
@@ -5699,7 +6183,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Jade Ophidian Band",
-            "id": 162544
+            "id": 162544,
+            "icon": "inv_ring_80_04c"
           }
         ],
         "6": [
@@ -5710,7 +6195,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Handwraps of Oscillating Polarity",
-            "id": 159247
+            "id": 159247,
+            "icon": "inv_glove_cloth_zandalardungeon_c_01"
           }
         ],
         "7": [
@@ -5721,7 +6207,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Ouroborial Sash",
-            "id": 159255
+            "id": 159255,
+            "icon": "inv_belt_cloth_zandalardungeon_c_01"
           }
         ],
         "4": [
@@ -5732,7 +6219,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Robes of the Reborn Serpent",
-            "id": 239032
+            "id": 239032,
+            "icon": "inv_chest_cloth_zandalardungeon_c_01"
           }
         ],
         "13": [
@@ -5740,7 +6228,8 @@ window.LOOT_DATA = {
             "droppedBy": "Avatar of Sethraliss",
             "stats": [],
             "name": "Sethraliss' Defiled Relic",
-            "id": 158368
+            "id": 158368,
+            "icon": "inv_staff_2h_snakeman_c_01"
           }
         ],
         "5": [
@@ -5751,7 +6240,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Bindings of the Slithering Current",
-            "id": 159263
+            "id": 159263,
+            "icon": "inv_bracer_cloth_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -5762,7 +6252,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Sandswept Sandals",
-            "id": 159259
+            "id": 159259,
+            "icon": "inv_boot_cloth_zandalardungeon_c_01"
           }
         ],
         "2": [
@@ -5773,7 +6264,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Brood Cleanser's Amice",
-            "id": 239031
+            "id": 239031,
+            "icon": "inv_shoulder_cloth_zandalardungeon_c_01"
           }
         ],
         "10": [
@@ -5788,7 +6280,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": null
+            "droppedBy": null,
+            "icon": "inv_staff_2h_battledungeon_c_04"
           }
         ]
       },
@@ -5801,7 +6294,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Strand of Warding Fangs",
-            "id": 273781
+            "id": 273781,
+            "icon": "inv_121_jewelry_neck03_teal"
           }
         ],
         "6": [
@@ -5812,7 +6306,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Handwraps of Blasphemous Rites",
-            "id": 273773
+            "id": 273773,
+            "icon": "inv_glove_cloth_outdooramaniloa_c_01"
           }
         ],
         "4": [
@@ -5823,7 +6318,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Primordial Robe of Rites",
-            "id": 273785
+            "id": 273785,
+            "icon": "inv_robe_cloth_outdooramaniloa_c_01"
           }
         ],
         "11": [
@@ -5838,7 +6334,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "The Writhing Coil"
+            "droppedBy": "The Writhing Coil",
+            "icon": "inv_offhand_1h_outdooramaniloa_c_01"
           }
         ],
         "8": [
@@ -5849,7 +6346,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Leggings of Entwined Serpents",
-            "id": 273786
+            "id": 273786,
+            "icon": "inv_pant_cloth_outdooramaniloa_c_01"
           }
         ],
         "13": [
@@ -5857,13 +6355,15 @@ window.LOOT_DATA = {
             "droppedBy": "The Writhing Coil",
             "stats": [],
             "name": "Knot of Writhing Serpents",
-            "id": 273794
+            "id": 273794,
+            "icon": "inv_121_trinket_dungeon_ulatek_writhe"
           },
           {
             "droppedBy": "Rav'i",
             "stats": [],
             "name": "Vile Vial of Volatile Venom",
-            "id": 273796
+            "id": 273796,
+            "icon": "inv_121_trinket_dungeon_ulatek_vile"
           }
         ],
         "12": [
@@ -5874,7 +6374,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Band of the Amani Warlord",
-            "id": 273792
+            "id": 273792,
+            "icon": "inv_121_jewelry_ring02_green"
           }
         ],
         "10": [
@@ -5889,7 +6390,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Dagger",
-            "droppedBy": "Zul'jan"
+            "droppedBy": "Zul'jan",
+            "icon": "inv_knife_1h_zuljin_d_01"
           }
         ]
       },
@@ -5906,7 +6408,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": "Kystia Manaheart"
+            "droppedBy": "Kystia Manaheart",
+            "icon": "inv_staff_2h_dungeonharronir_c_02"
           },
           {
             "id": 258045,
@@ -5916,7 +6419,8 @@ window.LOOT_DATA = {
             "stats": [],
             "hand": "1h",
             "weaponClass": "Warglaive",
-            "droppedBy": "Lithiel Cinderfury"
+            "droppedBy": "Lithiel Cinderfury",
+            "icon": "inv_glaive_1h_questbloodelf_b_01"
           }
         ],
         "6": [
@@ -5927,7 +6431,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Counterfeit Clutches",
-            "id": 251129
+            "id": 251129,
+            "icon": "inv_glove_cloth_dungeonharronir_c_01"
           }
         ],
         "4": [
@@ -5938,7 +6443,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Summoner's Searing Shirt",
-            "id": 251139
+            "id": 251139,
+            "icon": "inv_chest_cloth_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -5946,7 +6452,8 @@ window.LOOT_DATA = {
             "droppedBy": "Zaen Bladesorrow",
             "stats": [],
             "name": "Freightrunner's Flask",
-            "id": 250215
+            "id": 250215,
+            "icon": "inv_alchemy_90_flask_red"
           }
         ],
         "5": [
@@ -5957,7 +6464,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Nibbling Armbands",
-            "id": 251127
+            "id": 251127,
+            "icon": "inv_bracer_cloth_dungeonharronir_c_01"
           }
         ],
         "3": [
@@ -5968,7 +6476,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Speakeasy Shroud",
-            "id": 251132
+            "id": 251132,
+            "icon": "inv_cape_leather_dungeonharronir_c_01"
           }
         ],
         "9": [
@@ -5979,7 +6488,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Tempestuous Sandals",
-            "id": 251137
+            "id": 251137,
+            "icon": "inv_boot_cloth_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -5990,7 +6500,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Signet of Snarling Servitude",
-            "id": 251136
+            "id": 251136,
+            "icon": "inv_12_jewelry_voidelf_ring_teal"
           }
         ],
         "1": [
@@ -6001,7 +6512,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Pendant of Malefic Fury",
-            "id": 251142
+            "id": 251142,
+            "icon": "inv_12_jewelry_silvermoonelf_necklace_green"
           }
         ]
       },
@@ -6018,7 +6530,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": "Nalorakk"
+            "droppedBy": "Nalorakk",
+            "icon": "inv_staff_2h_amani_c_01"
           }
         ],
         "4": [
@@ -6029,7 +6542,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Hoarded Harvest Wrap",
-            "id": 251147
+            "id": 251147,
+            "icon": "inv_chest_cloth_dungeonharronir_c_01"
           }
         ],
         "11": [
@@ -6044,7 +6558,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "Sentinel of Winter"
+            "droppedBy": "Sentinel of Winter",
+            "icon": "inv_offhand_1h_dungeonharronir_c_01"
           }
         ],
         "5": [
@@ -6055,7 +6570,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Winter's Embrace Bracers",
-            "id": 251154
+            "id": 251154,
+            "icon": "inv_bracer_cloth_dungeonharronir_c_01"
           }
         ],
         "8": [
@@ -6066,7 +6582,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Forest Dream Leg-guards",
-            "id": 251160
+            "id": 251160,
+            "icon": "inv_pant_cloth_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -6077,7 +6594,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Pilfered Precious Band",
-            "id": 251148
+            "id": 251148,
+            "icon": "inv_12_jewelry_zulaman_troll_ring_green2"
           }
         ],
         "1": [
@@ -6088,7 +6606,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Yoke of the Charging Bear",
-            "id": 251173
+            "id": 251173,
+            "icon": "inv_12_jewelry_zulaman_troll_necklace_green1"
           }
         ]
       }
@@ -6103,7 +6622,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Graft of the Domanaar",
-            "id": 251234
+            "id": 251234,
+            "icon": "inv_12_jewelry_devouringhost_necklace_silver2"
           }
         ],
         "7": [
@@ -6114,7 +6634,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Gravitic Girdle",
-            "id": 251235
+            "id": 251235,
+            "icon": "inv_belt_leather_dungeonharronir_c_01"
           }
         ],
         "4": [
@@ -6125,7 +6646,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Hide of Pestilence",
-            "id": 251226
+            "id": 251226,
+            "icon": "inv_chest_leather_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -6133,13 +6655,15 @@ window.LOOT_DATA = {
             "droppedBy": "Taz'Rah",
             "stats": [],
             "name": "Void Execution Mandate",
-            "id": 250225
+            "id": 250225,
+            "icon": "inv_inscription_80_warscroll_intellect"
           },
           {
             "droppedBy": "Atroxus",
             "stats": [],
             "name": "Tumor of the Swarm",
-            "id": 250245
+            "id": 250245,
+            "icon": "ability_pet_baneling"
           }
         ],
         "12": [
@@ -6150,7 +6674,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sickening Signet of Atroxus",
-            "id": 252258
+            "id": 252258,
+            "icon": "inv_12_jewelry_devouringhost_ring_bronze2"
           }
         ],
         "2": [
@@ -6161,7 +6686,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Somber Spaulders",
-            "id": 251223
+            "id": 251223,
+            "icon": "inv_shoulder_leather_dungeonharronir_c_01"
           }
         ],
         "10": [
@@ -6176,7 +6702,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Axe",
-            "droppedBy": "Atroxus"
+            "droppedBy": "Atroxus",
+            "icon": "inv_axe_1h_dungeonharronir_c_01"
           }
         ]
       },
@@ -6193,7 +6720,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Fist",
-            "droppedBy": "Ikuzz the Light Hunter"
+            "droppedBy": "Ikuzz the Light Hunter",
+            "icon": "inv_hand_1h_dungeonharronir_c_01"
           },
           {
             "id": 251192,
@@ -6206,7 +6734,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": "Lightwarden Ruia"
+            "droppedBy": "Lightwarden Ruia",
+            "icon": "inv_staff_2h_dungeonharronir_c_01"
           }
         ],
         "7": [
@@ -6217,7 +6746,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Rootwalker Harness",
-            "id": 251189
+            "id": 251189,
+            "icon": "inv_belt_leather_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -6227,13 +6757,15 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Lightspire Core",
-            "id": 250214
+            "id": 250214,
+            "icon": "inv_enchant_essenceastrallarge"
           },
           {
             "droppedBy": "Ziekket",
             "stats": [],
             "name": "Sapling of the Dawnroot",
-            "id": 250259
+            "id": 250259,
+            "icon": "inv_misc_herb_nightmarevine"
           }
         ],
         "5": [
@@ -6244,7 +6776,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Rootwarden Wraps",
-            "id": 251183
+            "id": 251183,
+            "icon": "inv_bracer_leather_dungeonharronir_c_01"
           }
         ],
         "8": [
@@ -6255,7 +6788,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Lightspore Leggings",
-            "id": 251198
+            "id": 251198,
+            "icon": "inv_pant_leather_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -6266,7 +6800,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Lightwarden's Bind",
-            "id": 251194
+            "id": 251194,
+            "icon": "inv12_jewelrytrinkets_rutaani_ring_yellow"
           }
         ],
         "3": [
@@ -6277,7 +6812,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Bloodthorn Burnous",
-            "id": 251190
+            "id": 251190,
+            "icon": "inv_cape_mail_dungeonharronir_c_01"
           }
         ]
       },
@@ -6290,7 +6826,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Ritual Binder's Ring",
-            "id": 159459
+            "id": 159459,
+            "icon": "inv_ring_80_03e"
           }
         ],
         "6": [
@@ -6301,7 +6838,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Desiccator's Blessed Gloves",
-            "id": 159312
+            "id": 159312,
+            "icon": "inv_glove_leather_zandalardungeon_c_01"
           }
         ],
         "7": [
@@ -6312,7 +6850,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Primal Dinomancer's Belt",
-            "id": 159301
+            "id": 159301,
+            "icon": "inv_belt_leather_zandalardungeon_c_01"
           }
         ],
         "4": [
@@ -6323,7 +6862,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Vest of Reverent Adoration",
-            "id": 239048
+            "id": 239048,
+            "icon": "inv_chest_leather_zandalardungeon_c_01"
           }
         ],
         "5": [
@@ -6334,7 +6874,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Kula's Butchering Wristwraps",
-            "id": 159300
+            "id": 159300,
+            "icon": "inv_bracer_leather_zandalardungeon_c_01"
           }
         ],
         "8": [
@@ -6345,7 +6886,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Breeches of the Sacred Hall",
-            "id": 159313
+            "id": 159313,
+            "icon": "inv_pant_leather_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -6356,7 +6898,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Goldfeather Boots",
-            "id": 159304
+            "id": 159304,
+            "icon": "inv_boot_leather_zandalardungeon_c_01"
           }
         ],
         "13": [
@@ -6364,13 +6907,15 @@ window.LOOT_DATA = {
             "droppedBy": "The Golden Serpent",
             "stats": [],
             "name": "Lustrous Golden Plumage",
-            "id": 159617
+            "id": 159617,
+            "icon": "inv_icon_feather06a"
           },
           {
             "droppedBy": "Mchimba the Embalmer",
             "stats": [],
             "name": "Mchimba's Ritual Bandages",
-            "id": 159618
+            "id": 159618,
+            "icon": "inv_misc_emberweavebandagelight"
           }
         ],
         "3": [
@@ -6381,7 +6926,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Cloak of the Restless Tribes",
-            "id": 159288
+            "id": 159288,
+            "icon": "inv_cape_mail_zandalardungeon_c_01"
           }
         ],
         "10": [
@@ -6396,7 +6942,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Polearm",
-            "droppedBy": "Mchimba the Embalmer"
+            "droppedBy": "Mchimba the Embalmer",
+            "icon": "inv_polearm_2h_zandalariguard_b_01"
           },
           {
             "id": 159645,
@@ -6409,7 +6956,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Mace",
-            "droppedBy": "King Dazar"
+            "droppedBy": "King Dazar",
+            "icon": "inv_mace_1h_battledungeon_c_01"
           }
         ]
       },
@@ -6426,7 +6974,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Mace",
-            "droppedBy": "Kokia Blazehoof"
+            "droppedBy": "Kokia Blazehoof",
+            "icon": "inv_mace_1h_dragondungeon_c_02"
           }
         ],
         "6": [
@@ -6437,7 +6986,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Subjugator's Chilling Grips",
-            "id": 193758
+            "id": 193758,
+            "icon": "inv_leather_dragondungeon_c_01_glove"
           }
         ],
         "4": [
@@ -6448,7 +6998,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Invader's Firestorm Chestguard",
-            "id": 193764
+            "id": 193764,
+            "icon": "inv_leather_dragondungeon_c_01_chest"
           }
         ],
         "13": [
@@ -6456,7 +7007,8 @@ window.LOOT_DATA = {
             "droppedBy": "Melidrussa Chillworn",
             "stats": [],
             "name": "Ruby Whelp Shell",
-            "id": 193757
+            "id": 193757,
+            "icon": "inv_item_dragonegg_redbroken01"
           }
         ],
         "3": [
@@ -6467,7 +7019,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Fireproof Drape",
-            "id": 193763
+            "id": 193763,
+            "icon": "inv_mail_dragondungeon_c_01_cape"
           }
         ],
         "0": [
@@ -6478,7 +7031,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Crown of Roaring Storms",
-            "id": 193751
+            "id": 193751,
+            "icon": "inv_leather_dragondungeon_c_01_helm"
           }
         ]
       },
@@ -6491,7 +7045,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Charged Sandstone Band",
-            "id": 158366
+            "id": 158366,
+            "icon": "inv_ring_80_03d"
           },
           {
             "droppedBy": "Merektha",
@@ -6500,7 +7055,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Jade Ophidian Band",
-            "id": 162544
+            "id": 162544,
+            "icon": "inv_ring_80_04c"
           }
         ],
         "6": [
@@ -6511,7 +7067,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Grips of Electrified Defense",
-            "id": 159337
+            "id": 159337,
+            "icon": "inv_glove_leather_zandalardungeon_c_01"
           }
         ],
         "7": [
@@ -6522,7 +7079,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Whirling Dervish Sash",
-            "id": 159317
+            "id": 159317,
+            "icon": "inv_belt_leather_zandalardungeon_c_01"
           }
         ],
         "8": [
@@ -6533,7 +7091,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Leggings of the Galeforce Viper",
-            "id": 159329
+            "id": 159329,
+            "icon": "inv_pant_leather_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -6544,7 +7103,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sand-Shined Snakeskin Sandals",
-            "id": 159327
+            "id": 159327,
+            "icon": "inv_boot_leather_zandalardungeon_c_01"
           }
         ],
         "10": [
@@ -6559,7 +7119,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Polearm",
-            "droppedBy": null
+            "droppedBy": null,
+            "icon": "inv_polearm_2h_snakeman_c_01"
           },
           {
             "id": 158714,
@@ -6572,7 +7133,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Sword",
-            "droppedBy": "Merektha"
+            "droppedBy": "Merektha",
+            "icon": "inv_sword_1h_battledungeon_c_02"
           }
         ],
         "0": [
@@ -6583,7 +7145,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Hood of the Slithering Loa",
-            "id": 239033
+            "id": 239033,
+            "icon": "inv_helm_leather_zandalardungeon_c_01"
           }
         ]
       },
@@ -6596,7 +7159,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Band of the Amani Warlord",
-            "id": 273792
+            "id": 273792,
+            "icon": "inv_121_jewelry_ring02_green"
           }
         ],
         "13": [
@@ -6604,7 +7168,8 @@ window.LOOT_DATA = {
             "droppedBy": "Rav'i",
             "stats": [],
             "name": "Vile Vial of Volatile Venom",
-            "id": 273796
+            "id": 273796,
+            "icon": "inv_121_trinket_dungeon_ulatek_vile"
           }
         ],
         "10": [
@@ -6619,7 +7184,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": "The Writhing Coil"
+            "droppedBy": "The Writhing Coil",
+            "icon": "inv_staff_2h_outdooramaniloa_c_01"
           }
         ],
         "2": [
@@ -6630,7 +7196,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Snakeskin Spaulders",
-            "id": 273774
+            "id": 273774,
+            "icon": "inv_shoulder_leather_outdooramaniloa_c_01"
           }
         ],
         "1": [
@@ -6641,7 +7208,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Strand of Warding Fangs",
-            "id": 273781
+            "id": 273781,
+            "icon": "inv_121_jewelry_neck03_teal"
           }
         ],
         "0": [
@@ -6652,7 +7220,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Spare Speaker's Hood",
-            "id": 273791
+            "id": 273791,
+            "icon": "inv_helm_leather_outdooramaniloa_c_01"
           }
         ]
       },
@@ -6665,7 +7234,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Signet of Snarling Servitude",
-            "id": 251136
+            "id": 251136,
+            "icon": "inv_12_jewelry_voidelf_ring_teal"
           }
         ],
         "6": [
@@ -6676,7 +7246,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Gauntlets of Fevered Defense",
-            "id": 251124
+            "id": 251124,
+            "icon": "inv_glove_leather_dungeonharronir_c_01"
           }
         ],
         "3": [
@@ -6687,7 +7258,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Speakeasy Shroud",
-            "id": 251132
+            "id": 251132,
+            "icon": "inv_cape_leather_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -6695,19 +7267,22 @@ window.LOOT_DATA = {
             "droppedBy": "Zaen Bladesorrow",
             "stats": [],
             "name": "Freightrunner's Flask",
-            "id": 250215
+            "id": 250215,
+            "icon": "inv_alchemy_90_flask_red"
           },
           {
             "droppedBy": "Xathuux the Annihilator",
             "stats": [],
             "name": "Resonant Bellowstone",
-            "id": 250228
+            "id": 250228,
+            "icon": "inv_alchemy_90_stone_green"
           },
           {
             "droppedBy": "Kystia Manaheart",
             "stats": [],
             "name": "Manaheart's Binding Flame",
-            "id": 250243
+            "id": 250243,
+            "icon": "inv_ember_fel"
           }
         ],
         "5": [
@@ -6718,7 +7293,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Fury-fletched Armlets",
-            "id": 251135
+            "id": 251135,
+            "icon": "inv_bracer_leather_dungeonharronir_c_01"
           }
         ],
         "8": [
@@ -6729,7 +7305,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Breeches of Deft Deals",
-            "id": 251130
+            "id": 251130,
+            "icon": "inv_pant_leather_dungeonharronir_c_01"
           }
         ],
         "1": [
@@ -6740,7 +7317,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Pendant of Malefic Fury",
-            "id": 251142
+            "id": 251142,
+            "icon": "inv_12_jewelry_silvermoonelf_necklace_green"
           }
         ],
         "10": [
@@ -6752,7 +7330,8 @@ window.LOOT_DATA = {
             "stats": [],
             "hand": "1h",
             "weaponClass": "Warglaive",
-            "droppedBy": "Lithiel Cinderfury"
+            "droppedBy": "Lithiel Cinderfury",
+            "icon": "inv_glaive_1h_questbloodelf_b_01"
           }
         ],
         "0": [
@@ -6763,7 +7342,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Vilefiend's Guise",
-            "id": 251140
+            "id": 251140,
+            "icon": "inv_helm_leather_dungeonharronir_c_01"
           }
         ]
       },
@@ -6776,7 +7356,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Pilfered Precious Band",
-            "id": 251148
+            "id": 251148,
+            "icon": "inv_12_jewelry_zulaman_troll_ring_green2"
           }
         ],
         "4": [
@@ -6787,7 +7368,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "War Trial Vestments",
-            "id": 251159
+            "id": 251159,
+            "icon": "inv_chest_leather_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -6795,7 +7377,8 @@ window.LOOT_DATA = {
             "droppedBy": "Sentinel of Winter",
             "stats": [],
             "name": "Permafrost Essence",
-            "id": 250244
+            "id": 250244,
+            "icon": "inv12_jewelrytrinkets_dungeon_permafrostreservoir"
           }
         ],
         "9": [
@@ -6806,7 +7389,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Arctic Explorer's Legwraps",
-            "id": 251153
+            "id": 251153,
+            "icon": "inv_boot_leather_dungeonharronir_c_01"
           }
         ],
         "10": [
@@ -6821,7 +7405,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Fist",
-            "droppedBy": "The Hoardmonger"
+            "droppedBy": "The Hoardmonger",
+            "icon": "inv_hand_1h_dungeonharronir_c_01"
           },
           {
             "id": 251149,
@@ -6834,7 +7419,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Polearm",
-            "droppedBy": "Sentinel of Winter"
+            "droppedBy": "Sentinel of Winter",
+            "icon": "inv_polearm_2h_dungeonharronir_c_01"
           }
         ],
         "2": [
@@ -6845,7 +7431,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Scavenger's Spaulders",
-            "id": 251146
+            "id": 251146,
+            "icon": "inv_shoulder_leather_dungeonharronir_c_01"
           }
         ],
         "1": [
@@ -6856,7 +7443,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Yoke of the Charging Bear",
-            "id": 251173
+            "id": 251173,
+            "icon": "inv_12_jewelry_zulaman_troll_necklace_green1"
           }
         ]
       }
@@ -6875,7 +7463,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Dagger",
-            "droppedBy": "Atroxus"
+            "droppedBy": "Atroxus",
+            "icon": "inv_knife_1h_dungeonharronir_c_02"
           }
         ],
         "7": [
@@ -6886,7 +7475,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Ethereal Netherwrap",
-            "id": 251222
+            "id": 251222,
+            "icon": "inv_belt_cloth_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -6894,7 +7484,8 @@ window.LOOT_DATA = {
             "droppedBy": "Charonus",
             "stats": [],
             "name": "Mindpiercer's Sigil",
-            "id": 250224
+            "id": 250224,
+            "icon": "inv_icon_shadowcouncilorb_purple"
           }
         ],
         "9": [
@@ -6905,7 +7496,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Riftworn Stompers",
-            "id": 251219
+            "id": 251219,
+            "icon": "inv_boot_cloth_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -6916,7 +7508,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sickening Signet of Atroxus",
-            "id": 252258
+            "id": 252258,
+            "icon": "inv_12_jewelry_devouringhost_ring_bronze2"
           }
         ],
         "2": [
@@ -6927,7 +7520,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Poisoner's Pauldrons",
-            "id": 251227
+            "id": 251227,
+            "icon": "inv_shoulder_cloth_dungeonharronir_c_01"
           }
         ],
         "1": [
@@ -6938,7 +7532,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Graft of the Domanaar",
-            "id": 251234
+            "id": 251234,
+            "icon": "inv_12_jewelry_devouringhost_necklace_silver2"
           }
         ],
         "0": [
@@ -6949,7 +7544,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Overseer's Diadem",
-            "id": 251232
+            "id": 251232,
+            "icon": "inv_helm_cloth_dungeonharronir_c_01"
           }
         ]
       },
@@ -6966,7 +7562,8 @@ window.LOOT_DATA = {
             ],
             "hand": "ranged",
             "weaponClass": "Wand",
-            "droppedBy": "Ikuzz the Light Hunter"
+            "droppedBy": "Ikuzz the Light Hunter",
+            "icon": "inv_wand_1h_dungeonharronir_c_01"
           }
         ],
         "7": [
@@ -6977,7 +7574,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Lightblossom Cinch",
-            "id": 251185
+            "id": 251185,
+            "icon": "inv_belt_cloth_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -6987,13 +7585,15 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Lightspire Core",
-            "id": 250214
+            "id": 250214,
+            "icon": "inv_enchant_essenceastrallarge"
           },
           {
             "droppedBy": "Ziekket",
             "stats": [],
             "name": "Sapling of the Dawnroot",
-            "id": 250259
+            "id": 250259,
+            "icon": "inv_misc_herb_nightmarevine"
           }
         ],
         "11": [
@@ -7008,7 +7608,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "Lightwarden Ruia"
+            "droppedBy": "Lightwarden Ruia",
+            "icon": "inv_offhand_1h_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -7019,7 +7620,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Lightwarden's Bind",
-            "id": 251194
+            "id": 251194,
+            "icon": "inv12_jewelrytrinkets_rutaani_ring_yellow"
           }
         ],
         "3": [
@@ -7030,7 +7632,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Bloodthorn Burnous",
-            "id": 251190
+            "id": 251190,
+            "icon": "inv_cape_mail_dungeonharronir_c_01"
           }
         ],
         "0": [
@@ -7041,7 +7644,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Worldroot Canopy",
-            "id": 251199
+            "id": 251199,
+            "icon": "inv_helm_cloth_dungeonharronir_c_01"
           }
         ]
       },
@@ -7054,7 +7658,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Ritual Binder's Ring",
-            "id": 159459
+            "id": 159459,
+            "icon": "inv_ring_80_03e"
           }
         ],
         "3": [
@@ -7065,7 +7670,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Cloak of the Restless Tribes",
-            "id": 159288
+            "id": 159288,
+            "icon": "inv_cape_mail_zandalardungeon_c_01"
           }
         ],
         "11": [
@@ -7080,7 +7686,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "Mchimba the Embalmer"
+            "droppedBy": "Mchimba the Embalmer",
+            "icon": "inv_offhand_1h_battledungeon_c_02"
           }
         ],
         "8": [
@@ -7091,7 +7698,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Down-Lined Breeches",
-            "id": 159234
+            "id": 159234,
+            "icon": "inv_pant_cloth_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -7102,7 +7710,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Sandals of Wise Voodoo",
-            "id": 159243
+            "id": 159243,
+            "icon": "inv_boot_cloth_zandalardungeon_c_01"
           }
         ],
         "13": [
@@ -7110,7 +7719,8 @@ window.LOOT_DATA = {
             "droppedBy": "King Dazar",
             "stats": [],
             "name": "Stormbound Emblem of Dazar",
-            "id": 273649
+            "id": 273649,
+            "icon": "inv_7_0raid_necklace_14a"
           }
         ],
         "2": [
@@ -7121,7 +7731,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Mantle of Ceremonial Ascension",
-            "id": 239045
+            "id": 239045,
+            "icon": "inv_shoulder_cloth_zandalardungeon_c_01"
           }
         ],
         "10": [
@@ -7136,7 +7747,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Dagger",
-            "droppedBy": "The Golden Serpent"
+            "droppedBy": "The Golden Serpent",
+            "icon": "inv_knife_1h_battledungeon_c_01"
           }
         ],
         "0": [
@@ -7147,7 +7759,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Headdress of the First Empire",
-            "id": 239047
+            "id": 239047,
+            "icon": "inv_helm_cloth_zandalardungeon_c_01"
           }
         ]
       },
@@ -7164,7 +7777,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": "Melidrussa Chillworn"
+            "droppedBy": "Melidrussa Chillworn",
+            "icon": "inv_staff_2h_dragondungeon_c_02"
           }
         ],
         "7": [
@@ -7175,7 +7789,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sky Saddle Cord",
-            "id": 193691
+            "id": 193691,
+            "icon": "inv_belt_dragondungeon_c_01"
           }
         ],
         "13": [
@@ -7183,7 +7798,8 @@ window.LOOT_DATA = {
             "droppedBy": "Melidrussa Chillworn",
             "stats": [],
             "name": "Ruby Whelp Shell",
-            "id": 193757
+            "id": 193757,
+            "icon": "inv_item_dragonegg_redbroken01"
           }
         ],
         "8": [
@@ -7194,7 +7810,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Wind Soarer's Breeches",
-            "id": 193750
+            "id": 193750,
+            "icon": "inv_pant_cloth_dragondungeon_c_01"
           }
         ],
         "11": [
@@ -7209,7 +7826,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "Kokia Blazehoof"
+            "droppedBy": "Kokia Blazehoof",
+            "icon": "inv_offhand_1h_drakonid_c_01"
           }
         ],
         "3": [
@@ -7220,7 +7838,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Fireproof Drape",
-            "id": 193763
+            "id": 193763,
+            "icon": "inv_mail_dragondungeon_c_01_cape"
           }
         ]
       },
@@ -7233,7 +7852,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Charged Sandstone Band",
-            "id": 158366
+            "id": 158366,
+            "icon": "inv_ring_80_03d"
           },
           {
             "droppedBy": "Merektha",
@@ -7242,7 +7862,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Jade Ophidian Band",
-            "id": 162544
+            "id": 162544,
+            "icon": "inv_ring_80_04c"
           }
         ],
         "6": [
@@ -7253,7 +7874,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Handwraps of Oscillating Polarity",
-            "id": 159247
+            "id": 159247,
+            "icon": "inv_glove_cloth_zandalardungeon_c_01"
           }
         ],
         "7": [
@@ -7264,7 +7886,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Ouroborial Sash",
-            "id": 159255
+            "id": 159255,
+            "icon": "inv_belt_cloth_zandalardungeon_c_01"
           }
         ],
         "4": [
@@ -7275,7 +7898,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Robes of the Reborn Serpent",
-            "id": 239032
+            "id": 239032,
+            "icon": "inv_chest_cloth_zandalardungeon_c_01"
           }
         ],
         "13": [
@@ -7283,7 +7907,8 @@ window.LOOT_DATA = {
             "droppedBy": "Avatar of Sethraliss",
             "stats": [],
             "name": "Sethraliss' Defiled Relic",
-            "id": 158368
+            "id": 158368,
+            "icon": "inv_staff_2h_snakeman_c_01"
           }
         ],
         "5": [
@@ -7294,7 +7919,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Bindings of the Slithering Current",
-            "id": 159263
+            "id": 159263,
+            "icon": "inv_bracer_cloth_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -7305,7 +7931,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Sandswept Sandals",
-            "id": 159259
+            "id": 159259,
+            "icon": "inv_boot_cloth_zandalardungeon_c_01"
           }
         ],
         "2": [
@@ -7316,7 +7943,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Brood Cleanser's Amice",
-            "id": 239031
+            "id": 239031,
+            "icon": "inv_shoulder_cloth_zandalardungeon_c_01"
           }
         ],
         "10": [
@@ -7331,7 +7959,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Mace",
-            "droppedBy": "Galvazzt"
+            "droppedBy": "Galvazzt",
+            "icon": "inv_mace_1h_pandaraid_d_01"
           },
           {
             "id": 159636,
@@ -7344,7 +7973,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": null
+            "droppedBy": null,
+            "icon": "inv_staff_2h_battledungeon_c_04"
           }
         ]
       },
@@ -7357,7 +7987,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Strand of Warding Fangs",
-            "id": 273781
+            "id": 273781,
+            "icon": "inv_121_jewelry_neck03_teal"
           }
         ],
         "6": [
@@ -7368,7 +7999,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Handwraps of Blasphemous Rites",
-            "id": 273773
+            "id": 273773,
+            "icon": "inv_glove_cloth_outdooramaniloa_c_01"
           }
         ],
         "4": [
@@ -7379,7 +8011,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Primordial Robe of Rites",
-            "id": 273785
+            "id": 273785,
+            "icon": "inv_robe_cloth_outdooramaniloa_c_01"
           }
         ],
         "11": [
@@ -7394,7 +8027,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "The Writhing Coil"
+            "droppedBy": "The Writhing Coil",
+            "icon": "inv_offhand_1h_outdooramaniloa_c_01"
           }
         ],
         "8": [
@@ -7405,7 +8039,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Leggings of Entwined Serpents",
-            "id": 273786
+            "id": 273786,
+            "icon": "inv_pant_cloth_outdooramaniloa_c_01"
           }
         ],
         "13": [
@@ -7413,13 +8048,15 @@ window.LOOT_DATA = {
             "droppedBy": "The Writhing Coil",
             "stats": [],
             "name": "Knot of Writhing Serpents",
-            "id": 273794
+            "id": 273794,
+            "icon": "inv_121_trinket_dungeon_ulatek_writhe"
           },
           {
             "droppedBy": "Rav'i",
             "stats": [],
             "name": "Vile Vial of Volatile Venom",
-            "id": 273796
+            "id": 273796,
+            "icon": "inv_121_trinket_dungeon_ulatek_vile"
           }
         ],
         "12": [
@@ -7430,7 +8067,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Band of the Amani Warlord",
-            "id": 273792
+            "id": 273792,
+            "icon": "inv_121_jewelry_ring02_green"
           }
         ],
         "10": [
@@ -7445,7 +8083,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Dagger",
-            "droppedBy": "Zul'jan"
+            "droppedBy": "Zul'jan",
+            "icon": "inv_knife_1h_zuljin_d_01"
           }
         ]
       },
@@ -7462,7 +8101,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": "Kystia Manaheart"
+            "droppedBy": "Kystia Manaheart",
+            "icon": "inv_staff_2h_dungeonharronir_c_02"
           },
           {
             "id": 258045,
@@ -7472,7 +8112,8 @@ window.LOOT_DATA = {
             "stats": [],
             "hand": "1h",
             "weaponClass": "Warglaive",
-            "droppedBy": "Lithiel Cinderfury"
+            "droppedBy": "Lithiel Cinderfury",
+            "icon": "inv_glaive_1h_questbloodelf_b_01"
           }
         ],
         "6": [
@@ -7483,7 +8124,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Counterfeit Clutches",
-            "id": 251129
+            "id": 251129,
+            "icon": "inv_glove_cloth_dungeonharronir_c_01"
           }
         ],
         "4": [
@@ -7494,7 +8136,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Summoner's Searing Shirt",
-            "id": 251139
+            "id": 251139,
+            "icon": "inv_chest_cloth_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -7502,7 +8145,8 @@ window.LOOT_DATA = {
             "droppedBy": "Zaen Bladesorrow",
             "stats": [],
             "name": "Freightrunner's Flask",
-            "id": 250215
+            "id": 250215,
+            "icon": "inv_alchemy_90_flask_red"
           }
         ],
         "5": [
@@ -7513,7 +8157,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Nibbling Armbands",
-            "id": 251127
+            "id": 251127,
+            "icon": "inv_bracer_cloth_dungeonharronir_c_01"
           }
         ],
         "3": [
@@ -7524,7 +8169,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Speakeasy Shroud",
-            "id": 251132
+            "id": 251132,
+            "icon": "inv_cape_leather_dungeonharronir_c_01"
           }
         ],
         "9": [
@@ -7535,7 +8181,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Tempestuous Sandals",
-            "id": 251137
+            "id": 251137,
+            "icon": "inv_boot_cloth_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -7546,7 +8193,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Signet of Snarling Servitude",
-            "id": 251136
+            "id": 251136,
+            "icon": "inv_12_jewelry_voidelf_ring_teal"
           }
         ],
         "1": [
@@ -7557,7 +8205,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Pendant of Malefic Fury",
-            "id": 251142
+            "id": 251142,
+            "icon": "inv_12_jewelry_silvermoonelf_necklace_green"
           }
         ]
       },
@@ -7574,7 +8223,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": "Nalorakk"
+            "droppedBy": "Nalorakk",
+            "icon": "inv_staff_2h_amani_c_01"
           }
         ],
         "4": [
@@ -7585,7 +8235,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Hoarded Harvest Wrap",
-            "id": 251147
+            "id": 251147,
+            "icon": "inv_chest_cloth_dungeonharronir_c_01"
           }
         ],
         "11": [
@@ -7600,7 +8251,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "Sentinel of Winter"
+            "droppedBy": "Sentinel of Winter",
+            "icon": "inv_offhand_1h_dungeonharronir_c_01"
           }
         ],
         "5": [
@@ -7611,7 +8263,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Winter's Embrace Bracers",
-            "id": 251154
+            "id": 251154,
+            "icon": "inv_bracer_cloth_dungeonharronir_c_01"
           }
         ],
         "8": [
@@ -7622,7 +8275,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Forest Dream Leg-guards",
-            "id": 251160
+            "id": 251160,
+            "icon": "inv_pant_cloth_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -7633,7 +8287,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Pilfered Precious Band",
-            "id": 251148
+            "id": 251148,
+            "icon": "inv_12_jewelry_zulaman_troll_ring_green2"
           }
         ],
         "1": [
@@ -7644,7 +8299,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Yoke of the Charging Bear",
-            "id": 251173
+            "id": 251173,
+            "icon": "inv_12_jewelry_zulaman_troll_necklace_green1"
           }
         ]
       }
@@ -7659,7 +8315,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Graft of the Domanaar",
-            "id": 251234
+            "id": 251234,
+            "icon": "inv_12_jewelry_devouringhost_necklace_silver2"
           }
         ],
         "7": [
@@ -7670,7 +8327,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Gravitic Girdle",
-            "id": 251235
+            "id": 251235,
+            "icon": "inv_belt_leather_dungeonharronir_c_01"
           }
         ],
         "4": [
@@ -7681,7 +8339,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Hide of Pestilence",
-            "id": 251226
+            "id": 251226,
+            "icon": "inv_chest_leather_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -7689,7 +8348,8 @@ window.LOOT_DATA = {
             "droppedBy": "Taz'Rah",
             "stats": [],
             "name": "Void Execution Mandate",
-            "id": 250225
+            "id": 250225,
+            "icon": "inv_inscription_80_warscroll_intellect"
           }
         ],
         "12": [
@@ -7700,7 +8360,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sickening Signet of Atroxus",
-            "id": 252258
+            "id": 252258,
+            "icon": "inv_12_jewelry_devouringhost_ring_bronze2"
           }
         ],
         "2": [
@@ -7711,7 +8372,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Somber Spaulders",
-            "id": 251223
+            "id": 251223,
+            "icon": "inv_shoulder_leather_dungeonharronir_c_01"
           }
         ]
       },
@@ -7728,7 +8390,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Dagger",
-            "droppedBy": "Meittik"
+            "droppedBy": "Meittik",
+            "icon": "inv_knife_1h_rutaani_b_01"
           }
         ],
         "7": [
@@ -7739,7 +8402,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Rootwalker Harness",
-            "id": 251189
+            "id": 251189,
+            "icon": "inv_belt_leather_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -7749,13 +8413,15 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Lightspire Core",
-            "id": 250214
+            "id": 250214,
+            "icon": "inv_enchant_essenceastrallarge"
           },
           {
             "droppedBy": "Ziekket",
             "stats": [],
             "name": "Sapling of the Dawnroot",
-            "id": 250259
+            "id": 250259,
+            "icon": "inv_misc_herb_nightmarevine"
           }
         ],
         "5": [
@@ -7766,7 +8432,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Rootwarden Wraps",
-            "id": 251183
+            "id": 251183,
+            "icon": "inv_bracer_leather_dungeonharronir_c_01"
           }
         ],
         "8": [
@@ -7777,7 +8444,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Lightspore Leggings",
-            "id": 251198
+            "id": 251198,
+            "icon": "inv_pant_leather_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -7788,7 +8456,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Lightwarden's Bind",
-            "id": 251194
+            "id": 251194,
+            "icon": "inv12_jewelrytrinkets_rutaani_ring_yellow"
           }
         ],
         "3": [
@@ -7799,7 +8468,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Bloodthorn Burnous",
-            "id": 251190
+            "id": 251190,
+            "icon": "inv_cape_mail_dungeonharronir_c_01"
           }
         ]
       },
@@ -7816,7 +8486,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Dagger",
-            "droppedBy": "Aka'ali the Conqueror"
+            "droppedBy": "Aka'ali the Conqueror",
+            "icon": "inv_knife_1h_battledungeon_c_01"
           }
         ],
         "6": [
@@ -7827,7 +8498,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Desiccator's Blessed Gloves",
-            "id": 159312
+            "id": 159312,
+            "icon": "inv_glove_leather_zandalardungeon_c_01"
           }
         ],
         "7": [
@@ -7838,7 +8510,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Primal Dinomancer's Belt",
-            "id": 159301
+            "id": 159301,
+            "icon": "inv_belt_leather_zandalardungeon_c_01"
           }
         ],
         "4": [
@@ -7849,7 +8522,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Vest of Reverent Adoration",
-            "id": 239048
+            "id": 239048,
+            "icon": "inv_chest_leather_zandalardungeon_c_01"
           }
         ],
         "5": [
@@ -7860,7 +8534,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Kula's Butchering Wristwraps",
-            "id": 159300
+            "id": 159300,
+            "icon": "inv_bracer_leather_zandalardungeon_c_01"
           }
         ],
         "8": [
@@ -7871,7 +8546,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Breeches of the Sacred Hall",
-            "id": 159313
+            "id": 159313,
+            "icon": "inv_pant_leather_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -7882,7 +8558,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Goldfeather Boots",
-            "id": 159304
+            "id": 159304,
+            "icon": "inv_boot_leather_zandalardungeon_c_01"
           }
         ],
         "13": [
@@ -7890,7 +8567,8 @@ window.LOOT_DATA = {
             "droppedBy": "The Golden Serpent",
             "stats": [],
             "name": "Lustrous Golden Plumage",
-            "id": 159617
+            "id": 159617,
+            "icon": "inv_icon_feather06a"
           }
         ],
         "12": [
@@ -7901,7 +8579,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Ritual Binder's Ring",
-            "id": 159459
+            "id": 159459,
+            "icon": "inv_ring_80_03e"
           }
         ],
         "3": [
@@ -7912,7 +8591,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Cloak of the Restless Tribes",
-            "id": 159288
+            "id": 159288,
+            "icon": "inv_cape_mail_zandalardungeon_c_01"
           }
         ]
       },
@@ -7929,7 +8609,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Dagger",
-            "droppedBy": null
+            "droppedBy": null,
+            "icon": "inv_knife_1h_dragondungeon_c_02"
           }
         ],
         "6": [
@@ -7940,7 +8621,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Subjugator's Chilling Grips",
-            "id": 193758
+            "id": 193758,
+            "icon": "inv_leather_dragondungeon_c_01_glove"
           }
         ],
         "4": [
@@ -7951,7 +8633,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Invader's Firestorm Chestguard",
-            "id": 193764
+            "id": 193764,
+            "icon": "inv_leather_dragondungeon_c_01_chest"
           }
         ],
         "13": [
@@ -7959,7 +8642,8 @@ window.LOOT_DATA = {
             "droppedBy": "Melidrussa Chillworn",
             "stats": [],
             "name": "Ruby Whelp Shell",
-            "id": 193757
+            "id": 193757,
+            "icon": "inv_item_dragonegg_redbroken01"
           }
         ],
         "3": [
@@ -7970,7 +8654,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Fireproof Drape",
-            "id": 193763
+            "id": 193763,
+            "icon": "inv_mail_dragondungeon_c_01_cape"
           }
         ],
         "0": [
@@ -7981,7 +8666,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Crown of Roaring Storms",
-            "id": 193751
+            "id": 193751,
+            "icon": "inv_leather_dragondungeon_c_01_helm"
           }
         ]
       },
@@ -7994,7 +8680,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Charged Sandstone Band",
-            "id": 158366
+            "id": 158366,
+            "icon": "inv_ring_80_03d"
           },
           {
             "droppedBy": "Merektha",
@@ -8003,7 +8690,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Jade Ophidian Band",
-            "id": 162544
+            "id": 162544,
+            "icon": "inv_ring_80_04c"
           }
         ],
         "6": [
@@ -8014,7 +8702,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Grips of Electrified Defense",
-            "id": 159337
+            "id": 159337,
+            "icon": "inv_glove_leather_zandalardungeon_c_01"
           }
         ],
         "7": [
@@ -8025,7 +8714,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Whirling Dervish Sash",
-            "id": 159317
+            "id": 159317,
+            "icon": "inv_belt_leather_zandalardungeon_c_01"
           }
         ],
         "13": [
@@ -8033,7 +8723,8 @@ window.LOOT_DATA = {
             "droppedBy": "Galvazzt",
             "stats": [],
             "name": "Tiny Electromental in a Jar",
-            "id": 158374
+            "id": 158374,
+            "icon": "inv_alchemy_71_potion4"
           }
         ],
         "8": [
@@ -8044,7 +8735,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Leggings of the Galeforce Viper",
-            "id": 159329
+            "id": 159329,
+            "icon": "inv_pant_leather_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -8055,7 +8747,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sand-Shined Snakeskin Sandals",
-            "id": 159327
+            "id": 159327,
+            "icon": "inv_boot_leather_zandalardungeon_c_01"
           }
         ],
         "0": [
@@ -8066,7 +8759,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Hood of the Slithering Loa",
-            "id": 239033
+            "id": 239033,
+            "icon": "inv_helm_leather_zandalardungeon_c_01"
           }
         ]
       },
@@ -8079,7 +8773,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Band of the Amani Warlord",
-            "id": 273792
+            "id": 273792,
+            "icon": "inv_121_jewelry_ring02_green"
           }
         ],
         "13": [
@@ -8087,13 +8782,15 @@ window.LOOT_DATA = {
             "droppedBy": "Rav'i",
             "stats": [],
             "name": "Vile Vial of Volatile Venom",
-            "id": 273796
+            "id": 273796,
+            "icon": "inv_121_trinket_dungeon_ulatek_vile"
           },
           {
             "droppedBy": "Zul'jan",
             "stats": [],
             "name": "Tattered Amani War Banner",
-            "id": 273797
+            "id": 273797,
+            "icon": "inv_121_trinket_dungeon_ulatek_banner"
           }
         ],
         "10": [
@@ -8108,7 +8805,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Dagger",
-            "droppedBy": "Zul'jan"
+            "droppedBy": "Zul'jan",
+            "icon": "inv_knife_1h_zuljin_d_01"
           }
         ],
         "2": [
@@ -8119,7 +8817,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Snakeskin Spaulders",
-            "id": 273774
+            "id": 273774,
+            "icon": "inv_shoulder_leather_outdooramaniloa_c_01"
           }
         ],
         "1": [
@@ -8130,7 +8829,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Strand of Warding Fangs",
-            "id": 273781
+            "id": 273781,
+            "icon": "inv_121_jewelry_neck03_teal"
           }
         ],
         "0": [
@@ -8141,7 +8841,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Spare Speaker's Hood",
-            "id": 273791
+            "id": 273791,
+            "icon": "inv_helm_leather_outdooramaniloa_c_01"
           }
         ]
       },
@@ -8158,7 +8859,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Dagger",
-            "droppedBy": "Zaen Bladesorrow"
+            "droppedBy": "Zaen Bladesorrow",
+            "icon": "inv_knife_1h_dungeonharronir_c_01"
           },
           {
             "id": 258045,
@@ -8168,7 +8870,8 @@ window.LOOT_DATA = {
             "stats": [],
             "hand": "1h",
             "weaponClass": "Warglaive",
-            "droppedBy": "Lithiel Cinderfury"
+            "droppedBy": "Lithiel Cinderfury",
+            "icon": "inv_glaive_1h_questbloodelf_b_01"
           }
         ],
         "6": [
@@ -8179,7 +8882,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Gauntlets of Fevered Defense",
-            "id": 251124
+            "id": 251124,
+            "icon": "inv_glove_leather_dungeonharronir_c_01"
           }
         ],
         "3": [
@@ -8190,7 +8894,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Speakeasy Shroud",
-            "id": 251132
+            "id": 251132,
+            "icon": "inv_cape_leather_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -8198,13 +8903,15 @@ window.LOOT_DATA = {
             "droppedBy": "Zaen Bladesorrow",
             "stats": [],
             "name": "Freightrunner's Flask",
-            "id": 250215
+            "id": 250215,
+            "icon": "inv_alchemy_90_flask_red"
           },
           {
             "droppedBy": "Xathuux the Annihilator",
             "stats": [],
             "name": "Resonant Bellowstone",
-            "id": 250228
+            "id": 250228,
+            "icon": "inv_alchemy_90_stone_green"
           }
         ],
         "5": [
@@ -8215,7 +8922,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Fury-fletched Armlets",
-            "id": 251135
+            "id": 251135,
+            "icon": "inv_bracer_leather_dungeonharronir_c_01"
           }
         ],
         "8": [
@@ -8226,7 +8934,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Breeches of Deft Deals",
-            "id": 251130
+            "id": 251130,
+            "icon": "inv_pant_leather_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -8237,7 +8946,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Signet of Snarling Servitude",
-            "id": 251136
+            "id": 251136,
+            "icon": "inv_12_jewelry_voidelf_ring_teal"
           }
         ],
         "1": [
@@ -8248,7 +8958,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Pendant of Malefic Fury",
-            "id": 251142
+            "id": 251142,
+            "icon": "inv_12_jewelry_silvermoonelf_necklace_green"
           }
         ],
         "0": [
@@ -8259,7 +8970,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Vilefiend's Guise",
-            "id": 251140
+            "id": 251140,
+            "icon": "inv_helm_leather_dungeonharronir_c_01"
           }
         ]
       },
@@ -8272,7 +8984,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Scavenger's Spaulders",
-            "id": 251146
+            "id": 251146,
+            "icon": "inv_shoulder_leather_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -8283,7 +8996,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Pilfered Precious Band",
-            "id": 251148
+            "id": 251148,
+            "icon": "inv_12_jewelry_zulaman_troll_ring_green2"
           }
         ],
         "9": [
@@ -8294,7 +9008,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Arctic Explorer's Legwraps",
-            "id": 251153
+            "id": 251153,
+            "icon": "inv_boot_leather_dungeonharronir_c_01"
           }
         ],
         "1": [
@@ -8305,7 +9020,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Yoke of the Charging Bear",
-            "id": 251173
+            "id": 251173,
+            "icon": "inv_12_jewelry_zulaman_troll_necklace_green1"
           }
         ],
         "4": [
@@ -8316,7 +9032,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "War Trial Vestments",
-            "id": 251159
+            "id": 251159,
+            "icon": "inv_chest_leather_dungeonharronir_c_01"
           }
         ]
       }
@@ -8328,7 +9045,8 @@ window.LOOT_DATA = {
             "droppedBy": "Charonus",
             "stats": [],
             "name": "Mindpiercer's Sigil",
-            "id": 250224
+            "id": 250224,
+            "icon": "inv_icon_shadowcouncilorb_purple"
           }
         ],
         "0": [
@@ -8339,7 +9057,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Visor of the Predator",
-            "id": 251229
+            "id": 251229,
+            "icon": "inv_helm_armor_domanaar_d_01"
           }
         ],
         "1": [
@@ -8350,7 +9069,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Graft of the Domanaar",
-            "id": 251234
+            "id": 251234,
+            "icon": "inv_12_jewelry_devouringhost_necklace_silver2"
           }
         ],
         "6": [
@@ -8361,7 +9081,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Despondent's Gauntlets",
-            "id": 251221
+            "id": 251221,
+            "icon": "inv_glove_plate_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -8372,7 +9093,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sickening Signet of Atroxus",
-            "id": 252258
+            "id": 252258,
+            "icon": "inv_12_jewelry_devouringhost_ring_bronze2"
           }
         ]
       },
@@ -8385,7 +9107,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Lightwarden's Bind",
-            "id": 251194
+            "id": 251194,
+            "icon": "inv12_jewelrytrinkets_rutaani_ring_yellow"
           }
         ],
         "6": [
@@ -8396,7 +9119,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Thornspike Gauntlets",
-            "id": 251197
+            "id": 251197,
+            "icon": "inv_glove_plate_dungeonharronir_c_01"
           }
         ],
         "4": [
@@ -8407,7 +9131,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Taproot Ribs",
-            "id": 251193
+            "id": 251193,
+            "icon": "inv_chest_plate_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -8417,19 +9142,22 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Lightspire Core",
-            "id": 250214
+            "id": 250214,
+            "icon": "inv_enchant_essenceastrallarge"
           },
           {
             "droppedBy": "Meittik",
             "stats": [],
             "name": "Seed of Radiant Hope",
-            "id": 250254
+            "id": 250254,
+            "icon": "inv12_jewelrytrinkets_dungeon_seedofradianthope"
           },
           {
             "droppedBy": "Ziekket",
             "stats": [],
             "name": "Sapling of the Dawnroot",
-            "id": 250259
+            "id": 250259,
+            "icon": "inv_misc_herb_nightmarevine"
           }
         ],
         "8": [
@@ -8440,7 +9168,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Bedrock Breeches",
-            "id": 251182
+            "id": 251182,
+            "icon": "inv_pant_plate_dungeonharronir_c_01"
           }
         ],
         "11": [
@@ -8455,7 +9184,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Shield",
-            "droppedBy": "Ziekket"
+            "droppedBy": "Ziekket",
+            "icon": "inv_shield_1h_rutaani_b_01"
           }
         ],
         "3": [
@@ -8466,7 +9196,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Bloodthorn Burnous",
-            "id": 251190
+            "id": 251190,
+            "icon": "inv_cape_mail_dungeonharronir_c_01"
           }
         ]
       },
@@ -8479,7 +9210,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Ritual Binder's Ring",
-            "id": 159459
+            "id": 159459,
+            "icon": "inv_ring_80_03e"
           }
         ],
         "6": [
@@ -8490,7 +9222,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Gauntlets of the Avian Sentinel",
-            "id": 159413
+            "id": 159413,
+            "icon": "inv_glove_plate_zandalardungeon_c_01"
           }
         ],
         "7": [
@@ -8501,7 +9234,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Girdle of Pestilent Purification",
-            "id": 159418
+            "id": 159418,
+            "icon": "inv_belt_plate_zandalardungeon_c_01"
           }
         ],
         "3": [
@@ -8512,7 +9246,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Cloak of the Restless Tribes",
-            "id": 159288
+            "id": 159288,
+            "icon": "inv_cape_mail_zandalardungeon_c_01"
           }
         ],
         "5": [
@@ -8523,7 +9258,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Embalmer's Steadying Bracers",
-            "id": 159409
+            "id": 159409,
+            "icon": "inv_bracer_plate_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -8534,7 +9270,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Auric Puddle Stompers",
-            "id": 159412
+            "id": 159412,
+            "icon": "inv_boot_plate_zandalardungeon_c_01"
           }
         ],
         "13": [
@@ -8542,7 +9279,8 @@ window.LOOT_DATA = {
             "droppedBy": "King Dazar",
             "stats": [],
             "name": "Stormbound Emblem of Dazar",
-            "id": 273649
+            "id": 273649,
+            "icon": "inv_7_0raid_necklace_14a"
           }
         ],
         "2": [
@@ -8553,7 +9291,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Pauldrons of the Great Unifier",
-            "id": 239051
+            "id": 239051,
+            "icon": "inv_shoulder_plate_zandalardungeon_c_01"
           }
         ],
         "10": [
@@ -8568,7 +9307,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Sword",
-            "droppedBy": "Aka'ali the Conqueror"
+            "droppedBy": "Aka'ali the Conqueror",
+            "icon": "inv_sword_1h_battledungeon_c_02"
           }
         ],
         "0": [
@@ -8579,7 +9319,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Helm of the Raptor King",
-            "id": 239050
+            "id": 239050,
+            "icon": "inv_helm_plate_zandalardungeon_c_01"
           }
         ]
       },
@@ -8592,7 +9333,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Fireproof Drape",
-            "id": 193763
+            "id": 193763,
+            "icon": "inv_mail_dragondungeon_c_01_cape"
           }
         ],
         "9": [
@@ -8603,7 +9345,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Scaleguard's Stalwart Greatboots",
-            "id": 193728
+            "id": 193728,
+            "icon": "inv_plate_dragondungeon_c_01_boot"
           }
         ],
         "13": [
@@ -8613,13 +9356,15 @@ window.LOOT_DATA = {
               "Crit"
             ],
             "name": "Kyrakka's Searing Embers",
-            "id": 193748
+            "id": 193748,
+            "icon": "inv_10_dungeonjewelry_primalist_trinket_4_fire"
           },
           {
             "droppedBy": "Melidrussa Chillworn",
             "stats": [],
             "name": "Ruby Whelp Shell",
-            "id": 193757
+            "id": 193757,
+            "icon": "inv_item_dragonegg_redbroken01"
           }
         ],
         "11": [
@@ -8634,7 +9379,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Shield",
-            "droppedBy": null
+            "droppedBy": null,
+            "icon": "inv_shield_1h_drakonid_c_01"
           }
         ],
         "4": [
@@ -8645,7 +9391,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Breastplate of Soaring Terror",
-            "id": 193753
+            "id": 193753,
+            "icon": "inv_plate_dragondungeon_c_01_chest"
           }
         ]
       },
@@ -8658,7 +9405,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Charged Sandstone Band",
-            "id": 158366
+            "id": 158366,
+            "icon": "inv_ring_80_03d"
           },
           {
             "droppedBy": "Merektha",
@@ -8667,7 +9415,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Jade Ophidian Band",
-            "id": 162544
+            "id": 162544,
+            "icon": "inv_ring_80_04c"
           }
         ],
         "7": [
@@ -8678,7 +9427,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Sand-Scoured Greatbelt",
-            "id": 159442
+            "id": 159442,
+            "icon": "inv_belt_plate_zandalardungeon_c_01"
           }
         ],
         "4": [
@@ -8689,7 +9439,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Desert Guardian's Breastplate",
-            "id": 239036
+            "id": 239036,
+            "icon": "inv_chest_plate_zandalardungeon_c_01"
           }
         ],
         "5": [
@@ -8700,7 +9451,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Shard-Tipped Vambraces",
-            "id": 159425
+            "id": 159425,
+            "icon": "inv_bracer_plate_zandalardungeon_c_01"
           }
         ],
         "8": [
@@ -8711,7 +9463,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Legplates of Charged Duality",
-            "id": 159435
+            "id": 159435,
+            "icon": "inv_pant_plate_zandalardungeon_c_01"
           }
         ],
         "11": [
@@ -8726,7 +9479,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Shield",
-            "droppedBy": "Galvazzt"
+            "droppedBy": "Galvazzt",
+            "icon": "inv_shield_1h_battledungeon_c_02"
           }
         ],
         "2": [
@@ -8737,7 +9491,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "C'thraxxi Binders Pauldrons",
-            "id": 239037
+            "id": 239037,
+            "icon": "inv_shoulder_plate_zandalardungeon_c_01"
           }
         ],
         "10": [
@@ -8752,7 +9507,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Mace",
-            "droppedBy": "Galvazzt"
+            "droppedBy": "Galvazzt",
+            "icon": "inv_mace_1h_pandaraid_d_01"
           }
         ]
       },
@@ -8769,7 +9525,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Axe",
-            "droppedBy": "Rav'i"
+            "droppedBy": "Rav'i",
+            "icon": "inv_axe_1h_outdooramaniloa_c_01"
           }
         ],
         "4": [
@@ -8780,7 +9537,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Aged Interwoven Scaleplate",
-            "id": 273787
+            "id": 273787,
+            "icon": "inv_chest_plate_outdooramaniloa_c_01"
           }
         ],
         "13": [
@@ -8788,7 +9546,8 @@ window.LOOT_DATA = {
             "droppedBy": "Rav'i",
             "stats": [],
             "name": "Vile Vial of Volatile Venom",
-            "id": 273796
+            "id": 273796,
+            "icon": "inv_121_trinket_dungeon_ulatek_vile"
           }
         ],
         "8": [
@@ -8799,7 +9558,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Ancient General's Obsidian Pillars",
-            "id": 273776
+            "id": 273776,
+            "icon": "inv_pant_plate_outdooramaniloa_c_01"
           }
         ],
         "9": [
@@ -8810,7 +9570,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Poison-Proof Stompers",
-            "id": 273777
+            "id": 273777,
+            "icon": "inv_boot_plate_outdooramaniloa_c_01"
           }
         ],
         "12": [
@@ -8821,7 +9582,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Band of the Amani Warlord",
-            "id": 273792
+            "id": 273792,
+            "icon": "inv_121_jewelry_ring02_green"
           }
         ],
         "1": [
@@ -8832,7 +9594,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Strand of Warding Fangs",
-            "id": 273781
+            "id": 273781,
+            "icon": "inv_121_jewelry_neck03_teal"
           }
         ]
       },
@@ -8845,7 +9608,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Signet of Snarling Servitude",
-            "id": 251136
+            "id": 251136,
+            "icon": "inv_12_jewelry_voidelf_ring_teal"
           }
         ],
         "3": [
@@ -8856,7 +9620,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Speakeasy Shroud",
-            "id": 251132
+            "id": 251132,
+            "icon": "inv_cape_leather_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -8864,13 +9629,15 @@ window.LOOT_DATA = {
             "droppedBy": "Zaen Bladesorrow",
             "stats": [],
             "name": "Freightrunner's Flask",
-            "id": 250215
+            "id": 250215,
+            "icon": "inv_alchemy_90_flask_red"
           },
           {
             "droppedBy": "Lithiel Cinderfury",
             "stats": [],
             "name": "Unstable Felheart Crystal",
-            "id": 250255
+            "id": 250255,
+            "icon": "tooltip_crystallizedfel"
           }
         ],
         "5": [
@@ -8881,7 +9648,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Overseer's Vambraces",
-            "id": 251133
+            "id": 251133,
+            "icon": "inv_bracer_plate_dungeonharronir_c_01"
           }
         ],
         "10": [
@@ -8893,7 +9661,8 @@ window.LOOT_DATA = {
             "stats": [],
             "hand": "1h",
             "weaponClass": "Warglaive",
-            "droppedBy": "Lithiel Cinderfury"
+            "droppedBy": "Lithiel Cinderfury",
+            "icon": "inv_glaive_1h_questbloodelf_b_01"
           }
         ],
         "2": [
@@ -8904,7 +9673,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Cinderfury Shoulderguards",
-            "id": 251138
+            "id": 251138,
+            "icon": "inv_shoulder_plate_dungeonharronir_c_01"
           }
         ],
         "1": [
@@ -8915,7 +9685,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Pendant of Malefic Fury",
-            "id": 251142
+            "id": 251142,
+            "icon": "inv_12_jewelry_silvermoonelf_necklace_green"
           }
         ],
         "0": [
@@ -8926,7 +9697,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Greathelm of Temptation",
-            "id": 251126
+            "id": 251126,
+            "icon": "inv_helm_plate_dungeonharronir_c_01"
           }
         ]
       },
@@ -8939,7 +9711,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Pilfered Precious Band",
-            "id": 251148
+            "id": 251148,
+            "icon": "inv_12_jewelry_zulaman_troll_ring_green2"
           }
         ],
         "6": [
@@ -8950,7 +9723,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Bonds of the Hash'ura",
-            "id": 251214
+            "id": 251214,
+            "icon": "inv_glove_plate_dungeonharronir_c_01"
           }
         ],
         "7": [
@@ -8961,7 +9735,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Autumn's Boon Belt",
-            "id": 251144
+            "id": 251144,
+            "icon": "inv_belt_plate_dungeonharronir_c_01"
           }
         ],
         "4": [
@@ -8972,7 +9747,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sentinel Challenger's Prize",
-            "id": 251151
+            "id": 251151,
+            "icon": "inv_chest_plate_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -8980,7 +9756,8 @@ window.LOOT_DATA = {
             "droppedBy": "The Hoardmonger",
             "stats": [],
             "name": "Mycolic Medicine",
-            "id": 250248
+            "id": 250248,
+            "icon": "inv_misc_starspecklemushroom"
           }
         ],
         "11": [
@@ -8995,7 +9772,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Shield",
-            "droppedBy": "Sentinel of Winter"
+            "droppedBy": "Sentinel of Winter",
+            "icon": "inv_shield_1h_dungeonharronir_c_01"
           }
         ],
         "1": [
@@ -9006,7 +9784,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Yoke of the Charging Bear",
-            "id": 251173
+            "id": 251173,
+            "icon": "inv_12_jewelry_zulaman_troll_necklace_green1"
           }
         ]
       }
@@ -9021,7 +9800,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Graft of the Domanaar",
-            "id": 251234
+            "id": 251234,
+            "icon": "inv_12_jewelry_devouringhost_necklace_silver2"
           }
         ],
         "6": [
@@ -9032,7 +9812,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Despondent's Gauntlets",
-            "id": 251221
+            "id": 251221,
+            "icon": "inv_glove_plate_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -9040,7 +9821,8 @@ window.LOOT_DATA = {
             "droppedBy": "Atroxus",
             "stats": [],
             "name": "Tumor of the Swarm",
-            "id": 250245
+            "id": 250245,
+            "icon": "ability_pet_baneling"
           }
         ],
         "12": [
@@ -9051,7 +9833,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sickening Signet of Atroxus",
-            "id": 252258
+            "id": 252258,
+            "icon": "inv_12_jewelry_devouringhost_ring_bronze2"
           }
         ],
         "10": [
@@ -9066,7 +9849,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Polearm",
-            "droppedBy": "Charonus"
+            "droppedBy": "Charonus",
+            "icon": "inv_polearm_2h_domanaar_b_01"
           }
         ],
         "0": [
@@ -9077,7 +9861,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Visor of the Predator",
-            "id": 251229
+            "id": 251229,
+            "icon": "inv_helm_armor_domanaar_d_01"
           }
         ]
       },
@@ -9094,7 +9879,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Polearm",
-            "droppedBy": "Meittik"
+            "droppedBy": "Meittik",
+            "icon": "inv_polearm_2h_rutaani_b_01"
           }
         ],
         "6": [
@@ -9105,7 +9891,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Thornspike Gauntlets",
-            "id": 251197
+            "id": 251197,
+            "icon": "inv_glove_plate_dungeonharronir_c_01"
           }
         ],
         "4": [
@@ -9116,7 +9903,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Taproot Ribs",
-            "id": 251193
+            "id": 251193,
+            "icon": "inv_chest_plate_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -9124,13 +9912,15 @@ window.LOOT_DATA = {
             "droppedBy": "Ikuzz the Light Hunter",
             "stats": [],
             "name": "Seed of the Devouring Wild",
-            "id": 250238
+            "id": 250238,
+            "icon": "inv12_jewelrytrinkets_dungeon_seedofthedevouringwild"
           },
           {
             "droppedBy": "Ziekket",
             "stats": [],
             "name": "Sapling of the Dawnroot",
-            "id": 250259
+            "id": 250259,
+            "icon": "inv_misc_herb_nightmarevine"
           }
         ],
         "8": [
@@ -9141,7 +9931,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Bedrock Breeches",
-            "id": 251182
+            "id": 251182,
+            "icon": "inv_pant_plate_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -9152,7 +9943,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Lightwarden's Bind",
-            "id": 251194
+            "id": 251194,
+            "icon": "inv12_jewelrytrinkets_rutaani_ring_yellow"
           }
         ],
         "3": [
@@ -9163,7 +9955,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Bloodthorn Burnous",
-            "id": 251190
+            "id": 251190,
+            "icon": "inv_cape_mail_dungeonharronir_c_01"
           }
         ]
       },
@@ -9176,7 +9969,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Ritual Binder's Ring",
-            "id": 159459
+            "id": 159459,
+            "icon": "inv_ring_80_03e"
           }
         ],
         "6": [
@@ -9187,7 +9981,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Gauntlets of the Avian Sentinel",
-            "id": 159413
+            "id": 159413,
+            "icon": "inv_glove_plate_zandalardungeon_c_01"
           }
         ],
         "7": [
@@ -9198,7 +9993,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Girdle of Pestilent Purification",
-            "id": 159418
+            "id": 159418,
+            "icon": "inv_belt_plate_zandalardungeon_c_01"
           }
         ],
         "3": [
@@ -9209,7 +10005,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Cloak of the Restless Tribes",
-            "id": 159288
+            "id": 159288,
+            "icon": "inv_cape_mail_zandalardungeon_c_01"
           }
         ],
         "5": [
@@ -9220,7 +10017,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Embalmer's Steadying Bracers",
-            "id": 159409
+            "id": 159409,
+            "icon": "inv_bracer_plate_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -9231,7 +10029,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Auric Puddle Stompers",
-            "id": 159412
+            "id": 159412,
+            "icon": "inv_boot_plate_zandalardungeon_c_01"
           }
         ],
         "13": [
@@ -9239,7 +10038,8 @@ window.LOOT_DATA = {
             "droppedBy": "Mchimba the Embalmer",
             "stats": [],
             "name": "Mchimba's Ritual Bandages",
-            "id": 159618
+            "id": 159618,
+            "icon": "inv_misc_emberweavebandagelight"
           }
         ],
         "2": [
@@ -9250,7 +10050,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Pauldrons of the Great Unifier",
-            "id": 239051
+            "id": 239051,
+            "icon": "inv_shoulder_plate_zandalardungeon_c_01"
           }
         ],
         "10": [
@@ -9262,7 +10063,8 @@ window.LOOT_DATA = {
             "stats": [],
             "hand": "2h",
             "weaponClass": "Sword",
-            "droppedBy": "King Dazar"
+            "droppedBy": "King Dazar",
+            "icon": "inv_sword_2h_battledungeon_c_01"
           }
         ],
         "0": [
@@ -9273,7 +10075,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Helm of the Raptor King",
-            "id": 239050
+            "id": 239050,
+            "icon": "inv_helm_plate_zandalardungeon_c_01"
           }
         ]
       },
@@ -9290,7 +10093,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Axe",
-            "droppedBy": null
+            "droppedBy": null,
+            "icon": "inv_axe_2h_drakonoid_c_01"
           }
         ],
         "9": [
@@ -9301,7 +10105,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Scaleguard's Stalwart Greatboots",
-            "id": 193728
+            "id": 193728,
+            "icon": "inv_plate_dragondungeon_c_01_boot"
           }
         ],
         "3": [
@@ -9312,7 +10117,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Fireproof Drape",
-            "id": 193763
+            "id": 193763,
+            "icon": "inv_mail_dragondungeon_c_01_cape"
           }
         ],
         "4": [
@@ -9323,7 +10129,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Breastplate of Soaring Terror",
-            "id": 193753
+            "id": 193753,
+            "icon": "inv_plate_dragondungeon_c_01_chest"
           }
         ],
         "13": [
@@ -9331,7 +10138,8 @@ window.LOOT_DATA = {
             "droppedBy": "Melidrussa Chillworn",
             "stats": [],
             "name": "Ruby Whelp Shell",
-            "id": 193757
+            "id": 193757,
+            "icon": "inv_item_dragonegg_redbroken01"
           },
           {
             "droppedBy": "Kokia Blazehoof",
@@ -9339,7 +10147,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Blazebinder's Hoof",
-            "id": 193762
+            "id": 193762,
+            "icon": "inv_10_dungeonjewelry_primalist_trinket_2_fire"
           }
         ]
       },
@@ -9352,7 +10161,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Charged Sandstone Band",
-            "id": 158366
+            "id": 158366,
+            "icon": "inv_ring_80_03d"
           },
           {
             "droppedBy": "Merektha",
@@ -9361,7 +10171,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Jade Ophidian Band",
-            "id": 162544
+            "id": 162544,
+            "icon": "inv_ring_80_04c"
           }
         ],
         "7": [
@@ -9372,7 +10183,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Sand-Scoured Greatbelt",
-            "id": 159442
+            "id": 159442,
+            "icon": "inv_belt_plate_zandalardungeon_c_01"
           }
         ],
         "4": [
@@ -9383,7 +10195,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Desert Guardian's Breastplate",
-            "id": 239036
+            "id": 239036,
+            "icon": "inv_chest_plate_zandalardungeon_c_01"
           }
         ],
         "13": [
@@ -9391,7 +10204,8 @@ window.LOOT_DATA = {
             "droppedBy": "Merektha",
             "stats": [],
             "name": "Merektha's Fang",
-            "id": 158367
+            "id": 158367,
+            "icon": "inv_misc_food_87_sporelingsnack"
           }
         ],
         "5": [
@@ -9402,7 +10216,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Shard-Tipped Vambraces",
-            "id": 159425
+            "id": 159425,
+            "icon": "inv_bracer_plate_zandalardungeon_c_01"
           }
         ],
         "8": [
@@ -9413,7 +10228,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Legplates of Charged Duality",
-            "id": 159435
+            "id": 159435,
+            "icon": "inv_pant_plate_zandalardungeon_c_01"
           }
         ],
         "2": [
@@ -9424,7 +10240,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "C'thraxxi Binders Pauldrons",
-            "id": 239037
+            "id": 239037,
+            "icon": "inv_shoulder_plate_zandalardungeon_c_01"
           }
         ]
       },
@@ -9441,7 +10258,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Polearm",
-            "droppedBy": "The Writhing Coil"
+            "droppedBy": "The Writhing Coil",
+            "icon": "inv_polearm_2h_outdooramaniloa_c_01"
           }
         ],
         "4": [
@@ -9452,7 +10270,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Aged Interwoven Scaleplate",
-            "id": 273787
+            "id": 273787,
+            "icon": "inv_chest_plate_outdooramaniloa_c_01"
           }
         ],
         "13": [
@@ -9460,13 +10279,15 @@ window.LOOT_DATA = {
             "droppedBy": "Rav'i",
             "stats": [],
             "name": "Coiled Fangstone",
-            "id": 273795
+            "id": 273795,
+            "icon": "inv_121_trinket_dungeon_ulatek_fangstone"
           },
           {
             "droppedBy": "Rav'i",
             "stats": [],
             "name": "Vile Vial of Volatile Venom",
-            "id": 273796
+            "id": 273796,
+            "icon": "inv_121_trinket_dungeon_ulatek_vile"
           }
         ],
         "8": [
@@ -9477,7 +10298,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Ancient General's Obsidian Pillars",
-            "id": 273776
+            "id": 273776,
+            "icon": "inv_pant_plate_outdooramaniloa_c_01"
           }
         ],
         "9": [
@@ -9488,7 +10310,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Poison-Proof Stompers",
-            "id": 273777
+            "id": 273777,
+            "icon": "inv_boot_plate_outdooramaniloa_c_01"
           }
         ],
         "12": [
@@ -9499,7 +10322,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Band of the Amani Warlord",
-            "id": 273792
+            "id": 273792,
+            "icon": "inv_121_jewelry_ring02_green"
           }
         ],
         "1": [
@@ -9510,7 +10334,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Strand of Warding Fangs",
-            "id": 273781
+            "id": 273781,
+            "icon": "inv_121_jewelry_neck03_teal"
           }
         ]
       },
@@ -9523,7 +10348,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Pendant of Malefic Fury",
-            "id": 251142
+            "id": 251142,
+            "icon": "inv_12_jewelry_silvermoonelf_necklace_green"
           }
         ],
         "3": [
@@ -9534,7 +10360,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Speakeasy Shroud",
-            "id": 251132
+            "id": 251132,
+            "icon": "inv_cape_leather_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -9542,13 +10369,15 @@ window.LOOT_DATA = {
             "droppedBy": "Xathuux the Annihilator",
             "stats": [],
             "name": "Resonant Bellowstone",
-            "id": 250228
+            "id": 250228,
+            "icon": "inv_alchemy_90_stone_green"
           },
           {
             "droppedBy": "Kystia Manaheart",
             "stats": [],
             "name": "Manaheart's Binding Flame",
-            "id": 250243
+            "id": 250243,
+            "icon": "inv_ember_fel"
           }
         ],
         "5": [
@@ -9559,7 +10388,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Overseer's Vambraces",
-            "id": 251133
+            "id": 251133,
+            "icon": "inv_bracer_plate_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -9570,7 +10400,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Signet of Snarling Servitude",
-            "id": 251136
+            "id": 251136,
+            "icon": "inv_12_jewelry_voidelf_ring_teal"
           }
         ],
         "2": [
@@ -9581,7 +10412,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Cinderfury Shoulderguards",
-            "id": 251138
+            "id": 251138,
+            "icon": "inv_shoulder_plate_dungeonharronir_c_01"
           }
         ],
         "10": [
@@ -9596,7 +10428,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Axe",
-            "droppedBy": "Xathuux the Annihilator"
+            "droppedBy": "Xathuux the Annihilator",
+            "icon": "inv_axe_2h_dungeonharronir_c_01"
           },
           {
             "id": 258045,
@@ -9606,7 +10439,8 @@ window.LOOT_DATA = {
             "stats": [],
             "hand": "1h",
             "weaponClass": "Warglaive",
-            "droppedBy": "Lithiel Cinderfury"
+            "droppedBy": "Lithiel Cinderfury",
+            "icon": "inv_glaive_1h_questbloodelf_b_01"
           }
         ],
         "0": [
@@ -9617,7 +10451,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Greathelm of Temptation",
-            "id": 251126
+            "id": 251126,
+            "icon": "inv_helm_plate_dungeonharronir_c_01"
           }
         ]
       },
@@ -9630,7 +10465,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Yoke of the Charging Bear",
-            "id": 251173
+            "id": 251173,
+            "icon": "inv_12_jewelry_zulaman_troll_necklace_green1"
           }
         ],
         "6": [
@@ -9641,7 +10477,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Bonds of the Hash'ura",
-            "id": 251214
+            "id": 251214,
+            "icon": "inv_glove_plate_dungeonharronir_c_01"
           }
         ],
         "7": [
@@ -9652,7 +10489,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Autumn's Boon Belt",
-            "id": 251144
+            "id": 251144,
+            "icon": "inv_belt_plate_dungeonharronir_c_01"
           }
         ],
         "4": [
@@ -9663,7 +10501,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sentinel Challenger's Prize",
-            "id": 251151
+            "id": 251151,
+            "icon": "inv_chest_plate_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -9673,13 +10512,15 @@ window.LOOT_DATA = {
               "Crit"
             ],
             "name": "Idol of the War Loa",
-            "id": 250229
+            "id": 250229,
+            "icon": "inv12_jewelrytrinkets_dungeon_idolofthewargod"
           },
           {
             "droppedBy": "Sentinel of Winter",
             "stats": [],
             "name": "Permafrost Essence",
-            "id": 250244
+            "id": 250244,
+            "icon": "inv12_jewelrytrinkets_dungeon_permafrostreservoir"
           }
         ],
         "12": [
@@ -9690,7 +10531,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Pilfered Precious Band",
-            "id": 251148
+            "id": 251148,
+            "icon": "inv_12_jewelry_zulaman_troll_ring_green2"
           }
         ]
       }
@@ -9709,7 +10551,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Sword",
-            "droppedBy": "Taz'Rah"
+            "droppedBy": "Taz'Rah",
+            "icon": "inv_sword_1h_domanaar_b_01"
           },
           {
             "id": 251230,
@@ -9722,7 +10565,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Polearm",
-            "droppedBy": "Charonus"
+            "droppedBy": "Charonus",
+            "icon": "inv_polearm_2h_domanaar_b_01"
           }
         ],
         "0": [
@@ -9733,7 +10577,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Visor of the Predator",
-            "id": 251229
+            "id": 251229,
+            "icon": "inv_helm_armor_domanaar_d_01"
           }
         ],
         "1": [
@@ -9744,7 +10589,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Graft of the Domanaar",
-            "id": 251234
+            "id": 251234,
+            "icon": "inv_12_jewelry_devouringhost_necklace_silver2"
           }
         ],
         "6": [
@@ -9755,7 +10601,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Despondent's Gauntlets",
-            "id": 251221
+            "id": 251221,
+            "icon": "inv_glove_plate_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -9766,7 +10613,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sickening Signet of Atroxus",
-            "id": 252258
+            "id": 252258,
+            "icon": "inv_12_jewelry_devouringhost_ring_bronze2"
           }
         ]
       },
@@ -9783,7 +10631,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Polearm",
-            "droppedBy": "Meittik"
+            "droppedBy": "Meittik",
+            "icon": "inv_polearm_2h_rutaani_b_01"
           },
           {
             "id": 251195,
@@ -9796,7 +10645,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Sword",
-            "droppedBy": "Ziekket"
+            "droppedBy": "Ziekket",
+            "icon": "inv_sword_1h_dungeonharronir_c_01"
           }
         ],
         "6": [
@@ -9807,7 +10657,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Thornspike Gauntlets",
-            "id": 251197
+            "id": 251197,
+            "icon": "inv_glove_plate_dungeonharronir_c_01"
           }
         ],
         "4": [
@@ -9818,7 +10669,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Taproot Ribs",
-            "id": 251193
+            "id": 251193,
+            "icon": "inv_chest_plate_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -9826,13 +10678,15 @@ window.LOOT_DATA = {
             "droppedBy": "Ikuzz the Light Hunter",
             "stats": [],
             "name": "Seed of the Devouring Wild",
-            "id": 250238
+            "id": 250238,
+            "icon": "inv12_jewelrytrinkets_dungeon_seedofthedevouringwild"
           },
           {
             "droppedBy": "Ziekket",
             "stats": [],
             "name": "Sapling of the Dawnroot",
-            "id": 250259
+            "id": 250259,
+            "icon": "inv_misc_herb_nightmarevine"
           }
         ],
         "8": [
@@ -9843,7 +10697,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Bedrock Breeches",
-            "id": 251182
+            "id": 251182,
+            "icon": "inv_pant_plate_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -9854,7 +10709,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Lightwarden's Bind",
-            "id": 251194
+            "id": 251194,
+            "icon": "inv12_jewelrytrinkets_rutaani_ring_yellow"
           }
         ],
         "3": [
@@ -9865,7 +10721,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Bloodthorn Burnous",
-            "id": 251190
+            "id": 251190,
+            "icon": "inv_cape_mail_dungeonharronir_c_01"
           }
         ]
       },
@@ -9878,7 +10735,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Ritual Binder's Ring",
-            "id": 159459
+            "id": 159459,
+            "icon": "inv_ring_80_03e"
           }
         ],
         "6": [
@@ -9889,7 +10747,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Gauntlets of the Avian Sentinel",
-            "id": 159413
+            "id": 159413,
+            "icon": "inv_glove_plate_zandalardungeon_c_01"
           }
         ],
         "7": [
@@ -9900,7 +10759,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Girdle of Pestilent Purification",
-            "id": 159418
+            "id": 159418,
+            "icon": "inv_belt_plate_zandalardungeon_c_01"
           }
         ],
         "3": [
@@ -9911,7 +10771,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Cloak of the Restless Tribes",
-            "id": 159288
+            "id": 159288,
+            "icon": "inv_cape_mail_zandalardungeon_c_01"
           }
         ],
         "5": [
@@ -9922,7 +10783,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Embalmer's Steadying Bracers",
-            "id": 159409
+            "id": 159409,
+            "icon": "inv_bracer_plate_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -9933,7 +10795,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Auric Puddle Stompers",
-            "id": 159412
+            "id": 159412,
+            "icon": "inv_boot_plate_zandalardungeon_c_01"
           }
         ],
         "2": [
@@ -9944,7 +10807,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Pauldrons of the Great Unifier",
-            "id": 239051
+            "id": 239051,
+            "icon": "inv_shoulder_plate_zandalardungeon_c_01"
           }
         ],
         "10": [
@@ -9956,7 +10820,8 @@ window.LOOT_DATA = {
             "stats": [],
             "hand": "2h",
             "weaponClass": "Sword",
-            "droppedBy": "King Dazar"
+            "droppedBy": "King Dazar",
+            "icon": "inv_sword_2h_battledungeon_c_01"
           }
         ],
         "0": [
@@ -9967,7 +10832,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Helm of the Raptor King",
-            "id": 239050
+            "id": 239050,
+            "icon": "inv_helm_plate_zandalardungeon_c_01"
           }
         ]
       },
@@ -9984,7 +10850,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Axe",
-            "droppedBy": null
+            "droppedBy": null,
+            "icon": "inv_axe_2h_drakonoid_c_01"
           }
         ],
         "9": [
@@ -9995,7 +10862,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Scaleguard's Stalwart Greatboots",
-            "id": 193728
+            "id": 193728,
+            "icon": "inv_plate_dragondungeon_c_01_boot"
           }
         ],
         "3": [
@@ -10006,7 +10874,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Fireproof Drape",
-            "id": 193763
+            "id": 193763,
+            "icon": "inv_mail_dragondungeon_c_01_cape"
           }
         ],
         "4": [
@@ -10017,7 +10886,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Breastplate of Soaring Terror",
-            "id": 193753
+            "id": 193753,
+            "icon": "inv_plate_dragondungeon_c_01_chest"
           }
         ],
         "13": [
@@ -10025,7 +10895,8 @@ window.LOOT_DATA = {
             "droppedBy": "Melidrussa Chillworn",
             "stats": [],
             "name": "Ruby Whelp Shell",
-            "id": 193757
+            "id": 193757,
+            "icon": "inv_item_dragonegg_redbroken01"
           },
           {
             "droppedBy": "Kokia Blazehoof",
@@ -10033,7 +10904,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Blazebinder's Hoof",
-            "id": 193762
+            "id": 193762,
+            "icon": "inv_10_dungeonjewelry_primalist_trinket_2_fire"
           }
         ]
       },
@@ -10046,7 +10918,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Charged Sandstone Band",
-            "id": 158366
+            "id": 158366,
+            "icon": "inv_ring_80_03d"
           },
           {
             "droppedBy": "Merektha",
@@ -10055,7 +10928,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Jade Ophidian Band",
-            "id": 162544
+            "id": 162544,
+            "icon": "inv_ring_80_04c"
           }
         ],
         "7": [
@@ -10066,7 +10940,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Sand-Scoured Greatbelt",
-            "id": 159442
+            "id": 159442,
+            "icon": "inv_belt_plate_zandalardungeon_c_01"
           }
         ],
         "4": [
@@ -10077,7 +10952,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Desert Guardian's Breastplate",
-            "id": 239036
+            "id": 239036,
+            "icon": "inv_chest_plate_zandalardungeon_c_01"
           }
         ],
         "13": [
@@ -10085,7 +10961,8 @@ window.LOOT_DATA = {
             "droppedBy": "Merektha",
             "stats": [],
             "name": "Merektha's Fang",
-            "id": 158367
+            "id": 158367,
+            "icon": "inv_misc_food_87_sporelingsnack"
           }
         ],
         "5": [
@@ -10096,7 +10973,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Shard-Tipped Vambraces",
-            "id": 159425
+            "id": 159425,
+            "icon": "inv_bracer_plate_zandalardungeon_c_01"
           }
         ],
         "8": [
@@ -10107,7 +10985,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Legplates of Charged Duality",
-            "id": 159435
+            "id": 159435,
+            "icon": "inv_pant_plate_zandalardungeon_c_01"
           }
         ],
         "2": [
@@ -10118,7 +10997,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "C'thraxxi Binders Pauldrons",
-            "id": 239037
+            "id": 239037,
+            "icon": "inv_shoulder_plate_zandalardungeon_c_01"
           }
         ],
         "10": [
@@ -10133,7 +11013,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Sword",
-            "droppedBy": "Avatar of Sethraliss"
+            "droppedBy": "Avatar of Sethraliss",
+            "icon": "inv_sword_1h_battledungeon_c_02"
           }
         ]
       },
@@ -10150,7 +11031,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Polearm",
-            "droppedBy": "The Writhing Coil"
+            "droppedBy": "The Writhing Coil",
+            "icon": "inv_polearm_2h_outdooramaniloa_c_01"
           }
         ],
         "4": [
@@ -10161,7 +11043,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Aged Interwoven Scaleplate",
-            "id": 273787
+            "id": 273787,
+            "icon": "inv_chest_plate_outdooramaniloa_c_01"
           }
         ],
         "13": [
@@ -10169,19 +11052,22 @@ window.LOOT_DATA = {
             "droppedBy": "Rav'i",
             "stats": [],
             "name": "Coiled Fangstone",
-            "id": 273795
+            "id": 273795,
+            "icon": "inv_121_trinket_dungeon_ulatek_fangstone"
           },
           {
             "droppedBy": "Rav'i",
             "stats": [],
             "name": "Vile Vial of Volatile Venom",
-            "id": 273796
+            "id": 273796,
+            "icon": "inv_121_trinket_dungeon_ulatek_vile"
           },
           {
             "droppedBy": "Zul'jan",
             "stats": [],
             "name": "Tattered Amani War Banner",
-            "id": 273797
+            "id": 273797,
+            "icon": "inv_121_trinket_dungeon_ulatek_banner"
           }
         ],
         "8": [
@@ -10192,7 +11078,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Ancient General's Obsidian Pillars",
-            "id": 273776
+            "id": 273776,
+            "icon": "inv_pant_plate_outdooramaniloa_c_01"
           }
         ],
         "9": [
@@ -10203,7 +11090,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Poison-Proof Stompers",
-            "id": 273777
+            "id": 273777,
+            "icon": "inv_boot_plate_outdooramaniloa_c_01"
           }
         ],
         "12": [
@@ -10214,7 +11102,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Band of the Amani Warlord",
-            "id": 273792
+            "id": 273792,
+            "icon": "inv_121_jewelry_ring02_green"
           }
         ],
         "1": [
@@ -10225,7 +11114,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Strand of Warding Fangs",
-            "id": 273781
+            "id": 273781,
+            "icon": "inv_121_jewelry_neck03_teal"
           }
         ]
       },
@@ -10238,7 +11128,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Pendant of Malefic Fury",
-            "id": 251142
+            "id": 251142,
+            "icon": "inv_12_jewelry_silvermoonelf_necklace_green"
           }
         ],
         "3": [
@@ -10249,7 +11140,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Speakeasy Shroud",
-            "id": 251132
+            "id": 251132,
+            "icon": "inv_cape_leather_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -10257,7 +11149,8 @@ window.LOOT_DATA = {
             "droppedBy": "Xathuux the Annihilator",
             "stats": [],
             "name": "Resonant Bellowstone",
-            "id": 250228
+            "id": 250228,
+            "icon": "inv_alchemy_90_stone_green"
           }
         ],
         "5": [
@@ -10268,7 +11161,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Overseer's Vambraces",
-            "id": 251133
+            "id": 251133,
+            "icon": "inv_bracer_plate_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -10279,7 +11173,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Signet of Snarling Servitude",
-            "id": 251136
+            "id": 251136,
+            "icon": "inv_12_jewelry_voidelf_ring_teal"
           }
         ],
         "2": [
@@ -10290,7 +11185,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Cinderfury Shoulderguards",
-            "id": 251138
+            "id": 251138,
+            "icon": "inv_shoulder_plate_dungeonharronir_c_01"
           }
         ],
         "10": [
@@ -10305,7 +11201,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Axe",
-            "droppedBy": "Xathuux the Annihilator"
+            "droppedBy": "Xathuux the Annihilator",
+            "icon": "inv_axe_2h_dungeonharronir_c_01"
           },
           {
             "id": 258045,
@@ -10315,7 +11212,8 @@ window.LOOT_DATA = {
             "stats": [],
             "hand": "1h",
             "weaponClass": "Warglaive",
-            "droppedBy": "Lithiel Cinderfury"
+            "droppedBy": "Lithiel Cinderfury",
+            "icon": "inv_glaive_1h_questbloodelf_b_01"
           }
         ],
         "0": [
@@ -10326,7 +11224,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Greathelm of Temptation",
-            "id": 251126
+            "id": 251126,
+            "icon": "inv_helm_plate_dungeonharronir_c_01"
           }
         ]
       },
@@ -10339,7 +11238,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Yoke of the Charging Bear",
-            "id": 251173
+            "id": 251173,
+            "icon": "inv_12_jewelry_zulaman_troll_necklace_green1"
           }
         ],
         "6": [
@@ -10350,7 +11250,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Bonds of the Hash'ura",
-            "id": 251214
+            "id": 251214,
+            "icon": "inv_glove_plate_dungeonharronir_c_01"
           }
         ],
         "7": [
@@ -10361,7 +11262,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Autumn's Boon Belt",
-            "id": 251144
+            "id": 251144,
+            "icon": "inv_belt_plate_dungeonharronir_c_01"
           }
         ],
         "4": [
@@ -10372,7 +11274,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sentinel Challenger's Prize",
-            "id": 251151
+            "id": 251151,
+            "icon": "inv_chest_plate_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -10382,7 +11285,8 @@ window.LOOT_DATA = {
               "Crit"
             ],
             "name": "Idol of the War Loa",
-            "id": 250229
+            "id": 250229,
+            "icon": "inv12_jewelrytrinkets_dungeon_idolofthewargod"
           }
         ],
         "12": [
@@ -10393,7 +11297,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Pilfered Precious Band",
-            "id": 251148
+            "id": 251148,
+            "icon": "inv_12_jewelry_zulaman_troll_ring_green2"
           }
         ]
       }
@@ -10412,7 +11317,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Dagger",
-            "droppedBy": "Atroxus"
+            "droppedBy": "Atroxus",
+            "icon": "inv_knife_1h_dungeonharronir_c_02"
           }
         ],
         "7": [
@@ -10423,7 +11329,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Behemoth Waistband",
-            "id": 251228
+            "id": 251228,
+            "icon": "inv_belt_mail_dungeonharronir_c_01"
           }
         ],
         "4": [
@@ -10434,7 +11341,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Manipulator's Vest",
-            "id": 251233
+            "id": 251233,
+            "icon": "inv_chest_mail_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -10442,7 +11350,8 @@ window.LOOT_DATA = {
             "droppedBy": "Charonus",
             "stats": [],
             "name": "Mindpiercer's Sigil",
-            "id": 250224
+            "id": 250224,
+            "icon": "inv_icon_shadowcouncilorb_purple"
           }
         ],
         "12": [
@@ -10453,7 +11362,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sickening Signet of Atroxus",
-            "id": 252258
+            "id": 252258,
+            "icon": "inv_12_jewelry_devouringhost_ring_bronze2"
           }
         ],
         "1": [
@@ -10464,7 +11374,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Graft of the Domanaar",
-            "id": 251234
+            "id": 251234,
+            "icon": "inv_12_jewelry_devouringhost_necklace_silver2"
           }
         ],
         "0": [
@@ -10475,7 +11386,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Voidscarred Crown",
-            "id": 251220
+            "id": 251220,
+            "icon": "inv_helm_mail_dungeonharronir_c_01"
           }
         ]
       },
@@ -10488,7 +11400,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Lightwarden's Bind",
-            "id": 251194
+            "id": 251194,
+            "icon": "inv12_jewelrytrinkets_rutaani_ring_yellow"
           }
         ],
         "6": [
@@ -10499,7 +11412,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Pulverizing Pads",
-            "id": 251165
+            "id": 251165,
+            "icon": "inv_glove_mail_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -10509,13 +11423,15 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Lightspire Core",
-            "id": 250214
+            "id": 250214,
+            "icon": "inv_enchant_essenceastrallarge"
           },
           {
             "droppedBy": "Ziekket",
             "stats": [],
             "name": "Sapling of the Dawnroot",
-            "id": 250259
+            "id": 250259,
+            "icon": "inv_misc_herb_nightmarevine"
           }
         ],
         "5": [
@@ -10526,7 +11442,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Saptorbane Guards",
-            "id": 251200
+            "id": 251200,
+            "icon": "inv_bracer_mail_dungeonharronir_c_01"
           }
         ],
         "11": [
@@ -10541,7 +11458,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "Lightwarden Ruia"
+            "droppedBy": "Lightwarden Ruia",
+            "icon": "inv_offhand_1h_dungeonharronir_c_01"
           }
         ],
         "2": [
@@ -10552,7 +11470,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Ironroot Collar",
-            "id": 251184
+            "id": 251184,
+            "icon": "inv_shoulder_mail_dungeonharronir_c_01"
           }
         ],
         "3": [
@@ -10563,7 +11482,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Bloodthorn Burnous",
-            "id": 251190
+            "id": 251190,
+            "icon": "inv_cape_mail_dungeonharronir_c_01"
           }
         ]
       },
@@ -10576,7 +11496,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Ritual Binder's Ring",
-            "id": 159459
+            "id": 159459,
+            "icon": "inv_ring_80_03e"
           }
         ],
         "6": [
@@ -10587,7 +11508,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sepulchral Construct's Gloves",
-            "id": 160213
+            "id": 160213,
+            "icon": "inv_glove_mail_zandalardungeon_c_01"
           }
         ],
         "7": [
@@ -10598,7 +11520,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Belt of the Consecrated Tomb",
-            "id": 159369
+            "id": 159369,
+            "icon": "inv_belt_mail_zandalardungeon_c_01"
           }
         ],
         "4": [
@@ -10609,7 +11532,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Loa-Blessed Chestguard",
-            "id": 239046
+            "id": 239046,
+            "icon": "inv_chest_mail_zandalardungeon_c_01"
           }
         ],
         "11": [
@@ -10624,7 +11548,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "Mchimba the Embalmer"
+            "droppedBy": "Mchimba the Embalmer",
+            "icon": "inv_offhand_1h_battledungeon_c_02"
           }
         ],
         "3": [
@@ -10635,7 +11560,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Cloak of the Restless Tribes",
-            "id": 159288
+            "id": 159288,
+            "icon": "inv_cape_mail_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -10646,7 +11572,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Boots of the Headlong Conqueror",
-            "id": 159371
+            "id": 159371,
+            "icon": "inv_boot_mail_zandalardungeon_c_01"
           }
         ],
         "13": [
@@ -10654,7 +11581,8 @@ window.LOOT_DATA = {
             "droppedBy": "King Dazar",
             "stats": [],
             "name": "Stormbound Emblem of Dazar",
-            "id": 273649
+            "id": 273649,
+            "icon": "inv_7_0raid_necklace_14a"
           }
         ],
         "2": [
@@ -10665,7 +11593,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Spaulders of Prime Emperor",
-            "id": 239049
+            "id": 239049,
+            "icon": "inv_shoulder_mail_zandalardungeon_c_01"
           }
         ],
         "10": [
@@ -10680,7 +11609,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Dagger",
-            "droppedBy": "The Golden Serpent"
+            "droppedBy": "The Golden Serpent",
+            "icon": "inv_knife_1h_battledungeon_c_01"
           },
           {
             "id": 160216,
@@ -10693,7 +11623,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Sword",
-            "droppedBy": "Aka'ali the Conqueror"
+            "droppedBy": "Aka'ali the Conqueror",
+            "icon": "inv_sword_1h_battledungeon_c_02"
           }
         ]
       },
@@ -10710,7 +11641,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": "Melidrussa Chillworn"
+            "droppedBy": "Melidrussa Chillworn",
+            "icon": "inv_staff_2h_dragondungeon_c_02"
           }
         ],
         "6": [
@@ -10721,7 +11653,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Galerattle Gauntlets",
-            "id": 193752
+            "id": 193752,
+            "icon": "inv_mail_dragondungeon_c_01_glove"
           }
         ],
         "13": [
@@ -10729,7 +11662,8 @@ window.LOOT_DATA = {
             "droppedBy": "Melidrussa Chillworn",
             "stats": [],
             "name": "Ruby Whelp Shell",
-            "id": 193757
+            "id": 193757,
+            "icon": "inv_item_dragonegg_redbroken01"
           }
         ],
         "8": [
@@ -10740,7 +11674,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Egg Tender's Leggings",
-            "id": 193759
+            "id": 193759,
+            "icon": "inv_mail_dragondungeon_c_01_pant"
           }
         ],
         "11": [
@@ -10755,7 +11690,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "Kokia Blazehoof"
+            "droppedBy": "Kokia Blazehoof",
+            "icon": "inv_offhand_1h_drakonid_c_01"
           }
         ],
         "3": [
@@ -10766,7 +11702,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Fireproof Drape",
-            "id": 193763
+            "id": 193763,
+            "icon": "inv_mail_dragondungeon_c_01_cape"
           }
         ],
         "0": [
@@ -10777,7 +11714,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Blazebound Lieutenant's Helm",
-            "id": 193765
+            "id": 193765,
+            "icon": "inv_mail_dragondungeon_c_01_helm"
           }
         ]
       },
@@ -10790,7 +11728,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Charged Sandstone Band",
-            "id": 158366
+            "id": 158366,
+            "icon": "inv_ring_80_03d"
           },
           {
             "droppedBy": "Merektha",
@@ -10799,7 +11738,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Jade Ophidian Band",
-            "id": 162544
+            "id": 162544,
+            "icon": "inv_ring_80_04c"
           }
         ],
         "4": [
@@ -10810,7 +11750,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Corrupted Hexxer's Vestments",
-            "id": 239034
+            "id": 239034,
+            "icon": "inv_chest_mail_zandalardungeon_c_01"
           }
         ],
         "13": [
@@ -10818,7 +11759,8 @@ window.LOOT_DATA = {
             "droppedBy": "Avatar of Sethraliss",
             "stats": [],
             "name": "Sethraliss' Defiled Relic",
-            "id": 158368
+            "id": 158368,
+            "icon": "inv_staff_2h_snakeman_c_01"
           }
         ],
         "5": [
@@ -10829,7 +11771,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Arc-Glass Bindings",
-            "id": 159380
+            "id": 159380,
+            "icon": "inv_bracer_mail_zandalardungeon_c_01"
           }
         ],
         "8": [
@@ -10840,7 +11783,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Legguards of the Awakening Brood",
-            "id": 159375
+            "id": 159375,
+            "icon": "inv_pant_mail_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -10851,7 +11795,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sabatons of Coruscating Energy",
-            "id": 159388
+            "id": 159388,
+            "icon": "inv_boot_mail_zandalardungeon_c_01"
           }
         ],
         "10": [
@@ -10866,7 +11811,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Mace",
-            "droppedBy": "Galvazzt"
+            "droppedBy": "Galvazzt",
+            "icon": "inv_mace_1h_pandaraid_d_01"
           },
           {
             "id": 159636,
@@ -10879,7 +11825,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": null
+            "droppedBy": null,
+            "icon": "inv_staff_2h_battledungeon_c_04"
           }
         ],
         "0": [
@@ -10890,7 +11837,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sethraliss' Fanged Helm",
-            "id": 239035
+            "id": 239035,
+            "icon": "inv_helm_mail_zandalardungeon_c_01"
           }
         ]
       },
@@ -10903,7 +11851,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Strand of Warding Fangs",
-            "id": 273781
+            "id": 273781,
+            "icon": "inv_121_jewelry_neck03_teal"
           }
         ],
         "4": [
@@ -10914,7 +11863,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Chestguard of Corroded Scales",
-            "id": 273789
+            "id": 273789,
+            "icon": "inv_chest_mail_outdooramaniloa_c_01"
           }
         ],
         "13": [
@@ -10922,13 +11872,15 @@ window.LOOT_DATA = {
             "droppedBy": "The Writhing Coil",
             "stats": [],
             "name": "Knot of Writhing Serpents",
-            "id": 273794
+            "id": 273794,
+            "icon": "inv_121_trinket_dungeon_ulatek_writhe"
           },
           {
             "droppedBy": "Rav'i",
             "stats": [],
             "name": "Vile Vial of Volatile Venom",
-            "id": 273796
+            "id": 273796,
+            "icon": "inv_121_trinket_dungeon_ulatek_vile"
           }
         ],
         "5": [
@@ -10939,7 +11891,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Hydra Scale Wristguards",
-            "id": 273775
+            "id": 273775,
+            "icon": "inv_bracer_mail_outdooramaniloa_c_01"
           }
         ],
         "11": [
@@ -10954,7 +11907,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "The Writhing Coil"
+            "droppedBy": "The Writhing Coil",
+            "icon": "inv_offhand_1h_outdooramaniloa_c_01"
           }
         ],
         "12": [
@@ -10965,7 +11919,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Band of the Amani Warlord",
-            "id": 273792
+            "id": 273792,
+            "icon": "inv_121_jewelry_ring02_green"
           }
         ],
         "10": [
@@ -10980,7 +11935,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Dagger",
-            "droppedBy": "Zul'jan"
+            "droppedBy": "Zul'jan",
+            "icon": "inv_knife_1h_zuljin_d_01"
           },
           {
             "id": 273780,
@@ -10993,7 +11949,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Axe",
-            "droppedBy": "Rav'i"
+            "droppedBy": "Rav'i",
+            "icon": "inv_axe_1h_outdooramaniloa_c_01"
           }
         ]
       },
@@ -11006,7 +11963,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Pendant of Malefic Fury",
-            "id": 251142
+            "id": 251142,
+            "icon": "inv_12_jewelry_silvermoonelf_necklace_green"
           }
         ],
         "3": [
@@ -11017,7 +11975,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Speakeasy Shroud",
-            "id": 251132
+            "id": 251132,
+            "icon": "inv_cape_leather_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -11025,7 +11984,8 @@ window.LOOT_DATA = {
             "droppedBy": "Zaen Bladesorrow",
             "stats": [],
             "name": "Freightrunner's Flask",
-            "id": 250215
+            "id": 250215,
+            "icon": "inv_alchemy_90_flask_red"
           }
         ],
         "8": [
@@ -11036,7 +11996,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Lithiel's Linked Leggings",
-            "id": 251141
+            "id": 251141,
+            "icon": "inv_pant_mail_dungeonharronir_c_01"
           }
         ],
         "9": [
@@ -11047,7 +12008,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Felsoaked Soles",
-            "id": 251125
+            "id": 251125,
+            "icon": "inv_boot_mail_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -11058,7 +12020,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Signet of Snarling Servitude",
-            "id": 251136
+            "id": 251136,
+            "icon": "inv_12_jewelry_voidelf_ring_teal"
           }
         ],
         "2": [
@@ -11069,7 +12032,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Jangling Felpaulets",
-            "id": 251131
+            "id": 251131,
+            "icon": "inv_shoulder_mail_dungeonharronir_c_01"
           }
         ],
         "10": [
@@ -11084,7 +12048,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": "Kystia Manaheart"
+            "droppedBy": "Kystia Manaheart",
+            "icon": "inv_staff_2h_dungeonharronir_c_02"
           },
           {
             "id": 258045,
@@ -11094,7 +12059,8 @@ window.LOOT_DATA = {
             "stats": [],
             "hand": "1h",
             "weaponClass": "Warglaive",
-            "droppedBy": "Lithiel Cinderfury"
+            "droppedBy": "Lithiel Cinderfury",
+            "icon": "inv_glaive_1h_questbloodelf_b_01"
           }
         ]
       },
@@ -11107,7 +12073,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Pilfered Precious Band",
-            "id": 251148
+            "id": 251148,
+            "icon": "inv_12_jewelry_zulaman_troll_ring_green2"
           }
         ],
         "6": [
@@ -11118,7 +12085,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Season's Turn Gauntlets",
-            "id": 251152
+            "id": 251152,
+            "icon": "inv_glove_mail_dungeonharronir_c_01"
           }
         ],
         "7": [
@@ -11129,7 +12097,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Tribal Defender's Cord",
-            "id": 251155
+            "id": 251155,
+            "icon": "inv_belt_mail_dungeonharronir_c_01"
           }
         ],
         "11": [
@@ -11144,7 +12113,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "Sentinel of Winter"
+            "droppedBy": "Sentinel of Winter",
+            "icon": "inv_offhand_1h_dungeonharronir_c_01"
           }
         ],
         "9": [
@@ -11155,7 +12125,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Forgotten Tribe Footguards",
-            "id": 251145
+            "id": 251145,
+            "icon": "inv_boot_mail_dungeonharronir_c_01"
           }
         ],
         "10": [
@@ -11170,7 +12141,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": "Nalorakk"
+            "droppedBy": "Nalorakk",
+            "icon": "inv_staff_2h_amani_c_01"
           }
         ],
         "1": [
@@ -11181,7 +12153,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Yoke of the Charging Bear",
-            "id": 251173
+            "id": 251173,
+            "icon": "inv_12_jewelry_zulaman_troll_necklace_green1"
           }
         ],
         "0": [
@@ -11192,7 +12165,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Nalorakk's Nightmare",
-            "id": 251158
+            "id": 251158,
+            "icon": "inv_helm_mail_dungeonharronir_c_01"
           }
         ]
       }
@@ -11207,7 +12181,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Graft of the Domanaar",
-            "id": 251234
+            "id": 251234,
+            "icon": "inv_12_jewelry_devouringhost_necklace_silver2"
           }
         ],
         "7": [
@@ -11218,7 +12193,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Behemoth Waistband",
-            "id": 251228
+            "id": 251228,
+            "icon": "inv_belt_mail_dungeonharronir_c_01"
           }
         ],
         "4": [
@@ -11229,7 +12205,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Manipulator's Vest",
-            "id": 251233
+            "id": 251233,
+            "icon": "inv_chest_mail_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -11237,7 +12214,8 @@ window.LOOT_DATA = {
             "droppedBy": "Taz'Rah",
             "stats": [],
             "name": "Void Execution Mandate",
-            "id": 250225
+            "id": 250225,
+            "icon": "inv_inscription_80_warscroll_intellect"
           }
         ],
         "12": [
@@ -11248,7 +12226,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sickening Signet of Atroxus",
-            "id": 252258
+            "id": 252258,
+            "icon": "inv_12_jewelry_devouringhost_ring_bronze2"
           }
         ],
         "0": [
@@ -11259,7 +12238,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Voidscarred Crown",
-            "id": 251220
+            "id": 251220,
+            "icon": "inv_helm_mail_dungeonharronir_c_01"
           }
         ]
       },
@@ -11272,7 +12252,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Lightwarden's Bind",
-            "id": 251194
+            "id": 251194,
+            "icon": "inv12_jewelrytrinkets_rutaani_ring_yellow"
           }
         ],
         "6": [
@@ -11283,7 +12264,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Pulverizing Pads",
-            "id": 251165
+            "id": 251165,
+            "icon": "inv_glove_mail_dungeonharronir_c_01"
           }
         ],
         "3": [
@@ -11294,7 +12276,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Bloodthorn Burnous",
-            "id": 251190
+            "id": 251190,
+            "icon": "inv_cape_mail_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -11304,13 +12287,15 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Lightspire Core",
-            "id": 250214
+            "id": 250214,
+            "icon": "inv_enchant_essenceastrallarge"
           },
           {
             "droppedBy": "Ziekket",
             "stats": [],
             "name": "Sapling of the Dawnroot",
-            "id": 250259
+            "id": 250259,
+            "icon": "inv_misc_herb_nightmarevine"
           }
         ],
         "5": [
@@ -11321,7 +12306,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Saptorbane Guards",
-            "id": 251200
+            "id": 251200,
+            "icon": "inv_bracer_mail_dungeonharronir_c_01"
           }
         ],
         "2": [
@@ -11332,7 +12318,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Ironroot Collar",
-            "id": 251184
+            "id": 251184,
+            "icon": "inv_shoulder_mail_dungeonharronir_c_01"
           }
         ],
         "10": [
@@ -11347,7 +12334,8 @@ window.LOOT_DATA = {
             ],
             "hand": "ranged",
             "weaponClass": "Crossbow",
-            "droppedBy": "Ikuzz the Light Hunter"
+            "droppedBy": "Ikuzz the Light Hunter",
+            "icon": "inv_crossbow_2h_dungeonharronir_c_01"
           }
         ]
       },
@@ -11360,7 +12348,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Ritual Binder's Ring",
-            "id": 159459
+            "id": 159459,
+            "icon": "inv_ring_80_03e"
           }
         ],
         "6": [
@@ -11371,7 +12360,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sepulchral Construct's Gloves",
-            "id": 160213
+            "id": 160213,
+            "icon": "inv_glove_mail_zandalardungeon_c_01"
           }
         ],
         "7": [
@@ -11382,7 +12372,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Belt of the Consecrated Tomb",
-            "id": 159369
+            "id": 159369,
+            "icon": "inv_belt_mail_zandalardungeon_c_01"
           }
         ],
         "4": [
@@ -11393,7 +12384,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Loa-Blessed Chestguard",
-            "id": 239046
+            "id": 239046,
+            "icon": "inv_chest_mail_zandalardungeon_c_01"
           }
         ],
         "13": [
@@ -11401,7 +12393,8 @@ window.LOOT_DATA = {
             "droppedBy": "The Golden Serpent",
             "stats": [],
             "name": "Lustrous Golden Plumage",
-            "id": 159617
+            "id": 159617,
+            "icon": "inv_icon_feather06a"
           }
         ],
         "3": [
@@ -11412,7 +12405,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Cloak of the Restless Tribes",
-            "id": 159288
+            "id": 159288,
+            "icon": "inv_cape_mail_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -11423,7 +12417,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Boots of the Headlong Conqueror",
-            "id": 159371
+            "id": 159371,
+            "icon": "inv_boot_mail_zandalardungeon_c_01"
           }
         ],
         "2": [
@@ -11434,7 +12429,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Spaulders of Prime Emperor",
-            "id": 239049
+            "id": 239049,
+            "icon": "inv_shoulder_mail_zandalardungeon_c_01"
           }
         ],
         "10": [
@@ -11449,7 +12445,8 @@ window.LOOT_DATA = {
             ],
             "hand": "ranged",
             "weaponClass": "Crossbow",
-            "droppedBy": "Aka'ali the Conqueror"
+            "droppedBy": "Aka'ali the Conqueror",
+            "icon": "inv_bow_2h_crossbow_pandaraid_d_01"
           }
         ]
       },
@@ -11462,7 +12459,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Egg Tender's Leggings",
-            "id": 193759
+            "id": 193759,
+            "icon": "inv_mail_dragondungeon_c_01_pant"
           }
         ],
         "0": [
@@ -11473,7 +12471,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Blazebound Lieutenant's Helm",
-            "id": 193765
+            "id": 193765,
+            "icon": "inv_mail_dragondungeon_c_01_helm"
           }
         ],
         "3": [
@@ -11484,7 +12483,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Fireproof Drape",
-            "id": 193763
+            "id": 193763,
+            "icon": "inv_mail_dragondungeon_c_01_cape"
           }
         ],
         "6": [
@@ -11495,7 +12495,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Galerattle Gauntlets",
-            "id": 193752
+            "id": 193752,
+            "icon": "inv_mail_dragondungeon_c_01_glove"
           }
         ],
         "13": [
@@ -11503,7 +12504,8 @@ window.LOOT_DATA = {
             "droppedBy": "Melidrussa Chillworn",
             "stats": [],
             "name": "Ruby Whelp Shell",
-            "id": 193757
+            "id": 193757,
+            "icon": "inv_item_dragonegg_redbroken01"
           }
         ]
       },
@@ -11516,7 +12518,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Charged Sandstone Band",
-            "id": 158366
+            "id": 158366,
+            "icon": "inv_ring_80_03d"
           },
           {
             "droppedBy": "Merektha",
@@ -11525,7 +12528,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Jade Ophidian Band",
-            "id": 162544
+            "id": 162544,
+            "icon": "inv_ring_80_04c"
           }
         ],
         "4": [
@@ -11536,7 +12540,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Corrupted Hexxer's Vestments",
-            "id": 239034
+            "id": 239034,
+            "icon": "inv_chest_mail_zandalardungeon_c_01"
           }
         ],
         "13": [
@@ -11544,7 +12549,8 @@ window.LOOT_DATA = {
             "droppedBy": "Galvazzt",
             "stats": [],
             "name": "Tiny Electromental in a Jar",
-            "id": 158374
+            "id": 158374,
+            "icon": "inv_alchemy_71_potion4"
           }
         ],
         "5": [
@@ -11555,7 +12561,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Arc-Glass Bindings",
-            "id": 159380
+            "id": 159380,
+            "icon": "inv_bracer_mail_zandalardungeon_c_01"
           }
         ],
         "8": [
@@ -11566,7 +12573,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Legguards of the Awakening Brood",
-            "id": 159375
+            "id": 159375,
+            "icon": "inv_pant_mail_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -11577,7 +12585,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sabatons of Coruscating Energy",
-            "id": 159388
+            "id": 159388,
+            "icon": "inv_boot_mail_zandalardungeon_c_01"
           }
         ],
         "10": [
@@ -11592,7 +12601,8 @@ window.LOOT_DATA = {
             ],
             "hand": "ranged",
             "weaponClass": "Bow",
-            "droppedBy": "Merektha"
+            "droppedBy": "Merektha",
+            "icon": "inv_bow_1h_battledungeon_c_01"
           }
         ],
         "0": [
@@ -11603,7 +12613,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sethraliss' Fanged Helm",
-            "id": 239035
+            "id": 239035,
+            "icon": "inv_helm_mail_zandalardungeon_c_01"
           }
         ]
       },
@@ -11616,7 +12627,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Strand of Warding Fangs",
-            "id": 273781
+            "id": 273781,
+            "icon": "inv_121_jewelry_neck03_teal"
           }
         ],
         "4": [
@@ -11627,7 +12639,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Chestguard of Corroded Scales",
-            "id": 273789
+            "id": 273789,
+            "icon": "inv_chest_mail_outdooramaniloa_c_01"
           }
         ],
         "13": [
@@ -11635,13 +12648,15 @@ window.LOOT_DATA = {
             "droppedBy": "Rav'i",
             "stats": [],
             "name": "Vile Vial of Volatile Venom",
-            "id": 273796
+            "id": 273796,
+            "icon": "inv_121_trinket_dungeon_ulatek_vile"
           },
           {
             "droppedBy": "Zul'jan",
             "stats": [],
             "name": "Tattered Amani War Banner",
-            "id": 273797
+            "id": 273797,
+            "icon": "inv_121_trinket_dungeon_ulatek_banner"
           }
         ],
         "5": [
@@ -11652,7 +12667,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Hydra Scale Wristguards",
-            "id": 273775
+            "id": 273775,
+            "icon": "inv_bracer_mail_outdooramaniloa_c_01"
           }
         ],
         "12": [
@@ -11663,7 +12679,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Band of the Amani Warlord",
-            "id": 273792
+            "id": 273792,
+            "icon": "inv_121_jewelry_ring02_green"
           }
         ],
         "10": [
@@ -11678,7 +12695,8 @@ window.LOOT_DATA = {
             ],
             "hand": "ranged",
             "weaponClass": "Bow",
-            "droppedBy": "Zul'jan"
+            "droppedBy": "Zul'jan",
+            "icon": "inv_bow_1h_outdooramaniloa_c_01"
           }
         ]
       },
@@ -11691,7 +12709,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Signet of Snarling Servitude",
-            "id": 251136
+            "id": 251136,
+            "icon": "inv_12_jewelry_voidelf_ring_teal"
           }
         ],
         "3": [
@@ -11702,7 +12721,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Speakeasy Shroud",
-            "id": 251132
+            "id": 251132,
+            "icon": "inv_cape_leather_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -11710,13 +12730,15 @@ window.LOOT_DATA = {
             "droppedBy": "Zaen Bladesorrow",
             "stats": [],
             "name": "Freightrunner's Flask",
-            "id": 250215
+            "id": 250215,
+            "icon": "inv_alchemy_90_flask_red"
           },
           {
             "droppedBy": "Xathuux the Annihilator",
             "stats": [],
             "name": "Resonant Bellowstone",
-            "id": 250228
+            "id": 250228,
+            "icon": "inv_alchemy_90_stone_green"
           }
         ],
         "8": [
@@ -11727,7 +12749,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Lithiel's Linked Leggings",
-            "id": 251141
+            "id": 251141,
+            "icon": "inv_pant_mail_dungeonharronir_c_01"
           }
         ],
         "9": [
@@ -11738,7 +12761,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Felsoaked Soles",
-            "id": 251125
+            "id": 251125,
+            "icon": "inv_boot_mail_dungeonharronir_c_01"
           }
         ],
         "1": [
@@ -11749,7 +12773,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Pendant of Malefic Fury",
-            "id": 251142
+            "id": 251142,
+            "icon": "inv_12_jewelry_silvermoonelf_necklace_green"
           }
         ],
         "2": [
@@ -11760,7 +12785,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Jangling Felpaulets",
-            "id": 251131
+            "id": 251131,
+            "icon": "inv_shoulder_mail_dungeonharronir_c_01"
           }
         ],
         "10": [
@@ -11775,7 +12801,8 @@ window.LOOT_DATA = {
             ],
             "hand": "ranged",
             "weaponClass": "Gun",
-            "droppedBy": "Kystia Manaheart"
+            "droppedBy": "Kystia Manaheart",
+            "icon": "inv_firearm_2h_undergroundquest_b_01"
           }
         ]
       },
@@ -11788,7 +12815,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Pilfered Precious Band",
-            "id": 251148
+            "id": 251148,
+            "icon": "inv_12_jewelry_zulaman_troll_ring_green2"
           }
         ],
         "6": [
@@ -11799,7 +12827,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Season's Turn Gauntlets",
-            "id": 251152
+            "id": 251152,
+            "icon": "inv_glove_mail_dungeonharronir_c_01"
           }
         ],
         "7": [
@@ -11810,7 +12839,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Tribal Defender's Cord",
-            "id": 251155
+            "id": 251155,
+            "icon": "inv_belt_mail_dungeonharronir_c_01"
           }
         ],
         "9": [
@@ -11821,7 +12851,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Forgotten Tribe Footguards",
-            "id": 251145
+            "id": 251145,
+            "icon": "inv_boot_mail_dungeonharronir_c_01"
           }
         ],
         "1": [
@@ -11832,7 +12863,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Yoke of the Charging Bear",
-            "id": 251173
+            "id": 251173,
+            "icon": "inv_12_jewelry_zulaman_troll_necklace_green1"
           }
         ],
         "0": [
@@ -11843,7 +12875,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Nalorakk's Nightmare",
-            "id": 251158
+            "id": 251158,
+            "icon": "inv_helm_mail_dungeonharronir_c_01"
           }
         ]
       }
@@ -11858,7 +12891,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Graft of the Domanaar",
-            "id": 251234
+            "id": 251234,
+            "icon": "inv_12_jewelry_devouringhost_necklace_silver2"
           }
         ],
         "7": [
@@ -11869,7 +12903,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Behemoth Waistband",
-            "id": 251228
+            "id": 251228,
+            "icon": "inv_belt_mail_dungeonharronir_c_01"
           }
         ],
         "4": [
@@ -11880,7 +12915,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Manipulator's Vest",
-            "id": 251233
+            "id": 251233,
+            "icon": "inv_chest_mail_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -11888,7 +12924,8 @@ window.LOOT_DATA = {
             "droppedBy": "Taz'Rah",
             "stats": [],
             "name": "Void Execution Mandate",
-            "id": 250225
+            "id": 250225,
+            "icon": "inv_inscription_80_warscroll_intellect"
           }
         ],
         "12": [
@@ -11899,7 +12936,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sickening Signet of Atroxus",
-            "id": 252258
+            "id": 252258,
+            "icon": "inv_12_jewelry_devouringhost_ring_bronze2"
           }
         ],
         "0": [
@@ -11910,7 +12948,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Voidscarred Crown",
-            "id": 251220
+            "id": 251220,
+            "icon": "inv_helm_mail_dungeonharronir_c_01"
           }
         ]
       },
@@ -11923,7 +12962,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Lightwarden's Bind",
-            "id": 251194
+            "id": 251194,
+            "icon": "inv12_jewelrytrinkets_rutaani_ring_yellow"
           }
         ],
         "6": [
@@ -11934,7 +12974,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Pulverizing Pads",
-            "id": 251165
+            "id": 251165,
+            "icon": "inv_glove_mail_dungeonharronir_c_01"
           }
         ],
         "3": [
@@ -11945,7 +12986,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Bloodthorn Burnous",
-            "id": 251190
+            "id": 251190,
+            "icon": "inv_cape_mail_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -11955,13 +12997,15 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Lightspire Core",
-            "id": 250214
+            "id": 250214,
+            "icon": "inv_enchant_essenceastrallarge"
           },
           {
             "droppedBy": "Ziekket",
             "stats": [],
             "name": "Sapling of the Dawnroot",
-            "id": 250259
+            "id": 250259,
+            "icon": "inv_misc_herb_nightmarevine"
           }
         ],
         "5": [
@@ -11972,7 +13016,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Saptorbane Guards",
-            "id": 251200
+            "id": 251200,
+            "icon": "inv_bracer_mail_dungeonharronir_c_01"
           }
         ],
         "2": [
@@ -11983,7 +13028,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Ironroot Collar",
-            "id": 251184
+            "id": 251184,
+            "icon": "inv_shoulder_mail_dungeonharronir_c_01"
           }
         ],
         "10": [
@@ -11998,7 +13044,8 @@ window.LOOT_DATA = {
             ],
             "hand": "ranged",
             "weaponClass": "Crossbow",
-            "droppedBy": "Ikuzz the Light Hunter"
+            "droppedBy": "Ikuzz the Light Hunter",
+            "icon": "inv_crossbow_2h_dungeonharronir_c_01"
           }
         ]
       },
@@ -12011,7 +13058,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Ritual Binder's Ring",
-            "id": 159459
+            "id": 159459,
+            "icon": "inv_ring_80_03e"
           }
         ],
         "6": [
@@ -12022,7 +13070,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sepulchral Construct's Gloves",
-            "id": 160213
+            "id": 160213,
+            "icon": "inv_glove_mail_zandalardungeon_c_01"
           }
         ],
         "7": [
@@ -12033,7 +13082,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Belt of the Consecrated Tomb",
-            "id": 159369
+            "id": 159369,
+            "icon": "inv_belt_mail_zandalardungeon_c_01"
           }
         ],
         "4": [
@@ -12044,7 +13094,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Loa-Blessed Chestguard",
-            "id": 239046
+            "id": 239046,
+            "icon": "inv_chest_mail_zandalardungeon_c_01"
           }
         ],
         "13": [
@@ -12052,7 +13103,8 @@ window.LOOT_DATA = {
             "droppedBy": "The Golden Serpent",
             "stats": [],
             "name": "Lustrous Golden Plumage",
-            "id": 159617
+            "id": 159617,
+            "icon": "inv_icon_feather06a"
           }
         ],
         "3": [
@@ -12063,7 +13115,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Cloak of the Restless Tribes",
-            "id": 159288
+            "id": 159288,
+            "icon": "inv_cape_mail_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -12074,7 +13127,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Boots of the Headlong Conqueror",
-            "id": 159371
+            "id": 159371,
+            "icon": "inv_boot_mail_zandalardungeon_c_01"
           }
         ],
         "2": [
@@ -12085,7 +13139,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Spaulders of Prime Emperor",
-            "id": 239049
+            "id": 239049,
+            "icon": "inv_shoulder_mail_zandalardungeon_c_01"
           }
         ],
         "10": [
@@ -12100,7 +13155,8 @@ window.LOOT_DATA = {
             ],
             "hand": "ranged",
             "weaponClass": "Crossbow",
-            "droppedBy": "Aka'ali the Conqueror"
+            "droppedBy": "Aka'ali the Conqueror",
+            "icon": "inv_bow_2h_crossbow_pandaraid_d_01"
           }
         ]
       },
@@ -12113,7 +13169,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Egg Tender's Leggings",
-            "id": 193759
+            "id": 193759,
+            "icon": "inv_mail_dragondungeon_c_01_pant"
           }
         ],
         "0": [
@@ -12124,7 +13181,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Blazebound Lieutenant's Helm",
-            "id": 193765
+            "id": 193765,
+            "icon": "inv_mail_dragondungeon_c_01_helm"
           }
         ],
         "3": [
@@ -12135,7 +13193,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Fireproof Drape",
-            "id": 193763
+            "id": 193763,
+            "icon": "inv_mail_dragondungeon_c_01_cape"
           }
         ],
         "6": [
@@ -12146,7 +13205,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Galerattle Gauntlets",
-            "id": 193752
+            "id": 193752,
+            "icon": "inv_mail_dragondungeon_c_01_glove"
           }
         ],
         "13": [
@@ -12154,7 +13214,8 @@ window.LOOT_DATA = {
             "droppedBy": "Melidrussa Chillworn",
             "stats": [],
             "name": "Ruby Whelp Shell",
-            "id": 193757
+            "id": 193757,
+            "icon": "inv_item_dragonegg_redbroken01"
           }
         ]
       },
@@ -12167,7 +13228,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Charged Sandstone Band",
-            "id": 158366
+            "id": 158366,
+            "icon": "inv_ring_80_03d"
           },
           {
             "droppedBy": "Merektha",
@@ -12176,7 +13238,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Jade Ophidian Band",
-            "id": 162544
+            "id": 162544,
+            "icon": "inv_ring_80_04c"
           }
         ],
         "4": [
@@ -12187,7 +13250,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Corrupted Hexxer's Vestments",
-            "id": 239034
+            "id": 239034,
+            "icon": "inv_chest_mail_zandalardungeon_c_01"
           }
         ],
         "13": [
@@ -12195,7 +13259,8 @@ window.LOOT_DATA = {
             "droppedBy": "Galvazzt",
             "stats": [],
             "name": "Tiny Electromental in a Jar",
-            "id": 158374
+            "id": 158374,
+            "icon": "inv_alchemy_71_potion4"
           }
         ],
         "5": [
@@ -12206,7 +13271,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Arc-Glass Bindings",
-            "id": 159380
+            "id": 159380,
+            "icon": "inv_bracer_mail_zandalardungeon_c_01"
           }
         ],
         "8": [
@@ -12217,7 +13283,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Legguards of the Awakening Brood",
-            "id": 159375
+            "id": 159375,
+            "icon": "inv_pant_mail_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -12228,7 +13295,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sabatons of Coruscating Energy",
-            "id": 159388
+            "id": 159388,
+            "icon": "inv_boot_mail_zandalardungeon_c_01"
           }
         ],
         "10": [
@@ -12243,7 +13311,8 @@ window.LOOT_DATA = {
             ],
             "hand": "ranged",
             "weaponClass": "Bow",
-            "droppedBy": "Merektha"
+            "droppedBy": "Merektha",
+            "icon": "inv_bow_1h_battledungeon_c_01"
           }
         ],
         "0": [
@@ -12254,7 +13323,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sethraliss' Fanged Helm",
-            "id": 239035
+            "id": 239035,
+            "icon": "inv_helm_mail_zandalardungeon_c_01"
           }
         ]
       },
@@ -12267,7 +13337,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Strand of Warding Fangs",
-            "id": 273781
+            "id": 273781,
+            "icon": "inv_121_jewelry_neck03_teal"
           }
         ],
         "4": [
@@ -12278,7 +13349,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Chestguard of Corroded Scales",
-            "id": 273789
+            "id": 273789,
+            "icon": "inv_chest_mail_outdooramaniloa_c_01"
           }
         ],
         "13": [
@@ -12286,13 +13358,15 @@ window.LOOT_DATA = {
             "droppedBy": "Rav'i",
             "stats": [],
             "name": "Vile Vial of Volatile Venom",
-            "id": 273796
+            "id": 273796,
+            "icon": "inv_121_trinket_dungeon_ulatek_vile"
           },
           {
             "droppedBy": "Zul'jan",
             "stats": [],
             "name": "Tattered Amani War Banner",
-            "id": 273797
+            "id": 273797,
+            "icon": "inv_121_trinket_dungeon_ulatek_banner"
           }
         ],
         "5": [
@@ -12303,7 +13377,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Hydra Scale Wristguards",
-            "id": 273775
+            "id": 273775,
+            "icon": "inv_bracer_mail_outdooramaniloa_c_01"
           }
         ],
         "12": [
@@ -12314,7 +13389,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Band of the Amani Warlord",
-            "id": 273792
+            "id": 273792,
+            "icon": "inv_121_jewelry_ring02_green"
           }
         ],
         "10": [
@@ -12329,7 +13405,8 @@ window.LOOT_DATA = {
             ],
             "hand": "ranged",
             "weaponClass": "Bow",
-            "droppedBy": "Zul'jan"
+            "droppedBy": "Zul'jan",
+            "icon": "inv_bow_1h_outdooramaniloa_c_01"
           }
         ]
       },
@@ -12342,7 +13419,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Signet of Snarling Servitude",
-            "id": 251136
+            "id": 251136,
+            "icon": "inv_12_jewelry_voidelf_ring_teal"
           }
         ],
         "3": [
@@ -12353,7 +13431,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Speakeasy Shroud",
-            "id": 251132
+            "id": 251132,
+            "icon": "inv_cape_leather_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -12361,13 +13440,15 @@ window.LOOT_DATA = {
             "droppedBy": "Zaen Bladesorrow",
             "stats": [],
             "name": "Freightrunner's Flask",
-            "id": 250215
+            "id": 250215,
+            "icon": "inv_alchemy_90_flask_red"
           },
           {
             "droppedBy": "Xathuux the Annihilator",
             "stats": [],
             "name": "Resonant Bellowstone",
-            "id": 250228
+            "id": 250228,
+            "icon": "inv_alchemy_90_stone_green"
           }
         ],
         "8": [
@@ -12378,7 +13459,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Lithiel's Linked Leggings",
-            "id": 251141
+            "id": 251141,
+            "icon": "inv_pant_mail_dungeonharronir_c_01"
           }
         ],
         "9": [
@@ -12389,7 +13471,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Felsoaked Soles",
-            "id": 251125
+            "id": 251125,
+            "icon": "inv_boot_mail_dungeonharronir_c_01"
           }
         ],
         "1": [
@@ -12400,7 +13483,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Pendant of Malefic Fury",
-            "id": 251142
+            "id": 251142,
+            "icon": "inv_12_jewelry_silvermoonelf_necklace_green"
           }
         ],
         "2": [
@@ -12411,7 +13495,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Jangling Felpaulets",
-            "id": 251131
+            "id": 251131,
+            "icon": "inv_shoulder_mail_dungeonharronir_c_01"
           }
         ],
         "10": [
@@ -12426,7 +13511,8 @@ window.LOOT_DATA = {
             ],
             "hand": "ranged",
             "weaponClass": "Gun",
-            "droppedBy": "Kystia Manaheart"
+            "droppedBy": "Kystia Manaheart",
+            "icon": "inv_firearm_2h_undergroundquest_b_01"
           }
         ]
       },
@@ -12439,7 +13525,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Pilfered Precious Band",
-            "id": 251148
+            "id": 251148,
+            "icon": "inv_12_jewelry_zulaman_troll_ring_green2"
           }
         ],
         "6": [
@@ -12450,7 +13537,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Season's Turn Gauntlets",
-            "id": 251152
+            "id": 251152,
+            "icon": "inv_glove_mail_dungeonharronir_c_01"
           }
         ],
         "7": [
@@ -12461,7 +13549,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Tribal Defender's Cord",
-            "id": 251155
+            "id": 251155,
+            "icon": "inv_belt_mail_dungeonharronir_c_01"
           }
         ],
         "9": [
@@ -12472,7 +13561,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Forgotten Tribe Footguards",
-            "id": 251145
+            "id": 251145,
+            "icon": "inv_boot_mail_dungeonharronir_c_01"
           }
         ],
         "1": [
@@ -12483,7 +13573,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Yoke of the Charging Bear",
-            "id": 251173
+            "id": 251173,
+            "icon": "inv_12_jewelry_zulaman_troll_necklace_green1"
           }
         ],
         "0": [
@@ -12494,7 +13585,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Nalorakk's Nightmare",
-            "id": 251158
+            "id": 251158,
+            "icon": "inv_helm_mail_dungeonharronir_c_01"
           }
         ]
       }
@@ -12513,7 +13605,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Axe",
-            "droppedBy": "Atroxus"
+            "droppedBy": "Atroxus",
+            "icon": "inv_axe_1h_dungeonharronir_c_01"
           }
         ],
         "7": [
@@ -12524,7 +13617,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Behemoth Waistband",
-            "id": 251228
+            "id": 251228,
+            "icon": "inv_belt_mail_dungeonharronir_c_01"
           }
         ],
         "4": [
@@ -12535,7 +13629,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Manipulator's Vest",
-            "id": 251233
+            "id": 251233,
+            "icon": "inv_chest_mail_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -12543,7 +13638,8 @@ window.LOOT_DATA = {
             "droppedBy": "Taz'Rah",
             "stats": [],
             "name": "Void Execution Mandate",
-            "id": 250225
+            "id": 250225,
+            "icon": "inv_inscription_80_warscroll_intellect"
           }
         ],
         "12": [
@@ -12554,7 +13650,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sickening Signet of Atroxus",
-            "id": 252258
+            "id": 252258,
+            "icon": "inv_12_jewelry_devouringhost_ring_bronze2"
           }
         ],
         "1": [
@@ -12565,7 +13662,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Graft of the Domanaar",
-            "id": 251234
+            "id": 251234,
+            "icon": "inv_12_jewelry_devouringhost_necklace_silver2"
           }
         ],
         "0": [
@@ -12576,7 +13674,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Voidscarred Crown",
-            "id": 251220
+            "id": 251220,
+            "icon": "inv_helm_mail_dungeonharronir_c_01"
           }
         ]
       },
@@ -12589,7 +13688,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Lightwarden's Bind",
-            "id": 251194
+            "id": 251194,
+            "icon": "inv12_jewelrytrinkets_rutaani_ring_yellow"
           }
         ],
         "6": [
@@ -12600,7 +13700,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Pulverizing Pads",
-            "id": 251165
+            "id": 251165,
+            "icon": "inv_glove_mail_dungeonharronir_c_01"
           }
         ],
         "3": [
@@ -12611,7 +13712,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Bloodthorn Burnous",
-            "id": 251190
+            "id": 251190,
+            "icon": "inv_cape_mail_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -12621,13 +13723,15 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Lightspire Core",
-            "id": 250214
+            "id": 250214,
+            "icon": "inv_enchant_essenceastrallarge"
           },
           {
             "droppedBy": "Ziekket",
             "stats": [],
             "name": "Sapling of the Dawnroot",
-            "id": 250259
+            "id": 250259,
+            "icon": "inv_misc_herb_nightmarevine"
           }
         ],
         "5": [
@@ -12638,7 +13742,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Saptorbane Guards",
-            "id": 251200
+            "id": 251200,
+            "icon": "inv_bracer_mail_dungeonharronir_c_01"
           }
         ],
         "2": [
@@ -12649,7 +13754,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Ironroot Collar",
-            "id": 251184
+            "id": 251184,
+            "icon": "inv_shoulder_mail_dungeonharronir_c_01"
           }
         ],
         "10": [
@@ -12664,7 +13770,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Dagger",
-            "droppedBy": "Meittik"
+            "droppedBy": "Meittik",
+            "icon": "inv_knife_1h_rutaani_b_01"
           },
           {
             "id": 251192,
@@ -12677,7 +13784,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": "Lightwarden Ruia"
+            "droppedBy": "Lightwarden Ruia",
+            "icon": "inv_staff_2h_dungeonharronir_c_01"
           }
         ]
       },
@@ -12690,7 +13798,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Ritual Binder's Ring",
-            "id": 159459
+            "id": 159459,
+            "icon": "inv_ring_80_03e"
           }
         ],
         "6": [
@@ -12701,7 +13810,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sepulchral Construct's Gloves",
-            "id": 160213
+            "id": 160213,
+            "icon": "inv_glove_mail_zandalardungeon_c_01"
           }
         ],
         "7": [
@@ -12712,7 +13822,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Belt of the Consecrated Tomb",
-            "id": 159369
+            "id": 159369,
+            "icon": "inv_belt_mail_zandalardungeon_c_01"
           }
         ],
         "4": [
@@ -12723,7 +13834,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Loa-Blessed Chestguard",
-            "id": 239046
+            "id": 239046,
+            "icon": "inv_chest_mail_zandalardungeon_c_01"
           }
         ],
         "13": [
@@ -12731,7 +13843,8 @@ window.LOOT_DATA = {
             "droppedBy": "The Golden Serpent",
             "stats": [],
             "name": "Lustrous Golden Plumage",
-            "id": 159617
+            "id": 159617,
+            "icon": "inv_icon_feather06a"
           }
         ],
         "3": [
@@ -12742,7 +13855,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Cloak of the Restless Tribes",
-            "id": 159288
+            "id": 159288,
+            "icon": "inv_cape_mail_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -12753,7 +13867,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Boots of the Headlong Conqueror",
-            "id": 159371
+            "id": 159371,
+            "icon": "inv_boot_mail_zandalardungeon_c_01"
           }
         ],
         "2": [
@@ -12764,7 +13879,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Spaulders of Prime Emperor",
-            "id": 239049
+            "id": 239049,
+            "icon": "inv_shoulder_mail_zandalardungeon_c_01"
           }
         ],
         "10": [
@@ -12779,7 +13895,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Dagger",
-            "droppedBy": "Aka'ali the Conqueror"
+            "droppedBy": "Aka'ali the Conqueror",
+            "icon": "inv_knife_1h_battledungeon_c_01"
           },
           {
             "id": 159642,
@@ -12792,7 +13909,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Polearm",
-            "droppedBy": "Mchimba the Embalmer"
+            "droppedBy": "Mchimba the Embalmer",
+            "icon": "inv_polearm_2h_zandalariguard_b_01"
           }
         ]
       },
@@ -12809,7 +13927,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Dagger",
-            "droppedBy": null
+            "droppedBy": null,
+            "icon": "inv_knife_1h_dragondungeon_c_02"
           }
         ],
         "6": [
@@ -12820,7 +13939,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Galerattle Gauntlets",
-            "id": 193752
+            "id": 193752,
+            "icon": "inv_mail_dragondungeon_c_01_glove"
           }
         ],
         "13": [
@@ -12828,7 +13948,8 @@ window.LOOT_DATA = {
             "droppedBy": "Melidrussa Chillworn",
             "stats": [],
             "name": "Ruby Whelp Shell",
-            "id": 193757
+            "id": 193757,
+            "icon": "inv_item_dragonegg_redbroken01"
           }
         ],
         "8": [
@@ -12839,7 +13960,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Egg Tender's Leggings",
-            "id": 193759
+            "id": 193759,
+            "icon": "inv_mail_dragondungeon_c_01_pant"
           }
         ],
         "3": [
@@ -12850,7 +13972,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Fireproof Drape",
-            "id": 193763
+            "id": 193763,
+            "icon": "inv_mail_dragondungeon_c_01_cape"
           }
         ],
         "0": [
@@ -12861,7 +13984,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Blazebound Lieutenant's Helm",
-            "id": 193765
+            "id": 193765,
+            "icon": "inv_mail_dragondungeon_c_01_helm"
           }
         ]
       },
@@ -12874,7 +13998,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Charged Sandstone Band",
-            "id": 158366
+            "id": 158366,
+            "icon": "inv_ring_80_03d"
           },
           {
             "droppedBy": "Merektha",
@@ -12883,7 +14008,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Jade Ophidian Band",
-            "id": 162544
+            "id": 162544,
+            "icon": "inv_ring_80_04c"
           }
         ],
         "4": [
@@ -12894,7 +14020,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Corrupted Hexxer's Vestments",
-            "id": 239034
+            "id": 239034,
+            "icon": "inv_chest_mail_zandalardungeon_c_01"
           }
         ],
         "13": [
@@ -12902,7 +14029,8 @@ window.LOOT_DATA = {
             "droppedBy": "Galvazzt",
             "stats": [],
             "name": "Tiny Electromental in a Jar",
-            "id": 158374
+            "id": 158374,
+            "icon": "inv_alchemy_71_potion4"
           }
         ],
         "5": [
@@ -12913,7 +14041,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Arc-Glass Bindings",
-            "id": 159380
+            "id": 159380,
+            "icon": "inv_bracer_mail_zandalardungeon_c_01"
           }
         ],
         "8": [
@@ -12924,7 +14053,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Legguards of the Awakening Brood",
-            "id": 159375
+            "id": 159375,
+            "icon": "inv_pant_mail_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -12935,7 +14065,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sabatons of Coruscating Energy",
-            "id": 159388
+            "id": 159388,
+            "icon": "inv_boot_mail_zandalardungeon_c_01"
           }
         ],
         "10": [
@@ -12950,7 +14081,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Polearm",
-            "droppedBy": null
+            "droppedBy": null,
+            "icon": "inv_polearm_2h_snakeman_c_01"
           },
           {
             "id": 158714,
@@ -12963,7 +14095,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Sword",
-            "droppedBy": "Merektha"
+            "droppedBy": "Merektha",
+            "icon": "inv_sword_1h_battledungeon_c_02"
           }
         ],
         "0": [
@@ -12974,7 +14107,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sethraliss' Fanged Helm",
-            "id": 239035
+            "id": 239035,
+            "icon": "inv_helm_mail_zandalardungeon_c_01"
           }
         ]
       },
@@ -12987,7 +14121,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Strand of Warding Fangs",
-            "id": 273781
+            "id": 273781,
+            "icon": "inv_121_jewelry_neck03_teal"
           }
         ],
         "4": [
@@ -12998,7 +14133,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Chestguard of Corroded Scales",
-            "id": 273789
+            "id": 273789,
+            "icon": "inv_chest_mail_outdooramaniloa_c_01"
           }
         ],
         "13": [
@@ -13006,13 +14142,15 @@ window.LOOT_DATA = {
             "droppedBy": "Rav'i",
             "stats": [],
             "name": "Vile Vial of Volatile Venom",
-            "id": 273796
+            "id": 273796,
+            "icon": "inv_121_trinket_dungeon_ulatek_vile"
           },
           {
             "droppedBy": "Zul'jan",
             "stats": [],
             "name": "Tattered Amani War Banner",
-            "id": 273797
+            "id": 273797,
+            "icon": "inv_121_trinket_dungeon_ulatek_banner"
           }
         ],
         "5": [
@@ -13023,7 +14161,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Hydra Scale Wristguards",
-            "id": 273775
+            "id": 273775,
+            "icon": "inv_bracer_mail_outdooramaniloa_c_01"
           }
         ],
         "12": [
@@ -13034,7 +14173,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Band of the Amani Warlord",
-            "id": 273792
+            "id": 273792,
+            "icon": "inv_121_jewelry_ring02_green"
           }
         ],
         "10": [
@@ -13049,7 +14189,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": "The Writhing Coil"
+            "droppedBy": "The Writhing Coil",
+            "icon": "inv_staff_2h_outdooramaniloa_c_01"
           },
           {
             "id": 275070,
@@ -13062,7 +14203,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Dagger",
-            "droppedBy": "Zul'jan"
+            "droppedBy": "Zul'jan",
+            "icon": "inv_knife_1h_zuljin_d_01"
           }
         ]
       },
@@ -13075,7 +14217,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Pendant of Malefic Fury",
-            "id": 251142
+            "id": 251142,
+            "icon": "inv_12_jewelry_silvermoonelf_necklace_green"
           }
         ],
         "3": [
@@ -13086,7 +14229,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Speakeasy Shroud",
-            "id": 251132
+            "id": 251132,
+            "icon": "inv_cape_leather_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -13094,13 +14238,15 @@ window.LOOT_DATA = {
             "droppedBy": "Zaen Bladesorrow",
             "stats": [],
             "name": "Freightrunner's Flask",
-            "id": 250215
+            "id": 250215,
+            "icon": "inv_alchemy_90_flask_red"
           },
           {
             "droppedBy": "Xathuux the Annihilator",
             "stats": [],
             "name": "Resonant Bellowstone",
-            "id": 250228
+            "id": 250228,
+            "icon": "inv_alchemy_90_stone_green"
           }
         ],
         "8": [
@@ -13111,7 +14257,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Lithiel's Linked Leggings",
-            "id": 251141
+            "id": 251141,
+            "icon": "inv_pant_mail_dungeonharronir_c_01"
           }
         ],
         "9": [
@@ -13122,7 +14269,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Felsoaked Soles",
-            "id": 251125
+            "id": 251125,
+            "icon": "inv_boot_mail_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -13133,7 +14281,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Signet of Snarling Servitude",
-            "id": 251136
+            "id": 251136,
+            "icon": "inv_12_jewelry_voidelf_ring_teal"
           }
         ],
         "2": [
@@ -13144,7 +14293,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Jangling Felpaulets",
-            "id": 251131
+            "id": 251131,
+            "icon": "inv_shoulder_mail_dungeonharronir_c_01"
           }
         ],
         "10": [
@@ -13159,7 +14309,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Dagger",
-            "droppedBy": "Zaen Bladesorrow"
+            "droppedBy": "Zaen Bladesorrow",
+            "icon": "inv_knife_1h_dungeonharronir_c_01"
           }
         ]
       },
@@ -13172,7 +14323,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Pilfered Precious Band",
-            "id": 251148
+            "id": 251148,
+            "icon": "inv_12_jewelry_zulaman_troll_ring_green2"
           }
         ],
         "6": [
@@ -13183,7 +14335,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Season's Turn Gauntlets",
-            "id": 251152
+            "id": 251152,
+            "icon": "inv_glove_mail_dungeonharronir_c_01"
           }
         ],
         "7": [
@@ -13194,7 +14347,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Tribal Defender's Cord",
-            "id": 251155
+            "id": 251155,
+            "icon": "inv_belt_mail_dungeonharronir_c_01"
           }
         ],
         "9": [
@@ -13205,7 +14359,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Forgotten Tribe Footguards",
-            "id": 251145
+            "id": 251145,
+            "icon": "inv_boot_mail_dungeonharronir_c_01"
           }
         ],
         "10": [
@@ -13220,7 +14375,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Polearm",
-            "droppedBy": "Sentinel of Winter"
+            "droppedBy": "Sentinel of Winter",
+            "icon": "inv_polearm_2h_dungeonharronir_c_01"
           }
         ],
         "1": [
@@ -13231,7 +14387,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Yoke of the Charging Bear",
-            "id": 251173
+            "id": 251173,
+            "icon": "inv_12_jewelry_zulaman_troll_necklace_green1"
           }
         ],
         "0": [
@@ -13242,7 +14399,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Nalorakk's Nightmare",
-            "id": 251158
+            "id": 251158,
+            "icon": "inv_helm_mail_dungeonharronir_c_01"
           }
         ]
       }
@@ -13261,7 +14419,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Dagger",
-            "droppedBy": "Atroxus"
+            "droppedBy": "Atroxus",
+            "icon": "inv_knife_1h_dungeonharronir_c_02"
           }
         ],
         "7": [
@@ -13272,7 +14431,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Ethereal Netherwrap",
-            "id": 251222
+            "id": 251222,
+            "icon": "inv_belt_cloth_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -13280,7 +14440,8 @@ window.LOOT_DATA = {
             "droppedBy": "Charonus",
             "stats": [],
             "name": "Mindpiercer's Sigil",
-            "id": 250224
+            "id": 250224,
+            "icon": "inv_icon_shadowcouncilorb_purple"
           }
         ],
         "9": [
@@ -13291,7 +14452,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Riftworn Stompers",
-            "id": 251219
+            "id": 251219,
+            "icon": "inv_boot_cloth_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -13302,7 +14464,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sickening Signet of Atroxus",
-            "id": 252258
+            "id": 252258,
+            "icon": "inv_12_jewelry_devouringhost_ring_bronze2"
           }
         ],
         "2": [
@@ -13313,7 +14476,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Poisoner's Pauldrons",
-            "id": 251227
+            "id": 251227,
+            "icon": "inv_shoulder_cloth_dungeonharronir_c_01"
           }
         ],
         "1": [
@@ -13324,7 +14488,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Graft of the Domanaar",
-            "id": 251234
+            "id": 251234,
+            "icon": "inv_12_jewelry_devouringhost_necklace_silver2"
           }
         ],
         "0": [
@@ -13335,7 +14500,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Overseer's Diadem",
-            "id": 251232
+            "id": 251232,
+            "icon": "inv_helm_cloth_dungeonharronir_c_01"
           }
         ]
       },
@@ -13352,7 +14518,8 @@ window.LOOT_DATA = {
             ],
             "hand": "ranged",
             "weaponClass": "Wand",
-            "droppedBy": "Ikuzz the Light Hunter"
+            "droppedBy": "Ikuzz the Light Hunter",
+            "icon": "inv_wand_1h_dungeonharronir_c_01"
           }
         ],
         "7": [
@@ -13363,7 +14530,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Lightblossom Cinch",
-            "id": 251185
+            "id": 251185,
+            "icon": "inv_belt_cloth_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -13373,19 +14541,22 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Lightspire Core",
-            "id": 250214
+            "id": 250214,
+            "icon": "inv_enchant_essenceastrallarge"
           },
           {
             "droppedBy": "Meittik",
             "stats": [],
             "name": "Seed of Radiant Hope",
-            "id": 250254
+            "id": 250254,
+            "icon": "inv12_jewelrytrinkets_dungeon_seedofradianthope"
           },
           {
             "droppedBy": "Ziekket",
             "stats": [],
             "name": "Sapling of the Dawnroot",
-            "id": 250259
+            "id": 250259,
+            "icon": "inv_misc_herb_nightmarevine"
           }
         ],
         "11": [
@@ -13400,7 +14571,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "Lightwarden Ruia"
+            "droppedBy": "Lightwarden Ruia",
+            "icon": "inv_offhand_1h_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -13411,7 +14583,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Lightwarden's Bind",
-            "id": 251194
+            "id": 251194,
+            "icon": "inv12_jewelrytrinkets_rutaani_ring_yellow"
           }
         ],
         "3": [
@@ -13422,7 +14595,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Bloodthorn Burnous",
-            "id": 251190
+            "id": 251190,
+            "icon": "inv_cape_mail_dungeonharronir_c_01"
           }
         ],
         "0": [
@@ -13433,7 +14607,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Worldroot Canopy",
-            "id": 251199
+            "id": 251199,
+            "icon": "inv_helm_cloth_dungeonharronir_c_01"
           }
         ]
       },
@@ -13446,7 +14621,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Ritual Binder's Ring",
-            "id": 159459
+            "id": 159459,
+            "icon": "inv_ring_80_03e"
           }
         ],
         "3": [
@@ -13457,7 +14633,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Cloak of the Restless Tribes",
-            "id": 159288
+            "id": 159288,
+            "icon": "inv_cape_mail_zandalardungeon_c_01"
           }
         ],
         "11": [
@@ -13472,7 +14649,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "Mchimba the Embalmer"
+            "droppedBy": "Mchimba the Embalmer",
+            "icon": "inv_offhand_1h_battledungeon_c_02"
           }
         ],
         "8": [
@@ -13483,7 +14661,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Down-Lined Breeches",
-            "id": 159234
+            "id": 159234,
+            "icon": "inv_pant_cloth_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -13494,7 +14673,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Sandals of Wise Voodoo",
-            "id": 159243
+            "id": 159243,
+            "icon": "inv_boot_cloth_zandalardungeon_c_01"
           }
         ],
         "13": [
@@ -13502,7 +14682,8 @@ window.LOOT_DATA = {
             "droppedBy": "King Dazar",
             "stats": [],
             "name": "Stormbound Emblem of Dazar",
-            "id": 273649
+            "id": 273649,
+            "icon": "inv_7_0raid_necklace_14a"
           }
         ],
         "2": [
@@ -13513,7 +14694,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Mantle of Ceremonial Ascension",
-            "id": 239045
+            "id": 239045,
+            "icon": "inv_shoulder_cloth_zandalardungeon_c_01"
           }
         ],
         "10": [
@@ -13528,7 +14710,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Dagger",
-            "droppedBy": "The Golden Serpent"
+            "droppedBy": "The Golden Serpent",
+            "icon": "inv_knife_1h_battledungeon_c_01"
           }
         ],
         "0": [
@@ -13539,7 +14722,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Headdress of the First Empire",
-            "id": 239047
+            "id": 239047,
+            "icon": "inv_helm_cloth_zandalardungeon_c_01"
           }
         ]
       },
@@ -13556,7 +14740,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": "Melidrussa Chillworn"
+            "droppedBy": "Melidrussa Chillworn",
+            "icon": "inv_staff_2h_dragondungeon_c_02"
           }
         ],
         "7": [
@@ -13567,7 +14752,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sky Saddle Cord",
-            "id": 193691
+            "id": 193691,
+            "icon": "inv_belt_dragondungeon_c_01"
           }
         ],
         "13": [
@@ -13577,13 +14763,15 @@ window.LOOT_DATA = {
               "Crit"
             ],
             "name": "Kyrakka's Searing Embers",
-            "id": 193748
+            "id": 193748,
+            "icon": "inv_10_dungeonjewelry_primalist_trinket_4_fire"
           },
           {
             "droppedBy": "Melidrussa Chillworn",
             "stats": [],
             "name": "Ruby Whelp Shell",
-            "id": 193757
+            "id": 193757,
+            "icon": "inv_item_dragonegg_redbroken01"
           }
         ],
         "8": [
@@ -13594,7 +14782,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Wind Soarer's Breeches",
-            "id": 193750
+            "id": 193750,
+            "icon": "inv_pant_cloth_dragondungeon_c_01"
           }
         ],
         "11": [
@@ -13609,7 +14798,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "Kokia Blazehoof"
+            "droppedBy": "Kokia Blazehoof",
+            "icon": "inv_offhand_1h_drakonid_c_01"
           }
         ],
         "3": [
@@ -13620,7 +14810,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Fireproof Drape",
-            "id": 193763
+            "id": 193763,
+            "icon": "inv_mail_dragondungeon_c_01_cape"
           }
         ]
       },
@@ -13633,7 +14824,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Charged Sandstone Band",
-            "id": 158366
+            "id": 158366,
+            "icon": "inv_ring_80_03d"
           },
           {
             "droppedBy": "Merektha",
@@ -13642,7 +14834,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Jade Ophidian Band",
-            "id": 162544
+            "id": 162544,
+            "icon": "inv_ring_80_04c"
           }
         ],
         "6": [
@@ -13653,7 +14846,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Handwraps of Oscillating Polarity",
-            "id": 159247
+            "id": 159247,
+            "icon": "inv_glove_cloth_zandalardungeon_c_01"
           }
         ],
         "7": [
@@ -13664,7 +14858,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Ouroborial Sash",
-            "id": 159255
+            "id": 159255,
+            "icon": "inv_belt_cloth_zandalardungeon_c_01"
           }
         ],
         "4": [
@@ -13675,7 +14870,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Robes of the Reborn Serpent",
-            "id": 239032
+            "id": 239032,
+            "icon": "inv_chest_cloth_zandalardungeon_c_01"
           }
         ],
         "5": [
@@ -13686,7 +14882,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Bindings of the Slithering Current",
-            "id": 159263
+            "id": 159263,
+            "icon": "inv_bracer_cloth_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -13697,7 +14894,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Sandswept Sandals",
-            "id": 159259
+            "id": 159259,
+            "icon": "inv_boot_cloth_zandalardungeon_c_01"
           }
         ],
         "2": [
@@ -13708,7 +14906,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Brood Cleanser's Amice",
-            "id": 239031
+            "id": 239031,
+            "icon": "inv_shoulder_cloth_zandalardungeon_c_01"
           }
         ],
         "10": [
@@ -13723,7 +14922,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Mace",
-            "droppedBy": "Galvazzt"
+            "droppedBy": "Galvazzt",
+            "icon": "inv_mace_1h_pandaraid_d_01"
           },
           {
             "id": 159636,
@@ -13736,7 +14936,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": null
+            "droppedBy": null,
+            "icon": "inv_staff_2h_battledungeon_c_04"
           }
         ]
       },
@@ -13749,7 +14950,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Strand of Warding Fangs",
-            "id": 273781
+            "id": 273781,
+            "icon": "inv_121_jewelry_neck03_teal"
           }
         ],
         "6": [
@@ -13760,7 +14962,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Handwraps of Blasphemous Rites",
-            "id": 273773
+            "id": 273773,
+            "icon": "inv_glove_cloth_outdooramaniloa_c_01"
           }
         ],
         "4": [
@@ -13771,7 +14974,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Primordial Robe of Rites",
-            "id": 273785
+            "id": 273785,
+            "icon": "inv_robe_cloth_outdooramaniloa_c_01"
           }
         ],
         "11": [
@@ -13786,7 +14990,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "The Writhing Coil"
+            "droppedBy": "The Writhing Coil",
+            "icon": "inv_offhand_1h_outdooramaniloa_c_01"
           }
         ],
         "8": [
@@ -13797,7 +15002,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Leggings of Entwined Serpents",
-            "id": 273786
+            "id": 273786,
+            "icon": "inv_pant_cloth_outdooramaniloa_c_01"
           }
         ],
         "13": [
@@ -13805,7 +15011,8 @@ window.LOOT_DATA = {
             "droppedBy": "Rav'i",
             "stats": [],
             "name": "Vile Vial of Volatile Venom",
-            "id": 273796
+            "id": 273796,
+            "icon": "inv_121_trinket_dungeon_ulatek_vile"
           }
         ],
         "12": [
@@ -13816,7 +15023,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Band of the Amani Warlord",
-            "id": 273792
+            "id": 273792,
+            "icon": "inv_121_jewelry_ring02_green"
           }
         ],
         "10": [
@@ -13831,7 +15039,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Dagger",
-            "droppedBy": "Zul'jan"
+            "droppedBy": "Zul'jan",
+            "icon": "inv_knife_1h_zuljin_d_01"
           }
         ]
       },
@@ -13848,7 +15057,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": "Kystia Manaheart"
+            "droppedBy": "Kystia Manaheart",
+            "icon": "inv_staff_2h_dungeonharronir_c_02"
           },
           {
             "id": 258045,
@@ -13858,7 +15068,8 @@ window.LOOT_DATA = {
             "stats": [],
             "hand": "1h",
             "weaponClass": "Warglaive",
-            "droppedBy": "Lithiel Cinderfury"
+            "droppedBy": "Lithiel Cinderfury",
+            "icon": "inv_glaive_1h_questbloodelf_b_01"
           }
         ],
         "6": [
@@ -13869,7 +15080,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Counterfeit Clutches",
-            "id": 251129
+            "id": 251129,
+            "icon": "inv_glove_cloth_dungeonharronir_c_01"
           }
         ],
         "4": [
@@ -13880,7 +15092,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Summoner's Searing Shirt",
-            "id": 251139
+            "id": 251139,
+            "icon": "inv_chest_cloth_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -13888,13 +15101,15 @@ window.LOOT_DATA = {
             "droppedBy": "Zaen Bladesorrow",
             "stats": [],
             "name": "Freightrunner's Flask",
-            "id": 250215
+            "id": 250215,
+            "icon": "inv_alchemy_90_flask_red"
           },
           {
             "droppedBy": "Lithiel Cinderfury",
             "stats": [],
             "name": "Unstable Felheart Crystal",
-            "id": 250255
+            "id": 250255,
+            "icon": "tooltip_crystallizedfel"
           }
         ],
         "5": [
@@ -13905,7 +15120,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Nibbling Armbands",
-            "id": 251127
+            "id": 251127,
+            "icon": "inv_bracer_cloth_dungeonharronir_c_01"
           }
         ],
         "3": [
@@ -13916,7 +15132,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Speakeasy Shroud",
-            "id": 251132
+            "id": 251132,
+            "icon": "inv_cape_leather_dungeonharronir_c_01"
           }
         ],
         "9": [
@@ -13927,7 +15144,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Tempestuous Sandals",
-            "id": 251137
+            "id": 251137,
+            "icon": "inv_boot_cloth_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -13938,7 +15156,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Signet of Snarling Servitude",
-            "id": 251136
+            "id": 251136,
+            "icon": "inv_12_jewelry_voidelf_ring_teal"
           }
         ],
         "1": [
@@ -13949,7 +15168,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Pendant of Malefic Fury",
-            "id": 251142
+            "id": 251142,
+            "icon": "inv_12_jewelry_silvermoonelf_necklace_green"
           }
         ]
       },
@@ -13966,7 +15186,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": "Nalorakk"
+            "droppedBy": "Nalorakk",
+            "icon": "inv_staff_2h_amani_c_01"
           }
         ],
         "4": [
@@ -13977,7 +15198,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Hoarded Harvest Wrap",
-            "id": 251147
+            "id": 251147,
+            "icon": "inv_chest_cloth_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -13985,7 +15207,8 @@ window.LOOT_DATA = {
             "droppedBy": "The Hoardmonger",
             "stats": [],
             "name": "Mycolic Medicine",
-            "id": 250248
+            "id": 250248,
+            "icon": "inv_misc_starspecklemushroom"
           }
         ],
         "5": [
@@ -13996,7 +15219,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Winter's Embrace Bracers",
-            "id": 251154
+            "id": 251154,
+            "icon": "inv_bracer_cloth_dungeonharronir_c_01"
           }
         ],
         "8": [
@@ -14007,7 +15231,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Forest Dream Leg-guards",
-            "id": 251160
+            "id": 251160,
+            "icon": "inv_pant_cloth_dungeonharronir_c_01"
           }
         ],
         "11": [
@@ -14022,7 +15247,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "Sentinel of Winter"
+            "droppedBy": "Sentinel of Winter",
+            "icon": "inv_offhand_1h_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -14033,7 +15259,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Pilfered Precious Band",
-            "id": 251148
+            "id": 251148,
+            "icon": "inv_12_jewelry_zulaman_troll_ring_green2"
           }
         ],
         "1": [
@@ -14044,7 +15271,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Yoke of the Charging Bear",
-            "id": 251173
+            "id": 251173,
+            "icon": "inv_12_jewelry_zulaman_troll_necklace_green1"
           }
         ]
       }
@@ -14063,7 +15291,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Dagger",
-            "droppedBy": "Atroxus"
+            "droppedBy": "Atroxus",
+            "icon": "inv_knife_1h_dungeonharronir_c_02"
           }
         ],
         "7": [
@@ -14074,7 +15303,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Ethereal Netherwrap",
-            "id": 251222
+            "id": 251222,
+            "icon": "inv_belt_cloth_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -14082,7 +15312,8 @@ window.LOOT_DATA = {
             "droppedBy": "Charonus",
             "stats": [],
             "name": "Mindpiercer's Sigil",
-            "id": 250224
+            "id": 250224,
+            "icon": "inv_icon_shadowcouncilorb_purple"
           }
         ],
         "9": [
@@ -14093,7 +15324,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Riftworn Stompers",
-            "id": 251219
+            "id": 251219,
+            "icon": "inv_boot_cloth_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -14104,7 +15336,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sickening Signet of Atroxus",
-            "id": 252258
+            "id": 252258,
+            "icon": "inv_12_jewelry_devouringhost_ring_bronze2"
           }
         ],
         "2": [
@@ -14115,7 +15348,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Poisoner's Pauldrons",
-            "id": 251227
+            "id": 251227,
+            "icon": "inv_shoulder_cloth_dungeonharronir_c_01"
           }
         ],
         "1": [
@@ -14126,7 +15360,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Graft of the Domanaar",
-            "id": 251234
+            "id": 251234,
+            "icon": "inv_12_jewelry_devouringhost_necklace_silver2"
           }
         ],
         "0": [
@@ -14137,7 +15372,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Overseer's Diadem",
-            "id": 251232
+            "id": 251232,
+            "icon": "inv_helm_cloth_dungeonharronir_c_01"
           }
         ]
       },
@@ -14154,7 +15390,8 @@ window.LOOT_DATA = {
             ],
             "hand": "ranged",
             "weaponClass": "Wand",
-            "droppedBy": "Ikuzz the Light Hunter"
+            "droppedBy": "Ikuzz the Light Hunter",
+            "icon": "inv_wand_1h_dungeonharronir_c_01"
           }
         ],
         "7": [
@@ -14165,7 +15402,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Lightblossom Cinch",
-            "id": 251185
+            "id": 251185,
+            "icon": "inv_belt_cloth_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -14175,19 +15413,22 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Lightspire Core",
-            "id": 250214
+            "id": 250214,
+            "icon": "inv_enchant_essenceastrallarge"
           },
           {
             "droppedBy": "Meittik",
             "stats": [],
             "name": "Seed of Radiant Hope",
-            "id": 250254
+            "id": 250254,
+            "icon": "inv12_jewelrytrinkets_dungeon_seedofradianthope"
           },
           {
             "droppedBy": "Ziekket",
             "stats": [],
             "name": "Sapling of the Dawnroot",
-            "id": 250259
+            "id": 250259,
+            "icon": "inv_misc_herb_nightmarevine"
           }
         ],
         "11": [
@@ -14202,7 +15443,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "Lightwarden Ruia"
+            "droppedBy": "Lightwarden Ruia",
+            "icon": "inv_offhand_1h_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -14213,7 +15455,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Lightwarden's Bind",
-            "id": 251194
+            "id": 251194,
+            "icon": "inv12_jewelrytrinkets_rutaani_ring_yellow"
           }
         ],
         "3": [
@@ -14224,7 +15467,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Bloodthorn Burnous",
-            "id": 251190
+            "id": 251190,
+            "icon": "inv_cape_mail_dungeonharronir_c_01"
           }
         ],
         "0": [
@@ -14235,7 +15479,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Worldroot Canopy",
-            "id": 251199
+            "id": 251199,
+            "icon": "inv_helm_cloth_dungeonharronir_c_01"
           }
         ]
       },
@@ -14248,7 +15493,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Ritual Binder's Ring",
-            "id": 159459
+            "id": 159459,
+            "icon": "inv_ring_80_03e"
           }
         ],
         "3": [
@@ -14259,7 +15505,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Cloak of the Restless Tribes",
-            "id": 159288
+            "id": 159288,
+            "icon": "inv_cape_mail_zandalardungeon_c_01"
           }
         ],
         "11": [
@@ -14274,7 +15521,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "Mchimba the Embalmer"
+            "droppedBy": "Mchimba the Embalmer",
+            "icon": "inv_offhand_1h_battledungeon_c_02"
           }
         ],
         "8": [
@@ -14285,7 +15533,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Down-Lined Breeches",
-            "id": 159234
+            "id": 159234,
+            "icon": "inv_pant_cloth_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -14296,7 +15545,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Sandals of Wise Voodoo",
-            "id": 159243
+            "id": 159243,
+            "icon": "inv_boot_cloth_zandalardungeon_c_01"
           }
         ],
         "13": [
@@ -14304,7 +15554,8 @@ window.LOOT_DATA = {
             "droppedBy": "King Dazar",
             "stats": [],
             "name": "Stormbound Emblem of Dazar",
-            "id": 273649
+            "id": 273649,
+            "icon": "inv_7_0raid_necklace_14a"
           }
         ],
         "2": [
@@ -14315,7 +15566,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Mantle of Ceremonial Ascension",
-            "id": 239045
+            "id": 239045,
+            "icon": "inv_shoulder_cloth_zandalardungeon_c_01"
           }
         ],
         "10": [
@@ -14330,7 +15582,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Dagger",
-            "droppedBy": "The Golden Serpent"
+            "droppedBy": "The Golden Serpent",
+            "icon": "inv_knife_1h_battledungeon_c_01"
           }
         ],
         "0": [
@@ -14341,7 +15594,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Headdress of the First Empire",
-            "id": 239047
+            "id": 239047,
+            "icon": "inv_helm_cloth_zandalardungeon_c_01"
           }
         ]
       },
@@ -14358,7 +15612,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": "Melidrussa Chillworn"
+            "droppedBy": "Melidrussa Chillworn",
+            "icon": "inv_staff_2h_dragondungeon_c_02"
           }
         ],
         "7": [
@@ -14369,7 +15624,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sky Saddle Cord",
-            "id": 193691
+            "id": 193691,
+            "icon": "inv_belt_dragondungeon_c_01"
           }
         ],
         "13": [
@@ -14379,13 +15635,15 @@ window.LOOT_DATA = {
               "Crit"
             ],
             "name": "Kyrakka's Searing Embers",
-            "id": 193748
+            "id": 193748,
+            "icon": "inv_10_dungeonjewelry_primalist_trinket_4_fire"
           },
           {
             "droppedBy": "Melidrussa Chillworn",
             "stats": [],
             "name": "Ruby Whelp Shell",
-            "id": 193757
+            "id": 193757,
+            "icon": "inv_item_dragonegg_redbroken01"
           }
         ],
         "8": [
@@ -14396,7 +15654,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Wind Soarer's Breeches",
-            "id": 193750
+            "id": 193750,
+            "icon": "inv_pant_cloth_dragondungeon_c_01"
           }
         ],
         "11": [
@@ -14411,7 +15670,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "Kokia Blazehoof"
+            "droppedBy": "Kokia Blazehoof",
+            "icon": "inv_offhand_1h_drakonid_c_01"
           }
         ],
         "3": [
@@ -14422,7 +15682,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Fireproof Drape",
-            "id": 193763
+            "id": 193763,
+            "icon": "inv_mail_dragondungeon_c_01_cape"
           }
         ]
       },
@@ -14435,7 +15696,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Charged Sandstone Band",
-            "id": 158366
+            "id": 158366,
+            "icon": "inv_ring_80_03d"
           },
           {
             "droppedBy": "Merektha",
@@ -14444,7 +15706,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Jade Ophidian Band",
-            "id": 162544
+            "id": 162544,
+            "icon": "inv_ring_80_04c"
           }
         ],
         "6": [
@@ -14455,7 +15718,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Handwraps of Oscillating Polarity",
-            "id": 159247
+            "id": 159247,
+            "icon": "inv_glove_cloth_zandalardungeon_c_01"
           }
         ],
         "7": [
@@ -14466,7 +15730,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Ouroborial Sash",
-            "id": 159255
+            "id": 159255,
+            "icon": "inv_belt_cloth_zandalardungeon_c_01"
           }
         ],
         "4": [
@@ -14477,7 +15742,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Robes of the Reborn Serpent",
-            "id": 239032
+            "id": 239032,
+            "icon": "inv_chest_cloth_zandalardungeon_c_01"
           }
         ],
         "5": [
@@ -14488,7 +15754,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Bindings of the Slithering Current",
-            "id": 159263
+            "id": 159263,
+            "icon": "inv_bracer_cloth_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -14499,7 +15766,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Sandswept Sandals",
-            "id": 159259
+            "id": 159259,
+            "icon": "inv_boot_cloth_zandalardungeon_c_01"
           }
         ],
         "2": [
@@ -14510,7 +15778,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Brood Cleanser's Amice",
-            "id": 239031
+            "id": 239031,
+            "icon": "inv_shoulder_cloth_zandalardungeon_c_01"
           }
         ],
         "10": [
@@ -14525,7 +15794,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Mace",
-            "droppedBy": "Galvazzt"
+            "droppedBy": "Galvazzt",
+            "icon": "inv_mace_1h_pandaraid_d_01"
           },
           {
             "id": 159636,
@@ -14538,7 +15808,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": null
+            "droppedBy": null,
+            "icon": "inv_staff_2h_battledungeon_c_04"
           }
         ]
       },
@@ -14551,7 +15822,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Strand of Warding Fangs",
-            "id": 273781
+            "id": 273781,
+            "icon": "inv_121_jewelry_neck03_teal"
           }
         ],
         "6": [
@@ -14562,7 +15834,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Handwraps of Blasphemous Rites",
-            "id": 273773
+            "id": 273773,
+            "icon": "inv_glove_cloth_outdooramaniloa_c_01"
           }
         ],
         "4": [
@@ -14573,7 +15846,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Primordial Robe of Rites",
-            "id": 273785
+            "id": 273785,
+            "icon": "inv_robe_cloth_outdooramaniloa_c_01"
           }
         ],
         "11": [
@@ -14588,7 +15862,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "The Writhing Coil"
+            "droppedBy": "The Writhing Coil",
+            "icon": "inv_offhand_1h_outdooramaniloa_c_01"
           }
         ],
         "8": [
@@ -14599,7 +15874,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Leggings of Entwined Serpents",
-            "id": 273786
+            "id": 273786,
+            "icon": "inv_pant_cloth_outdooramaniloa_c_01"
           }
         ],
         "13": [
@@ -14607,7 +15883,8 @@ window.LOOT_DATA = {
             "droppedBy": "Rav'i",
             "stats": [],
             "name": "Vile Vial of Volatile Venom",
-            "id": 273796
+            "id": 273796,
+            "icon": "inv_121_trinket_dungeon_ulatek_vile"
           }
         ],
         "12": [
@@ -14618,7 +15895,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Band of the Amani Warlord",
-            "id": 273792
+            "id": 273792,
+            "icon": "inv_121_jewelry_ring02_green"
           }
         ],
         "10": [
@@ -14633,7 +15911,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Dagger",
-            "droppedBy": "Zul'jan"
+            "droppedBy": "Zul'jan",
+            "icon": "inv_knife_1h_zuljin_d_01"
           }
         ]
       },
@@ -14650,7 +15929,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": "Kystia Manaheart"
+            "droppedBy": "Kystia Manaheart",
+            "icon": "inv_staff_2h_dungeonharronir_c_02"
           },
           {
             "id": 258045,
@@ -14660,7 +15940,8 @@ window.LOOT_DATA = {
             "stats": [],
             "hand": "1h",
             "weaponClass": "Warglaive",
-            "droppedBy": "Lithiel Cinderfury"
+            "droppedBy": "Lithiel Cinderfury",
+            "icon": "inv_glaive_1h_questbloodelf_b_01"
           }
         ],
         "6": [
@@ -14671,7 +15952,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Counterfeit Clutches",
-            "id": 251129
+            "id": 251129,
+            "icon": "inv_glove_cloth_dungeonharronir_c_01"
           }
         ],
         "4": [
@@ -14682,7 +15964,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Summoner's Searing Shirt",
-            "id": 251139
+            "id": 251139,
+            "icon": "inv_chest_cloth_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -14690,13 +15973,15 @@ window.LOOT_DATA = {
             "droppedBy": "Zaen Bladesorrow",
             "stats": [],
             "name": "Freightrunner's Flask",
-            "id": 250215
+            "id": 250215,
+            "icon": "inv_alchemy_90_flask_red"
           },
           {
             "droppedBy": "Lithiel Cinderfury",
             "stats": [],
             "name": "Unstable Felheart Crystal",
-            "id": 250255
+            "id": 250255,
+            "icon": "tooltip_crystallizedfel"
           }
         ],
         "5": [
@@ -14707,7 +15992,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Nibbling Armbands",
-            "id": 251127
+            "id": 251127,
+            "icon": "inv_bracer_cloth_dungeonharronir_c_01"
           }
         ],
         "3": [
@@ -14718,7 +16004,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Speakeasy Shroud",
-            "id": 251132
+            "id": 251132,
+            "icon": "inv_cape_leather_dungeonharronir_c_01"
           }
         ],
         "9": [
@@ -14729,7 +16016,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Tempestuous Sandals",
-            "id": 251137
+            "id": 251137,
+            "icon": "inv_boot_cloth_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -14740,7 +16028,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Signet of Snarling Servitude",
-            "id": 251136
+            "id": 251136,
+            "icon": "inv_12_jewelry_voidelf_ring_teal"
           }
         ],
         "1": [
@@ -14751,7 +16040,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Pendant of Malefic Fury",
-            "id": 251142
+            "id": 251142,
+            "icon": "inv_12_jewelry_silvermoonelf_necklace_green"
           }
         ]
       },
@@ -14768,7 +16058,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": "Nalorakk"
+            "droppedBy": "Nalorakk",
+            "icon": "inv_staff_2h_amani_c_01"
           }
         ],
         "4": [
@@ -14779,7 +16070,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Hoarded Harvest Wrap",
-            "id": 251147
+            "id": 251147,
+            "icon": "inv_chest_cloth_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -14787,7 +16079,8 @@ window.LOOT_DATA = {
             "droppedBy": "The Hoardmonger",
             "stats": [],
             "name": "Mycolic Medicine",
-            "id": 250248
+            "id": 250248,
+            "icon": "inv_misc_starspecklemushroom"
           }
         ],
         "5": [
@@ -14798,7 +16091,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Winter's Embrace Bracers",
-            "id": 251154
+            "id": 251154,
+            "icon": "inv_bracer_cloth_dungeonharronir_c_01"
           }
         ],
         "8": [
@@ -14809,7 +16103,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Forest Dream Leg-guards",
-            "id": 251160
+            "id": 251160,
+            "icon": "inv_pant_cloth_dungeonharronir_c_01"
           }
         ],
         "11": [
@@ -14824,7 +16119,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "Sentinel of Winter"
+            "droppedBy": "Sentinel of Winter",
+            "icon": "inv_offhand_1h_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -14835,7 +16131,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Pilfered Precious Band",
-            "id": 251148
+            "id": 251148,
+            "icon": "inv_12_jewelry_zulaman_troll_ring_green2"
           }
         ],
         "1": [
@@ -14846,7 +16143,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Yoke of the Charging Bear",
-            "id": 251173
+            "id": 251173,
+            "icon": "inv_12_jewelry_zulaman_troll_necklace_green1"
           }
         ]
       }
@@ -14865,7 +16163,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Polearm",
-            "droppedBy": "Charonus"
+            "droppedBy": "Charonus",
+            "icon": "inv_polearm_2h_domanaar_b_01"
           }
         ],
         "0": [
@@ -14876,7 +16175,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Visor of the Predator",
-            "id": 251229
+            "id": 251229,
+            "icon": "inv_helm_armor_domanaar_d_01"
           }
         ],
         "1": [
@@ -14887,7 +16187,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Graft of the Domanaar",
-            "id": 251234
+            "id": 251234,
+            "icon": "inv_12_jewelry_devouringhost_necklace_silver2"
           }
         ],
         "6": [
@@ -14898,7 +16199,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Despondent's Gauntlets",
-            "id": 251221
+            "id": 251221,
+            "icon": "inv_glove_plate_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -14909,7 +16211,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sickening Signet of Atroxus",
-            "id": 252258
+            "id": 252258,
+            "icon": "inv_12_jewelry_devouringhost_ring_bronze2"
           }
         ]
       },
@@ -14926,7 +16229,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Polearm",
-            "droppedBy": "Meittik"
+            "droppedBy": "Meittik",
+            "icon": "inv_polearm_2h_rutaani_b_01"
           }
         ],
         "6": [
@@ -14937,7 +16241,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Thornspike Gauntlets",
-            "id": 251197
+            "id": 251197,
+            "icon": "inv_glove_plate_dungeonharronir_c_01"
           }
         ],
         "4": [
@@ -14948,7 +16253,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Taproot Ribs",
-            "id": 251193
+            "id": 251193,
+            "icon": "inv_chest_plate_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -14956,13 +16262,15 @@ window.LOOT_DATA = {
             "droppedBy": "Ikuzz the Light Hunter",
             "stats": [],
             "name": "Seed of the Devouring Wild",
-            "id": 250238
+            "id": 250238,
+            "icon": "inv12_jewelrytrinkets_dungeon_seedofthedevouringwild"
           },
           {
             "droppedBy": "Ziekket",
             "stats": [],
             "name": "Sapling of the Dawnroot",
-            "id": 250259
+            "id": 250259,
+            "icon": "inv_misc_herb_nightmarevine"
           }
         ],
         "8": [
@@ -14973,7 +16281,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Bedrock Breeches",
-            "id": 251182
+            "id": 251182,
+            "icon": "inv_pant_plate_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -14984,7 +16293,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Lightwarden's Bind",
-            "id": 251194
+            "id": 251194,
+            "icon": "inv12_jewelrytrinkets_rutaani_ring_yellow"
           }
         ],
         "3": [
@@ -14995,7 +16305,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Bloodthorn Burnous",
-            "id": 251190
+            "id": 251190,
+            "icon": "inv_cape_mail_dungeonharronir_c_01"
           }
         ]
       },
@@ -15008,7 +16319,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Ritual Binder's Ring",
-            "id": 159459
+            "id": 159459,
+            "icon": "inv_ring_80_03e"
           }
         ],
         "6": [
@@ -15019,7 +16331,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Gauntlets of the Avian Sentinel",
-            "id": 159413
+            "id": 159413,
+            "icon": "inv_glove_plate_zandalardungeon_c_01"
           }
         ],
         "7": [
@@ -15030,7 +16343,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Girdle of Pestilent Purification",
-            "id": 159418
+            "id": 159418,
+            "icon": "inv_belt_plate_zandalardungeon_c_01"
           }
         ],
         "3": [
@@ -15041,7 +16355,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Cloak of the Restless Tribes",
-            "id": 159288
+            "id": 159288,
+            "icon": "inv_cape_mail_zandalardungeon_c_01"
           }
         ],
         "5": [
@@ -15052,7 +16367,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Embalmer's Steadying Bracers",
-            "id": 159409
+            "id": 159409,
+            "icon": "inv_bracer_plate_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -15063,7 +16379,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Auric Puddle Stompers",
-            "id": 159412
+            "id": 159412,
+            "icon": "inv_boot_plate_zandalardungeon_c_01"
           }
         ],
         "2": [
@@ -15074,7 +16391,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Pauldrons of the Great Unifier",
-            "id": 239051
+            "id": 239051,
+            "icon": "inv_shoulder_plate_zandalardungeon_c_01"
           }
         ],
         "10": [
@@ -15086,7 +16404,8 @@ window.LOOT_DATA = {
             "stats": [],
             "hand": "2h",
             "weaponClass": "Sword",
-            "droppedBy": "King Dazar"
+            "droppedBy": "King Dazar",
+            "icon": "inv_sword_2h_battledungeon_c_01"
           }
         ],
         "0": [
@@ -15097,7 +16416,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Helm of the Raptor King",
-            "id": 239050
+            "id": 239050,
+            "icon": "inv_helm_plate_zandalardungeon_c_01"
           }
         ]
       },
@@ -15114,7 +16434,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Axe",
-            "droppedBy": null
+            "droppedBy": null,
+            "icon": "inv_axe_2h_drakonoid_c_01"
           }
         ],
         "9": [
@@ -15125,7 +16446,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Scaleguard's Stalwart Greatboots",
-            "id": 193728
+            "id": 193728,
+            "icon": "inv_plate_dragondungeon_c_01_boot"
           }
         ],
         "3": [
@@ -15136,7 +16458,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Fireproof Drape",
-            "id": 193763
+            "id": 193763,
+            "icon": "inv_mail_dragondungeon_c_01_cape"
           }
         ],
         "4": [
@@ -15147,7 +16470,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Breastplate of Soaring Terror",
-            "id": 193753
+            "id": 193753,
+            "icon": "inv_plate_dragondungeon_c_01_chest"
           }
         ],
         "13": [
@@ -15155,7 +16479,8 @@ window.LOOT_DATA = {
             "droppedBy": "Melidrussa Chillworn",
             "stats": [],
             "name": "Ruby Whelp Shell",
-            "id": 193757
+            "id": 193757,
+            "icon": "inv_item_dragonegg_redbroken01"
           },
           {
             "droppedBy": "Kokia Blazehoof",
@@ -15163,7 +16488,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Blazebinder's Hoof",
-            "id": 193762
+            "id": 193762,
+            "icon": "inv_10_dungeonjewelry_primalist_trinket_2_fire"
           }
         ]
       },
@@ -15176,7 +16502,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Charged Sandstone Band",
-            "id": 158366
+            "id": 158366,
+            "icon": "inv_ring_80_03d"
           },
           {
             "droppedBy": "Merektha",
@@ -15185,7 +16512,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Jade Ophidian Band",
-            "id": 162544
+            "id": 162544,
+            "icon": "inv_ring_80_04c"
           }
         ],
         "7": [
@@ -15196,7 +16524,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Sand-Scoured Greatbelt",
-            "id": 159442
+            "id": 159442,
+            "icon": "inv_belt_plate_zandalardungeon_c_01"
           }
         ],
         "4": [
@@ -15207,7 +16536,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Desert Guardian's Breastplate",
-            "id": 239036
+            "id": 239036,
+            "icon": "inv_chest_plate_zandalardungeon_c_01"
           }
         ],
         "13": [
@@ -15215,7 +16545,8 @@ window.LOOT_DATA = {
             "droppedBy": "Merektha",
             "stats": [],
             "name": "Merektha's Fang",
-            "id": 158367
+            "id": 158367,
+            "icon": "inv_misc_food_87_sporelingsnack"
           }
         ],
         "5": [
@@ -15226,7 +16557,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Shard-Tipped Vambraces",
-            "id": 159425
+            "id": 159425,
+            "icon": "inv_bracer_plate_zandalardungeon_c_01"
           }
         ],
         "8": [
@@ -15237,7 +16569,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Legplates of Charged Duality",
-            "id": 159435
+            "id": 159435,
+            "icon": "inv_pant_plate_zandalardungeon_c_01"
           }
         ],
         "2": [
@@ -15248,7 +16581,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "C'thraxxi Binders Pauldrons",
-            "id": 239037
+            "id": 239037,
+            "icon": "inv_shoulder_plate_zandalardungeon_c_01"
           }
         ]
       },
@@ -15265,7 +16599,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Polearm",
-            "droppedBy": "The Writhing Coil"
+            "droppedBy": "The Writhing Coil",
+            "icon": "inv_polearm_2h_outdooramaniloa_c_01"
           }
         ],
         "4": [
@@ -15276,7 +16611,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Aged Interwoven Scaleplate",
-            "id": 273787
+            "id": 273787,
+            "icon": "inv_chest_plate_outdooramaniloa_c_01"
           }
         ],
         "13": [
@@ -15284,19 +16620,22 @@ window.LOOT_DATA = {
             "droppedBy": "Rav'i",
             "stats": [],
             "name": "Coiled Fangstone",
-            "id": 273795
+            "id": 273795,
+            "icon": "inv_121_trinket_dungeon_ulatek_fangstone"
           },
           {
             "droppedBy": "Rav'i",
             "stats": [],
             "name": "Vile Vial of Volatile Venom",
-            "id": 273796
+            "id": 273796,
+            "icon": "inv_121_trinket_dungeon_ulatek_vile"
           },
           {
             "droppedBy": "Zul'jan",
             "stats": [],
             "name": "Tattered Amani War Banner",
-            "id": 273797
+            "id": 273797,
+            "icon": "inv_121_trinket_dungeon_ulatek_banner"
           }
         ],
         "8": [
@@ -15307,7 +16646,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Ancient General's Obsidian Pillars",
-            "id": 273776
+            "id": 273776,
+            "icon": "inv_pant_plate_outdooramaniloa_c_01"
           }
         ],
         "9": [
@@ -15318,7 +16658,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Poison-Proof Stompers",
-            "id": 273777
+            "id": 273777,
+            "icon": "inv_boot_plate_outdooramaniloa_c_01"
           }
         ],
         "12": [
@@ -15329,7 +16670,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Band of the Amani Warlord",
-            "id": 273792
+            "id": 273792,
+            "icon": "inv_121_jewelry_ring02_green"
           }
         ],
         "1": [
@@ -15340,7 +16682,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Strand of Warding Fangs",
-            "id": 273781
+            "id": 273781,
+            "icon": "inv_121_jewelry_neck03_teal"
           }
         ]
       },
@@ -15353,7 +16696,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Pendant of Malefic Fury",
-            "id": 251142
+            "id": 251142,
+            "icon": "inv_12_jewelry_silvermoonelf_necklace_green"
           }
         ],
         "3": [
@@ -15364,7 +16708,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Speakeasy Shroud",
-            "id": 251132
+            "id": 251132,
+            "icon": "inv_cape_leather_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -15372,7 +16717,8 @@ window.LOOT_DATA = {
             "droppedBy": "Xathuux the Annihilator",
             "stats": [],
             "name": "Resonant Bellowstone",
-            "id": 250228
+            "id": 250228,
+            "icon": "inv_alchemy_90_stone_green"
           }
         ],
         "5": [
@@ -15383,7 +16729,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Overseer's Vambraces",
-            "id": 251133
+            "id": 251133,
+            "icon": "inv_bracer_plate_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -15394,7 +16741,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Signet of Snarling Servitude",
-            "id": 251136
+            "id": 251136,
+            "icon": "inv_12_jewelry_voidelf_ring_teal"
           }
         ],
         "2": [
@@ -15405,7 +16753,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Cinderfury Shoulderguards",
-            "id": 251138
+            "id": 251138,
+            "icon": "inv_shoulder_plate_dungeonharronir_c_01"
           }
         ],
         "10": [
@@ -15420,7 +16769,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Axe",
-            "droppedBy": "Xathuux the Annihilator"
+            "droppedBy": "Xathuux the Annihilator",
+            "icon": "inv_axe_2h_dungeonharronir_c_01"
           },
           {
             "id": 258045,
@@ -15430,7 +16780,8 @@ window.LOOT_DATA = {
             "stats": [],
             "hand": "1h",
             "weaponClass": "Warglaive",
-            "droppedBy": "Lithiel Cinderfury"
+            "droppedBy": "Lithiel Cinderfury",
+            "icon": "inv_glaive_1h_questbloodelf_b_01"
           }
         ],
         "0": [
@@ -15441,7 +16792,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Greathelm of Temptation",
-            "id": 251126
+            "id": 251126,
+            "icon": "inv_helm_plate_dungeonharronir_c_01"
           }
         ]
       },
@@ -15454,7 +16806,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Yoke of the Charging Bear",
-            "id": 251173
+            "id": 251173,
+            "icon": "inv_12_jewelry_zulaman_troll_necklace_green1"
           }
         ],
         "6": [
@@ -15465,7 +16818,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Bonds of the Hash'ura",
-            "id": 251214
+            "id": 251214,
+            "icon": "inv_glove_plate_dungeonharronir_c_01"
           }
         ],
         "7": [
@@ -15476,7 +16830,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Autumn's Boon Belt",
-            "id": 251144
+            "id": 251144,
+            "icon": "inv_belt_plate_dungeonharronir_c_01"
           }
         ],
         "4": [
@@ -15487,7 +16842,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sentinel Challenger's Prize",
-            "id": 251151
+            "id": 251151,
+            "icon": "inv_chest_plate_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -15497,7 +16853,8 @@ window.LOOT_DATA = {
               "Crit"
             ],
             "name": "Idol of the War Loa",
-            "id": 250229
+            "id": 250229,
+            "icon": "inv12_jewelrytrinkets_dungeon_idolofthewargod"
           }
         ],
         "12": [
@@ -15508,7 +16865,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Pilfered Precious Band",
-            "id": 251148
+            "id": 251148,
+            "icon": "inv_12_jewelry_zulaman_troll_ring_green2"
           }
         ]
       }
@@ -15523,7 +16881,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Graft of the Domanaar",
-            "id": 251234
+            "id": 251234,
+            "icon": "inv_12_jewelry_devouringhost_necklace_silver2"
           }
         ],
         "7": [
@@ -15534,7 +16893,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Gravitic Girdle",
-            "id": 251235
+            "id": 251235,
+            "icon": "inv_belt_leather_dungeonharronir_c_01"
           }
         ],
         "4": [
@@ -15545,7 +16905,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Hide of Pestilence",
-            "id": 251226
+            "id": 251226,
+            "icon": "inv_chest_leather_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -15553,7 +16914,8 @@ window.LOOT_DATA = {
             "droppedBy": "Taz'Rah",
             "stats": [],
             "name": "Void Execution Mandate",
-            "id": 250225
+            "id": 250225,
+            "icon": "inv_inscription_80_warscroll_intellect"
           }
         ],
         "12": [
@@ -15564,7 +16926,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sickening Signet of Atroxus",
-            "id": 252258
+            "id": 252258,
+            "icon": "inv_12_jewelry_devouringhost_ring_bronze2"
           }
         ],
         "2": [
@@ -15575,7 +16938,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Somber Spaulders",
-            "id": 251223
+            "id": 251223,
+            "icon": "inv_shoulder_leather_dungeonharronir_c_01"
           }
         ],
         "10": [
@@ -15590,7 +16954,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Axe",
-            "droppedBy": "Atroxus"
+            "droppedBy": "Atroxus",
+            "icon": "inv_axe_1h_dungeonharronir_c_01"
           }
         ]
       },
@@ -15607,7 +16972,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Fist",
-            "droppedBy": "Ikuzz the Light Hunter"
+            "droppedBy": "Ikuzz the Light Hunter",
+            "icon": "inv_hand_1h_dungeonharronir_c_01"
           },
           {
             "id": 251192,
@@ -15620,7 +16986,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": "Lightwarden Ruia"
+            "droppedBy": "Lightwarden Ruia",
+            "icon": "inv_staff_2h_dungeonharronir_c_01"
           }
         ],
         "7": [
@@ -15631,7 +16998,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Rootwalker Harness",
-            "id": 251189
+            "id": 251189,
+            "icon": "inv_belt_leather_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -15641,13 +17009,15 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Lightspire Core",
-            "id": 250214
+            "id": 250214,
+            "icon": "inv_enchant_essenceastrallarge"
           },
           {
             "droppedBy": "Ziekket",
             "stats": [],
             "name": "Sapling of the Dawnroot",
-            "id": 250259
+            "id": 250259,
+            "icon": "inv_misc_herb_nightmarevine"
           }
         ],
         "5": [
@@ -15658,7 +17028,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Rootwarden Wraps",
-            "id": 251183
+            "id": 251183,
+            "icon": "inv_bracer_leather_dungeonharronir_c_01"
           }
         ],
         "8": [
@@ -15669,7 +17040,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Lightspore Leggings",
-            "id": 251198
+            "id": 251198,
+            "icon": "inv_pant_leather_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -15680,7 +17052,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Lightwarden's Bind",
-            "id": 251194
+            "id": 251194,
+            "icon": "inv12_jewelrytrinkets_rutaani_ring_yellow"
           }
         ],
         "3": [
@@ -15691,7 +17064,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Bloodthorn Burnous",
-            "id": 251190
+            "id": 251190,
+            "icon": "inv_cape_mail_dungeonharronir_c_01"
           }
         ]
       },
@@ -15704,7 +17078,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Ritual Binder's Ring",
-            "id": 159459
+            "id": 159459,
+            "icon": "inv_ring_80_03e"
           }
         ],
         "6": [
@@ -15715,7 +17090,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Desiccator's Blessed Gloves",
-            "id": 159312
+            "id": 159312,
+            "icon": "inv_glove_leather_zandalardungeon_c_01"
           }
         ],
         "7": [
@@ -15726,7 +17102,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Primal Dinomancer's Belt",
-            "id": 159301
+            "id": 159301,
+            "icon": "inv_belt_leather_zandalardungeon_c_01"
           }
         ],
         "4": [
@@ -15737,7 +17114,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Vest of Reverent Adoration",
-            "id": 239048
+            "id": 239048,
+            "icon": "inv_chest_leather_zandalardungeon_c_01"
           }
         ],
         "5": [
@@ -15748,7 +17126,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Kula's Butchering Wristwraps",
-            "id": 159300
+            "id": 159300,
+            "icon": "inv_bracer_leather_zandalardungeon_c_01"
           }
         ],
         "8": [
@@ -15759,7 +17138,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Breeches of the Sacred Hall",
-            "id": 159313
+            "id": 159313,
+            "icon": "inv_pant_leather_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -15770,7 +17150,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Goldfeather Boots",
-            "id": 159304
+            "id": 159304,
+            "icon": "inv_boot_leather_zandalardungeon_c_01"
           }
         ],
         "13": [
@@ -15778,7 +17159,8 @@ window.LOOT_DATA = {
             "droppedBy": "The Golden Serpent",
             "stats": [],
             "name": "Lustrous Golden Plumage",
-            "id": 159617
+            "id": 159617,
+            "icon": "inv_icon_feather06a"
           }
         ],
         "3": [
@@ -15789,7 +17171,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Cloak of the Restless Tribes",
-            "id": 159288
+            "id": 159288,
+            "icon": "inv_cape_mail_zandalardungeon_c_01"
           }
         ],
         "10": [
@@ -15804,7 +17187,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Polearm",
-            "droppedBy": "Mchimba the Embalmer"
+            "droppedBy": "Mchimba the Embalmer",
+            "icon": "inv_polearm_2h_zandalariguard_b_01"
           },
           {
             "id": 159645,
@@ -15817,7 +17201,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Mace",
-            "droppedBy": "King Dazar"
+            "droppedBy": "King Dazar",
+            "icon": "inv_mace_1h_battledungeon_c_01"
           }
         ]
       },
@@ -15834,7 +17219,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Mace",
-            "droppedBy": "Kokia Blazehoof"
+            "droppedBy": "Kokia Blazehoof",
+            "icon": "inv_mace_1h_dragondungeon_c_02"
           }
         ],
         "6": [
@@ -15845,7 +17231,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Subjugator's Chilling Grips",
-            "id": 193758
+            "id": 193758,
+            "icon": "inv_leather_dragondungeon_c_01_glove"
           }
         ],
         "4": [
@@ -15856,7 +17243,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Invader's Firestorm Chestguard",
-            "id": 193764
+            "id": 193764,
+            "icon": "inv_leather_dragondungeon_c_01_chest"
           }
         ],
         "13": [
@@ -15864,7 +17252,8 @@ window.LOOT_DATA = {
             "droppedBy": "Melidrussa Chillworn",
             "stats": [],
             "name": "Ruby Whelp Shell",
-            "id": 193757
+            "id": 193757,
+            "icon": "inv_item_dragonegg_redbroken01"
           }
         ],
         "3": [
@@ -15875,7 +17264,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Fireproof Drape",
-            "id": 193763
+            "id": 193763,
+            "icon": "inv_mail_dragondungeon_c_01_cape"
           }
         ],
         "0": [
@@ -15886,7 +17276,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Crown of Roaring Storms",
-            "id": 193751
+            "id": 193751,
+            "icon": "inv_leather_dragondungeon_c_01_helm"
           }
         ]
       },
@@ -15899,7 +17290,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Charged Sandstone Band",
-            "id": 158366
+            "id": 158366,
+            "icon": "inv_ring_80_03d"
           },
           {
             "droppedBy": "Merektha",
@@ -15908,7 +17300,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Jade Ophidian Band",
-            "id": 162544
+            "id": 162544,
+            "icon": "inv_ring_80_04c"
           }
         ],
         "6": [
@@ -15919,7 +17312,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Grips of Electrified Defense",
-            "id": 159337
+            "id": 159337,
+            "icon": "inv_glove_leather_zandalardungeon_c_01"
           }
         ],
         "7": [
@@ -15930,7 +17324,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Whirling Dervish Sash",
-            "id": 159317
+            "id": 159317,
+            "icon": "inv_belt_leather_zandalardungeon_c_01"
           }
         ],
         "13": [
@@ -15938,7 +17333,8 @@ window.LOOT_DATA = {
             "droppedBy": "Galvazzt",
             "stats": [],
             "name": "Tiny Electromental in a Jar",
-            "id": 158374
+            "id": 158374,
+            "icon": "inv_alchemy_71_potion4"
           }
         ],
         "8": [
@@ -15949,7 +17345,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Leggings of the Galeforce Viper",
-            "id": 159329
+            "id": 159329,
+            "icon": "inv_pant_leather_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -15960,7 +17357,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sand-Shined Snakeskin Sandals",
-            "id": 159327
+            "id": 159327,
+            "icon": "inv_boot_leather_zandalardungeon_c_01"
           }
         ],
         "10": [
@@ -15975,7 +17373,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Polearm",
-            "droppedBy": null
+            "droppedBy": null,
+            "icon": "inv_polearm_2h_snakeman_c_01"
           },
           {
             "id": 158714,
@@ -15988,7 +17387,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Sword",
-            "droppedBy": "Merektha"
+            "droppedBy": "Merektha",
+            "icon": "inv_sword_1h_battledungeon_c_02"
           }
         ],
         "0": [
@@ -15999,7 +17399,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Hood of the Slithering Loa",
-            "id": 239033
+            "id": 239033,
+            "icon": "inv_helm_leather_zandalardungeon_c_01"
           }
         ]
       },
@@ -16012,7 +17413,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Band of the Amani Warlord",
-            "id": 273792
+            "id": 273792,
+            "icon": "inv_121_jewelry_ring02_green"
           }
         ],
         "13": [
@@ -16020,13 +17422,15 @@ window.LOOT_DATA = {
             "droppedBy": "Rav'i",
             "stats": [],
             "name": "Vile Vial of Volatile Venom",
-            "id": 273796
+            "id": 273796,
+            "icon": "inv_121_trinket_dungeon_ulatek_vile"
           },
           {
             "droppedBy": "Zul'jan",
             "stats": [],
             "name": "Tattered Amani War Banner",
-            "id": 273797
+            "id": 273797,
+            "icon": "inv_121_trinket_dungeon_ulatek_banner"
           }
         ],
         "10": [
@@ -16041,7 +17445,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": "The Writhing Coil"
+            "droppedBy": "The Writhing Coil",
+            "icon": "inv_staff_2h_outdooramaniloa_c_01"
           }
         ],
         "2": [
@@ -16052,7 +17457,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Snakeskin Spaulders",
-            "id": 273774
+            "id": 273774,
+            "icon": "inv_shoulder_leather_outdooramaniloa_c_01"
           }
         ],
         "1": [
@@ -16063,7 +17469,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Strand of Warding Fangs",
-            "id": 273781
+            "id": 273781,
+            "icon": "inv_121_jewelry_neck03_teal"
           }
         ],
         "0": [
@@ -16074,7 +17481,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Spare Speaker's Hood",
-            "id": 273791
+            "id": 273791,
+            "icon": "inv_helm_leather_outdooramaniloa_c_01"
           }
         ]
       },
@@ -16087,7 +17495,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Signet of Snarling Servitude",
-            "id": 251136
+            "id": 251136,
+            "icon": "inv_12_jewelry_voidelf_ring_teal"
           }
         ],
         "6": [
@@ -16098,7 +17507,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Gauntlets of Fevered Defense",
-            "id": 251124
+            "id": 251124,
+            "icon": "inv_glove_leather_dungeonharronir_c_01"
           }
         ],
         "3": [
@@ -16109,7 +17519,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Speakeasy Shroud",
-            "id": 251132
+            "id": 251132,
+            "icon": "inv_cape_leather_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -16117,13 +17528,15 @@ window.LOOT_DATA = {
             "droppedBy": "Zaen Bladesorrow",
             "stats": [],
             "name": "Freightrunner's Flask",
-            "id": 250215
+            "id": 250215,
+            "icon": "inv_alchemy_90_flask_red"
           },
           {
             "droppedBy": "Xathuux the Annihilator",
             "stats": [],
             "name": "Resonant Bellowstone",
-            "id": 250228
+            "id": 250228,
+            "icon": "inv_alchemy_90_stone_green"
           }
         ],
         "5": [
@@ -16134,7 +17547,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Fury-fletched Armlets",
-            "id": 251135
+            "id": 251135,
+            "icon": "inv_bracer_leather_dungeonharronir_c_01"
           }
         ],
         "8": [
@@ -16145,7 +17559,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Breeches of Deft Deals",
-            "id": 251130
+            "id": 251130,
+            "icon": "inv_pant_leather_dungeonharronir_c_01"
           }
         ],
         "1": [
@@ -16156,7 +17571,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Pendant of Malefic Fury",
-            "id": 251142
+            "id": 251142,
+            "icon": "inv_12_jewelry_silvermoonelf_necklace_green"
           }
         ],
         "10": [
@@ -16168,7 +17584,8 @@ window.LOOT_DATA = {
             "stats": [],
             "hand": "1h",
             "weaponClass": "Warglaive",
-            "droppedBy": "Lithiel Cinderfury"
+            "droppedBy": "Lithiel Cinderfury",
+            "icon": "inv_glaive_1h_questbloodelf_b_01"
           }
         ],
         "0": [
@@ -16179,7 +17596,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Vilefiend's Guise",
-            "id": 251140
+            "id": 251140,
+            "icon": "inv_helm_leather_dungeonharronir_c_01"
           }
         ]
       },
@@ -16192,7 +17610,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Pilfered Precious Band",
-            "id": 251148
+            "id": 251148,
+            "icon": "inv_12_jewelry_zulaman_troll_ring_green2"
           }
         ],
         "4": [
@@ -16203,7 +17622,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "War Trial Vestments",
-            "id": 251159
+            "id": 251159,
+            "icon": "inv_chest_leather_dungeonharronir_c_01"
           }
         ],
         "9": [
@@ -16214,7 +17634,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Arctic Explorer's Legwraps",
-            "id": 251153
+            "id": 251153,
+            "icon": "inv_boot_leather_dungeonharronir_c_01"
           }
         ],
         "10": [
@@ -16229,7 +17650,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Fist",
-            "droppedBy": "The Hoardmonger"
+            "droppedBy": "The Hoardmonger",
+            "icon": "inv_hand_1h_dungeonharronir_c_01"
           },
           {
             "id": 251149,
@@ -16242,7 +17664,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Polearm",
-            "droppedBy": "Sentinel of Winter"
+            "droppedBy": "Sentinel of Winter",
+            "icon": "inv_polearm_2h_dungeonharronir_c_01"
           }
         ],
         "2": [
@@ -16253,7 +17676,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Scavenger's Spaulders",
-            "id": 251146
+            "id": 251146,
+            "icon": "inv_shoulder_leather_dungeonharronir_c_01"
           }
         ],
         "1": [
@@ -16264,7 +17688,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Yoke of the Charging Bear",
-            "id": 251173
+            "id": 251173,
+            "icon": "inv_12_jewelry_zulaman_troll_necklace_green1"
           }
         ]
       }
@@ -16283,7 +17708,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Polearm",
-            "droppedBy": "Charonus"
+            "droppedBy": "Charonus",
+            "icon": "inv_polearm_2h_domanaar_b_01"
           }
         ],
         "0": [
@@ -16294,7 +17720,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Visor of the Predator",
-            "id": 251229
+            "id": 251229,
+            "icon": "inv_helm_armor_domanaar_d_01"
           }
         ],
         "1": [
@@ -16305,7 +17732,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Graft of the Domanaar",
-            "id": 251234
+            "id": 251234,
+            "icon": "inv_12_jewelry_devouringhost_necklace_silver2"
           }
         ],
         "6": [
@@ -16316,7 +17744,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Despondent's Gauntlets",
-            "id": 251221
+            "id": 251221,
+            "icon": "inv_glove_plate_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -16327,7 +17756,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sickening Signet of Atroxus",
-            "id": 252258
+            "id": 252258,
+            "icon": "inv_12_jewelry_devouringhost_ring_bronze2"
           }
         ]
       },
@@ -16344,7 +17774,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Polearm",
-            "droppedBy": "Meittik"
+            "droppedBy": "Meittik",
+            "icon": "inv_polearm_2h_rutaani_b_01"
           }
         ],
         "6": [
@@ -16355,7 +17786,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Thornspike Gauntlets",
-            "id": 251197
+            "id": 251197,
+            "icon": "inv_glove_plate_dungeonharronir_c_01"
           }
         ],
         "4": [
@@ -16366,7 +17798,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Taproot Ribs",
-            "id": 251193
+            "id": 251193,
+            "icon": "inv_chest_plate_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -16374,13 +17807,15 @@ window.LOOT_DATA = {
             "droppedBy": "Ikuzz the Light Hunter",
             "stats": [],
             "name": "Seed of the Devouring Wild",
-            "id": 250238
+            "id": 250238,
+            "icon": "inv12_jewelrytrinkets_dungeon_seedofthedevouringwild"
           },
           {
             "droppedBy": "Ziekket",
             "stats": [],
             "name": "Sapling of the Dawnroot",
-            "id": 250259
+            "id": 250259,
+            "icon": "inv_misc_herb_nightmarevine"
           }
         ],
         "8": [
@@ -16391,7 +17826,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Bedrock Breeches",
-            "id": 251182
+            "id": 251182,
+            "icon": "inv_pant_plate_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -16402,7 +17838,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Lightwarden's Bind",
-            "id": 251194
+            "id": 251194,
+            "icon": "inv12_jewelrytrinkets_rutaani_ring_yellow"
           }
         ],
         "3": [
@@ -16413,7 +17850,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Bloodthorn Burnous",
-            "id": 251190
+            "id": 251190,
+            "icon": "inv_cape_mail_dungeonharronir_c_01"
           }
         ]
       },
@@ -16426,7 +17864,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Ritual Binder's Ring",
-            "id": 159459
+            "id": 159459,
+            "icon": "inv_ring_80_03e"
           }
         ],
         "6": [
@@ -16437,7 +17876,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Gauntlets of the Avian Sentinel",
-            "id": 159413
+            "id": 159413,
+            "icon": "inv_glove_plate_zandalardungeon_c_01"
           }
         ],
         "7": [
@@ -16448,7 +17888,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Girdle of Pestilent Purification",
-            "id": 159418
+            "id": 159418,
+            "icon": "inv_belt_plate_zandalardungeon_c_01"
           }
         ],
         "3": [
@@ -16459,7 +17900,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Cloak of the Restless Tribes",
-            "id": 159288
+            "id": 159288,
+            "icon": "inv_cape_mail_zandalardungeon_c_01"
           }
         ],
         "5": [
@@ -16470,7 +17912,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Embalmer's Steadying Bracers",
-            "id": 159409
+            "id": 159409,
+            "icon": "inv_bracer_plate_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -16481,7 +17924,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Auric Puddle Stompers",
-            "id": 159412
+            "id": 159412,
+            "icon": "inv_boot_plate_zandalardungeon_c_01"
           }
         ],
         "2": [
@@ -16492,7 +17936,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Pauldrons of the Great Unifier",
-            "id": 239051
+            "id": 239051,
+            "icon": "inv_shoulder_plate_zandalardungeon_c_01"
           }
         ],
         "10": [
@@ -16504,7 +17949,8 @@ window.LOOT_DATA = {
             "stats": [],
             "hand": "2h",
             "weaponClass": "Sword",
-            "droppedBy": "King Dazar"
+            "droppedBy": "King Dazar",
+            "icon": "inv_sword_2h_battledungeon_c_01"
           }
         ],
         "0": [
@@ -16515,7 +17961,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Helm of the Raptor King",
-            "id": 239050
+            "id": 239050,
+            "icon": "inv_helm_plate_zandalardungeon_c_01"
           }
         ]
       },
@@ -16532,7 +17979,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Axe",
-            "droppedBy": null
+            "droppedBy": null,
+            "icon": "inv_axe_2h_drakonoid_c_01"
           }
         ],
         "9": [
@@ -16543,7 +17991,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Scaleguard's Stalwart Greatboots",
-            "id": 193728
+            "id": 193728,
+            "icon": "inv_plate_dragondungeon_c_01_boot"
           }
         ],
         "3": [
@@ -16554,7 +18003,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Fireproof Drape",
-            "id": 193763
+            "id": 193763,
+            "icon": "inv_mail_dragondungeon_c_01_cape"
           }
         ],
         "4": [
@@ -16565,7 +18015,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Breastplate of Soaring Terror",
-            "id": 193753
+            "id": 193753,
+            "icon": "inv_plate_dragondungeon_c_01_chest"
           }
         ],
         "13": [
@@ -16573,7 +18024,8 @@ window.LOOT_DATA = {
             "droppedBy": "Melidrussa Chillworn",
             "stats": [],
             "name": "Ruby Whelp Shell",
-            "id": 193757
+            "id": 193757,
+            "icon": "inv_item_dragonegg_redbroken01"
           },
           {
             "droppedBy": "Kokia Blazehoof",
@@ -16581,7 +18033,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Blazebinder's Hoof",
-            "id": 193762
+            "id": 193762,
+            "icon": "inv_10_dungeonjewelry_primalist_trinket_2_fire"
           }
         ]
       },
@@ -16594,7 +18047,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Charged Sandstone Band",
-            "id": 158366
+            "id": 158366,
+            "icon": "inv_ring_80_03d"
           },
           {
             "droppedBy": "Merektha",
@@ -16603,7 +18057,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Jade Ophidian Band",
-            "id": 162544
+            "id": 162544,
+            "icon": "inv_ring_80_04c"
           }
         ],
         "7": [
@@ -16614,7 +18069,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Sand-Scoured Greatbelt",
-            "id": 159442
+            "id": 159442,
+            "icon": "inv_belt_plate_zandalardungeon_c_01"
           }
         ],
         "4": [
@@ -16625,7 +18081,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Desert Guardian's Breastplate",
-            "id": 239036
+            "id": 239036,
+            "icon": "inv_chest_plate_zandalardungeon_c_01"
           }
         ],
         "13": [
@@ -16633,7 +18090,8 @@ window.LOOT_DATA = {
             "droppedBy": "Merektha",
             "stats": [],
             "name": "Merektha's Fang",
-            "id": 158367
+            "id": 158367,
+            "icon": "inv_misc_food_87_sporelingsnack"
           }
         ],
         "5": [
@@ -16644,7 +18102,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Shard-Tipped Vambraces",
-            "id": 159425
+            "id": 159425,
+            "icon": "inv_bracer_plate_zandalardungeon_c_01"
           }
         ],
         "8": [
@@ -16655,7 +18114,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Legplates of Charged Duality",
-            "id": 159435
+            "id": 159435,
+            "icon": "inv_pant_plate_zandalardungeon_c_01"
           }
         ],
         "2": [
@@ -16666,7 +18126,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "C'thraxxi Binders Pauldrons",
-            "id": 239037
+            "id": 239037,
+            "icon": "inv_shoulder_plate_zandalardungeon_c_01"
           }
         ]
       },
@@ -16683,7 +18144,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Polearm",
-            "droppedBy": "The Writhing Coil"
+            "droppedBy": "The Writhing Coil",
+            "icon": "inv_polearm_2h_outdooramaniloa_c_01"
           }
         ],
         "4": [
@@ -16694,7 +18156,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Aged Interwoven Scaleplate",
-            "id": 273787
+            "id": 273787,
+            "icon": "inv_chest_plate_outdooramaniloa_c_01"
           }
         ],
         "13": [
@@ -16702,19 +18165,22 @@ window.LOOT_DATA = {
             "droppedBy": "Rav'i",
             "stats": [],
             "name": "Coiled Fangstone",
-            "id": 273795
+            "id": 273795,
+            "icon": "inv_121_trinket_dungeon_ulatek_fangstone"
           },
           {
             "droppedBy": "Rav'i",
             "stats": [],
             "name": "Vile Vial of Volatile Venom",
-            "id": 273796
+            "id": 273796,
+            "icon": "inv_121_trinket_dungeon_ulatek_vile"
           },
           {
             "droppedBy": "Zul'jan",
             "stats": [],
             "name": "Tattered Amani War Banner",
-            "id": 273797
+            "id": 273797,
+            "icon": "inv_121_trinket_dungeon_ulatek_banner"
           }
         ],
         "8": [
@@ -16725,7 +18191,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Ancient General's Obsidian Pillars",
-            "id": 273776
+            "id": 273776,
+            "icon": "inv_pant_plate_outdooramaniloa_c_01"
           }
         ],
         "9": [
@@ -16736,7 +18203,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Poison-Proof Stompers",
-            "id": 273777
+            "id": 273777,
+            "icon": "inv_boot_plate_outdooramaniloa_c_01"
           }
         ],
         "12": [
@@ -16747,7 +18215,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Band of the Amani Warlord",
-            "id": 273792
+            "id": 273792,
+            "icon": "inv_121_jewelry_ring02_green"
           }
         ],
         "1": [
@@ -16758,7 +18227,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Strand of Warding Fangs",
-            "id": 273781
+            "id": 273781,
+            "icon": "inv_121_jewelry_neck03_teal"
           }
         ]
       },
@@ -16771,7 +18241,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Pendant of Malefic Fury",
-            "id": 251142
+            "id": 251142,
+            "icon": "inv_12_jewelry_silvermoonelf_necklace_green"
           }
         ],
         "3": [
@@ -16782,7 +18253,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Speakeasy Shroud",
-            "id": 251132
+            "id": 251132,
+            "icon": "inv_cape_leather_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -16790,7 +18262,8 @@ window.LOOT_DATA = {
             "droppedBy": "Xathuux the Annihilator",
             "stats": [],
             "name": "Resonant Bellowstone",
-            "id": 250228
+            "id": 250228,
+            "icon": "inv_alchemy_90_stone_green"
           }
         ],
         "5": [
@@ -16801,7 +18274,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Overseer's Vambraces",
-            "id": 251133
+            "id": 251133,
+            "icon": "inv_bracer_plate_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -16812,7 +18286,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Signet of Snarling Servitude",
-            "id": 251136
+            "id": 251136,
+            "icon": "inv_12_jewelry_voidelf_ring_teal"
           }
         ],
         "2": [
@@ -16823,7 +18298,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Cinderfury Shoulderguards",
-            "id": 251138
+            "id": 251138,
+            "icon": "inv_shoulder_plate_dungeonharronir_c_01"
           }
         ],
         "10": [
@@ -16838,7 +18314,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Axe",
-            "droppedBy": "Xathuux the Annihilator"
+            "droppedBy": "Xathuux the Annihilator",
+            "icon": "inv_axe_2h_dungeonharronir_c_01"
           },
           {
             "id": 258045,
@@ -16848,7 +18325,8 @@ window.LOOT_DATA = {
             "stats": [],
             "hand": "1h",
             "weaponClass": "Warglaive",
-            "droppedBy": "Lithiel Cinderfury"
+            "droppedBy": "Lithiel Cinderfury",
+            "icon": "inv_glaive_1h_questbloodelf_b_01"
           }
         ],
         "0": [
@@ -16859,7 +18337,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Greathelm of Temptation",
-            "id": 251126
+            "id": 251126,
+            "icon": "inv_helm_plate_dungeonharronir_c_01"
           }
         ]
       },
@@ -16872,7 +18351,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Yoke of the Charging Bear",
-            "id": 251173
+            "id": 251173,
+            "icon": "inv_12_jewelry_zulaman_troll_necklace_green1"
           }
         ],
         "6": [
@@ -16883,7 +18363,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Bonds of the Hash'ura",
-            "id": 251214
+            "id": 251214,
+            "icon": "inv_glove_plate_dungeonharronir_c_01"
           }
         ],
         "7": [
@@ -16894,7 +18375,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Autumn's Boon Belt",
-            "id": 251144
+            "id": 251144,
+            "icon": "inv_belt_plate_dungeonharronir_c_01"
           }
         ],
         "4": [
@@ -16905,7 +18387,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sentinel Challenger's Prize",
-            "id": 251151
+            "id": 251151,
+            "icon": "inv_chest_plate_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -16915,7 +18398,8 @@ window.LOOT_DATA = {
               "Crit"
             ],
             "name": "Idol of the War Loa",
-            "id": 250229
+            "id": 250229,
+            "icon": "inv12_jewelrytrinkets_dungeon_idolofthewargod"
           }
         ],
         "12": [
@@ -16926,7 +18410,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Pilfered Precious Band",
-            "id": 251148
+            "id": 251148,
+            "icon": "inv_12_jewelry_zulaman_troll_ring_green2"
           }
         ]
       }
@@ -16941,7 +18426,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Graft of the Domanaar",
-            "id": 251234
+            "id": 251234,
+            "icon": "inv_12_jewelry_devouringhost_necklace_silver2"
           }
         ],
         "6": [
@@ -16952,7 +18438,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Despondent's Gauntlets",
-            "id": 251221
+            "id": 251221,
+            "icon": "inv_glove_plate_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -16960,7 +18447,8 @@ window.LOOT_DATA = {
             "droppedBy": "Atroxus",
             "stats": [],
             "name": "Tumor of the Swarm",
-            "id": 250245
+            "id": 250245,
+            "icon": "ability_pet_baneling"
           }
         ],
         "12": [
@@ -16971,7 +18459,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sickening Signet of Atroxus",
-            "id": 252258
+            "id": 252258,
+            "icon": "inv_12_jewelry_devouringhost_ring_bronze2"
           }
         ],
         "10": [
@@ -16986,7 +18475,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Sword",
-            "droppedBy": "Taz'Rah"
+            "droppedBy": "Taz'Rah",
+            "icon": "inv_sword_1h_domanaar_b_01"
           }
         ],
         "0": [
@@ -16997,7 +18487,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Visor of the Predator",
-            "id": 251229
+            "id": 251229,
+            "icon": "inv_helm_armor_domanaar_d_01"
           }
         ]
       },
@@ -17010,7 +18501,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Lightwarden's Bind",
-            "id": 251194
+            "id": 251194,
+            "icon": "inv12_jewelrytrinkets_rutaani_ring_yellow"
           }
         ],
         "6": [
@@ -17021,7 +18513,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Thornspike Gauntlets",
-            "id": 251197
+            "id": 251197,
+            "icon": "inv_glove_plate_dungeonharronir_c_01"
           }
         ],
         "4": [
@@ -17032,7 +18525,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Taproot Ribs",
-            "id": 251193
+            "id": 251193,
+            "icon": "inv_chest_plate_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -17040,13 +18534,15 @@ window.LOOT_DATA = {
             "droppedBy": "Ikuzz the Light Hunter",
             "stats": [],
             "name": "Seed of the Devouring Wild",
-            "id": 250238
+            "id": 250238,
+            "icon": "inv12_jewelrytrinkets_dungeon_seedofthedevouringwild"
           },
           {
             "droppedBy": "Ziekket",
             "stats": [],
             "name": "Sapling of the Dawnroot",
-            "id": 250259
+            "id": 250259,
+            "icon": "inv_misc_herb_nightmarevine"
           }
         ],
         "8": [
@@ -17057,7 +18553,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Bedrock Breeches",
-            "id": 251182
+            "id": 251182,
+            "icon": "inv_pant_plate_dungeonharronir_c_01"
           }
         ],
         "11": [
@@ -17072,7 +18569,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Shield",
-            "droppedBy": "Ziekket"
+            "droppedBy": "Ziekket",
+            "icon": "inv_shield_1h_rutaani_b_01"
           }
         ],
         "3": [
@@ -17083,7 +18581,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Bloodthorn Burnous",
-            "id": 251190
+            "id": 251190,
+            "icon": "inv_cape_mail_dungeonharronir_c_01"
           }
         ],
         "10": [
@@ -17098,7 +18597,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Sword",
-            "droppedBy": "Ziekket"
+            "droppedBy": "Ziekket",
+            "icon": "inv_sword_1h_dungeonharronir_c_01"
           }
         ]
       },
@@ -17111,7 +18611,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Ritual Binder's Ring",
-            "id": 159459
+            "id": 159459,
+            "icon": "inv_ring_80_03e"
           }
         ],
         "6": [
@@ -17122,7 +18623,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Gauntlets of the Avian Sentinel",
-            "id": 159413
+            "id": 159413,
+            "icon": "inv_glove_plate_zandalardungeon_c_01"
           }
         ],
         "7": [
@@ -17133,7 +18635,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Girdle of Pestilent Purification",
-            "id": 159418
+            "id": 159418,
+            "icon": "inv_belt_plate_zandalardungeon_c_01"
           }
         ],
         "5": [
@@ -17144,7 +18647,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Embalmer's Steadying Bracers",
-            "id": 159409
+            "id": 159409,
+            "icon": "inv_bracer_plate_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -17155,7 +18659,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Auric Puddle Stompers",
-            "id": 159412
+            "id": 159412,
+            "icon": "inv_boot_plate_zandalardungeon_c_01"
           }
         ],
         "13": [
@@ -17163,7 +18668,8 @@ window.LOOT_DATA = {
             "droppedBy": "Mchimba the Embalmer",
             "stats": [],
             "name": "Mchimba's Ritual Bandages",
-            "id": 159618
+            "id": 159618,
+            "icon": "inv_misc_emberweavebandagelight"
           }
         ],
         "2": [
@@ -17174,7 +18680,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Pauldrons of the Great Unifier",
-            "id": 239051
+            "id": 239051,
+            "icon": "inv_shoulder_plate_zandalardungeon_c_01"
           }
         ],
         "3": [
@@ -17185,7 +18692,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Cloak of the Restless Tribes",
-            "id": 159288
+            "id": 159288,
+            "icon": "inv_cape_mail_zandalardungeon_c_01"
           }
         ],
         "0": [
@@ -17196,7 +18704,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Helm of the Raptor King",
-            "id": 239050
+            "id": 239050,
+            "icon": "inv_helm_plate_zandalardungeon_c_01"
           }
         ]
       },
@@ -17213,7 +18722,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Shield",
-            "droppedBy": null
+            "droppedBy": null,
+            "icon": "inv_shield_1h_drakonid_c_01"
           }
         ],
         "9": [
@@ -17224,7 +18734,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Scaleguard's Stalwart Greatboots",
-            "id": 193728
+            "id": 193728,
+            "icon": "inv_plate_dragondungeon_c_01_boot"
           }
         ],
         "3": [
@@ -17235,7 +18746,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Fireproof Drape",
-            "id": 193763
+            "id": 193763,
+            "icon": "inv_mail_dragondungeon_c_01_cape"
           }
         ],
         "4": [
@@ -17246,7 +18758,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Breastplate of Soaring Terror",
-            "id": 193753
+            "id": 193753,
+            "icon": "inv_plate_dragondungeon_c_01_chest"
           }
         ],
         "13": [
@@ -17254,7 +18767,8 @@ window.LOOT_DATA = {
             "droppedBy": "Melidrussa Chillworn",
             "stats": [],
             "name": "Ruby Whelp Shell",
-            "id": 193757
+            "id": 193757,
+            "icon": "inv_item_dragonegg_redbroken01"
           },
           {
             "droppedBy": "Kokia Blazehoof",
@@ -17262,7 +18776,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Blazebinder's Hoof",
-            "id": 193762
+            "id": 193762,
+            "icon": "inv_10_dungeonjewelry_primalist_trinket_2_fire"
           }
         ]
       },
@@ -17275,7 +18790,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Charged Sandstone Band",
-            "id": 158366
+            "id": 158366,
+            "icon": "inv_ring_80_03d"
           },
           {
             "droppedBy": "Merektha",
@@ -17284,7 +18800,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Jade Ophidian Band",
-            "id": 162544
+            "id": 162544,
+            "icon": "inv_ring_80_04c"
           }
         ],
         "7": [
@@ -17295,7 +18812,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Sand-Scoured Greatbelt",
-            "id": 159442
+            "id": 159442,
+            "icon": "inv_belt_plate_zandalardungeon_c_01"
           }
         ],
         "4": [
@@ -17306,7 +18824,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Desert Guardian's Breastplate",
-            "id": 239036
+            "id": 239036,
+            "icon": "inv_chest_plate_zandalardungeon_c_01"
           }
         ],
         "13": [
@@ -17314,7 +18833,8 @@ window.LOOT_DATA = {
             "droppedBy": "Merektha",
             "stats": [],
             "name": "Merektha's Fang",
-            "id": 158367
+            "id": 158367,
+            "icon": "inv_misc_food_87_sporelingsnack"
           }
         ],
         "5": [
@@ -17325,7 +18845,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Shard-Tipped Vambraces",
-            "id": 159425
+            "id": 159425,
+            "icon": "inv_bracer_plate_zandalardungeon_c_01"
           }
         ],
         "8": [
@@ -17336,7 +18857,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Legplates of Charged Duality",
-            "id": 159435
+            "id": 159435,
+            "icon": "inv_pant_plate_zandalardungeon_c_01"
           }
         ],
         "11": [
@@ -17351,7 +18873,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Shield",
-            "droppedBy": "Galvazzt"
+            "droppedBy": "Galvazzt",
+            "icon": "inv_shield_1h_battledungeon_c_02"
           }
         ],
         "2": [
@@ -17362,7 +18885,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "C'thraxxi Binders Pauldrons",
-            "id": 239037
+            "id": 239037,
+            "icon": "inv_shoulder_plate_zandalardungeon_c_01"
           }
         ],
         "10": [
@@ -17377,7 +18901,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Sword",
-            "droppedBy": "Avatar of Sethraliss"
+            "droppedBy": "Avatar of Sethraliss",
+            "icon": "inv_sword_1h_battledungeon_c_02"
           }
         ]
       },
@@ -17390,7 +18915,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Strand of Warding Fangs",
-            "id": 273781
+            "id": 273781,
+            "icon": "inv_121_jewelry_neck03_teal"
           }
         ],
         "4": [
@@ -17401,7 +18927,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Aged Interwoven Scaleplate",
-            "id": 273787
+            "id": 273787,
+            "icon": "inv_chest_plate_outdooramaniloa_c_01"
           }
         ],
         "13": [
@@ -17409,13 +18936,15 @@ window.LOOT_DATA = {
             "droppedBy": "Rav'i",
             "stats": [],
             "name": "Coiled Fangstone",
-            "id": 273795
+            "id": 273795,
+            "icon": "inv_121_trinket_dungeon_ulatek_fangstone"
           },
           {
             "droppedBy": "Rav'i",
             "stats": [],
             "name": "Vile Vial of Volatile Venom",
-            "id": 273796
+            "id": 273796,
+            "icon": "inv_121_trinket_dungeon_ulatek_vile"
           }
         ],
         "8": [
@@ -17426,7 +18955,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Ancient General's Obsidian Pillars",
-            "id": 273776
+            "id": 273776,
+            "icon": "inv_pant_plate_outdooramaniloa_c_01"
           }
         ],
         "9": [
@@ -17437,7 +18967,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Poison-Proof Stompers",
-            "id": 273777
+            "id": 273777,
+            "icon": "inv_boot_plate_outdooramaniloa_c_01"
           }
         ],
         "12": [
@@ -17448,7 +18979,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Band of the Amani Warlord",
-            "id": 273792
+            "id": 273792,
+            "icon": "inv_121_jewelry_ring02_green"
           }
         ]
       },
@@ -17461,7 +18993,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Signet of Snarling Servitude",
-            "id": 251136
+            "id": 251136,
+            "icon": "inv_12_jewelry_voidelf_ring_teal"
           }
         ],
         "3": [
@@ -17472,7 +19005,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Speakeasy Shroud",
-            "id": 251132
+            "id": 251132,
+            "icon": "inv_cape_leather_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -17480,13 +19014,15 @@ window.LOOT_DATA = {
             "droppedBy": "Xathuux the Annihilator",
             "stats": [],
             "name": "Resonant Bellowstone",
-            "id": 250228
+            "id": 250228,
+            "icon": "inv_alchemy_90_stone_green"
           },
           {
             "droppedBy": "Kystia Manaheart",
             "stats": [],
             "name": "Manaheart's Binding Flame",
-            "id": 250243
+            "id": 250243,
+            "icon": "inv_ember_fel"
           }
         ],
         "5": [
@@ -17497,7 +19033,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Overseer's Vambraces",
-            "id": 251133
+            "id": 251133,
+            "icon": "inv_bracer_plate_dungeonharronir_c_01"
           }
         ],
         "10": [
@@ -17509,7 +19046,8 @@ window.LOOT_DATA = {
             "stats": [],
             "hand": "1h",
             "weaponClass": "Warglaive",
-            "droppedBy": "Lithiel Cinderfury"
+            "droppedBy": "Lithiel Cinderfury",
+            "icon": "inv_glaive_1h_questbloodelf_b_01"
           }
         ],
         "2": [
@@ -17520,7 +19058,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Cinderfury Shoulderguards",
-            "id": 251138
+            "id": 251138,
+            "icon": "inv_shoulder_plate_dungeonharronir_c_01"
           }
         ],
         "1": [
@@ -17531,7 +19070,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Pendant of Malefic Fury",
-            "id": 251142
+            "id": 251142,
+            "icon": "inv_12_jewelry_silvermoonelf_necklace_green"
           }
         ],
         "0": [
@@ -17542,7 +19082,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Greathelm of Temptation",
-            "id": 251126
+            "id": 251126,
+            "icon": "inv_helm_plate_dungeonharronir_c_01"
           }
         ]
       },
@@ -17555,7 +19096,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Pilfered Precious Band",
-            "id": 251148
+            "id": 251148,
+            "icon": "inv_12_jewelry_zulaman_troll_ring_green2"
           }
         ],
         "6": [
@@ -17566,7 +19108,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Bonds of the Hash'ura",
-            "id": 251214
+            "id": 251214,
+            "icon": "inv_glove_plate_dungeonharronir_c_01"
           }
         ],
         "7": [
@@ -17577,7 +19120,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Autumn's Boon Belt",
-            "id": 251144
+            "id": 251144,
+            "icon": "inv_belt_plate_dungeonharronir_c_01"
           }
         ],
         "4": [
@@ -17588,7 +19132,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sentinel Challenger's Prize",
-            "id": 251151
+            "id": 251151,
+            "icon": "inv_chest_plate_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -17598,13 +19143,15 @@ window.LOOT_DATA = {
               "Crit"
             ],
             "name": "Idol of the War Loa",
-            "id": 250229
+            "id": 250229,
+            "icon": "inv12_jewelrytrinkets_dungeon_idolofthewargod"
           },
           {
             "droppedBy": "Sentinel of Winter",
             "stats": [],
             "name": "Permafrost Essence",
-            "id": 250244
+            "id": 250244,
+            "icon": "inv12_jewelrytrinkets_dungeon_permafrostreservoir"
           }
         ],
         "11": [
@@ -17619,7 +19166,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Shield",
-            "droppedBy": "Sentinel of Winter"
+            "droppedBy": "Sentinel of Winter",
+            "icon": "inv_shield_1h_dungeonharronir_c_01"
           }
         ],
         "1": [
@@ -17630,7 +19178,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Yoke of the Charging Bear",
-            "id": 251173
+            "id": 251173,
+            "icon": "inv_12_jewelry_zulaman_troll_necklace_green1"
           }
         ]
       }
@@ -17645,7 +19194,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Graft of the Domanaar",
-            "id": 251234
+            "id": 251234,
+            "icon": "inv_12_jewelry_devouringhost_necklace_silver2"
           }
         ],
         "7": [
@@ -17656,7 +19206,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Gravitic Girdle",
-            "id": 251235
+            "id": 251235,
+            "icon": "inv_belt_leather_dungeonharronir_c_01"
           }
         ],
         "4": [
@@ -17667,7 +19218,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Hide of Pestilence",
-            "id": 251226
+            "id": 251226,
+            "icon": "inv_chest_leather_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -17675,7 +19227,8 @@ window.LOOT_DATA = {
             "droppedBy": "Taz'Rah",
             "stats": [],
             "name": "Void Execution Mandate",
-            "id": 250225
+            "id": 250225,
+            "icon": "inv_inscription_80_warscroll_intellect"
           }
         ],
         "12": [
@@ -17686,7 +19239,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sickening Signet of Atroxus",
-            "id": 252258
+            "id": 252258,
+            "icon": "inv_12_jewelry_devouringhost_ring_bronze2"
           }
         ],
         "2": [
@@ -17697,7 +19251,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Somber Spaulders",
-            "id": 251223
+            "id": 251223,
+            "icon": "inv_shoulder_leather_dungeonharronir_c_01"
           }
         ],
         "10": [
@@ -17712,7 +19267,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Axe",
-            "droppedBy": "Atroxus"
+            "droppedBy": "Atroxus",
+            "icon": "inv_axe_1h_dungeonharronir_c_01"
           }
         ]
       },
@@ -17729,7 +19285,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Fist",
-            "droppedBy": "Ikuzz the Light Hunter"
+            "droppedBy": "Ikuzz the Light Hunter",
+            "icon": "inv_hand_1h_dungeonharronir_c_01"
           }
         ],
         "7": [
@@ -17740,7 +19297,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Rootwalker Harness",
-            "id": 251189
+            "id": 251189,
+            "icon": "inv_belt_leather_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -17750,13 +19308,15 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Lightspire Core",
-            "id": 250214
+            "id": 250214,
+            "icon": "inv_enchant_essenceastrallarge"
           },
           {
             "droppedBy": "Ziekket",
             "stats": [],
             "name": "Sapling of the Dawnroot",
-            "id": 250259
+            "id": 250259,
+            "icon": "inv_misc_herb_nightmarevine"
           }
         ],
         "5": [
@@ -17767,7 +19327,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Rootwarden Wraps",
-            "id": 251183
+            "id": 251183,
+            "icon": "inv_bracer_leather_dungeonharronir_c_01"
           }
         ],
         "8": [
@@ -17778,7 +19339,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Lightspore Leggings",
-            "id": 251198
+            "id": 251198,
+            "icon": "inv_pant_leather_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -17789,7 +19351,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Lightwarden's Bind",
-            "id": 251194
+            "id": 251194,
+            "icon": "inv12_jewelrytrinkets_rutaani_ring_yellow"
           }
         ],
         "3": [
@@ -17800,7 +19363,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Bloodthorn Burnous",
-            "id": 251190
+            "id": 251190,
+            "icon": "inv_cape_mail_dungeonharronir_c_01"
           }
         ]
       },
@@ -17813,7 +19377,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Ritual Binder's Ring",
-            "id": 159459
+            "id": 159459,
+            "icon": "inv_ring_80_03e"
           }
         ],
         "6": [
@@ -17824,7 +19389,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Desiccator's Blessed Gloves",
-            "id": 159312
+            "id": 159312,
+            "icon": "inv_glove_leather_zandalardungeon_c_01"
           }
         ],
         "7": [
@@ -17835,7 +19401,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Primal Dinomancer's Belt",
-            "id": 159301
+            "id": 159301,
+            "icon": "inv_belt_leather_zandalardungeon_c_01"
           }
         ],
         "4": [
@@ -17846,7 +19413,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Vest of Reverent Adoration",
-            "id": 239048
+            "id": 239048,
+            "icon": "inv_chest_leather_zandalardungeon_c_01"
           }
         ],
         "5": [
@@ -17857,7 +19425,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Kula's Butchering Wristwraps",
-            "id": 159300
+            "id": 159300,
+            "icon": "inv_bracer_leather_zandalardungeon_c_01"
           }
         ],
         "8": [
@@ -17868,7 +19437,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Breeches of the Sacred Hall",
-            "id": 159313
+            "id": 159313,
+            "icon": "inv_pant_leather_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -17879,7 +19449,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Goldfeather Boots",
-            "id": 159304
+            "id": 159304,
+            "icon": "inv_boot_leather_zandalardungeon_c_01"
           }
         ],
         "13": [
@@ -17887,7 +19458,8 @@ window.LOOT_DATA = {
             "droppedBy": "The Golden Serpent",
             "stats": [],
             "name": "Lustrous Golden Plumage",
-            "id": 159617
+            "id": 159617,
+            "icon": "inv_icon_feather06a"
           }
         ],
         "3": [
@@ -17898,7 +19470,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Cloak of the Restless Tribes",
-            "id": 159288
+            "id": 159288,
+            "icon": "inv_cape_mail_zandalardungeon_c_01"
           }
         ],
         "10": [
@@ -17913,7 +19486,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Mace",
-            "droppedBy": "King Dazar"
+            "droppedBy": "King Dazar",
+            "icon": "inv_mace_1h_battledungeon_c_01"
           }
         ]
       },
@@ -17930,7 +19504,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Mace",
-            "droppedBy": "Kokia Blazehoof"
+            "droppedBy": "Kokia Blazehoof",
+            "icon": "inv_mace_1h_dragondungeon_c_02"
           }
         ],
         "6": [
@@ -17941,7 +19516,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Subjugator's Chilling Grips",
-            "id": 193758
+            "id": 193758,
+            "icon": "inv_leather_dragondungeon_c_01_glove"
           }
         ],
         "4": [
@@ -17952,7 +19528,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Invader's Firestorm Chestguard",
-            "id": 193764
+            "id": 193764,
+            "icon": "inv_leather_dragondungeon_c_01_chest"
           }
         ],
         "13": [
@@ -17960,7 +19537,8 @@ window.LOOT_DATA = {
             "droppedBy": "Melidrussa Chillworn",
             "stats": [],
             "name": "Ruby Whelp Shell",
-            "id": 193757
+            "id": 193757,
+            "icon": "inv_item_dragonegg_redbroken01"
           }
         ],
         "3": [
@@ -17971,7 +19549,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Fireproof Drape",
-            "id": 193763
+            "id": 193763,
+            "icon": "inv_mail_dragondungeon_c_01_cape"
           }
         ],
         "0": [
@@ -17982,7 +19561,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Crown of Roaring Storms",
-            "id": 193751
+            "id": 193751,
+            "icon": "inv_leather_dragondungeon_c_01_helm"
           }
         ]
       },
@@ -17995,7 +19575,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Charged Sandstone Band",
-            "id": 158366
+            "id": 158366,
+            "icon": "inv_ring_80_03d"
           },
           {
             "droppedBy": "Merektha",
@@ -18004,7 +19585,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Jade Ophidian Band",
-            "id": 162544
+            "id": 162544,
+            "icon": "inv_ring_80_04c"
           }
         ],
         "6": [
@@ -18015,7 +19597,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Grips of Electrified Defense",
-            "id": 159337
+            "id": 159337,
+            "icon": "inv_glove_leather_zandalardungeon_c_01"
           }
         ],
         "7": [
@@ -18026,7 +19609,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Whirling Dervish Sash",
-            "id": 159317
+            "id": 159317,
+            "icon": "inv_belt_leather_zandalardungeon_c_01"
           }
         ],
         "13": [
@@ -18034,7 +19618,8 @@ window.LOOT_DATA = {
             "droppedBy": "Galvazzt",
             "stats": [],
             "name": "Tiny Electromental in a Jar",
-            "id": 158374
+            "id": 158374,
+            "icon": "inv_alchemy_71_potion4"
           }
         ],
         "8": [
@@ -18045,7 +19630,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Leggings of the Galeforce Viper",
-            "id": 159329
+            "id": 159329,
+            "icon": "inv_pant_leather_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -18056,7 +19642,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sand-Shined Snakeskin Sandals",
-            "id": 159327
+            "id": 159327,
+            "icon": "inv_boot_leather_zandalardungeon_c_01"
           }
         ],
         "10": [
@@ -18071,7 +19658,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Sword",
-            "droppedBy": "Merektha"
+            "droppedBy": "Merektha",
+            "icon": "inv_sword_1h_battledungeon_c_02"
           }
         ],
         "0": [
@@ -18082,7 +19670,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Hood of the Slithering Loa",
-            "id": 239033
+            "id": 239033,
+            "icon": "inv_helm_leather_zandalardungeon_c_01"
           }
         ]
       },
@@ -18095,7 +19684,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Snakeskin Spaulders",
-            "id": 273774
+            "id": 273774,
+            "icon": "inv_shoulder_leather_outdooramaniloa_c_01"
           }
         ],
         "12": [
@@ -18106,7 +19696,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Band of the Amani Warlord",
-            "id": 273792
+            "id": 273792,
+            "icon": "inv_121_jewelry_ring02_green"
           }
         ],
         "0": [
@@ -18117,7 +19708,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Spare Speaker's Hood",
-            "id": 273791
+            "id": 273791,
+            "icon": "inv_helm_leather_outdooramaniloa_c_01"
           }
         ],
         "1": [
@@ -18128,7 +19720,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Strand of Warding Fangs",
-            "id": 273781
+            "id": 273781,
+            "icon": "inv_121_jewelry_neck03_teal"
           }
         ],
         "13": [
@@ -18136,13 +19729,15 @@ window.LOOT_DATA = {
             "droppedBy": "Rav'i",
             "stats": [],
             "name": "Vile Vial of Volatile Venom",
-            "id": 273796
+            "id": 273796,
+            "icon": "inv_121_trinket_dungeon_ulatek_vile"
           },
           {
             "droppedBy": "Zul'jan",
             "stats": [],
             "name": "Tattered Amani War Banner",
-            "id": 273797
+            "id": 273797,
+            "icon": "inv_121_trinket_dungeon_ulatek_banner"
           }
         ]
       },
@@ -18155,7 +19750,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Signet of Snarling Servitude",
-            "id": 251136
+            "id": 251136,
+            "icon": "inv_12_jewelry_voidelf_ring_teal"
           }
         ],
         "6": [
@@ -18166,7 +19762,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Gauntlets of Fevered Defense",
-            "id": 251124
+            "id": 251124,
+            "icon": "inv_glove_leather_dungeonharronir_c_01"
           }
         ],
         "3": [
@@ -18177,7 +19774,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Speakeasy Shroud",
-            "id": 251132
+            "id": 251132,
+            "icon": "inv_cape_leather_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -18185,13 +19783,15 @@ window.LOOT_DATA = {
             "droppedBy": "Zaen Bladesorrow",
             "stats": [],
             "name": "Freightrunner's Flask",
-            "id": 250215
+            "id": 250215,
+            "icon": "inv_alchemy_90_flask_red"
           },
           {
             "droppedBy": "Xathuux the Annihilator",
             "stats": [],
             "name": "Resonant Bellowstone",
-            "id": 250228
+            "id": 250228,
+            "icon": "inv_alchemy_90_stone_green"
           }
         ],
         "5": [
@@ -18202,7 +19802,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Fury-fletched Armlets",
-            "id": 251135
+            "id": 251135,
+            "icon": "inv_bracer_leather_dungeonharronir_c_01"
           }
         ],
         "8": [
@@ -18213,7 +19814,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Breeches of Deft Deals",
-            "id": 251130
+            "id": 251130,
+            "icon": "inv_pant_leather_dungeonharronir_c_01"
           }
         ],
         "1": [
@@ -18224,7 +19826,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Pendant of Malefic Fury",
-            "id": 251142
+            "id": 251142,
+            "icon": "inv_12_jewelry_silvermoonelf_necklace_green"
           }
         ],
         "10": [
@@ -18236,7 +19839,8 @@ window.LOOT_DATA = {
             "stats": [],
             "hand": "1h",
             "weaponClass": "Warglaive",
-            "droppedBy": "Lithiel Cinderfury"
+            "droppedBy": "Lithiel Cinderfury",
+            "icon": "inv_glaive_1h_questbloodelf_b_01"
           }
         ],
         "0": [
@@ -18247,7 +19851,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Vilefiend's Guise",
-            "id": 251140
+            "id": 251140,
+            "icon": "inv_helm_leather_dungeonharronir_c_01"
           }
         ]
       },
@@ -18260,7 +19865,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Pilfered Precious Band",
-            "id": 251148
+            "id": 251148,
+            "icon": "inv_12_jewelry_zulaman_troll_ring_green2"
           }
         ],
         "4": [
@@ -18271,7 +19877,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "War Trial Vestments",
-            "id": 251159
+            "id": 251159,
+            "icon": "inv_chest_leather_dungeonharronir_c_01"
           }
         ],
         "9": [
@@ -18282,7 +19889,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Arctic Explorer's Legwraps",
-            "id": 251153
+            "id": 251153,
+            "icon": "inv_boot_leather_dungeonharronir_c_01"
           }
         ],
         "10": [
@@ -18297,7 +19905,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Fist",
-            "droppedBy": "The Hoardmonger"
+            "droppedBy": "The Hoardmonger",
+            "icon": "inv_hand_1h_dungeonharronir_c_01"
           }
         ],
         "2": [
@@ -18308,7 +19917,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Scavenger's Spaulders",
-            "id": 251146
+            "id": 251146,
+            "icon": "inv_shoulder_leather_dungeonharronir_c_01"
           }
         ],
         "1": [
@@ -18319,7 +19929,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Yoke of the Charging Bear",
-            "id": 251173
+            "id": 251173,
+            "icon": "inv_12_jewelry_zulaman_troll_necklace_green1"
           }
         ]
       }
@@ -18338,7 +19949,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Dagger",
-            "droppedBy": "Atroxus"
+            "droppedBy": "Atroxus",
+            "icon": "inv_knife_1h_dungeonharronir_c_02"
           }
         ],
         "7": [
@@ -18349,7 +19961,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Behemoth Waistband",
-            "id": 251228
+            "id": 251228,
+            "icon": "inv_belt_mail_dungeonharronir_c_01"
           }
         ],
         "4": [
@@ -18360,7 +19973,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Manipulator's Vest",
-            "id": 251233
+            "id": 251233,
+            "icon": "inv_chest_mail_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -18368,7 +19982,8 @@ window.LOOT_DATA = {
             "droppedBy": "Charonus",
             "stats": [],
             "name": "Mindpiercer's Sigil",
-            "id": 250224
+            "id": 250224,
+            "icon": "inv_icon_shadowcouncilorb_purple"
           }
         ],
         "12": [
@@ -18379,7 +19994,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sickening Signet of Atroxus",
-            "id": 252258
+            "id": 252258,
+            "icon": "inv_12_jewelry_devouringhost_ring_bronze2"
           }
         ],
         "1": [
@@ -18390,7 +20006,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Graft of the Domanaar",
-            "id": 251234
+            "id": 251234,
+            "icon": "inv_12_jewelry_devouringhost_necklace_silver2"
           }
         ],
         "0": [
@@ -18401,7 +20018,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Voidscarred Crown",
-            "id": 251220
+            "id": 251220,
+            "icon": "inv_helm_mail_dungeonharronir_c_01"
           }
         ]
       },
@@ -18414,7 +20032,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Lightwarden's Bind",
-            "id": 251194
+            "id": 251194,
+            "icon": "inv12_jewelrytrinkets_rutaani_ring_yellow"
           }
         ],
         "6": [
@@ -18425,7 +20044,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Pulverizing Pads",
-            "id": 251165
+            "id": 251165,
+            "icon": "inv_glove_mail_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -18435,13 +20055,15 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Lightspire Core",
-            "id": 250214
+            "id": 250214,
+            "icon": "inv_enchant_essenceastrallarge"
           },
           {
             "droppedBy": "Ziekket",
             "stats": [],
             "name": "Sapling of the Dawnroot",
-            "id": 250259
+            "id": 250259,
+            "icon": "inv_misc_herb_nightmarevine"
           }
         ],
         "5": [
@@ -18452,7 +20074,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Saptorbane Guards",
-            "id": 251200
+            "id": 251200,
+            "icon": "inv_bracer_mail_dungeonharronir_c_01"
           }
         ],
         "11": [
@@ -18467,7 +20090,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "Lightwarden Ruia"
+            "droppedBy": "Lightwarden Ruia",
+            "icon": "inv_offhand_1h_dungeonharronir_c_01"
           }
         ],
         "2": [
@@ -18478,7 +20102,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Ironroot Collar",
-            "id": 251184
+            "id": 251184,
+            "icon": "inv_shoulder_mail_dungeonharronir_c_01"
           }
         ],
         "3": [
@@ -18489,7 +20114,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Bloodthorn Burnous",
-            "id": 251190
+            "id": 251190,
+            "icon": "inv_cape_mail_dungeonharronir_c_01"
           }
         ]
       },
@@ -18502,7 +20128,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Ritual Binder's Ring",
-            "id": 159459
+            "id": 159459,
+            "icon": "inv_ring_80_03e"
           }
         ],
         "6": [
@@ -18513,7 +20140,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sepulchral Construct's Gloves",
-            "id": 160213
+            "id": 160213,
+            "icon": "inv_glove_mail_zandalardungeon_c_01"
           }
         ],
         "7": [
@@ -18524,7 +20152,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Belt of the Consecrated Tomb",
-            "id": 159369
+            "id": 159369,
+            "icon": "inv_belt_mail_zandalardungeon_c_01"
           }
         ],
         "4": [
@@ -18535,7 +20164,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Loa-Blessed Chestguard",
-            "id": 239046
+            "id": 239046,
+            "icon": "inv_chest_mail_zandalardungeon_c_01"
           }
         ],
         "11": [
@@ -18550,7 +20180,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "Mchimba the Embalmer"
+            "droppedBy": "Mchimba the Embalmer",
+            "icon": "inv_offhand_1h_battledungeon_c_02"
           }
         ],
         "3": [
@@ -18561,7 +20192,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Cloak of the Restless Tribes",
-            "id": 159288
+            "id": 159288,
+            "icon": "inv_cape_mail_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -18572,7 +20204,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Boots of the Headlong Conqueror",
-            "id": 159371
+            "id": 159371,
+            "icon": "inv_boot_mail_zandalardungeon_c_01"
           }
         ],
         "13": [
@@ -18580,7 +20213,8 @@ window.LOOT_DATA = {
             "droppedBy": "King Dazar",
             "stats": [],
             "name": "Stormbound Emblem of Dazar",
-            "id": 273649
+            "id": 273649,
+            "icon": "inv_7_0raid_necklace_14a"
           }
         ],
         "2": [
@@ -18591,7 +20225,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Spaulders of Prime Emperor",
-            "id": 239049
+            "id": 239049,
+            "icon": "inv_shoulder_mail_zandalardungeon_c_01"
           }
         ],
         "10": [
@@ -18606,7 +20241,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Dagger",
-            "droppedBy": "The Golden Serpent"
+            "droppedBy": "The Golden Serpent",
+            "icon": "inv_knife_1h_battledungeon_c_01"
           },
           {
             "id": 160216,
@@ -18619,7 +20255,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Sword",
-            "droppedBy": "Aka'ali the Conqueror"
+            "droppedBy": "Aka'ali the Conqueror",
+            "icon": "inv_sword_1h_battledungeon_c_02"
           }
         ]
       },
@@ -18636,7 +20273,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": "Melidrussa Chillworn"
+            "droppedBy": "Melidrussa Chillworn",
+            "icon": "inv_staff_2h_dragondungeon_c_02"
           }
         ],
         "6": [
@@ -18647,7 +20285,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Galerattle Gauntlets",
-            "id": 193752
+            "id": 193752,
+            "icon": "inv_mail_dragondungeon_c_01_glove"
           }
         ],
         "13": [
@@ -18655,7 +20294,8 @@ window.LOOT_DATA = {
             "droppedBy": "Melidrussa Chillworn",
             "stats": [],
             "name": "Ruby Whelp Shell",
-            "id": 193757
+            "id": 193757,
+            "icon": "inv_item_dragonegg_redbroken01"
           }
         ],
         "8": [
@@ -18666,7 +20306,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Egg Tender's Leggings",
-            "id": 193759
+            "id": 193759,
+            "icon": "inv_mail_dragondungeon_c_01_pant"
           }
         ],
         "11": [
@@ -18681,7 +20322,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "Kokia Blazehoof"
+            "droppedBy": "Kokia Blazehoof",
+            "icon": "inv_offhand_1h_drakonid_c_01"
           }
         ],
         "3": [
@@ -18692,7 +20334,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Fireproof Drape",
-            "id": 193763
+            "id": 193763,
+            "icon": "inv_mail_dragondungeon_c_01_cape"
           }
         ],
         "0": [
@@ -18703,7 +20346,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Blazebound Lieutenant's Helm",
-            "id": 193765
+            "id": 193765,
+            "icon": "inv_mail_dragondungeon_c_01_helm"
           }
         ]
       },
@@ -18716,7 +20360,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Charged Sandstone Band",
-            "id": 158366
+            "id": 158366,
+            "icon": "inv_ring_80_03d"
           },
           {
             "droppedBy": "Merektha",
@@ -18725,7 +20370,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Jade Ophidian Band",
-            "id": 162544
+            "id": 162544,
+            "icon": "inv_ring_80_04c"
           }
         ],
         "4": [
@@ -18736,7 +20382,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Corrupted Hexxer's Vestments",
-            "id": 239034
+            "id": 239034,
+            "icon": "inv_chest_mail_zandalardungeon_c_01"
           }
         ],
         "13": [
@@ -18744,7 +20391,8 @@ window.LOOT_DATA = {
             "droppedBy": "Avatar of Sethraliss",
             "stats": [],
             "name": "Sethraliss' Defiled Relic",
-            "id": 158368
+            "id": 158368,
+            "icon": "inv_staff_2h_snakeman_c_01"
           }
         ],
         "5": [
@@ -18755,7 +20403,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Arc-Glass Bindings",
-            "id": 159380
+            "id": 159380,
+            "icon": "inv_bracer_mail_zandalardungeon_c_01"
           }
         ],
         "8": [
@@ -18766,7 +20415,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Legguards of the Awakening Brood",
-            "id": 159375
+            "id": 159375,
+            "icon": "inv_pant_mail_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -18777,7 +20427,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sabatons of Coruscating Energy",
-            "id": 159388
+            "id": 159388,
+            "icon": "inv_boot_mail_zandalardungeon_c_01"
           }
         ],
         "10": [
@@ -18792,7 +20443,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Mace",
-            "droppedBy": "Galvazzt"
+            "droppedBy": "Galvazzt",
+            "icon": "inv_mace_1h_pandaraid_d_01"
           },
           {
             "id": 159636,
@@ -18805,7 +20457,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": null
+            "droppedBy": null,
+            "icon": "inv_staff_2h_battledungeon_c_04"
           }
         ],
         "0": [
@@ -18816,7 +20469,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sethraliss' Fanged Helm",
-            "id": 239035
+            "id": 239035,
+            "icon": "inv_helm_mail_zandalardungeon_c_01"
           }
         ]
       },
@@ -18829,7 +20483,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Strand of Warding Fangs",
-            "id": 273781
+            "id": 273781,
+            "icon": "inv_121_jewelry_neck03_teal"
           }
         ],
         "4": [
@@ -18840,7 +20495,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Chestguard of Corroded Scales",
-            "id": 273789
+            "id": 273789,
+            "icon": "inv_chest_mail_outdooramaniloa_c_01"
           }
         ],
         "13": [
@@ -18848,13 +20504,15 @@ window.LOOT_DATA = {
             "droppedBy": "The Writhing Coil",
             "stats": [],
             "name": "Knot of Writhing Serpents",
-            "id": 273794
+            "id": 273794,
+            "icon": "inv_121_trinket_dungeon_ulatek_writhe"
           },
           {
             "droppedBy": "Rav'i",
             "stats": [],
             "name": "Vile Vial of Volatile Venom",
-            "id": 273796
+            "id": 273796,
+            "icon": "inv_121_trinket_dungeon_ulatek_vile"
           }
         ],
         "5": [
@@ -18865,7 +20523,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Hydra Scale Wristguards",
-            "id": 273775
+            "id": 273775,
+            "icon": "inv_bracer_mail_outdooramaniloa_c_01"
           }
         ],
         "11": [
@@ -18880,7 +20539,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "The Writhing Coil"
+            "droppedBy": "The Writhing Coil",
+            "icon": "inv_offhand_1h_outdooramaniloa_c_01"
           }
         ],
         "12": [
@@ -18891,7 +20551,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Band of the Amani Warlord",
-            "id": 273792
+            "id": 273792,
+            "icon": "inv_121_jewelry_ring02_green"
           }
         ],
         "10": [
@@ -18906,7 +20567,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Dagger",
-            "droppedBy": "Zul'jan"
+            "droppedBy": "Zul'jan",
+            "icon": "inv_knife_1h_zuljin_d_01"
           },
           {
             "id": 273780,
@@ -18919,7 +20581,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Axe",
-            "droppedBy": "Rav'i"
+            "droppedBy": "Rav'i",
+            "icon": "inv_axe_1h_outdooramaniloa_c_01"
           }
         ]
       },
@@ -18932,7 +20595,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Pendant of Malefic Fury",
-            "id": 251142
+            "id": 251142,
+            "icon": "inv_12_jewelry_silvermoonelf_necklace_green"
           }
         ],
         "3": [
@@ -18943,7 +20607,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Speakeasy Shroud",
-            "id": 251132
+            "id": 251132,
+            "icon": "inv_cape_leather_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -18951,7 +20616,8 @@ window.LOOT_DATA = {
             "droppedBy": "Zaen Bladesorrow",
             "stats": [],
             "name": "Freightrunner's Flask",
-            "id": 250215
+            "id": 250215,
+            "icon": "inv_alchemy_90_flask_red"
           }
         ],
         "8": [
@@ -18962,7 +20628,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Lithiel's Linked Leggings",
-            "id": 251141
+            "id": 251141,
+            "icon": "inv_pant_mail_dungeonharronir_c_01"
           }
         ],
         "9": [
@@ -18973,7 +20640,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Felsoaked Soles",
-            "id": 251125
+            "id": 251125,
+            "icon": "inv_boot_mail_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -18984,7 +20652,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Signet of Snarling Servitude",
-            "id": 251136
+            "id": 251136,
+            "icon": "inv_12_jewelry_voidelf_ring_teal"
           }
         ],
         "2": [
@@ -18995,7 +20664,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Jangling Felpaulets",
-            "id": 251131
+            "id": 251131,
+            "icon": "inv_shoulder_mail_dungeonharronir_c_01"
           }
         ],
         "10": [
@@ -19010,7 +20680,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": "Kystia Manaheart"
+            "droppedBy": "Kystia Manaheart",
+            "icon": "inv_staff_2h_dungeonharronir_c_02"
           },
           {
             "id": 258045,
@@ -19020,7 +20691,8 @@ window.LOOT_DATA = {
             "stats": [],
             "hand": "1h",
             "weaponClass": "Warglaive",
-            "droppedBy": "Lithiel Cinderfury"
+            "droppedBy": "Lithiel Cinderfury",
+            "icon": "inv_glaive_1h_questbloodelf_b_01"
           }
         ]
       },
@@ -19033,7 +20705,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Pilfered Precious Band",
-            "id": 251148
+            "id": 251148,
+            "icon": "inv_12_jewelry_zulaman_troll_ring_green2"
           }
         ],
         "6": [
@@ -19044,7 +20717,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Season's Turn Gauntlets",
-            "id": 251152
+            "id": 251152,
+            "icon": "inv_glove_mail_dungeonharronir_c_01"
           }
         ],
         "7": [
@@ -19055,7 +20729,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Tribal Defender's Cord",
-            "id": 251155
+            "id": 251155,
+            "icon": "inv_belt_mail_dungeonharronir_c_01"
           }
         ],
         "11": [
@@ -19070,7 +20745,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "Sentinel of Winter"
+            "droppedBy": "Sentinel of Winter",
+            "icon": "inv_offhand_1h_dungeonharronir_c_01"
           }
         ],
         "9": [
@@ -19081,7 +20757,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Forgotten Tribe Footguards",
-            "id": 251145
+            "id": 251145,
+            "icon": "inv_boot_mail_dungeonharronir_c_01"
           }
         ],
         "10": [
@@ -19096,7 +20773,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": "Nalorakk"
+            "droppedBy": "Nalorakk",
+            "icon": "inv_staff_2h_amani_c_01"
           }
         ],
         "1": [
@@ -19107,7 +20785,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Yoke of the Charging Bear",
-            "id": 251173
+            "id": 251173,
+            "icon": "inv_12_jewelry_zulaman_troll_necklace_green1"
           }
         ],
         "0": [
@@ -19118,7 +20797,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Nalorakk's Nightmare",
-            "id": 251158
+            "id": 251158,
+            "icon": "inv_helm_mail_dungeonharronir_c_01"
           }
         ]
       }
@@ -19133,7 +20813,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Graft of the Domanaar",
-            "id": 251234
+            "id": 251234,
+            "icon": "inv_12_jewelry_devouringhost_necklace_silver2"
           }
         ],
         "7": [
@@ -19144,7 +20825,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Gravitic Girdle",
-            "id": 251235
+            "id": 251235,
+            "icon": "inv_belt_leather_dungeonharronir_c_01"
           }
         ],
         "4": [
@@ -19155,7 +20837,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Hide of Pestilence",
-            "id": 251226
+            "id": 251226,
+            "icon": "inv_chest_leather_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -19163,7 +20846,8 @@ window.LOOT_DATA = {
             "droppedBy": "Charonus",
             "stats": [],
             "name": "Mindpiercer's Sigil",
-            "id": 250224
+            "id": 250224,
+            "icon": "inv_icon_shadowcouncilorb_purple"
           }
         ],
         "12": [
@@ -19174,7 +20858,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sickening Signet of Atroxus",
-            "id": 252258
+            "id": 252258,
+            "icon": "inv_12_jewelry_devouringhost_ring_bronze2"
           }
         ],
         "2": [
@@ -19185,7 +20870,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Somber Spaulders",
-            "id": 251223
+            "id": 251223,
+            "icon": "inv_shoulder_leather_dungeonharronir_c_01"
           }
         ]
       },
@@ -19198,7 +20884,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Lightwarden's Bind",
-            "id": 251194
+            "id": 251194,
+            "icon": "inv12_jewelrytrinkets_rutaani_ring_yellow"
           }
         ],
         "7": [
@@ -19209,7 +20896,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Rootwalker Harness",
-            "id": 251189
+            "id": 251189,
+            "icon": "inv_belt_leather_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -19219,19 +20907,22 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Lightspire Core",
-            "id": 250214
+            "id": 250214,
+            "icon": "inv_enchant_essenceastrallarge"
           },
           {
             "droppedBy": "Meittik",
             "stats": [],
             "name": "Seed of Radiant Hope",
-            "id": 250254
+            "id": 250254,
+            "icon": "inv12_jewelrytrinkets_dungeon_seedofradianthope"
           },
           {
             "droppedBy": "Ziekket",
             "stats": [],
             "name": "Sapling of the Dawnroot",
-            "id": 250259
+            "id": 250259,
+            "icon": "inv_misc_herb_nightmarevine"
           }
         ],
         "5": [
@@ -19242,7 +20933,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Rootwarden Wraps",
-            "id": 251183
+            "id": 251183,
+            "icon": "inv_bracer_leather_dungeonharronir_c_01"
           }
         ],
         "8": [
@@ -19253,7 +20945,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Lightspore Leggings",
-            "id": 251198
+            "id": 251198,
+            "icon": "inv_pant_leather_dungeonharronir_c_01"
           }
         ],
         "11": [
@@ -19268,7 +20961,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "Lightwarden Ruia"
+            "droppedBy": "Lightwarden Ruia",
+            "icon": "inv_offhand_1h_dungeonharronir_c_01"
           }
         ],
         "3": [
@@ -19279,7 +20973,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Bloodthorn Burnous",
-            "id": 251190
+            "id": 251190,
+            "icon": "inv_cape_mail_dungeonharronir_c_01"
           }
         ]
       },
@@ -19292,7 +20987,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Ritual Binder's Ring",
-            "id": 159459
+            "id": 159459,
+            "icon": "inv_ring_80_03e"
           }
         ],
         "6": [
@@ -19303,7 +20999,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Desiccator's Blessed Gloves",
-            "id": 159312
+            "id": 159312,
+            "icon": "inv_glove_leather_zandalardungeon_c_01"
           }
         ],
         "7": [
@@ -19314,7 +21011,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Primal Dinomancer's Belt",
-            "id": 159301
+            "id": 159301,
+            "icon": "inv_belt_leather_zandalardungeon_c_01"
           }
         ],
         "4": [
@@ -19325,7 +21023,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Vest of Reverent Adoration",
-            "id": 239048
+            "id": 239048,
+            "icon": "inv_chest_leather_zandalardungeon_c_01"
           }
         ],
         "5": [
@@ -19336,7 +21035,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Kula's Butchering Wristwraps",
-            "id": 159300
+            "id": 159300,
+            "icon": "inv_bracer_leather_zandalardungeon_c_01"
           }
         ],
         "8": [
@@ -19347,7 +21047,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Breeches of the Sacred Hall",
-            "id": 159313
+            "id": 159313,
+            "icon": "inv_pant_leather_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -19358,7 +21059,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Goldfeather Boots",
-            "id": 159304
+            "id": 159304,
+            "icon": "inv_boot_leather_zandalardungeon_c_01"
           }
         ],
         "13": [
@@ -19366,7 +21068,8 @@ window.LOOT_DATA = {
             "droppedBy": "King Dazar",
             "stats": [],
             "name": "Stormbound Emblem of Dazar",
-            "id": 273649
+            "id": 273649,
+            "icon": "inv_7_0raid_necklace_14a"
           }
         ],
         "11": [
@@ -19381,7 +21084,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "Mchimba the Embalmer"
+            "droppedBy": "Mchimba the Embalmer",
+            "icon": "inv_offhand_1h_battledungeon_c_02"
           }
         ],
         "3": [
@@ -19392,7 +21096,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Cloak of the Restless Tribes",
-            "id": 159288
+            "id": 159288,
+            "icon": "inv_cape_mail_zandalardungeon_c_01"
           }
         ],
         "10": [
@@ -19407,7 +21112,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Sword",
-            "droppedBy": "Aka'ali the Conqueror"
+            "droppedBy": "Aka'ali the Conqueror",
+            "icon": "inv_sword_1h_battledungeon_c_02"
           }
         ]
       },
@@ -19424,7 +21130,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": "Melidrussa Chillworn"
+            "droppedBy": "Melidrussa Chillworn",
+            "icon": "inv_staff_2h_dragondungeon_c_02"
           }
         ],
         "6": [
@@ -19435,7 +21142,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Subjugator's Chilling Grips",
-            "id": 193758
+            "id": 193758,
+            "icon": "inv_leather_dragondungeon_c_01_glove"
           }
         ],
         "4": [
@@ -19446,7 +21154,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Invader's Firestorm Chestguard",
-            "id": 193764
+            "id": 193764,
+            "icon": "inv_leather_dragondungeon_c_01_chest"
           }
         ],
         "11": [
@@ -19461,7 +21170,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "Kokia Blazehoof"
+            "droppedBy": "Kokia Blazehoof",
+            "icon": "inv_offhand_1h_drakonid_c_01"
           }
         ],
         "13": [
@@ -19471,13 +21181,15 @@ window.LOOT_DATA = {
               "Crit"
             ],
             "name": "Kyrakka's Searing Embers",
-            "id": 193748
+            "id": 193748,
+            "icon": "inv_10_dungeonjewelry_primalist_trinket_4_fire"
           },
           {
             "droppedBy": "Melidrussa Chillworn",
             "stats": [],
             "name": "Ruby Whelp Shell",
-            "id": 193757
+            "id": 193757,
+            "icon": "inv_item_dragonegg_redbroken01"
           }
         ],
         "3": [
@@ -19488,7 +21200,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Fireproof Drape",
-            "id": 193763
+            "id": 193763,
+            "icon": "inv_mail_dragondungeon_c_01_cape"
           }
         ],
         "0": [
@@ -19499,7 +21212,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Crown of Roaring Storms",
-            "id": 193751
+            "id": 193751,
+            "icon": "inv_leather_dragondungeon_c_01_helm"
           }
         ]
       },
@@ -19512,7 +21226,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Charged Sandstone Band",
-            "id": 158366
+            "id": 158366,
+            "icon": "inv_ring_80_03d"
           },
           {
             "droppedBy": "Merektha",
@@ -19521,7 +21236,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Jade Ophidian Band",
-            "id": 162544
+            "id": 162544,
+            "icon": "inv_ring_80_04c"
           }
         ],
         "6": [
@@ -19532,7 +21248,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Grips of Electrified Defense",
-            "id": 159337
+            "id": 159337,
+            "icon": "inv_glove_leather_zandalardungeon_c_01"
           }
         ],
         "7": [
@@ -19543,7 +21260,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Whirling Dervish Sash",
-            "id": 159317
+            "id": 159317,
+            "icon": "inv_belt_leather_zandalardungeon_c_01"
           }
         ],
         "8": [
@@ -19554,7 +21272,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Leggings of the Galeforce Viper",
-            "id": 159329
+            "id": 159329,
+            "icon": "inv_pant_leather_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -19565,7 +21284,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sand-Shined Snakeskin Sandals",
-            "id": 159327
+            "id": 159327,
+            "icon": "inv_boot_leather_zandalardungeon_c_01"
           }
         ],
         "10": [
@@ -19580,7 +21300,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Mace",
-            "droppedBy": "Galvazzt"
+            "droppedBy": "Galvazzt",
+            "icon": "inv_mace_1h_pandaraid_d_01"
           },
           {
             "id": 159636,
@@ -19593,7 +21314,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": null
+            "droppedBy": null,
+            "icon": "inv_staff_2h_battledungeon_c_04"
           }
         ],
         "0": [
@@ -19604,7 +21326,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Hood of the Slithering Loa",
-            "id": 239033
+            "id": 239033,
+            "icon": "inv_helm_leather_zandalardungeon_c_01"
           }
         ]
       },
@@ -19621,7 +21344,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Axe",
-            "droppedBy": "Rav'i"
+            "droppedBy": "Rav'i",
+            "icon": "inv_axe_1h_outdooramaniloa_c_01"
           }
         ],
         "13": [
@@ -19629,7 +21353,8 @@ window.LOOT_DATA = {
             "droppedBy": "Rav'i",
             "stats": [],
             "name": "Vile Vial of Volatile Venom",
-            "id": 273796
+            "id": 273796,
+            "icon": "inv_121_trinket_dungeon_ulatek_vile"
           }
         ],
         "11": [
@@ -19644,7 +21369,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "The Writhing Coil"
+            "droppedBy": "The Writhing Coil",
+            "icon": "inv_offhand_1h_outdooramaniloa_c_01"
           }
         ],
         "12": [
@@ -19655,7 +21381,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Band of the Amani Warlord",
-            "id": 273792
+            "id": 273792,
+            "icon": "inv_121_jewelry_ring02_green"
           }
         ],
         "2": [
@@ -19666,7 +21393,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Snakeskin Spaulders",
-            "id": 273774
+            "id": 273774,
+            "icon": "inv_shoulder_leather_outdooramaniloa_c_01"
           }
         ],
         "1": [
@@ -19677,7 +21405,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Strand of Warding Fangs",
-            "id": 273781
+            "id": 273781,
+            "icon": "inv_121_jewelry_neck03_teal"
           }
         ],
         "0": [
@@ -19688,7 +21417,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Spare Speaker's Hood",
-            "id": 273791
+            "id": 273791,
+            "icon": "inv_helm_leather_outdooramaniloa_c_01"
           }
         ]
       },
@@ -19705,7 +21435,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": "Kystia Manaheart"
+            "droppedBy": "Kystia Manaheart",
+            "icon": "inv_staff_2h_dungeonharronir_c_02"
           },
           {
             "id": 258045,
@@ -19715,7 +21446,8 @@ window.LOOT_DATA = {
             "stats": [],
             "hand": "1h",
             "weaponClass": "Warglaive",
-            "droppedBy": "Lithiel Cinderfury"
+            "droppedBy": "Lithiel Cinderfury",
+            "icon": "inv_glaive_1h_questbloodelf_b_01"
           }
         ],
         "6": [
@@ -19726,7 +21458,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Gauntlets of Fevered Defense",
-            "id": 251124
+            "id": 251124,
+            "icon": "inv_glove_leather_dungeonharronir_c_01"
           }
         ],
         "3": [
@@ -19737,7 +21470,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Speakeasy Shroud",
-            "id": 251132
+            "id": 251132,
+            "icon": "inv_cape_leather_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -19745,13 +21479,15 @@ window.LOOT_DATA = {
             "droppedBy": "Zaen Bladesorrow",
             "stats": [],
             "name": "Freightrunner's Flask",
-            "id": 250215
+            "id": 250215,
+            "icon": "inv_alchemy_90_flask_red"
           },
           {
             "droppedBy": "Lithiel Cinderfury",
             "stats": [],
             "name": "Unstable Felheart Crystal",
-            "id": 250255
+            "id": 250255,
+            "icon": "tooltip_crystallizedfel"
           }
         ],
         "5": [
@@ -19762,7 +21498,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Fury-fletched Armlets",
-            "id": 251135
+            "id": 251135,
+            "icon": "inv_bracer_leather_dungeonharronir_c_01"
           }
         ],
         "8": [
@@ -19773,7 +21510,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Breeches of Deft Deals",
-            "id": 251130
+            "id": 251130,
+            "icon": "inv_pant_leather_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -19784,7 +21522,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Signet of Snarling Servitude",
-            "id": 251136
+            "id": 251136,
+            "icon": "inv_12_jewelry_voidelf_ring_teal"
           }
         ],
         "1": [
@@ -19795,7 +21534,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Pendant of Malefic Fury",
-            "id": 251142
+            "id": 251142,
+            "icon": "inv_12_jewelry_silvermoonelf_necklace_green"
           }
         ],
         "0": [
@@ -19806,7 +21546,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Vilefiend's Guise",
-            "id": 251140
+            "id": 251140,
+            "icon": "inv_helm_leather_dungeonharronir_c_01"
           }
         ]
       },
@@ -19823,7 +21564,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": "Nalorakk"
+            "droppedBy": "Nalorakk",
+            "icon": "inv_staff_2h_amani_c_01"
           }
         ],
         "4": [
@@ -19834,7 +21576,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "War Trial Vestments",
-            "id": 251159
+            "id": 251159,
+            "icon": "inv_chest_leather_dungeonharronir_c_01"
           }
         ],
         "11": [
@@ -19849,7 +21592,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "Sentinel of Winter"
+            "droppedBy": "Sentinel of Winter",
+            "icon": "inv_offhand_1h_dungeonharronir_c_01"
           }
         ],
         "9": [
@@ -19860,7 +21604,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Arctic Explorer's Legwraps",
-            "id": 251153
+            "id": 251153,
+            "icon": "inv_boot_leather_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -19868,7 +21613,8 @@ window.LOOT_DATA = {
             "droppedBy": "The Hoardmonger",
             "stats": [],
             "name": "Mycolic Medicine",
-            "id": 250248
+            "id": 250248,
+            "icon": "inv_misc_starspecklemushroom"
           }
         ],
         "12": [
@@ -19879,7 +21625,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Pilfered Precious Band",
-            "id": 251148
+            "id": 251148,
+            "icon": "inv_12_jewelry_zulaman_troll_ring_green2"
           }
         ],
         "2": [
@@ -19890,7 +21637,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Scavenger's Spaulders",
-            "id": 251146
+            "id": 251146,
+            "icon": "inv_shoulder_leather_dungeonharronir_c_01"
           }
         ],
         "1": [
@@ -19901,7 +21649,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Yoke of the Charging Bear",
-            "id": 251173
+            "id": 251173,
+            "icon": "inv_12_jewelry_zulaman_troll_necklace_green1"
           }
         ]
       }
@@ -19920,7 +21669,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Axe",
-            "droppedBy": "Atroxus"
+            "droppedBy": "Atroxus",
+            "icon": "inv_axe_1h_dungeonharronir_c_01"
           }
         ],
         "7": [
@@ -19931,7 +21681,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Behemoth Waistband",
-            "id": 251228
+            "id": 251228,
+            "icon": "inv_belt_mail_dungeonharronir_c_01"
           }
         ],
         "4": [
@@ -19942,7 +21693,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Manipulator's Vest",
-            "id": 251233
+            "id": 251233,
+            "icon": "inv_chest_mail_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -19950,7 +21702,8 @@ window.LOOT_DATA = {
             "droppedBy": "Taz'Rah",
             "stats": [],
             "name": "Void Execution Mandate",
-            "id": 250225
+            "id": 250225,
+            "icon": "inv_inscription_80_warscroll_intellect"
           }
         ],
         "12": [
@@ -19961,7 +21714,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sickening Signet of Atroxus",
-            "id": 252258
+            "id": 252258,
+            "icon": "inv_12_jewelry_devouringhost_ring_bronze2"
           }
         ],
         "1": [
@@ -19972,7 +21726,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Graft of the Domanaar",
-            "id": 251234
+            "id": 251234,
+            "icon": "inv_12_jewelry_devouringhost_necklace_silver2"
           }
         ],
         "0": [
@@ -19983,7 +21738,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Voidscarred Crown",
-            "id": 251220
+            "id": 251220,
+            "icon": "inv_helm_mail_dungeonharronir_c_01"
           }
         ]
       },
@@ -19996,7 +21752,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Lightwarden's Bind",
-            "id": 251194
+            "id": 251194,
+            "icon": "inv12_jewelrytrinkets_rutaani_ring_yellow"
           }
         ],
         "6": [
@@ -20007,7 +21764,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Pulverizing Pads",
-            "id": 251165
+            "id": 251165,
+            "icon": "inv_glove_mail_dungeonharronir_c_01"
           }
         ],
         "3": [
@@ -20018,7 +21776,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Bloodthorn Burnous",
-            "id": 251190
+            "id": 251190,
+            "icon": "inv_cape_mail_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -20028,13 +21787,15 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Lightspire Core",
-            "id": 250214
+            "id": 250214,
+            "icon": "inv_enchant_essenceastrallarge"
           },
           {
             "droppedBy": "Ziekket",
             "stats": [],
             "name": "Sapling of the Dawnroot",
-            "id": 250259
+            "id": 250259,
+            "icon": "inv_misc_herb_nightmarevine"
           }
         ],
         "5": [
@@ -20045,7 +21806,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Saptorbane Guards",
-            "id": 251200
+            "id": 251200,
+            "icon": "inv_bracer_mail_dungeonharronir_c_01"
           }
         ],
         "2": [
@@ -20056,7 +21818,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Ironroot Collar",
-            "id": 251184
+            "id": 251184,
+            "icon": "inv_shoulder_mail_dungeonharronir_c_01"
           }
         ],
         "10": [
@@ -20071,7 +21834,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Fist",
-            "droppedBy": "Ikuzz the Light Hunter"
+            "droppedBy": "Ikuzz the Light Hunter",
+            "icon": "inv_hand_1h_dungeonharronir_c_01"
           }
         ]
       },
@@ -20084,7 +21848,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Ritual Binder's Ring",
-            "id": 159459
+            "id": 159459,
+            "icon": "inv_ring_80_03e"
           }
         ],
         "6": [
@@ -20095,7 +21860,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sepulchral Construct's Gloves",
-            "id": 160213
+            "id": 160213,
+            "icon": "inv_glove_mail_zandalardungeon_c_01"
           }
         ],
         "7": [
@@ -20106,7 +21872,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Belt of the Consecrated Tomb",
-            "id": 159369
+            "id": 159369,
+            "icon": "inv_belt_mail_zandalardungeon_c_01"
           }
         ],
         "4": [
@@ -20117,7 +21884,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Loa-Blessed Chestguard",
-            "id": 239046
+            "id": 239046,
+            "icon": "inv_chest_mail_zandalardungeon_c_01"
           }
         ],
         "13": [
@@ -20125,7 +21893,8 @@ window.LOOT_DATA = {
             "droppedBy": "The Golden Serpent",
             "stats": [],
             "name": "Lustrous Golden Plumage",
-            "id": 159617
+            "id": 159617,
+            "icon": "inv_icon_feather06a"
           }
         ],
         "3": [
@@ -20136,7 +21905,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Cloak of the Restless Tribes",
-            "id": 159288
+            "id": 159288,
+            "icon": "inv_cape_mail_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -20147,7 +21917,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Boots of the Headlong Conqueror",
-            "id": 159371
+            "id": 159371,
+            "icon": "inv_boot_mail_zandalardungeon_c_01"
           }
         ],
         "2": [
@@ -20158,7 +21929,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Spaulders of Prime Emperor",
-            "id": 239049
+            "id": 239049,
+            "icon": "inv_shoulder_mail_zandalardungeon_c_01"
           }
         ],
         "10": [
@@ -20173,7 +21945,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Mace",
-            "droppedBy": "King Dazar"
+            "droppedBy": "King Dazar",
+            "icon": "inv_mace_1h_battledungeon_c_01"
           }
         ]
       },
@@ -20190,7 +21963,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Mace",
-            "droppedBy": "Kokia Blazehoof"
+            "droppedBy": "Kokia Blazehoof",
+            "icon": "inv_mace_1h_dragondungeon_c_02"
           }
         ],
         "6": [
@@ -20201,7 +21975,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Galerattle Gauntlets",
-            "id": 193752
+            "id": 193752,
+            "icon": "inv_mail_dragondungeon_c_01_glove"
           }
         ],
         "13": [
@@ -20209,7 +21984,8 @@ window.LOOT_DATA = {
             "droppedBy": "Melidrussa Chillworn",
             "stats": [],
             "name": "Ruby Whelp Shell",
-            "id": 193757
+            "id": 193757,
+            "icon": "inv_item_dragonegg_redbroken01"
           }
         ],
         "8": [
@@ -20220,7 +21996,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Egg Tender's Leggings",
-            "id": 193759
+            "id": 193759,
+            "icon": "inv_mail_dragondungeon_c_01_pant"
           }
         ],
         "3": [
@@ -20231,7 +22008,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Fireproof Drape",
-            "id": 193763
+            "id": 193763,
+            "icon": "inv_mail_dragondungeon_c_01_cape"
           }
         ],
         "0": [
@@ -20242,7 +22020,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Blazebound Lieutenant's Helm",
-            "id": 193765
+            "id": 193765,
+            "icon": "inv_mail_dragondungeon_c_01_helm"
           }
         ]
       },
@@ -20255,7 +22034,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Charged Sandstone Band",
-            "id": 158366
+            "id": 158366,
+            "icon": "inv_ring_80_03d"
           },
           {
             "droppedBy": "Merektha",
@@ -20264,7 +22044,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Jade Ophidian Band",
-            "id": 162544
+            "id": 162544,
+            "icon": "inv_ring_80_04c"
           }
         ],
         "4": [
@@ -20275,7 +22056,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Corrupted Hexxer's Vestments",
-            "id": 239034
+            "id": 239034,
+            "icon": "inv_chest_mail_zandalardungeon_c_01"
           }
         ],
         "13": [
@@ -20283,7 +22065,8 @@ window.LOOT_DATA = {
             "droppedBy": "Galvazzt",
             "stats": [],
             "name": "Tiny Electromental in a Jar",
-            "id": 158374
+            "id": 158374,
+            "icon": "inv_alchemy_71_potion4"
           }
         ],
         "5": [
@@ -20294,7 +22077,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Arc-Glass Bindings",
-            "id": 159380
+            "id": 159380,
+            "icon": "inv_bracer_mail_zandalardungeon_c_01"
           }
         ],
         "8": [
@@ -20305,7 +22089,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Legguards of the Awakening Brood",
-            "id": 159375
+            "id": 159375,
+            "icon": "inv_pant_mail_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -20316,7 +22101,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sabatons of Coruscating Energy",
-            "id": 159388
+            "id": 159388,
+            "icon": "inv_boot_mail_zandalardungeon_c_01"
           }
         ],
         "0": [
@@ -20327,7 +22113,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sethraliss' Fanged Helm",
-            "id": 239035
+            "id": 239035,
+            "icon": "inv_helm_mail_zandalardungeon_c_01"
           }
         ]
       },
@@ -20340,7 +22127,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Hydra Scale Wristguards",
-            "id": 273775
+            "id": 273775,
+            "icon": "inv_bracer_mail_outdooramaniloa_c_01"
           }
         ],
         "4": [
@@ -20351,7 +22139,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Chestguard of Corroded Scales",
-            "id": 273789
+            "id": 273789,
+            "icon": "inv_chest_mail_outdooramaniloa_c_01"
           }
         ],
         "1": [
@@ -20362,7 +22151,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Strand of Warding Fangs",
-            "id": 273781
+            "id": 273781,
+            "icon": "inv_121_jewelry_neck03_teal"
           }
         ],
         "13": [
@@ -20370,13 +22160,15 @@ window.LOOT_DATA = {
             "droppedBy": "Rav'i",
             "stats": [],
             "name": "Vile Vial of Volatile Venom",
-            "id": 273796
+            "id": 273796,
+            "icon": "inv_121_trinket_dungeon_ulatek_vile"
           },
           {
             "droppedBy": "Zul'jan",
             "stats": [],
             "name": "Tattered Amani War Banner",
-            "id": 273797
+            "id": 273797,
+            "icon": "inv_121_trinket_dungeon_ulatek_banner"
           }
         ],
         "12": [
@@ -20387,7 +22179,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Band of the Amani Warlord",
-            "id": 273792
+            "id": 273792,
+            "icon": "inv_121_jewelry_ring02_green"
           }
         ]
       },
@@ -20400,7 +22193,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Signet of Snarling Servitude",
-            "id": 251136
+            "id": 251136,
+            "icon": "inv_12_jewelry_voidelf_ring_teal"
           }
         ],
         "3": [
@@ -20411,7 +22205,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Speakeasy Shroud",
-            "id": 251132
+            "id": 251132,
+            "icon": "inv_cape_leather_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -20419,13 +22214,15 @@ window.LOOT_DATA = {
             "droppedBy": "Zaen Bladesorrow",
             "stats": [],
             "name": "Freightrunner's Flask",
-            "id": 250215
+            "id": 250215,
+            "icon": "inv_alchemy_90_flask_red"
           },
           {
             "droppedBy": "Xathuux the Annihilator",
             "stats": [],
             "name": "Resonant Bellowstone",
-            "id": 250228
+            "id": 250228,
+            "icon": "inv_alchemy_90_stone_green"
           }
         ],
         "8": [
@@ -20436,7 +22233,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Lithiel's Linked Leggings",
-            "id": 251141
+            "id": 251141,
+            "icon": "inv_pant_mail_dungeonharronir_c_01"
           }
         ],
         "9": [
@@ -20447,7 +22245,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Felsoaked Soles",
-            "id": 251125
+            "id": 251125,
+            "icon": "inv_boot_mail_dungeonharronir_c_01"
           }
         ],
         "1": [
@@ -20458,7 +22257,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Pendant of Malefic Fury",
-            "id": 251142
+            "id": 251142,
+            "icon": "inv_12_jewelry_silvermoonelf_necklace_green"
           }
         ],
         "2": [
@@ -20469,7 +22269,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Jangling Felpaulets",
-            "id": 251131
+            "id": 251131,
+            "icon": "inv_shoulder_mail_dungeonharronir_c_01"
           }
         ],
         "10": [
@@ -20481,7 +22282,8 @@ window.LOOT_DATA = {
             "stats": [],
             "hand": "1h",
             "weaponClass": "Warglaive",
-            "droppedBy": "Lithiel Cinderfury"
+            "droppedBy": "Lithiel Cinderfury",
+            "icon": "inv_glaive_1h_questbloodelf_b_01"
           }
         ]
       },
@@ -20494,7 +22296,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Pilfered Precious Band",
-            "id": 251148
+            "id": 251148,
+            "icon": "inv_12_jewelry_zulaman_troll_ring_green2"
           }
         ],
         "6": [
@@ -20505,7 +22308,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Season's Turn Gauntlets",
-            "id": 251152
+            "id": 251152,
+            "icon": "inv_glove_mail_dungeonharronir_c_01"
           }
         ],
         "7": [
@@ -20516,7 +22320,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Tribal Defender's Cord",
-            "id": 251155
+            "id": 251155,
+            "icon": "inv_belt_mail_dungeonharronir_c_01"
           }
         ],
         "9": [
@@ -20527,7 +22332,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Forgotten Tribe Footguards",
-            "id": 251145
+            "id": 251145,
+            "icon": "inv_boot_mail_dungeonharronir_c_01"
           }
         ],
         "10": [
@@ -20542,7 +22348,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Fist",
-            "droppedBy": "The Hoardmonger"
+            "droppedBy": "The Hoardmonger",
+            "icon": "inv_hand_1h_dungeonharronir_c_01"
           }
         ],
         "1": [
@@ -20553,7 +22360,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Yoke of the Charging Bear",
-            "id": 251173
+            "id": 251173,
+            "icon": "inv_12_jewelry_zulaman_troll_necklace_green1"
           }
         ],
         "0": [
@@ -20564,7 +22372,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Nalorakk's Nightmare",
-            "id": 251158
+            "id": 251158,
+            "icon": "inv_helm_mail_dungeonharronir_c_01"
           }
         ]
       }
@@ -20583,7 +22392,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Dagger",
-            "droppedBy": "Atroxus"
+            "droppedBy": "Atroxus",
+            "icon": "inv_knife_1h_dungeonharronir_c_02"
           }
         ],
         "7": [
@@ -20594,7 +22404,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Behemoth Waistband",
-            "id": 251228
+            "id": 251228,
+            "icon": "inv_belt_mail_dungeonharronir_c_01"
           }
         ],
         "4": [
@@ -20605,7 +22416,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Manipulator's Vest",
-            "id": 251233
+            "id": 251233,
+            "icon": "inv_chest_mail_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -20613,7 +22425,8 @@ window.LOOT_DATA = {
             "droppedBy": "Charonus",
             "stats": [],
             "name": "Mindpiercer's Sigil",
-            "id": 250224
+            "id": 250224,
+            "icon": "inv_icon_shadowcouncilorb_purple"
           }
         ],
         "12": [
@@ -20624,7 +22437,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sickening Signet of Atroxus",
-            "id": 252258
+            "id": 252258,
+            "icon": "inv_12_jewelry_devouringhost_ring_bronze2"
           }
         ],
         "1": [
@@ -20635,7 +22449,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Graft of the Domanaar",
-            "id": 251234
+            "id": 251234,
+            "icon": "inv_12_jewelry_devouringhost_necklace_silver2"
           }
         ],
         "0": [
@@ -20646,7 +22461,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Voidscarred Crown",
-            "id": 251220
+            "id": 251220,
+            "icon": "inv_helm_mail_dungeonharronir_c_01"
           }
         ]
       },
@@ -20659,7 +22475,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Lightwarden's Bind",
-            "id": 251194
+            "id": 251194,
+            "icon": "inv12_jewelrytrinkets_rutaani_ring_yellow"
           }
         ],
         "6": [
@@ -20670,7 +22487,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Pulverizing Pads",
-            "id": 251165
+            "id": 251165,
+            "icon": "inv_glove_mail_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -20680,19 +22498,22 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Lightspire Core",
-            "id": 250214
+            "id": 250214,
+            "icon": "inv_enchant_essenceastrallarge"
           },
           {
             "droppedBy": "Meittik",
             "stats": [],
             "name": "Seed of Radiant Hope",
-            "id": 250254
+            "id": 250254,
+            "icon": "inv12_jewelrytrinkets_dungeon_seedofradianthope"
           },
           {
             "droppedBy": "Ziekket",
             "stats": [],
             "name": "Sapling of the Dawnroot",
-            "id": 250259
+            "id": 250259,
+            "icon": "inv_misc_herb_nightmarevine"
           }
         ],
         "5": [
@@ -20703,7 +22524,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Saptorbane Guards",
-            "id": 251200
+            "id": 251200,
+            "icon": "inv_bracer_mail_dungeonharronir_c_01"
           }
         ],
         "11": [
@@ -20718,7 +22540,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Shield",
-            "droppedBy": "Ziekket"
+            "droppedBy": "Ziekket",
+            "icon": "inv_shield_1h_rutaani_b_01"
           }
         ],
         "2": [
@@ -20729,7 +22552,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Ironroot Collar",
-            "id": 251184
+            "id": 251184,
+            "icon": "inv_shoulder_mail_dungeonharronir_c_01"
           }
         ],
         "3": [
@@ -20740,7 +22564,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Bloodthorn Burnous",
-            "id": 251190
+            "id": 251190,
+            "icon": "inv_cape_mail_dungeonharronir_c_01"
           }
         ]
       },
@@ -20753,7 +22578,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Ritual Binder's Ring",
-            "id": 159459
+            "id": 159459,
+            "icon": "inv_ring_80_03e"
           }
         ],
         "6": [
@@ -20764,7 +22590,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sepulchral Construct's Gloves",
-            "id": 160213
+            "id": 160213,
+            "icon": "inv_glove_mail_zandalardungeon_c_01"
           }
         ],
         "7": [
@@ -20775,7 +22602,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Belt of the Consecrated Tomb",
-            "id": 159369
+            "id": 159369,
+            "icon": "inv_belt_mail_zandalardungeon_c_01"
           }
         ],
         "4": [
@@ -20786,7 +22614,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Loa-Blessed Chestguard",
-            "id": 239046
+            "id": 239046,
+            "icon": "inv_chest_mail_zandalardungeon_c_01"
           }
         ],
         "13": [
@@ -20794,7 +22623,8 @@ window.LOOT_DATA = {
             "droppedBy": "King Dazar",
             "stats": [],
             "name": "Stormbound Emblem of Dazar",
-            "id": 273649
+            "id": 273649,
+            "icon": "inv_7_0raid_necklace_14a"
           }
         ],
         "3": [
@@ -20805,7 +22635,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Cloak of the Restless Tribes",
-            "id": 159288
+            "id": 159288,
+            "icon": "inv_cape_mail_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -20816,7 +22647,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Boots of the Headlong Conqueror",
-            "id": 159371
+            "id": 159371,
+            "icon": "inv_boot_mail_zandalardungeon_c_01"
           }
         ],
         "2": [
@@ -20827,7 +22659,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Spaulders of Prime Emperor",
-            "id": 239049
+            "id": 239049,
+            "icon": "inv_shoulder_mail_zandalardungeon_c_01"
           }
         ],
         "10": [
@@ -20842,7 +22675,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Dagger",
-            "droppedBy": "The Golden Serpent"
+            "droppedBy": "The Golden Serpent",
+            "icon": "inv_knife_1h_battledungeon_c_01"
           }
         ]
       },
@@ -20859,7 +22693,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": "Melidrussa Chillworn"
+            "droppedBy": "Melidrussa Chillworn",
+            "icon": "inv_staff_2h_dragondungeon_c_02"
           }
         ],
         "6": [
@@ -20870,7 +22705,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Galerattle Gauntlets",
-            "id": 193752
+            "id": 193752,
+            "icon": "inv_mail_dragondungeon_c_01_glove"
           }
         ],
         "13": [
@@ -20880,13 +22716,15 @@ window.LOOT_DATA = {
               "Crit"
             ],
             "name": "Kyrakka's Searing Embers",
-            "id": 193748
+            "id": 193748,
+            "icon": "inv_10_dungeonjewelry_primalist_trinket_4_fire"
           },
           {
             "droppedBy": "Melidrussa Chillworn",
             "stats": [],
             "name": "Ruby Whelp Shell",
-            "id": 193757
+            "id": 193757,
+            "icon": "inv_item_dragonegg_redbroken01"
           }
         ],
         "8": [
@@ -20897,7 +22735,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Egg Tender's Leggings",
-            "id": 193759
+            "id": 193759,
+            "icon": "inv_mail_dragondungeon_c_01_pant"
           }
         ],
         "11": [
@@ -20912,7 +22751,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Shield",
-            "droppedBy": null
+            "droppedBy": null,
+            "icon": "inv_shield_1h_drakonid_c_01"
           }
         ],
         "3": [
@@ -20923,7 +22763,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Fireproof Drape",
-            "id": 193763
+            "id": 193763,
+            "icon": "inv_mail_dragondungeon_c_01_cape"
           }
         ],
         "0": [
@@ -20934,7 +22775,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Blazebound Lieutenant's Helm",
-            "id": 193765
+            "id": 193765,
+            "icon": "inv_mail_dragondungeon_c_01_helm"
           }
         ]
       },
@@ -20947,7 +22789,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Charged Sandstone Band",
-            "id": 158366
+            "id": 158366,
+            "icon": "inv_ring_80_03d"
           },
           {
             "droppedBy": "Merektha",
@@ -20956,7 +22799,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Jade Ophidian Band",
-            "id": 162544
+            "id": 162544,
+            "icon": "inv_ring_80_04c"
           }
         ],
         "4": [
@@ -20967,7 +22811,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Corrupted Hexxer's Vestments",
-            "id": 239034
+            "id": 239034,
+            "icon": "inv_chest_mail_zandalardungeon_c_01"
           }
         ],
         "5": [
@@ -20978,7 +22823,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Arc-Glass Bindings",
-            "id": 159380
+            "id": 159380,
+            "icon": "inv_bracer_mail_zandalardungeon_c_01"
           }
         ],
         "8": [
@@ -20989,7 +22835,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Legguards of the Awakening Brood",
-            "id": 159375
+            "id": 159375,
+            "icon": "inv_pant_mail_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -21000,7 +22847,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sabatons of Coruscating Energy",
-            "id": 159388
+            "id": 159388,
+            "icon": "inv_boot_mail_zandalardungeon_c_01"
           }
         ],
         "11": [
@@ -21015,7 +22863,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Shield",
-            "droppedBy": "Galvazzt"
+            "droppedBy": "Galvazzt",
+            "icon": "inv_shield_1h_battledungeon_c_02"
           }
         ],
         "10": [
@@ -21030,7 +22879,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Mace",
-            "droppedBy": "Galvazzt"
+            "droppedBy": "Galvazzt",
+            "icon": "inv_mace_1h_pandaraid_d_01"
           },
           {
             "id": 159636,
@@ -21043,7 +22893,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": null
+            "droppedBy": null,
+            "icon": "inv_staff_2h_battledungeon_c_04"
           }
         ],
         "0": [
@@ -21054,7 +22905,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sethraliss' Fanged Helm",
-            "id": 239035
+            "id": 239035,
+            "icon": "inv_helm_mail_zandalardungeon_c_01"
           }
         ]
       },
@@ -21067,7 +22919,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Strand of Warding Fangs",
-            "id": 273781
+            "id": 273781,
+            "icon": "inv_121_jewelry_neck03_teal"
           }
         ],
         "4": [
@@ -21078,7 +22931,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Chestguard of Corroded Scales",
-            "id": 273789
+            "id": 273789,
+            "icon": "inv_chest_mail_outdooramaniloa_c_01"
           }
         ],
         "13": [
@@ -21086,7 +22940,8 @@ window.LOOT_DATA = {
             "droppedBy": "Rav'i",
             "stats": [],
             "name": "Vile Vial of Volatile Venom",
-            "id": 273796
+            "id": 273796,
+            "icon": "inv_121_trinket_dungeon_ulatek_vile"
           }
         ],
         "5": [
@@ -21097,7 +22952,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Hydra Scale Wristguards",
-            "id": 273775
+            "id": 273775,
+            "icon": "inv_bracer_mail_outdooramaniloa_c_01"
           }
         ],
         "12": [
@@ -21108,7 +22964,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Band of the Amani Warlord",
-            "id": 273792
+            "id": 273792,
+            "icon": "inv_121_jewelry_ring02_green"
           }
         ],
         "10": [
@@ -21123,7 +22980,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Dagger",
-            "droppedBy": "Zul'jan"
+            "droppedBy": "Zul'jan",
+            "icon": "inv_knife_1h_zuljin_d_01"
           },
           {
             "id": 273780,
@@ -21136,7 +22994,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Axe",
-            "droppedBy": "Rav'i"
+            "droppedBy": "Rav'i",
+            "icon": "inv_axe_1h_outdooramaniloa_c_01"
           }
         ]
       },
@@ -21149,7 +23008,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Pendant of Malefic Fury",
-            "id": 251142
+            "id": 251142,
+            "icon": "inv_12_jewelry_silvermoonelf_necklace_green"
           }
         ],
         "3": [
@@ -21160,7 +23020,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Speakeasy Shroud",
-            "id": 251132
+            "id": 251132,
+            "icon": "inv_cape_leather_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -21168,13 +23029,15 @@ window.LOOT_DATA = {
             "droppedBy": "Zaen Bladesorrow",
             "stats": [],
             "name": "Freightrunner's Flask",
-            "id": 250215
+            "id": 250215,
+            "icon": "inv_alchemy_90_flask_red"
           },
           {
             "droppedBy": "Lithiel Cinderfury",
             "stats": [],
             "name": "Unstable Felheart Crystal",
-            "id": 250255
+            "id": 250255,
+            "icon": "tooltip_crystallizedfel"
           }
         ],
         "8": [
@@ -21185,7 +23048,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Lithiel's Linked Leggings",
-            "id": 251141
+            "id": 251141,
+            "icon": "inv_pant_mail_dungeonharronir_c_01"
           }
         ],
         "9": [
@@ -21196,7 +23060,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Felsoaked Soles",
-            "id": 251125
+            "id": 251125,
+            "icon": "inv_boot_mail_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -21207,7 +23072,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Signet of Snarling Servitude",
-            "id": 251136
+            "id": 251136,
+            "icon": "inv_12_jewelry_voidelf_ring_teal"
           }
         ],
         "2": [
@@ -21218,7 +23084,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Jangling Felpaulets",
-            "id": 251131
+            "id": 251131,
+            "icon": "inv_shoulder_mail_dungeonharronir_c_01"
           }
         ],
         "10": [
@@ -21233,7 +23100,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": "Kystia Manaheart"
+            "droppedBy": "Kystia Manaheart",
+            "icon": "inv_staff_2h_dungeonharronir_c_02"
           },
           {
             "id": 258045,
@@ -21243,7 +23111,8 @@ window.LOOT_DATA = {
             "stats": [],
             "hand": "1h",
             "weaponClass": "Warglaive",
-            "droppedBy": "Lithiel Cinderfury"
+            "droppedBy": "Lithiel Cinderfury",
+            "icon": "inv_glaive_1h_questbloodelf_b_01"
           }
         ]
       },
@@ -21256,7 +23125,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Pilfered Precious Band",
-            "id": 251148
+            "id": 251148,
+            "icon": "inv_12_jewelry_zulaman_troll_ring_green2"
           }
         ],
         "6": [
@@ -21267,7 +23137,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Season's Turn Gauntlets",
-            "id": 251152
+            "id": 251152,
+            "icon": "inv_glove_mail_dungeonharronir_c_01"
           }
         ],
         "7": [
@@ -21278,7 +23149,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Tribal Defender's Cord",
-            "id": 251155
+            "id": 251155,
+            "icon": "inv_belt_mail_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -21286,7 +23158,8 @@ window.LOOT_DATA = {
             "droppedBy": "The Hoardmonger",
             "stats": [],
             "name": "Mycolic Medicine",
-            "id": 250248
+            "id": 250248,
+            "icon": "inv_misc_starspecklemushroom"
           }
         ],
         "9": [
@@ -21297,7 +23170,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Forgotten Tribe Footguards",
-            "id": 251145
+            "id": 251145,
+            "icon": "inv_boot_mail_dungeonharronir_c_01"
           }
         ],
         "11": [
@@ -21312,7 +23186,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Shield",
-            "droppedBy": "Sentinel of Winter"
+            "droppedBy": "Sentinel of Winter",
+            "icon": "inv_shield_1h_dungeonharronir_c_01"
           }
         ],
         "10": [
@@ -21327,7 +23202,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": "Nalorakk"
+            "droppedBy": "Nalorakk",
+            "icon": "inv_staff_2h_amani_c_01"
           }
         ],
         "1": [
@@ -21338,7 +23214,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Yoke of the Charging Bear",
-            "id": 251173
+            "id": 251173,
+            "icon": "inv_12_jewelry_zulaman_troll_necklace_green1"
           }
         ],
         "0": [
@@ -21349,7 +23226,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Nalorakk's Nightmare",
-            "id": 251158
+            "id": 251158,
+            "icon": "inv_helm_mail_dungeonharronir_c_01"
           }
         ]
       }
@@ -21368,7 +23246,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Dagger",
-            "droppedBy": "Atroxus"
+            "droppedBy": "Atroxus",
+            "icon": "inv_knife_1h_dungeonharronir_c_02"
           }
         ],
         "7": [
@@ -21379,7 +23258,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Ethereal Netherwrap",
-            "id": 251222
+            "id": 251222,
+            "icon": "inv_belt_cloth_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -21387,7 +23267,8 @@ window.LOOT_DATA = {
             "droppedBy": "Charonus",
             "stats": [],
             "name": "Mindpiercer's Sigil",
-            "id": 250224
+            "id": 250224,
+            "icon": "inv_icon_shadowcouncilorb_purple"
           }
         ],
         "9": [
@@ -21398,7 +23279,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Riftworn Stompers",
-            "id": 251219
+            "id": 251219,
+            "icon": "inv_boot_cloth_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -21409,7 +23291,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sickening Signet of Atroxus",
-            "id": 252258
+            "id": 252258,
+            "icon": "inv_12_jewelry_devouringhost_ring_bronze2"
           }
         ],
         "2": [
@@ -21420,7 +23303,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Poisoner's Pauldrons",
-            "id": 251227
+            "id": 251227,
+            "icon": "inv_shoulder_cloth_dungeonharronir_c_01"
           }
         ],
         "1": [
@@ -21431,7 +23315,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Graft of the Domanaar",
-            "id": 251234
+            "id": 251234,
+            "icon": "inv_12_jewelry_devouringhost_necklace_silver2"
           }
         ],
         "0": [
@@ -21442,7 +23327,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Overseer's Diadem",
-            "id": 251232
+            "id": 251232,
+            "icon": "inv_helm_cloth_dungeonharronir_c_01"
           }
         ]
       },
@@ -21459,7 +23345,8 @@ window.LOOT_DATA = {
             ],
             "hand": "ranged",
             "weaponClass": "Wand",
-            "droppedBy": "Ikuzz the Light Hunter"
+            "droppedBy": "Ikuzz the Light Hunter",
+            "icon": "inv_wand_1h_dungeonharronir_c_01"
           }
         ],
         "7": [
@@ -21470,7 +23357,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Lightblossom Cinch",
-            "id": 251185
+            "id": 251185,
+            "icon": "inv_belt_cloth_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -21480,13 +23368,15 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Lightspire Core",
-            "id": 250214
+            "id": 250214,
+            "icon": "inv_enchant_essenceastrallarge"
           },
           {
             "droppedBy": "Ziekket",
             "stats": [],
             "name": "Sapling of the Dawnroot",
-            "id": 250259
+            "id": 250259,
+            "icon": "inv_misc_herb_nightmarevine"
           }
         ],
         "11": [
@@ -21501,7 +23391,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "Lightwarden Ruia"
+            "droppedBy": "Lightwarden Ruia",
+            "icon": "inv_offhand_1h_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -21512,7 +23403,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Lightwarden's Bind",
-            "id": 251194
+            "id": 251194,
+            "icon": "inv12_jewelrytrinkets_rutaani_ring_yellow"
           }
         ],
         "3": [
@@ -21523,7 +23415,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Bloodthorn Burnous",
-            "id": 251190
+            "id": 251190,
+            "icon": "inv_cape_mail_dungeonharronir_c_01"
           }
         ],
         "0": [
@@ -21534,7 +23427,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Worldroot Canopy",
-            "id": 251199
+            "id": 251199,
+            "icon": "inv_helm_cloth_dungeonharronir_c_01"
           }
         ]
       },
@@ -21547,7 +23441,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Ritual Binder's Ring",
-            "id": 159459
+            "id": 159459,
+            "icon": "inv_ring_80_03e"
           }
         ],
         "3": [
@@ -21558,7 +23453,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Cloak of the Restless Tribes",
-            "id": 159288
+            "id": 159288,
+            "icon": "inv_cape_mail_zandalardungeon_c_01"
           }
         ],
         "11": [
@@ -21573,7 +23469,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "Mchimba the Embalmer"
+            "droppedBy": "Mchimba the Embalmer",
+            "icon": "inv_offhand_1h_battledungeon_c_02"
           }
         ],
         "8": [
@@ -21584,7 +23481,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Down-Lined Breeches",
-            "id": 159234
+            "id": 159234,
+            "icon": "inv_pant_cloth_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -21595,7 +23493,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Sandals of Wise Voodoo",
-            "id": 159243
+            "id": 159243,
+            "icon": "inv_boot_cloth_zandalardungeon_c_01"
           }
         ],
         "13": [
@@ -21603,7 +23502,8 @@ window.LOOT_DATA = {
             "droppedBy": "King Dazar",
             "stats": [],
             "name": "Stormbound Emblem of Dazar",
-            "id": 273649
+            "id": 273649,
+            "icon": "inv_7_0raid_necklace_14a"
           }
         ],
         "2": [
@@ -21614,7 +23514,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Mantle of Ceremonial Ascension",
-            "id": 239045
+            "id": 239045,
+            "icon": "inv_shoulder_cloth_zandalardungeon_c_01"
           }
         ],
         "10": [
@@ -21629,7 +23530,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Dagger",
-            "droppedBy": "The Golden Serpent"
+            "droppedBy": "The Golden Serpent",
+            "icon": "inv_knife_1h_battledungeon_c_01"
           },
           {
             "id": 160216,
@@ -21642,7 +23544,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Sword",
-            "droppedBy": "Aka'ali the Conqueror"
+            "droppedBy": "Aka'ali the Conqueror",
+            "icon": "inv_sword_1h_battledungeon_c_02"
           }
         ],
         "0": [
@@ -21653,7 +23556,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Headdress of the First Empire",
-            "id": 239047
+            "id": 239047,
+            "icon": "inv_helm_cloth_zandalardungeon_c_01"
           }
         ]
       },
@@ -21670,7 +23574,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": "Melidrussa Chillworn"
+            "droppedBy": "Melidrussa Chillworn",
+            "icon": "inv_staff_2h_dragondungeon_c_02"
           }
         ],
         "7": [
@@ -21681,7 +23586,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sky Saddle Cord",
-            "id": 193691
+            "id": 193691,
+            "icon": "inv_belt_dragondungeon_c_01"
           }
         ],
         "13": [
@@ -21689,7 +23595,8 @@ window.LOOT_DATA = {
             "droppedBy": "Melidrussa Chillworn",
             "stats": [],
             "name": "Ruby Whelp Shell",
-            "id": 193757
+            "id": 193757,
+            "icon": "inv_item_dragonegg_redbroken01"
           }
         ],
         "8": [
@@ -21700,7 +23607,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Wind Soarer's Breeches",
-            "id": 193750
+            "id": 193750,
+            "icon": "inv_pant_cloth_dragondungeon_c_01"
           }
         ],
         "11": [
@@ -21715,7 +23623,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "Kokia Blazehoof"
+            "droppedBy": "Kokia Blazehoof",
+            "icon": "inv_offhand_1h_drakonid_c_01"
           }
         ],
         "3": [
@@ -21726,7 +23635,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Fireproof Drape",
-            "id": 193763
+            "id": 193763,
+            "icon": "inv_mail_dragondungeon_c_01_cape"
           }
         ]
       },
@@ -21739,7 +23649,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Charged Sandstone Band",
-            "id": 158366
+            "id": 158366,
+            "icon": "inv_ring_80_03d"
           },
           {
             "droppedBy": "Merektha",
@@ -21748,7 +23659,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Jade Ophidian Band",
-            "id": 162544
+            "id": 162544,
+            "icon": "inv_ring_80_04c"
           }
         ],
         "6": [
@@ -21759,7 +23671,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Handwraps of Oscillating Polarity",
-            "id": 159247
+            "id": 159247,
+            "icon": "inv_glove_cloth_zandalardungeon_c_01"
           }
         ],
         "7": [
@@ -21770,7 +23683,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Ouroborial Sash",
-            "id": 159255
+            "id": 159255,
+            "icon": "inv_belt_cloth_zandalardungeon_c_01"
           }
         ],
         "4": [
@@ -21781,7 +23695,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Robes of the Reborn Serpent",
-            "id": 239032
+            "id": 239032,
+            "icon": "inv_chest_cloth_zandalardungeon_c_01"
           }
         ],
         "13": [
@@ -21789,7 +23704,8 @@ window.LOOT_DATA = {
             "droppedBy": "Avatar of Sethraliss",
             "stats": [],
             "name": "Sethraliss' Defiled Relic",
-            "id": 158368
+            "id": 158368,
+            "icon": "inv_staff_2h_snakeman_c_01"
           }
         ],
         "5": [
@@ -21800,7 +23716,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Bindings of the Slithering Current",
-            "id": 159263
+            "id": 159263,
+            "icon": "inv_bracer_cloth_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -21811,7 +23728,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Sandswept Sandals",
-            "id": 159259
+            "id": 159259,
+            "icon": "inv_boot_cloth_zandalardungeon_c_01"
           }
         ],
         "2": [
@@ -21822,7 +23740,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Brood Cleanser's Amice",
-            "id": 239031
+            "id": 239031,
+            "icon": "inv_shoulder_cloth_zandalardungeon_c_01"
           }
         ],
         "10": [
@@ -21837,7 +23756,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": null
+            "droppedBy": null,
+            "icon": "inv_staff_2h_battledungeon_c_04"
           }
         ]
       },
@@ -21850,7 +23770,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Strand of Warding Fangs",
-            "id": 273781
+            "id": 273781,
+            "icon": "inv_121_jewelry_neck03_teal"
           }
         ],
         "6": [
@@ -21861,7 +23782,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Handwraps of Blasphemous Rites",
-            "id": 273773
+            "id": 273773,
+            "icon": "inv_glove_cloth_outdooramaniloa_c_01"
           }
         ],
         "4": [
@@ -21872,7 +23794,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Primordial Robe of Rites",
-            "id": 273785
+            "id": 273785,
+            "icon": "inv_robe_cloth_outdooramaniloa_c_01"
           }
         ],
         "11": [
@@ -21887,7 +23810,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "The Writhing Coil"
+            "droppedBy": "The Writhing Coil",
+            "icon": "inv_offhand_1h_outdooramaniloa_c_01"
           }
         ],
         "8": [
@@ -21898,7 +23822,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Leggings of Entwined Serpents",
-            "id": 273786
+            "id": 273786,
+            "icon": "inv_pant_cloth_outdooramaniloa_c_01"
           }
         ],
         "13": [
@@ -21906,13 +23831,15 @@ window.LOOT_DATA = {
             "droppedBy": "The Writhing Coil",
             "stats": [],
             "name": "Knot of Writhing Serpents",
-            "id": 273794
+            "id": 273794,
+            "icon": "inv_121_trinket_dungeon_ulatek_writhe"
           },
           {
             "droppedBy": "Rav'i",
             "stats": [],
             "name": "Vile Vial of Volatile Venom",
-            "id": 273796
+            "id": 273796,
+            "icon": "inv_121_trinket_dungeon_ulatek_vile"
           }
         ],
         "12": [
@@ -21923,7 +23850,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Band of the Amani Warlord",
-            "id": 273792
+            "id": 273792,
+            "icon": "inv_121_jewelry_ring02_green"
           }
         ],
         "10": [
@@ -21938,7 +23866,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Dagger",
-            "droppedBy": "Zul'jan"
+            "droppedBy": "Zul'jan",
+            "icon": "inv_knife_1h_zuljin_d_01"
           }
         ]
       },
@@ -21955,7 +23884,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": "Kystia Manaheart"
+            "droppedBy": "Kystia Manaheart",
+            "icon": "inv_staff_2h_dungeonharronir_c_02"
           },
           {
             "id": 258045,
@@ -21965,7 +23895,8 @@ window.LOOT_DATA = {
             "stats": [],
             "hand": "1h",
             "weaponClass": "Warglaive",
-            "droppedBy": "Lithiel Cinderfury"
+            "droppedBy": "Lithiel Cinderfury",
+            "icon": "inv_glaive_1h_questbloodelf_b_01"
           }
         ],
         "6": [
@@ -21976,7 +23907,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Counterfeit Clutches",
-            "id": 251129
+            "id": 251129,
+            "icon": "inv_glove_cloth_dungeonharronir_c_01"
           }
         ],
         "4": [
@@ -21987,7 +23919,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Summoner's Searing Shirt",
-            "id": 251139
+            "id": 251139,
+            "icon": "inv_chest_cloth_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -21995,7 +23928,8 @@ window.LOOT_DATA = {
             "droppedBy": "Zaen Bladesorrow",
             "stats": [],
             "name": "Freightrunner's Flask",
-            "id": 250215
+            "id": 250215,
+            "icon": "inv_alchemy_90_flask_red"
           }
         ],
         "5": [
@@ -22006,7 +23940,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Nibbling Armbands",
-            "id": 251127
+            "id": 251127,
+            "icon": "inv_bracer_cloth_dungeonharronir_c_01"
           }
         ],
         "3": [
@@ -22017,7 +23952,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Speakeasy Shroud",
-            "id": 251132
+            "id": 251132,
+            "icon": "inv_cape_leather_dungeonharronir_c_01"
           }
         ],
         "9": [
@@ -22028,7 +23964,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Tempestuous Sandals",
-            "id": 251137
+            "id": 251137,
+            "icon": "inv_boot_cloth_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -22039,7 +23976,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Signet of Snarling Servitude",
-            "id": 251136
+            "id": 251136,
+            "icon": "inv_12_jewelry_voidelf_ring_teal"
           }
         ],
         "1": [
@@ -22050,7 +23988,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Pendant of Malefic Fury",
-            "id": 251142
+            "id": 251142,
+            "icon": "inv_12_jewelry_silvermoonelf_necklace_green"
           }
         ]
       },
@@ -22067,7 +24006,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": "Nalorakk"
+            "droppedBy": "Nalorakk",
+            "icon": "inv_staff_2h_amani_c_01"
           }
         ],
         "4": [
@@ -22078,7 +24018,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Hoarded Harvest Wrap",
-            "id": 251147
+            "id": 251147,
+            "icon": "inv_chest_cloth_dungeonharronir_c_01"
           }
         ],
         "11": [
@@ -22093,7 +24034,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "Sentinel of Winter"
+            "droppedBy": "Sentinel of Winter",
+            "icon": "inv_offhand_1h_dungeonharronir_c_01"
           }
         ],
         "5": [
@@ -22104,7 +24046,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Winter's Embrace Bracers",
-            "id": 251154
+            "id": 251154,
+            "icon": "inv_bracer_cloth_dungeonharronir_c_01"
           }
         ],
         "8": [
@@ -22115,7 +24058,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Forest Dream Leg-guards",
-            "id": 251160
+            "id": 251160,
+            "icon": "inv_pant_cloth_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -22126,7 +24070,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Pilfered Precious Band",
-            "id": 251148
+            "id": 251148,
+            "icon": "inv_12_jewelry_zulaman_troll_ring_green2"
           }
         ],
         "1": [
@@ -22137,7 +24082,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Yoke of the Charging Bear",
-            "id": 251173
+            "id": 251173,
+            "icon": "inv_12_jewelry_zulaman_troll_necklace_green1"
           }
         ]
       }
@@ -22156,7 +24102,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Dagger",
-            "droppedBy": "Atroxus"
+            "droppedBy": "Atroxus",
+            "icon": "inv_knife_1h_dungeonharronir_c_02"
           }
         ],
         "7": [
@@ -22167,7 +24114,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Ethereal Netherwrap",
-            "id": 251222
+            "id": 251222,
+            "icon": "inv_belt_cloth_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -22175,7 +24123,8 @@ window.LOOT_DATA = {
             "droppedBy": "Charonus",
             "stats": [],
             "name": "Mindpiercer's Sigil",
-            "id": 250224
+            "id": 250224,
+            "icon": "inv_icon_shadowcouncilorb_purple"
           }
         ],
         "9": [
@@ -22186,7 +24135,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Riftworn Stompers",
-            "id": 251219
+            "id": 251219,
+            "icon": "inv_boot_cloth_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -22197,7 +24147,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sickening Signet of Atroxus",
-            "id": 252258
+            "id": 252258,
+            "icon": "inv_12_jewelry_devouringhost_ring_bronze2"
           }
         ],
         "2": [
@@ -22208,7 +24159,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Poisoner's Pauldrons",
-            "id": 251227
+            "id": 251227,
+            "icon": "inv_shoulder_cloth_dungeonharronir_c_01"
           }
         ],
         "1": [
@@ -22219,7 +24171,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Graft of the Domanaar",
-            "id": 251234
+            "id": 251234,
+            "icon": "inv_12_jewelry_devouringhost_necklace_silver2"
           }
         ],
         "0": [
@@ -22230,7 +24183,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Overseer's Diadem",
-            "id": 251232
+            "id": 251232,
+            "icon": "inv_helm_cloth_dungeonharronir_c_01"
           }
         ]
       },
@@ -22247,7 +24201,8 @@ window.LOOT_DATA = {
             ],
             "hand": "ranged",
             "weaponClass": "Wand",
-            "droppedBy": "Ikuzz the Light Hunter"
+            "droppedBy": "Ikuzz the Light Hunter",
+            "icon": "inv_wand_1h_dungeonharronir_c_01"
           }
         ],
         "7": [
@@ -22258,7 +24213,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Lightblossom Cinch",
-            "id": 251185
+            "id": 251185,
+            "icon": "inv_belt_cloth_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -22268,13 +24224,15 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Lightspire Core",
-            "id": 250214
+            "id": 250214,
+            "icon": "inv_enchant_essenceastrallarge"
           },
           {
             "droppedBy": "Ziekket",
             "stats": [],
             "name": "Sapling of the Dawnroot",
-            "id": 250259
+            "id": 250259,
+            "icon": "inv_misc_herb_nightmarevine"
           }
         ],
         "11": [
@@ -22289,7 +24247,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "Lightwarden Ruia"
+            "droppedBy": "Lightwarden Ruia",
+            "icon": "inv_offhand_1h_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -22300,7 +24259,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Lightwarden's Bind",
-            "id": 251194
+            "id": 251194,
+            "icon": "inv12_jewelrytrinkets_rutaani_ring_yellow"
           }
         ],
         "3": [
@@ -22311,7 +24271,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Bloodthorn Burnous",
-            "id": 251190
+            "id": 251190,
+            "icon": "inv_cape_mail_dungeonharronir_c_01"
           }
         ],
         "0": [
@@ -22322,7 +24283,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Worldroot Canopy",
-            "id": 251199
+            "id": 251199,
+            "icon": "inv_helm_cloth_dungeonharronir_c_01"
           }
         ]
       },
@@ -22335,7 +24297,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Ritual Binder's Ring",
-            "id": 159459
+            "id": 159459,
+            "icon": "inv_ring_80_03e"
           }
         ],
         "3": [
@@ -22346,7 +24309,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Cloak of the Restless Tribes",
-            "id": 159288
+            "id": 159288,
+            "icon": "inv_cape_mail_zandalardungeon_c_01"
           }
         ],
         "11": [
@@ -22361,7 +24325,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "Mchimba the Embalmer"
+            "droppedBy": "Mchimba the Embalmer",
+            "icon": "inv_offhand_1h_battledungeon_c_02"
           }
         ],
         "8": [
@@ -22372,7 +24337,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Down-Lined Breeches",
-            "id": 159234
+            "id": 159234,
+            "icon": "inv_pant_cloth_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -22383,7 +24349,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Sandals of Wise Voodoo",
-            "id": 159243
+            "id": 159243,
+            "icon": "inv_boot_cloth_zandalardungeon_c_01"
           }
         ],
         "13": [
@@ -22391,7 +24358,8 @@ window.LOOT_DATA = {
             "droppedBy": "King Dazar",
             "stats": [],
             "name": "Stormbound Emblem of Dazar",
-            "id": 273649
+            "id": 273649,
+            "icon": "inv_7_0raid_necklace_14a"
           }
         ],
         "2": [
@@ -22402,7 +24370,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Mantle of Ceremonial Ascension",
-            "id": 239045
+            "id": 239045,
+            "icon": "inv_shoulder_cloth_zandalardungeon_c_01"
           }
         ],
         "10": [
@@ -22417,7 +24386,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Dagger",
-            "droppedBy": "The Golden Serpent"
+            "droppedBy": "The Golden Serpent",
+            "icon": "inv_knife_1h_battledungeon_c_01"
           },
           {
             "id": 160216,
@@ -22430,7 +24400,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Sword",
-            "droppedBy": "Aka'ali the Conqueror"
+            "droppedBy": "Aka'ali the Conqueror",
+            "icon": "inv_sword_1h_battledungeon_c_02"
           }
         ],
         "0": [
@@ -22441,7 +24412,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Headdress of the First Empire",
-            "id": 239047
+            "id": 239047,
+            "icon": "inv_helm_cloth_zandalardungeon_c_01"
           }
         ]
       },
@@ -22458,7 +24430,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": "Melidrussa Chillworn"
+            "droppedBy": "Melidrussa Chillworn",
+            "icon": "inv_staff_2h_dragondungeon_c_02"
           }
         ],
         "7": [
@@ -22469,7 +24442,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sky Saddle Cord",
-            "id": 193691
+            "id": 193691,
+            "icon": "inv_belt_dragondungeon_c_01"
           }
         ],
         "13": [
@@ -22477,7 +24451,8 @@ window.LOOT_DATA = {
             "droppedBy": "Melidrussa Chillworn",
             "stats": [],
             "name": "Ruby Whelp Shell",
-            "id": 193757
+            "id": 193757,
+            "icon": "inv_item_dragonegg_redbroken01"
           }
         ],
         "8": [
@@ -22488,7 +24463,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Wind Soarer's Breeches",
-            "id": 193750
+            "id": 193750,
+            "icon": "inv_pant_cloth_dragondungeon_c_01"
           }
         ],
         "11": [
@@ -22503,7 +24479,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "Kokia Blazehoof"
+            "droppedBy": "Kokia Blazehoof",
+            "icon": "inv_offhand_1h_drakonid_c_01"
           }
         ],
         "3": [
@@ -22514,7 +24491,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Fireproof Drape",
-            "id": 193763
+            "id": 193763,
+            "icon": "inv_mail_dragondungeon_c_01_cape"
           }
         ]
       },
@@ -22527,7 +24505,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Charged Sandstone Band",
-            "id": 158366
+            "id": 158366,
+            "icon": "inv_ring_80_03d"
           },
           {
             "droppedBy": "Merektha",
@@ -22536,7 +24515,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Jade Ophidian Band",
-            "id": 162544
+            "id": 162544,
+            "icon": "inv_ring_80_04c"
           }
         ],
         "6": [
@@ -22547,7 +24527,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Handwraps of Oscillating Polarity",
-            "id": 159247
+            "id": 159247,
+            "icon": "inv_glove_cloth_zandalardungeon_c_01"
           }
         ],
         "7": [
@@ -22558,7 +24539,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Ouroborial Sash",
-            "id": 159255
+            "id": 159255,
+            "icon": "inv_belt_cloth_zandalardungeon_c_01"
           }
         ],
         "4": [
@@ -22569,7 +24551,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Robes of the Reborn Serpent",
-            "id": 239032
+            "id": 239032,
+            "icon": "inv_chest_cloth_zandalardungeon_c_01"
           }
         ],
         "13": [
@@ -22577,7 +24560,8 @@ window.LOOT_DATA = {
             "droppedBy": "Avatar of Sethraliss",
             "stats": [],
             "name": "Sethraliss' Defiled Relic",
-            "id": 158368
+            "id": 158368,
+            "icon": "inv_staff_2h_snakeman_c_01"
           }
         ],
         "5": [
@@ -22588,7 +24572,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Bindings of the Slithering Current",
-            "id": 159263
+            "id": 159263,
+            "icon": "inv_bracer_cloth_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -22599,7 +24584,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Sandswept Sandals",
-            "id": 159259
+            "id": 159259,
+            "icon": "inv_boot_cloth_zandalardungeon_c_01"
           }
         ],
         "2": [
@@ -22610,7 +24596,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Brood Cleanser's Amice",
-            "id": 239031
+            "id": 239031,
+            "icon": "inv_shoulder_cloth_zandalardungeon_c_01"
           }
         ],
         "10": [
@@ -22625,7 +24612,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": null
+            "droppedBy": null,
+            "icon": "inv_staff_2h_battledungeon_c_04"
           }
         ]
       },
@@ -22638,7 +24626,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Strand of Warding Fangs",
-            "id": 273781
+            "id": 273781,
+            "icon": "inv_121_jewelry_neck03_teal"
           }
         ],
         "6": [
@@ -22649,7 +24638,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Handwraps of Blasphemous Rites",
-            "id": 273773
+            "id": 273773,
+            "icon": "inv_glove_cloth_outdooramaniloa_c_01"
           }
         ],
         "4": [
@@ -22660,7 +24650,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Primordial Robe of Rites",
-            "id": 273785
+            "id": 273785,
+            "icon": "inv_robe_cloth_outdooramaniloa_c_01"
           }
         ],
         "11": [
@@ -22675,7 +24666,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "The Writhing Coil"
+            "droppedBy": "The Writhing Coil",
+            "icon": "inv_offhand_1h_outdooramaniloa_c_01"
           }
         ],
         "8": [
@@ -22686,7 +24678,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Leggings of Entwined Serpents",
-            "id": 273786
+            "id": 273786,
+            "icon": "inv_pant_cloth_outdooramaniloa_c_01"
           }
         ],
         "13": [
@@ -22694,13 +24687,15 @@ window.LOOT_DATA = {
             "droppedBy": "The Writhing Coil",
             "stats": [],
             "name": "Knot of Writhing Serpents",
-            "id": 273794
+            "id": 273794,
+            "icon": "inv_121_trinket_dungeon_ulatek_writhe"
           },
           {
             "droppedBy": "Rav'i",
             "stats": [],
             "name": "Vile Vial of Volatile Venom",
-            "id": 273796
+            "id": 273796,
+            "icon": "inv_121_trinket_dungeon_ulatek_vile"
           }
         ],
         "12": [
@@ -22711,7 +24706,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Band of the Amani Warlord",
-            "id": 273792
+            "id": 273792,
+            "icon": "inv_121_jewelry_ring02_green"
           }
         ],
         "10": [
@@ -22726,7 +24722,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Dagger",
-            "droppedBy": "Zul'jan"
+            "droppedBy": "Zul'jan",
+            "icon": "inv_knife_1h_zuljin_d_01"
           }
         ]
       },
@@ -22743,7 +24740,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": "Kystia Manaheart"
+            "droppedBy": "Kystia Manaheart",
+            "icon": "inv_staff_2h_dungeonharronir_c_02"
           },
           {
             "id": 258045,
@@ -22753,7 +24751,8 @@ window.LOOT_DATA = {
             "stats": [],
             "hand": "1h",
             "weaponClass": "Warglaive",
-            "droppedBy": "Lithiel Cinderfury"
+            "droppedBy": "Lithiel Cinderfury",
+            "icon": "inv_glaive_1h_questbloodelf_b_01"
           }
         ],
         "6": [
@@ -22764,7 +24763,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Counterfeit Clutches",
-            "id": 251129
+            "id": 251129,
+            "icon": "inv_glove_cloth_dungeonharronir_c_01"
           }
         ],
         "4": [
@@ -22775,7 +24775,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Summoner's Searing Shirt",
-            "id": 251139
+            "id": 251139,
+            "icon": "inv_chest_cloth_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -22783,7 +24784,8 @@ window.LOOT_DATA = {
             "droppedBy": "Zaen Bladesorrow",
             "stats": [],
             "name": "Freightrunner's Flask",
-            "id": 250215
+            "id": 250215,
+            "icon": "inv_alchemy_90_flask_red"
           }
         ],
         "5": [
@@ -22794,7 +24796,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Nibbling Armbands",
-            "id": 251127
+            "id": 251127,
+            "icon": "inv_bracer_cloth_dungeonharronir_c_01"
           }
         ],
         "3": [
@@ -22805,7 +24808,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Speakeasy Shroud",
-            "id": 251132
+            "id": 251132,
+            "icon": "inv_cape_leather_dungeonharronir_c_01"
           }
         ],
         "9": [
@@ -22816,7 +24820,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Tempestuous Sandals",
-            "id": 251137
+            "id": 251137,
+            "icon": "inv_boot_cloth_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -22827,7 +24832,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Signet of Snarling Servitude",
-            "id": 251136
+            "id": 251136,
+            "icon": "inv_12_jewelry_voidelf_ring_teal"
           }
         ],
         "1": [
@@ -22838,7 +24844,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Pendant of Malefic Fury",
-            "id": 251142
+            "id": 251142,
+            "icon": "inv_12_jewelry_silvermoonelf_necklace_green"
           }
         ]
       },
@@ -22855,7 +24862,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": "Nalorakk"
+            "droppedBy": "Nalorakk",
+            "icon": "inv_staff_2h_amani_c_01"
           }
         ],
         "4": [
@@ -22866,7 +24874,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Hoarded Harvest Wrap",
-            "id": 251147
+            "id": 251147,
+            "icon": "inv_chest_cloth_dungeonharronir_c_01"
           }
         ],
         "11": [
@@ -22881,7 +24890,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "Sentinel of Winter"
+            "droppedBy": "Sentinel of Winter",
+            "icon": "inv_offhand_1h_dungeonharronir_c_01"
           }
         ],
         "5": [
@@ -22892,7 +24902,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Winter's Embrace Bracers",
-            "id": 251154
+            "id": 251154,
+            "icon": "inv_bracer_cloth_dungeonharronir_c_01"
           }
         ],
         "8": [
@@ -22903,7 +24914,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Forest Dream Leg-guards",
-            "id": 251160
+            "id": 251160,
+            "icon": "inv_pant_cloth_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -22914,7 +24926,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Pilfered Precious Band",
-            "id": 251148
+            "id": 251148,
+            "icon": "inv_12_jewelry_zulaman_troll_ring_green2"
           }
         ],
         "1": [
@@ -22925,7 +24938,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Yoke of the Charging Bear",
-            "id": 251173
+            "id": 251173,
+            "icon": "inv_12_jewelry_zulaman_troll_necklace_green1"
           }
         ]
       }
@@ -22944,7 +24958,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Dagger",
-            "droppedBy": "Atroxus"
+            "droppedBy": "Atroxus",
+            "icon": "inv_knife_1h_dungeonharronir_c_02"
           }
         ],
         "7": [
@@ -22955,7 +24970,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Ethereal Netherwrap",
-            "id": 251222
+            "id": 251222,
+            "icon": "inv_belt_cloth_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -22963,7 +24979,8 @@ window.LOOT_DATA = {
             "droppedBy": "Charonus",
             "stats": [],
             "name": "Mindpiercer's Sigil",
-            "id": 250224
+            "id": 250224,
+            "icon": "inv_icon_shadowcouncilorb_purple"
           }
         ],
         "9": [
@@ -22974,7 +24991,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Riftworn Stompers",
-            "id": 251219
+            "id": 251219,
+            "icon": "inv_boot_cloth_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -22985,7 +25003,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sickening Signet of Atroxus",
-            "id": 252258
+            "id": 252258,
+            "icon": "inv_12_jewelry_devouringhost_ring_bronze2"
           }
         ],
         "2": [
@@ -22996,7 +25015,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Poisoner's Pauldrons",
-            "id": 251227
+            "id": 251227,
+            "icon": "inv_shoulder_cloth_dungeonharronir_c_01"
           }
         ],
         "1": [
@@ -23007,7 +25027,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Graft of the Domanaar",
-            "id": 251234
+            "id": 251234,
+            "icon": "inv_12_jewelry_devouringhost_necklace_silver2"
           }
         ],
         "0": [
@@ -23018,7 +25039,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Overseer's Diadem",
-            "id": 251232
+            "id": 251232,
+            "icon": "inv_helm_cloth_dungeonharronir_c_01"
           }
         ]
       },
@@ -23035,7 +25057,8 @@ window.LOOT_DATA = {
             ],
             "hand": "ranged",
             "weaponClass": "Wand",
-            "droppedBy": "Ikuzz the Light Hunter"
+            "droppedBy": "Ikuzz the Light Hunter",
+            "icon": "inv_wand_1h_dungeonharronir_c_01"
           }
         ],
         "7": [
@@ -23046,7 +25069,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Lightblossom Cinch",
-            "id": 251185
+            "id": 251185,
+            "icon": "inv_belt_cloth_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -23056,13 +25080,15 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Lightspire Core",
-            "id": 250214
+            "id": 250214,
+            "icon": "inv_enchant_essenceastrallarge"
           },
           {
             "droppedBy": "Ziekket",
             "stats": [],
             "name": "Sapling of the Dawnroot",
-            "id": 250259
+            "id": 250259,
+            "icon": "inv_misc_herb_nightmarevine"
           }
         ],
         "11": [
@@ -23077,7 +25103,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "Lightwarden Ruia"
+            "droppedBy": "Lightwarden Ruia",
+            "icon": "inv_offhand_1h_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -23088,7 +25115,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Lightwarden's Bind",
-            "id": 251194
+            "id": 251194,
+            "icon": "inv12_jewelrytrinkets_rutaani_ring_yellow"
           }
         ],
         "3": [
@@ -23099,7 +25127,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Bloodthorn Burnous",
-            "id": 251190
+            "id": 251190,
+            "icon": "inv_cape_mail_dungeonharronir_c_01"
           }
         ],
         "0": [
@@ -23110,7 +25139,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Worldroot Canopy",
-            "id": 251199
+            "id": 251199,
+            "icon": "inv_helm_cloth_dungeonharronir_c_01"
           }
         ]
       },
@@ -23123,7 +25153,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Ritual Binder's Ring",
-            "id": 159459
+            "id": 159459,
+            "icon": "inv_ring_80_03e"
           }
         ],
         "3": [
@@ -23134,7 +25165,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Cloak of the Restless Tribes",
-            "id": 159288
+            "id": 159288,
+            "icon": "inv_cape_mail_zandalardungeon_c_01"
           }
         ],
         "11": [
@@ -23149,7 +25181,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "Mchimba the Embalmer"
+            "droppedBy": "Mchimba the Embalmer",
+            "icon": "inv_offhand_1h_battledungeon_c_02"
           }
         ],
         "8": [
@@ -23160,7 +25193,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Down-Lined Breeches",
-            "id": 159234
+            "id": 159234,
+            "icon": "inv_pant_cloth_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -23171,7 +25205,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Sandals of Wise Voodoo",
-            "id": 159243
+            "id": 159243,
+            "icon": "inv_boot_cloth_zandalardungeon_c_01"
           }
         ],
         "13": [
@@ -23179,7 +25214,8 @@ window.LOOT_DATA = {
             "droppedBy": "King Dazar",
             "stats": [],
             "name": "Stormbound Emblem of Dazar",
-            "id": 273649
+            "id": 273649,
+            "icon": "inv_7_0raid_necklace_14a"
           }
         ],
         "2": [
@@ -23190,7 +25226,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Mantle of Ceremonial Ascension",
-            "id": 239045
+            "id": 239045,
+            "icon": "inv_shoulder_cloth_zandalardungeon_c_01"
           }
         ],
         "10": [
@@ -23205,7 +25242,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Dagger",
-            "droppedBy": "The Golden Serpent"
+            "droppedBy": "The Golden Serpent",
+            "icon": "inv_knife_1h_battledungeon_c_01"
           },
           {
             "id": 160216,
@@ -23218,7 +25256,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Sword",
-            "droppedBy": "Aka'ali the Conqueror"
+            "droppedBy": "Aka'ali the Conqueror",
+            "icon": "inv_sword_1h_battledungeon_c_02"
           }
         ],
         "0": [
@@ -23229,7 +25268,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Headdress of the First Empire",
-            "id": 239047
+            "id": 239047,
+            "icon": "inv_helm_cloth_zandalardungeon_c_01"
           }
         ]
       },
@@ -23246,7 +25286,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": "Melidrussa Chillworn"
+            "droppedBy": "Melidrussa Chillworn",
+            "icon": "inv_staff_2h_dragondungeon_c_02"
           }
         ],
         "7": [
@@ -23257,7 +25298,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sky Saddle Cord",
-            "id": 193691
+            "id": 193691,
+            "icon": "inv_belt_dragondungeon_c_01"
           }
         ],
         "13": [
@@ -23265,7 +25307,8 @@ window.LOOT_DATA = {
             "droppedBy": "Melidrussa Chillworn",
             "stats": [],
             "name": "Ruby Whelp Shell",
-            "id": 193757
+            "id": 193757,
+            "icon": "inv_item_dragonegg_redbroken01"
           }
         ],
         "8": [
@@ -23276,7 +25319,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Wind Soarer's Breeches",
-            "id": 193750
+            "id": 193750,
+            "icon": "inv_pant_cloth_dragondungeon_c_01"
           }
         ],
         "11": [
@@ -23291,7 +25335,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "Kokia Blazehoof"
+            "droppedBy": "Kokia Blazehoof",
+            "icon": "inv_offhand_1h_drakonid_c_01"
           }
         ],
         "3": [
@@ -23302,7 +25347,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Fireproof Drape",
-            "id": 193763
+            "id": 193763,
+            "icon": "inv_mail_dragondungeon_c_01_cape"
           }
         ]
       },
@@ -23315,7 +25361,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Charged Sandstone Band",
-            "id": 158366
+            "id": 158366,
+            "icon": "inv_ring_80_03d"
           },
           {
             "droppedBy": "Merektha",
@@ -23324,7 +25371,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Jade Ophidian Band",
-            "id": 162544
+            "id": 162544,
+            "icon": "inv_ring_80_04c"
           }
         ],
         "6": [
@@ -23335,7 +25383,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Handwraps of Oscillating Polarity",
-            "id": 159247
+            "id": 159247,
+            "icon": "inv_glove_cloth_zandalardungeon_c_01"
           }
         ],
         "7": [
@@ -23346,7 +25395,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Ouroborial Sash",
-            "id": 159255
+            "id": 159255,
+            "icon": "inv_belt_cloth_zandalardungeon_c_01"
           }
         ],
         "4": [
@@ -23357,7 +25407,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Robes of the Reborn Serpent",
-            "id": 239032
+            "id": 239032,
+            "icon": "inv_chest_cloth_zandalardungeon_c_01"
           }
         ],
         "13": [
@@ -23365,7 +25416,8 @@ window.LOOT_DATA = {
             "droppedBy": "Avatar of Sethraliss",
             "stats": [],
             "name": "Sethraliss' Defiled Relic",
-            "id": 158368
+            "id": 158368,
+            "icon": "inv_staff_2h_snakeman_c_01"
           }
         ],
         "5": [
@@ -23376,7 +25428,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Bindings of the Slithering Current",
-            "id": 159263
+            "id": 159263,
+            "icon": "inv_bracer_cloth_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -23387,7 +25440,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Sandswept Sandals",
-            "id": 159259
+            "id": 159259,
+            "icon": "inv_boot_cloth_zandalardungeon_c_01"
           }
         ],
         "2": [
@@ -23398,7 +25452,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Brood Cleanser's Amice",
-            "id": 239031
+            "id": 239031,
+            "icon": "inv_shoulder_cloth_zandalardungeon_c_01"
           }
         ],
         "10": [
@@ -23413,7 +25468,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": null
+            "droppedBy": null,
+            "icon": "inv_staff_2h_battledungeon_c_04"
           }
         ]
       },
@@ -23426,7 +25482,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Strand of Warding Fangs",
-            "id": 273781
+            "id": 273781,
+            "icon": "inv_121_jewelry_neck03_teal"
           }
         ],
         "6": [
@@ -23437,7 +25494,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Handwraps of Blasphemous Rites",
-            "id": 273773
+            "id": 273773,
+            "icon": "inv_glove_cloth_outdooramaniloa_c_01"
           }
         ],
         "4": [
@@ -23448,7 +25506,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Primordial Robe of Rites",
-            "id": 273785
+            "id": 273785,
+            "icon": "inv_robe_cloth_outdooramaniloa_c_01"
           }
         ],
         "11": [
@@ -23463,7 +25522,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "The Writhing Coil"
+            "droppedBy": "The Writhing Coil",
+            "icon": "inv_offhand_1h_outdooramaniloa_c_01"
           }
         ],
         "8": [
@@ -23474,7 +25534,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Leggings of Entwined Serpents",
-            "id": 273786
+            "id": 273786,
+            "icon": "inv_pant_cloth_outdooramaniloa_c_01"
           }
         ],
         "13": [
@@ -23482,13 +25543,15 @@ window.LOOT_DATA = {
             "droppedBy": "The Writhing Coil",
             "stats": [],
             "name": "Knot of Writhing Serpents",
-            "id": 273794
+            "id": 273794,
+            "icon": "inv_121_trinket_dungeon_ulatek_writhe"
           },
           {
             "droppedBy": "Rav'i",
             "stats": [],
             "name": "Vile Vial of Volatile Venom",
-            "id": 273796
+            "id": 273796,
+            "icon": "inv_121_trinket_dungeon_ulatek_vile"
           }
         ],
         "12": [
@@ -23499,7 +25562,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Band of the Amani Warlord",
-            "id": 273792
+            "id": 273792,
+            "icon": "inv_121_jewelry_ring02_green"
           }
         ],
         "10": [
@@ -23514,7 +25578,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Dagger",
-            "droppedBy": "Zul'jan"
+            "droppedBy": "Zul'jan",
+            "icon": "inv_knife_1h_zuljin_d_01"
           }
         ]
       },
@@ -23531,7 +25596,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": "Kystia Manaheart"
+            "droppedBy": "Kystia Manaheart",
+            "icon": "inv_staff_2h_dungeonharronir_c_02"
           },
           {
             "id": 258045,
@@ -23541,7 +25607,8 @@ window.LOOT_DATA = {
             "stats": [],
             "hand": "1h",
             "weaponClass": "Warglaive",
-            "droppedBy": "Lithiel Cinderfury"
+            "droppedBy": "Lithiel Cinderfury",
+            "icon": "inv_glaive_1h_questbloodelf_b_01"
           }
         ],
         "6": [
@@ -23552,7 +25619,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Counterfeit Clutches",
-            "id": 251129
+            "id": 251129,
+            "icon": "inv_glove_cloth_dungeonharronir_c_01"
           }
         ],
         "4": [
@@ -23563,7 +25631,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Summoner's Searing Shirt",
-            "id": 251139
+            "id": 251139,
+            "icon": "inv_chest_cloth_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -23571,7 +25640,8 @@ window.LOOT_DATA = {
             "droppedBy": "Zaen Bladesorrow",
             "stats": [],
             "name": "Freightrunner's Flask",
-            "id": 250215
+            "id": 250215,
+            "icon": "inv_alchemy_90_flask_red"
           }
         ],
         "5": [
@@ -23582,7 +25652,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Nibbling Armbands",
-            "id": 251127
+            "id": 251127,
+            "icon": "inv_bracer_cloth_dungeonharronir_c_01"
           }
         ],
         "3": [
@@ -23593,7 +25664,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Speakeasy Shroud",
-            "id": 251132
+            "id": 251132,
+            "icon": "inv_cape_leather_dungeonharronir_c_01"
           }
         ],
         "9": [
@@ -23604,7 +25676,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Tempestuous Sandals",
-            "id": 251137
+            "id": 251137,
+            "icon": "inv_boot_cloth_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -23615,7 +25688,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Signet of Snarling Servitude",
-            "id": 251136
+            "id": 251136,
+            "icon": "inv_12_jewelry_voidelf_ring_teal"
           }
         ],
         "1": [
@@ -23626,7 +25700,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Pendant of Malefic Fury",
-            "id": 251142
+            "id": 251142,
+            "icon": "inv_12_jewelry_silvermoonelf_necklace_green"
           }
         ]
       },
@@ -23643,7 +25718,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": "Nalorakk"
+            "droppedBy": "Nalorakk",
+            "icon": "inv_staff_2h_amani_c_01"
           }
         ],
         "4": [
@@ -23654,7 +25730,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Hoarded Harvest Wrap",
-            "id": 251147
+            "id": 251147,
+            "icon": "inv_chest_cloth_dungeonharronir_c_01"
           }
         ],
         "11": [
@@ -23669,7 +25746,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "Sentinel of Winter"
+            "droppedBy": "Sentinel of Winter",
+            "icon": "inv_offhand_1h_dungeonharronir_c_01"
           }
         ],
         "5": [
@@ -23680,7 +25758,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Winter's Embrace Bracers",
-            "id": 251154
+            "id": 251154,
+            "icon": "inv_bracer_cloth_dungeonharronir_c_01"
           }
         ],
         "8": [
@@ -23691,7 +25770,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Forest Dream Leg-guards",
-            "id": 251160
+            "id": 251160,
+            "icon": "inv_pant_cloth_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -23702,7 +25782,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Pilfered Precious Band",
-            "id": 251148
+            "id": 251148,
+            "icon": "inv_12_jewelry_zulaman_troll_ring_green2"
           }
         ],
         "1": [
@@ -23713,7 +25794,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Yoke of the Charging Bear",
-            "id": 251173
+            "id": 251173,
+            "icon": "inv_12_jewelry_zulaman_troll_necklace_green1"
           }
         ]
       }
@@ -23728,7 +25810,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Graft of the Domanaar",
-            "id": 251234
+            "id": 251234,
+            "icon": "inv_12_jewelry_devouringhost_necklace_silver2"
           }
         ],
         "7": [
@@ -23739,7 +25822,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Gravitic Girdle",
-            "id": 251235
+            "id": 251235,
+            "icon": "inv_belt_leather_dungeonharronir_c_01"
           }
         ],
         "4": [
@@ -23750,7 +25834,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Hide of Pestilence",
-            "id": 251226
+            "id": 251226,
+            "icon": "inv_chest_leather_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -23758,7 +25843,8 @@ window.LOOT_DATA = {
             "droppedBy": "Taz'Rah",
             "stats": [],
             "name": "Void Execution Mandate",
-            "id": 250225
+            "id": 250225,
+            "icon": "inv_inscription_80_warscroll_intellect"
           }
         ],
         "12": [
@@ -23769,7 +25855,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sickening Signet of Atroxus",
-            "id": 252258
+            "id": 252258,
+            "icon": "inv_12_jewelry_devouringhost_ring_bronze2"
           }
         ],
         "2": [
@@ -23780,7 +25867,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Somber Spaulders",
-            "id": 251223
+            "id": 251223,
+            "icon": "inv_shoulder_leather_dungeonharronir_c_01"
           }
         ]
       },
@@ -23797,7 +25885,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Dagger",
-            "droppedBy": "Meittik"
+            "droppedBy": "Meittik",
+            "icon": "inv_knife_1h_rutaani_b_01"
           }
         ],
         "7": [
@@ -23808,7 +25897,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Rootwalker Harness",
-            "id": 251189
+            "id": 251189,
+            "icon": "inv_belt_leather_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -23818,13 +25908,15 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Lightspire Core",
-            "id": 250214
+            "id": 250214,
+            "icon": "inv_enchant_essenceastrallarge"
           },
           {
             "droppedBy": "Ziekket",
             "stats": [],
             "name": "Sapling of the Dawnroot",
-            "id": 250259
+            "id": 250259,
+            "icon": "inv_misc_herb_nightmarevine"
           }
         ],
         "5": [
@@ -23835,7 +25927,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Rootwarden Wraps",
-            "id": 251183
+            "id": 251183,
+            "icon": "inv_bracer_leather_dungeonharronir_c_01"
           }
         ],
         "8": [
@@ -23846,7 +25939,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Lightspore Leggings",
-            "id": 251198
+            "id": 251198,
+            "icon": "inv_pant_leather_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -23857,7 +25951,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Lightwarden's Bind",
-            "id": 251194
+            "id": 251194,
+            "icon": "inv12_jewelrytrinkets_rutaani_ring_yellow"
           }
         ],
         "3": [
@@ -23868,7 +25963,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Bloodthorn Burnous",
-            "id": 251190
+            "id": 251190,
+            "icon": "inv_cape_mail_dungeonharronir_c_01"
           }
         ]
       },
@@ -23885,7 +25981,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Dagger",
-            "droppedBy": "Aka'ali the Conqueror"
+            "droppedBy": "Aka'ali the Conqueror",
+            "icon": "inv_knife_1h_battledungeon_c_01"
           }
         ],
         "6": [
@@ -23896,7 +25993,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Desiccator's Blessed Gloves",
-            "id": 159312
+            "id": 159312,
+            "icon": "inv_glove_leather_zandalardungeon_c_01"
           }
         ],
         "7": [
@@ -23907,7 +26005,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Primal Dinomancer's Belt",
-            "id": 159301
+            "id": 159301,
+            "icon": "inv_belt_leather_zandalardungeon_c_01"
           }
         ],
         "4": [
@@ -23918,7 +26017,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Vest of Reverent Adoration",
-            "id": 239048
+            "id": 239048,
+            "icon": "inv_chest_leather_zandalardungeon_c_01"
           }
         ],
         "5": [
@@ -23929,7 +26029,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Kula's Butchering Wristwraps",
-            "id": 159300
+            "id": 159300,
+            "icon": "inv_bracer_leather_zandalardungeon_c_01"
           }
         ],
         "8": [
@@ -23940,7 +26041,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Breeches of the Sacred Hall",
-            "id": 159313
+            "id": 159313,
+            "icon": "inv_pant_leather_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -23951,7 +26053,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Goldfeather Boots",
-            "id": 159304
+            "id": 159304,
+            "icon": "inv_boot_leather_zandalardungeon_c_01"
           }
         ],
         "13": [
@@ -23959,7 +26062,8 @@ window.LOOT_DATA = {
             "droppedBy": "The Golden Serpent",
             "stats": [],
             "name": "Lustrous Golden Plumage",
-            "id": 159617
+            "id": 159617,
+            "icon": "inv_icon_feather06a"
           }
         ],
         "12": [
@@ -23970,7 +26074,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Ritual Binder's Ring",
-            "id": 159459
+            "id": 159459,
+            "icon": "inv_ring_80_03e"
           }
         ],
         "3": [
@@ -23981,7 +26086,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Cloak of the Restless Tribes",
-            "id": 159288
+            "id": 159288,
+            "icon": "inv_cape_mail_zandalardungeon_c_01"
           }
         ]
       },
@@ -23998,7 +26104,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Dagger",
-            "droppedBy": null
+            "droppedBy": null,
+            "icon": "inv_knife_1h_dragondungeon_c_02"
           }
         ],
         "6": [
@@ -24009,7 +26116,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Subjugator's Chilling Grips",
-            "id": 193758
+            "id": 193758,
+            "icon": "inv_leather_dragondungeon_c_01_glove"
           }
         ],
         "4": [
@@ -24020,7 +26128,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Invader's Firestorm Chestguard",
-            "id": 193764
+            "id": 193764,
+            "icon": "inv_leather_dragondungeon_c_01_chest"
           }
         ],
         "13": [
@@ -24028,7 +26137,8 @@ window.LOOT_DATA = {
             "droppedBy": "Melidrussa Chillworn",
             "stats": [],
             "name": "Ruby Whelp Shell",
-            "id": 193757
+            "id": 193757,
+            "icon": "inv_item_dragonegg_redbroken01"
           }
         ],
         "3": [
@@ -24039,7 +26149,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Fireproof Drape",
-            "id": 193763
+            "id": 193763,
+            "icon": "inv_mail_dragondungeon_c_01_cape"
           }
         ],
         "0": [
@@ -24050,7 +26161,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Crown of Roaring Storms",
-            "id": 193751
+            "id": 193751,
+            "icon": "inv_leather_dragondungeon_c_01_helm"
           }
         ]
       },
@@ -24063,7 +26175,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Charged Sandstone Band",
-            "id": 158366
+            "id": 158366,
+            "icon": "inv_ring_80_03d"
           },
           {
             "droppedBy": "Merektha",
@@ -24072,7 +26185,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Jade Ophidian Band",
-            "id": 162544
+            "id": 162544,
+            "icon": "inv_ring_80_04c"
           }
         ],
         "6": [
@@ -24083,7 +26197,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Grips of Electrified Defense",
-            "id": 159337
+            "id": 159337,
+            "icon": "inv_glove_leather_zandalardungeon_c_01"
           }
         ],
         "7": [
@@ -24094,7 +26209,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Whirling Dervish Sash",
-            "id": 159317
+            "id": 159317,
+            "icon": "inv_belt_leather_zandalardungeon_c_01"
           }
         ],
         "13": [
@@ -24102,7 +26218,8 @@ window.LOOT_DATA = {
             "droppedBy": "Galvazzt",
             "stats": [],
             "name": "Tiny Electromental in a Jar",
-            "id": 158374
+            "id": 158374,
+            "icon": "inv_alchemy_71_potion4"
           }
         ],
         "8": [
@@ -24113,7 +26230,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Leggings of the Galeforce Viper",
-            "id": 159329
+            "id": 159329,
+            "icon": "inv_pant_leather_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -24124,7 +26242,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sand-Shined Snakeskin Sandals",
-            "id": 159327
+            "id": 159327,
+            "icon": "inv_boot_leather_zandalardungeon_c_01"
           }
         ],
         "0": [
@@ -24135,7 +26254,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Hood of the Slithering Loa",
-            "id": 239033
+            "id": 239033,
+            "icon": "inv_helm_leather_zandalardungeon_c_01"
           }
         ]
       },
@@ -24148,7 +26268,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Band of the Amani Warlord",
-            "id": 273792
+            "id": 273792,
+            "icon": "inv_121_jewelry_ring02_green"
           }
         ],
         "13": [
@@ -24156,13 +26277,15 @@ window.LOOT_DATA = {
             "droppedBy": "Rav'i",
             "stats": [],
             "name": "Vile Vial of Volatile Venom",
-            "id": 273796
+            "id": 273796,
+            "icon": "inv_121_trinket_dungeon_ulatek_vile"
           },
           {
             "droppedBy": "Zul'jan",
             "stats": [],
             "name": "Tattered Amani War Banner",
-            "id": 273797
+            "id": 273797,
+            "icon": "inv_121_trinket_dungeon_ulatek_banner"
           }
         ],
         "10": [
@@ -24177,7 +26300,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Dagger",
-            "droppedBy": "Zul'jan"
+            "droppedBy": "Zul'jan",
+            "icon": "inv_knife_1h_zuljin_d_01"
           }
         ],
         "2": [
@@ -24188,7 +26312,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Snakeskin Spaulders",
-            "id": 273774
+            "id": 273774,
+            "icon": "inv_shoulder_leather_outdooramaniloa_c_01"
           }
         ],
         "1": [
@@ -24199,7 +26324,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Strand of Warding Fangs",
-            "id": 273781
+            "id": 273781,
+            "icon": "inv_121_jewelry_neck03_teal"
           }
         ],
         "0": [
@@ -24210,7 +26336,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Spare Speaker's Hood",
-            "id": 273791
+            "id": 273791,
+            "icon": "inv_helm_leather_outdooramaniloa_c_01"
           }
         ]
       },
@@ -24227,7 +26354,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Dagger",
-            "droppedBy": "Zaen Bladesorrow"
+            "droppedBy": "Zaen Bladesorrow",
+            "icon": "inv_knife_1h_dungeonharronir_c_01"
           },
           {
             "id": 258045,
@@ -24237,7 +26365,8 @@ window.LOOT_DATA = {
             "stats": [],
             "hand": "1h",
             "weaponClass": "Warglaive",
-            "droppedBy": "Lithiel Cinderfury"
+            "droppedBy": "Lithiel Cinderfury",
+            "icon": "inv_glaive_1h_questbloodelf_b_01"
           }
         ],
         "6": [
@@ -24248,7 +26377,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Gauntlets of Fevered Defense",
-            "id": 251124
+            "id": 251124,
+            "icon": "inv_glove_leather_dungeonharronir_c_01"
           }
         ],
         "3": [
@@ -24259,7 +26389,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Speakeasy Shroud",
-            "id": 251132
+            "id": 251132,
+            "icon": "inv_cape_leather_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -24267,13 +26398,15 @@ window.LOOT_DATA = {
             "droppedBy": "Zaen Bladesorrow",
             "stats": [],
             "name": "Freightrunner's Flask",
-            "id": 250215
+            "id": 250215,
+            "icon": "inv_alchemy_90_flask_red"
           },
           {
             "droppedBy": "Xathuux the Annihilator",
             "stats": [],
             "name": "Resonant Bellowstone",
-            "id": 250228
+            "id": 250228,
+            "icon": "inv_alchemy_90_stone_green"
           }
         ],
         "5": [
@@ -24284,7 +26417,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Fury-fletched Armlets",
-            "id": 251135
+            "id": 251135,
+            "icon": "inv_bracer_leather_dungeonharronir_c_01"
           }
         ],
         "8": [
@@ -24295,7 +26429,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Breeches of Deft Deals",
-            "id": 251130
+            "id": 251130,
+            "icon": "inv_pant_leather_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -24306,7 +26441,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Signet of Snarling Servitude",
-            "id": 251136
+            "id": 251136,
+            "icon": "inv_12_jewelry_voidelf_ring_teal"
           }
         ],
         "1": [
@@ -24317,7 +26453,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Pendant of Malefic Fury",
-            "id": 251142
+            "id": 251142,
+            "icon": "inv_12_jewelry_silvermoonelf_necklace_green"
           }
         ],
         "0": [
@@ -24328,7 +26465,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Vilefiend's Guise",
-            "id": 251140
+            "id": 251140,
+            "icon": "inv_helm_leather_dungeonharronir_c_01"
           }
         ]
       },
@@ -24341,7 +26479,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Scavenger's Spaulders",
-            "id": 251146
+            "id": 251146,
+            "icon": "inv_shoulder_leather_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -24352,7 +26491,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Pilfered Precious Band",
-            "id": 251148
+            "id": 251148,
+            "icon": "inv_12_jewelry_zulaman_troll_ring_green2"
           }
         ],
         "9": [
@@ -24363,7 +26503,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Arctic Explorer's Legwraps",
-            "id": 251153
+            "id": 251153,
+            "icon": "inv_boot_leather_dungeonharronir_c_01"
           }
         ],
         "1": [
@@ -24374,7 +26515,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Yoke of the Charging Bear",
-            "id": 251173
+            "id": 251173,
+            "icon": "inv_12_jewelry_zulaman_troll_necklace_green1"
           }
         ],
         "4": [
@@ -24385,7 +26527,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "War Trial Vestments",
-            "id": 251159
+            "id": 251159,
+            "icon": "inv_chest_leather_dungeonharronir_c_01"
           }
         ]
       }
@@ -24404,7 +26547,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Dagger",
-            "droppedBy": "Atroxus"
+            "droppedBy": "Atroxus",
+            "icon": "inv_knife_1h_dungeonharronir_c_02"
           }
         ],
         "7": [
@@ -24415,7 +26559,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Ethereal Netherwrap",
-            "id": 251222
+            "id": 251222,
+            "icon": "inv_belt_cloth_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -24423,7 +26568,8 @@ window.LOOT_DATA = {
             "droppedBy": "Charonus",
             "stats": [],
             "name": "Mindpiercer's Sigil",
-            "id": 250224
+            "id": 250224,
+            "icon": "inv_icon_shadowcouncilorb_purple"
           }
         ],
         "9": [
@@ -24434,7 +26580,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Riftworn Stompers",
-            "id": 251219
+            "id": 251219,
+            "icon": "inv_boot_cloth_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -24445,7 +26592,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sickening Signet of Atroxus",
-            "id": 252258
+            "id": 252258,
+            "icon": "inv_12_jewelry_devouringhost_ring_bronze2"
           }
         ],
         "2": [
@@ -24456,7 +26604,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Poisoner's Pauldrons",
-            "id": 251227
+            "id": 251227,
+            "icon": "inv_shoulder_cloth_dungeonharronir_c_01"
           }
         ],
         "1": [
@@ -24467,7 +26616,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Graft of the Domanaar",
-            "id": 251234
+            "id": 251234,
+            "icon": "inv_12_jewelry_devouringhost_necklace_silver2"
           }
         ],
         "0": [
@@ -24478,7 +26628,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Overseer's Diadem",
-            "id": 251232
+            "id": 251232,
+            "icon": "inv_helm_cloth_dungeonharronir_c_01"
           }
         ]
       },
@@ -24495,7 +26646,8 @@ window.LOOT_DATA = {
             ],
             "hand": "ranged",
             "weaponClass": "Wand",
-            "droppedBy": "Ikuzz the Light Hunter"
+            "droppedBy": "Ikuzz the Light Hunter",
+            "icon": "inv_wand_1h_dungeonharronir_c_01"
           }
         ],
         "7": [
@@ -24506,7 +26658,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Lightblossom Cinch",
-            "id": 251185
+            "id": 251185,
+            "icon": "inv_belt_cloth_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -24516,13 +26669,15 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Lightspire Core",
-            "id": 250214
+            "id": 250214,
+            "icon": "inv_enchant_essenceastrallarge"
           },
           {
             "droppedBy": "Ziekket",
             "stats": [],
             "name": "Sapling of the Dawnroot",
-            "id": 250259
+            "id": 250259,
+            "icon": "inv_misc_herb_nightmarevine"
           }
         ],
         "11": [
@@ -24537,7 +26692,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "Lightwarden Ruia"
+            "droppedBy": "Lightwarden Ruia",
+            "icon": "inv_offhand_1h_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -24548,7 +26704,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Lightwarden's Bind",
-            "id": 251194
+            "id": 251194,
+            "icon": "inv12_jewelrytrinkets_rutaani_ring_yellow"
           }
         ],
         "3": [
@@ -24559,7 +26716,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Bloodthorn Burnous",
-            "id": 251190
+            "id": 251190,
+            "icon": "inv_cape_mail_dungeonharronir_c_01"
           }
         ],
         "0": [
@@ -24570,7 +26728,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Worldroot Canopy",
-            "id": 251199
+            "id": 251199,
+            "icon": "inv_helm_cloth_dungeonharronir_c_01"
           }
         ]
       },
@@ -24583,7 +26742,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Ritual Binder's Ring",
-            "id": 159459
+            "id": 159459,
+            "icon": "inv_ring_80_03e"
           }
         ],
         "3": [
@@ -24594,7 +26754,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Cloak of the Restless Tribes",
-            "id": 159288
+            "id": 159288,
+            "icon": "inv_cape_mail_zandalardungeon_c_01"
           }
         ],
         "11": [
@@ -24609,7 +26770,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "Mchimba the Embalmer"
+            "droppedBy": "Mchimba the Embalmer",
+            "icon": "inv_offhand_1h_battledungeon_c_02"
           }
         ],
         "8": [
@@ -24620,7 +26782,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Down-Lined Breeches",
-            "id": 159234
+            "id": 159234,
+            "icon": "inv_pant_cloth_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -24631,7 +26794,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Sandals of Wise Voodoo",
-            "id": 159243
+            "id": 159243,
+            "icon": "inv_boot_cloth_zandalardungeon_c_01"
           }
         ],
         "13": [
@@ -24639,7 +26803,8 @@ window.LOOT_DATA = {
             "droppedBy": "King Dazar",
             "stats": [],
             "name": "Stormbound Emblem of Dazar",
-            "id": 273649
+            "id": 273649,
+            "icon": "inv_7_0raid_necklace_14a"
           }
         ],
         "2": [
@@ -24650,7 +26815,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Mantle of Ceremonial Ascension",
-            "id": 239045
+            "id": 239045,
+            "icon": "inv_shoulder_cloth_zandalardungeon_c_01"
           }
         ],
         "10": [
@@ -24665,7 +26831,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Dagger",
-            "droppedBy": "The Golden Serpent"
+            "droppedBy": "The Golden Serpent",
+            "icon": "inv_knife_1h_battledungeon_c_01"
           },
           {
             "id": 160216,
@@ -24678,7 +26845,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Sword",
-            "droppedBy": "Aka'ali the Conqueror"
+            "droppedBy": "Aka'ali the Conqueror",
+            "icon": "inv_sword_1h_battledungeon_c_02"
           }
         ],
         "0": [
@@ -24689,7 +26857,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Headdress of the First Empire",
-            "id": 239047
+            "id": 239047,
+            "icon": "inv_helm_cloth_zandalardungeon_c_01"
           }
         ]
       },
@@ -24706,7 +26875,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": "Melidrussa Chillworn"
+            "droppedBy": "Melidrussa Chillworn",
+            "icon": "inv_staff_2h_dragondungeon_c_02"
           }
         ],
         "7": [
@@ -24717,7 +26887,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sky Saddle Cord",
-            "id": 193691
+            "id": 193691,
+            "icon": "inv_belt_dragondungeon_c_01"
           }
         ],
         "13": [
@@ -24725,7 +26896,8 @@ window.LOOT_DATA = {
             "droppedBy": "Melidrussa Chillworn",
             "stats": [],
             "name": "Ruby Whelp Shell",
-            "id": 193757
+            "id": 193757,
+            "icon": "inv_item_dragonegg_redbroken01"
           }
         ],
         "8": [
@@ -24736,7 +26908,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Wind Soarer's Breeches",
-            "id": 193750
+            "id": 193750,
+            "icon": "inv_pant_cloth_dragondungeon_c_01"
           }
         ],
         "11": [
@@ -24751,7 +26924,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "Kokia Blazehoof"
+            "droppedBy": "Kokia Blazehoof",
+            "icon": "inv_offhand_1h_drakonid_c_01"
           }
         ],
         "3": [
@@ -24762,7 +26936,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Fireproof Drape",
-            "id": 193763
+            "id": 193763,
+            "icon": "inv_mail_dragondungeon_c_01_cape"
           }
         ]
       },
@@ -24775,7 +26950,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Charged Sandstone Band",
-            "id": 158366
+            "id": 158366,
+            "icon": "inv_ring_80_03d"
           },
           {
             "droppedBy": "Merektha",
@@ -24784,7 +26960,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Jade Ophidian Band",
-            "id": 162544
+            "id": 162544,
+            "icon": "inv_ring_80_04c"
           }
         ],
         "6": [
@@ -24795,7 +26972,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Handwraps of Oscillating Polarity",
-            "id": 159247
+            "id": 159247,
+            "icon": "inv_glove_cloth_zandalardungeon_c_01"
           }
         ],
         "7": [
@@ -24806,7 +26984,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Ouroborial Sash",
-            "id": 159255
+            "id": 159255,
+            "icon": "inv_belt_cloth_zandalardungeon_c_01"
           }
         ],
         "4": [
@@ -24817,7 +26996,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Robes of the Reborn Serpent",
-            "id": 239032
+            "id": 239032,
+            "icon": "inv_chest_cloth_zandalardungeon_c_01"
           }
         ],
         "13": [
@@ -24825,7 +27005,8 @@ window.LOOT_DATA = {
             "droppedBy": "Avatar of Sethraliss",
             "stats": [],
             "name": "Sethraliss' Defiled Relic",
-            "id": 158368
+            "id": 158368,
+            "icon": "inv_staff_2h_snakeman_c_01"
           }
         ],
         "5": [
@@ -24836,7 +27017,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Bindings of the Slithering Current",
-            "id": 159263
+            "id": 159263,
+            "icon": "inv_bracer_cloth_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -24847,7 +27029,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Sandswept Sandals",
-            "id": 159259
+            "id": 159259,
+            "icon": "inv_boot_cloth_zandalardungeon_c_01"
           }
         ],
         "2": [
@@ -24858,7 +27041,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Brood Cleanser's Amice",
-            "id": 239031
+            "id": 239031,
+            "icon": "inv_shoulder_cloth_zandalardungeon_c_01"
           }
         ],
         "10": [
@@ -24873,7 +27057,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": null
+            "droppedBy": null,
+            "icon": "inv_staff_2h_battledungeon_c_04"
           }
         ]
       },
@@ -24886,7 +27071,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Strand of Warding Fangs",
-            "id": 273781
+            "id": 273781,
+            "icon": "inv_121_jewelry_neck03_teal"
           }
         ],
         "6": [
@@ -24897,7 +27083,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Handwraps of Blasphemous Rites",
-            "id": 273773
+            "id": 273773,
+            "icon": "inv_glove_cloth_outdooramaniloa_c_01"
           }
         ],
         "4": [
@@ -24908,7 +27095,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Primordial Robe of Rites",
-            "id": 273785
+            "id": 273785,
+            "icon": "inv_robe_cloth_outdooramaniloa_c_01"
           }
         ],
         "11": [
@@ -24923,7 +27111,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "The Writhing Coil"
+            "droppedBy": "The Writhing Coil",
+            "icon": "inv_offhand_1h_outdooramaniloa_c_01"
           }
         ],
         "8": [
@@ -24934,7 +27123,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Leggings of Entwined Serpents",
-            "id": 273786
+            "id": 273786,
+            "icon": "inv_pant_cloth_outdooramaniloa_c_01"
           }
         ],
         "13": [
@@ -24942,13 +27132,15 @@ window.LOOT_DATA = {
             "droppedBy": "The Writhing Coil",
             "stats": [],
             "name": "Knot of Writhing Serpents",
-            "id": 273794
+            "id": 273794,
+            "icon": "inv_121_trinket_dungeon_ulatek_writhe"
           },
           {
             "droppedBy": "Rav'i",
             "stats": [],
             "name": "Vile Vial of Volatile Venom",
-            "id": 273796
+            "id": 273796,
+            "icon": "inv_121_trinket_dungeon_ulatek_vile"
           }
         ],
         "12": [
@@ -24959,7 +27151,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Band of the Amani Warlord",
-            "id": 273792
+            "id": 273792,
+            "icon": "inv_121_jewelry_ring02_green"
           }
         ],
         "10": [
@@ -24974,7 +27167,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Dagger",
-            "droppedBy": "Zul'jan"
+            "droppedBy": "Zul'jan",
+            "icon": "inv_knife_1h_zuljin_d_01"
           }
         ]
       },
@@ -24991,7 +27185,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": "Kystia Manaheart"
+            "droppedBy": "Kystia Manaheart",
+            "icon": "inv_staff_2h_dungeonharronir_c_02"
           },
           {
             "id": 258045,
@@ -25001,7 +27196,8 @@ window.LOOT_DATA = {
             "stats": [],
             "hand": "1h",
             "weaponClass": "Warglaive",
-            "droppedBy": "Lithiel Cinderfury"
+            "droppedBy": "Lithiel Cinderfury",
+            "icon": "inv_glaive_1h_questbloodelf_b_01"
           }
         ],
         "6": [
@@ -25012,7 +27208,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Counterfeit Clutches",
-            "id": 251129
+            "id": 251129,
+            "icon": "inv_glove_cloth_dungeonharronir_c_01"
           }
         ],
         "4": [
@@ -25023,7 +27220,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Summoner's Searing Shirt",
-            "id": 251139
+            "id": 251139,
+            "icon": "inv_chest_cloth_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -25031,7 +27229,8 @@ window.LOOT_DATA = {
             "droppedBy": "Zaen Bladesorrow",
             "stats": [],
             "name": "Freightrunner's Flask",
-            "id": 250215
+            "id": 250215,
+            "icon": "inv_alchemy_90_flask_red"
           }
         ],
         "5": [
@@ -25042,7 +27241,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Nibbling Armbands",
-            "id": 251127
+            "id": 251127,
+            "icon": "inv_bracer_cloth_dungeonharronir_c_01"
           }
         ],
         "3": [
@@ -25053,7 +27253,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Speakeasy Shroud",
-            "id": 251132
+            "id": 251132,
+            "icon": "inv_cape_leather_dungeonharronir_c_01"
           }
         ],
         "9": [
@@ -25064,7 +27265,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Tempestuous Sandals",
-            "id": 251137
+            "id": 251137,
+            "icon": "inv_boot_cloth_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -25075,7 +27277,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Signet of Snarling Servitude",
-            "id": 251136
+            "id": 251136,
+            "icon": "inv_12_jewelry_voidelf_ring_teal"
           }
         ],
         "1": [
@@ -25086,7 +27289,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Pendant of Malefic Fury",
-            "id": 251142
+            "id": 251142,
+            "icon": "inv_12_jewelry_silvermoonelf_necklace_green"
           }
         ]
       },
@@ -25103,7 +27307,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": "Nalorakk"
+            "droppedBy": "Nalorakk",
+            "icon": "inv_staff_2h_amani_c_01"
           }
         ],
         "4": [
@@ -25114,7 +27319,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Hoarded Harvest Wrap",
-            "id": 251147
+            "id": 251147,
+            "icon": "inv_chest_cloth_dungeonharronir_c_01"
           }
         ],
         "11": [
@@ -25129,7 +27335,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "Sentinel of Winter"
+            "droppedBy": "Sentinel of Winter",
+            "icon": "inv_offhand_1h_dungeonharronir_c_01"
           }
         ],
         "5": [
@@ -25140,7 +27347,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Winter's Embrace Bracers",
-            "id": 251154
+            "id": 251154,
+            "icon": "inv_bracer_cloth_dungeonharronir_c_01"
           }
         ],
         "8": [
@@ -25151,7 +27359,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Forest Dream Leg-guards",
-            "id": 251160
+            "id": 251160,
+            "icon": "inv_pant_cloth_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -25162,7 +27371,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Pilfered Precious Band",
-            "id": 251148
+            "id": 251148,
+            "icon": "inv_12_jewelry_zulaman_troll_ring_green2"
           }
         ],
         "1": [
@@ -25173,7 +27383,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Yoke of the Charging Bear",
-            "id": 251173
+            "id": 251173,
+            "icon": "inv_12_jewelry_zulaman_troll_necklace_green1"
           }
         ]
       }
@@ -25192,7 +27403,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Polearm",
-            "droppedBy": "Charonus"
+            "droppedBy": "Charonus",
+            "icon": "inv_polearm_2h_domanaar_b_01"
           }
         ],
         "0": [
@@ -25203,7 +27415,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Visor of the Predator",
-            "id": 251229
+            "id": 251229,
+            "icon": "inv_helm_armor_domanaar_d_01"
           }
         ],
         "1": [
@@ -25214,7 +27427,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Graft of the Domanaar",
-            "id": 251234
+            "id": 251234,
+            "icon": "inv_12_jewelry_devouringhost_necklace_silver2"
           }
         ],
         "6": [
@@ -25225,7 +27439,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Despondent's Gauntlets",
-            "id": 251221
+            "id": 251221,
+            "icon": "inv_glove_plate_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -25236,7 +27451,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sickening Signet of Atroxus",
-            "id": 252258
+            "id": 252258,
+            "icon": "inv_12_jewelry_devouringhost_ring_bronze2"
           }
         ]
       },
@@ -25253,7 +27469,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Polearm",
-            "droppedBy": "Meittik"
+            "droppedBy": "Meittik",
+            "icon": "inv_polearm_2h_rutaani_b_01"
           }
         ],
         "6": [
@@ -25264,7 +27481,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Thornspike Gauntlets",
-            "id": 251197
+            "id": 251197,
+            "icon": "inv_glove_plate_dungeonharronir_c_01"
           }
         ],
         "4": [
@@ -25275,7 +27493,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Taproot Ribs",
-            "id": 251193
+            "id": 251193,
+            "icon": "inv_chest_plate_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -25283,13 +27502,15 @@ window.LOOT_DATA = {
             "droppedBy": "Ikuzz the Light Hunter",
             "stats": [],
             "name": "Seed of the Devouring Wild",
-            "id": 250238
+            "id": 250238,
+            "icon": "inv12_jewelrytrinkets_dungeon_seedofthedevouringwild"
           },
           {
             "droppedBy": "Ziekket",
             "stats": [],
             "name": "Sapling of the Dawnroot",
-            "id": 250259
+            "id": 250259,
+            "icon": "inv_misc_herb_nightmarevine"
           }
         ],
         "8": [
@@ -25300,7 +27521,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Bedrock Breeches",
-            "id": 251182
+            "id": 251182,
+            "icon": "inv_pant_plate_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -25311,7 +27533,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Lightwarden's Bind",
-            "id": 251194
+            "id": 251194,
+            "icon": "inv12_jewelrytrinkets_rutaani_ring_yellow"
           }
         ],
         "3": [
@@ -25322,7 +27545,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Bloodthorn Burnous",
-            "id": 251190
+            "id": 251190,
+            "icon": "inv_cape_mail_dungeonharronir_c_01"
           }
         ]
       },
@@ -25335,7 +27559,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Ritual Binder's Ring",
-            "id": 159459
+            "id": 159459,
+            "icon": "inv_ring_80_03e"
           }
         ],
         "6": [
@@ -25346,7 +27571,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Gauntlets of the Avian Sentinel",
-            "id": 159413
+            "id": 159413,
+            "icon": "inv_glove_plate_zandalardungeon_c_01"
           }
         ],
         "7": [
@@ -25357,7 +27583,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Girdle of Pestilent Purification",
-            "id": 159418
+            "id": 159418,
+            "icon": "inv_belt_plate_zandalardungeon_c_01"
           }
         ],
         "3": [
@@ -25368,7 +27595,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Cloak of the Restless Tribes",
-            "id": 159288
+            "id": 159288,
+            "icon": "inv_cape_mail_zandalardungeon_c_01"
           }
         ],
         "5": [
@@ -25379,7 +27607,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Embalmer's Steadying Bracers",
-            "id": 159409
+            "id": 159409,
+            "icon": "inv_bracer_plate_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -25390,7 +27619,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Auric Puddle Stompers",
-            "id": 159412
+            "id": 159412,
+            "icon": "inv_boot_plate_zandalardungeon_c_01"
           }
         ],
         "2": [
@@ -25401,7 +27631,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Pauldrons of the Great Unifier",
-            "id": 239051
+            "id": 239051,
+            "icon": "inv_shoulder_plate_zandalardungeon_c_01"
           }
         ],
         "10": [
@@ -25413,7 +27644,8 @@ window.LOOT_DATA = {
             "stats": [],
             "hand": "2h",
             "weaponClass": "Sword",
-            "droppedBy": "King Dazar"
+            "droppedBy": "King Dazar",
+            "icon": "inv_sword_2h_battledungeon_c_01"
           }
         ],
         "0": [
@@ -25424,7 +27656,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Helm of the Raptor King",
-            "id": 239050
+            "id": 239050,
+            "icon": "inv_helm_plate_zandalardungeon_c_01"
           }
         ]
       },
@@ -25441,7 +27674,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Axe",
-            "droppedBy": null
+            "droppedBy": null,
+            "icon": "inv_axe_2h_drakonoid_c_01"
           }
         ],
         "9": [
@@ -25452,7 +27686,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Scaleguard's Stalwart Greatboots",
-            "id": 193728
+            "id": 193728,
+            "icon": "inv_plate_dragondungeon_c_01_boot"
           }
         ],
         "3": [
@@ -25463,7 +27698,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Fireproof Drape",
-            "id": 193763
+            "id": 193763,
+            "icon": "inv_mail_dragondungeon_c_01_cape"
           }
         ],
         "4": [
@@ -25474,7 +27710,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Breastplate of Soaring Terror",
-            "id": 193753
+            "id": 193753,
+            "icon": "inv_plate_dragondungeon_c_01_chest"
           }
         ],
         "13": [
@@ -25482,7 +27719,8 @@ window.LOOT_DATA = {
             "droppedBy": "Melidrussa Chillworn",
             "stats": [],
             "name": "Ruby Whelp Shell",
-            "id": 193757
+            "id": 193757,
+            "icon": "inv_item_dragonegg_redbroken01"
           },
           {
             "droppedBy": "Kokia Blazehoof",
@@ -25490,7 +27728,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Blazebinder's Hoof",
-            "id": 193762
+            "id": 193762,
+            "icon": "inv_10_dungeonjewelry_primalist_trinket_2_fire"
           }
         ]
       },
@@ -25503,7 +27742,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Charged Sandstone Band",
-            "id": 158366
+            "id": 158366,
+            "icon": "inv_ring_80_03d"
           },
           {
             "droppedBy": "Merektha",
@@ -25512,7 +27752,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Jade Ophidian Band",
-            "id": 162544
+            "id": 162544,
+            "icon": "inv_ring_80_04c"
           }
         ],
         "7": [
@@ -25523,7 +27764,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Sand-Scoured Greatbelt",
-            "id": 159442
+            "id": 159442,
+            "icon": "inv_belt_plate_zandalardungeon_c_01"
           }
         ],
         "4": [
@@ -25534,7 +27776,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Desert Guardian's Breastplate",
-            "id": 239036
+            "id": 239036,
+            "icon": "inv_chest_plate_zandalardungeon_c_01"
           }
         ],
         "13": [
@@ -25542,7 +27785,8 @@ window.LOOT_DATA = {
             "droppedBy": "Merektha",
             "stats": [],
             "name": "Merektha's Fang",
-            "id": 158367
+            "id": 158367,
+            "icon": "inv_misc_food_87_sporelingsnack"
           }
         ],
         "5": [
@@ -25553,7 +27797,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Shard-Tipped Vambraces",
-            "id": 159425
+            "id": 159425,
+            "icon": "inv_bracer_plate_zandalardungeon_c_01"
           }
         ],
         "8": [
@@ -25564,7 +27809,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Legplates of Charged Duality",
-            "id": 159435
+            "id": 159435,
+            "icon": "inv_pant_plate_zandalardungeon_c_01"
           }
         ],
         "2": [
@@ -25575,7 +27821,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "C'thraxxi Binders Pauldrons",
-            "id": 239037
+            "id": 239037,
+            "icon": "inv_shoulder_plate_zandalardungeon_c_01"
           }
         ]
       },
@@ -25592,7 +27839,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Polearm",
-            "droppedBy": "The Writhing Coil"
+            "droppedBy": "The Writhing Coil",
+            "icon": "inv_polearm_2h_outdooramaniloa_c_01"
           }
         ],
         "4": [
@@ -25603,7 +27851,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Aged Interwoven Scaleplate",
-            "id": 273787
+            "id": 273787,
+            "icon": "inv_chest_plate_outdooramaniloa_c_01"
           }
         ],
         "13": [
@@ -25611,19 +27860,22 @@ window.LOOT_DATA = {
             "droppedBy": "Rav'i",
             "stats": [],
             "name": "Coiled Fangstone",
-            "id": 273795
+            "id": 273795,
+            "icon": "inv_121_trinket_dungeon_ulatek_fangstone"
           },
           {
             "droppedBy": "Rav'i",
             "stats": [],
             "name": "Vile Vial of Volatile Venom",
-            "id": 273796
+            "id": 273796,
+            "icon": "inv_121_trinket_dungeon_ulatek_vile"
           },
           {
             "droppedBy": "Zul'jan",
             "stats": [],
             "name": "Tattered Amani War Banner",
-            "id": 273797
+            "id": 273797,
+            "icon": "inv_121_trinket_dungeon_ulatek_banner"
           }
         ],
         "8": [
@@ -25634,7 +27886,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Ancient General's Obsidian Pillars",
-            "id": 273776
+            "id": 273776,
+            "icon": "inv_pant_plate_outdooramaniloa_c_01"
           }
         ],
         "9": [
@@ -25645,7 +27898,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Poison-Proof Stompers",
-            "id": 273777
+            "id": 273777,
+            "icon": "inv_boot_plate_outdooramaniloa_c_01"
           }
         ],
         "12": [
@@ -25656,7 +27910,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Band of the Amani Warlord",
-            "id": 273792
+            "id": 273792,
+            "icon": "inv_121_jewelry_ring02_green"
           }
         ],
         "1": [
@@ -25667,7 +27922,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Strand of Warding Fangs",
-            "id": 273781
+            "id": 273781,
+            "icon": "inv_121_jewelry_neck03_teal"
           }
         ]
       },
@@ -25680,7 +27936,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Pendant of Malefic Fury",
-            "id": 251142
+            "id": 251142,
+            "icon": "inv_12_jewelry_silvermoonelf_necklace_green"
           }
         ],
         "3": [
@@ -25691,7 +27948,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Speakeasy Shroud",
-            "id": 251132
+            "id": 251132,
+            "icon": "inv_cape_leather_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -25699,7 +27957,8 @@ window.LOOT_DATA = {
             "droppedBy": "Xathuux the Annihilator",
             "stats": [],
             "name": "Resonant Bellowstone",
-            "id": 250228
+            "id": 250228,
+            "icon": "inv_alchemy_90_stone_green"
           }
         ],
         "5": [
@@ -25710,7 +27969,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Overseer's Vambraces",
-            "id": 251133
+            "id": 251133,
+            "icon": "inv_bracer_plate_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -25721,7 +27981,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Signet of Snarling Servitude",
-            "id": 251136
+            "id": 251136,
+            "icon": "inv_12_jewelry_voidelf_ring_teal"
           }
         ],
         "2": [
@@ -25732,7 +27993,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Cinderfury Shoulderguards",
-            "id": 251138
+            "id": 251138,
+            "icon": "inv_shoulder_plate_dungeonharronir_c_01"
           }
         ],
         "10": [
@@ -25747,7 +28009,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Axe",
-            "droppedBy": "Xathuux the Annihilator"
+            "droppedBy": "Xathuux the Annihilator",
+            "icon": "inv_axe_2h_dungeonharronir_c_01"
           },
           {
             "id": 258045,
@@ -25757,7 +28020,8 @@ window.LOOT_DATA = {
             "stats": [],
             "hand": "1h",
             "weaponClass": "Warglaive",
-            "droppedBy": "Lithiel Cinderfury"
+            "droppedBy": "Lithiel Cinderfury",
+            "icon": "inv_glaive_1h_questbloodelf_b_01"
           }
         ],
         "0": [
@@ -25768,7 +28032,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Greathelm of Temptation",
-            "id": 251126
+            "id": 251126,
+            "icon": "inv_helm_plate_dungeonharronir_c_01"
           }
         ]
       },
@@ -25781,7 +28046,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Yoke of the Charging Bear",
-            "id": 251173
+            "id": 251173,
+            "icon": "inv_12_jewelry_zulaman_troll_necklace_green1"
           }
         ],
         "6": [
@@ -25792,7 +28058,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Bonds of the Hash'ura",
-            "id": 251214
+            "id": 251214,
+            "icon": "inv_glove_plate_dungeonharronir_c_01"
           }
         ],
         "7": [
@@ -25803,7 +28070,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Autumn's Boon Belt",
-            "id": 251144
+            "id": 251144,
+            "icon": "inv_belt_plate_dungeonharronir_c_01"
           }
         ],
         "4": [
@@ -25814,7 +28082,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sentinel Challenger's Prize",
-            "id": 251151
+            "id": 251151,
+            "icon": "inv_chest_plate_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -25824,7 +28093,8 @@ window.LOOT_DATA = {
               "Crit"
             ],
             "name": "Idol of the War Loa",
-            "id": 250229
+            "id": 250229,
+            "icon": "inv12_jewelrytrinkets_dungeon_idolofthewargod"
           }
         ],
         "12": [
@@ -25835,7 +28105,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Pilfered Precious Band",
-            "id": 251148
+            "id": 251148,
+            "icon": "inv_12_jewelry_zulaman_troll_ring_green2"
           }
         ]
       }
@@ -25854,7 +28125,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Dagger",
-            "droppedBy": "Atroxus"
+            "droppedBy": "Atroxus",
+            "icon": "inv_knife_1h_dungeonharronir_c_02"
           }
         ],
         "7": [
@@ -25865,7 +28137,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Ethereal Netherwrap",
-            "id": 251222
+            "id": 251222,
+            "icon": "inv_belt_cloth_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -25873,7 +28146,8 @@ window.LOOT_DATA = {
             "droppedBy": "Charonus",
             "stats": [],
             "name": "Mindpiercer's Sigil",
-            "id": 250224
+            "id": 250224,
+            "icon": "inv_icon_shadowcouncilorb_purple"
           }
         ],
         "9": [
@@ -25884,7 +28158,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Riftworn Stompers",
-            "id": 251219
+            "id": 251219,
+            "icon": "inv_boot_cloth_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -25895,7 +28170,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sickening Signet of Atroxus",
-            "id": 252258
+            "id": 252258,
+            "icon": "inv_12_jewelry_devouringhost_ring_bronze2"
           }
         ],
         "2": [
@@ -25906,7 +28182,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Poisoner's Pauldrons",
-            "id": 251227
+            "id": 251227,
+            "icon": "inv_shoulder_cloth_dungeonharronir_c_01"
           }
         ],
         "1": [
@@ -25917,7 +28194,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Graft of the Domanaar",
-            "id": 251234
+            "id": 251234,
+            "icon": "inv_12_jewelry_devouringhost_necklace_silver2"
           }
         ],
         "0": [
@@ -25928,7 +28206,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Overseer's Diadem",
-            "id": 251232
+            "id": 251232,
+            "icon": "inv_helm_cloth_dungeonharronir_c_01"
           }
         ]
       },
@@ -25945,7 +28224,8 @@ window.LOOT_DATA = {
             ],
             "hand": "ranged",
             "weaponClass": "Wand",
-            "droppedBy": "Ikuzz the Light Hunter"
+            "droppedBy": "Ikuzz the Light Hunter",
+            "icon": "inv_wand_1h_dungeonharronir_c_01"
           }
         ],
         "7": [
@@ -25956,7 +28236,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Lightblossom Cinch",
-            "id": 251185
+            "id": 251185,
+            "icon": "inv_belt_cloth_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -25966,13 +28247,15 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Lightspire Core",
-            "id": 250214
+            "id": 250214,
+            "icon": "inv_enchant_essenceastrallarge"
           },
           {
             "droppedBy": "Ziekket",
             "stats": [],
             "name": "Sapling of the Dawnroot",
-            "id": 250259
+            "id": 250259,
+            "icon": "inv_misc_herb_nightmarevine"
           }
         ],
         "11": [
@@ -25987,7 +28270,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "Lightwarden Ruia"
+            "droppedBy": "Lightwarden Ruia",
+            "icon": "inv_offhand_1h_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -25998,7 +28282,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Lightwarden's Bind",
-            "id": 251194
+            "id": 251194,
+            "icon": "inv12_jewelrytrinkets_rutaani_ring_yellow"
           }
         ],
         "3": [
@@ -26009,7 +28294,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Bloodthorn Burnous",
-            "id": 251190
+            "id": 251190,
+            "icon": "inv_cape_mail_dungeonharronir_c_01"
           }
         ],
         "0": [
@@ -26020,7 +28306,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Worldroot Canopy",
-            "id": 251199
+            "id": 251199,
+            "icon": "inv_helm_cloth_dungeonharronir_c_01"
           }
         ]
       },
@@ -26033,7 +28320,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Ritual Binder's Ring",
-            "id": 159459
+            "id": 159459,
+            "icon": "inv_ring_80_03e"
           }
         ],
         "3": [
@@ -26044,7 +28332,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Cloak of the Restless Tribes",
-            "id": 159288
+            "id": 159288,
+            "icon": "inv_cape_mail_zandalardungeon_c_01"
           }
         ],
         "11": [
@@ -26059,7 +28348,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "Mchimba the Embalmer"
+            "droppedBy": "Mchimba the Embalmer",
+            "icon": "inv_offhand_1h_battledungeon_c_02"
           }
         ],
         "8": [
@@ -26070,7 +28360,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Down-Lined Breeches",
-            "id": 159234
+            "id": 159234,
+            "icon": "inv_pant_cloth_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -26081,7 +28372,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Sandals of Wise Voodoo",
-            "id": 159243
+            "id": 159243,
+            "icon": "inv_boot_cloth_zandalardungeon_c_01"
           }
         ],
         "13": [
@@ -26089,7 +28381,8 @@ window.LOOT_DATA = {
             "droppedBy": "King Dazar",
             "stats": [],
             "name": "Stormbound Emblem of Dazar",
-            "id": 273649
+            "id": 273649,
+            "icon": "inv_7_0raid_necklace_14a"
           }
         ],
         "2": [
@@ -26100,7 +28393,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Mantle of Ceremonial Ascension",
-            "id": 239045
+            "id": 239045,
+            "icon": "inv_shoulder_cloth_zandalardungeon_c_01"
           }
         ],
         "10": [
@@ -26115,7 +28409,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Dagger",
-            "droppedBy": "The Golden Serpent"
+            "droppedBy": "The Golden Serpent",
+            "icon": "inv_knife_1h_battledungeon_c_01"
           },
           {
             "id": 160216,
@@ -26128,7 +28423,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Sword",
-            "droppedBy": "Aka'ali the Conqueror"
+            "droppedBy": "Aka'ali the Conqueror",
+            "icon": "inv_sword_1h_battledungeon_c_02"
           }
         ],
         "0": [
@@ -26139,7 +28435,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Headdress of the First Empire",
-            "id": 239047
+            "id": 239047,
+            "icon": "inv_helm_cloth_zandalardungeon_c_01"
           }
         ]
       },
@@ -26156,7 +28453,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": "Melidrussa Chillworn"
+            "droppedBy": "Melidrussa Chillworn",
+            "icon": "inv_staff_2h_dragondungeon_c_02"
           }
         ],
         "7": [
@@ -26167,7 +28465,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sky Saddle Cord",
-            "id": 193691
+            "id": 193691,
+            "icon": "inv_belt_dragondungeon_c_01"
           }
         ],
         "13": [
@@ -26175,7 +28474,8 @@ window.LOOT_DATA = {
             "droppedBy": "Melidrussa Chillworn",
             "stats": [],
             "name": "Ruby Whelp Shell",
-            "id": 193757
+            "id": 193757,
+            "icon": "inv_item_dragonegg_redbroken01"
           }
         ],
         "8": [
@@ -26186,7 +28486,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Wind Soarer's Breeches",
-            "id": 193750
+            "id": 193750,
+            "icon": "inv_pant_cloth_dragondungeon_c_01"
           }
         ],
         "11": [
@@ -26201,7 +28502,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "Kokia Blazehoof"
+            "droppedBy": "Kokia Blazehoof",
+            "icon": "inv_offhand_1h_drakonid_c_01"
           }
         ],
         "3": [
@@ -26212,7 +28514,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Fireproof Drape",
-            "id": 193763
+            "id": 193763,
+            "icon": "inv_mail_dragondungeon_c_01_cape"
           }
         ]
       },
@@ -26225,7 +28528,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Charged Sandstone Band",
-            "id": 158366
+            "id": 158366,
+            "icon": "inv_ring_80_03d"
           },
           {
             "droppedBy": "Merektha",
@@ -26234,7 +28538,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Jade Ophidian Band",
-            "id": 162544
+            "id": 162544,
+            "icon": "inv_ring_80_04c"
           }
         ],
         "6": [
@@ -26245,7 +28550,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Handwraps of Oscillating Polarity",
-            "id": 159247
+            "id": 159247,
+            "icon": "inv_glove_cloth_zandalardungeon_c_01"
           }
         ],
         "7": [
@@ -26256,7 +28562,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Ouroborial Sash",
-            "id": 159255
+            "id": 159255,
+            "icon": "inv_belt_cloth_zandalardungeon_c_01"
           }
         ],
         "4": [
@@ -26267,7 +28574,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Robes of the Reborn Serpent",
-            "id": 239032
+            "id": 239032,
+            "icon": "inv_chest_cloth_zandalardungeon_c_01"
           }
         ],
         "13": [
@@ -26275,7 +28583,8 @@ window.LOOT_DATA = {
             "droppedBy": "Avatar of Sethraliss",
             "stats": [],
             "name": "Sethraliss' Defiled Relic",
-            "id": 158368
+            "id": 158368,
+            "icon": "inv_staff_2h_snakeman_c_01"
           }
         ],
         "5": [
@@ -26286,7 +28595,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Bindings of the Slithering Current",
-            "id": 159263
+            "id": 159263,
+            "icon": "inv_bracer_cloth_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -26297,7 +28607,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Sandswept Sandals",
-            "id": 159259
+            "id": 159259,
+            "icon": "inv_boot_cloth_zandalardungeon_c_01"
           }
         ],
         "2": [
@@ -26308,7 +28619,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Brood Cleanser's Amice",
-            "id": 239031
+            "id": 239031,
+            "icon": "inv_shoulder_cloth_zandalardungeon_c_01"
           }
         ],
         "10": [
@@ -26323,7 +28635,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": null
+            "droppedBy": null,
+            "icon": "inv_staff_2h_battledungeon_c_04"
           }
         ]
       },
@@ -26336,7 +28649,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Strand of Warding Fangs",
-            "id": 273781
+            "id": 273781,
+            "icon": "inv_121_jewelry_neck03_teal"
           }
         ],
         "6": [
@@ -26347,7 +28661,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Handwraps of Blasphemous Rites",
-            "id": 273773
+            "id": 273773,
+            "icon": "inv_glove_cloth_outdooramaniloa_c_01"
           }
         ],
         "4": [
@@ -26358,7 +28673,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Primordial Robe of Rites",
-            "id": 273785
+            "id": 273785,
+            "icon": "inv_robe_cloth_outdooramaniloa_c_01"
           }
         ],
         "11": [
@@ -26373,7 +28689,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "The Writhing Coil"
+            "droppedBy": "The Writhing Coil",
+            "icon": "inv_offhand_1h_outdooramaniloa_c_01"
           }
         ],
         "8": [
@@ -26384,7 +28701,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Leggings of Entwined Serpents",
-            "id": 273786
+            "id": 273786,
+            "icon": "inv_pant_cloth_outdooramaniloa_c_01"
           }
         ],
         "13": [
@@ -26392,13 +28710,15 @@ window.LOOT_DATA = {
             "droppedBy": "The Writhing Coil",
             "stats": [],
             "name": "Knot of Writhing Serpents",
-            "id": 273794
+            "id": 273794,
+            "icon": "inv_121_trinket_dungeon_ulatek_writhe"
           },
           {
             "droppedBy": "Rav'i",
             "stats": [],
             "name": "Vile Vial of Volatile Venom",
-            "id": 273796
+            "id": 273796,
+            "icon": "inv_121_trinket_dungeon_ulatek_vile"
           }
         ],
         "12": [
@@ -26409,7 +28729,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Band of the Amani Warlord",
-            "id": 273792
+            "id": 273792,
+            "icon": "inv_121_jewelry_ring02_green"
           }
         ],
         "10": [
@@ -26424,7 +28745,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Dagger",
-            "droppedBy": "Zul'jan"
+            "droppedBy": "Zul'jan",
+            "icon": "inv_knife_1h_zuljin_d_01"
           }
         ]
       },
@@ -26441,7 +28763,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": "Kystia Manaheart"
+            "droppedBy": "Kystia Manaheart",
+            "icon": "inv_staff_2h_dungeonharronir_c_02"
           },
           {
             "id": 258045,
@@ -26451,7 +28774,8 @@ window.LOOT_DATA = {
             "stats": [],
             "hand": "1h",
             "weaponClass": "Warglaive",
-            "droppedBy": "Lithiel Cinderfury"
+            "droppedBy": "Lithiel Cinderfury",
+            "icon": "inv_glaive_1h_questbloodelf_b_01"
           }
         ],
         "6": [
@@ -26462,7 +28786,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Counterfeit Clutches",
-            "id": 251129
+            "id": 251129,
+            "icon": "inv_glove_cloth_dungeonharronir_c_01"
           }
         ],
         "4": [
@@ -26473,7 +28798,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Summoner's Searing Shirt",
-            "id": 251139
+            "id": 251139,
+            "icon": "inv_chest_cloth_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -26481,7 +28807,8 @@ window.LOOT_DATA = {
             "droppedBy": "Zaen Bladesorrow",
             "stats": [],
             "name": "Freightrunner's Flask",
-            "id": 250215
+            "id": 250215,
+            "icon": "inv_alchemy_90_flask_red"
           }
         ],
         "5": [
@@ -26492,7 +28819,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Nibbling Armbands",
-            "id": 251127
+            "id": 251127,
+            "icon": "inv_bracer_cloth_dungeonharronir_c_01"
           }
         ],
         "3": [
@@ -26503,7 +28831,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Speakeasy Shroud",
-            "id": 251132
+            "id": 251132,
+            "icon": "inv_cape_leather_dungeonharronir_c_01"
           }
         ],
         "9": [
@@ -26514,7 +28843,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Tempestuous Sandals",
-            "id": 251137
+            "id": 251137,
+            "icon": "inv_boot_cloth_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -26525,7 +28855,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Signet of Snarling Servitude",
-            "id": 251136
+            "id": 251136,
+            "icon": "inv_12_jewelry_voidelf_ring_teal"
           }
         ],
         "1": [
@@ -26536,7 +28867,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Pendant of Malefic Fury",
-            "id": 251142
+            "id": 251142,
+            "icon": "inv_12_jewelry_silvermoonelf_necklace_green"
           }
         ]
       },
@@ -26553,7 +28885,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": "Nalorakk"
+            "droppedBy": "Nalorakk",
+            "icon": "inv_staff_2h_amani_c_01"
           }
         ],
         "4": [
@@ -26564,7 +28897,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Hoarded Harvest Wrap",
-            "id": 251147
+            "id": 251147,
+            "icon": "inv_chest_cloth_dungeonharronir_c_01"
           }
         ],
         "11": [
@@ -26579,7 +28913,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "Sentinel of Winter"
+            "droppedBy": "Sentinel of Winter",
+            "icon": "inv_offhand_1h_dungeonharronir_c_01"
           }
         ],
         "5": [
@@ -26590,7 +28925,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Winter's Embrace Bracers",
-            "id": 251154
+            "id": 251154,
+            "icon": "inv_bracer_cloth_dungeonharronir_c_01"
           }
         ],
         "8": [
@@ -26601,7 +28937,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Forest Dream Leg-guards",
-            "id": 251160
+            "id": 251160,
+            "icon": "inv_pant_cloth_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -26612,7 +28949,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Pilfered Precious Band",
-            "id": 251148
+            "id": 251148,
+            "icon": "inv_12_jewelry_zulaman_troll_ring_green2"
           }
         ],
         "1": [
@@ -26623,7 +28961,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Yoke of the Charging Bear",
-            "id": 251173
+            "id": 251173,
+            "icon": "inv_12_jewelry_zulaman_troll_necklace_green1"
           }
         ]
       }
@@ -26638,7 +28977,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Graft of the Domanaar",
-            "id": 251234
+            "id": 251234,
+            "icon": "inv_12_jewelry_devouringhost_necklace_silver2"
           }
         ],
         "6": [
@@ -26649,7 +28989,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Despondent's Gauntlets",
-            "id": 251221
+            "id": 251221,
+            "icon": "inv_glove_plate_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -26657,7 +28998,8 @@ window.LOOT_DATA = {
             "droppedBy": "Atroxus",
             "stats": [],
             "name": "Tumor of the Swarm",
-            "id": 250245
+            "id": 250245,
+            "icon": "ability_pet_baneling"
           }
         ],
         "12": [
@@ -26668,7 +29010,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sickening Signet of Atroxus",
-            "id": 252258
+            "id": 252258,
+            "icon": "inv_12_jewelry_devouringhost_ring_bronze2"
           }
         ],
         "10": [
@@ -26683,7 +29026,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Sword",
-            "droppedBy": "Taz'Rah"
+            "droppedBy": "Taz'Rah",
+            "icon": "inv_sword_1h_domanaar_b_01"
           }
         ],
         "0": [
@@ -26694,7 +29038,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Visor of the Predator",
-            "id": 251229
+            "id": 251229,
+            "icon": "inv_helm_armor_domanaar_d_01"
           }
         ]
       },
@@ -26707,7 +29052,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Lightwarden's Bind",
-            "id": 251194
+            "id": 251194,
+            "icon": "inv12_jewelrytrinkets_rutaani_ring_yellow"
           }
         ],
         "6": [
@@ -26718,7 +29064,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Thornspike Gauntlets",
-            "id": 251197
+            "id": 251197,
+            "icon": "inv_glove_plate_dungeonharronir_c_01"
           }
         ],
         "4": [
@@ -26729,7 +29076,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Taproot Ribs",
-            "id": 251193
+            "id": 251193,
+            "icon": "inv_chest_plate_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -26737,13 +29085,15 @@ window.LOOT_DATA = {
             "droppedBy": "Ikuzz the Light Hunter",
             "stats": [],
             "name": "Seed of the Devouring Wild",
-            "id": 250238
+            "id": 250238,
+            "icon": "inv12_jewelrytrinkets_dungeon_seedofthedevouringwild"
           },
           {
             "droppedBy": "Ziekket",
             "stats": [],
             "name": "Sapling of the Dawnroot",
-            "id": 250259
+            "id": 250259,
+            "icon": "inv_misc_herb_nightmarevine"
           }
         ],
         "8": [
@@ -26754,7 +29104,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Bedrock Breeches",
-            "id": 251182
+            "id": 251182,
+            "icon": "inv_pant_plate_dungeonharronir_c_01"
           }
         ],
         "11": [
@@ -26769,7 +29120,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Shield",
-            "droppedBy": "Ziekket"
+            "droppedBy": "Ziekket",
+            "icon": "inv_shield_1h_rutaani_b_01"
           }
         ],
         "3": [
@@ -26780,7 +29132,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Bloodthorn Burnous",
-            "id": 251190
+            "id": 251190,
+            "icon": "inv_cape_mail_dungeonharronir_c_01"
           }
         ],
         "10": [
@@ -26795,7 +29148,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Sword",
-            "droppedBy": "Ziekket"
+            "droppedBy": "Ziekket",
+            "icon": "inv_sword_1h_dungeonharronir_c_01"
           }
         ]
       },
@@ -26808,7 +29162,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Ritual Binder's Ring",
-            "id": 159459
+            "id": 159459,
+            "icon": "inv_ring_80_03e"
           }
         ],
         "6": [
@@ -26819,7 +29174,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Gauntlets of the Avian Sentinel",
-            "id": 159413
+            "id": 159413,
+            "icon": "inv_glove_plate_zandalardungeon_c_01"
           }
         ],
         "7": [
@@ -26830,7 +29186,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Girdle of Pestilent Purification",
-            "id": 159418
+            "id": 159418,
+            "icon": "inv_belt_plate_zandalardungeon_c_01"
           }
         ],
         "5": [
@@ -26841,7 +29198,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Embalmer's Steadying Bracers",
-            "id": 159409
+            "id": 159409,
+            "icon": "inv_bracer_plate_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -26852,7 +29210,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Auric Puddle Stompers",
-            "id": 159412
+            "id": 159412,
+            "icon": "inv_boot_plate_zandalardungeon_c_01"
           }
         ],
         "13": [
@@ -26860,7 +29219,8 @@ window.LOOT_DATA = {
             "droppedBy": "Mchimba the Embalmer",
             "stats": [],
             "name": "Mchimba's Ritual Bandages",
-            "id": 159618
+            "id": 159618,
+            "icon": "inv_misc_emberweavebandagelight"
           }
         ],
         "2": [
@@ -26871,7 +29231,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Pauldrons of the Great Unifier",
-            "id": 239051
+            "id": 239051,
+            "icon": "inv_shoulder_plate_zandalardungeon_c_01"
           }
         ],
         "3": [
@@ -26882,7 +29243,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Cloak of the Restless Tribes",
-            "id": 159288
+            "id": 159288,
+            "icon": "inv_cape_mail_zandalardungeon_c_01"
           }
         ],
         "0": [
@@ -26893,7 +29255,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Helm of the Raptor King",
-            "id": 239050
+            "id": 239050,
+            "icon": "inv_helm_plate_zandalardungeon_c_01"
           }
         ]
       },
@@ -26910,7 +29273,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Shield",
-            "droppedBy": null
+            "droppedBy": null,
+            "icon": "inv_shield_1h_drakonid_c_01"
           }
         ],
         "9": [
@@ -26921,7 +29285,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Scaleguard's Stalwart Greatboots",
-            "id": 193728
+            "id": 193728,
+            "icon": "inv_plate_dragondungeon_c_01_boot"
           }
         ],
         "3": [
@@ -26932,7 +29297,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Fireproof Drape",
-            "id": 193763
+            "id": 193763,
+            "icon": "inv_mail_dragondungeon_c_01_cape"
           }
         ],
         "4": [
@@ -26943,7 +29309,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Breastplate of Soaring Terror",
-            "id": 193753
+            "id": 193753,
+            "icon": "inv_plate_dragondungeon_c_01_chest"
           }
         ],
         "13": [
@@ -26951,7 +29318,8 @@ window.LOOT_DATA = {
             "droppedBy": "Melidrussa Chillworn",
             "stats": [],
             "name": "Ruby Whelp Shell",
-            "id": 193757
+            "id": 193757,
+            "icon": "inv_item_dragonegg_redbroken01"
           },
           {
             "droppedBy": "Kokia Blazehoof",
@@ -26959,7 +29327,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Blazebinder's Hoof",
-            "id": 193762
+            "id": 193762,
+            "icon": "inv_10_dungeonjewelry_primalist_trinket_2_fire"
           }
         ]
       },
@@ -26972,7 +29341,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Charged Sandstone Band",
-            "id": 158366
+            "id": 158366,
+            "icon": "inv_ring_80_03d"
           },
           {
             "droppedBy": "Merektha",
@@ -26981,7 +29351,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Jade Ophidian Band",
-            "id": 162544
+            "id": 162544,
+            "icon": "inv_ring_80_04c"
           }
         ],
         "7": [
@@ -26992,7 +29363,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Sand-Scoured Greatbelt",
-            "id": 159442
+            "id": 159442,
+            "icon": "inv_belt_plate_zandalardungeon_c_01"
           }
         ],
         "4": [
@@ -27003,7 +29375,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Desert Guardian's Breastplate",
-            "id": 239036
+            "id": 239036,
+            "icon": "inv_chest_plate_zandalardungeon_c_01"
           }
         ],
         "13": [
@@ -27011,7 +29384,8 @@ window.LOOT_DATA = {
             "droppedBy": "Merektha",
             "stats": [],
             "name": "Merektha's Fang",
-            "id": 158367
+            "id": 158367,
+            "icon": "inv_misc_food_87_sporelingsnack"
           }
         ],
         "5": [
@@ -27022,7 +29396,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Shard-Tipped Vambraces",
-            "id": 159425
+            "id": 159425,
+            "icon": "inv_bracer_plate_zandalardungeon_c_01"
           }
         ],
         "8": [
@@ -27033,7 +29408,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Legplates of Charged Duality",
-            "id": 159435
+            "id": 159435,
+            "icon": "inv_pant_plate_zandalardungeon_c_01"
           }
         ],
         "11": [
@@ -27048,7 +29424,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Shield",
-            "droppedBy": "Galvazzt"
+            "droppedBy": "Galvazzt",
+            "icon": "inv_shield_1h_battledungeon_c_02"
           }
         ],
         "2": [
@@ -27059,7 +29436,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "C'thraxxi Binders Pauldrons",
-            "id": 239037
+            "id": 239037,
+            "icon": "inv_shoulder_plate_zandalardungeon_c_01"
           }
         ],
         "10": [
@@ -27074,7 +29452,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Sword",
-            "droppedBy": "Avatar of Sethraliss"
+            "droppedBy": "Avatar of Sethraliss",
+            "icon": "inv_sword_1h_battledungeon_c_02"
           }
         ]
       },
@@ -27087,7 +29466,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Strand of Warding Fangs",
-            "id": 273781
+            "id": 273781,
+            "icon": "inv_121_jewelry_neck03_teal"
           }
         ],
         "4": [
@@ -27098,7 +29478,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Aged Interwoven Scaleplate",
-            "id": 273787
+            "id": 273787,
+            "icon": "inv_chest_plate_outdooramaniloa_c_01"
           }
         ],
         "13": [
@@ -27106,13 +29487,15 @@ window.LOOT_DATA = {
             "droppedBy": "Rav'i",
             "stats": [],
             "name": "Coiled Fangstone",
-            "id": 273795
+            "id": 273795,
+            "icon": "inv_121_trinket_dungeon_ulatek_fangstone"
           },
           {
             "droppedBy": "Rav'i",
             "stats": [],
             "name": "Vile Vial of Volatile Venom",
-            "id": 273796
+            "id": 273796,
+            "icon": "inv_121_trinket_dungeon_ulatek_vile"
           }
         ],
         "8": [
@@ -27123,7 +29506,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Ancient General's Obsidian Pillars",
-            "id": 273776
+            "id": 273776,
+            "icon": "inv_pant_plate_outdooramaniloa_c_01"
           }
         ],
         "9": [
@@ -27134,7 +29518,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Poison-Proof Stompers",
-            "id": 273777
+            "id": 273777,
+            "icon": "inv_boot_plate_outdooramaniloa_c_01"
           }
         ],
         "12": [
@@ -27145,7 +29530,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Band of the Amani Warlord",
-            "id": 273792
+            "id": 273792,
+            "icon": "inv_121_jewelry_ring02_green"
           }
         ]
       },
@@ -27158,7 +29544,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Signet of Snarling Servitude",
-            "id": 251136
+            "id": 251136,
+            "icon": "inv_12_jewelry_voidelf_ring_teal"
           }
         ],
         "3": [
@@ -27169,7 +29556,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Speakeasy Shroud",
-            "id": 251132
+            "id": 251132,
+            "icon": "inv_cape_leather_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -27177,13 +29565,15 @@ window.LOOT_DATA = {
             "droppedBy": "Xathuux the Annihilator",
             "stats": [],
             "name": "Resonant Bellowstone",
-            "id": 250228
+            "id": 250228,
+            "icon": "inv_alchemy_90_stone_green"
           },
           {
             "droppedBy": "Kystia Manaheart",
             "stats": [],
             "name": "Manaheart's Binding Flame",
-            "id": 250243
+            "id": 250243,
+            "icon": "inv_ember_fel"
           }
         ],
         "5": [
@@ -27194,7 +29584,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Overseer's Vambraces",
-            "id": 251133
+            "id": 251133,
+            "icon": "inv_bracer_plate_dungeonharronir_c_01"
           }
         ],
         "10": [
@@ -27206,7 +29597,8 @@ window.LOOT_DATA = {
             "stats": [],
             "hand": "1h",
             "weaponClass": "Warglaive",
-            "droppedBy": "Lithiel Cinderfury"
+            "droppedBy": "Lithiel Cinderfury",
+            "icon": "inv_glaive_1h_questbloodelf_b_01"
           }
         ],
         "2": [
@@ -27217,7 +29609,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Cinderfury Shoulderguards",
-            "id": 251138
+            "id": 251138,
+            "icon": "inv_shoulder_plate_dungeonharronir_c_01"
           }
         ],
         "1": [
@@ -27228,7 +29621,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Pendant of Malefic Fury",
-            "id": 251142
+            "id": 251142,
+            "icon": "inv_12_jewelry_silvermoonelf_necklace_green"
           }
         ],
         "0": [
@@ -27239,7 +29633,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Greathelm of Temptation",
-            "id": 251126
+            "id": 251126,
+            "icon": "inv_helm_plate_dungeonharronir_c_01"
           }
         ]
       },
@@ -27252,7 +29647,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Pilfered Precious Band",
-            "id": 251148
+            "id": 251148,
+            "icon": "inv_12_jewelry_zulaman_troll_ring_green2"
           }
         ],
         "6": [
@@ -27263,7 +29659,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Bonds of the Hash'ura",
-            "id": 251214
+            "id": 251214,
+            "icon": "inv_glove_plate_dungeonharronir_c_01"
           }
         ],
         "7": [
@@ -27274,7 +29671,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Autumn's Boon Belt",
-            "id": 251144
+            "id": 251144,
+            "icon": "inv_belt_plate_dungeonharronir_c_01"
           }
         ],
         "4": [
@@ -27285,7 +29683,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sentinel Challenger's Prize",
-            "id": 251151
+            "id": 251151,
+            "icon": "inv_chest_plate_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -27295,13 +29694,15 @@ window.LOOT_DATA = {
               "Crit"
             ],
             "name": "Idol of the War Loa",
-            "id": 250229
+            "id": 250229,
+            "icon": "inv12_jewelrytrinkets_dungeon_idolofthewargod"
           },
           {
             "droppedBy": "Sentinel of Winter",
             "stats": [],
             "name": "Permafrost Essence",
-            "id": 250244
+            "id": 250244,
+            "icon": "inv12_jewelrytrinkets_dungeon_permafrostreservoir"
           }
         ],
         "11": [
@@ -27316,7 +29717,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Shield",
-            "droppedBy": "Sentinel of Winter"
+            "droppedBy": "Sentinel of Winter",
+            "icon": "inv_shield_1h_dungeonharronir_c_01"
           }
         ],
         "1": [
@@ -27327,7 +29729,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Yoke of the Charging Bear",
-            "id": 251173
+            "id": 251173,
+            "icon": "inv_12_jewelry_zulaman_troll_necklace_green1"
           }
         ]
       }
@@ -27342,7 +29745,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Graft of the Domanaar",
-            "id": 251234
+            "id": 251234,
+            "icon": "inv_12_jewelry_devouringhost_necklace_silver2"
           }
         ],
         "7": [
@@ -27353,7 +29757,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Gravitic Girdle",
-            "id": 251235
+            "id": 251235,
+            "icon": "inv_belt_leather_dungeonharronir_c_01"
           }
         ],
         "4": [
@@ -27364,7 +29769,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Hide of Pestilence",
-            "id": 251226
+            "id": 251226,
+            "icon": "inv_chest_leather_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -27372,13 +29778,15 @@ window.LOOT_DATA = {
             "droppedBy": "Taz'Rah",
             "stats": [],
             "name": "Void Execution Mandate",
-            "id": 250225
+            "id": 250225,
+            "icon": "inv_inscription_80_warscroll_intellect"
           },
           {
             "droppedBy": "Atroxus",
             "stats": [],
             "name": "Tumor of the Swarm",
-            "id": 250245
+            "id": 250245,
+            "icon": "ability_pet_baneling"
           }
         ],
         "12": [
@@ -27389,7 +29797,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sickening Signet of Atroxus",
-            "id": 252258
+            "id": 252258,
+            "icon": "inv_12_jewelry_devouringhost_ring_bronze2"
           }
         ],
         "2": [
@@ -27400,7 +29809,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Somber Spaulders",
-            "id": 251223
+            "id": 251223,
+            "icon": "inv_shoulder_leather_dungeonharronir_c_01"
           }
         ],
         "10": [
@@ -27415,7 +29825,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Axe",
-            "droppedBy": "Atroxus"
+            "droppedBy": "Atroxus",
+            "icon": "inv_axe_1h_dungeonharronir_c_01"
           },
           {
             "id": 251231,
@@ -27428,7 +29839,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Warglaive",
-            "droppedBy": "Charonus"
+            "droppedBy": "Charonus",
+            "icon": "inv_glaive_1h_dungeonharronir_c_01"
           }
         ]
       },
@@ -27445,7 +29857,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Fist",
-            "droppedBy": "Ikuzz the Light Hunter"
+            "droppedBy": "Ikuzz the Light Hunter",
+            "icon": "inv_hand_1h_dungeonharronir_c_01"
           }
         ],
         "7": [
@@ -27456,7 +29869,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Rootwalker Harness",
-            "id": 251189
+            "id": 251189,
+            "icon": "inv_belt_leather_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -27466,13 +29880,15 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Lightspire Core",
-            "id": 250214
+            "id": 250214,
+            "icon": "inv_enchant_essenceastrallarge"
           },
           {
             "droppedBy": "Ziekket",
             "stats": [],
             "name": "Sapling of the Dawnroot",
-            "id": 250259
+            "id": 250259,
+            "icon": "inv_misc_herb_nightmarevine"
           }
         ],
         "5": [
@@ -27483,7 +29899,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Rootwarden Wraps",
-            "id": 251183
+            "id": 251183,
+            "icon": "inv_bracer_leather_dungeonharronir_c_01"
           }
         ],
         "8": [
@@ -27494,7 +29911,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Lightspore Leggings",
-            "id": 251198
+            "id": 251198,
+            "icon": "inv_pant_leather_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -27505,7 +29923,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Lightwarden's Bind",
-            "id": 251194
+            "id": 251194,
+            "icon": "inv12_jewelrytrinkets_rutaani_ring_yellow"
           }
         ],
         "3": [
@@ -27516,7 +29935,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Bloodthorn Burnous",
-            "id": 251190
+            "id": 251190,
+            "icon": "inv_cape_mail_dungeonharronir_c_01"
           }
         ]
       },
@@ -27529,7 +29949,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Ritual Binder's Ring",
-            "id": 159459
+            "id": 159459,
+            "icon": "inv_ring_80_03e"
           }
         ],
         "6": [
@@ -27540,7 +29961,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Desiccator's Blessed Gloves",
-            "id": 159312
+            "id": 159312,
+            "icon": "inv_glove_leather_zandalardungeon_c_01"
           }
         ],
         "7": [
@@ -27551,7 +29973,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Primal Dinomancer's Belt",
-            "id": 159301
+            "id": 159301,
+            "icon": "inv_belt_leather_zandalardungeon_c_01"
           }
         ],
         "4": [
@@ -27562,7 +29985,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Vest of Reverent Adoration",
-            "id": 239048
+            "id": 239048,
+            "icon": "inv_chest_leather_zandalardungeon_c_01"
           }
         ],
         "5": [
@@ -27573,7 +29997,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Kula's Butchering Wristwraps",
-            "id": 159300
+            "id": 159300,
+            "icon": "inv_bracer_leather_zandalardungeon_c_01"
           }
         ],
         "8": [
@@ -27584,7 +30009,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Breeches of the Sacred Hall",
-            "id": 159313
+            "id": 159313,
+            "icon": "inv_pant_leather_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -27595,7 +30021,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Goldfeather Boots",
-            "id": 159304
+            "id": 159304,
+            "icon": "inv_boot_leather_zandalardungeon_c_01"
           }
         ],
         "13": [
@@ -27603,13 +30030,15 @@ window.LOOT_DATA = {
             "droppedBy": "The Golden Serpent",
             "stats": [],
             "name": "Lustrous Golden Plumage",
-            "id": 159617
+            "id": 159617,
+            "icon": "inv_icon_feather06a"
           },
           {
             "droppedBy": "Mchimba the Embalmer",
             "stats": [],
             "name": "Mchimba's Ritual Bandages",
-            "id": 159618
+            "id": 159618,
+            "icon": "inv_misc_emberweavebandagelight"
           }
         ],
         "3": [
@@ -27620,7 +30049,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Cloak of the Restless Tribes",
-            "id": 159288
+            "id": 159288,
+            "icon": "inv_cape_mail_zandalardungeon_c_01"
           }
         ]
       },
@@ -27633,7 +30063,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Fireproof Drape",
-            "id": 193763
+            "id": 193763,
+            "icon": "inv_mail_dragondungeon_c_01_cape"
           }
         ],
         "0": [
@@ -27644,7 +30075,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Crown of Roaring Storms",
-            "id": 193751
+            "id": 193751,
+            "icon": "inv_leather_dragondungeon_c_01_helm"
           }
         ],
         "13": [
@@ -27652,7 +30084,8 @@ window.LOOT_DATA = {
             "droppedBy": "Melidrussa Chillworn",
             "stats": [],
             "name": "Ruby Whelp Shell",
-            "id": 193757
+            "id": 193757,
+            "icon": "inv_item_dragonegg_redbroken01"
           }
         ],
         "6": [
@@ -27663,7 +30096,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Subjugator's Chilling Grips",
-            "id": 193758
+            "id": 193758,
+            "icon": "inv_leather_dragondungeon_c_01_glove"
           }
         ],
         "4": [
@@ -27674,7 +30108,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Invader's Firestorm Chestguard",
-            "id": 193764
+            "id": 193764,
+            "icon": "inv_leather_dragondungeon_c_01_chest"
           }
         ]
       },
@@ -27687,7 +30122,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Charged Sandstone Band",
-            "id": 158366
+            "id": 158366,
+            "icon": "inv_ring_80_03d"
           },
           {
             "droppedBy": "Merektha",
@@ -27696,7 +30132,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Jade Ophidian Band",
-            "id": 162544
+            "id": 162544,
+            "icon": "inv_ring_80_04c"
           }
         ],
         "6": [
@@ -27707,7 +30144,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Grips of Electrified Defense",
-            "id": 159337
+            "id": 159337,
+            "icon": "inv_glove_leather_zandalardungeon_c_01"
           }
         ],
         "7": [
@@ -27718,7 +30156,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Whirling Dervish Sash",
-            "id": 159317
+            "id": 159317,
+            "icon": "inv_belt_leather_zandalardungeon_c_01"
           }
         ],
         "8": [
@@ -27729,7 +30168,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Leggings of the Galeforce Viper",
-            "id": 159329
+            "id": 159329,
+            "icon": "inv_pant_leather_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -27740,7 +30180,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sand-Shined Snakeskin Sandals",
-            "id": 159327
+            "id": 159327,
+            "icon": "inv_boot_leather_zandalardungeon_c_01"
           }
         ],
         "10": [
@@ -27755,7 +30196,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Sword",
-            "droppedBy": "Merektha"
+            "droppedBy": "Merektha",
+            "icon": "inv_sword_1h_battledungeon_c_02"
           }
         ],
         "0": [
@@ -27766,7 +30208,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Hood of the Slithering Loa",
-            "id": 239033
+            "id": 239033,
+            "icon": "inv_helm_leather_zandalardungeon_c_01"
           }
         ]
       },
@@ -27779,7 +30222,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Band of the Amani Warlord",
-            "id": 273792
+            "id": 273792,
+            "icon": "inv_121_jewelry_ring02_green"
           }
         ],
         "13": [
@@ -27787,7 +30231,8 @@ window.LOOT_DATA = {
             "droppedBy": "Rav'i",
             "stats": [],
             "name": "Vile Vial of Volatile Venom",
-            "id": 273796
+            "id": 273796,
+            "icon": "inv_121_trinket_dungeon_ulatek_vile"
           }
         ],
         "10": [
@@ -27802,7 +30247,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Warglaive",
-            "droppedBy": "Rav'i"
+            "droppedBy": "Rav'i",
+            "icon": "inv_glaive_1h_outdooramaniloa_c_01"
           }
         ],
         "2": [
@@ -27813,7 +30259,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Snakeskin Spaulders",
-            "id": 273774
+            "id": 273774,
+            "icon": "inv_shoulder_leather_outdooramaniloa_c_01"
           }
         ],
         "1": [
@@ -27824,7 +30271,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Strand of Warding Fangs",
-            "id": 273781
+            "id": 273781,
+            "icon": "inv_121_jewelry_neck03_teal"
           }
         ],
         "0": [
@@ -27835,7 +30283,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Spare Speaker's Hood",
-            "id": 273791
+            "id": 273791,
+            "icon": "inv_helm_leather_outdooramaniloa_c_01"
           }
         ]
       },
@@ -27848,7 +30297,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Signet of Snarling Servitude",
-            "id": 251136
+            "id": 251136,
+            "icon": "inv_12_jewelry_voidelf_ring_teal"
           }
         ],
         "6": [
@@ -27859,7 +30309,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Gauntlets of Fevered Defense",
-            "id": 251124
+            "id": 251124,
+            "icon": "inv_glove_leather_dungeonharronir_c_01"
           }
         ],
         "3": [
@@ -27870,7 +30321,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Speakeasy Shroud",
-            "id": 251132
+            "id": 251132,
+            "icon": "inv_cape_leather_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -27878,19 +30330,22 @@ window.LOOT_DATA = {
             "droppedBy": "Zaen Bladesorrow",
             "stats": [],
             "name": "Freightrunner's Flask",
-            "id": 250215
+            "id": 250215,
+            "icon": "inv_alchemy_90_flask_red"
           },
           {
             "droppedBy": "Xathuux the Annihilator",
             "stats": [],
             "name": "Resonant Bellowstone",
-            "id": 250228
+            "id": 250228,
+            "icon": "inv_alchemy_90_stone_green"
           },
           {
             "droppedBy": "Kystia Manaheart",
             "stats": [],
             "name": "Manaheart's Binding Flame",
-            "id": 250243
+            "id": 250243,
+            "icon": "inv_ember_fel"
           }
         ],
         "5": [
@@ -27901,7 +30356,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Fury-fletched Armlets",
-            "id": 251135
+            "id": 251135,
+            "icon": "inv_bracer_leather_dungeonharronir_c_01"
           }
         ],
         "8": [
@@ -27912,7 +30368,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Breeches of Deft Deals",
-            "id": 251130
+            "id": 251130,
+            "icon": "inv_pant_leather_dungeonharronir_c_01"
           }
         ],
         "1": [
@@ -27923,7 +30380,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Pendant of Malefic Fury",
-            "id": 251142
+            "id": 251142,
+            "icon": "inv_12_jewelry_silvermoonelf_necklace_green"
           }
         ],
         "10": [
@@ -27935,7 +30393,8 @@ window.LOOT_DATA = {
             "stats": [],
             "hand": "1h",
             "weaponClass": "Warglaive",
-            "droppedBy": "Lithiel Cinderfury"
+            "droppedBy": "Lithiel Cinderfury",
+            "icon": "inv_glaive_1h_questbloodelf_b_01"
           }
         ],
         "0": [
@@ -27946,7 +30405,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Vilefiend's Guise",
-            "id": 251140
+            "id": 251140,
+            "icon": "inv_helm_leather_dungeonharronir_c_01"
           }
         ]
       },
@@ -27959,7 +30419,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Pilfered Precious Band",
-            "id": 251148
+            "id": 251148,
+            "icon": "inv_12_jewelry_zulaman_troll_ring_green2"
           }
         ],
         "4": [
@@ -27970,7 +30431,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "War Trial Vestments",
-            "id": 251159
+            "id": 251159,
+            "icon": "inv_chest_leather_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -27978,7 +30440,8 @@ window.LOOT_DATA = {
             "droppedBy": "Sentinel of Winter",
             "stats": [],
             "name": "Permafrost Essence",
-            "id": 250244
+            "id": 250244,
+            "icon": "inv12_jewelrytrinkets_dungeon_permafrostreservoir"
           }
         ],
         "9": [
@@ -27989,7 +30452,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Arctic Explorer's Legwraps",
-            "id": 251153
+            "id": 251153,
+            "icon": "inv_boot_leather_dungeonharronir_c_01"
           }
         ],
         "10": [
@@ -28004,7 +30468,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Fist",
-            "droppedBy": "The Hoardmonger"
+            "droppedBy": "The Hoardmonger",
+            "icon": "inv_hand_1h_dungeonharronir_c_01"
           }
         ],
         "2": [
@@ -28015,7 +30480,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Scavenger's Spaulders",
-            "id": 251146
+            "id": 251146,
+            "icon": "inv_shoulder_leather_dungeonharronir_c_01"
           }
         ],
         "1": [
@@ -28026,7 +30492,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Yoke of the Charging Bear",
-            "id": 251173
+            "id": 251173,
+            "icon": "inv_12_jewelry_zulaman_troll_necklace_green1"
           }
         ]
       }
@@ -28045,7 +30512,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Dagger",
-            "droppedBy": "Atroxus"
+            "droppedBy": "Atroxus",
+            "icon": "inv_knife_1h_dungeonharronir_c_02"
           }
         ],
         "7": [
@@ -28056,7 +30524,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Behemoth Waistband",
-            "id": 251228
+            "id": 251228,
+            "icon": "inv_belt_mail_dungeonharronir_c_01"
           }
         ],
         "4": [
@@ -28067,7 +30536,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Manipulator's Vest",
-            "id": 251233
+            "id": 251233,
+            "icon": "inv_chest_mail_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -28075,7 +30545,8 @@ window.LOOT_DATA = {
             "droppedBy": "Charonus",
             "stats": [],
             "name": "Mindpiercer's Sigil",
-            "id": 250224
+            "id": 250224,
+            "icon": "inv_icon_shadowcouncilorb_purple"
           }
         ],
         "12": [
@@ -28086,7 +30557,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sickening Signet of Atroxus",
-            "id": 252258
+            "id": 252258,
+            "icon": "inv_12_jewelry_devouringhost_ring_bronze2"
           }
         ],
         "1": [
@@ -28097,7 +30569,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Graft of the Domanaar",
-            "id": 251234
+            "id": 251234,
+            "icon": "inv_12_jewelry_devouringhost_necklace_silver2"
           }
         ],
         "0": [
@@ -28108,7 +30581,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Voidscarred Crown",
-            "id": 251220
+            "id": 251220,
+            "icon": "inv_helm_mail_dungeonharronir_c_01"
           }
         ]
       },
@@ -28121,7 +30595,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Lightwarden's Bind",
-            "id": 251194
+            "id": 251194,
+            "icon": "inv12_jewelrytrinkets_rutaani_ring_yellow"
           }
         ],
         "6": [
@@ -28132,7 +30607,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Pulverizing Pads",
-            "id": 251165
+            "id": 251165,
+            "icon": "inv_glove_mail_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -28142,19 +30618,22 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Lightspire Core",
-            "id": 250214
+            "id": 250214,
+            "icon": "inv_enchant_essenceastrallarge"
           },
           {
             "droppedBy": "Meittik",
             "stats": [],
             "name": "Seed of Radiant Hope",
-            "id": 250254
+            "id": 250254,
+            "icon": "inv12_jewelrytrinkets_dungeon_seedofradianthope"
           },
           {
             "droppedBy": "Ziekket",
             "stats": [],
             "name": "Sapling of the Dawnroot",
-            "id": 250259
+            "id": 250259,
+            "icon": "inv_misc_herb_nightmarevine"
           }
         ],
         "5": [
@@ -28165,7 +30644,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Saptorbane Guards",
-            "id": 251200
+            "id": 251200,
+            "icon": "inv_bracer_mail_dungeonharronir_c_01"
           }
         ],
         "11": [
@@ -28180,7 +30660,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "Lightwarden Ruia"
+            "droppedBy": "Lightwarden Ruia",
+            "icon": "inv_offhand_1h_dungeonharronir_c_01"
           }
         ],
         "2": [
@@ -28191,7 +30672,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Ironroot Collar",
-            "id": 251184
+            "id": 251184,
+            "icon": "inv_shoulder_mail_dungeonharronir_c_01"
           }
         ],
         "3": [
@@ -28202,7 +30684,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Bloodthorn Burnous",
-            "id": 251190
+            "id": 251190,
+            "icon": "inv_cape_mail_dungeonharronir_c_01"
           }
         ]
       },
@@ -28215,7 +30698,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Ritual Binder's Ring",
-            "id": 159459
+            "id": 159459,
+            "icon": "inv_ring_80_03e"
           }
         ],
         "6": [
@@ -28226,7 +30710,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sepulchral Construct's Gloves",
-            "id": 160213
+            "id": 160213,
+            "icon": "inv_glove_mail_zandalardungeon_c_01"
           }
         ],
         "7": [
@@ -28237,7 +30722,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Belt of the Consecrated Tomb",
-            "id": 159369
+            "id": 159369,
+            "icon": "inv_belt_mail_zandalardungeon_c_01"
           }
         ],
         "4": [
@@ -28248,7 +30734,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Loa-Blessed Chestguard",
-            "id": 239046
+            "id": 239046,
+            "icon": "inv_chest_mail_zandalardungeon_c_01"
           }
         ],
         "11": [
@@ -28263,7 +30750,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "Mchimba the Embalmer"
+            "droppedBy": "Mchimba the Embalmer",
+            "icon": "inv_offhand_1h_battledungeon_c_02"
           }
         ],
         "3": [
@@ -28274,7 +30762,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Cloak of the Restless Tribes",
-            "id": 159288
+            "id": 159288,
+            "icon": "inv_cape_mail_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -28285,7 +30774,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Boots of the Headlong Conqueror",
-            "id": 159371
+            "id": 159371,
+            "icon": "inv_boot_mail_zandalardungeon_c_01"
           }
         ],
         "13": [
@@ -28293,7 +30783,8 @@ window.LOOT_DATA = {
             "droppedBy": "King Dazar",
             "stats": [],
             "name": "Stormbound Emblem of Dazar",
-            "id": 273649
+            "id": 273649,
+            "icon": "inv_7_0raid_necklace_14a"
           }
         ],
         "2": [
@@ -28304,7 +30795,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Spaulders of Prime Emperor",
-            "id": 239049
+            "id": 239049,
+            "icon": "inv_shoulder_mail_zandalardungeon_c_01"
           }
         ],
         "10": [
@@ -28319,7 +30811,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Dagger",
-            "droppedBy": "The Golden Serpent"
+            "droppedBy": "The Golden Serpent",
+            "icon": "inv_knife_1h_battledungeon_c_01"
           },
           {
             "id": 160216,
@@ -28332,7 +30825,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Sword",
-            "droppedBy": "Aka'ali the Conqueror"
+            "droppedBy": "Aka'ali the Conqueror",
+            "icon": "inv_sword_1h_battledungeon_c_02"
           }
         ]
       },
@@ -28349,7 +30843,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": "Melidrussa Chillworn"
+            "droppedBy": "Melidrussa Chillworn",
+            "icon": "inv_staff_2h_dragondungeon_c_02"
           }
         ],
         "6": [
@@ -28360,7 +30855,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Galerattle Gauntlets",
-            "id": 193752
+            "id": 193752,
+            "icon": "inv_mail_dragondungeon_c_01_glove"
           }
         ],
         "13": [
@@ -28370,13 +30866,15 @@ window.LOOT_DATA = {
               "Crit"
             ],
             "name": "Kyrakka's Searing Embers",
-            "id": 193748
+            "id": 193748,
+            "icon": "inv_10_dungeonjewelry_primalist_trinket_4_fire"
           },
           {
             "droppedBy": "Melidrussa Chillworn",
             "stats": [],
             "name": "Ruby Whelp Shell",
-            "id": 193757
+            "id": 193757,
+            "icon": "inv_item_dragonegg_redbroken01"
           }
         ],
         "8": [
@@ -28387,7 +30885,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Egg Tender's Leggings",
-            "id": 193759
+            "id": 193759,
+            "icon": "inv_mail_dragondungeon_c_01_pant"
           }
         ],
         "11": [
@@ -28402,7 +30901,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "Kokia Blazehoof"
+            "droppedBy": "Kokia Blazehoof",
+            "icon": "inv_offhand_1h_drakonid_c_01"
           }
         ],
         "3": [
@@ -28413,7 +30913,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Fireproof Drape",
-            "id": 193763
+            "id": 193763,
+            "icon": "inv_mail_dragondungeon_c_01_cape"
           }
         ],
         "0": [
@@ -28424,7 +30925,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Blazebound Lieutenant's Helm",
-            "id": 193765
+            "id": 193765,
+            "icon": "inv_mail_dragondungeon_c_01_helm"
           }
         ]
       },
@@ -28437,7 +30939,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Charged Sandstone Band",
-            "id": 158366
+            "id": 158366,
+            "icon": "inv_ring_80_03d"
           },
           {
             "droppedBy": "Merektha",
@@ -28446,7 +30949,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Jade Ophidian Band",
-            "id": 162544
+            "id": 162544,
+            "icon": "inv_ring_80_04c"
           }
         ],
         "4": [
@@ -28457,7 +30961,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Corrupted Hexxer's Vestments",
-            "id": 239034
+            "id": 239034,
+            "icon": "inv_chest_mail_zandalardungeon_c_01"
           }
         ],
         "5": [
@@ -28468,7 +30973,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Arc-Glass Bindings",
-            "id": 159380
+            "id": 159380,
+            "icon": "inv_bracer_mail_zandalardungeon_c_01"
           }
         ],
         "8": [
@@ -28479,7 +30985,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Legguards of the Awakening Brood",
-            "id": 159375
+            "id": 159375,
+            "icon": "inv_pant_mail_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -28490,7 +30997,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sabatons of Coruscating Energy",
-            "id": 159388
+            "id": 159388,
+            "icon": "inv_boot_mail_zandalardungeon_c_01"
           }
         ],
         "10": [
@@ -28505,7 +31013,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Mace",
-            "droppedBy": "Galvazzt"
+            "droppedBy": "Galvazzt",
+            "icon": "inv_mace_1h_pandaraid_d_01"
           },
           {
             "id": 159636,
@@ -28518,7 +31027,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": null
+            "droppedBy": null,
+            "icon": "inv_staff_2h_battledungeon_c_04"
           }
         ],
         "0": [
@@ -28529,7 +31039,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sethraliss' Fanged Helm",
-            "id": 239035
+            "id": 239035,
+            "icon": "inv_helm_mail_zandalardungeon_c_01"
           }
         ]
       },
@@ -28542,7 +31053,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Strand of Warding Fangs",
-            "id": 273781
+            "id": 273781,
+            "icon": "inv_121_jewelry_neck03_teal"
           }
         ],
         "4": [
@@ -28553,7 +31065,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Chestguard of Corroded Scales",
-            "id": 273789
+            "id": 273789,
+            "icon": "inv_chest_mail_outdooramaniloa_c_01"
           }
         ],
         "13": [
@@ -28561,7 +31074,8 @@ window.LOOT_DATA = {
             "droppedBy": "Rav'i",
             "stats": [],
             "name": "Vile Vial of Volatile Venom",
-            "id": 273796
+            "id": 273796,
+            "icon": "inv_121_trinket_dungeon_ulatek_vile"
           }
         ],
         "5": [
@@ -28572,7 +31086,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Hydra Scale Wristguards",
-            "id": 273775
+            "id": 273775,
+            "icon": "inv_bracer_mail_outdooramaniloa_c_01"
           }
         ],
         "11": [
@@ -28587,7 +31102,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "The Writhing Coil"
+            "droppedBy": "The Writhing Coil",
+            "icon": "inv_offhand_1h_outdooramaniloa_c_01"
           }
         ],
         "12": [
@@ -28598,7 +31114,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Band of the Amani Warlord",
-            "id": 273792
+            "id": 273792,
+            "icon": "inv_121_jewelry_ring02_green"
           }
         ],
         "10": [
@@ -28613,7 +31130,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Dagger",
-            "droppedBy": "Zul'jan"
+            "droppedBy": "Zul'jan",
+            "icon": "inv_knife_1h_zuljin_d_01"
           },
           {
             "id": 273780,
@@ -28626,7 +31144,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Axe",
-            "droppedBy": "Rav'i"
+            "droppedBy": "Rav'i",
+            "icon": "inv_axe_1h_outdooramaniloa_c_01"
           }
         ]
       },
@@ -28639,7 +31158,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Pendant of Malefic Fury",
-            "id": 251142
+            "id": 251142,
+            "icon": "inv_12_jewelry_silvermoonelf_necklace_green"
           }
         ],
         "3": [
@@ -28650,7 +31170,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Speakeasy Shroud",
-            "id": 251132
+            "id": 251132,
+            "icon": "inv_cape_leather_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -28658,13 +31179,15 @@ window.LOOT_DATA = {
             "droppedBy": "Zaen Bladesorrow",
             "stats": [],
             "name": "Freightrunner's Flask",
-            "id": 250215
+            "id": 250215,
+            "icon": "inv_alchemy_90_flask_red"
           },
           {
             "droppedBy": "Lithiel Cinderfury",
             "stats": [],
             "name": "Unstable Felheart Crystal",
-            "id": 250255
+            "id": 250255,
+            "icon": "tooltip_crystallizedfel"
           }
         ],
         "8": [
@@ -28675,7 +31198,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Lithiel's Linked Leggings",
-            "id": 251141
+            "id": 251141,
+            "icon": "inv_pant_mail_dungeonharronir_c_01"
           }
         ],
         "9": [
@@ -28686,7 +31210,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Felsoaked Soles",
-            "id": 251125
+            "id": 251125,
+            "icon": "inv_boot_mail_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -28697,7 +31222,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Signet of Snarling Servitude",
-            "id": 251136
+            "id": 251136,
+            "icon": "inv_12_jewelry_voidelf_ring_teal"
           }
         ],
         "2": [
@@ -28708,7 +31234,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Jangling Felpaulets",
-            "id": 251131
+            "id": 251131,
+            "icon": "inv_shoulder_mail_dungeonharronir_c_01"
           }
         ],
         "10": [
@@ -28723,7 +31250,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": "Kystia Manaheart"
+            "droppedBy": "Kystia Manaheart",
+            "icon": "inv_staff_2h_dungeonharronir_c_02"
           },
           {
             "id": 258045,
@@ -28733,7 +31261,8 @@ window.LOOT_DATA = {
             "stats": [],
             "hand": "1h",
             "weaponClass": "Warglaive",
-            "droppedBy": "Lithiel Cinderfury"
+            "droppedBy": "Lithiel Cinderfury",
+            "icon": "inv_glaive_1h_questbloodelf_b_01"
           }
         ]
       },
@@ -28746,7 +31275,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Pilfered Precious Band",
-            "id": 251148
+            "id": 251148,
+            "icon": "inv_12_jewelry_zulaman_troll_ring_green2"
           }
         ],
         "6": [
@@ -28757,7 +31287,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Season's Turn Gauntlets",
-            "id": 251152
+            "id": 251152,
+            "icon": "inv_glove_mail_dungeonharronir_c_01"
           }
         ],
         "7": [
@@ -28768,7 +31299,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Tribal Defender's Cord",
-            "id": 251155
+            "id": 251155,
+            "icon": "inv_belt_mail_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -28776,7 +31308,8 @@ window.LOOT_DATA = {
             "droppedBy": "The Hoardmonger",
             "stats": [],
             "name": "Mycolic Medicine",
-            "id": 250248
+            "id": 250248,
+            "icon": "inv_misc_starspecklemushroom"
           }
         ],
         "9": [
@@ -28787,7 +31320,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Forgotten Tribe Footguards",
-            "id": 251145
+            "id": 251145,
+            "icon": "inv_boot_mail_dungeonharronir_c_01"
           }
         ],
         "11": [
@@ -28802,7 +31336,8 @@ window.LOOT_DATA = {
             ],
             "hand": "oh",
             "weaponClass": "Off-hand Frills",
-            "droppedBy": "Sentinel of Winter"
+            "droppedBy": "Sentinel of Winter",
+            "icon": "inv_offhand_1h_dungeonharronir_c_01"
           }
         ],
         "10": [
@@ -28817,7 +31352,8 @@ window.LOOT_DATA = {
             ],
             "hand": "2h",
             "weaponClass": "Staff",
-            "droppedBy": "Nalorakk"
+            "droppedBy": "Nalorakk",
+            "icon": "inv_staff_2h_amani_c_01"
           }
         ],
         "1": [
@@ -28828,7 +31364,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Yoke of the Charging Bear",
-            "id": 251173
+            "id": 251173,
+            "icon": "inv_12_jewelry_zulaman_troll_necklace_green1"
           }
         ],
         "0": [
@@ -28839,7 +31376,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Nalorakk's Nightmare",
-            "id": 251158
+            "id": 251158,
+            "icon": "inv_helm_mail_dungeonharronir_c_01"
           }
         ]
       }
@@ -28854,7 +31392,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Graft of the Domanaar",
-            "id": 251234
+            "id": 251234,
+            "icon": "inv_12_jewelry_devouringhost_necklace_silver2"
           }
         ],
         "7": [
@@ -28865,7 +31404,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Gravitic Girdle",
-            "id": 251235
+            "id": 251235,
+            "icon": "inv_belt_leather_dungeonharronir_c_01"
           }
         ],
         "4": [
@@ -28876,7 +31416,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Hide of Pestilence",
-            "id": 251226
+            "id": 251226,
+            "icon": "inv_chest_leather_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -28884,7 +31425,8 @@ window.LOOT_DATA = {
             "droppedBy": "Taz'Rah",
             "stats": [],
             "name": "Void Execution Mandate",
-            "id": 250225
+            "id": 250225,
+            "icon": "inv_inscription_80_warscroll_intellect"
           }
         ],
         "12": [
@@ -28895,7 +31437,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sickening Signet of Atroxus",
-            "id": 252258
+            "id": 252258,
+            "icon": "inv_12_jewelry_devouringhost_ring_bronze2"
           }
         ],
         "2": [
@@ -28906,7 +31449,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Somber Spaulders",
-            "id": 251223
+            "id": 251223,
+            "icon": "inv_shoulder_leather_dungeonharronir_c_01"
           }
         ],
         "10": [
@@ -28921,7 +31465,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Axe",
-            "droppedBy": "Atroxus"
+            "droppedBy": "Atroxus",
+            "icon": "inv_axe_1h_dungeonharronir_c_01"
           },
           {
             "id": 251231,
@@ -28934,7 +31479,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Warglaive",
-            "droppedBy": "Charonus"
+            "droppedBy": "Charonus",
+            "icon": "inv_glaive_1h_dungeonharronir_c_01"
           }
         ]
       },
@@ -28951,7 +31497,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Fist",
-            "droppedBy": "Ikuzz the Light Hunter"
+            "droppedBy": "Ikuzz the Light Hunter",
+            "icon": "inv_hand_1h_dungeonharronir_c_01"
           }
         ],
         "7": [
@@ -28962,7 +31509,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Rootwalker Harness",
-            "id": 251189
+            "id": 251189,
+            "icon": "inv_belt_leather_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -28972,13 +31520,15 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Lightspire Core",
-            "id": 250214
+            "id": 250214,
+            "icon": "inv_enchant_essenceastrallarge"
           },
           {
             "droppedBy": "Ziekket",
             "stats": [],
             "name": "Sapling of the Dawnroot",
-            "id": 250259
+            "id": 250259,
+            "icon": "inv_misc_herb_nightmarevine"
           }
         ],
         "5": [
@@ -28989,7 +31539,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Rootwarden Wraps",
-            "id": 251183
+            "id": 251183,
+            "icon": "inv_bracer_leather_dungeonharronir_c_01"
           }
         ],
         "8": [
@@ -29000,7 +31551,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Lightspore Leggings",
-            "id": 251198
+            "id": 251198,
+            "icon": "inv_pant_leather_dungeonharronir_c_01"
           }
         ],
         "12": [
@@ -29011,7 +31563,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Lightwarden's Bind",
-            "id": 251194
+            "id": 251194,
+            "icon": "inv12_jewelrytrinkets_rutaani_ring_yellow"
           }
         ],
         "3": [
@@ -29022,7 +31575,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Bloodthorn Burnous",
-            "id": 251190
+            "id": 251190,
+            "icon": "inv_cape_mail_dungeonharronir_c_01"
           }
         ]
       },
@@ -29035,7 +31589,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Ritual Binder's Ring",
-            "id": 159459
+            "id": 159459,
+            "icon": "inv_ring_80_03e"
           }
         ],
         "6": [
@@ -29046,7 +31601,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Desiccator's Blessed Gloves",
-            "id": 159312
+            "id": 159312,
+            "icon": "inv_glove_leather_zandalardungeon_c_01"
           }
         ],
         "7": [
@@ -29057,7 +31613,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Primal Dinomancer's Belt",
-            "id": 159301
+            "id": 159301,
+            "icon": "inv_belt_leather_zandalardungeon_c_01"
           }
         ],
         "4": [
@@ -29068,7 +31625,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Vest of Reverent Adoration",
-            "id": 239048
+            "id": 239048,
+            "icon": "inv_chest_leather_zandalardungeon_c_01"
           }
         ],
         "5": [
@@ -29079,7 +31637,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Kula's Butchering Wristwraps",
-            "id": 159300
+            "id": 159300,
+            "icon": "inv_bracer_leather_zandalardungeon_c_01"
           }
         ],
         "8": [
@@ -29090,7 +31649,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Breeches of the Sacred Hall",
-            "id": 159313
+            "id": 159313,
+            "icon": "inv_pant_leather_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -29101,7 +31661,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Goldfeather Boots",
-            "id": 159304
+            "id": 159304,
+            "icon": "inv_boot_leather_zandalardungeon_c_01"
           }
         ],
         "13": [
@@ -29109,7 +31670,8 @@ window.LOOT_DATA = {
             "droppedBy": "The Golden Serpent",
             "stats": [],
             "name": "Lustrous Golden Plumage",
-            "id": 159617
+            "id": 159617,
+            "icon": "inv_icon_feather06a"
           }
         ],
         "3": [
@@ -29120,7 +31682,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Cloak of the Restless Tribes",
-            "id": 159288
+            "id": 159288,
+            "icon": "inv_cape_mail_zandalardungeon_c_01"
           }
         ]
       },
@@ -29133,7 +31696,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Fireproof Drape",
-            "id": 193763
+            "id": 193763,
+            "icon": "inv_mail_dragondungeon_c_01_cape"
           }
         ],
         "0": [
@@ -29144,7 +31708,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Crown of Roaring Storms",
-            "id": 193751
+            "id": 193751,
+            "icon": "inv_leather_dragondungeon_c_01_helm"
           }
         ],
         "13": [
@@ -29152,7 +31717,8 @@ window.LOOT_DATA = {
             "droppedBy": "Melidrussa Chillworn",
             "stats": [],
             "name": "Ruby Whelp Shell",
-            "id": 193757
+            "id": 193757,
+            "icon": "inv_item_dragonegg_redbroken01"
           }
         ],
         "6": [
@@ -29163,7 +31729,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Subjugator's Chilling Grips",
-            "id": 193758
+            "id": 193758,
+            "icon": "inv_leather_dragondungeon_c_01_glove"
           }
         ],
         "4": [
@@ -29174,7 +31741,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Invader's Firestorm Chestguard",
-            "id": 193764
+            "id": 193764,
+            "icon": "inv_leather_dragondungeon_c_01_chest"
           }
         ]
       },
@@ -29187,7 +31755,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Charged Sandstone Band",
-            "id": 158366
+            "id": 158366,
+            "icon": "inv_ring_80_03d"
           },
           {
             "droppedBy": "Merektha",
@@ -29196,7 +31765,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Jade Ophidian Band",
-            "id": 162544
+            "id": 162544,
+            "icon": "inv_ring_80_04c"
           }
         ],
         "6": [
@@ -29207,7 +31777,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Grips of Electrified Defense",
-            "id": 159337
+            "id": 159337,
+            "icon": "inv_glove_leather_zandalardungeon_c_01"
           }
         ],
         "7": [
@@ -29218,7 +31789,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Whirling Dervish Sash",
-            "id": 159317
+            "id": 159317,
+            "icon": "inv_belt_leather_zandalardungeon_c_01"
           }
         ],
         "13": [
@@ -29226,7 +31798,8 @@ window.LOOT_DATA = {
             "droppedBy": "Galvazzt",
             "stats": [],
             "name": "Tiny Electromental in a Jar",
-            "id": 158374
+            "id": 158374,
+            "icon": "inv_alchemy_71_potion4"
           }
         ],
         "8": [
@@ -29237,7 +31810,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Leggings of the Galeforce Viper",
-            "id": 159329
+            "id": 159329,
+            "icon": "inv_pant_leather_zandalardungeon_c_01"
           }
         ],
         "9": [
@@ -29248,7 +31822,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Sand-Shined Snakeskin Sandals",
-            "id": 159327
+            "id": 159327,
+            "icon": "inv_boot_leather_zandalardungeon_c_01"
           }
         ],
         "10": [
@@ -29263,7 +31838,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Sword",
-            "droppedBy": "Merektha"
+            "droppedBy": "Merektha",
+            "icon": "inv_sword_1h_battledungeon_c_02"
           }
         ],
         "0": [
@@ -29274,7 +31850,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Hood of the Slithering Loa",
-            "id": 239033
+            "id": 239033,
+            "icon": "inv_helm_leather_zandalardungeon_c_01"
           }
         ]
       },
@@ -29287,7 +31864,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Band of the Amani Warlord",
-            "id": 273792
+            "id": 273792,
+            "icon": "inv_121_jewelry_ring02_green"
           }
         ],
         "13": [
@@ -29295,13 +31873,15 @@ window.LOOT_DATA = {
             "droppedBy": "Rav'i",
             "stats": [],
             "name": "Vile Vial of Volatile Venom",
-            "id": 273796
+            "id": 273796,
+            "icon": "inv_121_trinket_dungeon_ulatek_vile"
           },
           {
             "droppedBy": "Zul'jan",
             "stats": [],
             "name": "Tattered Amani War Banner",
-            "id": 273797
+            "id": 273797,
+            "icon": "inv_121_trinket_dungeon_ulatek_banner"
           }
         ],
         "10": [
@@ -29316,7 +31896,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Warglaive",
-            "droppedBy": "Rav'i"
+            "droppedBy": "Rav'i",
+            "icon": "inv_glaive_1h_outdooramaniloa_c_01"
           }
         ],
         "2": [
@@ -29327,7 +31908,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Snakeskin Spaulders",
-            "id": 273774
+            "id": 273774,
+            "icon": "inv_shoulder_leather_outdooramaniloa_c_01"
           }
         ],
         "1": [
@@ -29338,7 +31920,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Strand of Warding Fangs",
-            "id": 273781
+            "id": 273781,
+            "icon": "inv_121_jewelry_neck03_teal"
           }
         ],
         "0": [
@@ -29349,7 +31932,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Spare Speaker's Hood",
-            "id": 273791
+            "id": 273791,
+            "icon": "inv_helm_leather_outdooramaniloa_c_01"
           }
         ]
       },
@@ -29362,7 +31946,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Signet of Snarling Servitude",
-            "id": 251136
+            "id": 251136,
+            "icon": "inv_12_jewelry_voidelf_ring_teal"
           }
         ],
         "6": [
@@ -29373,7 +31958,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Gauntlets of Fevered Defense",
-            "id": 251124
+            "id": 251124,
+            "icon": "inv_glove_leather_dungeonharronir_c_01"
           }
         ],
         "3": [
@@ -29384,7 +31970,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Speakeasy Shroud",
-            "id": 251132
+            "id": 251132,
+            "icon": "inv_cape_leather_dungeonharronir_c_01"
           }
         ],
         "13": [
@@ -29392,13 +31979,15 @@ window.LOOT_DATA = {
             "droppedBy": "Zaen Bladesorrow",
             "stats": [],
             "name": "Freightrunner's Flask",
-            "id": 250215
+            "id": 250215,
+            "icon": "inv_alchemy_90_flask_red"
           },
           {
             "droppedBy": "Xathuux the Annihilator",
             "stats": [],
             "name": "Resonant Bellowstone",
-            "id": 250228
+            "id": 250228,
+            "icon": "inv_alchemy_90_stone_green"
           }
         ],
         "5": [
@@ -29409,7 +31998,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Fury-fletched Armlets",
-            "id": 251135
+            "id": 251135,
+            "icon": "inv_bracer_leather_dungeonharronir_c_01"
           }
         ],
         "8": [
@@ -29420,7 +32010,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Breeches of Deft Deals",
-            "id": 251130
+            "id": 251130,
+            "icon": "inv_pant_leather_dungeonharronir_c_01"
           }
         ],
         "1": [
@@ -29431,7 +32022,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Pendant of Malefic Fury",
-            "id": 251142
+            "id": 251142,
+            "icon": "inv_12_jewelry_silvermoonelf_necklace_green"
           }
         ],
         "10": [
@@ -29443,7 +32035,8 @@ window.LOOT_DATA = {
             "stats": [],
             "hand": "1h",
             "weaponClass": "Warglaive",
-            "droppedBy": "Lithiel Cinderfury"
+            "droppedBy": "Lithiel Cinderfury",
+            "icon": "inv_glaive_1h_questbloodelf_b_01"
           }
         ],
         "0": [
@@ -29454,7 +32047,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "Vilefiend's Guise",
-            "id": 251140
+            "id": 251140,
+            "icon": "inv_helm_leather_dungeonharronir_c_01"
           }
         ]
       },
@@ -29467,7 +32061,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Pilfered Precious Band",
-            "id": 251148
+            "id": 251148,
+            "icon": "inv_12_jewelry_zulaman_troll_ring_green2"
           }
         ],
         "4": [
@@ -29478,7 +32073,8 @@ window.LOOT_DATA = {
               "Mastery"
             ],
             "name": "War Trial Vestments",
-            "id": 251159
+            "id": 251159,
+            "icon": "inv_chest_leather_dungeonharronir_c_01"
           }
         ],
         "9": [
@@ -29489,7 +32085,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Arctic Explorer's Legwraps",
-            "id": 251153
+            "id": 251153,
+            "icon": "inv_boot_leather_dungeonharronir_c_01"
           }
         ],
         "10": [
@@ -29504,7 +32101,8 @@ window.LOOT_DATA = {
             ],
             "hand": "1h",
             "weaponClass": "Fist",
-            "droppedBy": "The Hoardmonger"
+            "droppedBy": "The Hoardmonger",
+            "icon": "inv_hand_1h_dungeonharronir_c_01"
           }
         ],
         "2": [
@@ -29515,7 +32113,8 @@ window.LOOT_DATA = {
               "Versatility"
             ],
             "name": "Scavenger's Spaulders",
-            "id": 251146
+            "id": 251146,
+            "icon": "inv_shoulder_leather_dungeonharronir_c_01"
           }
         ],
         "1": [
@@ -29526,7 +32125,8 @@ window.LOOT_DATA = {
               "Haste"
             ],
             "name": "Yoke of the Charging Bear",
-            "id": 251173
+            "id": 251173,
+            "icon": "inv_12_jewelry_zulaman_troll_necklace_green1"
           }
         ]
       }

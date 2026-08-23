@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Weighted Dice</title>
-  <link rel="stylesheet" href="styles.css?v=plan-columns">
+  <link rel="stylesheet" href="styles.css?v=item-icons">
 </head>
 <body>
   <header class="topbar">
@@ -29,18 +29,16 @@
         <span>Stat priority</span>
         <ol id="stat-order" class="stat-order"></ol>
       </div>
-      <div class="header-tools">
-        <div class="header-actions">
-          <button type="button" id="help-open" class="help-open" aria-haspopup="dialog" aria-controls="help-modal">Instructions</button>
-          <button type="button" id="plan-open" class="help-open plan-open" aria-haspopup="dialog" aria-controls="plan-modal">Weekly roll</button>
+      <fieldset class="weapon-style">
+        <legend>Weapons</legend>
+        <div class="weapon-picks">
+          <label><input type="radio" name="weapon-style" value="2h"> 2-handed</label>
+          <label><input type="radio" name="weapon-style" value="mhoh"> MH/OH</label>
         </div>
-        <fieldset class="weapon-style">
-          <legend>Weapons</legend>
-          <div class="weapon-picks">
-            <label><input type="radio" name="weapon-style" value="2h"> 2-handed</label>
-            <label><input type="radio" name="weapon-style" value="mhoh"> MH/OH</label>
-          </div>
-        </fieldset>
+      </fieldset>
+      <div class="header-actions">
+        <button type="button" id="help-open" class="help-open" aria-haspopup="dialog" aria-controls="help-modal">How This Works</button>
+        <button type="button" id="plan-open" class="help-open plan-open" aria-haspopup="dialog" aria-controls="plan-modal">Weekly roll</button>
       </div>
     </div>
   </header>
@@ -93,7 +91,7 @@
         </section>
         <section>
           <h3>Your session</h3>
-          <p>Class, spec, priorities, weapon style, slot checkboxes, and bonus-roll wins stay in this browser. You can reopen this any time from <strong>Instructions</strong>.</p>
+          <p>Class, spec, priorities, weapon style, slot checkboxes, and bonus-roll wins stay in this browser. You can reopen this any time from <strong>How This Works</strong>.</p>
         </section>
       </div>
     </div>
@@ -111,6 +109,6 @@
 
   <script src="loot-data.js"></script>
   <script src="spec-stat-defaults.js"></script>
-  <script src="app.js?v=plan-columns"></script>
+  <script src="app.js?v=item-icons"></script>
 </body>
 </html>

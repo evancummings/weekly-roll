@@ -246,6 +246,7 @@
       key,
       id: entry.id ?? null,
       name: entry.name,
+      icon: entry.icon || "",
       stats: entry.stats || [],
       hand: entry.hand || null,
       droppedBy: entry.droppedBy || "",
@@ -294,6 +295,16 @@
 
   function statClassName(stat) {
     return "stat-" + String(stat).toLowerCase();
+  }
+
+  function iconUrl(icon) {
+    if (!icon) return "";
+    return `https://wow.zamimg.com/images/wow/icons/medium/${icon}.jpg`;
+  }
+
+  function iconHtml(icon) {
+    if (!icon) return "";
+    return `<img class="item-icon" src="${escapeHtml(iconUrl(icon))}" alt="" width="20" height="20">`;
   }
 
   function normalizeStat(stat) {
@@ -402,7 +413,7 @@
     return `<ul class="plan-targets">${ordered.map(({ kind, entry, slot }) => {
       const stats = (entry.stats || []).join(" / ");
       const detail = [slot.name, stats].filter(Boolean).join(" · ");
-      return `<li><span class="plan-tag ${kind}">${kind === "bis" ? "BIS" : "UP"}</span>${escapeHtml(entry.name || "Unknown")}${detail ? ` · ${escapeHtml(detail)}` : ""}</li>`;
+      return `<li><span class="plan-tag ${kind}">${kind === "bis" ? "BIS" : "UP"}</span>${iconHtml(entry.icon)}${escapeHtml(entry.name || "Unknown")}${detail ? ` · ${escapeHtml(detail)}` : ""}</li>`;
     }).join("")}</ul>`;
   }
 
@@ -524,9 +535,9 @@
     const tagHtml = tag ? `<span class="hand-tag">${escapeHtml(tag)}</span>` : "";
     const statsHtml = stats.length
       ? stats.map((stat) => `<span class="stat ${statClassName(stat)}">${escapeHtml(stat)}</span>`).join(" / ")
-      : `<span class="item-name">${tagHtml}${escapeHtml(entry.name || "No stats")}</span>`;
+      : `<span class="item-name">${iconHtml(entry.icon)}${tagHtml}${escapeHtml(entry.name || "No stats")}</span>`;
     const nameHtml = stats.length && entry.name
-      ? `<div class="item-name">${tagHtml}${escapeHtml(entry.name)}</div>`
+      ? `<div class="item-name">${iconHtml(entry.icon)}${tagHtml}<span>${escapeHtml(entry.name)}</span></div>`
       : "";
     const rollHtml = won
       ? ""
@@ -555,7 +566,7 @@
       const place = [handLabel(win), win.slotName, win.dungeonShort || win.dungeonName].filter(Boolean).join(" · ");
       return `<li class="bonus-win">
         <div class="copy">
-          <div class="name">${escapeHtml(win.name)}</div>
+          <div class="name">${iconHtml(win.icon)}${escapeHtml(win.name)}</div>
           <div class="meta">${statsHtml} · ${escapeHtml(place)}</div>
         </div>
         <button type="button" data-remove-win="${escapeHtml(win.key)}">Remove</button>

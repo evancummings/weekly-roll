@@ -172,6 +172,7 @@ foreach ($dungeon in $data.dungeons) {
             $entry["name"] = [string]$item.name
             $entry["droppedBy"] = $item.droppedBy
             $entry["stats"] = $stats.ToArray()
+            if ($item.icon) { $entry["icon"] = [string]$item.icon }
             if ($item.hand) {
                 $entry["hand"] = [string]$item.hand
                 $entry["handLabel"] = switch ([string]$item.hand) {
