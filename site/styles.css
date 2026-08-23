@@ -809,16 +809,8 @@ tbody tr:hover td.match-faint { background: #262c1f; }
   pointer-events: none;
 }
 
-.bonus-summary {
-  padding: 8px 24px 40px;
-  max-width: 880px;
-}
-
-.bonus-summary h2 {
-  margin: 0 0 12px;
-  color: var(--ink);
-  font-size: 16px;
-  font-weight: 700;
+.history-modal {
+  width: min(720px, calc(100vw - 24px));
 }
 
 .bonus-empty {

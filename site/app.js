@@ -41,6 +41,9 @@
   const planOpen = document.getElementById("plan-open");
   const planClose = document.getElementById("plan-close");
   const planBody = document.getElementById("plan-body");
+  const historyModal = document.getElementById("history-modal");
+  const historyOpen = document.getElementById("history-open");
+  const historyClose = document.getElementById("history-close");
   const params = new URLSearchParams(window.location.search);
 
   let specStatOrders = readSpecStatOrders();
@@ -552,7 +555,16 @@
     </div>`;
   }
 
+  function syncHistoryButton() {
+    if (!historyOpen) return;
+    historyOpen.textContent = bonusWins.length
+      ? `Roll History (${bonusWins.length})`
+      : "Roll History";
+  }
+
   function renderBonusSummary() {
+    syncHistoryButton();
+    if (!bonusWinsEl) return;
     if (!bonusWins.length) {
       bonusWinsEl.innerHTML = `<p class="bonus-empty">No bonus-roll wins yet. Click the dice on a drop to record one.</p>`;
       return;
@@ -886,6 +898,23 @@
   if (planModal) {
     planModal.addEventListener("click", (event) => {
       if (event.target === planModal) planModal.close();
+    });
+  }
+
+  function openRollHistory() {
+    renderBonusSummary();
+    if (historyModal && typeof historyModal.showModal === "function") historyModal.showModal();
+  }
+
+  if (historyOpen) historyOpen.addEventListener("click", openRollHistory);
+  if (historyClose) {
+    historyClose.addEventListener("click", () => {
+      if (historyModal.open) historyModal.close();
+    });
+  }
+  if (historyModal) {
+    historyModal.addEventListener("click", (event) => {
+      if (event.target === historyModal) historyModal.close();
     });
   }
 

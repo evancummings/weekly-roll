@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Weighted Dice</title>
-  <link rel="stylesheet" href="styles.css?v=item-icons">
+  <link rel="stylesheet" href="styles.css?v=roll-history">
 </head>
 <body>
   <header class="topbar">
@@ -39,6 +39,7 @@
       <div class="header-actions">
         <button type="button" id="help-open" class="help-open" aria-haspopup="dialog" aria-controls="help-modal">How This Works</button>
         <button type="button" id="plan-open" class="help-open plan-open" aria-haspopup="dialog" aria-controls="plan-modal">Weekly roll</button>
+        <button type="button" id="history-open" class="help-open" aria-haspopup="dialog" aria-controls="history-modal">Roll History</button>
       </div>
     </div>
   </header>
@@ -51,10 +52,6 @@
         <tfoot></tfoot>
       </table>
     </div>
-    <section class="bonus-summary" aria-labelledby="bonus-heading">
-      <h2 id="bonus-heading">Won by bonus roll</h2>
-      <div id="bonus-wins"></div>
-    </section>
   </main>
 
   <dialog id="help-modal" class="help-modal" aria-labelledby="help-title">
@@ -79,7 +76,7 @@
         </section>
         <section>
           <h3>Bonus rolls</h3>
-          <p>Click the dice on a drop when you win it. The item stays on the table but fades out of the remaining pool. Use <strong>Remove</strong> under the table if that was a mistake; it asks for confirmation.</p>
+          <p>Click the dice on a drop when you win it. The item stays on the table but fades out of the remaining pool. Open <strong>Roll History</strong> to review wins and remove a mistake; it asks for confirmation.</p>
         </section>
         <section>
           <h3>The footer math</h3>
@@ -97,6 +94,18 @@
     </div>
   </dialog>
 
+  <dialog id="history-modal" class="help-modal history-modal" aria-labelledby="history-title">
+    <div class="help-card">
+      <header>
+        <h2 id="history-title">Roll History</h2>
+        <button type="button" id="history-close" class="help-close">Close</button>
+      </header>
+      <div class="help-body">
+        <div id="bonus-wins"></div>
+      </div>
+    </div>
+  </dialog>
+
   <dialog id="plan-modal" class="help-modal plan-modal" aria-labelledby="plan-title">
     <div class="help-card">
       <header>
@@ -109,6 +118,6 @@
 
   <script src="loot-data.js"></script>
   <script src="spec-stat-defaults.js"></script>
-  <script src="app.js?v=item-icons"></script>
+  <script src="app.js?v=roll-history"></script>
 </body>
 </html>
