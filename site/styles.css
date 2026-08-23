@@ -112,19 +112,6 @@ select:focus {
   gap: 16px 24px;
 }
 
-.toggle {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  color: var(--ink);
-  font-size: 13px;
-  cursor: pointer;
-}
-
-.toggle input {
-  accent-color: var(--accent);
-}
-
 .weapon-style {
   display: flex;
   flex-wrap: wrap;
@@ -300,29 +287,29 @@ tbody th {
   gap: 8px;
 }
 
-.craft-boxes {
+.alt-boxes {
   display: flex;
   gap: 4px;
 }
 
-.craft-boxes.inactive {
+.alt-boxes.inactive {
   opacity: 0.38;
 }
 
-.craft-box {
+.alt-box {
   display: flex;
   align-items: center;
   cursor: pointer;
 }
 
-.craft-box input {
+.alt-box input {
   width: 14px;
   height: 14px;
   margin: 0;
   accent-color: var(--accent);
 }
 
-.craft-box input:disabled {
+.alt-box input:disabled {
   cursor: not-allowed;
 }
 
@@ -516,8 +503,12 @@ tbody tr:hover td.match-faint { background: #262c1f; }
 
 .drop + .drop {
   margin-top: 10px;
-  padding-top: 10px;
+  padding-top: 12px;
   border-top: 1px dashed #9a937e;
+}
+
+.drop + .drop .bonus-roll {
+  top: 12px;
 }
 
 td.match-perfect .drop + .drop {
@@ -548,8 +539,15 @@ td.match-perfect .drop + .drop {
 }
 
 tfoot tr:first-child th,
-tfoot tr:first-child td {
-  border-top: 2px solid #6d5a2c;
+tfoot tr:first-child td,
+tfoot tr.pool-rule th,
+tfoot tr.pool-rule td {
+  border-top: 2px solid #c9a227;
+}
+
+tfoot tr.pool-total th,
+tfoot tr.pool-total td {
+  border-bottom: 2px solid #c9a227;
 }
 
 tfoot th {
@@ -574,8 +572,8 @@ tfoot .pool-count {
   font-weight: 750;
 }
 
-tfoot .pool-pcts th,
-tfoot .pool-pcts td {
+tfoot .pool-pcts:not(.pool-rule) th,
+tfoot .pool-pcts:not(.pool-rule) td {
   border-top-color: #3d3828;
 }
 
@@ -586,12 +584,11 @@ tfoot .pool-pct {
   letter-spacing: 0.01em;
 }
 
-tfoot tr.pool-pcts:last-child th,
-tfoot tr.pool-pcts:last-child td {
+tfoot tr.pool-net th {
   font-size: 12px;
 }
 
-tfoot tr.pool-pcts:last-child td {
+tfoot tr.pool-net td {
   font-size: 18px;
 }
 

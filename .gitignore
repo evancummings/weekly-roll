@@ -19,3 +19,6 @@ venv/
 
 # Local verification dumps
 site/_verify*
+
+# Wowhead scrape cache
+site/_wowhead-cache/

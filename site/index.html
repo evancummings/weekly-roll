@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Midnight Season 2 Loot</title>
-  <link rel="stylesheet" href="styles.css?v=crafted">
+  <link rel="stylesheet" href="styles.css?v=total-rule">
 </head>
 <body>
   <header class="topbar">
@@ -27,10 +27,6 @@
       <ol id="stat-order" class="stat-order"></ol>
     </div>
     <div class="pref setup">
-      <label class="toggle">
-        <input type="checkbox" id="include-crafted">
-        <span>Include crafted in calculations</span>
-      </label>
       <fieldset class="weapon-style">
         <legend>Weapons</legend>
         <label><input type="radio" name="weapon-style" value="2h"> 2-handed</label>
@@ -54,6 +50,7 @@
   </main>
 
   <script src="loot-data.js"></script>
-  <script src="app.js?v=crafted"></script>
+  <script src="spec-stat-defaults.js"></script>
+  <script src="app.js?v=total-top"></script>
 </body>
 </html>

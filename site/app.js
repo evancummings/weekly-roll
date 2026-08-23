@@ -9,9 +9,11 @@
   const STORAGE_SPEC = "roll-planner.specId";
   const STORAGE_STATS = "roll-planner.statOrder";
   const STORAGE_BONUS = "roll-planner.bonusWins";
-  const STORAGE_CRAFTED_ON = "roll-planner.includeCrafted";
   const STORAGE_CRAFTED = "roll-planner.craftedSlots";
+  const STORAGE_ALT = "roll-planner.altSlots";
+  const STORAGE_INCLUDE = "roll-planner.includeSlots";
   const STORAGE_WEAPON = "roll-planner.weaponStyle";
+  const STORAGE_SPEC_STATS = "roll-planner.specStatOrders";
   const SLOT_WEAPON = 10;
   const SLOT_OFFHAND = 11;
   const SLOT_FINGER = 12;
@@ -33,14 +35,13 @@
   const tbody = table.querySelector("tbody");
   const tfoot = table.querySelector("tfoot");
   const bonusWinsEl = document.getElementById("bonus-wins");
-  const includeCraftedEl = document.getElementById("include-crafted");
   const params = new URLSearchParams(window.location.search);
 
-  let statOrder = readStatOrder();
+  let specStatOrders = readSpecStatOrders();
+  let statOrder = DEFAULT_STATS.slice();
   let bonusWins = readBonusWins();
-  let includeCrafted = readIncludeCrafted();
-  let craftedSlots = readCraftedSlots();
   let weaponStyle = readWeaponStyle();
+  let includeSlots = readIncludeSlots();
   let dragIndex = null;
 
   function selectedClass() {
@@ -66,13 +67,43 @@
     return parseStatList(params.get("stats") || localStorage.getItem(STORAGE_STATS));
   }
 
-  function readFlag(value) {
-    return value === "1" || value === "true" || value === "yes";
+  function readSpecStatOrders() {
+    try {
+      const parsed = JSON.parse(localStorage.getItem(STORAGE_SPEC_STATS) || "{}");
+      return parsed && typeof parsed === "object" && !Array.isArray(parsed) ? parsed : {};
+    } catch (error) {
+      return {};
+    }
   }
 
-  function readIncludeCrafted() {
-    const raw = params.get("crafted") ?? localStorage.getItem(STORAGE_CRAFTED_ON);
-    return raw == null ? false : readFlag(raw);
+  function wowheadDefault(specId) {
+    const raw = (window.SPEC_STAT_DEFAULTS || {})[String(specId)];
+    if (Array.isArray(raw)) return parseStatList(raw.join(","));
+    return parseStatList(raw);
+  }
+
+  function orderForSpec(specId) {
+    if (specStatOrders[specId]) return parseStatList(specStatOrders[specId]);
+    return wowheadDefault(specId);
+  }
+
+  function rememberCurrentOrder() {
+    if (!specSelect.value) return;
+    specStatOrders[specSelect.value] = statOrder.join(",");
+  }
+
+  function loadOrderForCurrentSpec(preferUrl) {
+    const specId = specSelect.value;
+    if (preferUrl && params.get("stats")) {
+      statOrder = parseStatList(params.get("stats"));
+    } else if (specStatOrders[specId]) {
+      statOrder = orderForSpec(specId);
+    } else if (localStorage.getItem(STORAGE_STATS) && !Object.keys(specStatOrders).length) {
+      statOrder = parseStatList(localStorage.getItem(STORAGE_STATS));
+    } else {
+      statOrder = orderForSpec(specId);
+    }
+    rememberCurrentOrder();
   }
 
   function readWeaponStyle() {
@@ -80,12 +111,11 @@
     return raw === "dw" || raw === "dual" ? "dw" : "2h";
   }
 
-  function readCraftedSlots() {
-    const raw = params.get("crafts") || localStorage.getItem(STORAGE_CRAFTED);
+  function parseSlotCounts(raw) {
     const slots = {};
     if (!raw) return slots;
     try {
-      if (raw.trim().startsWith("{")) {
+      if (String(raw).trim().startsWith("{")) {
         const parsed = JSON.parse(raw);
         Object.entries(parsed || {}).forEach(([id, count]) => {
           slots[id] = Math.max(0, Number(count) || 0);
@@ -102,13 +132,6 @@
     return slots;
   }
 
-  function craftedParam() {
-    return Object.entries(craftedSlots)
-      .filter(([, count]) => count > 0)
-      .map(([id, count]) => `${id}:${count}`)
-      .join(",");
-  }
-
   function slotCapacity(slot) {
     const id = Number(slot.id ?? slot);
     if (id === SLOT_FINGER || id === SLOT_TRINKET) return 2;
@@ -116,9 +139,39 @@
     return 1;
   }
 
-  function craftedCount(slot) {
+  function invertExcludedCounts(excluded) {
+    const included = {};
+    Object.entries(excluded).forEach(([id, count]) => {
+      const cap = slotCapacity(id);
+      if (count > 0) included[id] = Math.max(0, cap - Math.min(cap, count));
+    });
+    return included;
+  }
+
+  function readIncludeSlots() {
+    const includedRaw = params.get("include") || localStorage.getItem(STORAGE_INCLUDE);
+    if (includedRaw) return parseSlotCounts(includedRaw);
+    const excludedRaw = params.get("alts") || params.get("crafts")
+      || localStorage.getItem(STORAGE_ALT) || localStorage.getItem(STORAGE_CRAFTED);
+    return invertExcludedCounts(parseSlotCounts(excludedRaw));
+  }
+
+  function includedCount(slot) {
     const id = String(slot.id ?? slot);
-    return Math.min(slotCapacity(slot), Math.max(0, Number(craftedSlots[id]) || 0));
+    const cap = slotCapacity(slot);
+    if (includeSlots[id] == null) return cap;
+    return Math.min(cap, Math.max(0, Number(includeSlots[id]) || 0));
+  }
+
+  function includeParam() {
+    return data.slots
+      .map((slot) => {
+        const cap = slotCapacity(slot);
+        const count = includedCount(slot);
+        return count < cap ? `${slot.id}:${count}` : null;
+      })
+      .filter(Boolean)
+      .join(",");
   }
 
   function bonusFillCount(slot) {
@@ -132,8 +185,8 @@
 
   function isSlotFilled(slot) {
     if (Number(slot.id) === SLOT_OFFHAND && isOffhandUnused()) return true;
-    if (!includeCrafted) return false;
-    return craftedCount(slot) + bonusFillCount(slot) >= slotCapacity(slot);
+    const excluded = slotCapacity(slot) - includedCount(slot);
+    return excluded + bonusFillCount(slot) >= slotCapacity(slot);
   }
 
   function readBonusWins() {
@@ -396,6 +449,7 @@
     const [stat] = next.splice(from, 1);
     next.splice(to, 0, stat);
     statOrder = next;
+    rememberCurrentOrder();
     persist();
     renderStatOrder();
     renderTable();
@@ -405,10 +459,8 @@
     const specId = specSelect.value;
     const specGrid = data.grid[specId] || {};
 
-    table.classList.toggle("craft-active", includeCrafted);
-
     thead.innerHTML = `<tr>
-      <th class="slot-col">Slot<span class="dungeon-name">Crafted</span></th>
+      <th class="slot-col">Slot<span class="dungeon-name">Include</span></th>
       ${data.dungeons.map((dungeon) => {
         return `<th>${dungeon.shortName}<span class="dungeon-name">${dungeon.name}</span></th>`;
       }).join("")}
@@ -432,19 +484,21 @@
 
   function renderSlotHead(slot) {
     const cap = slotCapacity(slot);
-    const count = craftedCount(slot);
+    const count = includedCount(slot);
     const unused = Number(slot.id) === SLOT_OFFHAND && isOffhandUnused();
     const boxes = Array.from({ length: cap }, (_, index) => {
       const checked = index < count;
-      const label = cap > 1 ? `Crafted ${slot.name} ${index + 1}` : `Crafted ${slot.name}`;
-      return `<label class="craft-box" title="${escapeHtml(label)}">
-        <input type="checkbox" data-craft-slot="${escapeHtml(slot.id)}" data-craft-index="${index}" ${checked ? "checked" : ""} ${unused ? "disabled" : ""}>
+      const label = cap > 1
+        ? `Include ${slot.name} ${index + 1} in calculations`
+        : `Include ${slot.name} in calculations`;
+      return `<label class="alt-box" title="${escapeHtml(label)}">
+        <input type="checkbox" data-include-slot="${escapeHtml(slot.id)}" ${checked ? "checked" : ""} ${unused ? "disabled" : ""}>
       </label>`;
     }).join("");
     return `<th>
       <div class="slot-head">
         <span>${escapeHtml(slot.name)}</span>
-        <span class="craft-boxes${includeCrafted && !unused ? "" : " inactive"}">${boxes}</span>
+        <span class="alt-boxes${unused ? " inactive" : ""}">${boxes}</span>
       </div>
     </th>`;
   }
@@ -470,6 +524,10 @@
     }).join("");
 
     tfoot.innerHTML = `
+      <tr class="pool-counts pool-total">
+        <th title="Remaining items in this dungeon pool">Total Items</th>
+        ${countCells("remaining")}
+      </tr>
       <tr class="pool-counts">
         <th title="Remaining items with both of your top two stats">BIS</th>
         ${countCells("bis")}
@@ -482,7 +540,7 @@
         <th title="Remaining items with neither of your top two stats">Waste</th>
         ${countCells("waste")}
       </tr>
-      <tr class="pool-pcts">
+      <tr class="pool-pcts pool-rule">
         <th title="Odds of rolling a remaining BIS item">BIS Upgrade %</th>
         ${pctCells("bisPct", "bis", maxBis)}
       </tr>
@@ -490,7 +548,7 @@
         <th title="Odds of rolling a remaining minor upgrade">Minor Upgrade %</th>
         ${pctCells("upgradePct", "upgrade", maxUpgrade)}
       </tr>
-      <tr class="pool-pcts">
+      <tr class="pool-pcts pool-net">
         <th title="Odds of rolling a remaining BIS or Upgrade item">Net Upgrade %</th>
         ${pctCells("netPct", (col) => col.bis + col.upgrade, maxNet)}
       </tr>
@@ -502,9 +560,10 @@
       localStorage.setItem(STORAGE_CLASS, classSelect.value);
       localStorage.setItem(STORAGE_SPEC, specSelect.value);
       localStorage.setItem(STORAGE_STATS, statOrder.join(","));
-      localStorage.setItem(STORAGE_CRAFTED_ON, includeCrafted ? "1" : "0");
-      localStorage.setItem(STORAGE_CRAFTED, craftedParam());
+      localStorage.setItem(STORAGE_SPEC_STATS, JSON.stringify(specStatOrders));
+      localStorage.setItem(STORAGE_INCLUDE, includeParam());
       localStorage.setItem(STORAGE_WEAPON, weaponStyle);
+      localStorage.setItem(STORAGE_BONUS, JSON.stringify(bonusWins));
     } catch (error) {
       // file:// and some editor previews block storage
     }
@@ -518,11 +577,13 @@
       next.searchParams.set("class", classSelect.value);
       next.searchParams.set("spec", specSelect.value);
       next.searchParams.set("stats", statOrder.join(","));
-      next.searchParams.set("crafted", includeCrafted ? "1" : "0");
       next.searchParams.set("weapons", weaponStyle);
-      const crafts = craftedParam();
-      if (crafts) next.searchParams.set("crafts", crafts);
-      else next.searchParams.delete("crafts");
+      next.searchParams.delete("crafted");
+      next.searchParams.delete("alts");
+      next.searchParams.delete("crafts");
+      const included = includeParam();
+      if (included) next.searchParams.set("include", included);
+      else next.searchParams.delete("include");
       history.replaceState(null, "", next);
     } catch (error) {
       // ignore preview / file-origin history restrictions
@@ -562,18 +623,16 @@
 
   classSelect.addEventListener("change", () => {
     fillSpecs();
+    loadOrderForCurrentSpec(false);
     persist();
+    renderStatOrder();
     renderTable();
   });
 
   specSelect.addEventListener("change", () => {
+    loadOrderForCurrentSpec(false);
     persist();
-    renderTable();
-  });
-
-  includeCraftedEl.addEventListener("change", () => {
-    includeCrafted = includeCraftedEl.checked;
-    persist();
+    renderStatOrder();
     renderTable();
   });
 
@@ -581,19 +640,23 @@
     input.addEventListener("change", () => {
       if (!input.checked) return;
       weaponStyle = input.value === "dw" ? "dw" : "2h";
-      craftedSlots[String(SLOT_WEAPON)] = Math.min(slotCapacity(SLOT_WEAPON), craftedCount(SLOT_WEAPON));
+      const weaponId = String(SLOT_WEAPON);
+      if (includeSlots[weaponId] != null) {
+        includeSlots[weaponId] = Math.min(slotCapacity(SLOT_WEAPON), includeSlots[weaponId]);
+      }
       persist();
       renderTable();
     });
   });
 
   tbody.addEventListener("change", (event) => {
-    const input = event.target.closest("input[data-craft-slot]");
+    const input = event.target.closest("input[data-include-slot]");
     if (!input) return;
-    const slotId = input.dataset.craftSlot;
-    const checked = [...tbody.querySelectorAll(`input[data-craft-slot="${slotId}"]`)]
+    const slotId = input.dataset.includeSlot;
+    const cap = slotCapacity(slotId);
+    const checked = [...tbody.querySelectorAll(`input[data-include-slot="${slotId}"]`)]
       .filter((box) => box.checked).length;
-    craftedSlots[slotId] = Math.min(slotCapacity(slotId), checked);
+    includeSlots[slotId] = Math.min(cap, checked);
     persist();
     renderTable();
   });
@@ -611,14 +674,16 @@
   bonusWinsEl.addEventListener("click", (event) => {
     const button = event.target.closest("[data-remove-win]");
     if (!button) return;
-    bonusWins = bonusWins.filter((win) => win.key !== button.dataset.removeWin);
-    persistBonusWins();
+    const win = bonusWins.find((item) => item.key === button.dataset.removeWin);
+    const label = win?.name || "this bonus-roll win";
+    if (!window.confirm(`Remove ${label} from bonus-roll wins?`)) return;
+    bonusWins = bonusWins.filter((item) => item.key !== button.dataset.removeWin);
+    persist();
     renderTable();
     renderBonusSummary();
   });
 
   function syncSetupControls() {
-    includeCraftedEl.checked = includeCrafted;
     document.querySelectorAll("input[name='weapon-style']").forEach((input) => {
       input.checked = input.value === weaponStyle;
     });
@@ -626,9 +691,15 @@
 
   fillClasses();
   fillSpecs();
+  loadOrderForCurrentSpec(true);
   syncSetupControls();
   renderStatOrder();
   renderTable();
   renderBonusSummary();
   persist();
+
+  window.addEventListener("pagehide", persist);
+  document.addEventListener("visibilitychange", () => {
+    if (document.visibilityState === "hidden") persist();
+  });
 })();
