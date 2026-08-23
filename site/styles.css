@@ -454,10 +454,11 @@ h1 {
 }
 
 .history-open {
+  flex: 0 0 auto;
   width: auto;
   min-width: var(--control-h);
-  padding: 0 8px;
-  gap: 4px;
+  padding: 0 10px;
+  gap: 5px;
   grid-auto-flow: column;
 }
 
