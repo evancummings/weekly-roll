@@ -534,6 +534,24 @@ td.match-perfect .drop + .drop {
   font-size: 12px;
 }
 
+.hand-tag {
+  display: inline-block;
+  margin-right: 6px;
+  padding: 0 5px;
+  border: 1px solid #5a5344;
+  border-radius: 3px;
+  color: #d4ccb4;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+  vertical-align: 1px;
+}
+
+.drop.slot-filled .hand-tag {
+  opacity: 0.85;
+}
+
 .empty {
   color: var(--empty);
 }

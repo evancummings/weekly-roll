@@ -2,7 +2,8 @@
 param(
     [string]$AddonDir = "C:\Program Files (x86)\World of Warcraft\_retail_\Interface\AddOns\KeystoneLoot",
     [string]$OutputPath = (Join-Path $PSScriptRoot "..\data\dungeon-drop-tables.json"),
-    [switch]$SkipWowhead
+    [switch]$SkipWowhead,
+    [switch]$StampInventory
 )
 
 $ErrorActionPreference = "Stop"
@@ -30,6 +31,19 @@ $SlotById = @{
     12 = "finger"
     13 = "trinket"
     14 = "other"
+}
+
+# Blizzard inventoryType IDs from Wowhead item XML.
+$InventoryHandById = @{
+    13 = "1h"
+    14 = "oh"
+    15 = "ranged"
+    17 = "2h"
+    21 = "1h"
+    22 = "oh"
+    23 = "oh"
+    25 = "ranged"
+    26 = "ranged"
 }
 
 $Classes = @{
@@ -176,6 +190,141 @@ function Add-WowheadNames($Items) {
     $runspacePool.Dispose()
 }
 
+function Set-ItemProperty($Item, [string]$Name, $Value) {
+    if ($Item -is [System.Collections.IDictionary]) {
+        $Item[$Name] = $Value
+        return
+    }
+    $existing = $Item.PSObject.Properties[$Name]
+    if ($existing) {
+        $existing.Value = $Value
+        return
+    }
+    $Item | Add-Member -NotePropertyName $Name -NotePropertyValue $Value
+}
+
+function Set-ItemInventory($Item, $Inventory) {
+    if (-not $Item -or -not $Inventory) { return }
+    Set-ItemProperty $Item "inventorySlotId" ([int]$Inventory.inventorySlotId)
+    Set-ItemProperty $Item "inventorySlot" ([string]$Inventory.inventorySlot)
+    Set-ItemProperty $Item "hand" $Inventory.hand
+    Set-ItemProperty $Item "weaponClassId" ([int]$Inventory.weaponClassId)
+    Set-ItemProperty $Item "weaponClass" $Inventory.weaponClass
+}
+
+function Add-WowheadInventory($Items) {
+    $ids = @($Items.Keys | Where-Object {
+        $slotId = [int]$Items[$_].slotId
+        $slotId -eq 10 -or $slotId -eq 11
+    } | Sort-Object)
+    if ($ids.Count -eq 0) { return }
+    Write-Host "Fetching Wowhead inventory slots for $($ids.Count) weapons/offhands..."
+
+    $runspacePool = [runspacefactory]::CreateRunspacePool(1, 6)
+    $runspacePool.Open()
+    $workers = New-Object System.Collections.Generic.List[object]
+    $handMap = $InventoryHandById
+
+    foreach ($itemId in $ids) {
+        $powershell = [powershell]::Create().AddScript({
+            param($Id, $HandById)
+            $url = "https://www.wowhead.com/item=$Id&xml"
+            $raw = Invoke-WebRequest -Uri $url -Headers @{ "User-Agent" = "roll-planner-keystoneloot-extract/1.0" } -TimeoutSec 20 -UseBasicParsing
+            [xml]$doc = $raw.Content
+            $item = $doc.wowhead.item
+            if (-not $item -or -not $item.inventorySlot) { return $null }
+            $invId = [int]$item.inventorySlot.id
+            $subclass = [string]$item.subclass.InnerText
+            $name = $subclass -replace '^One-Handed\s+', '' -replace '^Two-Handed\s+', ''
+            $weaponClass = switch -Regex ($name) {
+                '^Swords$' { "Sword" }
+                '^Axes$' { "Axe" }
+                '^Maces$' { "Mace" }
+                '^Polearms$' { "Polearm" }
+                '^Staves$' { "Staff" }
+                '^Daggers$' { "Dagger" }
+                '^Fist Weapons$' { "Fist" }
+                '^Warglaives$' { "Warglaive" }
+                '^Bows$' { "Bow" }
+                '^Guns$' { "Gun" }
+                '^Crossbows$' { "Crossbow" }
+                '^Wands$' { "Wand" }
+                '^Shields$' { "Shield" }
+                default { if ($name) { $name } else { $null } }
+            }
+            $hand = $null
+            if ($HandById.ContainsKey($invId)) { $hand = $HandById[$invId] }
+            [pscustomobject]@{
+                id              = $Id
+                inventorySlotId = $invId
+                inventorySlot   = [string]$item.inventorySlot.InnerText
+                weaponClassId   = [int]$item.subclass.id
+                weaponClass     = $weaponClass
+                hand            = $hand
+            }
+        }).AddArgument($itemId).AddArgument($handMap)
+        $powershell.RunspacePool = $runspacePool
+        $workers.Add(@{ Pipe = $powershell; Handle = $powershell.BeginInvoke() })
+    }
+
+    $completed = 0
+    $missing = New-Object System.Collections.Generic.List[int]
+    foreach ($worker in $workers) {
+        $result = $worker.Pipe.EndInvoke($worker.Handle)
+        $worker.Pipe.Dispose()
+        $completed++
+        if ($result -and $result.id) {
+            Set-ItemInventory $Items[[int]$result.id] $result
+        } else {
+            $missing.Add($completed)
+        }
+        if (($completed % 10) -eq 0 -or $completed -eq $ids.Count) {
+            Write-Host "  $completed/$($ids.Count)"
+        }
+    }
+
+    $runspacePool.Close()
+    $runspacePool.Dispose()
+
+    $unstamped = @($ids | Where-Object { -not $Items[$_].hand })
+    if ($unstamped.Count -gt 0) {
+        Write-Host "  unstamped inventory: $($unstamped -join ', ')"
+    }
+}
+
+function ConvertTo-Plain($Value) {
+    if ($null -eq $Value) { return $null }
+    if ($Value -is [bool] -or $Value -is [string]) { return $Value }
+    if ($Value -is [byte] -or $Value -is [int16] -or $Value -is [uint16] -or $Value -is [int] -or $Value -is [uint32] -or $Value -is [long] -or $Value -is [uint64] -or $Value -is [double] -or $Value -is [decimal] -or $Value -is [single]) {
+        if (($Value -is [double] -or $Value -is [decimal] -or $Value -is [single]) -and [math]::Abs($Value - [math]::Round($Value)) -gt 1e-9) {
+            return [double]$Value
+        }
+        return [int64]$Value
+    }
+    if ($Value -is [System.Collections.IDictionary]) {
+        $hash = New-Object System.Collections.Hashtable
+        foreach ($key in $Value.Keys) {
+            $hash["$key"] = ConvertTo-Plain $Value[$key]
+        }
+        return $hash
+    }
+    if ($Value -is [System.Management.Automation.PSCustomObject]) {
+        $hash = New-Object System.Collections.Hashtable
+        foreach ($prop in $Value.PSObject.Properties) {
+            $hash[$prop.Name] = ConvertTo-Plain $prop.Value
+        }
+        return $hash
+    }
+    if ($Value -is [System.Collections.IEnumerable]) {
+        $list = New-Object System.Collections.Generic.List[object]
+        foreach ($item in $Value) {
+            $list.Add((ConvertTo-Plain $item))
+        }
+        return $list.ToArray()
+    }
+    return "$Value"
+}
+
 function Test-ItemDropsForSpec($ItemData, [int]$ClassId, [int]$SpecId) {
     $specs = $ItemData.classes[$ClassId]
     return $null -ne $specs -and $specs -contains $SpecId
@@ -215,6 +364,13 @@ function New-ItemRecord($ItemData) {
     $record["icon"] = $ItemData.icon
     $record["slotId"] = [int]$ItemData.slotId
     $record["slot"] = [string]$ItemData.slot
+    if ($null -ne $ItemData.inventorySlotId) {
+        $record["inventorySlotId"] = [int]$ItemData.inventorySlotId
+        $record["inventorySlot"] = [string]$ItemData.inventorySlot
+        $record["hand"] = $ItemData.hand
+        $record["weaponClassId"] = [int]$ItemData.weaponClassId
+        $record["weaponClass"] = $ItemData.weaponClass
+    }
     $record["isOther"] = [bool]($ItemData.slotId -eq 14)
     $record["statIds"] = @($ItemData.statIds | ForEach-Object { [int]$_ })
     $record["stats"] = @($ItemData.stats | ForEach-Object { [string]$_ })
@@ -289,6 +445,31 @@ function ConvertTo-JsonValue {
     return ('"' + (Escape-JsonString "$Value") + '"')
 }
 
+if ($StampInventory) {
+    $resolvedOutput = [System.IO.Path]::GetFullPath($OutputPath)
+    if (-not (Test-Path $resolvedOutput)) {
+        throw "Drop table file not found: $resolvedOutput"
+    }
+    $existing = Get-Content -Raw -Encoding UTF8 $resolvedOutput | ConvertFrom-Json
+    $stampItems = @{}
+    foreach ($prop in $existing.items.PSObject.Properties) {
+        $stampItems[[int]$prop.Name] = $prop.Value
+    }
+    Add-WowheadInventory $stampItems
+    $payload = ConvertTo-Plain $existing
+    $json = ConvertTo-JsonValue $payload
+    [System.IO.File]::WriteAllText($resolvedOutput, $json + "`n")
+    $weapons = @($stampItems.Values | Where-Object { [int]$_.slotId -in 10, 11 })
+    $stamped = @($weapons | Where-Object { $_.hand })
+    Write-Host "Wrote $resolvedOutput"
+    Write-Host "  stamped $($stamped.Count)/$($weapons.Count) weapons/offhands"
+    $byHand = $stamped | Group-Object hand
+    foreach ($group in $byHand) {
+        Write-Host ("  {0}: {1}" -f $group.Name, $group.Count)
+    }
+    return
+}
+
 $dungeonsPath = Join-Path $AddonDir "data\dungeons.lua"
 $itemsPath = Join-Path $AddonDir "data\items.lua"
 if (-not (Test-Path $dungeonsPath) -or -not (Test-Path $itemsPath)) {
@@ -306,6 +487,7 @@ Write-Host "Parsed $($dungeons.Count) dungeons and $($items.Count) item definiti
 
 if (-not $SkipWowhead) {
     Add-WowheadNames $items
+    Add-WowheadInventory $items
 }
 
 $dungeonItemIds = New-Object 'System.Collections.Generic.HashSet[int]'

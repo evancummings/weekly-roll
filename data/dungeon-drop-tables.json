@@ -10234,8 +10234,8 @@
         251,
         252
       ],
-      "statIds": [],
-      "stats": []
+      "statIds": null,
+      "stats": null
     },
     "158368": {
       "droppedBy": "Avatar of Sethraliss",
@@ -10347,8 +10347,8 @@
         1467,
         1473
       ],
-      "statIds": [],
-      "stats": []
+      "statIds": null,
+      "stats": null
     },
     "158369": {
       "droppedBy": "Galvazzt",
@@ -10439,8 +10439,11 @@
           "specId": 1473
         }
       ],
+      "hand": "1h",
       "icon": "inv_mace_1h_pandaraid_d_01",
       "id": 158369,
+      "inventorySlot": "One-Hand",
+      "inventorySlotId": 13,
       "isOther": false,
       "name": "Galvanized Stormcrusher",
       "quality": 4,
@@ -10467,7 +10470,9 @@
       "stats": [
         "haste",
         "versatility"
-      ]
+      ],
+      "weaponClass": "Mace",
+      "weaponClassId": 4
     },
     "158370": {
       "droppedBy": null,
@@ -10509,8 +10514,11 @@
           "specId": 104
         }
       ],
+      "hand": "2h",
       "icon": "inv_polearm_2h_snakeman_c_01",
       "id": 158370,
+      "inventorySlot": "Two-Hand",
+      "inventorySlotId": 17,
       "isOther": false,
       "name": "Twin-Strike Polearm",
       "quality": 4,
@@ -10530,7 +10538,9 @@
       "stats": [
         "crit",
         "haste"
-      ]
+      ],
+      "weaponClass": "Polearm",
+      "weaponClassId": 6
     },
     "158373": {
       "droppedBy": "Avatar of Sethraliss",
@@ -10558,8 +10568,11 @@
           "specId": 251
         }
       ],
+      "hand": "1h",
       "icon": "inv_sword_1h_battledungeon_c_02",
       "id": 158373,
+      "inventorySlot": "One-Hand",
+      "inventorySlotId": 13,
       "isOther": false,
       "name": "Resonating Crystal Scimitar",
       "quality": 4,
@@ -10577,7 +10590,9 @@
       "stats": [
         "crit",
         "haste"
-      ]
+      ],
+      "weaponClass": "Sword",
+      "weaponClassId": 7
     },
     "158374": {
       "droppedBy": "Galvazzt",
@@ -10673,8 +10688,8 @@
         103,
         577
       ],
-      "statIds": [],
-      "stats": []
+      "statIds": null,
+      "stats": null
     },
     "158714": {
       "droppedBy": "Merektha",
@@ -10723,8 +10738,11 @@
           "specId": 581
         }
       ],
+      "hand": "1h",
       "icon": "inv_sword_1h_battledungeon_c_02",
       "id": 158714,
+      "inventorySlot": "One-Hand",
+      "inventorySlotId": 13,
       "isOther": false,
       "name": "Swarm's Edge",
       "quality": 4,
@@ -10745,7 +10763,9 @@
       "stats": [
         "mastery",
         "versatility"
-      ]
+      ],
+      "weaponClass": "Sword",
+      "weaponClassId": 7
     },
     "159136": {
       "droppedBy": "Aka'ali the Conqueror",
@@ -10773,8 +10793,11 @@
           "specId": 261
         }
       ],
+      "hand": "1h",
       "icon": "inv_knife_1h_battledungeon_c_01",
       "id": 159136,
+      "inventorySlot": "One-Hand",
+      "inventorySlotId": 13,
       "isOther": false,
       "name": "Jeweled Dagger of Subjugation",
       "quality": 4,
@@ -10792,7 +10815,9 @@
       "stats": [
         "haste",
         "mastery"
-      ]
+      ],
+      "weaponClass": "Dagger",
+      "weaponClassId": 15
     },
     "159137": {
       "droppedBy": "The Golden Serpent",
@@ -10918,8 +10943,11 @@
           "specId": 1473
         }
       ],
+      "hand": "1h",
       "icon": "inv_knife_1h_battledungeon_c_01",
       "id": 159137,
+      "inventorySlot": "One-Hand",
+      "inventorySlotId": 13,
       "isOther": false,
       "name": "Gilded Serpent's Tooth",
       "quality": 4,
@@ -10951,7 +10979,9 @@
       "stats": [
         "haste",
         "versatility"
-      ]
+      ],
+      "weaponClass": "Dagger",
+      "weaponClassId": 15
     },
     "159234": {
       "droppedBy": "The Golden Serpent",
@@ -14610,8 +14640,8 @@
         577,
         581
       ],
-      "statIds": [],
-      "stats": []
+      "statIds": null,
+      "stats": null
     },
     "159618": {
       "droppedBy": "Mchimba the Embalmer",
@@ -14675,8 +14705,8 @@
         104,
         581
       ],
-      "statIds": [],
-      "stats": []
+      "statIds": null,
+      "stats": null
     },
     "159636": {
       "droppedBy": null,
@@ -14802,8 +14832,11 @@
           "specId": 1473
         }
       ],
+      "hand": "2h",
       "icon": "inv_staff_2h_battledungeon_c_04",
       "id": 159636,
+      "inventorySlot": "Two-Hand",
+      "inventorySlotId": 17,
       "isOther": false,
       "name": "Staff of the Lightning Serpent",
       "quality": 4,
@@ -14835,7 +14868,9 @@
       "stats": [
         "haste",
         "mastery"
-      ]
+      ],
+      "weaponClass": "Staff",
+      "weaponClassId": 10
     },
     "159637": {
       "droppedBy": "Merektha",
@@ -14856,8 +14891,11 @@
           "specId": 254
         }
       ],
+      "hand": "ranged",
       "icon": "inv_bow_1h_battledungeon_c_01",
       "id": 159637,
+      "inventorySlot": "Ranged",
+      "inventorySlotId": 15,
       "isOther": false,
       "name": "Snakebite Recurve",
       "quality": 4,
@@ -14874,7 +14912,9 @@
       "stats": [
         "crit",
         "haste"
-      ]
+      ],
+      "weaponClass": "Bow",
+      "weaponClassId": 2
     },
     "159642": {
       "droppedBy": "Mchimba the Embalmer",
@@ -14916,8 +14956,11 @@
           "specId": 104
         }
       ],
+      "hand": "2h",
       "icon": "inv_polearm_2h_zandalariguard_b_01",
       "id": 159642,
+      "inventorySlot": "Two-Hand",
+      "inventorySlotId": 17,
       "isOther": false,
       "name": "Royal Purifier's Spade",
       "quality": 4,
@@ -14937,7 +14980,9 @@
       "stats": [
         "crit",
         "mastery"
-      ]
+      ],
+      "weaponClass": "Polearm",
+      "weaponClassId": 6
     },
     "159643": {
       "droppedBy": "Aka'ali the Conqueror",
@@ -14958,8 +15003,11 @@
           "specId": 254
         }
       ],
+      "hand": "ranged",
       "icon": "inv_bow_2h_crossbow_pandaraid_d_01",
       "id": 159643,
+      "inventorySlot": "Ranged",
+      "inventorySlotId": 15,
       "isOther": false,
       "name": "Crossbow of Forgotten Majesty",
       "quality": 4,
@@ -14976,7 +15024,9 @@
       "stats": [
         "haste",
         "mastery"
-      ]
+      ],
+      "weaponClass": "Crossbow",
+      "weaponClassId": 18
     },
     "159644": {
       "droppedBy": "King Dazar",
@@ -15025,8 +15075,11 @@
           "specId": 252
         }
       ],
+      "hand": "2h",
       "icon": "inv_sword_2h_battledungeon_c_01",
       "id": 159644,
+      "inventorySlot": "Two-Hand",
+      "inventorySlotId": 17,
       "isOther": false,
       "name": "Geti'ikku, Cut of Death",
       "quality": 4,
@@ -15040,8 +15093,10 @@
         251,
         252
       ],
-      "statIds": [],
-      "stats": []
+      "statIds": null,
+      "stats": null,
+      "weaponClass": "Sword",
+      "weaponClassId": 8
     },
     "159645": {
       "droppedBy": "King Dazar",
@@ -15076,8 +15131,11 @@
           "specId": 269
         }
       ],
+      "hand": "1h",
       "icon": "inv_mace_1h_battledungeon_c_01",
       "id": 159645,
+      "inventorySlot": "One-Hand",
+      "inventorySlotId": 13,
       "isOther": false,
       "name": "Headcracker of Supplication",
       "quality": 4,
@@ -15096,7 +15154,9 @@
       "stats": [
         "crit",
         "mastery"
-      ]
+      ],
+      "weaponClass": "Mace",
+      "weaponClassId": 4
     },
     "159664": {
       "droppedBy": "Galvazzt",
@@ -15138,8 +15198,11 @@
           "specId": 264
         }
       ],
+      "hand": "oh",
       "icon": "inv_shield_1h_battledungeon_c_02",
       "id": 159664,
+      "inventorySlot": "Off Hand",
+      "inventorySlotId": 14,
       "isOther": false,
       "name": "Bulwark of Brimming Potential",
       "quality": 4,
@@ -15159,7 +15222,9 @@
       "stats": [
         "crit",
         "versatility"
-      ]
+      ],
+      "weaponClass": "Shield",
+      "weaponClassId": 6
     },
     "159667": {
       "droppedBy": "Mchimba the Embalmer",
@@ -15271,8 +15336,11 @@
           "specId": 1473
         }
       ],
+      "hand": "oh",
       "icon": "inv_offhand_1h_battledungeon_c_02",
       "id": 159667,
+      "inventorySlot": "Held In Off-hand",
+      "inventorySlotId": 23,
       "isOther": false,
       "name": "Vessel of Last Rites",
       "quality": 4,
@@ -15302,7 +15370,9 @@
       "stats": [
         "haste",
         "versatility"
-      ]
+      ],
+      "weaponClass": "Off-hand Frills",
+      "weaponClassId": -5
     },
     "159921": {
       "droppedBy": null,
@@ -15638,8 +15708,8 @@
         1468,
         1473
       ],
-      "statIds": [],
-      "stats": []
+      "statIds": null,
+      "stats": null
     },
     "160213": {
       "droppedBy": "Mchimba the Embalmer",
@@ -15825,8 +15895,11 @@
           "specId": 1473
         }
       ],
+      "hand": "1h",
       "icon": "inv_sword_1h_battledungeon_c_02",
       "id": 160216,
+      "inventorySlot": "One-Hand",
+      "inventorySlotId": 13,
       "isOther": false,
       "name": "Crackling Jade Kilij",
       "quality": 4,
@@ -15853,7 +15926,9 @@
       "stats": [
         "crit",
         "mastery"
-      ]
+      ],
+      "weaponClass": "Sword",
+      "weaponClassId": 7
     },
     "162544": {
       "droppedBy": "Merektha",
@@ -16458,12 +16533,8 @@
         105,
         1468
       ],
-      "statIds": [
-        0
-      ],
-      "stats": [
-        "crit"
-      ]
+      "statIds": 0,
+      "stats": "crit"
     },
     "193750": {
       "droppedBy": null,
@@ -16917,8 +16988,11 @@
           "specId": 264
         }
       ],
+      "hand": "oh",
       "icon": "inv_shield_1h_drakonid_c_01",
       "id": 193754,
+      "inventorySlot": "Off Hand",
+      "inventorySlotId": 14,
       "isOther": false,
       "name": "Drake Rider's Stecktarge",
       "quality": 4,
@@ -16938,7 +17012,9 @@
       "stats": [
         "mastery",
         "versatility"
-      ]
+      ],
+      "weaponClass": "Shield",
+      "weaponClassId": 6
     },
     "193755": {
       "droppedBy": null,
@@ -16987,8 +17063,11 @@
           "specId": 252
         }
       ],
+      "hand": "2h",
       "icon": "inv_axe_2h_drakonoid_c_01",
       "id": 193755,
+      "inventorySlot": "Two-Hand",
+      "inventorySlotId": 17,
       "isOther": false,
       "name": "Backdraft Cleaver",
       "quality": 4,
@@ -17009,7 +17088,9 @@
       "stats": [
         "crit",
         "haste"
-      ]
+      ],
+      "weaponClass": "Axe",
+      "weaponClassId": 1
     },
     "193756": {
       "droppedBy": null,
@@ -17037,8 +17118,11 @@
           "specId": 261
         }
       ],
+      "hand": "1h",
       "icon": "inv_knife_1h_dragondungeon_c_02",
       "id": 193756,
+      "inventorySlot": "One-Hand",
+      "inventorySlotId": 13,
       "isOther": false,
       "name": "Skyferno Rondel",
       "quality": 4,
@@ -17056,7 +17140,9 @@
       "stats": [
         "haste",
         "versatility"
-      ]
+      ],
+      "weaponClass": "Dagger",
+      "weaponClassId": 15
     },
     "193757": {
       "droppedBy": "Melidrussa Chillworn",
@@ -17392,8 +17478,8 @@
         1468,
         1473
       ],
-      "statIds": [],
-      "stats": []
+      "statIds": null,
+      "stats": null
     },
     "193758": {
       "droppedBy": "Melidrussa Chillworn",
@@ -17741,8 +17827,11 @@
           "specId": 1473
         }
       ],
+      "hand": "2h",
       "icon": "inv_staff_2h_dragondungeon_c_02",
       "id": 193761,
+      "inventorySlot": "Two-Hand",
+      "inventorySlotId": 17,
       "isOther": false,
       "name": "Chillworn's Infusion Staff",
       "quality": 4,
@@ -17774,7 +17863,9 @@
       "stats": [
         "crit",
         "mastery"
-      ]
+      ],
+      "weaponClass": "Staff",
+      "weaponClassId": 10
     },
     "193762": {
       "droppedBy": "Kokia Blazehoof",
@@ -17854,12 +17945,8 @@
         251,
         252
       ],
-      "statIds": [
-        1
-      ],
-      "stats": [
-        "haste"
-      ]
+      "statIds": 1,
+      "stats": "haste"
     },
     "193763": {
       "droppedBy": "Kokia Blazehoof",
@@ -18536,8 +18623,11 @@
           "specId": 1473
         }
       ],
+      "hand": "oh",
       "icon": "inv_offhand_1h_drakonid_c_01",
       "id": 193766,
+      "inventorySlot": "Held In Off-hand",
+      "inventorySlotId": 23,
       "isOther": false,
       "name": "Kokia's Burnout Rod",
       "quality": 4,
@@ -18567,7 +18657,9 @@
       "stats": [
         "crit",
         "versatility"
-      ]
+      ],
+      "weaponClass": "Off-hand Frills",
+      "weaponClassId": -5
     },
     "193767": {
       "droppedBy": "Kokia Blazehoof",
@@ -18602,8 +18694,11 @@
           "specId": 269
         }
       ],
+      "hand": "1h",
       "icon": "inv_mace_1h_dragondungeon_c_02",
       "id": 193767,
+      "inventorySlot": "One-Hand",
+      "inventorySlotId": 13,
       "isOther": false,
       "name": "Havoc Crusher",
       "quality": 4,
@@ -18622,7 +18717,9 @@
       "stats": [
         "crit",
         "haste"
-      ]
+      ],
+      "weaponClass": "Mace",
+      "weaponClassId": 4
     },
     "239031": {
       "droppedBy": "Avatar of Sethraliss",
@@ -20288,12 +20385,8 @@
         1468,
         1473
       ],
-      "statIds": [
-        2
-      ],
-      "stats": [
-        "mastery"
-      ]
+      "statIds": 2,
+      "stats": "mastery"
     },
     "250215": {
       "droppedBy": "Zaen Bladesorrow",
@@ -20565,8 +20658,8 @@
         1468,
         1473
       ],
-      "statIds": [],
-      "stats": []
+      "statIds": null,
+      "stats": null
     },
     "250224": {
       "droppedBy": "Charonus",
@@ -20734,8 +20827,8 @@
         1468,
         1473
       ],
-      "statIds": [],
-      "stats": []
+      "statIds": null,
+      "stats": null
     },
     "250225": {
       "droppedBy": "Taz'Rah",
@@ -20855,8 +20948,8 @@
         577,
         581
       ],
-      "statIds": [],
-      "stats": []
+      "statIds": null,
+      "stats": null
     },
     "250228": {
       "droppedBy": "Xathuux the Annihilator",
@@ -21040,8 +21133,8 @@
         577,
         581
       ],
-      "statIds": [],
-      "stats": []
+      "statIds": null,
+      "stats": null
     },
     "250229": {
       "droppedBy": "Nalorakk",
@@ -21121,12 +21214,8 @@
         251,
         252
       ],
-      "statIds": [
-        0
-      ],
-      "stats": [
-        "crit"
-      ]
+      "statIds": 0,
+      "stats": "crit"
     },
     "250238": {
       "droppedBy": "Ikuzz the Light Hunter",
@@ -21206,8 +21295,8 @@
         251,
         252
       ],
-      "statIds": [],
-      "stats": []
+      "statIds": null,
+      "stats": null
     },
     "250243": {
       "droppedBy": "Kystia Manaheart",
@@ -21271,8 +21360,8 @@
         104,
         581
       ],
-      "statIds": [],
-      "stats": []
+      "statIds": null,
+      "stats": null
     },
     "250244": {
       "droppedBy": "Sentinel of Winter",
@@ -21336,8 +21425,8 @@
         104,
         581
       ],
-      "statIds": [],
-      "stats": []
+      "statIds": null,
+      "stats": null
     },
     "250245": {
       "droppedBy": "Atroxus",
@@ -21401,8 +21490,8 @@
         104,
         581
       ],
-      "statIds": [],
-      "stats": []
+      "statIds": null,
+      "stats": null
     },
     "250248": {
       "droppedBy": "The Hoardmonger",
@@ -21474,8 +21563,8 @@
         105,
         1468
       ],
-      "statIds": [],
-      "stats": []
+      "statIds": null,
+      "stats": null
     },
     "250254": {
       "droppedBy": "Meittik",
@@ -21547,8 +21636,8 @@
         105,
         1468
       ],
-      "statIds": [],
-      "stats": []
+      "statIds": null,
+      "stats": null
     },
     "250255": {
       "droppedBy": "Lithiel Cinderfury",
@@ -21620,8 +21709,8 @@
         105,
         1468
       ],
-      "statIds": [],
-      "stats": []
+      "statIds": null,
+      "stats": null
     },
     "250259": {
       "droppedBy": "Ziekket",
@@ -21957,8 +22046,8 @@
         1468,
         1473
       ],
-      "statIds": [],
-      "stats": []
+      "statIds": null,
+      "stats": null
     },
     "251123": {
       "droppedBy": "Kystia Manaheart",
@@ -22084,8 +22173,11 @@
           "specId": 1473
         }
       ],
+      "hand": "2h",
       "icon": "inv_staff_2h_dungeonharronir_c_02",
       "id": 251123,
+      "inventorySlot": "Two-Hand",
+      "inventorySlotId": 17,
       "isOther": false,
       "name": "Nibbles' Training Rod",
       "quality": 4,
@@ -22117,7 +22209,9 @@
       "stats": [
         "crit",
         "haste"
-      ]
+      ],
+      "weaponClass": "Staff",
+      "weaponClassId": 10
     },
     "251124": {
       "droppedBy": "Kystia Manaheart",
@@ -22557,8 +22651,11 @@
           "specId": 261
         }
       ],
+      "hand": "1h",
       "icon": "inv_knife_1h_dungeonharronir_c_01",
       "id": 251128,
+      "inventorySlot": "One-Hand",
+      "inventorySlotId": 13,
       "isOther": false,
       "name": "Bladesorrow",
       "quality": 4,
@@ -22576,7 +22673,9 @@
       "stats": [
         "crit",
         "mastery"
-      ]
+      ],
+      "weaponClass": "Dagger",
+      "weaponClassId": 15
     },
     "251129": {
       "droppedBy": "Zaen Bladesorrow",
@@ -23380,8 +23479,11 @@
           "specId": 252
         }
       ],
+      "hand": "2h",
       "icon": "inv_axe_2h_dungeonharronir_c_01",
       "id": 251134,
+      "inventorySlot": "Two-Hand",
+      "inventorySlotId": 17,
       "isOther": false,
       "name": "Xathuux's Cleave",
       "quality": 4,
@@ -23402,7 +23504,9 @@
       "stats": [
         "crit",
         "haste"
-      ]
+      ],
+      "weaponClass": "Axe",
+      "weaponClassId": 1
     },
     "251135": {
       "droppedBy": "Xathuux the Annihilator",
@@ -24771,8 +24875,11 @@
           "specId": 581
         }
       ],
+      "hand": "1h",
       "icon": "inv_hand_1h_dungeonharronir_c_01",
       "id": 251143,
+      "inventorySlot": "One-Hand",
+      "inventorySlotId": 13,
       "isOther": false,
       "name": "Grim Harvest Gloves",
       "quality": 4,
@@ -24793,7 +24900,9 @@
       "stats": [
         "haste",
         "versatility"
-      ]
+      ],
+      "weaponClass": "Fist",
+      "weaponClassId": 13
     },
     "251144": {
       "droppedBy": "The Hoardmonger",
@@ -25590,8 +25699,11 @@
           "specId": 104
         }
       ],
+      "hand": "2h",
       "icon": "inv_polearm_2h_dungeonharronir_c_01",
       "id": 251149,
+      "inventorySlot": "Two-Hand",
+      "inventorySlotId": 17,
       "isOther": false,
       "name": "Victor's Flashfrozen Blade",
       "quality": 4,
@@ -25611,7 +25723,9 @@
       "stats": [
         "haste",
         "mastery"
-      ]
+      ],
+      "weaponClass": "Polearm",
+      "weaponClassId": 6
     },
     "251150": {
       "droppedBy": "Sentinel of Winter",
@@ -25653,8 +25767,11 @@
           "specId": 264
         }
       ],
+      "hand": "oh",
       "icon": "inv_shield_1h_dungeonharronir_c_01",
       "id": 251150,
+      "inventorySlot": "Off Hand",
+      "inventorySlotId": 14,
       "isOther": false,
       "name": "Tempest's Shelter",
       "quality": 4,
@@ -25674,7 +25791,9 @@
       "stats": [
         "haste",
         "mastery"
-      ]
+      ],
+      "weaponClass": "Shield",
+      "weaponClassId": 6
     },
     "251151": {
       "droppedBy": "Sentinel of Winter",
@@ -26307,8 +26426,11 @@
           "specId": 1473
         }
       ],
+      "hand": "2h",
       "icon": "inv_staff_2h_amani_c_01",
       "id": 251156,
+      "inventorySlot": "Two-Hand",
+      "inventorySlotId": 17,
       "isOther": false,
       "name": "Fallen Speaker's Staff",
       "quality": 4,
@@ -26340,7 +26462,9 @@
       "stats": [
         "haste",
         "versatility"
-      ]
+      ],
+      "weaponClass": "Staff",
+      "weaponClassId": 10
     },
     "251158": {
       "droppedBy": "Nalorakk",
@@ -27123,8 +27247,11 @@
           "specId": 261
         }
       ],
+      "hand": "1h",
       "icon": "inv_knife_1h_rutaani_b_01",
       "id": 251180,
+      "inventorySlot": "One-Hand",
+      "inventorySlotId": 13,
       "isOther": false,
       "name": "Thornblade",
       "quality": 4,
@@ -27142,7 +27269,9 @@
       "stats": [
         "haste",
         "mastery"
-      ]
+      ],
+      "weaponClass": "Dagger",
+      "weaponClassId": 15
     },
     "251181": {
       "droppedBy": "Meittik",
@@ -27191,8 +27320,11 @@
           "specId": 252
         }
       ],
+      "hand": "2h",
       "icon": "inv_polearm_2h_rutaani_b_01",
       "id": 251181,
+      "inventorySlot": "Two-Hand",
+      "inventorySlotId": 17,
       "isOther": false,
       "name": "Pruning Lance",
       "quality": 4,
@@ -27213,7 +27345,9 @@
       "stats": [
         "haste",
         "versatility"
-      ]
+      ],
+      "weaponClass": "Polearm",
+      "weaponClassId": 6
     },
     "251182": {
       "droppedBy": "Meittik",
@@ -27674,8 +27808,11 @@
           "specId": 581
         }
       ],
+      "hand": "1h",
       "icon": "inv_hand_1h_dungeonharronir_c_01",
       "id": 251186,
+      "inventorySlot": "One-Hand",
+      "inventorySlotId": 13,
       "isOther": false,
       "name": "Thorntalon Edge",
       "quality": 4,
@@ -27696,7 +27833,9 @@
       "stats": [
         "crit",
         "mastery"
-      ]
+      ],
+      "weaponClass": "Fist",
+      "weaponClassId": 13
     },
     "251187": {
       "droppedBy": "Ikuzz the Light Hunter",
@@ -27717,8 +27856,11 @@
           "specId": 254
         }
       ],
+      "hand": "ranged",
       "icon": "inv_crossbow_2h_dungeonharronir_c_01",
       "id": 251187,
+      "inventorySlot": "Ranged",
+      "inventorySlotId": 15,
       "isOther": false,
       "name": "Amirdrassil's Reach",
       "quality": 4,
@@ -27735,7 +27877,9 @@
       "stats": [
         "crit",
         "versatility"
-      ]
+      ],
+      "weaponClass": "Crossbow",
+      "weaponClassId": 18
     },
     "251188": {
       "droppedBy": "Ikuzz the Light Hunter",
@@ -27805,8 +27949,11 @@
           "specId": 267
         }
       ],
+      "hand": "ranged",
       "icon": "inv_wand_1h_dungeonharronir_c_01",
       "id": 251188,
+      "inventorySlot": "Ranged",
+      "inventorySlotId": 15,
       "isOther": false,
       "name": "Doompetal",
       "quality": 4,
@@ -27830,7 +27977,9 @@
       "stats": [
         "haste",
         "mastery"
-      ]
+      ],
+      "weaponClass": "Wand",
+      "weaponClassId": 19
     },
     "251189": {
       "droppedBy": "Ikuzz the Light Hunter",
@@ -28412,8 +28561,11 @@
           "specId": 1473
         }
       ],
+      "hand": "oh",
       "icon": "inv_offhand_1h_dungeonharronir_c_01",
       "id": 251191,
+      "inventorySlot": "Held In Off-hand",
+      "inventorySlotId": 23,
       "isOther": false,
       "name": "Luminescent Sprout",
       "quality": 4,
@@ -28443,7 +28595,9 @@
       "stats": [
         "haste",
         "mastery"
-      ]
+      ],
+      "weaponClass": "Off-hand Frills",
+      "weaponClassId": -5
     },
     "251192": {
       "droppedBy": "Lightwarden Ruia",
@@ -28485,8 +28639,11 @@
           "specId": 104
         }
       ],
+      "hand": "2h",
       "icon": "inv_staff_2h_dungeonharronir_c_01",
       "id": 251192,
+      "inventorySlot": "Two-Hand",
+      "inventorySlotId": 17,
       "isOther": false,
       "name": "Branch of Pride",
       "quality": 4,
@@ -28506,7 +28663,9 @@
       "stats": [
         "crit",
         "versatility"
-      ]
+      ],
+      "weaponClass": "Staff",
+      "weaponClassId": 10
     },
     "251193": {
       "droppedBy": "Lightwarden Ruia",
@@ -28972,8 +29131,11 @@
           "specId": 251
         }
       ],
+      "hand": "1h",
       "icon": "inv_sword_1h_dungeonharronir_c_01",
       "id": 251195,
+      "inventorySlot": "One-Hand",
+      "inventorySlotId": 13,
       "isOther": false,
       "name": "Thorned Reply",
       "quality": 4,
@@ -28991,7 +29153,9 @@
       "stats": [
         "crit",
         "haste"
-      ]
+      ],
+      "weaponClass": "Sword",
+      "weaponClassId": 7
     },
     "251196": {
       "droppedBy": "Ziekket",
@@ -29033,8 +29197,11 @@
           "specId": 264
         }
       ],
+      "hand": "oh",
       "icon": "inv_shield_1h_rutaani_b_01",
       "id": 251196,
+      "inventorySlot": "Off Hand",
+      "inventorySlotId": 14,
       "isOther": false,
       "name": "Teldrassil's Sacrifice",
       "quality": 4,
@@ -29054,7 +29221,9 @@
       "stats": [
         "crit",
         "versatility"
-      ]
+      ],
+      "weaponClass": "Shield",
+      "weaponClassId": 6
     },
     "251197": {
       "droppedBy": "Ziekket",
@@ -29589,8 +29758,11 @@
           "specId": 251
         }
       ],
+      "hand": "1h",
       "icon": "inv_sword_1h_domanaar_b_01",
       "id": 251218,
+      "inventorySlot": "One-Hand",
+      "inventorySlotId": 13,
       "isOther": false,
       "name": "Taz'Rah's Cosmic Edge",
       "quality": 4,
@@ -29608,7 +29780,9 @@
       "stats": [
         "haste",
         "mastery"
-      ]
+      ],
+      "weaponClass": "Sword",
+      "weaponClassId": 7
     },
     "251219": {
       "droppedBy": "Taz'Rah",
@@ -30171,8 +30345,11 @@
           "specId": 581
         }
       ],
+      "hand": "1h",
       "icon": "inv_axe_1h_dungeonharronir_c_01",
       "id": 251224,
+      "inventorySlot": "One-Hand",
+      "inventorySlotId": 13,
       "isOther": false,
       "name": "Hulking Handaxe",
       "quality": 4,
@@ -30194,7 +30371,9 @@
       "stats": [
         "haste",
         "mastery"
-      ]
+      ],
+      "weaponClass": "Axe",
+      "weaponClassId": 0
     },
     "251225": {
       "droppedBy": "Atroxus",
@@ -30320,8 +30499,11 @@
           "specId": 1473
         }
       ],
+      "hand": "1h",
       "icon": "inv_knife_1h_dungeonharronir_c_02",
       "id": 251225,
+      "inventorySlot": "One-Hand",
+      "inventorySlotId": 13,
       "isOther": false,
       "name": "Fang of Contagion",
       "quality": 4,
@@ -30353,7 +30535,9 @@
       "stats": [
         "mastery",
         "versatility"
-      ]
+      ],
+      "weaponClass": "Dagger",
+      "weaponClassId": 15
     },
     "251226": {
       "droppedBy": "Atroxus",
@@ -30814,8 +30998,11 @@
           "specId": 252
         }
       ],
+      "hand": "2h",
       "icon": "inv_polearm_2h_domanaar_b_01",
       "id": 251230,
+      "inventorySlot": "Two-Hand",
+      "inventorySlotId": 17,
       "isOther": false,
       "name": "Charonic Crescent",
       "quality": 4,
@@ -30836,7 +31023,9 @@
       "stats": [
         "mastery",
         "versatility"
-      ]
+      ],
+      "weaponClass": "Polearm",
+      "weaponClassId": 6
     },
     "251231": {
       "droppedBy": "Charonus",
@@ -30864,8 +31053,11 @@
           "specId": 1480
         }
       ],
+      "hand": "1h",
       "icon": "inv_glaive_1h_dungeonharronir_c_01",
       "id": 251231,
+      "inventorySlot": "One-Hand",
+      "inventorySlotId": 13,
       "isOther": false,
       "name": "Singularity Slicer",
       "quality": 4,
@@ -30883,7 +31075,9 @@
       "stats": [
         "crit",
         "haste"
-      ]
+      ],
+      "weaponClass": "Warglaive",
+      "weaponClassId": 9
     },
     "251232": {
       "droppedBy": "Charonus",
@@ -32222,8 +32416,8 @@
         1468,
         1473
       ],
-      "statIds": [],
-      "stats": []
+      "statIds": null,
+      "stats": null
     },
     "256428": {
       "droppedBy": null,
@@ -32559,8 +32753,8 @@
         1468,
         1473
       ],
-      "statIds": [],
-      "stats": []
+      "statIds": null,
+      "stats": null
     },
     "258045": {
       "droppedBy": "Lithiel Cinderfury",
@@ -32826,8 +33020,11 @@
           "specId": 1473
         }
       ],
+      "hand": "1h",
       "icon": "inv_glaive_1h_questbloodelf_b_01",
       "id": 258045,
+      "inventorySlot": "One-Hand",
+      "inventorySlotId": 13,
       "isOther": false,
       "name": "Dawnblade's Glaives",
       "quality": 3,
@@ -32872,8 +33069,10 @@
         1468,
         1473
       ],
-      "statIds": [],
-      "stats": []
+      "statIds": null,
+      "stats": null,
+      "weaponClass": "Warglaive",
+      "weaponClassId": 9
     },
     "263238": {
       "droppedBy": "Lithiel Cinderfury",
@@ -33209,8 +33408,8 @@
         1468,
         1473
       ],
-      "statIds": [],
-      "stats": []
+      "statIds": null,
+      "stats": null
     },
     "264332": {
       "droppedBy": "Nalorakk",
@@ -33546,8 +33745,8 @@
         1468,
         1473
       ],
-      "statIds": [],
-      "stats": []
+      "statIds": null,
+      "stats": null
     },
     "264336": {
       "droppedBy": "Charonus",
@@ -33883,8 +34082,8 @@
         1468,
         1473
       ],
-      "statIds": [],
-      "stats": []
+      "statIds": null,
+      "stats": null
     },
     "268728": {
       "droppedBy": null,
@@ -34220,8 +34419,8 @@
         1468,
         1473
       ],
-      "statIds": [],
-      "stats": []
+      "statIds": null,
+      "stats": null
     },
     "271680": {
       "droppedBy": "Kystia Manaheart",
@@ -34242,8 +34441,11 @@
           "specId": 254
         }
       ],
+      "hand": "ranged",
       "icon": "inv_firearm_2h_undergroundquest_b_01",
       "id": 271680,
+      "inventorySlot": "Ranged",
+      "inventorySlotId": 15,
       "isOther": false,
       "name": "Sinseared Repeater",
       "quality": 4,
@@ -34260,7 +34462,9 @@
       "stats": [
         "crit",
         "versatility"
-      ]
+      ],
+      "weaponClass": "Gun",
+      "weaponClassId": 3
     },
     "271681": {
       "droppedBy": "Sentinel of Winter",
@@ -34372,8 +34576,11 @@
           "specId": 1473
         }
       ],
+      "hand": "oh",
       "icon": "inv_offhand_1h_dungeonharronir_c_01",
       "id": 271681,
+      "inventorySlot": "Held In Off-hand",
+      "inventorySlotId": 23,
       "isOther": false,
       "name": "Perennial Frostbound Charm",
       "quality": 4,
@@ -34403,7 +34610,9 @@
       "stats": [
         "crit",
         "mastery"
-      ]
+      ],
+      "weaponClass": "Off-hand Frills",
+      "weaponClassId": -5
     },
     "273649": {
       "droppedBy": "King Dazar",
@@ -34571,8 +34780,8 @@
         1468,
         1473
       ],
-      "statIds": [],
-      "stats": []
+      "statIds": null,
+      "stats": null
     },
     "273773": {
       "droppedBy": "Zul'jan",
@@ -35205,8 +35414,11 @@
           "specId": 1473
         }
       ],
+      "hand": "1h",
       "icon": "inv_knife_1h_zuljin_d_01",
       "id": 273778,
+      "inventorySlot": "One-Hand",
+      "inventorySlotId": 13,
       "isOther": false,
       "name": "Polished Lightwood Channeler",
       "quality": 4,
@@ -35238,7 +35450,9 @@
       "stats": [
         "haste",
         "mastery"
-      ]
+      ],
+      "weaponClass": "Dagger",
+      "weaponClassId": 15
     },
     "273779": {
       "droppedBy": "The Writhing Coil",
@@ -35350,8 +35564,11 @@
           "specId": 1473
         }
       ],
+      "hand": "oh",
       "icon": "inv_offhand_1h_outdooramaniloa_c_01",
       "id": 273779,
+      "inventorySlot": "Held In Off-hand",
+      "inventorySlotId": 23,
       "isOther": false,
       "name": "Nocuous Focal Fang",
       "quality": 4,
@@ -35381,7 +35598,9 @@
       "stats": [
         "crit",
         "haste"
-      ]
+      ],
+      "weaponClass": "Off-hand Frills",
+      "weaponClassId": -5
     },
     "273780": {
       "droppedBy": "Rav'i",
@@ -35444,8 +35663,11 @@
           "specId": 1473
         }
       ],
+      "hand": "1h",
       "icon": "inv_axe_1h_outdooramaniloa_c_01",
       "id": 273780,
+      "inventorySlot": "One-Hand",
+      "inventorySlotId": 13,
       "isOther": false,
       "name": "Venom-Etched Crescent",
       "quality": 4,
@@ -35468,7 +35690,9 @@
       "stats": [
         "crit",
         "mastery"
-      ]
+      ],
+      "weaponClass": "Axe",
+      "weaponClassId": 0
     },
     "273781": {
       "droppedBy": "The Writhing Coil",
@@ -35860,8 +36084,11 @@
           "specId": 252
         }
       ],
+      "hand": "2h",
       "icon": "inv_polearm_2h_outdooramaniloa_c_01",
       "id": 273782,
+      "inventorySlot": "Two-Hand",
+      "inventorySlotId": 17,
       "isOther": false,
       "name": "Vile Writhefang Glaive",
       "quality": 4,
@@ -35882,7 +36109,9 @@
       "stats": [
         "crit",
         "haste"
-      ]
+      ],
+      "weaponClass": "Polearm",
+      "weaponClassId": 6
     },
     "273783": {
       "droppedBy": "The Writhing Coil",
@@ -35924,8 +36153,11 @@
           "specId": 104
         }
       ],
+      "hand": "2h",
       "icon": "inv_staff_2h_outdooramaniloa_c_01",
       "id": 273783,
+      "inventorySlot": "Two-Hand",
+      "inventorySlotId": 17,
       "isOther": false,
       "name": "Toxin-Coated Warstaff",
       "quality": 4,
@@ -35945,7 +36177,9 @@
       "stats": [
         "haste",
         "mastery"
-      ]
+      ],
+      "weaponClass": "Staff",
+      "weaponClassId": 10
     },
     "273784": {
       "droppedBy": "Zul'jan",
@@ -35966,8 +36200,11 @@
           "specId": 254
         }
       ],
+      "hand": "ranged",
       "icon": "inv_bow_1h_outdooramaniloa_c_01",
       "id": 273784,
+      "inventorySlot": "Ranged",
+      "inventorySlotId": 15,
       "isOther": false,
       "name": "Ancestral Amani Recurve",
       "quality": 4,
@@ -35984,7 +36221,9 @@
       "stats": [
         "haste",
         "mastery"
-      ]
+      ],
+      "weaponClass": "Bow",
+      "weaponClassId": 2
     },
     "273785": {
       "droppedBy": "Rav'i",
@@ -36862,8 +37101,11 @@
           "specId": 1480
         }
       ],
+      "hand": "1h",
       "icon": "inv_glaive_1h_outdooramaniloa_c_01",
       "id": 273793,
+      "inventorySlot": "One-Hand",
+      "inventorySlotId": 13,
       "isOther": false,
       "name": "Hydraspine Twinblade",
       "quality": 4,
@@ -36881,7 +37123,9 @@
       "stats": [
         "mastery",
         "versatility"
-      ]
+      ],
+      "weaponClass": "Warglaive",
+      "weaponClassId": 9
     },
     "273794": {
       "droppedBy": "The Writhing Coil",
@@ -36993,8 +37237,8 @@
         1467,
         1473
       ],
-      "statIds": [],
-      "stats": []
+      "statIds": null,
+      "stats": null
     },
     "273795": {
       "droppedBy": "Rav'i",
@@ -37074,8 +37318,8 @@
         251,
         252
       ],
-      "statIds": [],
-      "stats": []
+      "statIds": null,
+      "stats": null
     },
     "273796": {
       "droppedBy": "Rav'i",
@@ -37411,8 +37655,8 @@
         1468,
         1473
       ],
-      "statIds": [],
-      "stats": []
+      "statIds": null,
+      "stats": null
     },
     "273797": {
       "droppedBy": "Zul'jan",
@@ -37548,8 +37792,8 @@
         103,
         577
       ],
-      "statIds": [],
-      "stats": []
+      "statIds": null,
+      "stats": null
     },
     "275070": {
       "droppedBy": "Zul'jan",
@@ -37577,8 +37821,11 @@
           "specId": 261
         }
       ],
+      "hand": "1h",
       "icon": "inv_knife_1h_zuljin_d_01",
       "id": 275070,
+      "inventorySlot": "One-Hand",
+      "inventorySlotId": 13,
       "isOther": false,
       "name": "Sharpened Lightwood Slasher",
       "quality": 4,
@@ -37596,7 +37843,9 @@
       "stats": [
         "crit",
         "haste"
-      ]
+      ],
+      "weaponClass": "Dagger",
+      "weaponClassId": 15
     },
     "276804": {
       "droppedBy": null,
@@ -37932,8 +38181,8 @@
         1468,
         1473
       ],
-      "statIds": [],
-      "stats": []
+      "statIds": null,
+      "stats": null
     },
     "278245": {
       "droppedBy": "King Dazar",
@@ -38269,8 +38518,8 @@
         1468,
         1473
       ],
-      "statIds": [],
-      "stats": []
+      "statIds": null,
+      "stats": null
     },
     "278982": {
       "droppedBy": "Avatar of Sethraliss",
@@ -38606,8 +38855,8 @@
         1468,
         1473
       ],
-      "statIds": [],
-      "stats": []
+      "statIds": null,
+      "stats": null
     },
     "279211": {
       "droppedBy": "Zul'jan",
@@ -38943,8 +39192,8 @@
         1468,
         1473
       ],
-      "statIds": [],
-      "stats": []
+      "statIds": null,
+      "stats": null
     }
   },
   "lookups": {

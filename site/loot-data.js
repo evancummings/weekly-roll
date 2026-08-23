@@ -244,13 +244,17 @@ window.LOOT_DATA = {
       "585": {
         "10": [
           {
-            "droppedBy": "Atroxus",
+            "id": 251225,
+            "inventorySlotId": 13,
+            "name": "Fang of Contagion",
+            "handLabel": "1H",
             "stats": [
               "Mastery",
               "Versatility"
             ],
-            "name": "Fang of Contagion",
-            "id": 251225
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Atroxus"
           }
         ],
         "7": [
@@ -369,13 +373,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Ziekket",
+            "id": 251196,
+            "inventorySlotId": 14,
+            "name": "Teldrassil's Sacrifice",
+            "handLabel": "OH",
             "stats": [
               "Crit",
               "Versatility"
             ],
-            "name": "Teldrassil's Sacrifice",
-            "id": 251196
+            "hand": "oh",
+            "weaponClass": "Shield",
+            "droppedBy": "Ziekket"
           }
         ],
         "2": [
@@ -489,26 +497,34 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "The Golden Serpent",
+            "id": 159137,
+            "inventorySlotId": 13,
+            "name": "Gilded Serpent's Tooth",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Gilded Serpent's Tooth",
-            "id": 159137
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "The Golden Serpent"
           }
         ]
       },
       "399": {
         "10": [
           {
-            "droppedBy": "Melidrussa Chillworn",
+            "id": 193761,
+            "inventorySlotId": 17,
+            "name": "Chillworn's Infusion Staff",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Chillworn's Infusion Staff",
-            "id": 193761
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": "Melidrussa Chillworn"
           }
         ],
         "6": [
@@ -543,13 +559,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": null,
+            "id": 193754,
+            "inventorySlotId": 14,
+            "name": "Drake Rider's Stecktarge",
+            "handLabel": "OH",
             "stats": [
               "Mastery",
               "Versatility"
             ],
-            "name": "Drake Rider's Stecktarge",
-            "id": 193754
+            "hand": "oh",
+            "weaponClass": "Shield",
+            "droppedBy": null
           }
         ],
         "3": [
@@ -650,33 +670,45 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Galvazzt",
+            "id": 159664,
+            "inventorySlotId": 14,
+            "name": "Bulwark of Brimming Potential",
+            "handLabel": "OH",
             "stats": [
               "Crit",
               "Versatility"
             ],
-            "name": "Bulwark of Brimming Potential",
-            "id": 159664
+            "hand": "oh",
+            "weaponClass": "Shield",
+            "droppedBy": "Galvazzt"
           }
         ],
         "10": [
           {
-            "droppedBy": "Galvazzt",
+            "id": 158369,
+            "inventorySlotId": 13,
+            "name": "Galvanized Stormcrusher",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Galvanized Stormcrusher",
-            "id": 158369
+            "hand": "1h",
+            "weaponClass": "Mace",
+            "droppedBy": "Galvazzt"
           },
           {
-            "droppedBy": null,
+            "id": 159636,
+            "inventorySlotId": 17,
+            "name": "Staff of the Lightning Serpent",
+            "handLabel": "2H",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Staff of the Lightning Serpent",
-            "id": 159636
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": null
           }
         ],
         "0": [
@@ -752,22 +784,30 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Zul'jan",
+            "id": 273778,
+            "inventorySlotId": 13,
+            "name": "Polished Lightwood Channeler",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Polished Lightwood Channeler",
-            "id": 273778
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Zul'jan"
           },
           {
-            "droppedBy": "Rav'i",
+            "id": 273780,
+            "inventorySlotId": 13,
+            "name": "Venom-Etched Crescent",
+            "handLabel": "1H",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Venom-Etched Crescent",
-            "id": 273780
+            "hand": "1h",
+            "weaponClass": "Axe",
+            "droppedBy": "Rav'i"
           }
         ]
       },
@@ -848,19 +888,27 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Kystia Manaheart",
+            "id": 251123,
+            "inventorySlotId": 17,
+            "name": "Nibbles' Training Rod",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Nibbles' Training Rod",
-            "id": 251123
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": "Kystia Manaheart"
           },
           {
-            "droppedBy": "Lithiel Cinderfury",
-            "stats": [],
+            "id": 258045,
+            "inventorySlotId": 13,
             "name": "Dawnblade's Glaives",
-            "id": 258045
+            "handLabel": "1H",
+            "stats": [],
+            "hand": "1h",
+            "weaponClass": "Warglaive",
+            "droppedBy": "Lithiel Cinderfury"
           }
         ]
       },
@@ -900,13 +948,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Sentinel of Winter",
+            "id": 251150,
+            "inventorySlotId": 14,
+            "name": "Tempest's Shelter",
+            "handLabel": "OH",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Tempest's Shelter",
-            "id": 251150
+            "hand": "oh",
+            "weaponClass": "Shield",
+            "droppedBy": "Sentinel of Winter"
           }
         ],
         "9": [
@@ -922,13 +974,17 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Nalorakk",
+            "id": 251156,
+            "inventorySlotId": 17,
+            "name": "Fallen Speaker's Staff",
+            "handLabel": "2H",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Fallen Speaker's Staff",
-            "id": 251156
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": "Nalorakk"
           }
         ],
         "1": [
@@ -1024,13 +1080,17 @@ window.LOOT_DATA = {
       "584": {
         "10": [
           {
-            "droppedBy": "Lightwarden Ruia",
+            "id": 251192,
+            "inventorySlotId": 17,
+            "name": "Branch of Pride",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Versatility"
             ],
-            "name": "Branch of Pride",
-            "id": 251192
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": "Lightwarden Ruia"
           }
         ],
         "7": [
@@ -1204,13 +1264,17 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Mchimba the Embalmer",
+            "id": 159642,
+            "inventorySlotId": 17,
+            "name": "Royal Purifier's Spade",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Royal Purifier's Spade",
-            "id": 159642
+            "hand": "2h",
+            "weaponClass": "Polearm",
+            "droppedBy": "Mchimba the Embalmer"
           }
         ]
       },
@@ -1343,13 +1407,17 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": null,
+            "id": 158370,
+            "inventorySlotId": 17,
+            "name": "Twin-Strike Polearm",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Twin-Strike Polearm",
-            "id": 158370
+            "hand": "2h",
+            "weaponClass": "Polearm",
+            "droppedBy": null
           }
         ],
         "0": [
@@ -1392,13 +1460,17 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "The Writhing Coil",
+            "id": 273783,
+            "inventorySlotId": 17,
+            "name": "Toxin-Coated Warstaff",
+            "handLabel": "2H",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Toxin-Coated Warstaff",
-            "id": 273783
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": "The Writhing Coil"
           }
         ],
         "2": [
@@ -1518,10 +1590,14 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Lithiel Cinderfury",
-            "stats": [],
+            "id": 258045,
+            "inventorySlotId": 13,
             "name": "Dawnblade's Glaives",
-            "id": 258045
+            "handLabel": "1H",
+            "stats": [],
+            "hand": "1h",
+            "weaponClass": "Warglaive",
+            "droppedBy": "Lithiel Cinderfury"
           }
         ],
         "0": [
@@ -1572,13 +1648,17 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Sentinel of Winter",
+            "id": 251149,
+            "inventorySlotId": 17,
+            "name": "Victor's Flashfrozen Blade",
+            "handLabel": "2H",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Victor's Flashfrozen Blade",
-            "id": 251149
+            "hand": "2h",
+            "weaponClass": "Polearm",
+            "droppedBy": "Sentinel of Winter"
           }
         ],
         "2": [
@@ -1672,13 +1752,17 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Atroxus",
+            "id": 251225,
+            "inventorySlotId": 13,
+            "name": "Fang of Contagion",
+            "handLabel": "1H",
             "stats": [
               "Mastery",
               "Versatility"
             ],
-            "name": "Fang of Contagion",
-            "id": 251225
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Atroxus"
           }
         ]
       },
@@ -1745,13 +1829,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Lightwarden Ruia",
+            "id": 251191,
+            "inventorySlotId": 23,
+            "name": "Luminescent Sprout",
+            "handLabel": "OH",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Luminescent Sprout",
-            "id": 251191
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Lightwarden Ruia"
           }
         ],
         "3": [
@@ -1769,13 +1857,17 @@ window.LOOT_DATA = {
       "249": {
         "10": [
           {
-            "droppedBy": "The Golden Serpent",
+            "id": 159137,
+            "inventorySlotId": 13,
+            "name": "Gilded Serpent's Tooth",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Gilded Serpent's Tooth",
-            "id": 159137
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "The Golden Serpent"
           }
         ],
         "6": [
@@ -1854,13 +1946,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Mchimba the Embalmer",
+            "id": 159667,
+            "inventorySlotId": 23,
+            "name": "Vessel of Last Rites",
+            "handLabel": "OH",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Vessel of Last Rites",
-            "id": 159667
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Mchimba the Embalmer"
           }
         ],
         "12": [
@@ -1889,13 +1985,17 @@ window.LOOT_DATA = {
       "399": {
         "10": [
           {
-            "droppedBy": "Melidrussa Chillworn",
+            "id": 193761,
+            "inventorySlotId": 17,
+            "name": "Chillworn's Infusion Staff",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Chillworn's Infusion Staff",
-            "id": 193761
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": "Melidrussa Chillworn"
           }
         ],
         "6": [
@@ -1922,13 +2022,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Kokia Blazehoof",
+            "id": 193766,
+            "inventorySlotId": 23,
+            "name": "Kokia's Burnout Rod",
+            "handLabel": "OH",
             "stats": [
               "Crit",
               "Versatility"
             ],
-            "name": "Kokia's Burnout Rod",
-            "id": 193766
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Kokia Blazehoof"
           }
         ],
         "13": [
@@ -2037,22 +2141,30 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Galvazzt",
+            "id": 158369,
+            "inventorySlotId": 13,
+            "name": "Galvanized Stormcrusher",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Galvanized Stormcrusher",
-            "id": 158369
+            "hand": "1h",
+            "weaponClass": "Mace",
+            "droppedBy": "Galvazzt"
           },
           {
-            "droppedBy": null,
+            "id": 159636,
+            "inventorySlotId": 17,
+            "name": "Staff of the Lightning Serpent",
+            "handLabel": "2H",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Staff of the Lightning Serpent",
-            "id": 159636
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": null
           }
         ],
         "0": [
@@ -2095,13 +2207,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "The Writhing Coil",
+            "id": 273779,
+            "inventorySlotId": 23,
+            "name": "Nocuous Focal Fang",
+            "handLabel": "OH",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Nocuous Focal Fang",
-            "id": 273779
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "The Writhing Coil"
           }
         ],
         "12": [
@@ -2128,13 +2244,17 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Zul'jan",
+            "id": 273778,
+            "inventorySlotId": 13,
+            "name": "Polished Lightwood Channeler",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Polished Lightwood Channeler",
-            "id": 273778
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Zul'jan"
           }
         ],
         "0": [
@@ -2152,19 +2272,27 @@ window.LOOT_DATA = {
       "587": {
         "10": [
           {
-            "droppedBy": "Kystia Manaheart",
+            "id": 251123,
+            "inventorySlotId": 17,
+            "name": "Nibbles' Training Rod",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Nibbles' Training Rod",
-            "id": 251123
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": "Kystia Manaheart"
           },
           {
-            "droppedBy": "Lithiel Cinderfury",
-            "stats": [],
+            "id": 258045,
+            "inventorySlotId": 13,
             "name": "Dawnblade's Glaives",
-            "id": 258045
+            "handLabel": "1H",
+            "stats": [],
+            "hand": "1h",
+            "weaponClass": "Warglaive",
+            "droppedBy": "Lithiel Cinderfury"
           }
         ],
         "6": [
@@ -2278,13 +2406,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Sentinel of Winter",
+            "id": 271681,
+            "inventorySlotId": 23,
+            "name": "Perennial Frostbound Charm",
+            "handLabel": "OH",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Perennial Frostbound Charm",
-            "id": 271681
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Sentinel of Winter"
           }
         ],
         "9": [
@@ -2300,13 +2432,17 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Nalorakk",
+            "id": 251156,
+            "inventorySlotId": 17,
+            "name": "Fallen Speaker's Staff",
+            "handLabel": "2H",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Fallen Speaker's Staff",
-            "id": 251156
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": "Nalorakk"
           }
         ],
         "2": [
@@ -2400,13 +2536,17 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Atroxus",
+            "id": 251225,
+            "inventorySlotId": 13,
+            "name": "Fang of Contagion",
+            "handLabel": "1H",
             "stats": [
               "Mastery",
               "Versatility"
             ],
-            "name": "Fang of Contagion",
-            "id": 251225
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Atroxus"
           }
         ]
       },
@@ -2479,13 +2619,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Lightwarden Ruia",
+            "id": 251191,
+            "inventorySlotId": 23,
+            "name": "Luminescent Sprout",
+            "handLabel": "OH",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Luminescent Sprout",
-            "id": 251191
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Lightwarden Ruia"
           }
         ],
         "3": [
@@ -2503,13 +2647,17 @@ window.LOOT_DATA = {
       "249": {
         "10": [
           {
-            "droppedBy": "The Golden Serpent",
+            "id": 159137,
+            "inventorySlotId": 13,
+            "name": "Gilded Serpent's Tooth",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Gilded Serpent's Tooth",
-            "id": 159137
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "The Golden Serpent"
           }
         ],
         "6": [
@@ -2588,13 +2736,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Mchimba the Embalmer",
+            "id": 159667,
+            "inventorySlotId": 23,
+            "name": "Vessel of Last Rites",
+            "handLabel": "OH",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Vessel of Last Rites",
-            "id": 159667
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Mchimba the Embalmer"
           }
         ],
         "12": [
@@ -2623,13 +2775,17 @@ window.LOOT_DATA = {
       "399": {
         "10": [
           {
-            "droppedBy": "Melidrussa Chillworn",
+            "id": 193761,
+            "inventorySlotId": 17,
+            "name": "Chillworn's Infusion Staff",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Chillworn's Infusion Staff",
-            "id": 193761
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": "Melidrussa Chillworn"
           }
         ],
         "6": [
@@ -2656,13 +2812,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Kokia Blazehoof",
+            "id": 193766,
+            "inventorySlotId": 23,
+            "name": "Kokia's Burnout Rod",
+            "handLabel": "OH",
             "stats": [
               "Crit",
               "Versatility"
             ],
-            "name": "Kokia's Burnout Rod",
-            "id": 193766
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Kokia Blazehoof"
           }
         ],
         "13": [
@@ -2771,22 +2931,30 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Galvazzt",
+            "id": 158369,
+            "inventorySlotId": 13,
+            "name": "Galvanized Stormcrusher",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Galvanized Stormcrusher",
-            "id": 158369
+            "hand": "1h",
+            "weaponClass": "Mace",
+            "droppedBy": "Galvazzt"
           },
           {
-            "droppedBy": null,
+            "id": 159636,
+            "inventorySlotId": 17,
+            "name": "Staff of the Lightning Serpent",
+            "handLabel": "2H",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Staff of the Lightning Serpent",
-            "id": 159636
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": null
           }
         ],
         "0": [
@@ -2823,13 +2991,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "The Writhing Coil",
+            "id": 273779,
+            "inventorySlotId": 23,
+            "name": "Nocuous Focal Fang",
+            "handLabel": "OH",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Nocuous Focal Fang",
-            "id": 273779
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "The Writhing Coil"
           }
         ],
         "12": [
@@ -2856,13 +3028,17 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Zul'jan",
+            "id": 273778,
+            "inventorySlotId": 13,
+            "name": "Polished Lightwood Channeler",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Polished Lightwood Channeler",
-            "id": 273778
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Zul'jan"
           }
         ],
         "0": [
@@ -2880,19 +3056,27 @@ window.LOOT_DATA = {
       "587": {
         "10": [
           {
-            "droppedBy": "Kystia Manaheart",
+            "id": 251123,
+            "inventorySlotId": 17,
+            "name": "Nibbles' Training Rod",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Nibbles' Training Rod",
-            "id": 251123
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": "Kystia Manaheart"
           },
           {
-            "droppedBy": "Lithiel Cinderfury",
-            "stats": [],
+            "id": 258045,
+            "inventorySlotId": 13,
             "name": "Dawnblade's Glaives",
-            "id": 258045
+            "handLabel": "1H",
+            "stats": [],
+            "hand": "1h",
+            "weaponClass": "Warglaive",
+            "droppedBy": "Lithiel Cinderfury"
           }
         ],
         "6": [
@@ -2990,13 +3174,17 @@ window.LOOT_DATA = {
       "586": {
         "10": [
           {
-            "droppedBy": "Nalorakk",
+            "id": 251156,
+            "inventorySlotId": 17,
+            "name": "Fallen Speaker's Staff",
+            "handLabel": "2H",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Fallen Speaker's Staff",
-            "id": 251156
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": "Nalorakk"
           }
         ],
         "4": [
@@ -3012,13 +3200,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Sentinel of Winter",
+            "id": 271681,
+            "inventorySlotId": 23,
+            "name": "Perennial Frostbound Charm",
+            "handLabel": "OH",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Perennial Frostbound Charm",
-            "id": 271681
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Sentinel of Winter"
           }
         ],
         "9": [
@@ -3150,13 +3342,17 @@ window.LOOT_DATA = {
       "584": {
         "10": [
           {
-            "droppedBy": "Lightwarden Ruia",
+            "id": 251192,
+            "inventorySlotId": 17,
+            "name": "Branch of Pride",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Versatility"
             ],
-            "name": "Branch of Pride",
-            "id": 251192
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": "Lightwarden Ruia"
           }
         ],
         "7": [
@@ -3336,13 +3532,17 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Mchimba the Embalmer",
+            "id": 159642,
+            "inventorySlotId": 17,
+            "name": "Royal Purifier's Spade",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Royal Purifier's Spade",
-            "id": 159642
+            "hand": "2h",
+            "weaponClass": "Polearm",
+            "droppedBy": "Mchimba the Embalmer"
           }
         ]
       },
@@ -3467,13 +3667,17 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": null,
+            "id": 158370,
+            "inventorySlotId": 17,
+            "name": "Twin-Strike Polearm",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Twin-Strike Polearm",
-            "id": 158370
+            "hand": "2h",
+            "weaponClass": "Polearm",
+            "droppedBy": null
           }
         ],
         "0": [
@@ -3510,13 +3714,17 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "The Writhing Coil",
+            "id": 273783,
+            "inventorySlotId": 17,
+            "name": "Toxin-Coated Warstaff",
+            "handLabel": "2H",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Toxin-Coated Warstaff",
-            "id": 273783
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": "The Writhing Coil"
           }
         ],
         "2": [
@@ -3642,10 +3850,14 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Lithiel Cinderfury",
-            "stats": [],
+            "id": 258045,
+            "inventorySlotId": 13,
             "name": "Dawnblade's Glaives",
-            "id": 258045
+            "handLabel": "1H",
+            "stats": [],
+            "hand": "1h",
+            "weaponClass": "Warglaive",
+            "droppedBy": "Lithiel Cinderfury"
           }
         ],
         "0": [
@@ -3663,13 +3875,17 @@ window.LOOT_DATA = {
       "586": {
         "10": [
           {
-            "droppedBy": "Sentinel of Winter",
+            "id": 251149,
+            "inventorySlotId": 17,
+            "name": "Victor's Flashfrozen Blade",
+            "handLabel": "2H",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Victor's Flashfrozen Blade",
-            "id": 251149
+            "hand": "2h",
+            "weaponClass": "Polearm",
+            "droppedBy": "Sentinel of Winter"
           }
         ],
         "4": [
@@ -3741,13 +3957,17 @@ window.LOOT_DATA = {
       "585": {
         "10": [
           {
-            "droppedBy": "Charonus",
+            "id": 251230,
+            "inventorySlotId": 17,
+            "name": "Charonic Crescent",
+            "handLabel": "2H",
             "stats": [
               "Mastery",
               "Versatility"
             ],
-            "name": "Charonic Crescent",
-            "id": 251230
+            "hand": "2h",
+            "weaponClass": "Polearm",
+            "droppedBy": "Charonus"
           }
         ],
         "0": [
@@ -3798,13 +4018,17 @@ window.LOOT_DATA = {
       "584": {
         "10": [
           {
-            "droppedBy": "Meittik",
+            "id": 251181,
+            "inventorySlotId": 17,
+            "name": "Pruning Lance",
+            "handLabel": "2H",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Pruning Lance",
-            "id": 251181
+            "hand": "2h",
+            "weaponClass": "Polearm",
+            "droppedBy": "Meittik"
           }
         ],
         "6": [
@@ -3957,10 +4181,14 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "King Dazar",
-            "stats": [],
+            "id": 159644,
+            "inventorySlotId": 17,
             "name": "Geti'ikku, Cut of Death",
-            "id": 159644
+            "handLabel": "2H",
+            "stats": [],
+            "hand": "2h",
+            "weaponClass": "Sword",
+            "droppedBy": "King Dazar"
           }
         ],
         "0": [
@@ -3978,13 +4206,17 @@ window.LOOT_DATA = {
       "399": {
         "10": [
           {
-            "droppedBy": null,
+            "id": 193755,
+            "inventorySlotId": 17,
+            "name": "Backdraft Cleaver",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Backdraft Cleaver",
-            "id": 193755
+            "hand": "2h",
+            "weaponClass": "Axe",
+            "droppedBy": null
           }
         ],
         "9": [
@@ -4125,13 +4357,17 @@ window.LOOT_DATA = {
       "588": {
         "10": [
           {
-            "droppedBy": "The Writhing Coil",
+            "id": 273782,
+            "inventorySlotId": 17,
+            "name": "Vile Writhefang Glaive",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Vile Writhefang Glaive",
-            "id": 273782
+            "hand": "2h",
+            "weaponClass": "Polearm",
+            "droppedBy": "The Writhing Coil"
           }
         ],
         "4": [
@@ -4276,19 +4512,27 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Xathuux the Annihilator",
+            "id": 251134,
+            "inventorySlotId": 17,
+            "name": "Xathuux's Cleave",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Xathuux's Cleave",
-            "id": 251134
+            "hand": "2h",
+            "weaponClass": "Axe",
+            "droppedBy": "Xathuux the Annihilator"
           },
           {
-            "droppedBy": "Lithiel Cinderfury",
-            "stats": [],
+            "id": 258045,
+            "inventorySlotId": 13,
             "name": "Dawnblade's Glaives",
-            "id": 258045
+            "handLabel": "1H",
+            "stats": [],
+            "hand": "1h",
+            "weaponClass": "Warglaive",
+            "droppedBy": "Lithiel Cinderfury"
           }
         ],
         "0": [
@@ -4438,22 +4682,30 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Atroxus",
+            "id": 251225,
+            "inventorySlotId": 13,
+            "name": "Fang of Contagion",
+            "handLabel": "1H",
             "stats": [
               "Mastery",
               "Versatility"
             ],
-            "name": "Fang of Contagion",
-            "id": 251225
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Atroxus"
           },
           {
-            "droppedBy": "Charonus",
+            "id": 251231,
+            "inventorySlotId": 13,
+            "name": "Singularity Slicer",
+            "handLabel": "1H",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Singularity Slicer",
-            "id": 251231
+            "hand": "1h",
+            "weaponClass": "Warglaive",
+            "droppedBy": "Charonus"
           }
         ]
       },
@@ -4533,22 +4785,30 @@ window.LOOT_DATA = {
       "249": {
         "10": [
           {
-            "droppedBy": "The Golden Serpent",
+            "id": 159137,
+            "inventorySlotId": 13,
+            "name": "Gilded Serpent's Tooth",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Gilded Serpent's Tooth",
-            "id": 159137
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "The Golden Serpent"
           },
           {
-            "droppedBy": "Aka'ali the Conqueror",
+            "id": 160216,
+            "inventorySlotId": 13,
+            "name": "Crackling Jade Kilij",
+            "handLabel": "1H",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Crackling Jade Kilij",
-            "id": 160216
+            "hand": "1h",
+            "weaponClass": "Sword",
+            "droppedBy": "Aka'ali the Conqueror"
           }
         ],
         "6": [
@@ -4815,31 +5075,43 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Zul'jan",
+            "id": 273778,
+            "inventorySlotId": 13,
+            "name": "Polished Lightwood Channeler",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Polished Lightwood Channeler",
-            "id": 273778
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Zul'jan"
           },
           {
-            "droppedBy": "Rav'i",
+            "id": 273780,
+            "inventorySlotId": 13,
+            "name": "Venom-Etched Crescent",
+            "handLabel": "1H",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Venom-Etched Crescent",
-            "id": 273780
+            "hand": "1h",
+            "weaponClass": "Axe",
+            "droppedBy": "Rav'i"
           },
           {
-            "droppedBy": "Rav'i",
+            "id": 273793,
+            "inventorySlotId": 13,
+            "name": "Hydraspine Twinblade",
+            "handLabel": "1H",
             "stats": [
               "Mastery",
               "Versatility"
             ],
-            "name": "Hydraspine Twinblade",
-            "id": 273793
+            "hand": "1h",
+            "weaponClass": "Warglaive",
+            "droppedBy": "Rav'i"
           }
         ],
         "2": [
@@ -4953,10 +5225,14 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Lithiel Cinderfury",
-            "stats": [],
+            "id": 258045,
+            "inventorySlotId": 13,
             "name": "Dawnblade's Glaives",
-            "id": 258045
+            "handLabel": "1H",
+            "stats": [],
+            "hand": "1h",
+            "weaponClass": "Warglaive",
+            "droppedBy": "Lithiel Cinderfury"
           }
         ],
         "0": [
@@ -5033,13 +5309,17 @@ window.LOOT_DATA = {
       "585": {
         "10": [
           {
-            "droppedBy": "Atroxus",
+            "id": 251225,
+            "inventorySlotId": 13,
+            "name": "Fang of Contagion",
+            "handLabel": "1H",
             "stats": [
               "Mastery",
               "Versatility"
             ],
-            "name": "Fang of Contagion",
-            "id": 251225
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Atroxus"
           }
         ],
         "7": [
@@ -5120,13 +5400,17 @@ window.LOOT_DATA = {
       "584": {
         "10": [
           {
-            "droppedBy": "Ikuzz the Light Hunter",
+            "id": 251188,
+            "inventorySlotId": 15,
+            "name": "Doompetal",
+            "handLabel": "Ranged",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Doompetal",
-            "id": 251188
+            "hand": "ranged",
+            "weaponClass": "Wand",
+            "droppedBy": "Ikuzz the Light Hunter"
           }
         ],
         "7": [
@@ -5158,13 +5442,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Lightwarden Ruia",
+            "id": 251191,
+            "inventorySlotId": 23,
+            "name": "Luminescent Sprout",
+            "handLabel": "OH",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Luminescent Sprout",
-            "id": 251191
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Lightwarden Ruia"
           }
         ],
         "12": [
@@ -5226,13 +5514,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Mchimba the Embalmer",
+            "id": 159667,
+            "inventorySlotId": 23,
+            "name": "Vessel of Last Rites",
+            "handLabel": "OH",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Vessel of Last Rites",
-            "id": 159667
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Mchimba the Embalmer"
           }
         ],
         "8": [
@@ -5278,22 +5570,30 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "The Golden Serpent",
+            "id": 159137,
+            "inventorySlotId": 13,
+            "name": "Gilded Serpent's Tooth",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Gilded Serpent's Tooth",
-            "id": 159137
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "The Golden Serpent"
           },
           {
-            "droppedBy": "Aka'ali the Conqueror",
+            "id": 160216,
+            "inventorySlotId": 13,
+            "name": "Crackling Jade Kilij",
+            "handLabel": "1H",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Crackling Jade Kilij",
-            "id": 160216
+            "hand": "1h",
+            "weaponClass": "Sword",
+            "droppedBy": "Aka'ali the Conqueror"
           }
         ],
         "0": [
@@ -5311,13 +5611,17 @@ window.LOOT_DATA = {
       "399": {
         "10": [
           {
-            "droppedBy": "Melidrussa Chillworn",
+            "id": 193761,
+            "inventorySlotId": 17,
+            "name": "Chillworn's Infusion Staff",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Chillworn's Infusion Staff",
-            "id": 193761
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": "Melidrussa Chillworn"
           }
         ],
         "7": [
@@ -5352,13 +5656,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Kokia Blazehoof",
+            "id": 193766,
+            "inventorySlotId": 23,
+            "name": "Kokia's Burnout Rod",
+            "handLabel": "OH",
             "stats": [
               "Crit",
               "Versatility"
             ],
-            "name": "Kokia's Burnout Rod",
-            "id": 193766
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Kokia Blazehoof"
           }
         ],
         "3": [
@@ -5470,13 +5778,17 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": null,
+            "id": 159636,
+            "inventorySlotId": 17,
+            "name": "Staff of the Lightning Serpent",
+            "handLabel": "2H",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Staff of the Lightning Serpent",
-            "id": 159636
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": null
           }
         ]
       },
@@ -5516,13 +5828,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "The Writhing Coil",
+            "id": 273779,
+            "inventorySlotId": 23,
+            "name": "Nocuous Focal Fang",
+            "handLabel": "OH",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Nocuous Focal Fang",
-            "id": 273779
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "The Writhing Coil"
           }
         ],
         "8": [
@@ -5563,32 +5879,44 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Zul'jan",
+            "id": 273778,
+            "inventorySlotId": 13,
+            "name": "Polished Lightwood Channeler",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Polished Lightwood Channeler",
-            "id": 273778
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Zul'jan"
           }
         ]
       },
       "587": {
         "10": [
           {
-            "droppedBy": "Kystia Manaheart",
+            "id": 251123,
+            "inventorySlotId": 17,
+            "name": "Nibbles' Training Rod",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Nibbles' Training Rod",
-            "id": 251123
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": "Kystia Manaheart"
           },
           {
-            "droppedBy": "Lithiel Cinderfury",
-            "stats": [],
+            "id": 258045,
+            "inventorySlotId": 13,
             "name": "Dawnblade's Glaives",
-            "id": 258045
+            "handLabel": "1H",
+            "stats": [],
+            "hand": "1h",
+            "weaponClass": "Warglaive",
+            "droppedBy": "Lithiel Cinderfury"
           }
         ],
         "6": [
@@ -5680,13 +6008,17 @@ window.LOOT_DATA = {
       "586": {
         "10": [
           {
-            "droppedBy": "Nalorakk",
+            "id": 251156,
+            "inventorySlotId": 17,
+            "name": "Fallen Speaker's Staff",
+            "handLabel": "2H",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Fallen Speaker's Staff",
-            "id": 251156
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": "Nalorakk"
           }
         ],
         "4": [
@@ -5702,13 +6034,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Sentinel of Winter",
+            "id": 271681,
+            "inventorySlotId": 23,
+            "name": "Perennial Frostbound Charm",
+            "handLabel": "OH",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Perennial Frostbound Charm",
-            "id": 271681
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Sentinel of Winter"
           }
         ],
         "5": [
@@ -5830,35 +6166,47 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Atroxus",
+            "id": 251224,
+            "inventorySlotId": 13,
+            "name": "Hulking Handaxe",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Hulking Handaxe",
-            "id": 251224
+            "hand": "1h",
+            "weaponClass": "Axe",
+            "droppedBy": "Atroxus"
           }
         ]
       },
       "584": {
         "10": [
           {
-            "droppedBy": "Ikuzz the Light Hunter",
+            "id": 251186,
+            "inventorySlotId": 13,
+            "name": "Thorntalon Edge",
+            "handLabel": "1H",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Thorntalon Edge",
-            "id": 251186
+            "hand": "1h",
+            "weaponClass": "Fist",
+            "droppedBy": "Ikuzz the Light Hunter"
           },
           {
-            "droppedBy": "Lightwarden Ruia",
+            "id": 251192,
+            "inventorySlotId": 17,
+            "name": "Branch of Pride",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Versatility"
             ],
-            "name": "Branch of Pride",
-            "id": 251192
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": "Lightwarden Ruia"
           }
         ],
         "7": [
@@ -6038,35 +6386,47 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Mchimba the Embalmer",
+            "id": 159642,
+            "inventorySlotId": 17,
+            "name": "Royal Purifier's Spade",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Royal Purifier's Spade",
-            "id": 159642
+            "hand": "2h",
+            "weaponClass": "Polearm",
+            "droppedBy": "Mchimba the Embalmer"
           },
           {
-            "droppedBy": "King Dazar",
+            "id": 159645,
+            "inventorySlotId": 13,
+            "name": "Headcracker of Supplication",
+            "handLabel": "1H",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Headcracker of Supplication",
-            "id": 159645
+            "hand": "1h",
+            "weaponClass": "Mace",
+            "droppedBy": "King Dazar"
           }
         ]
       },
       "399": {
         "10": [
           {
-            "droppedBy": "Kokia Blazehoof",
+            "id": 193767,
+            "inventorySlotId": 13,
+            "name": "Havoc Crusher",
+            "handLabel": "1H",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Havoc Crusher",
-            "id": 193767
+            "hand": "1h",
+            "weaponClass": "Mace",
+            "droppedBy": "Kokia Blazehoof"
           }
         ],
         "6": [
@@ -6189,22 +6549,30 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": null,
+            "id": 158370,
+            "inventorySlotId": 17,
+            "name": "Twin-Strike Polearm",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Twin-Strike Polearm",
-            "id": 158370
+            "hand": "2h",
+            "weaponClass": "Polearm",
+            "droppedBy": null
           },
           {
-            "droppedBy": "Merektha",
+            "id": 158714,
+            "inventorySlotId": 13,
+            "name": "Swarm's Edge",
+            "handLabel": "1H",
             "stats": [
               "Mastery",
               "Versatility"
             ],
-            "name": "Swarm's Edge",
-            "id": 158714
+            "hand": "1h",
+            "weaponClass": "Sword",
+            "droppedBy": "Merektha"
           }
         ],
         "0": [
@@ -6241,13 +6609,17 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "The Writhing Coil",
+            "id": 273783,
+            "inventorySlotId": 17,
+            "name": "Toxin-Coated Warstaff",
+            "handLabel": "2H",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Toxin-Coated Warstaff",
-            "id": 273783
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": "The Writhing Coil"
           }
         ],
         "2": [
@@ -6373,10 +6745,14 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Lithiel Cinderfury",
-            "stats": [],
+            "id": 258045,
+            "inventorySlotId": 13,
             "name": "Dawnblade's Glaives",
-            "id": 258045
+            "handLabel": "1H",
+            "stats": [],
+            "hand": "1h",
+            "weaponClass": "Warglaive",
+            "droppedBy": "Lithiel Cinderfury"
           }
         ],
         "0": [
@@ -6435,22 +6811,30 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "The Hoardmonger",
+            "id": 251143,
+            "inventorySlotId": 13,
+            "name": "Grim Harvest Gloves",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Grim Harvest Gloves",
-            "id": 251143
+            "hand": "1h",
+            "weaponClass": "Fist",
+            "droppedBy": "The Hoardmonger"
           },
           {
-            "droppedBy": "Sentinel of Winter",
+            "id": 251149,
+            "inventorySlotId": 17,
+            "name": "Victor's Flashfrozen Blade",
+            "handLabel": "2H",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Victor's Flashfrozen Blade",
-            "id": 251149
+            "hand": "2h",
+            "weaponClass": "Polearm",
+            "droppedBy": "Sentinel of Winter"
           }
         ],
         "2": [
@@ -6481,13 +6865,17 @@ window.LOOT_DATA = {
       "585": {
         "10": [
           {
-            "droppedBy": "Atroxus",
+            "id": 251225,
+            "inventorySlotId": 13,
+            "name": "Fang of Contagion",
+            "handLabel": "1H",
             "stats": [
               "Mastery",
               "Versatility"
             ],
-            "name": "Fang of Contagion",
-            "id": 251225
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Atroxus"
           }
         ],
         "7": [
@@ -6568,13 +6956,17 @@ window.LOOT_DATA = {
       "584": {
         "10": [
           {
-            "droppedBy": "Ikuzz the Light Hunter",
+            "id": 251188,
+            "inventorySlotId": 15,
+            "name": "Doompetal",
+            "handLabel": "Ranged",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Doompetal",
-            "id": 251188
+            "hand": "ranged",
+            "weaponClass": "Wand",
+            "droppedBy": "Ikuzz the Light Hunter"
           }
         ],
         "7": [
@@ -6606,13 +6998,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Lightwarden Ruia",
+            "id": 251191,
+            "inventorySlotId": 23,
+            "name": "Luminescent Sprout",
+            "handLabel": "OH",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Luminescent Sprout",
-            "id": 251191
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Lightwarden Ruia"
           }
         ],
         "12": [
@@ -6674,13 +7070,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Mchimba the Embalmer",
+            "id": 159667,
+            "inventorySlotId": 23,
+            "name": "Vessel of Last Rites",
+            "handLabel": "OH",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Vessel of Last Rites",
-            "id": 159667
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Mchimba the Embalmer"
           }
         ],
         "8": [
@@ -6726,13 +7126,17 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "The Golden Serpent",
+            "id": 159137,
+            "inventorySlotId": 13,
+            "name": "Gilded Serpent's Tooth",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Gilded Serpent's Tooth",
-            "id": 159137
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "The Golden Serpent"
           }
         ],
         "0": [
@@ -6750,13 +7154,17 @@ window.LOOT_DATA = {
       "399": {
         "10": [
           {
-            "droppedBy": "Melidrussa Chillworn",
+            "id": 193761,
+            "inventorySlotId": 17,
+            "name": "Chillworn's Infusion Staff",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Chillworn's Infusion Staff",
-            "id": 193761
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": "Melidrussa Chillworn"
           }
         ],
         "7": [
@@ -6791,13 +7199,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Kokia Blazehoof",
+            "id": 193766,
+            "inventorySlotId": 23,
+            "name": "Kokia's Burnout Rod",
+            "handLabel": "OH",
             "stats": [
               "Crit",
               "Versatility"
             ],
-            "name": "Kokia's Burnout Rod",
-            "id": 193766
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Kokia Blazehoof"
           }
         ],
         "3": [
@@ -6909,22 +7321,30 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Galvazzt",
+            "id": 158369,
+            "inventorySlotId": 13,
+            "name": "Galvanized Stormcrusher",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Galvanized Stormcrusher",
-            "id": 158369
+            "hand": "1h",
+            "weaponClass": "Mace",
+            "droppedBy": "Galvazzt"
           },
           {
-            "droppedBy": null,
+            "id": 159636,
+            "inventorySlotId": 17,
+            "name": "Staff of the Lightning Serpent",
+            "handLabel": "2H",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Staff of the Lightning Serpent",
-            "id": 159636
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": null
           }
         ]
       },
@@ -6964,13 +7384,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "The Writhing Coil",
+            "id": 273779,
+            "inventorySlotId": 23,
+            "name": "Nocuous Focal Fang",
+            "handLabel": "OH",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Nocuous Focal Fang",
-            "id": 273779
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "The Writhing Coil"
           }
         ],
         "8": [
@@ -7011,32 +7435,44 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Zul'jan",
+            "id": 273778,
+            "inventorySlotId": 13,
+            "name": "Polished Lightwood Channeler",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Polished Lightwood Channeler",
-            "id": 273778
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Zul'jan"
           }
         ]
       },
       "587": {
         "10": [
           {
-            "droppedBy": "Kystia Manaheart",
+            "id": 251123,
+            "inventorySlotId": 17,
+            "name": "Nibbles' Training Rod",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Nibbles' Training Rod",
-            "id": 251123
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": "Kystia Manaheart"
           },
           {
-            "droppedBy": "Lithiel Cinderfury",
-            "stats": [],
+            "id": 258045,
+            "inventorySlotId": 13,
             "name": "Dawnblade's Glaives",
-            "id": 258045
+            "handLabel": "1H",
+            "stats": [],
+            "hand": "1h",
+            "weaponClass": "Warglaive",
+            "droppedBy": "Lithiel Cinderfury"
           }
         ],
         "6": [
@@ -7128,13 +7564,17 @@ window.LOOT_DATA = {
       "586": {
         "10": [
           {
-            "droppedBy": "Nalorakk",
+            "id": 251156,
+            "inventorySlotId": 17,
+            "name": "Fallen Speaker's Staff",
+            "handLabel": "2H",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Fallen Speaker's Staff",
-            "id": 251156
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": "Nalorakk"
           }
         ],
         "4": [
@@ -7150,13 +7590,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Sentinel of Winter",
+            "id": 271681,
+            "inventorySlotId": 23,
+            "name": "Perennial Frostbound Charm",
+            "handLabel": "OH",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Perennial Frostbound Charm",
-            "id": 271681
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Sentinel of Winter"
           }
         ],
         "5": [
@@ -7274,13 +7718,17 @@ window.LOOT_DATA = {
       "584": {
         "10": [
           {
-            "droppedBy": "Meittik",
+            "id": 251180,
+            "inventorySlotId": 13,
+            "name": "Thornblade",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Thornblade",
-            "id": 251180
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Meittik"
           }
         ],
         "7": [
@@ -7358,13 +7806,17 @@ window.LOOT_DATA = {
       "249": {
         "10": [
           {
-            "droppedBy": "Aka'ali the Conqueror",
+            "id": 159136,
+            "inventorySlotId": 13,
+            "name": "Jeweled Dagger of Subjugation",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Jeweled Dagger of Subjugation",
-            "id": 159136
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Aka'ali the Conqueror"
           }
         ],
         "6": [
@@ -7467,13 +7919,17 @@ window.LOOT_DATA = {
       "399": {
         "10": [
           {
-            "droppedBy": null,
+            "id": 193756,
+            "inventorySlotId": 13,
+            "name": "Skyferno Rondel",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Skyferno Rondel",
-            "id": 193756
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": null
           }
         ],
         "6": [
@@ -7642,13 +8098,17 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Zul'jan",
+            "id": 275070,
+            "inventorySlotId": 13,
+            "name": "Sharpened Lightwood Slasher",
+            "handLabel": "1H",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Sharpened Lightwood Slasher",
-            "id": 275070
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Zul'jan"
           }
         ],
         "2": [
@@ -7688,19 +8148,27 @@ window.LOOT_DATA = {
       "587": {
         "10": [
           {
-            "droppedBy": "Zaen Bladesorrow",
+            "id": 251128,
+            "inventorySlotId": 13,
+            "name": "Bladesorrow",
+            "handLabel": "1H",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Bladesorrow",
-            "id": 251128
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Zaen Bladesorrow"
           },
           {
-            "droppedBy": "Lithiel Cinderfury",
-            "stats": [],
+            "id": 258045,
+            "inventorySlotId": 13,
             "name": "Dawnblade's Glaives",
-            "id": 258045
+            "handLabel": "1H",
+            "stats": [],
+            "hand": "1h",
+            "weaponClass": "Warglaive",
+            "droppedBy": "Lithiel Cinderfury"
           }
         ],
         "6": [
@@ -7977,13 +8445,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Ziekket",
+            "id": 251196,
+            "inventorySlotId": 14,
+            "name": "Teldrassil's Sacrifice",
+            "handLabel": "OH",
             "stats": [
               "Crit",
               "Versatility"
             ],
-            "name": "Teldrassil's Sacrifice",
-            "id": 251196
+            "hand": "oh",
+            "weaponClass": "Shield",
+            "droppedBy": "Ziekket"
           }
         ],
         "3": [
@@ -8086,13 +8558,17 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Aka'ali the Conqueror",
+            "id": 160216,
+            "inventorySlotId": 13,
+            "name": "Crackling Jade Kilij",
+            "handLabel": "1H",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Crackling Jade Kilij",
-            "id": 160216
+            "hand": "1h",
+            "weaponClass": "Sword",
+            "droppedBy": "Aka'ali the Conqueror"
           }
         ],
         "0": [
@@ -8148,13 +8624,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": null,
+            "id": 193754,
+            "inventorySlotId": 14,
+            "name": "Drake Rider's Stecktarge",
+            "handLabel": "OH",
             "stats": [
               "Mastery",
               "Versatility"
             ],
-            "name": "Drake Rider's Stecktarge",
-            "id": 193754
+            "hand": "oh",
+            "weaponClass": "Shield",
+            "droppedBy": null
           }
         ],
         "4": [
@@ -8236,13 +8716,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Galvazzt",
+            "id": 159664,
+            "inventorySlotId": 14,
+            "name": "Bulwark of Brimming Potential",
+            "handLabel": "OH",
             "stats": [
               "Crit",
               "Versatility"
             ],
-            "name": "Bulwark of Brimming Potential",
-            "id": 159664
+            "hand": "oh",
+            "weaponClass": "Shield",
+            "droppedBy": "Galvazzt"
           }
         ],
         "2": [
@@ -8258,26 +8742,34 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Galvazzt",
+            "id": 158369,
+            "inventorySlotId": 13,
+            "name": "Galvanized Stormcrusher",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Galvanized Stormcrusher",
-            "id": 158369
+            "hand": "1h",
+            "weaponClass": "Mace",
+            "droppedBy": "Galvazzt"
           }
         ]
       },
       "588": {
         "10": [
           {
-            "droppedBy": "Rav'i",
+            "id": 273780,
+            "inventorySlotId": 13,
+            "name": "Venom-Etched Crescent",
+            "handLabel": "1H",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Venom-Etched Crescent",
-            "id": 273780
+            "hand": "1h",
+            "weaponClass": "Axe",
+            "droppedBy": "Rav'i"
           }
         ],
         "4": [
@@ -8394,10 +8886,14 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Lithiel Cinderfury",
-            "stats": [],
+            "id": 258045,
+            "inventorySlotId": 13,
             "name": "Dawnblade's Glaives",
-            "id": 258045
+            "handLabel": "1H",
+            "stats": [],
+            "hand": "1h",
+            "weaponClass": "Warglaive",
+            "droppedBy": "Lithiel Cinderfury"
           }
         ],
         "2": [
@@ -8489,13 +8985,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Sentinel of Winter",
+            "id": 251150,
+            "inventorySlotId": 14,
+            "name": "Tempest's Shelter",
+            "handLabel": "OH",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Tempest's Shelter",
-            "id": 251150
+            "hand": "oh",
+            "weaponClass": "Shield",
+            "droppedBy": "Sentinel of Winter"
           }
         ],
         "1": [
@@ -8556,13 +9056,17 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Charonus",
+            "id": 251230,
+            "inventorySlotId": 17,
+            "name": "Charonic Crescent",
+            "handLabel": "2H",
             "stats": [
               "Mastery",
               "Versatility"
             ],
-            "name": "Charonic Crescent",
-            "id": 251230
+            "hand": "2h",
+            "weaponClass": "Polearm",
+            "droppedBy": "Charonus"
           }
         ],
         "0": [
@@ -8580,13 +9084,17 @@ window.LOOT_DATA = {
       "584": {
         "10": [
           {
-            "droppedBy": "Meittik",
+            "id": 251181,
+            "inventorySlotId": 17,
+            "name": "Pruning Lance",
+            "handLabel": "2H",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Pruning Lance",
-            "id": 251181
+            "hand": "2h",
+            "weaponClass": "Polearm",
+            "droppedBy": "Meittik"
           }
         ],
         "6": [
@@ -8747,10 +9255,14 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "King Dazar",
-            "stats": [],
+            "id": 159644,
+            "inventorySlotId": 17,
             "name": "Geti'ikku, Cut of Death",
-            "id": 159644
+            "handLabel": "2H",
+            "stats": [],
+            "hand": "2h",
+            "weaponClass": "Sword",
+            "droppedBy": "King Dazar"
           }
         ],
         "0": [
@@ -8768,13 +9280,17 @@ window.LOOT_DATA = {
       "399": {
         "10": [
           {
-            "droppedBy": null,
+            "id": 193755,
+            "inventorySlotId": 17,
+            "name": "Backdraft Cleaver",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Backdraft Cleaver",
-            "id": 193755
+            "hand": "2h",
+            "weaponClass": "Axe",
+            "droppedBy": null
           }
         ],
         "9": [
@@ -8915,13 +9431,17 @@ window.LOOT_DATA = {
       "588": {
         "10": [
           {
-            "droppedBy": "The Writhing Coil",
+            "id": 273782,
+            "inventorySlotId": 17,
+            "name": "Vile Writhefang Glaive",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Vile Writhefang Glaive",
-            "id": 273782
+            "hand": "2h",
+            "weaponClass": "Polearm",
+            "droppedBy": "The Writhing Coil"
           }
         ],
         "4": [
@@ -9066,19 +9586,27 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Xathuux the Annihilator",
+            "id": 251134,
+            "inventorySlotId": 17,
+            "name": "Xathuux's Cleave",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Xathuux's Cleave",
-            "id": 251134
+            "hand": "2h",
+            "weaponClass": "Axe",
+            "droppedBy": "Xathuux the Annihilator"
           },
           {
-            "droppedBy": "Lithiel Cinderfury",
-            "stats": [],
+            "id": 258045,
+            "inventorySlotId": 13,
             "name": "Dawnblade's Glaives",
-            "id": 258045
+            "handLabel": "1H",
+            "stats": [],
+            "hand": "1h",
+            "weaponClass": "Warglaive",
+            "droppedBy": "Lithiel Cinderfury"
           }
         ],
         "0": [
@@ -9171,22 +9699,30 @@ window.LOOT_DATA = {
       "585": {
         "10": [
           {
-            "droppedBy": "Taz'Rah",
+            "id": 251218,
+            "inventorySlotId": 13,
+            "name": "Taz'Rah's Cosmic Edge",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Taz'Rah's Cosmic Edge",
-            "id": 251218
+            "hand": "1h",
+            "weaponClass": "Sword",
+            "droppedBy": "Taz'Rah"
           },
           {
-            "droppedBy": "Charonus",
+            "id": 251230,
+            "inventorySlotId": 17,
+            "name": "Charonic Crescent",
+            "handLabel": "2H",
             "stats": [
               "Mastery",
               "Versatility"
             ],
-            "name": "Charonic Crescent",
-            "id": 251230
+            "hand": "2h",
+            "weaponClass": "Polearm",
+            "droppedBy": "Charonus"
           }
         ],
         "0": [
@@ -9237,22 +9773,30 @@ window.LOOT_DATA = {
       "584": {
         "10": [
           {
-            "droppedBy": "Meittik",
+            "id": 251181,
+            "inventorySlotId": 17,
+            "name": "Pruning Lance",
+            "handLabel": "2H",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Pruning Lance",
-            "id": 251181
+            "hand": "2h",
+            "weaponClass": "Polearm",
+            "droppedBy": "Meittik"
           },
           {
-            "droppedBy": "Ziekket",
+            "id": 251195,
+            "inventorySlotId": 13,
+            "name": "Thorned Reply",
+            "handLabel": "1H",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Thorned Reply",
-            "id": 251195
+            "hand": "1h",
+            "weaponClass": "Sword",
+            "droppedBy": "Ziekket"
           }
         ],
         "6": [
@@ -9405,10 +9949,14 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "King Dazar",
-            "stats": [],
+            "id": 159644,
+            "inventorySlotId": 17,
             "name": "Geti'ikku, Cut of Death",
-            "id": 159644
+            "handLabel": "2H",
+            "stats": [],
+            "hand": "2h",
+            "weaponClass": "Sword",
+            "droppedBy": "King Dazar"
           }
         ],
         "0": [
@@ -9426,13 +9974,17 @@ window.LOOT_DATA = {
       "399": {
         "10": [
           {
-            "droppedBy": null,
+            "id": 193755,
+            "inventorySlotId": 17,
+            "name": "Backdraft Cleaver",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Backdraft Cleaver",
-            "id": 193755
+            "hand": "2h",
+            "weaponClass": "Axe",
+            "droppedBy": null
           }
         ],
         "9": [
@@ -9571,26 +10123,34 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Avatar of Sethraliss",
+            "id": 158373,
+            "inventorySlotId": 13,
+            "name": "Resonating Crystal Scimitar",
+            "handLabel": "1H",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Resonating Crystal Scimitar",
-            "id": 158373
+            "hand": "1h",
+            "weaponClass": "Sword",
+            "droppedBy": "Avatar of Sethraliss"
           }
         ]
       },
       "588": {
         "10": [
           {
-            "droppedBy": "The Writhing Coil",
+            "id": 273782,
+            "inventorySlotId": 17,
+            "name": "Vile Writhefang Glaive",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Vile Writhefang Glaive",
-            "id": 273782
+            "hand": "2h",
+            "weaponClass": "Polearm",
+            "droppedBy": "The Writhing Coil"
           }
         ],
         "4": [
@@ -9735,19 +10295,27 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Xathuux the Annihilator",
+            "id": 251134,
+            "inventorySlotId": 17,
+            "name": "Xathuux's Cleave",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Xathuux's Cleave",
-            "id": 251134
+            "hand": "2h",
+            "weaponClass": "Axe",
+            "droppedBy": "Xathuux the Annihilator"
           },
           {
-            "droppedBy": "Lithiel Cinderfury",
-            "stats": [],
+            "id": 258045,
+            "inventorySlotId": 13,
             "name": "Dawnblade's Glaives",
-            "id": 258045
+            "handLabel": "1H",
+            "stats": [],
+            "hand": "1h",
+            "weaponClass": "Warglaive",
+            "droppedBy": "Lithiel Cinderfury"
           }
         ],
         "0": [
@@ -9834,13 +10402,17 @@ window.LOOT_DATA = {
       "585": {
         "10": [
           {
-            "droppedBy": "Atroxus",
+            "id": 251225,
+            "inventorySlotId": 13,
+            "name": "Fang of Contagion",
+            "handLabel": "1H",
             "stats": [
               "Mastery",
               "Versatility"
             ],
-            "name": "Fang of Contagion",
-            "id": 251225
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Atroxus"
           }
         ],
         "7": [
@@ -9959,13 +10531,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Lightwarden Ruia",
+            "id": 251191,
+            "inventorySlotId": 23,
+            "name": "Luminescent Sprout",
+            "handLabel": "OH",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Luminescent Sprout",
-            "id": 251191
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Lightwarden Ruia"
           }
         ],
         "2": [
@@ -10038,13 +10614,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Mchimba the Embalmer",
+            "id": 159667,
+            "inventorySlotId": 23,
+            "name": "Vessel of Last Rites",
+            "handLabel": "OH",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Vessel of Last Rites",
-            "id": 159667
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Mchimba the Embalmer"
           }
         ],
         "3": [
@@ -10090,35 +10670,47 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "The Golden Serpent",
+            "id": 159137,
+            "inventorySlotId": 13,
+            "name": "Gilded Serpent's Tooth",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Gilded Serpent's Tooth",
-            "id": 159137
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "The Golden Serpent"
           },
           {
-            "droppedBy": "Aka'ali the Conqueror",
+            "id": 160216,
+            "inventorySlotId": 13,
+            "name": "Crackling Jade Kilij",
+            "handLabel": "1H",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Crackling Jade Kilij",
-            "id": 160216
+            "hand": "1h",
+            "weaponClass": "Sword",
+            "droppedBy": "Aka'ali the Conqueror"
           }
         ]
       },
       "399": {
         "10": [
           {
-            "droppedBy": "Melidrussa Chillworn",
+            "id": 193761,
+            "inventorySlotId": 17,
+            "name": "Chillworn's Infusion Staff",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Chillworn's Infusion Staff",
-            "id": 193761
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": "Melidrussa Chillworn"
           }
         ],
         "6": [
@@ -10153,13 +10745,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Kokia Blazehoof",
+            "id": 193766,
+            "inventorySlotId": 23,
+            "name": "Kokia's Burnout Rod",
+            "handLabel": "OH",
             "stats": [
               "Crit",
               "Versatility"
             ],
-            "name": "Kokia's Burnout Rod",
-            "id": 193766
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Kokia Blazehoof"
           }
         ],
         "3": [
@@ -10260,22 +10856,30 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Galvazzt",
+            "id": 158369,
+            "inventorySlotId": 13,
+            "name": "Galvanized Stormcrusher",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Galvanized Stormcrusher",
-            "id": 158369
+            "hand": "1h",
+            "weaponClass": "Mace",
+            "droppedBy": "Galvazzt"
           },
           {
-            "droppedBy": null,
+            "id": 159636,
+            "inventorySlotId": 17,
+            "name": "Staff of the Lightning Serpent",
+            "handLabel": "2H",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Staff of the Lightning Serpent",
-            "id": 159636
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": null
           }
         ],
         "0": [
@@ -10340,13 +10944,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "The Writhing Coil",
+            "id": 273779,
+            "inventorySlotId": 23,
+            "name": "Nocuous Focal Fang",
+            "handLabel": "OH",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Nocuous Focal Fang",
-            "id": 273779
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "The Writhing Coil"
           }
         ],
         "12": [
@@ -10362,22 +10970,30 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Zul'jan",
+            "id": 273778,
+            "inventorySlotId": 13,
+            "name": "Polished Lightwood Channeler",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Polished Lightwood Channeler",
-            "id": 273778
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Zul'jan"
           },
           {
-            "droppedBy": "Rav'i",
+            "id": 273780,
+            "inventorySlotId": 13,
+            "name": "Venom-Etched Crescent",
+            "handLabel": "1H",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Venom-Etched Crescent",
-            "id": 273780
+            "hand": "1h",
+            "weaponClass": "Axe",
+            "droppedBy": "Rav'i"
           }
         ]
       },
@@ -10458,19 +11074,27 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Kystia Manaheart",
+            "id": 251123,
+            "inventorySlotId": 17,
+            "name": "Nibbles' Training Rod",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Nibbles' Training Rod",
-            "id": 251123
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": "Kystia Manaheart"
           },
           {
-            "droppedBy": "Lithiel Cinderfury",
-            "stats": [],
+            "id": 258045,
+            "inventorySlotId": 13,
             "name": "Dawnblade's Glaives",
-            "id": 258045
+            "handLabel": "1H",
+            "stats": [],
+            "hand": "1h",
+            "weaponClass": "Warglaive",
+            "droppedBy": "Lithiel Cinderfury"
           }
         ]
       },
@@ -10510,13 +11134,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Sentinel of Winter",
+            "id": 271681,
+            "inventorySlotId": 23,
+            "name": "Perennial Frostbound Charm",
+            "handLabel": "OH",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Perennial Frostbound Charm",
-            "id": 271681
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Sentinel of Winter"
           }
         ],
         "9": [
@@ -10532,13 +11160,17 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Nalorakk",
+            "id": 251156,
+            "inventorySlotId": 17,
+            "name": "Fallen Speaker's Staff",
+            "handLabel": "2H",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Fallen Speaker's Staff",
-            "id": 251156
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": "Nalorakk"
           }
         ],
         "1": [
@@ -10705,13 +11337,17 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Ikuzz the Light Hunter",
+            "id": 251187,
+            "inventorySlotId": 15,
+            "name": "Amirdrassil's Reach",
+            "handLabel": "Ranged",
             "stats": [
               "Crit",
               "Versatility"
             ],
-            "name": "Amirdrassil's Reach",
-            "id": 251187
+            "hand": "ranged",
+            "weaponClass": "Crossbow",
+            "droppedBy": "Ikuzz the Light Hunter"
           }
         ]
       },
@@ -10803,13 +11439,17 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Aka'ali the Conqueror",
+            "id": 159643,
+            "inventorySlotId": 15,
+            "name": "Crossbow of Forgotten Majesty",
+            "handLabel": "Ranged",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Crossbow of Forgotten Majesty",
-            "id": 159643
+            "hand": "ranged",
+            "weaponClass": "Crossbow",
+            "droppedBy": "Aka'ali the Conqueror"
           }
         ]
       },
@@ -10942,13 +11582,17 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Merektha",
+            "id": 159637,
+            "inventorySlotId": 15,
+            "name": "Snakebite Recurve",
+            "handLabel": "Ranged",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Snakebite Recurve",
-            "id": 159637
+            "hand": "ranged",
+            "weaponClass": "Bow",
+            "droppedBy": "Merektha"
           }
         ],
         "0": [
@@ -11024,13 +11668,17 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Zul'jan",
+            "id": 273784,
+            "inventorySlotId": 15,
+            "name": "Ancestral Amani Recurve",
+            "handLabel": "Ranged",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Ancestral Amani Recurve",
-            "id": 273784
+            "hand": "ranged",
+            "weaponClass": "Bow",
+            "droppedBy": "Zul'jan"
           }
         ]
       },
@@ -11117,13 +11765,17 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Kystia Manaheart",
+            "id": 271680,
+            "inventorySlotId": 15,
+            "name": "Sinseared Repeater",
+            "handLabel": "Ranged",
             "stats": [
               "Crit",
               "Versatility"
             ],
-            "name": "Sinseared Repeater",
-            "id": 271680
+            "hand": "ranged",
+            "weaponClass": "Gun",
+            "droppedBy": "Kystia Manaheart"
           }
         ]
       },
@@ -11336,13 +11988,17 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Ikuzz the Light Hunter",
+            "id": 251187,
+            "inventorySlotId": 15,
+            "name": "Amirdrassil's Reach",
+            "handLabel": "Ranged",
             "stats": [
               "Crit",
               "Versatility"
             ],
-            "name": "Amirdrassil's Reach",
-            "id": 251187
+            "hand": "ranged",
+            "weaponClass": "Crossbow",
+            "droppedBy": "Ikuzz the Light Hunter"
           }
         ]
       },
@@ -11434,13 +12090,17 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Aka'ali the Conqueror",
+            "id": 159643,
+            "inventorySlotId": 15,
+            "name": "Crossbow of Forgotten Majesty",
+            "handLabel": "Ranged",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Crossbow of Forgotten Majesty",
-            "id": 159643
+            "hand": "ranged",
+            "weaponClass": "Crossbow",
+            "droppedBy": "Aka'ali the Conqueror"
           }
         ]
       },
@@ -11573,13 +12233,17 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Merektha",
+            "id": 159637,
+            "inventorySlotId": 15,
+            "name": "Snakebite Recurve",
+            "handLabel": "Ranged",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Snakebite Recurve",
-            "id": 159637
+            "hand": "ranged",
+            "weaponClass": "Bow",
+            "droppedBy": "Merektha"
           }
         ],
         "0": [
@@ -11655,13 +12319,17 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Zul'jan",
+            "id": 273784,
+            "inventorySlotId": 15,
+            "name": "Ancestral Amani Recurve",
+            "handLabel": "Ranged",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Ancestral Amani Recurve",
-            "id": 273784
+            "hand": "ranged",
+            "weaponClass": "Bow",
+            "droppedBy": "Zul'jan"
           }
         ]
       },
@@ -11748,13 +12416,17 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Kystia Manaheart",
+            "id": 271680,
+            "inventorySlotId": 15,
+            "name": "Sinseared Repeater",
+            "handLabel": "Ranged",
             "stats": [
               "Crit",
               "Versatility"
             ],
-            "name": "Sinseared Repeater",
-            "id": 271680
+            "hand": "ranged",
+            "weaponClass": "Gun",
+            "droppedBy": "Kystia Manaheart"
           }
         ]
       },
@@ -11831,13 +12503,17 @@ window.LOOT_DATA = {
       "585": {
         "10": [
           {
-            "droppedBy": "Atroxus",
+            "id": 251224,
+            "inventorySlotId": 13,
+            "name": "Hulking Handaxe",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Hulking Handaxe",
-            "id": 251224
+            "hand": "1h",
+            "weaponClass": "Axe",
+            "droppedBy": "Atroxus"
           }
         ],
         "7": [
@@ -11978,22 +12654,30 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Meittik",
+            "id": 251180,
+            "inventorySlotId": 13,
+            "name": "Thornblade",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Thornblade",
-            "id": 251180
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Meittik"
           },
           {
-            "droppedBy": "Lightwarden Ruia",
+            "id": 251192,
+            "inventorySlotId": 17,
+            "name": "Branch of Pride",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Versatility"
             ],
-            "name": "Branch of Pride",
-            "id": 251192
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": "Lightwarden Ruia"
           }
         ]
       },
@@ -12085,35 +12769,47 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Aka'ali the Conqueror",
+            "id": 159136,
+            "inventorySlotId": 13,
+            "name": "Jeweled Dagger of Subjugation",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Jeweled Dagger of Subjugation",
-            "id": 159136
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Aka'ali the Conqueror"
           },
           {
-            "droppedBy": "Mchimba the Embalmer",
+            "id": 159642,
+            "inventorySlotId": 17,
+            "name": "Royal Purifier's Spade",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Royal Purifier's Spade",
-            "id": 159642
+            "hand": "2h",
+            "weaponClass": "Polearm",
+            "droppedBy": "Mchimba the Embalmer"
           }
         ]
       },
       "399": {
         "10": [
           {
-            "droppedBy": null,
+            "id": 193756,
+            "inventorySlotId": 13,
+            "name": "Skyferno Rondel",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Skyferno Rondel",
-            "id": 193756
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": null
           }
         ],
         "6": [
@@ -12244,22 +12940,30 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": null,
+            "id": 158370,
+            "inventorySlotId": 17,
+            "name": "Twin-Strike Polearm",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Twin-Strike Polearm",
-            "id": 158370
+            "hand": "2h",
+            "weaponClass": "Polearm",
+            "droppedBy": null
           },
           {
-            "droppedBy": "Merektha",
+            "id": 158714,
+            "inventorySlotId": 13,
+            "name": "Swarm's Edge",
+            "handLabel": "1H",
             "stats": [
               "Mastery",
               "Versatility"
             ],
-            "name": "Swarm's Edge",
-            "id": 158714
+            "hand": "1h",
+            "weaponClass": "Sword",
+            "droppedBy": "Merektha"
           }
         ],
         "0": [
@@ -12335,22 +13039,30 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "The Writhing Coil",
+            "id": 273783,
+            "inventorySlotId": 17,
+            "name": "Toxin-Coated Warstaff",
+            "handLabel": "2H",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Toxin-Coated Warstaff",
-            "id": 273783
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": "The Writhing Coil"
           },
           {
-            "droppedBy": "Zul'jan",
+            "id": 275070,
+            "inventorySlotId": 13,
+            "name": "Sharpened Lightwood Slasher",
+            "handLabel": "1H",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Sharpened Lightwood Slasher",
-            "id": 275070
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Zul'jan"
           }
         ]
       },
@@ -12437,13 +13149,17 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Zaen Bladesorrow",
+            "id": 251128,
+            "inventorySlotId": 13,
+            "name": "Bladesorrow",
+            "handLabel": "1H",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Bladesorrow",
-            "id": 251128
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Zaen Bladesorrow"
           }
         ]
       },
@@ -12494,13 +13210,17 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Sentinel of Winter",
+            "id": 251149,
+            "inventorySlotId": 17,
+            "name": "Victor's Flashfrozen Blade",
+            "handLabel": "2H",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Victor's Flashfrozen Blade",
-            "id": 251149
+            "hand": "2h",
+            "weaponClass": "Polearm",
+            "droppedBy": "Sentinel of Winter"
           }
         ],
         "1": [
@@ -12531,13 +13251,17 @@ window.LOOT_DATA = {
       "585": {
         "10": [
           {
-            "droppedBy": "Atroxus",
+            "id": 251225,
+            "inventorySlotId": 13,
+            "name": "Fang of Contagion",
+            "handLabel": "1H",
             "stats": [
               "Mastery",
               "Versatility"
             ],
-            "name": "Fang of Contagion",
-            "id": 251225
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Atroxus"
           }
         ],
         "7": [
@@ -12618,13 +13342,17 @@ window.LOOT_DATA = {
       "584": {
         "10": [
           {
-            "droppedBy": "Ikuzz the Light Hunter",
+            "id": 251188,
+            "inventorySlotId": 15,
+            "name": "Doompetal",
+            "handLabel": "Ranged",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Doompetal",
-            "id": 251188
+            "hand": "ranged",
+            "weaponClass": "Wand",
+            "droppedBy": "Ikuzz the Light Hunter"
           }
         ],
         "7": [
@@ -12662,13 +13390,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Lightwarden Ruia",
+            "id": 251191,
+            "inventorySlotId": 23,
+            "name": "Luminescent Sprout",
+            "handLabel": "OH",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Luminescent Sprout",
-            "id": 251191
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Lightwarden Ruia"
           }
         ],
         "12": [
@@ -12730,13 +13462,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Mchimba the Embalmer",
+            "id": 159667,
+            "inventorySlotId": 23,
+            "name": "Vessel of Last Rites",
+            "handLabel": "OH",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Vessel of Last Rites",
-            "id": 159667
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Mchimba the Embalmer"
           }
         ],
         "8": [
@@ -12782,13 +13518,17 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "The Golden Serpent",
+            "id": 159137,
+            "inventorySlotId": 13,
+            "name": "Gilded Serpent's Tooth",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Gilded Serpent's Tooth",
-            "id": 159137
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "The Golden Serpent"
           }
         ],
         "0": [
@@ -12806,13 +13546,17 @@ window.LOOT_DATA = {
       "399": {
         "10": [
           {
-            "droppedBy": "Melidrussa Chillworn",
+            "id": 193761,
+            "inventorySlotId": 17,
+            "name": "Chillworn's Infusion Staff",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Chillworn's Infusion Staff",
-            "id": 193761
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": "Melidrussa Chillworn"
           }
         ],
         "7": [
@@ -12855,13 +13599,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Kokia Blazehoof",
+            "id": 193766,
+            "inventorySlotId": 23,
+            "name": "Kokia's Burnout Rod",
+            "handLabel": "OH",
             "stats": [
               "Crit",
               "Versatility"
             ],
-            "name": "Kokia's Burnout Rod",
-            "id": 193766
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Kokia Blazehoof"
           }
         ],
         "3": [
@@ -12965,22 +13713,30 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Galvazzt",
+            "id": 158369,
+            "inventorySlotId": 13,
+            "name": "Galvanized Stormcrusher",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Galvanized Stormcrusher",
-            "id": 158369
+            "hand": "1h",
+            "weaponClass": "Mace",
+            "droppedBy": "Galvazzt"
           },
           {
-            "droppedBy": null,
+            "id": 159636,
+            "inventorySlotId": 17,
+            "name": "Staff of the Lightning Serpent",
+            "handLabel": "2H",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Staff of the Lightning Serpent",
-            "id": 159636
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": null
           }
         ]
       },
@@ -13020,13 +13776,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "The Writhing Coil",
+            "id": 273779,
+            "inventorySlotId": 23,
+            "name": "Nocuous Focal Fang",
+            "handLabel": "OH",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Nocuous Focal Fang",
-            "id": 273779
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "The Writhing Coil"
           }
         ],
         "8": [
@@ -13061,32 +13821,44 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Zul'jan",
+            "id": 273778,
+            "inventorySlotId": 13,
+            "name": "Polished Lightwood Channeler",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Polished Lightwood Channeler",
-            "id": 273778
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Zul'jan"
           }
         ]
       },
       "587": {
         "10": [
           {
-            "droppedBy": "Kystia Manaheart",
+            "id": 251123,
+            "inventorySlotId": 17,
+            "name": "Nibbles' Training Rod",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Nibbles' Training Rod",
-            "id": 251123
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": "Kystia Manaheart"
           },
           {
-            "droppedBy": "Lithiel Cinderfury",
-            "stats": [],
+            "id": 258045,
+            "inventorySlotId": 13,
             "name": "Dawnblade's Glaives",
-            "id": 258045
+            "handLabel": "1H",
+            "stats": [],
+            "hand": "1h",
+            "weaponClass": "Warglaive",
+            "droppedBy": "Lithiel Cinderfury"
           }
         ],
         "6": [
@@ -13184,13 +13956,17 @@ window.LOOT_DATA = {
       "586": {
         "10": [
           {
-            "droppedBy": "Nalorakk",
+            "id": 251156,
+            "inventorySlotId": 17,
+            "name": "Fallen Speaker's Staff",
+            "handLabel": "2H",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Fallen Speaker's Staff",
-            "id": 251156
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": "Nalorakk"
           }
         ],
         "4": [
@@ -13236,13 +14012,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Sentinel of Winter",
+            "id": 271681,
+            "inventorySlotId": 23,
+            "name": "Perennial Frostbound Charm",
+            "handLabel": "OH",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Perennial Frostbound Charm",
-            "id": 271681
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Sentinel of Winter"
           }
         ],
         "12": [
@@ -13273,13 +14053,17 @@ window.LOOT_DATA = {
       "585": {
         "10": [
           {
-            "droppedBy": "Atroxus",
+            "id": 251225,
+            "inventorySlotId": 13,
+            "name": "Fang of Contagion",
+            "handLabel": "1H",
             "stats": [
               "Mastery",
               "Versatility"
             ],
-            "name": "Fang of Contagion",
-            "id": 251225
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Atroxus"
           }
         ],
         "7": [
@@ -13360,13 +14144,17 @@ window.LOOT_DATA = {
       "584": {
         "10": [
           {
-            "droppedBy": "Ikuzz the Light Hunter",
+            "id": 251188,
+            "inventorySlotId": 15,
+            "name": "Doompetal",
+            "handLabel": "Ranged",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Doompetal",
-            "id": 251188
+            "hand": "ranged",
+            "weaponClass": "Wand",
+            "droppedBy": "Ikuzz the Light Hunter"
           }
         ],
         "7": [
@@ -13404,13 +14192,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Lightwarden Ruia",
+            "id": 251191,
+            "inventorySlotId": 23,
+            "name": "Luminescent Sprout",
+            "handLabel": "OH",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Luminescent Sprout",
-            "id": 251191
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Lightwarden Ruia"
           }
         ],
         "12": [
@@ -13472,13 +14264,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Mchimba the Embalmer",
+            "id": 159667,
+            "inventorySlotId": 23,
+            "name": "Vessel of Last Rites",
+            "handLabel": "OH",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Vessel of Last Rites",
-            "id": 159667
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Mchimba the Embalmer"
           }
         ],
         "8": [
@@ -13524,13 +14320,17 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "The Golden Serpent",
+            "id": 159137,
+            "inventorySlotId": 13,
+            "name": "Gilded Serpent's Tooth",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Gilded Serpent's Tooth",
-            "id": 159137
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "The Golden Serpent"
           }
         ],
         "0": [
@@ -13548,13 +14348,17 @@ window.LOOT_DATA = {
       "399": {
         "10": [
           {
-            "droppedBy": "Melidrussa Chillworn",
+            "id": 193761,
+            "inventorySlotId": 17,
+            "name": "Chillworn's Infusion Staff",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Chillworn's Infusion Staff",
-            "id": 193761
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": "Melidrussa Chillworn"
           }
         ],
         "7": [
@@ -13597,13 +14401,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Kokia Blazehoof",
+            "id": 193766,
+            "inventorySlotId": 23,
+            "name": "Kokia's Burnout Rod",
+            "handLabel": "OH",
             "stats": [
               "Crit",
               "Versatility"
             ],
-            "name": "Kokia's Burnout Rod",
-            "id": 193766
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Kokia Blazehoof"
           }
         ],
         "3": [
@@ -13707,22 +14515,30 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Galvazzt",
+            "id": 158369,
+            "inventorySlotId": 13,
+            "name": "Galvanized Stormcrusher",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Galvanized Stormcrusher",
-            "id": 158369
+            "hand": "1h",
+            "weaponClass": "Mace",
+            "droppedBy": "Galvazzt"
           },
           {
-            "droppedBy": null,
+            "id": 159636,
+            "inventorySlotId": 17,
+            "name": "Staff of the Lightning Serpent",
+            "handLabel": "2H",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Staff of the Lightning Serpent",
-            "id": 159636
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": null
           }
         ]
       },
@@ -13762,13 +14578,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "The Writhing Coil",
+            "id": 273779,
+            "inventorySlotId": 23,
+            "name": "Nocuous Focal Fang",
+            "handLabel": "OH",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Nocuous Focal Fang",
-            "id": 273779
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "The Writhing Coil"
           }
         ],
         "8": [
@@ -13803,32 +14623,44 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Zul'jan",
+            "id": 273778,
+            "inventorySlotId": 13,
+            "name": "Polished Lightwood Channeler",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Polished Lightwood Channeler",
-            "id": 273778
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Zul'jan"
           }
         ]
       },
       "587": {
         "10": [
           {
-            "droppedBy": "Kystia Manaheart",
+            "id": 251123,
+            "inventorySlotId": 17,
+            "name": "Nibbles' Training Rod",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Nibbles' Training Rod",
-            "id": 251123
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": "Kystia Manaheart"
           },
           {
-            "droppedBy": "Lithiel Cinderfury",
-            "stats": [],
+            "id": 258045,
+            "inventorySlotId": 13,
             "name": "Dawnblade's Glaives",
-            "id": 258045
+            "handLabel": "1H",
+            "stats": [],
+            "hand": "1h",
+            "weaponClass": "Warglaive",
+            "droppedBy": "Lithiel Cinderfury"
           }
         ],
         "6": [
@@ -13926,13 +14758,17 @@ window.LOOT_DATA = {
       "586": {
         "10": [
           {
-            "droppedBy": "Nalorakk",
+            "id": 251156,
+            "inventorySlotId": 17,
+            "name": "Fallen Speaker's Staff",
+            "handLabel": "2H",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Fallen Speaker's Staff",
-            "id": 251156
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": "Nalorakk"
           }
         ],
         "4": [
@@ -13978,13 +14814,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Sentinel of Winter",
+            "id": 271681,
+            "inventorySlotId": 23,
+            "name": "Perennial Frostbound Charm",
+            "handLabel": "OH",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Perennial Frostbound Charm",
-            "id": 271681
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Sentinel of Winter"
           }
         ],
         "12": [
@@ -14015,13 +14855,17 @@ window.LOOT_DATA = {
       "585": {
         "10": [
           {
-            "droppedBy": "Charonus",
+            "id": 251230,
+            "inventorySlotId": 17,
+            "name": "Charonic Crescent",
+            "handLabel": "2H",
             "stats": [
               "Mastery",
               "Versatility"
             ],
-            "name": "Charonic Crescent",
-            "id": 251230
+            "hand": "2h",
+            "weaponClass": "Polearm",
+            "droppedBy": "Charonus"
           }
         ],
         "0": [
@@ -14072,13 +14916,17 @@ window.LOOT_DATA = {
       "584": {
         "10": [
           {
-            "droppedBy": "Meittik",
+            "id": 251181,
+            "inventorySlotId": 17,
+            "name": "Pruning Lance",
+            "handLabel": "2H",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Pruning Lance",
-            "id": 251181
+            "hand": "2h",
+            "weaponClass": "Polearm",
+            "droppedBy": "Meittik"
           }
         ],
         "6": [
@@ -14231,10 +15079,14 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "King Dazar",
-            "stats": [],
+            "id": 159644,
+            "inventorySlotId": 17,
             "name": "Geti'ikku, Cut of Death",
-            "id": 159644
+            "handLabel": "2H",
+            "stats": [],
+            "hand": "2h",
+            "weaponClass": "Sword",
+            "droppedBy": "King Dazar"
           }
         ],
         "0": [
@@ -14252,13 +15104,17 @@ window.LOOT_DATA = {
       "399": {
         "10": [
           {
-            "droppedBy": null,
+            "id": 193755,
+            "inventorySlotId": 17,
+            "name": "Backdraft Cleaver",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Backdraft Cleaver",
-            "id": 193755
+            "hand": "2h",
+            "weaponClass": "Axe",
+            "droppedBy": null
           }
         ],
         "9": [
@@ -14399,13 +15255,17 @@ window.LOOT_DATA = {
       "588": {
         "10": [
           {
-            "droppedBy": "The Writhing Coil",
+            "id": 273782,
+            "inventorySlotId": 17,
+            "name": "Vile Writhefang Glaive",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Vile Writhefang Glaive",
-            "id": 273782
+            "hand": "2h",
+            "weaponClass": "Polearm",
+            "droppedBy": "The Writhing Coil"
           }
         ],
         "4": [
@@ -14550,19 +15410,27 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Xathuux the Annihilator",
+            "id": 251134,
+            "inventorySlotId": 17,
+            "name": "Xathuux's Cleave",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Xathuux's Cleave",
-            "id": 251134
+            "hand": "2h",
+            "weaponClass": "Axe",
+            "droppedBy": "Xathuux the Annihilator"
           },
           {
-            "droppedBy": "Lithiel Cinderfury",
-            "stats": [],
+            "id": 258045,
+            "inventorySlotId": 13,
             "name": "Dawnblade's Glaives",
-            "id": 258045
+            "handLabel": "1H",
+            "stats": [],
+            "hand": "1h",
+            "weaponClass": "Warglaive",
+            "droppedBy": "Lithiel Cinderfury"
           }
         ],
         "0": [
@@ -14712,35 +15580,47 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Atroxus",
+            "id": 251224,
+            "inventorySlotId": 13,
+            "name": "Hulking Handaxe",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Hulking Handaxe",
-            "id": 251224
+            "hand": "1h",
+            "weaponClass": "Axe",
+            "droppedBy": "Atroxus"
           }
         ]
       },
       "584": {
         "10": [
           {
-            "droppedBy": "Ikuzz the Light Hunter",
+            "id": 251186,
+            "inventorySlotId": 13,
+            "name": "Thorntalon Edge",
+            "handLabel": "1H",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Thorntalon Edge",
-            "id": 251186
+            "hand": "1h",
+            "weaponClass": "Fist",
+            "droppedBy": "Ikuzz the Light Hunter"
           },
           {
-            "droppedBy": "Lightwarden Ruia",
+            "id": 251192,
+            "inventorySlotId": 17,
+            "name": "Branch of Pride",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Versatility"
             ],
-            "name": "Branch of Pride",
-            "id": 251192
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": "Lightwarden Ruia"
           }
         ],
         "7": [
@@ -14914,35 +15794,47 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Mchimba the Embalmer",
+            "id": 159642,
+            "inventorySlotId": 17,
+            "name": "Royal Purifier's Spade",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Royal Purifier's Spade",
-            "id": 159642
+            "hand": "2h",
+            "weaponClass": "Polearm",
+            "droppedBy": "Mchimba the Embalmer"
           },
           {
-            "droppedBy": "King Dazar",
+            "id": 159645,
+            "inventorySlotId": 13,
+            "name": "Headcracker of Supplication",
+            "handLabel": "1H",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Headcracker of Supplication",
-            "id": 159645
+            "hand": "1h",
+            "weaponClass": "Mace",
+            "droppedBy": "King Dazar"
           }
         ]
       },
       "399": {
         "10": [
           {
-            "droppedBy": "Kokia Blazehoof",
+            "id": 193767,
+            "inventorySlotId": 13,
+            "name": "Havoc Crusher",
+            "handLabel": "1H",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Havoc Crusher",
-            "id": 193767
+            "hand": "1h",
+            "weaponClass": "Mace",
+            "droppedBy": "Kokia Blazehoof"
           }
         ],
         "6": [
@@ -15073,22 +15965,30 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": null,
+            "id": 158370,
+            "inventorySlotId": 17,
+            "name": "Twin-Strike Polearm",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Twin-Strike Polearm",
-            "id": 158370
+            "hand": "2h",
+            "weaponClass": "Polearm",
+            "droppedBy": null
           },
           {
-            "droppedBy": "Merektha",
+            "id": 158714,
+            "inventorySlotId": 13,
+            "name": "Swarm's Edge",
+            "handLabel": "1H",
             "stats": [
               "Mastery",
               "Versatility"
             ],
-            "name": "Swarm's Edge",
-            "id": 158714
+            "hand": "1h",
+            "weaponClass": "Sword",
+            "droppedBy": "Merektha"
           }
         ],
         "0": [
@@ -15131,13 +16031,17 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "The Writhing Coil",
+            "id": 273783,
+            "inventorySlotId": 17,
+            "name": "Toxin-Coated Warstaff",
+            "handLabel": "2H",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Toxin-Coated Warstaff",
-            "id": 273783
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": "The Writhing Coil"
           }
         ],
         "2": [
@@ -15257,10 +16161,14 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Lithiel Cinderfury",
-            "stats": [],
+            "id": 258045,
+            "inventorySlotId": 13,
             "name": "Dawnblade's Glaives",
-            "id": 258045
+            "handLabel": "1H",
+            "stats": [],
+            "hand": "1h",
+            "weaponClass": "Warglaive",
+            "droppedBy": "Lithiel Cinderfury"
           }
         ],
         "0": [
@@ -15311,22 +16219,30 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "The Hoardmonger",
+            "id": 251143,
+            "inventorySlotId": 13,
+            "name": "Grim Harvest Gloves",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Grim Harvest Gloves",
-            "id": 251143
+            "hand": "1h",
+            "weaponClass": "Fist",
+            "droppedBy": "The Hoardmonger"
           },
           {
-            "droppedBy": "Sentinel of Winter",
+            "id": 251149,
+            "inventorySlotId": 17,
+            "name": "Victor's Flashfrozen Blade",
+            "handLabel": "2H",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Victor's Flashfrozen Blade",
-            "id": 251149
+            "hand": "2h",
+            "weaponClass": "Polearm",
+            "droppedBy": "Sentinel of Winter"
           }
         ],
         "2": [
@@ -15357,13 +16273,17 @@ window.LOOT_DATA = {
       "585": {
         "10": [
           {
-            "droppedBy": "Charonus",
+            "id": 251230,
+            "inventorySlotId": 17,
+            "name": "Charonic Crescent",
+            "handLabel": "2H",
             "stats": [
               "Mastery",
               "Versatility"
             ],
-            "name": "Charonic Crescent",
-            "id": 251230
+            "hand": "2h",
+            "weaponClass": "Polearm",
+            "droppedBy": "Charonus"
           }
         ],
         "0": [
@@ -15414,13 +16334,17 @@ window.LOOT_DATA = {
       "584": {
         "10": [
           {
-            "droppedBy": "Meittik",
+            "id": 251181,
+            "inventorySlotId": 17,
+            "name": "Pruning Lance",
+            "handLabel": "2H",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Pruning Lance",
-            "id": 251181
+            "hand": "2h",
+            "weaponClass": "Polearm",
+            "droppedBy": "Meittik"
           }
         ],
         "6": [
@@ -15573,10 +16497,14 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "King Dazar",
-            "stats": [],
+            "id": 159644,
+            "inventorySlotId": 17,
             "name": "Geti'ikku, Cut of Death",
-            "id": 159644
+            "handLabel": "2H",
+            "stats": [],
+            "hand": "2h",
+            "weaponClass": "Sword",
+            "droppedBy": "King Dazar"
           }
         ],
         "0": [
@@ -15594,13 +16522,17 @@ window.LOOT_DATA = {
       "399": {
         "10": [
           {
-            "droppedBy": null,
+            "id": 193755,
+            "inventorySlotId": 17,
+            "name": "Backdraft Cleaver",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Backdraft Cleaver",
-            "id": 193755
+            "hand": "2h",
+            "weaponClass": "Axe",
+            "droppedBy": null
           }
         ],
         "9": [
@@ -15741,13 +16673,17 @@ window.LOOT_DATA = {
       "588": {
         "10": [
           {
-            "droppedBy": "The Writhing Coil",
+            "id": 273782,
+            "inventorySlotId": 17,
+            "name": "Vile Writhefang Glaive",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Vile Writhefang Glaive",
-            "id": 273782
+            "hand": "2h",
+            "weaponClass": "Polearm",
+            "droppedBy": "The Writhing Coil"
           }
         ],
         "4": [
@@ -15892,19 +16828,27 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Xathuux the Annihilator",
+            "id": 251134,
+            "inventorySlotId": 17,
+            "name": "Xathuux's Cleave",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Xathuux's Cleave",
-            "id": 251134
+            "hand": "2h",
+            "weaponClass": "Axe",
+            "droppedBy": "Xathuux the Annihilator"
           },
           {
-            "droppedBy": "Lithiel Cinderfury",
-            "stats": [],
+            "id": 258045,
+            "inventorySlotId": 13,
             "name": "Dawnblade's Glaives",
-            "id": 258045
+            "handLabel": "1H",
+            "stats": [],
+            "hand": "1h",
+            "weaponClass": "Warglaive",
+            "droppedBy": "Lithiel Cinderfury"
           }
         ],
         "0": [
@@ -16032,13 +16976,17 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Taz'Rah",
+            "id": 251218,
+            "inventorySlotId": 13,
+            "name": "Taz'Rah's Cosmic Edge",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Taz'Rah's Cosmic Edge",
-            "id": 251218
+            "hand": "1h",
+            "weaponClass": "Sword",
+            "droppedBy": "Taz'Rah"
           }
         ],
         "0": [
@@ -16114,13 +17062,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Ziekket",
+            "id": 251196,
+            "inventorySlotId": 14,
+            "name": "Teldrassil's Sacrifice",
+            "handLabel": "OH",
             "stats": [
               "Crit",
               "Versatility"
             ],
-            "name": "Teldrassil's Sacrifice",
-            "id": 251196
+            "hand": "oh",
+            "weaponClass": "Shield",
+            "droppedBy": "Ziekket"
           }
         ],
         "3": [
@@ -16136,13 +17088,17 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Ziekket",
+            "id": 251195,
+            "inventorySlotId": 13,
+            "name": "Thorned Reply",
+            "handLabel": "1H",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Thorned Reply",
-            "id": 251195
+            "hand": "1h",
+            "weaponClass": "Sword",
+            "droppedBy": "Ziekket"
           }
         ]
       },
@@ -16247,13 +17203,17 @@ window.LOOT_DATA = {
       "399": {
         "11": [
           {
-            "droppedBy": null,
+            "id": 193754,
+            "inventorySlotId": 14,
+            "name": "Drake Rider's Stecktarge",
+            "handLabel": "OH",
             "stats": [
               "Mastery",
               "Versatility"
             ],
-            "name": "Drake Rider's Stecktarge",
-            "id": 193754
+            "hand": "oh",
+            "weaponClass": "Shield",
+            "droppedBy": null
           }
         ],
         "9": [
@@ -16381,13 +17341,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Galvazzt",
+            "id": 159664,
+            "inventorySlotId": 14,
+            "name": "Bulwark of Brimming Potential",
+            "handLabel": "OH",
             "stats": [
               "Crit",
               "Versatility"
             ],
-            "name": "Bulwark of Brimming Potential",
-            "id": 159664
+            "hand": "oh",
+            "weaponClass": "Shield",
+            "droppedBy": "Galvazzt"
           }
         ],
         "2": [
@@ -16403,13 +17367,17 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Avatar of Sethraliss",
+            "id": 158373,
+            "inventorySlotId": 13,
+            "name": "Resonating Crystal Scimitar",
+            "handLabel": "1H",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Resonating Crystal Scimitar",
-            "id": 158373
+            "hand": "1h",
+            "weaponClass": "Sword",
+            "droppedBy": "Avatar of Sethraliss"
           }
         ]
       },
@@ -16534,10 +17502,14 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Lithiel Cinderfury",
-            "stats": [],
+            "id": 258045,
+            "inventorySlotId": 13,
             "name": "Dawnblade's Glaives",
-            "id": 258045
+            "handLabel": "1H",
+            "stats": [],
+            "hand": "1h",
+            "weaponClass": "Warglaive",
+            "droppedBy": "Lithiel Cinderfury"
           }
         ],
         "2": [
@@ -16637,13 +17609,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Sentinel of Winter",
+            "id": 251150,
+            "inventorySlotId": 14,
+            "name": "Tempest's Shelter",
+            "handLabel": "OH",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Tempest's Shelter",
-            "id": 251150
+            "hand": "oh",
+            "weaponClass": "Shield",
+            "droppedBy": "Sentinel of Winter"
           }
         ],
         "1": [
@@ -16726,26 +17702,34 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Atroxus",
+            "id": 251224,
+            "inventorySlotId": 13,
+            "name": "Hulking Handaxe",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Hulking Handaxe",
-            "id": 251224
+            "hand": "1h",
+            "weaponClass": "Axe",
+            "droppedBy": "Atroxus"
           }
         ]
       },
       "584": {
         "10": [
           {
-            "droppedBy": "Ikuzz the Light Hunter",
+            "id": 251186,
+            "inventorySlotId": 13,
+            "name": "Thorntalon Edge",
+            "handLabel": "1H",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Thorntalon Edge",
-            "id": 251186
+            "hand": "1h",
+            "weaponClass": "Fist",
+            "droppedBy": "Ikuzz the Light Hunter"
           }
         ],
         "7": [
@@ -16919,26 +17903,34 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "King Dazar",
+            "id": 159645,
+            "inventorySlotId": 13,
+            "name": "Headcracker of Supplication",
+            "handLabel": "1H",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Headcracker of Supplication",
-            "id": 159645
+            "hand": "1h",
+            "weaponClass": "Mace",
+            "droppedBy": "King Dazar"
           }
         ]
       },
       "399": {
         "10": [
           {
-            "droppedBy": "Kokia Blazehoof",
+            "id": 193767,
+            "inventorySlotId": 13,
+            "name": "Havoc Crusher",
+            "handLabel": "1H",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Havoc Crusher",
-            "id": 193767
+            "hand": "1h",
+            "weaponClass": "Mace",
+            "droppedBy": "Kokia Blazehoof"
           }
         ],
         "6": [
@@ -17069,13 +18061,17 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Merektha",
+            "id": 158714,
+            "inventorySlotId": 13,
+            "name": "Swarm's Edge",
+            "handLabel": "1H",
             "stats": [
               "Mastery",
               "Versatility"
             ],
-            "name": "Swarm's Edge",
-            "id": 158714
+            "hand": "1h",
+            "weaponClass": "Sword",
+            "droppedBy": "Merektha"
           }
         ],
         "0": [
@@ -17233,10 +18229,14 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Lithiel Cinderfury",
-            "stats": [],
+            "id": 258045,
+            "inventorySlotId": 13,
             "name": "Dawnblade's Glaives",
-            "id": 258045
+            "handLabel": "1H",
+            "stats": [],
+            "hand": "1h",
+            "weaponClass": "Warglaive",
+            "droppedBy": "Lithiel Cinderfury"
           }
         ],
         "0": [
@@ -17287,13 +18287,17 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "The Hoardmonger",
+            "id": 251143,
+            "inventorySlotId": 13,
+            "name": "Grim Harvest Gloves",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Grim Harvest Gloves",
-            "id": 251143
+            "hand": "1h",
+            "weaponClass": "Fist",
+            "droppedBy": "The Hoardmonger"
           }
         ],
         "2": [
@@ -17324,13 +18328,17 @@ window.LOOT_DATA = {
       "585": {
         "10": [
           {
-            "droppedBy": "Atroxus",
+            "id": 251225,
+            "inventorySlotId": 13,
+            "name": "Fang of Contagion",
+            "handLabel": "1H",
             "stats": [
               "Mastery",
               "Versatility"
             ],
-            "name": "Fang of Contagion",
-            "id": 251225
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Atroxus"
           }
         ],
         "7": [
@@ -17449,13 +18457,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Lightwarden Ruia",
+            "id": 251191,
+            "inventorySlotId": 23,
+            "name": "Luminescent Sprout",
+            "handLabel": "OH",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Luminescent Sprout",
-            "id": 251191
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Lightwarden Ruia"
           }
         ],
         "2": [
@@ -17528,13 +18540,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Mchimba the Embalmer",
+            "id": 159667,
+            "inventorySlotId": 23,
+            "name": "Vessel of Last Rites",
+            "handLabel": "OH",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Vessel of Last Rites",
-            "id": 159667
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Mchimba the Embalmer"
           }
         ],
         "3": [
@@ -17580,35 +18596,47 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "The Golden Serpent",
+            "id": 159137,
+            "inventorySlotId": 13,
+            "name": "Gilded Serpent's Tooth",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Gilded Serpent's Tooth",
-            "id": 159137
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "The Golden Serpent"
           },
           {
-            "droppedBy": "Aka'ali the Conqueror",
+            "id": 160216,
+            "inventorySlotId": 13,
+            "name": "Crackling Jade Kilij",
+            "handLabel": "1H",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Crackling Jade Kilij",
-            "id": 160216
+            "hand": "1h",
+            "weaponClass": "Sword",
+            "droppedBy": "Aka'ali the Conqueror"
           }
         ]
       },
       "399": {
         "10": [
           {
-            "droppedBy": "Melidrussa Chillworn",
+            "id": 193761,
+            "inventorySlotId": 17,
+            "name": "Chillworn's Infusion Staff",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Chillworn's Infusion Staff",
-            "id": 193761
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": "Melidrussa Chillworn"
           }
         ],
         "6": [
@@ -17643,13 +18671,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Kokia Blazehoof",
+            "id": 193766,
+            "inventorySlotId": 23,
+            "name": "Kokia's Burnout Rod",
+            "handLabel": "OH",
             "stats": [
               "Crit",
               "Versatility"
             ],
-            "name": "Kokia's Burnout Rod",
-            "id": 193766
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Kokia Blazehoof"
           }
         ],
         "3": [
@@ -17750,22 +18782,30 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Galvazzt",
+            "id": 158369,
+            "inventorySlotId": 13,
+            "name": "Galvanized Stormcrusher",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Galvanized Stormcrusher",
-            "id": 158369
+            "hand": "1h",
+            "weaponClass": "Mace",
+            "droppedBy": "Galvazzt"
           },
           {
-            "droppedBy": null,
+            "id": 159636,
+            "inventorySlotId": 17,
+            "name": "Staff of the Lightning Serpent",
+            "handLabel": "2H",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Staff of the Lightning Serpent",
-            "id": 159636
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": null
           }
         ],
         "0": [
@@ -17830,13 +18870,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "The Writhing Coil",
+            "id": 273779,
+            "inventorySlotId": 23,
+            "name": "Nocuous Focal Fang",
+            "handLabel": "OH",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Nocuous Focal Fang",
-            "id": 273779
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "The Writhing Coil"
           }
         ],
         "12": [
@@ -17852,22 +18896,30 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Zul'jan",
+            "id": 273778,
+            "inventorySlotId": 13,
+            "name": "Polished Lightwood Channeler",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Polished Lightwood Channeler",
-            "id": 273778
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Zul'jan"
           },
           {
-            "droppedBy": "Rav'i",
+            "id": 273780,
+            "inventorySlotId": 13,
+            "name": "Venom-Etched Crescent",
+            "handLabel": "1H",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Venom-Etched Crescent",
-            "id": 273780
+            "hand": "1h",
+            "weaponClass": "Axe",
+            "droppedBy": "Rav'i"
           }
         ]
       },
@@ -17948,19 +19000,27 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Kystia Manaheart",
+            "id": 251123,
+            "inventorySlotId": 17,
+            "name": "Nibbles' Training Rod",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Nibbles' Training Rod",
-            "id": 251123
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": "Kystia Manaheart"
           },
           {
-            "droppedBy": "Lithiel Cinderfury",
-            "stats": [],
+            "id": 258045,
+            "inventorySlotId": 13,
             "name": "Dawnblade's Glaives",
-            "id": 258045
+            "handLabel": "1H",
+            "stats": [],
+            "hand": "1h",
+            "weaponClass": "Warglaive",
+            "droppedBy": "Lithiel Cinderfury"
           }
         ]
       },
@@ -18000,13 +19060,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Sentinel of Winter",
+            "id": 271681,
+            "inventorySlotId": 23,
+            "name": "Perennial Frostbound Charm",
+            "handLabel": "OH",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Perennial Frostbound Charm",
-            "id": 271681
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Sentinel of Winter"
           }
         ],
         "9": [
@@ -18022,13 +19086,17 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Nalorakk",
+            "id": 251156,
+            "inventorySlotId": 17,
+            "name": "Fallen Speaker's Staff",
+            "handLabel": "2H",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Fallen Speaker's Staff",
-            "id": 251156
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": "Nalorakk"
           }
         ],
         "1": [
@@ -18190,13 +19258,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Lightwarden Ruia",
+            "id": 251191,
+            "inventorySlotId": 23,
+            "name": "Luminescent Sprout",
+            "handLabel": "OH",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Luminescent Sprout",
-            "id": 251191
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Lightwarden Ruia"
           }
         ],
         "3": [
@@ -18299,13 +19371,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Mchimba the Embalmer",
+            "id": 159667,
+            "inventorySlotId": 23,
+            "name": "Vessel of Last Rites",
+            "handLabel": "OH",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Vessel of Last Rites",
-            "id": 159667
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Mchimba the Embalmer"
           }
         ],
         "3": [
@@ -18321,26 +19397,34 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Aka'ali the Conqueror",
+            "id": 160216,
+            "inventorySlotId": 13,
+            "name": "Crackling Jade Kilij",
+            "handLabel": "1H",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Crackling Jade Kilij",
-            "id": 160216
+            "hand": "1h",
+            "weaponClass": "Sword",
+            "droppedBy": "Aka'ali the Conqueror"
           }
         ]
       },
       "399": {
         "10": [
           {
-            "droppedBy": "Melidrussa Chillworn",
+            "id": 193761,
+            "inventorySlotId": 17,
+            "name": "Chillworn's Infusion Staff",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Chillworn's Infusion Staff",
-            "id": 193761
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": "Melidrussa Chillworn"
           }
         ],
         "6": [
@@ -18367,13 +19451,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Kokia Blazehoof",
+            "id": 193766,
+            "inventorySlotId": 23,
+            "name": "Kokia's Burnout Rod",
+            "handLabel": "OH",
             "stats": [
               "Crit",
               "Versatility"
             ],
-            "name": "Kokia's Burnout Rod",
-            "id": 193766
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Kokia Blazehoof"
           }
         ],
         "13": [
@@ -18482,22 +19570,30 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Galvazzt",
+            "id": 158369,
+            "inventorySlotId": 13,
+            "name": "Galvanized Stormcrusher",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Galvanized Stormcrusher",
-            "id": 158369
+            "hand": "1h",
+            "weaponClass": "Mace",
+            "droppedBy": "Galvazzt"
           },
           {
-            "droppedBy": null,
+            "id": 159636,
+            "inventorySlotId": 17,
+            "name": "Staff of the Lightning Serpent",
+            "handLabel": "2H",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Staff of the Lightning Serpent",
-            "id": 159636
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": null
           }
         ],
         "0": [
@@ -18515,13 +19611,17 @@ window.LOOT_DATA = {
       "588": {
         "10": [
           {
-            "droppedBy": "Rav'i",
+            "id": 273780,
+            "inventorySlotId": 13,
+            "name": "Venom-Etched Crescent",
+            "handLabel": "1H",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Venom-Etched Crescent",
-            "id": 273780
+            "hand": "1h",
+            "weaponClass": "Axe",
+            "droppedBy": "Rav'i"
           }
         ],
         "13": [
@@ -18534,13 +19634,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "The Writhing Coil",
+            "id": 273779,
+            "inventorySlotId": 23,
+            "name": "Nocuous Focal Fang",
+            "handLabel": "OH",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Nocuous Focal Fang",
-            "id": 273779
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "The Writhing Coil"
           }
         ],
         "12": [
@@ -18591,19 +19695,27 @@ window.LOOT_DATA = {
       "587": {
         "10": [
           {
-            "droppedBy": "Kystia Manaheart",
+            "id": 251123,
+            "inventorySlotId": 17,
+            "name": "Nibbles' Training Rod",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Nibbles' Training Rod",
-            "id": 251123
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": "Kystia Manaheart"
           },
           {
-            "droppedBy": "Lithiel Cinderfury",
-            "stats": [],
+            "id": 258045,
+            "inventorySlotId": 13,
             "name": "Dawnblade's Glaives",
-            "id": 258045
+            "handLabel": "1H",
+            "stats": [],
+            "hand": "1h",
+            "weaponClass": "Warglaive",
+            "droppedBy": "Lithiel Cinderfury"
           }
         ],
         "6": [
@@ -18701,13 +19813,17 @@ window.LOOT_DATA = {
       "586": {
         "10": [
           {
-            "droppedBy": "Nalorakk",
+            "id": 251156,
+            "inventorySlotId": 17,
+            "name": "Fallen Speaker's Staff",
+            "handLabel": "2H",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Fallen Speaker's Staff",
-            "id": 251156
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": "Nalorakk"
           }
         ],
         "4": [
@@ -18723,13 +19839,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Sentinel of Winter",
+            "id": 271681,
+            "inventorySlotId": 23,
+            "name": "Perennial Frostbound Charm",
+            "handLabel": "OH",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Perennial Frostbound Charm",
-            "id": 271681
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Sentinel of Winter"
           }
         ],
         "9": [
@@ -18790,13 +19910,17 @@ window.LOOT_DATA = {
       "585": {
         "10": [
           {
-            "droppedBy": "Atroxus",
+            "id": 251224,
+            "inventorySlotId": 13,
+            "name": "Hulking Handaxe",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Hulking Handaxe",
-            "id": 251224
+            "hand": "1h",
+            "weaponClass": "Axe",
+            "droppedBy": "Atroxus"
           }
         ],
         "7": [
@@ -18937,13 +20061,17 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Ikuzz the Light Hunter",
+            "id": 251186,
+            "inventorySlotId": 13,
+            "name": "Thorntalon Edge",
+            "handLabel": "1H",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Thorntalon Edge",
-            "id": 251186
+            "hand": "1h",
+            "weaponClass": "Fist",
+            "droppedBy": "Ikuzz the Light Hunter"
           }
         ]
       },
@@ -19035,26 +20163,34 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "King Dazar",
+            "id": 159645,
+            "inventorySlotId": 13,
+            "name": "Headcracker of Supplication",
+            "handLabel": "1H",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Headcracker of Supplication",
-            "id": 159645
+            "hand": "1h",
+            "weaponClass": "Mace",
+            "droppedBy": "King Dazar"
           }
         ]
       },
       "399": {
         "10": [
           {
-            "droppedBy": "Kokia Blazehoof",
+            "id": 193767,
+            "inventorySlotId": 13,
+            "name": "Havoc Crusher",
+            "handLabel": "1H",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Havoc Crusher",
-            "id": 193767
+            "hand": "1h",
+            "weaponClass": "Mace",
+            "droppedBy": "Kokia Blazehoof"
           }
         ],
         "6": [
@@ -19338,10 +20474,14 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Lithiel Cinderfury",
-            "stats": [],
+            "id": 258045,
+            "inventorySlotId": 13,
             "name": "Dawnblade's Glaives",
-            "id": 258045
+            "handLabel": "1H",
+            "stats": [],
+            "hand": "1h",
+            "weaponClass": "Warglaive",
+            "droppedBy": "Lithiel Cinderfury"
           }
         ]
       },
@@ -19392,13 +20532,17 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "The Hoardmonger",
+            "id": 251143,
+            "inventorySlotId": 13,
+            "name": "Grim Harvest Gloves",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Grim Harvest Gloves",
-            "id": 251143
+            "hand": "1h",
+            "weaponClass": "Fist",
+            "droppedBy": "The Hoardmonger"
           }
         ],
         "1": [
@@ -19429,13 +20573,17 @@ window.LOOT_DATA = {
       "585": {
         "10": [
           {
-            "droppedBy": "Atroxus",
+            "id": 251225,
+            "inventorySlotId": 13,
+            "name": "Fang of Contagion",
+            "handLabel": "1H",
             "stats": [
               "Mastery",
               "Versatility"
             ],
-            "name": "Fang of Contagion",
-            "id": 251225
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Atroxus"
           }
         ],
         "7": [
@@ -19560,13 +20708,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Ziekket",
+            "id": 251196,
+            "inventorySlotId": 14,
+            "name": "Teldrassil's Sacrifice",
+            "handLabel": "OH",
             "stats": [
               "Crit",
               "Versatility"
             ],
-            "name": "Teldrassil's Sacrifice",
-            "id": 251196
+            "hand": "oh",
+            "weaponClass": "Shield",
+            "droppedBy": "Ziekket"
           }
         ],
         "2": [
@@ -19680,26 +20832,34 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "The Golden Serpent",
+            "id": 159137,
+            "inventorySlotId": 13,
+            "name": "Gilded Serpent's Tooth",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Gilded Serpent's Tooth",
-            "id": 159137
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "The Golden Serpent"
           }
         ]
       },
       "399": {
         "10": [
           {
-            "droppedBy": "Melidrussa Chillworn",
+            "id": 193761,
+            "inventorySlotId": 17,
+            "name": "Chillworn's Infusion Staff",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Chillworn's Infusion Staff",
-            "id": 193761
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": "Melidrussa Chillworn"
           }
         ],
         "6": [
@@ -19742,13 +20902,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": null,
+            "id": 193754,
+            "inventorySlotId": 14,
+            "name": "Drake Rider's Stecktarge",
+            "handLabel": "OH",
             "stats": [
               "Mastery",
               "Versatility"
             ],
-            "name": "Drake Rider's Stecktarge",
-            "id": 193754
+            "hand": "oh",
+            "weaponClass": "Shield",
+            "droppedBy": null
           }
         ],
         "3": [
@@ -19841,33 +21005,45 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Galvazzt",
+            "id": 159664,
+            "inventorySlotId": 14,
+            "name": "Bulwark of Brimming Potential",
+            "handLabel": "OH",
             "stats": [
               "Crit",
               "Versatility"
             ],
-            "name": "Bulwark of Brimming Potential",
-            "id": 159664
+            "hand": "oh",
+            "weaponClass": "Shield",
+            "droppedBy": "Galvazzt"
           }
         ],
         "10": [
           {
-            "droppedBy": "Galvazzt",
+            "id": 158369,
+            "inventorySlotId": 13,
+            "name": "Galvanized Stormcrusher",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Galvanized Stormcrusher",
-            "id": 158369
+            "hand": "1h",
+            "weaponClass": "Mace",
+            "droppedBy": "Galvazzt"
           },
           {
-            "droppedBy": null,
+            "id": 159636,
+            "inventorySlotId": 17,
+            "name": "Staff of the Lightning Serpent",
+            "handLabel": "2H",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Staff of the Lightning Serpent",
-            "id": 159636
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": null
           }
         ],
         "0": [
@@ -19937,22 +21113,30 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Zul'jan",
+            "id": 273778,
+            "inventorySlotId": 13,
+            "name": "Polished Lightwood Channeler",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Polished Lightwood Channeler",
-            "id": 273778
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Zul'jan"
           },
           {
-            "droppedBy": "Rav'i",
+            "id": 273780,
+            "inventorySlotId": 13,
+            "name": "Venom-Etched Crescent",
+            "handLabel": "1H",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Venom-Etched Crescent",
-            "id": 273780
+            "hand": "1h",
+            "weaponClass": "Axe",
+            "droppedBy": "Rav'i"
           }
         ]
       },
@@ -20039,19 +21223,27 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Kystia Manaheart",
+            "id": 251123,
+            "inventorySlotId": 17,
+            "name": "Nibbles' Training Rod",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Nibbles' Training Rod",
-            "id": 251123
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": "Kystia Manaheart"
           },
           {
-            "droppedBy": "Lithiel Cinderfury",
-            "stats": [],
+            "id": 258045,
+            "inventorySlotId": 13,
             "name": "Dawnblade's Glaives",
-            "id": 258045
+            "handLabel": "1H",
+            "stats": [],
+            "hand": "1h",
+            "weaponClass": "Warglaive",
+            "droppedBy": "Lithiel Cinderfury"
           }
         ]
       },
@@ -20110,24 +21302,32 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Sentinel of Winter",
+            "id": 251150,
+            "inventorySlotId": 14,
+            "name": "Tempest's Shelter",
+            "handLabel": "OH",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Tempest's Shelter",
-            "id": 251150
+            "hand": "oh",
+            "weaponClass": "Shield",
+            "droppedBy": "Sentinel of Winter"
           }
         ],
         "10": [
           {
-            "droppedBy": "Nalorakk",
+            "id": 251156,
+            "inventorySlotId": 17,
+            "name": "Fallen Speaker's Staff",
+            "handLabel": "2H",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Fallen Speaker's Staff",
-            "id": 251156
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": "Nalorakk"
           }
         ],
         "1": [
@@ -20158,13 +21358,17 @@ window.LOOT_DATA = {
       "585": {
         "10": [
           {
-            "droppedBy": "Atroxus",
+            "id": 251225,
+            "inventorySlotId": 13,
+            "name": "Fang of Contagion",
+            "handLabel": "1H",
             "stats": [
               "Mastery",
               "Versatility"
             ],
-            "name": "Fang of Contagion",
-            "id": 251225
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Atroxus"
           }
         ],
         "7": [
@@ -20245,13 +21449,17 @@ window.LOOT_DATA = {
       "584": {
         "10": [
           {
-            "droppedBy": "Ikuzz the Light Hunter",
+            "id": 251188,
+            "inventorySlotId": 15,
+            "name": "Doompetal",
+            "handLabel": "Ranged",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Doompetal",
-            "id": 251188
+            "hand": "ranged",
+            "weaponClass": "Wand",
+            "droppedBy": "Ikuzz the Light Hunter"
           }
         ],
         "7": [
@@ -20283,13 +21491,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Lightwarden Ruia",
+            "id": 251191,
+            "inventorySlotId": 23,
+            "name": "Luminescent Sprout",
+            "handLabel": "OH",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Luminescent Sprout",
-            "id": 251191
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Lightwarden Ruia"
           }
         ],
         "12": [
@@ -20351,13 +21563,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Mchimba the Embalmer",
+            "id": 159667,
+            "inventorySlotId": 23,
+            "name": "Vessel of Last Rites",
+            "handLabel": "OH",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Vessel of Last Rites",
-            "id": 159667
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Mchimba the Embalmer"
           }
         ],
         "8": [
@@ -20403,22 +21619,30 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "The Golden Serpent",
+            "id": 159137,
+            "inventorySlotId": 13,
+            "name": "Gilded Serpent's Tooth",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Gilded Serpent's Tooth",
-            "id": 159137
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "The Golden Serpent"
           },
           {
-            "droppedBy": "Aka'ali the Conqueror",
+            "id": 160216,
+            "inventorySlotId": 13,
+            "name": "Crackling Jade Kilij",
+            "handLabel": "1H",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Crackling Jade Kilij",
-            "id": 160216
+            "hand": "1h",
+            "weaponClass": "Sword",
+            "droppedBy": "Aka'ali the Conqueror"
           }
         ],
         "0": [
@@ -20436,13 +21660,17 @@ window.LOOT_DATA = {
       "399": {
         "10": [
           {
-            "droppedBy": "Melidrussa Chillworn",
+            "id": 193761,
+            "inventorySlotId": 17,
+            "name": "Chillworn's Infusion Staff",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Chillworn's Infusion Staff",
-            "id": 193761
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": "Melidrussa Chillworn"
           }
         ],
         "7": [
@@ -20477,13 +21705,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Kokia Blazehoof",
+            "id": 193766,
+            "inventorySlotId": 23,
+            "name": "Kokia's Burnout Rod",
+            "handLabel": "OH",
             "stats": [
               "Crit",
               "Versatility"
             ],
-            "name": "Kokia's Burnout Rod",
-            "id": 193766
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Kokia Blazehoof"
           }
         ],
         "3": [
@@ -20595,13 +21827,17 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": null,
+            "id": 159636,
+            "inventorySlotId": 17,
+            "name": "Staff of the Lightning Serpent",
+            "handLabel": "2H",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Staff of the Lightning Serpent",
-            "id": 159636
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": null
           }
         ]
       },
@@ -20641,13 +21877,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "The Writhing Coil",
+            "id": 273779,
+            "inventorySlotId": 23,
+            "name": "Nocuous Focal Fang",
+            "handLabel": "OH",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Nocuous Focal Fang",
-            "id": 273779
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "The Writhing Coil"
           }
         ],
         "8": [
@@ -20688,32 +21928,44 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Zul'jan",
+            "id": 273778,
+            "inventorySlotId": 13,
+            "name": "Polished Lightwood Channeler",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Polished Lightwood Channeler",
-            "id": 273778
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Zul'jan"
           }
         ]
       },
       "587": {
         "10": [
           {
-            "droppedBy": "Kystia Manaheart",
+            "id": 251123,
+            "inventorySlotId": 17,
+            "name": "Nibbles' Training Rod",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Nibbles' Training Rod",
-            "id": 251123
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": "Kystia Manaheart"
           },
           {
-            "droppedBy": "Lithiel Cinderfury",
-            "stats": [],
+            "id": 258045,
+            "inventorySlotId": 13,
             "name": "Dawnblade's Glaives",
-            "id": 258045
+            "handLabel": "1H",
+            "stats": [],
+            "hand": "1h",
+            "weaponClass": "Warglaive",
+            "droppedBy": "Lithiel Cinderfury"
           }
         ],
         "6": [
@@ -20805,13 +22057,17 @@ window.LOOT_DATA = {
       "586": {
         "10": [
           {
-            "droppedBy": "Nalorakk",
+            "id": 251156,
+            "inventorySlotId": 17,
+            "name": "Fallen Speaker's Staff",
+            "handLabel": "2H",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Fallen Speaker's Staff",
-            "id": 251156
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": "Nalorakk"
           }
         ],
         "4": [
@@ -20827,13 +22083,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Sentinel of Winter",
+            "id": 271681,
+            "inventorySlotId": 23,
+            "name": "Perennial Frostbound Charm",
+            "handLabel": "OH",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Perennial Frostbound Charm",
-            "id": 271681
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Sentinel of Winter"
           }
         ],
         "5": [
@@ -20886,13 +22146,17 @@ window.LOOT_DATA = {
       "585": {
         "10": [
           {
-            "droppedBy": "Atroxus",
+            "id": 251225,
+            "inventorySlotId": 13,
+            "name": "Fang of Contagion",
+            "handLabel": "1H",
             "stats": [
               "Mastery",
               "Versatility"
             ],
-            "name": "Fang of Contagion",
-            "id": 251225
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Atroxus"
           }
         ],
         "7": [
@@ -20973,13 +22237,17 @@ window.LOOT_DATA = {
       "584": {
         "10": [
           {
-            "droppedBy": "Ikuzz the Light Hunter",
+            "id": 251188,
+            "inventorySlotId": 15,
+            "name": "Doompetal",
+            "handLabel": "Ranged",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Doompetal",
-            "id": 251188
+            "hand": "ranged",
+            "weaponClass": "Wand",
+            "droppedBy": "Ikuzz the Light Hunter"
           }
         ],
         "7": [
@@ -21011,13 +22279,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Lightwarden Ruia",
+            "id": 251191,
+            "inventorySlotId": 23,
+            "name": "Luminescent Sprout",
+            "handLabel": "OH",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Luminescent Sprout",
-            "id": 251191
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Lightwarden Ruia"
           }
         ],
         "12": [
@@ -21079,13 +22351,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Mchimba the Embalmer",
+            "id": 159667,
+            "inventorySlotId": 23,
+            "name": "Vessel of Last Rites",
+            "handLabel": "OH",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Vessel of Last Rites",
-            "id": 159667
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Mchimba the Embalmer"
           }
         ],
         "8": [
@@ -21131,22 +22407,30 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "The Golden Serpent",
+            "id": 159137,
+            "inventorySlotId": 13,
+            "name": "Gilded Serpent's Tooth",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Gilded Serpent's Tooth",
-            "id": 159137
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "The Golden Serpent"
           },
           {
-            "droppedBy": "Aka'ali the Conqueror",
+            "id": 160216,
+            "inventorySlotId": 13,
+            "name": "Crackling Jade Kilij",
+            "handLabel": "1H",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Crackling Jade Kilij",
-            "id": 160216
+            "hand": "1h",
+            "weaponClass": "Sword",
+            "droppedBy": "Aka'ali the Conqueror"
           }
         ],
         "0": [
@@ -21164,13 +22448,17 @@ window.LOOT_DATA = {
       "399": {
         "10": [
           {
-            "droppedBy": "Melidrussa Chillworn",
+            "id": 193761,
+            "inventorySlotId": 17,
+            "name": "Chillworn's Infusion Staff",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Chillworn's Infusion Staff",
-            "id": 193761
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": "Melidrussa Chillworn"
           }
         ],
         "7": [
@@ -21205,13 +22493,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Kokia Blazehoof",
+            "id": 193766,
+            "inventorySlotId": 23,
+            "name": "Kokia's Burnout Rod",
+            "handLabel": "OH",
             "stats": [
               "Crit",
               "Versatility"
             ],
-            "name": "Kokia's Burnout Rod",
-            "id": 193766
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Kokia Blazehoof"
           }
         ],
         "3": [
@@ -21323,13 +22615,17 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": null,
+            "id": 159636,
+            "inventorySlotId": 17,
+            "name": "Staff of the Lightning Serpent",
+            "handLabel": "2H",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Staff of the Lightning Serpent",
-            "id": 159636
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": null
           }
         ]
       },
@@ -21369,13 +22665,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "The Writhing Coil",
+            "id": 273779,
+            "inventorySlotId": 23,
+            "name": "Nocuous Focal Fang",
+            "handLabel": "OH",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Nocuous Focal Fang",
-            "id": 273779
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "The Writhing Coil"
           }
         ],
         "8": [
@@ -21416,32 +22716,44 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Zul'jan",
+            "id": 273778,
+            "inventorySlotId": 13,
+            "name": "Polished Lightwood Channeler",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Polished Lightwood Channeler",
-            "id": 273778
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Zul'jan"
           }
         ]
       },
       "587": {
         "10": [
           {
-            "droppedBy": "Kystia Manaheart",
+            "id": 251123,
+            "inventorySlotId": 17,
+            "name": "Nibbles' Training Rod",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Nibbles' Training Rod",
-            "id": 251123
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": "Kystia Manaheart"
           },
           {
-            "droppedBy": "Lithiel Cinderfury",
-            "stats": [],
+            "id": 258045,
+            "inventorySlotId": 13,
             "name": "Dawnblade's Glaives",
-            "id": 258045
+            "handLabel": "1H",
+            "stats": [],
+            "hand": "1h",
+            "weaponClass": "Warglaive",
+            "droppedBy": "Lithiel Cinderfury"
           }
         ],
         "6": [
@@ -21533,13 +22845,17 @@ window.LOOT_DATA = {
       "586": {
         "10": [
           {
-            "droppedBy": "Nalorakk",
+            "id": 251156,
+            "inventorySlotId": 17,
+            "name": "Fallen Speaker's Staff",
+            "handLabel": "2H",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Fallen Speaker's Staff",
-            "id": 251156
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": "Nalorakk"
           }
         ],
         "4": [
@@ -21555,13 +22871,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Sentinel of Winter",
+            "id": 271681,
+            "inventorySlotId": 23,
+            "name": "Perennial Frostbound Charm",
+            "handLabel": "OH",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Perennial Frostbound Charm",
-            "id": 271681
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Sentinel of Winter"
           }
         ],
         "5": [
@@ -21614,13 +22934,17 @@ window.LOOT_DATA = {
       "585": {
         "10": [
           {
-            "droppedBy": "Atroxus",
+            "id": 251225,
+            "inventorySlotId": 13,
+            "name": "Fang of Contagion",
+            "handLabel": "1H",
             "stats": [
               "Mastery",
               "Versatility"
             ],
-            "name": "Fang of Contagion",
-            "id": 251225
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Atroxus"
           }
         ],
         "7": [
@@ -21701,13 +23025,17 @@ window.LOOT_DATA = {
       "584": {
         "10": [
           {
-            "droppedBy": "Ikuzz the Light Hunter",
+            "id": 251188,
+            "inventorySlotId": 15,
+            "name": "Doompetal",
+            "handLabel": "Ranged",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Doompetal",
-            "id": 251188
+            "hand": "ranged",
+            "weaponClass": "Wand",
+            "droppedBy": "Ikuzz the Light Hunter"
           }
         ],
         "7": [
@@ -21739,13 +23067,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Lightwarden Ruia",
+            "id": 251191,
+            "inventorySlotId": 23,
+            "name": "Luminescent Sprout",
+            "handLabel": "OH",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Luminescent Sprout",
-            "id": 251191
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Lightwarden Ruia"
           }
         ],
         "12": [
@@ -21807,13 +23139,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Mchimba the Embalmer",
+            "id": 159667,
+            "inventorySlotId": 23,
+            "name": "Vessel of Last Rites",
+            "handLabel": "OH",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Vessel of Last Rites",
-            "id": 159667
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Mchimba the Embalmer"
           }
         ],
         "8": [
@@ -21859,22 +23195,30 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "The Golden Serpent",
+            "id": 159137,
+            "inventorySlotId": 13,
+            "name": "Gilded Serpent's Tooth",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Gilded Serpent's Tooth",
-            "id": 159137
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "The Golden Serpent"
           },
           {
-            "droppedBy": "Aka'ali the Conqueror",
+            "id": 160216,
+            "inventorySlotId": 13,
+            "name": "Crackling Jade Kilij",
+            "handLabel": "1H",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Crackling Jade Kilij",
-            "id": 160216
+            "hand": "1h",
+            "weaponClass": "Sword",
+            "droppedBy": "Aka'ali the Conqueror"
           }
         ],
         "0": [
@@ -21892,13 +23236,17 @@ window.LOOT_DATA = {
       "399": {
         "10": [
           {
-            "droppedBy": "Melidrussa Chillworn",
+            "id": 193761,
+            "inventorySlotId": 17,
+            "name": "Chillworn's Infusion Staff",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Chillworn's Infusion Staff",
-            "id": 193761
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": "Melidrussa Chillworn"
           }
         ],
         "7": [
@@ -21933,13 +23281,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Kokia Blazehoof",
+            "id": 193766,
+            "inventorySlotId": 23,
+            "name": "Kokia's Burnout Rod",
+            "handLabel": "OH",
             "stats": [
               "Crit",
               "Versatility"
             ],
-            "name": "Kokia's Burnout Rod",
-            "id": 193766
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Kokia Blazehoof"
           }
         ],
         "3": [
@@ -22051,13 +23403,17 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": null,
+            "id": 159636,
+            "inventorySlotId": 17,
+            "name": "Staff of the Lightning Serpent",
+            "handLabel": "2H",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Staff of the Lightning Serpent",
-            "id": 159636
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": null
           }
         ]
       },
@@ -22097,13 +23453,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "The Writhing Coil",
+            "id": 273779,
+            "inventorySlotId": 23,
+            "name": "Nocuous Focal Fang",
+            "handLabel": "OH",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Nocuous Focal Fang",
-            "id": 273779
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "The Writhing Coil"
           }
         ],
         "8": [
@@ -22144,32 +23504,44 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Zul'jan",
+            "id": 273778,
+            "inventorySlotId": 13,
+            "name": "Polished Lightwood Channeler",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Polished Lightwood Channeler",
-            "id": 273778
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Zul'jan"
           }
         ]
       },
       "587": {
         "10": [
           {
-            "droppedBy": "Kystia Manaheart",
+            "id": 251123,
+            "inventorySlotId": 17,
+            "name": "Nibbles' Training Rod",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Nibbles' Training Rod",
-            "id": 251123
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": "Kystia Manaheart"
           },
           {
-            "droppedBy": "Lithiel Cinderfury",
-            "stats": [],
+            "id": 258045,
+            "inventorySlotId": 13,
             "name": "Dawnblade's Glaives",
-            "id": 258045
+            "handLabel": "1H",
+            "stats": [],
+            "hand": "1h",
+            "weaponClass": "Warglaive",
+            "droppedBy": "Lithiel Cinderfury"
           }
         ],
         "6": [
@@ -22261,13 +23633,17 @@ window.LOOT_DATA = {
       "586": {
         "10": [
           {
-            "droppedBy": "Nalorakk",
+            "id": 251156,
+            "inventorySlotId": 17,
+            "name": "Fallen Speaker's Staff",
+            "handLabel": "2H",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Fallen Speaker's Staff",
-            "id": 251156
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": "Nalorakk"
           }
         ],
         "4": [
@@ -22283,13 +23659,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Sentinel of Winter",
+            "id": 271681,
+            "inventorySlotId": 23,
+            "name": "Perennial Frostbound Charm",
+            "handLabel": "OH",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Perennial Frostbound Charm",
-            "id": 271681
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Sentinel of Winter"
           }
         ],
         "5": [
@@ -22407,13 +23787,17 @@ window.LOOT_DATA = {
       "584": {
         "10": [
           {
-            "droppedBy": "Meittik",
+            "id": 251180,
+            "inventorySlotId": 13,
+            "name": "Thornblade",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Thornblade",
-            "id": 251180
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Meittik"
           }
         ],
         "7": [
@@ -22491,13 +23875,17 @@ window.LOOT_DATA = {
       "249": {
         "10": [
           {
-            "droppedBy": "Aka'ali the Conqueror",
+            "id": 159136,
+            "inventorySlotId": 13,
+            "name": "Jeweled Dagger of Subjugation",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Jeweled Dagger of Subjugation",
-            "id": 159136
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Aka'ali the Conqueror"
           }
         ],
         "6": [
@@ -22600,13 +23988,17 @@ window.LOOT_DATA = {
       "399": {
         "10": [
           {
-            "droppedBy": null,
+            "id": 193756,
+            "inventorySlotId": 13,
+            "name": "Skyferno Rondel",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Skyferno Rondel",
-            "id": 193756
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": null
           }
         ],
         "6": [
@@ -22775,13 +24167,17 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Zul'jan",
+            "id": 275070,
+            "inventorySlotId": 13,
+            "name": "Sharpened Lightwood Slasher",
+            "handLabel": "1H",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Sharpened Lightwood Slasher",
-            "id": 275070
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Zul'jan"
           }
         ],
         "2": [
@@ -22821,19 +24217,27 @@ window.LOOT_DATA = {
       "587": {
         "10": [
           {
-            "droppedBy": "Zaen Bladesorrow",
+            "id": 251128,
+            "inventorySlotId": 13,
+            "name": "Bladesorrow",
+            "handLabel": "1H",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Bladesorrow",
-            "id": 251128
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Zaen Bladesorrow"
           },
           {
-            "droppedBy": "Lithiel Cinderfury",
-            "stats": [],
+            "id": 258045,
+            "inventorySlotId": 13,
             "name": "Dawnblade's Glaives",
-            "id": 258045
+            "handLabel": "1H",
+            "stats": [],
+            "hand": "1h",
+            "weaponClass": "Warglaive",
+            "droppedBy": "Lithiel Cinderfury"
           }
         ],
         "6": [
@@ -22990,13 +24394,17 @@ window.LOOT_DATA = {
       "585": {
         "10": [
           {
-            "droppedBy": "Atroxus",
+            "id": 251225,
+            "inventorySlotId": 13,
+            "name": "Fang of Contagion",
+            "handLabel": "1H",
             "stats": [
               "Mastery",
               "Versatility"
             ],
-            "name": "Fang of Contagion",
-            "id": 251225
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Atroxus"
           }
         ],
         "7": [
@@ -23077,13 +24485,17 @@ window.LOOT_DATA = {
       "584": {
         "10": [
           {
-            "droppedBy": "Ikuzz the Light Hunter",
+            "id": 251188,
+            "inventorySlotId": 15,
+            "name": "Doompetal",
+            "handLabel": "Ranged",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Doompetal",
-            "id": 251188
+            "hand": "ranged",
+            "weaponClass": "Wand",
+            "droppedBy": "Ikuzz the Light Hunter"
           }
         ],
         "7": [
@@ -23115,13 +24527,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Lightwarden Ruia",
+            "id": 251191,
+            "inventorySlotId": 23,
+            "name": "Luminescent Sprout",
+            "handLabel": "OH",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Luminescent Sprout",
-            "id": 251191
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Lightwarden Ruia"
           }
         ],
         "12": [
@@ -23183,13 +24599,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Mchimba the Embalmer",
+            "id": 159667,
+            "inventorySlotId": 23,
+            "name": "Vessel of Last Rites",
+            "handLabel": "OH",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Vessel of Last Rites",
-            "id": 159667
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Mchimba the Embalmer"
           }
         ],
         "8": [
@@ -23235,22 +24655,30 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "The Golden Serpent",
+            "id": 159137,
+            "inventorySlotId": 13,
+            "name": "Gilded Serpent's Tooth",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Gilded Serpent's Tooth",
-            "id": 159137
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "The Golden Serpent"
           },
           {
-            "droppedBy": "Aka'ali the Conqueror",
+            "id": 160216,
+            "inventorySlotId": 13,
+            "name": "Crackling Jade Kilij",
+            "handLabel": "1H",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Crackling Jade Kilij",
-            "id": 160216
+            "hand": "1h",
+            "weaponClass": "Sword",
+            "droppedBy": "Aka'ali the Conqueror"
           }
         ],
         "0": [
@@ -23268,13 +24696,17 @@ window.LOOT_DATA = {
       "399": {
         "10": [
           {
-            "droppedBy": "Melidrussa Chillworn",
+            "id": 193761,
+            "inventorySlotId": 17,
+            "name": "Chillworn's Infusion Staff",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Chillworn's Infusion Staff",
-            "id": 193761
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": "Melidrussa Chillworn"
           }
         ],
         "7": [
@@ -23309,13 +24741,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Kokia Blazehoof",
+            "id": 193766,
+            "inventorySlotId": 23,
+            "name": "Kokia's Burnout Rod",
+            "handLabel": "OH",
             "stats": [
               "Crit",
               "Versatility"
             ],
-            "name": "Kokia's Burnout Rod",
-            "id": 193766
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Kokia Blazehoof"
           }
         ],
         "3": [
@@ -23427,13 +24863,17 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": null,
+            "id": 159636,
+            "inventorySlotId": 17,
+            "name": "Staff of the Lightning Serpent",
+            "handLabel": "2H",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Staff of the Lightning Serpent",
-            "id": 159636
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": null
           }
         ]
       },
@@ -23473,13 +24913,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "The Writhing Coil",
+            "id": 273779,
+            "inventorySlotId": 23,
+            "name": "Nocuous Focal Fang",
+            "handLabel": "OH",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Nocuous Focal Fang",
-            "id": 273779
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "The Writhing Coil"
           }
         ],
         "8": [
@@ -23520,32 +24964,44 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Zul'jan",
+            "id": 273778,
+            "inventorySlotId": 13,
+            "name": "Polished Lightwood Channeler",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Polished Lightwood Channeler",
-            "id": 273778
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Zul'jan"
           }
         ]
       },
       "587": {
         "10": [
           {
-            "droppedBy": "Kystia Manaheart",
+            "id": 251123,
+            "inventorySlotId": 17,
+            "name": "Nibbles' Training Rod",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Nibbles' Training Rod",
-            "id": 251123
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": "Kystia Manaheart"
           },
           {
-            "droppedBy": "Lithiel Cinderfury",
-            "stats": [],
+            "id": 258045,
+            "inventorySlotId": 13,
             "name": "Dawnblade's Glaives",
-            "id": 258045
+            "handLabel": "1H",
+            "stats": [],
+            "hand": "1h",
+            "weaponClass": "Warglaive",
+            "droppedBy": "Lithiel Cinderfury"
           }
         ],
         "6": [
@@ -23637,13 +25093,17 @@ window.LOOT_DATA = {
       "586": {
         "10": [
           {
-            "droppedBy": "Nalorakk",
+            "id": 251156,
+            "inventorySlotId": 17,
+            "name": "Fallen Speaker's Staff",
+            "handLabel": "2H",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Fallen Speaker's Staff",
-            "id": 251156
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": "Nalorakk"
           }
         ],
         "4": [
@@ -23659,13 +25119,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Sentinel of Winter",
+            "id": 271681,
+            "inventorySlotId": 23,
+            "name": "Perennial Frostbound Charm",
+            "handLabel": "OH",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Perennial Frostbound Charm",
-            "id": 271681
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Sentinel of Winter"
           }
         ],
         "5": [
@@ -23718,13 +25182,17 @@ window.LOOT_DATA = {
       "585": {
         "10": [
           {
-            "droppedBy": "Charonus",
+            "id": 251230,
+            "inventorySlotId": 17,
+            "name": "Charonic Crescent",
+            "handLabel": "2H",
             "stats": [
               "Mastery",
               "Versatility"
             ],
-            "name": "Charonic Crescent",
-            "id": 251230
+            "hand": "2h",
+            "weaponClass": "Polearm",
+            "droppedBy": "Charonus"
           }
         ],
         "0": [
@@ -23775,13 +25243,17 @@ window.LOOT_DATA = {
       "584": {
         "10": [
           {
-            "droppedBy": "Meittik",
+            "id": 251181,
+            "inventorySlotId": 17,
+            "name": "Pruning Lance",
+            "handLabel": "2H",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Pruning Lance",
-            "id": 251181
+            "hand": "2h",
+            "weaponClass": "Polearm",
+            "droppedBy": "Meittik"
           }
         ],
         "6": [
@@ -23934,10 +25406,14 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "King Dazar",
-            "stats": [],
+            "id": 159644,
+            "inventorySlotId": 17,
             "name": "Geti'ikku, Cut of Death",
-            "id": 159644
+            "handLabel": "2H",
+            "stats": [],
+            "hand": "2h",
+            "weaponClass": "Sword",
+            "droppedBy": "King Dazar"
           }
         ],
         "0": [
@@ -23955,13 +25431,17 @@ window.LOOT_DATA = {
       "399": {
         "10": [
           {
-            "droppedBy": null,
+            "id": 193755,
+            "inventorySlotId": 17,
+            "name": "Backdraft Cleaver",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Backdraft Cleaver",
-            "id": 193755
+            "hand": "2h",
+            "weaponClass": "Axe",
+            "droppedBy": null
           }
         ],
         "9": [
@@ -24102,13 +25582,17 @@ window.LOOT_DATA = {
       "588": {
         "10": [
           {
-            "droppedBy": "The Writhing Coil",
+            "id": 273782,
+            "inventorySlotId": 17,
+            "name": "Vile Writhefang Glaive",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Vile Writhefang Glaive",
-            "id": 273782
+            "hand": "2h",
+            "weaponClass": "Polearm",
+            "droppedBy": "The Writhing Coil"
           }
         ],
         "4": [
@@ -24253,19 +25737,27 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Xathuux the Annihilator",
+            "id": 251134,
+            "inventorySlotId": 17,
+            "name": "Xathuux's Cleave",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Xathuux's Cleave",
-            "id": 251134
+            "hand": "2h",
+            "weaponClass": "Axe",
+            "droppedBy": "Xathuux the Annihilator"
           },
           {
-            "droppedBy": "Lithiel Cinderfury",
-            "stats": [],
+            "id": 258045,
+            "inventorySlotId": 13,
             "name": "Dawnblade's Glaives",
-            "id": 258045
+            "handLabel": "1H",
+            "stats": [],
+            "hand": "1h",
+            "weaponClass": "Warglaive",
+            "droppedBy": "Lithiel Cinderfury"
           }
         ],
         "0": [
@@ -24352,13 +25844,17 @@ window.LOOT_DATA = {
       "585": {
         "10": [
           {
-            "droppedBy": "Atroxus",
+            "id": 251225,
+            "inventorySlotId": 13,
+            "name": "Fang of Contagion",
+            "handLabel": "1H",
             "stats": [
               "Mastery",
               "Versatility"
             ],
-            "name": "Fang of Contagion",
-            "id": 251225
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Atroxus"
           }
         ],
         "7": [
@@ -24439,13 +25935,17 @@ window.LOOT_DATA = {
       "584": {
         "10": [
           {
-            "droppedBy": "Ikuzz the Light Hunter",
+            "id": 251188,
+            "inventorySlotId": 15,
+            "name": "Doompetal",
+            "handLabel": "Ranged",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Doompetal",
-            "id": 251188
+            "hand": "ranged",
+            "weaponClass": "Wand",
+            "droppedBy": "Ikuzz the Light Hunter"
           }
         ],
         "7": [
@@ -24477,13 +25977,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Lightwarden Ruia",
+            "id": 251191,
+            "inventorySlotId": 23,
+            "name": "Luminescent Sprout",
+            "handLabel": "OH",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Luminescent Sprout",
-            "id": 251191
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Lightwarden Ruia"
           }
         ],
         "12": [
@@ -24545,13 +26049,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Mchimba the Embalmer",
+            "id": 159667,
+            "inventorySlotId": 23,
+            "name": "Vessel of Last Rites",
+            "handLabel": "OH",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Vessel of Last Rites",
-            "id": 159667
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Mchimba the Embalmer"
           }
         ],
         "8": [
@@ -24597,22 +26105,30 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "The Golden Serpent",
+            "id": 159137,
+            "inventorySlotId": 13,
+            "name": "Gilded Serpent's Tooth",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Gilded Serpent's Tooth",
-            "id": 159137
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "The Golden Serpent"
           },
           {
-            "droppedBy": "Aka'ali the Conqueror",
+            "id": 160216,
+            "inventorySlotId": 13,
+            "name": "Crackling Jade Kilij",
+            "handLabel": "1H",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Crackling Jade Kilij",
-            "id": 160216
+            "hand": "1h",
+            "weaponClass": "Sword",
+            "droppedBy": "Aka'ali the Conqueror"
           }
         ],
         "0": [
@@ -24630,13 +26146,17 @@ window.LOOT_DATA = {
       "399": {
         "10": [
           {
-            "droppedBy": "Melidrussa Chillworn",
+            "id": 193761,
+            "inventorySlotId": 17,
+            "name": "Chillworn's Infusion Staff",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Chillworn's Infusion Staff",
-            "id": 193761
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": "Melidrussa Chillworn"
           }
         ],
         "7": [
@@ -24671,13 +26191,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Kokia Blazehoof",
+            "id": 193766,
+            "inventorySlotId": 23,
+            "name": "Kokia's Burnout Rod",
+            "handLabel": "OH",
             "stats": [
               "Crit",
               "Versatility"
             ],
-            "name": "Kokia's Burnout Rod",
-            "id": 193766
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Kokia Blazehoof"
           }
         ],
         "3": [
@@ -24789,13 +26313,17 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": null,
+            "id": 159636,
+            "inventorySlotId": 17,
+            "name": "Staff of the Lightning Serpent",
+            "handLabel": "2H",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Staff of the Lightning Serpent",
-            "id": 159636
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": null
           }
         ]
       },
@@ -24835,13 +26363,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "The Writhing Coil",
+            "id": 273779,
+            "inventorySlotId": 23,
+            "name": "Nocuous Focal Fang",
+            "handLabel": "OH",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Nocuous Focal Fang",
-            "id": 273779
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "The Writhing Coil"
           }
         ],
         "8": [
@@ -24882,32 +26414,44 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Zul'jan",
+            "id": 273778,
+            "inventorySlotId": 13,
+            "name": "Polished Lightwood Channeler",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Polished Lightwood Channeler",
-            "id": 273778
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Zul'jan"
           }
         ]
       },
       "587": {
         "10": [
           {
-            "droppedBy": "Kystia Manaheart",
+            "id": 251123,
+            "inventorySlotId": 17,
+            "name": "Nibbles' Training Rod",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Nibbles' Training Rod",
-            "id": 251123
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": "Kystia Manaheart"
           },
           {
-            "droppedBy": "Lithiel Cinderfury",
-            "stats": [],
+            "id": 258045,
+            "inventorySlotId": 13,
             "name": "Dawnblade's Glaives",
-            "id": 258045
+            "handLabel": "1H",
+            "stats": [],
+            "hand": "1h",
+            "weaponClass": "Warglaive",
+            "droppedBy": "Lithiel Cinderfury"
           }
         ],
         "6": [
@@ -24999,13 +26543,17 @@ window.LOOT_DATA = {
       "586": {
         "10": [
           {
-            "droppedBy": "Nalorakk",
+            "id": 251156,
+            "inventorySlotId": 17,
+            "name": "Fallen Speaker's Staff",
+            "handLabel": "2H",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Fallen Speaker's Staff",
-            "id": 251156
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": "Nalorakk"
           }
         ],
         "4": [
@@ -25021,13 +26569,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Sentinel of Winter",
+            "id": 271681,
+            "inventorySlotId": 23,
+            "name": "Perennial Frostbound Charm",
+            "handLabel": "OH",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Perennial Frostbound Charm",
-            "id": 271681
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Sentinel of Winter"
           }
         ],
         "5": [
@@ -25121,13 +26673,17 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Taz'Rah",
+            "id": 251218,
+            "inventorySlotId": 13,
+            "name": "Taz'Rah's Cosmic Edge",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Taz'Rah's Cosmic Edge",
-            "id": 251218
+            "hand": "1h",
+            "weaponClass": "Sword",
+            "droppedBy": "Taz'Rah"
           }
         ],
         "0": [
@@ -25203,13 +26759,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Ziekket",
+            "id": 251196,
+            "inventorySlotId": 14,
+            "name": "Teldrassil's Sacrifice",
+            "handLabel": "OH",
             "stats": [
               "Crit",
               "Versatility"
             ],
-            "name": "Teldrassil's Sacrifice",
-            "id": 251196
+            "hand": "oh",
+            "weaponClass": "Shield",
+            "droppedBy": "Ziekket"
           }
         ],
         "3": [
@@ -25225,13 +26785,17 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Ziekket",
+            "id": 251195,
+            "inventorySlotId": 13,
+            "name": "Thorned Reply",
+            "handLabel": "1H",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Thorned Reply",
-            "id": 251195
+            "hand": "1h",
+            "weaponClass": "Sword",
+            "droppedBy": "Ziekket"
           }
         ]
       },
@@ -25336,13 +26900,17 @@ window.LOOT_DATA = {
       "399": {
         "11": [
           {
-            "droppedBy": null,
+            "id": 193754,
+            "inventorySlotId": 14,
+            "name": "Drake Rider's Stecktarge",
+            "handLabel": "OH",
             "stats": [
               "Mastery",
               "Versatility"
             ],
-            "name": "Drake Rider's Stecktarge",
-            "id": 193754
+            "hand": "oh",
+            "weaponClass": "Shield",
+            "droppedBy": null
           }
         ],
         "9": [
@@ -25470,13 +27038,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Galvazzt",
+            "id": 159664,
+            "inventorySlotId": 14,
+            "name": "Bulwark of Brimming Potential",
+            "handLabel": "OH",
             "stats": [
               "Crit",
               "Versatility"
             ],
-            "name": "Bulwark of Brimming Potential",
-            "id": 159664
+            "hand": "oh",
+            "weaponClass": "Shield",
+            "droppedBy": "Galvazzt"
           }
         ],
         "2": [
@@ -25492,13 +27064,17 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Avatar of Sethraliss",
+            "id": 158373,
+            "inventorySlotId": 13,
+            "name": "Resonating Crystal Scimitar",
+            "handLabel": "1H",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Resonating Crystal Scimitar",
-            "id": 158373
+            "hand": "1h",
+            "weaponClass": "Sword",
+            "droppedBy": "Avatar of Sethraliss"
           }
         ]
       },
@@ -25623,10 +27199,14 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Lithiel Cinderfury",
-            "stats": [],
+            "id": 258045,
+            "inventorySlotId": 13,
             "name": "Dawnblade's Glaives",
-            "id": 258045
+            "handLabel": "1H",
+            "stats": [],
+            "hand": "1h",
+            "weaponClass": "Warglaive",
+            "droppedBy": "Lithiel Cinderfury"
           }
         ],
         "2": [
@@ -25726,13 +27306,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Sentinel of Winter",
+            "id": 251150,
+            "inventorySlotId": 14,
+            "name": "Tempest's Shelter",
+            "handLabel": "OH",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Tempest's Shelter",
-            "id": 251150
+            "hand": "oh",
+            "weaponClass": "Shield",
+            "droppedBy": "Sentinel of Winter"
           }
         ],
         "1": [
@@ -25821,35 +27405,47 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Atroxus",
+            "id": 251224,
+            "inventorySlotId": 13,
+            "name": "Hulking Handaxe",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Hulking Handaxe",
-            "id": 251224
+            "hand": "1h",
+            "weaponClass": "Axe",
+            "droppedBy": "Atroxus"
           },
           {
-            "droppedBy": "Charonus",
+            "id": 251231,
+            "inventorySlotId": 13,
+            "name": "Singularity Slicer",
+            "handLabel": "1H",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Singularity Slicer",
-            "id": 251231
+            "hand": "1h",
+            "weaponClass": "Warglaive",
+            "droppedBy": "Charonus"
           }
         ]
       },
       "584": {
         "10": [
           {
-            "droppedBy": "Ikuzz the Light Hunter",
+            "id": 251186,
+            "inventorySlotId": 13,
+            "name": "Thorntalon Edge",
+            "handLabel": "1H",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Thorntalon Edge",
-            "id": 251186
+            "hand": "1h",
+            "weaponClass": "Fist",
+            "droppedBy": "Ikuzz the Light Hunter"
           }
         ],
         "7": [
@@ -26149,13 +27745,17 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Merektha",
+            "id": 158714,
+            "inventorySlotId": 13,
+            "name": "Swarm's Edge",
+            "handLabel": "1H",
             "stats": [
               "Mastery",
               "Versatility"
             ],
-            "name": "Swarm's Edge",
-            "id": 158714
+            "hand": "1h",
+            "weaponClass": "Sword",
+            "droppedBy": "Merektha"
           }
         ],
         "0": [
@@ -26192,13 +27792,17 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Rav'i",
+            "id": 273793,
+            "inventorySlotId": 13,
+            "name": "Hydraspine Twinblade",
+            "handLabel": "1H",
             "stats": [
               "Mastery",
               "Versatility"
             ],
-            "name": "Hydraspine Twinblade",
-            "id": 273793
+            "hand": "1h",
+            "weaponClass": "Warglaive",
+            "droppedBy": "Rav'i"
           }
         ],
         "2": [
@@ -26324,10 +27928,14 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Lithiel Cinderfury",
-            "stats": [],
+            "id": 258045,
+            "inventorySlotId": 13,
             "name": "Dawnblade's Glaives",
-            "id": 258045
+            "handLabel": "1H",
+            "stats": [],
+            "hand": "1h",
+            "weaponClass": "Warglaive",
+            "droppedBy": "Lithiel Cinderfury"
           }
         ],
         "0": [
@@ -26386,13 +27994,17 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "The Hoardmonger",
+            "id": 251143,
+            "inventorySlotId": 13,
+            "name": "Grim Harvest Gloves",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Grim Harvest Gloves",
-            "id": 251143
+            "hand": "1h",
+            "weaponClass": "Fist",
+            "droppedBy": "The Hoardmonger"
           }
         ],
         "2": [
@@ -26423,13 +28035,17 @@ window.LOOT_DATA = {
       "585": {
         "10": [
           {
-            "droppedBy": "Atroxus",
+            "id": 251225,
+            "inventorySlotId": 13,
+            "name": "Fang of Contagion",
+            "handLabel": "1H",
             "stats": [
               "Mastery",
               "Versatility"
             ],
-            "name": "Fang of Contagion",
-            "id": 251225
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Atroxus"
           }
         ],
         "7": [
@@ -26554,13 +28170,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Lightwarden Ruia",
+            "id": 251191,
+            "inventorySlotId": 23,
+            "name": "Luminescent Sprout",
+            "handLabel": "OH",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Luminescent Sprout",
-            "id": 251191
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Lightwarden Ruia"
           }
         ],
         "2": [
@@ -26633,13 +28253,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Mchimba the Embalmer",
+            "id": 159667,
+            "inventorySlotId": 23,
+            "name": "Vessel of Last Rites",
+            "handLabel": "OH",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Vessel of Last Rites",
-            "id": 159667
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Mchimba the Embalmer"
           }
         ],
         "3": [
@@ -26685,35 +28309,47 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "The Golden Serpent",
+            "id": 159137,
+            "inventorySlotId": 13,
+            "name": "Gilded Serpent's Tooth",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Gilded Serpent's Tooth",
-            "id": 159137
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "The Golden Serpent"
           },
           {
-            "droppedBy": "Aka'ali the Conqueror",
+            "id": 160216,
+            "inventorySlotId": 13,
+            "name": "Crackling Jade Kilij",
+            "handLabel": "1H",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Crackling Jade Kilij",
-            "id": 160216
+            "hand": "1h",
+            "weaponClass": "Sword",
+            "droppedBy": "Aka'ali the Conqueror"
           }
         ]
       },
       "399": {
         "10": [
           {
-            "droppedBy": "Melidrussa Chillworn",
+            "id": 193761,
+            "inventorySlotId": 17,
+            "name": "Chillworn's Infusion Staff",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Chillworn's Infusion Staff",
-            "id": 193761
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": "Melidrussa Chillworn"
           }
         ],
         "6": [
@@ -26756,13 +28392,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Kokia Blazehoof",
+            "id": 193766,
+            "inventorySlotId": 23,
+            "name": "Kokia's Burnout Rod",
+            "handLabel": "OH",
             "stats": [
               "Crit",
               "Versatility"
             ],
-            "name": "Kokia's Burnout Rod",
-            "id": 193766
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Kokia Blazehoof"
           }
         ],
         "3": [
@@ -26855,22 +28495,30 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Galvazzt",
+            "id": 158369,
+            "inventorySlotId": 13,
+            "name": "Galvanized Stormcrusher",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Galvanized Stormcrusher",
-            "id": 158369
+            "hand": "1h",
+            "weaponClass": "Mace",
+            "droppedBy": "Galvazzt"
           },
           {
-            "droppedBy": null,
+            "id": 159636,
+            "inventorySlotId": 17,
+            "name": "Staff of the Lightning Serpent",
+            "handLabel": "2H",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Staff of the Lightning Serpent",
-            "id": 159636
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": null
           }
         ],
         "0": [
@@ -26929,13 +28577,17 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "The Writhing Coil",
+            "id": 273779,
+            "inventorySlotId": 23,
+            "name": "Nocuous Focal Fang",
+            "handLabel": "OH",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Nocuous Focal Fang",
-            "id": 273779
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "The Writhing Coil"
           }
         ],
         "12": [
@@ -26951,22 +28603,30 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Zul'jan",
+            "id": 273778,
+            "inventorySlotId": 13,
+            "name": "Polished Lightwood Channeler",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Polished Lightwood Channeler",
-            "id": 273778
+            "hand": "1h",
+            "weaponClass": "Dagger",
+            "droppedBy": "Zul'jan"
           },
           {
-            "droppedBy": "Rav'i",
+            "id": 273780,
+            "inventorySlotId": 13,
+            "name": "Venom-Etched Crescent",
+            "handLabel": "1H",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Venom-Etched Crescent",
-            "id": 273780
+            "hand": "1h",
+            "weaponClass": "Axe",
+            "droppedBy": "Rav'i"
           }
         ]
       },
@@ -27053,19 +28713,27 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Kystia Manaheart",
+            "id": 251123,
+            "inventorySlotId": 17,
+            "name": "Nibbles' Training Rod",
+            "handLabel": "2H",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Nibbles' Training Rod",
-            "id": 251123
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": "Kystia Manaheart"
           },
           {
-            "droppedBy": "Lithiel Cinderfury",
-            "stats": [],
+            "id": 258045,
+            "inventorySlotId": 13,
             "name": "Dawnblade's Glaives",
-            "id": 258045
+            "handLabel": "1H",
+            "stats": [],
+            "hand": "1h",
+            "weaponClass": "Warglaive",
+            "droppedBy": "Lithiel Cinderfury"
           }
         ]
       },
@@ -27124,24 +28792,32 @@ window.LOOT_DATA = {
         ],
         "11": [
           {
-            "droppedBy": "Sentinel of Winter",
+            "id": 271681,
+            "inventorySlotId": 23,
+            "name": "Perennial Frostbound Charm",
+            "handLabel": "OH",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Perennial Frostbound Charm",
-            "id": 271681
+            "hand": "oh",
+            "weaponClass": "Off-hand Frills",
+            "droppedBy": "Sentinel of Winter"
           }
         ],
         "10": [
           {
-            "droppedBy": "Nalorakk",
+            "id": 251156,
+            "inventorySlotId": 17,
+            "name": "Fallen Speaker's Staff",
+            "handLabel": "2H",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Fallen Speaker's Staff",
-            "id": 251156
+            "hand": "2h",
+            "weaponClass": "Staff",
+            "droppedBy": "Nalorakk"
           }
         ],
         "1": [
@@ -27235,35 +28911,47 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Atroxus",
+            "id": 251224,
+            "inventorySlotId": 13,
+            "name": "Hulking Handaxe",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Mastery"
             ],
-            "name": "Hulking Handaxe",
-            "id": 251224
+            "hand": "1h",
+            "weaponClass": "Axe",
+            "droppedBy": "Atroxus"
           },
           {
-            "droppedBy": "Charonus",
+            "id": 251231,
+            "inventorySlotId": 13,
+            "name": "Singularity Slicer",
+            "handLabel": "1H",
             "stats": [
               "Crit",
               "Haste"
             ],
-            "name": "Singularity Slicer",
-            "id": 251231
+            "hand": "1h",
+            "weaponClass": "Warglaive",
+            "droppedBy": "Charonus"
           }
         ]
       },
       "584": {
         "10": [
           {
-            "droppedBy": "Ikuzz the Light Hunter",
+            "id": 251186,
+            "inventorySlotId": 13,
+            "name": "Thorntalon Edge",
+            "handLabel": "1H",
             "stats": [
               "Crit",
               "Mastery"
             ],
-            "name": "Thorntalon Edge",
-            "id": 251186
+            "hand": "1h",
+            "weaponClass": "Fist",
+            "droppedBy": "Ikuzz the Light Hunter"
           }
         ],
         "7": [
@@ -27565,13 +29253,17 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Merektha",
+            "id": 158714,
+            "inventorySlotId": 13,
+            "name": "Swarm's Edge",
+            "handLabel": "1H",
             "stats": [
               "Mastery",
               "Versatility"
             ],
-            "name": "Swarm's Edge",
-            "id": 158714
+            "hand": "1h",
+            "weaponClass": "Sword",
+            "droppedBy": "Merektha"
           }
         ],
         "0": [
@@ -27614,13 +29306,17 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Rav'i",
+            "id": 273793,
+            "inventorySlotId": 13,
+            "name": "Hydraspine Twinblade",
+            "handLabel": "1H",
             "stats": [
               "Mastery",
               "Versatility"
             ],
-            "name": "Hydraspine Twinblade",
-            "id": 273793
+            "hand": "1h",
+            "weaponClass": "Warglaive",
+            "droppedBy": "Rav'i"
           }
         ],
         "2": [
@@ -27740,10 +29436,14 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "Lithiel Cinderfury",
-            "stats": [],
+            "id": 258045,
+            "inventorySlotId": 13,
             "name": "Dawnblade's Glaives",
-            "id": 258045
+            "handLabel": "1H",
+            "stats": [],
+            "hand": "1h",
+            "weaponClass": "Warglaive",
+            "droppedBy": "Lithiel Cinderfury"
           }
         ],
         "0": [
@@ -27794,13 +29494,17 @@ window.LOOT_DATA = {
         ],
         "10": [
           {
-            "droppedBy": "The Hoardmonger",
+            "id": 251143,
+            "inventorySlotId": 13,
+            "name": "Grim Harvest Gloves",
+            "handLabel": "1H",
             "stats": [
               "Haste",
               "Versatility"
             ],
-            "name": "Grim Harvest Gloves",
-            "id": 251143
+            "hand": "1h",
+            "weaponClass": "Fist",
+            "droppedBy": "The Hoardmonger"
           }
         ],
         "2": [

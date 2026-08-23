@@ -172,6 +172,20 @@ foreach ($dungeon in $data.dungeons) {
             $entry["name"] = [string]$item.name
             $entry["droppedBy"] = $item.droppedBy
             $entry["stats"] = $stats.ToArray()
+            if ($item.hand) {
+                $entry["hand"] = [string]$item.hand
+                $entry["handLabel"] = switch ([string]$item.hand) {
+                    "1h" { "1H" }
+                    "2h" { "2H" }
+                    "oh" { "OH" }
+                    "ranged" { "Ranged" }
+                    default { [string]$item.hand }
+                }
+            }
+            if ($item.weaponClass) { $entry["weaponClass"] = [string]$item.weaponClass }
+            if ($null -ne $item.inventorySlotId -and "$($item.inventorySlotId)" -ne "") {
+                $entry["inventorySlotId"] = [int]$item.inventorySlotId
+            }
             $dungeonGrid[$slotId].Add($entry)
         }
     }

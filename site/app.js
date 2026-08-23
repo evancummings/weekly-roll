@@ -108,7 +108,7 @@
 
   function readWeaponStyle() {
     const raw = (params.get("weapons") || localStorage.getItem(STORAGE_WEAPON) || "2h").toLowerCase();
-    return raw === "dw" || raw === "dual" ? "dw" : "2h";
+    return raw === "dw" || raw === "dual" || raw === "mhoh" || raw === "mh" || raw === "oh" ? "mhoh" : "2h";
   }
 
   function parseSlotCounts(raw) {
@@ -135,7 +135,7 @@
   function slotCapacity(slot) {
     const id = Number(slot.id ?? slot);
     if (id === SLOT_FINGER || id === SLOT_TRINKET) return 2;
-    if (id === SLOT_WEAPON) return weaponStyle === "dw" ? 2 : 1;
+    if (id === SLOT_WEAPON) return weaponStyle === "mhoh" ? 2 : 1;
     return 1;
   }
 
@@ -176,11 +176,34 @@
 
   function bonusFillCount(slot) {
     const id = Number(slot.id ?? slot);
-    return bonusWins.filter((win) => Number(win.slotId) === id).length;
+    return bonusWins.filter((win) => {
+      if (Number(win.slotId) !== id) return false;
+      const found = findEntry(win.dungeonId, win.slotId, win.key);
+      return !isWrongWeaponStyle(found || win, slot);
+    }).length;
   }
 
   function isOffhandUnused() {
     return weaponStyle === "2h";
+  }
+
+  function handLabel(entry) {
+    if (entry.handLabel) return entry.handLabel;
+    if (entry.hand === "1h") return "1H";
+    if (entry.hand === "2h") return "2H";
+    if (entry.hand === "oh") return "OH";
+    if (entry.hand === "ranged") return "Ranged";
+    return "";
+  }
+
+  function isWrongWeaponStyle(entry, slot) {
+    const id = Number(slot.id ?? slot);
+    if (id === SLOT_OFFHAND) return weaponStyle === "2h";
+    if (id !== SLOT_WEAPON) return false;
+    const hand = entry.hand;
+    if (!hand) return false;
+    if (weaponStyle === "2h") return hand === "1h" || hand === "oh";
+    return hand === "2h";
   }
 
   function isSlotFilled(slot) {
@@ -231,6 +254,7 @@
       id: entry.id ?? null,
       name: entry.name,
       stats: entry.stats || [],
+      hand: entry.hand || null,
       droppedBy: entry.droppedBy || "",
       dungeonId: dungeon.id,
       dungeonName: dungeon.name,
@@ -310,7 +334,7 @@
   }
 
   function poolKind(entry, slot) {
-    if (isSlotFilled(slot)) return "waste";
+    if (isSlotFilled(slot) || isWrongWeaponStyle(entry, slot)) return "waste";
     const present = itemStats(entry);
     const hasFirst = present.includes(statOrder[0]);
     const hasSecond = present.includes(statOrder[1]);
@@ -369,6 +393,7 @@
     let best = null;
     entries.forEach((entry) => {
       if (isBonusWin(dropKey(dungeon, slot, entry))) return;
+      if (isWrongWeaponStyle(entry, slot)) return;
       const tier = matchInfo(entry.stats).tier;
       if (!tier) return;
       if (!best || TIER_RANK[tier] > TIER_RANK[best]) best = tier;
@@ -381,18 +406,25 @@
     const key = dropKey(dungeon, slot, entry);
     const won = isBonusWin(key);
     const filled = isSlotFilled(slot);
-    const tier = won || filled ? null : matchInfo(stats).tier;
-    const titleParts = [entry.name, entry.droppedBy].filter(Boolean);
+    const wrongStyle = isWrongWeaponStyle(entry, slot);
+    const wasted = filled || wrongStyle;
+    const tier = won || wasted ? null : matchInfo(stats).tier;
+    const tag = handLabel(entry);
+    const type = entry.weaponClass ? `${tag ? `${tag} ` : ""}${entry.weaponClass}` : tag;
+    const titleParts = [entry.name, type, entry.droppedBy].filter(Boolean);
     const title = won
       ? escapeHtml(`${titleParts.join(" — ")} — won by bonus roll, removed from pool`)
       : filled
         ? escapeHtml(`${titleParts.join(" — ")} — slot filled, treated as waste`)
-        : escapeHtml(titleParts.join(" — "));
+        : wrongStyle
+          ? escapeHtml(`${titleParts.join(" — ")} — wrong weapon style, treated as waste`)
+          : escapeHtml(titleParts.join(" — "));
+    const tagHtml = tag ? `<span class="hand-tag">${escapeHtml(tag)}</span>` : "";
     const statsHtml = stats.length
       ? stats.map((stat) => `<span class="stat ${statClassName(stat)}">${escapeHtml(stat)}</span>`).join(" / ")
-      : `<span class="item-name">${escapeHtml(entry.name || "No stats")}</span>`;
+      : `<span class="item-name">${tagHtml}${escapeHtml(entry.name || "No stats")}</span>`;
     const nameHtml = stats.length && entry.name
-      ? `<div class="item-name">${escapeHtml(entry.name)}</div>`
+      ? `<div class="item-name">${tagHtml}${escapeHtml(entry.name)}</div>`
       : "";
     const rollHtml = won
       ? ""
@@ -400,7 +432,7 @@
         <img src="icons/inv_misc_dice_02.jpg" alt="" width="22" height="22">
       </button>`;
 
-    return `<div class="drop${tier ? ` match-${tier}` : ""}${won ? " bonus-won" : ""}${filled && !won ? " slot-filled" : ""}" title="${title}">
+    return `<div class="drop${tier ? ` match-${tier}` : ""}${won ? " bonus-won" : ""}${wasted && !won ? " slot-filled" : ""}" title="${title}">
       ${rollHtml}
       <div class="stats">${statsHtml}</div>
       ${nameHtml}
@@ -418,7 +450,7 @@
       const statsHtml = stats.length
         ? stats.map((stat) => `<span class="stat ${statClassName(stat)}">${escapeHtml(stat)}</span>`).join(" / ")
         : "No stats";
-      const place = [win.slotName, win.dungeonShort || win.dungeonName].filter(Boolean).join(" · ");
+      const place = [handLabel(win), win.slotName, win.dungeonShort || win.dungeonName].filter(Boolean).join(" · ");
       return `<li class="bonus-win">
         <div class="copy">
           <div class="name">${escapeHtml(win.name)}</div>
@@ -537,7 +569,7 @@
         ${countCells("upgrade")}
       </tr>
       <tr class="pool-counts">
-        <th title="Remaining items with neither of your top two stats">Waste</th>
+        <th title="Remaining items with neither of your top two stats, a filled slot, or the wrong weapon style">Waste</th>
         ${countCells("waste")}
       </tr>
       <tr class="pool-pcts pool-rule">
@@ -639,7 +671,7 @@
   document.querySelectorAll("input[name='weapon-style']").forEach((input) => {
     input.addEventListener("change", () => {
       if (!input.checked) return;
-      weaponStyle = input.value === "dw" ? "dw" : "2h";
+      weaponStyle = input.value === "mhoh" || input.value === "dw" ? "mhoh" : "2h";
       const weaponId = String(SLOT_WEAPON);
       if (includeSlots[weaponId] != null) {
         includeSlots[weaponId] = Math.min(slotCapacity(SLOT_WEAPON), includeSlots[weaponId]);
