@@ -794,11 +794,12 @@
           ? escapeHtml(`${titleParts.join(" — ")} — wrong weapon style, treated as waste`)
           : escapeHtml(titleParts.join(" — "));
     const tagHtml = tag ? `<span class="hand-tag">${escapeHtml(tag)}</span>` : "";
+    const bisHtml = tier === "perfect" ? `<span class="bis-tag">BIS</span>` : "";
     const statsHtml = stats.length
-      ? stats.map((stat) => `<span class="stat ${statClassName(stat)}">${escapeHtml(stat)}</span>`).join(" / ")
-      : `<span class="item-name">${iconHtml(entry.icon)}${tagHtml}${escapeHtml(entry.name || "No stats")}</span>`;
+      ? `<span class="stat-line">${stats.map((stat) => `<span class="stat ${statClassName(stat)}">${escapeHtml(stat)}</span>`).join(" / ")}</span>${bisHtml}`
+      : `<span class="item-name">${tagHtml}${escapeHtml(entry.name || "No stats")}</span>`;
     const nameHtml = stats.length && entry.name
-      ? `<div class="item-name">${iconHtml(entry.icon)}${tagHtml}<span>${escapeHtml(entry.name)}</span></div>`
+      ? `<div class="item-name">${tagHtml}<span>${escapeHtml(entry.name)}</span></div>`
       : "";
     const rollHtml = won
       ? ""
@@ -808,8 +809,11 @@
 
     return `<div class="drop${tier ? ` match-${tier}` : ""}${won ? " bonus-won" : ""}${wasted && !won ? " slot-filled" : ""}" title="${title}">
       ${rollHtml}
-      <div class="stats">${statsHtml}</div>
-      ${nameHtml}
+      ${iconHtml(entry.icon)}
+      <div class="drop-copy">
+        <div class="stats">${statsHtml}</div>
+        ${nameHtml}
+      </div>
     </div>`;
   }
 

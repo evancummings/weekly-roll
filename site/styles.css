@@ -786,20 +786,6 @@ tbody tr:hover td.match-faint { background: #262c1f; }
   font-weight: 800;
 }
 
-.drop.match-perfect .stats::after {
-  display: block;
-  width: fit-content;
-  content: "BEST";
-  margin: 4px 0 0;
-  padding: 1px 6px;
-  border: 1px solid #c9a227;
-  border-radius: 3px;
-  color: #ffe066;
-  font-size: 10px;
-  font-weight: 800;
-  letter-spacing: 0.08em;
-}
-
 .drop.match-perfect .item-name {
   color: #d8d0b4;
 }
@@ -812,11 +798,48 @@ tbody tr:hover td.match-faint { background: #262c1f; }
 .drop {
   position: relative;
   display: grid;
-  gap: 3px;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 8px;
   padding: 7px 30px 7px 7px;
   border: 1px solid transparent;
   border-radius: 6px;
   transition: border-color 0.12s ease, background-color 0.12s ease;
+}
+
+.drop > .item-icon {
+  grid-row: 1 / -1;
+  width: 36px;
+  height: 36px;
+  border-radius: 4px;
+}
+
+.drop-copy {
+  display: grid;
+  gap: 2px;
+  min-width: 0;
+}
+
+.drop:not(:has(> .item-icon)) .drop-copy {
+  grid-column: 1 / -1;
+}
+
+.drop .stats {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+}
+
+.bis-tag {
+  display: inline-block;
+  padding: 1px 6px;
+  border: 1px solid #c9a227;
+  border-radius: 3px;
+  color: #ffe066;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
 }
 
 .drop:hover {
