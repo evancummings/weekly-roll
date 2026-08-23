@@ -201,7 +201,7 @@ h1 {
 }
 
 .plan-modal {
-  width: min(980px, calc(100vw - 24px));
+  width: min(1280px, calc(100vw - 24px));
   max-height: calc(100vh - 20px);
 }
 
@@ -262,13 +262,35 @@ h1 {
   font-size: 16px;
 }
 
+.plan-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 22px;
+  align-items: start;
+}
+
+.plan-scenario {
+  min-width: 0;
+}
+
 .plan-scenario h3 {
   margin-bottom: 6px;
   font-size: 13px;
 }
 
 .plan-scenario > p {
+  margin-bottom: 12px;
   font-size: 16px;
+}
+
+.plan-scenario .plan-pick {
+  margin-bottom: 14px;
+}
+
+@media (max-width: 900px) {
+  .plan-columns {
+    grid-template-columns: 1fr;
+  }
 }
 
 .plan-ranks {

@@ -377,10 +377,10 @@
     });
   }
 
-  function comparePlanNet(a, b) {
+  function comparePlanUpgrade(a, b) {
     return (b.netPct || 0) - (a.netPct || 0)
-      || (b.bisPct || 0) - (a.bisPct || 0)
-      || b.bis - a.bis
+      || (b.upgradePct || 0) - (a.upgradePct || 0)
+      || b.upgrade - a.upgrade
       || b.remaining - a.remaining;
   }
 
@@ -391,36 +391,51 @@
       || b.remaining - a.remaining;
   }
 
-  function comparePlanWaste(a, b) {
-    const wasteA = a.remaining ? a.waste / a.remaining : 1;
-    const wasteB = b.remaining ? b.waste / b.remaining : 1;
-    return wasteA - wasteB
-      || (b.netPct || 0) - (a.netPct || 0)
-      || b.bis - a.bis;
-  }
-
-  function renderPlanTargets(targets) {
+  function renderPlanTargets(targets, prefer) {
     if (!targets.length) {
       return `<p class="plan-odds">No remaining BIS or upgrade items.</p>`;
     }
-    return `<ul class="plan-targets">${targets.map(({ kind, entry, slot }) => {
+    const ordered = targets.slice().sort((a, b) => {
+      if (prefer === "upgrade") return Number(a.kind !== "upgrade") - Number(b.kind !== "upgrade");
+      return Number(a.kind !== "bis") - Number(b.kind !== "bis");
+    });
+    return `<ul class="plan-targets">${ordered.map(({ kind, entry, slot }) => {
       const stats = (entry.stats || []).join(" / ");
       const detail = [slot.name, stats].filter(Boolean).join(" · ");
       return `<li><span class="plan-tag ${kind}">${kind === "bis" ? "BIS" : "UP"}</span>${escapeHtml(entry.name || "Unknown")}${detail ? ` · ${escapeHtml(detail)}` : ""}</li>`;
     }).join("")}</ul>`;
   }
 
-  function renderPlanRanks(rows) {
+  function renderPlanRanks(rows, prefer) {
     return `<ol class="plan-ranks">${rows.map((row) => {
+      const odds = prefer === "bis"
+        ? `${formatPct(row.bisPct)} BIS · ${row.bis} BIS / ${row.upgrade} upgrade / ${row.remaining} left`
+        : `${formatPct(row.netPct)} net upgrade · ${row.upgrade} upgrade / ${row.bis} BIS / ${row.remaining} left`;
       return `<li>
         <div class="plan-rank-head">
           <strong>${escapeHtml(row.dungeon.name)}</strong>
           <span class="plan-short">${escapeHtml(row.dungeon.shortName)}</span>
         </div>
-        <p class="plan-odds">${formatPct(row.netPct)} net · ${formatPct(row.bisPct)} BIS · ${row.bis} BIS / ${row.upgrade} upgrade / ${row.remaining} left</p>
-        ${renderPlanTargets(row.targets)}
+        <p class="plan-odds">${odds}</p>
+        ${renderPlanTargets(row.targets, prefer)}
       </li>`;
     }).join("")}</ol>`;
+  }
+
+  function renderPlanColumn(title, blurb, pick, rows, prefer) {
+    const pickMeta = prefer === "bis"
+      ? `${formatPct(pick.bisPct)} chance of BIS · ${formatPct(pick.netPct)} net upgrade`
+      : `${formatPct(pick.netPct)} chance of a BIS or upgrade · ${formatPct(pick.bisPct)} BIS`;
+    return `<section class="plan-scenario">
+      <h3>${title}</h3>
+      <p>${blurb}</p>
+      <div class="plan-pick">
+        <p class="label">Recommended spend</p>
+        <strong>${escapeHtml(pick.dungeon.name)}</strong>
+        <p class="meta">${pickMeta}</p>
+      </div>
+      ${renderPlanRanks(rows, prefer)}
+    </section>`;
   }
 
   function renderWeeklyPlan() {
@@ -431,34 +446,28 @@
       return;
     }
 
-    const byNet = live.slice().sort(comparePlanNet);
+    const byUpgrade = live.slice().sort(comparePlanUpgrade);
     const byBis = live.slice().sort(comparePlanBis);
-    const byWaste = live.slice().sort(comparePlanWaste);
-    const pick = byNet[0];
     const specName = specSelect.options[specSelect.selectedIndex]?.text || "this spec";
 
     planBody.innerHTML = `
-      <p class="plan-lead">Ranked from the remaining ${escapeHtml(specName)} pool after your current stat order, weapon style, included slots, and bonus-roll wins. A weekly bonus roll is a uniform draw from that dungeon’s leftover items.</p>
-      <div class="plan-pick">
-        <p class="label">Recommended spend</p>
-        <strong>${escapeHtml(pick.dungeon.name)}</strong>
-        <p class="meta">${formatPct(pick.netPct)} chance of a BIS or upgrade · ${formatPct(pick.bisPct)} chance of BIS</p>
+      <p class="plan-lead">Two weekly-roll rankings from the remaining ${escapeHtml(specName)} pool after your current stat order, weapon style, included slots, and bonus-roll wins. A bonus roll is a uniform draw from that dungeon’s leftover items.</p>
+      <div class="plan-columns">
+        ${renderPlanColumn(
+          "Prioritize upgrades",
+          "Highest odds that the roll is a BIS or upgrade instead of waste.",
+          byUpgrade[0],
+          byUpgrade,
+          "upgrade"
+        )}
+        ${renderPlanColumn(
+          "Prioritize BIS",
+          "Highest odds of both top stats, even if the dungeon is riskier overall.",
+          byBis[0],
+          byBis,
+          "bis"
+        )}
       </div>
-      <section class="plan-scenario">
-        <h3>Best net upgrade</h3>
-        <p>Highest odds that the roll is not waste.</p>
-        ${renderPlanRanks(byNet)}
-      </section>
-      <section class="plan-scenario">
-        <h3>Chase BIS</h3>
-        <p>Highest odds of both top stats, even if the dungeon is riskier overall.</p>
-        ${renderPlanRanks(byBis)}
-      </section>
-      <section class="plan-scenario">
-        <h3>Least waste</h3>
-        <p>Lowest share of remaining items that would not help.</p>
-        ${renderPlanRanks(byWaste)}
-      </section>
     `;
   }
 
