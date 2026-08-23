@@ -851,6 +851,11 @@ tbody tr:hover td.match-faint { background: #262c1f; }
   font-size: 12px;
 }
 
+.bonus-win .when {
+  color: #b7b09c;
+  font-size: 12px;
+}
+
 .bonus-win button {
   flex: 0 0 auto;
   padding: 4px 8px;

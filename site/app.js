@@ -562,6 +562,19 @@
       : "Roll History";
   }
 
+  function formatWonAt(value) {
+    if (!value) return "";
+    const date = new Date(value);
+    if (Number.isNaN(date.getTime())) return "";
+    return date.toLocaleString(undefined, {
+      year: "numeric",
+      month: "short",
+      day: "numeric",
+      hour: "numeric",
+      minute: "2-digit"
+    });
+  }
+
   function renderBonusSummary() {
     syncHistoryButton();
     if (!bonusWinsEl) return;
@@ -576,10 +589,12 @@
         ? stats.map((stat) => `<span class="stat ${statClassName(stat)}">${escapeHtml(stat)}</span>`).join(" / ")
         : "No stats";
       const place = [handLabel(win), win.slotName, win.dungeonShort || win.dungeonName].filter(Boolean).join(" · ");
+      const when = formatWonAt(win.wonAt);
       return `<li class="bonus-win">
         <div class="copy">
           <div class="name">${iconHtml(win.icon)}${escapeHtml(win.name)}</div>
           <div class="meta">${statsHtml} · ${escapeHtml(place)}</div>
+          <div class="when">${when ? escapeHtml(when) : "Date unknown"}</div>
         </div>
         <button type="button" data-remove-win="${escapeHtml(win.key)}">Remove</button>
       </li>`;
