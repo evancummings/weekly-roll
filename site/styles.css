@@ -203,7 +203,7 @@ h1 {
 }
 
 #help-modal {
-  width: min(720px, calc(100vw - 32px));
+  width: min(980px, calc(100vw - 32px));
 }
 
 #help-modal .help-card > header {
@@ -216,8 +216,15 @@ h1 {
 }
 
 #help-modal .help-body {
-  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  gap: 22px 32px;
   padding: 20px 24px 24px;
+}
+
+@media (max-width: 720px) {
+  #help-modal .help-body {
+    grid-template-columns: 1fr;
+  }
 }
 
 #help-modal .help-body h3 {
