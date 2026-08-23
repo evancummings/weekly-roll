@@ -431,11 +431,19 @@ select:focus {
   outline-offset: 1px;
 }
 
+.setup-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 14px 16px;
+  min-width: 0;
+}
+
 .pref {
   display: grid;
   align-content: end;
   gap: 6px;
-  flex: 1 1 280px;
+  flex: 0 1 auto;
   min-width: 0;
 }
 
@@ -1004,9 +1012,11 @@ tfoot tr.pool-net td {
   }
 
   .filters label,
-  .pref {
+  .pref,
+  .setup-row {
     min-width: 0;
     flex-basis: auto;
+    width: 100%;
   }
 
   .header-actions,
