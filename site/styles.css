@@ -970,6 +970,26 @@ tbody tr:hover td.match-faint { background: #262c1f; }
   font-weight: 650;
 }
 
+.source-badge {
+  display: inline-block;
+  padding: 1px 6px;
+  border-radius: 3px;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.source-badge.mplus {
+  border: 1px solid #6b7344;
+  color: #c5d18a;
+}
+
+.source-badge.raid {
+  border: 1px solid #c9a227;
+  color: #f2e08a;
+}
+
 .bonus-win .meta {
   color: var(--muted);
   font-size: 12px;

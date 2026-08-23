@@ -513,6 +513,7 @@
       dungeonId: dungeon.id,
       dungeonName: dungeon.name,
       dungeonShort: dungeon.shortName,
+      sourceType: isRaidMode() ? "raid" : "mplus",
       slotId: slot.id,
       slotName: slot.name,
       wonAt: new Date().toISOString()
@@ -832,6 +833,12 @@
     });
   }
 
+  function winSourceType(win) {
+    if (win.sourceType === "raid" || win.sourceType === "mplus") return win.sourceType;
+    if (bossList().some((boss) => String(boss.id) === String(win.dungeonId))) return "raid";
+    return "mplus";
+  }
+
   function renderBonusSummary() {
     syncHistoryButton();
     if (!bonusWinsEl) return;
@@ -847,9 +854,13 @@
         : "No stats";
       const place = [handLabel(win), win.slotName, win.dungeonShort || win.dungeonName].filter(Boolean).join(" · ");
       const when = formatWonAt(win.wonAt);
+      const source = winSourceType(win);
+      const badge = source === "raid"
+        ? `<span class="source-badge raid">Raid</span>`
+        : `<span class="source-badge mplus">M+</span>`;
       return `<li class="bonus-win">
         <div class="copy">
-          <div class="name">${iconHtml(win.icon)}${escapeHtml(win.name)}</div>
+          <div class="name">${iconHtml(win.icon)}${escapeHtml(win.name)}${badge}</div>
           <div class="meta">${statsHtml} · ${escapeHtml(place)}</div>
           <div class="when">${when ? escapeHtml(when) : "Date unknown"}</div>
         </div>
