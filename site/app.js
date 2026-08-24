@@ -687,8 +687,8 @@
   function renderPlanRanks(rows, prefer) {
     return `<ol class="plan-ranks">${rows.map((row) => {
       const odds = prefer === "bis"
-        ? `${formatPct(row.bisPct)} BIS · ${row.bis} BIS / ${row.upgrade} upgrade / ${row.remaining} left`
-        : `${formatPct(row.netPct)} net upgrade · ${row.upgrade} upgrade / ${row.bis} BIS / ${row.remaining} left`;
+        ? `${formatPct(row.bisPct)} BIS · ${row.bis} BIS / ${row.upgrade} upgrade`
+        : `${formatPct(row.netPct)} net upgrade · ${row.upgrade} upgrade / ${row.bis} BIS`;
       return `<li>
         <div class="plan-rank-head">
           <strong>${escapeHtml(row.dungeon.name)}</strong>
