@@ -571,31 +571,19 @@ select:focus {
   min-width: 0;
 }
 
-.trinket-launch {
-  display: grid;
-  align-content: end;
-  gap: 6px;
-}
-
-.trinket-launch > span {
-  color: var(--muted);
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
-.trinket-picks {
-  display: flex;
-  align-items: stretch;
-  gap: 8px;
-}
-
 .trinket-open {
   display: inline-flex;
   align-items: center;
   gap: 8px;
   height: var(--control-h);
+}
+
+.trinket-include {
+  justify-self: start;
+}
+
+.trinket-include .weapon-picks {
+  width: max-content;
 }
 
 .trinket-count {
@@ -1497,8 +1485,7 @@ tfoot tr.pool-net td {
   }
 
   .header-actions,
-  .weapon-picks,
-  .trinket-picks {
+  .weapon-picks {
     width: 100%;
     margin-left: 0;
     justify-content: stretch;

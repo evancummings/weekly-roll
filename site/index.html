@@ -6,7 +6,7 @@
   <title>Weekly Roll</title>
   <link rel="icon" href="icons/dice.png?v=alpha" type="image/png">
   <link rel="apple-touch-icon" href="icons/dice.png?v=alpha">
-  <link rel="stylesheet" href="styles.css?v=trinket-src2">
+  <link rel="stylesheet" href="styles.css?v=trinket-modal-src">
   <script>
     window.whTooltips = { colorLinks: false, iconizeLinks: false, renameLinks: false };
   </script>
@@ -71,19 +71,10 @@
             <label><input type="radio" name="weapon-style" value="mhoh"> MH/OH</label>
           </div>
         </fieldset>
-        <div class="trinket-launch">
-          <span>Trinkets</span>
-          <div class="trinket-picks">
-            <button type="button" id="trinket-open" class="help-open trinket-open" aria-haspopup="dialog" aria-controls="trinket-modal">
-              Rank
-              <span id="trinket-count" class="trinket-count">0</span>
-            </button>
-            <div class="weapon-picks">
-              <label><input type="checkbox" id="trinket-include-mplus" checked> M+</label>
-              <label><input type="checkbox" id="trinket-include-raid" checked> Raid</label>
-            </div>
-          </div>
-        </div>
+        <button type="button" id="trinket-open" class="help-open trinket-open" aria-haspopup="dialog" aria-controls="trinket-modal">
+          Trinkets
+          <span id="trinket-count" class="trinket-count">0</span>
+        </button>
       </div>
     </div>
     <div class="header-actions">
@@ -140,7 +131,7 @@
         </section>
         <section>
           <h3>Trinkets</h3>
-          <p>Trinkets ignore secondary stats. Open <strong>Rank</strong> and sort each one into BIS or Upgrade. Wowhead S-tier starts as BIS and A-tier as Upgrade. Use the <strong>M+</strong> and <strong>Raid</strong> toggles if you only farm one of those; the other source’s trinkets drop out of the ranking. Unranked trinkets count as waste. Ranks are saved on this profile per spec.</p>
+          <p>Trinkets ignore secondary stats. Open <strong>Trinkets</strong> and sort each one into BIS or Upgrade. Wowhead S-tier starts as BIS and A-tier as Upgrade. Inside the modal, use <strong>M+</strong> and <strong>Raid</strong> if you only farm one of those; the other source’s trinkets drop out of the ranking. Unranked trinkets count as waste. Ranks are saved on this profile per spec.</p>
         </section>
         <section>
           <h3>Weekly roll</h3>
@@ -192,7 +183,14 @@
         <button type="button" id="trinket-close" class="help-close">Close</button>
       </header>
       <div class="help-body trinket-body">
-        <p class="plan-lead">Drag trinkets into BIS or Upgrade. Unranked pieces stay waste in the table, footer math, and weekly-roll plan. Defaults come from Wowhead S-tier (BIS) and A-tier (Upgrade) for the sources you include. These ranks belong to the current profile and spec.</p>
+        <p class="plan-lead">Drag trinkets into BIS or Upgrade. Unranked pieces stay waste in the table, footer math, and weekly-roll plan. These ranks belong to the current profile and spec.</p>
+        <fieldset class="weapon-style trinket-include">
+          <legend>Include</legend>
+          <div class="weapon-picks">
+            <label><input type="checkbox" id="trinket-include-mplus" checked> M+</label>
+            <label><input type="checkbox" id="trinket-include-raid" checked> Raid</label>
+          </div>
+        </fieldset>
         <div id="trinket-board" class="trinket-board"></div>
       </div>
     </div>
@@ -211,6 +209,6 @@
   <script src="loot-data.js"></script>
   <script src="spec-stat-defaults.js"></script>
   <script src="spec-trinket-defaults.js?v=s2-src"></script>
-  <script src="app.js?v=trinket-src"></script>
+  <script src="app.js?v=trinket-modal-src"></script>
 </body>
 </html>

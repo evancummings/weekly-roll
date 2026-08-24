@@ -745,7 +745,7 @@
     if (!trinketOpen) return;
     const items = uniqueTrinkets();
     const ranked = items.filter((item) => trinketRank(item) !== "unranked").length;
-    const label = ranked ? `Rank ${ranked} selected` : "Rank trinkets";
+    const label = ranked ? `Trinkets ${ranked} selected` : "Trinkets";
     trinketOpen.setAttribute("aria-label", label);
     trinketOpen.title = label;
     if (trinketCount) trinketCount.textContent = String(ranked);
