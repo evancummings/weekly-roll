@@ -6,7 +6,11 @@
   <title>Weekly Roll</title>
   <link rel="icon" href="icons/dice.png?v=alpha" type="image/png">
   <link rel="apple-touch-icon" href="icons/dice.png?v=alpha">
-  <link rel="stylesheet" href="styles.css?v=white-dice">
+  <link rel="stylesheet" href="styles.css?v=trinkets">
+  <script>
+    window.whTooltips = { colorLinks: false, iconizeLinks: false, renameLinks: false };
+  </script>
+  <script src="https://wow.zamimg.com/widgets/power.js" async></script>
 </head>
 <body>
   <header class="topbar">
@@ -70,6 +74,7 @@
       </div>
       <div class="header-actions">
         <button type="button" id="help-open" class="help-open" aria-haspopup="dialog" aria-controls="help-modal">How This Works</button>
+        <button type="button" id="trinket-open" class="help-open" aria-haspopup="dialog" aria-controls="trinket-modal">Trinkets</button>
         <button type="button" id="plan-open" class="help-open plan-open" aria-haspopup="dialog" aria-controls="plan-modal">Weekly roll</button>
       </div>
     </div>
@@ -110,7 +115,7 @@
         </section>
         <section>
           <h3>Reading the table</h3>
-          <p>Gold cells with a <strong>BIS</strong> tag match both of your top two stats. Green-tinted cells are partial matches. Trinkets skip stat grading and do not show secondary stats. Uncheck a slot when you already have that piece from the other mode, crafting, or anywhere else so those drops stop counting.</p>
+          <p>Gold cells with a <strong>BIS</strong> tag match both of your top two stats. Green-tinted cells are partial matches. Hover an item icon for the Wowhead tooltip. Uncheck a slot when you already have that piece from the other mode, crafting, or anywhere else so those drops stop counting.</p>
           <p>Finger and trinket have two checkboxes. One filled slot does not waste the whole row.</p>
         </section>
         <section>
@@ -119,7 +124,11 @@
         </section>
         <section>
           <h3>The footer math</h3>
-          <p><strong>Total Items</strong> is what is still in that dungeon or boss pool. <strong>BIS</strong> is remaining items with both top stats. <strong>Upgrade</strong> has exactly one. <strong>Waste</strong> is everything else, including filled slots and the wrong weapon style. The percentages are your odds of rolling each from what is left.</p>
+          <p><strong>Total Items</strong> is what is still in that dungeon or boss pool. <strong>BIS</strong> is remaining items with both top stats, plus trinkets you marked BIS. <strong>Upgrade</strong> has exactly one of those stats, plus trinkets you marked Upgrade. <strong>Waste</strong> is everything else, including unranked trinkets, filled slots, and the wrong weapon style. The percentages are your odds of rolling each from what is left.</p>
+        </section>
+        <section>
+          <h3>Trinkets</h3>
+          <p>Trinkets ignore secondary stats. Open <strong>Trinkets</strong> and sort each one into BIS or Upgrade. Unranked trinkets count as waste until you place them. Ranks are saved on this profile per spec and apply to both Mythic+ and Raid.</p>
         </section>
         <section>
           <h3>Weekly roll</h3>
@@ -164,6 +173,19 @@
     </div>
   </dialog>
 
+  <dialog id="trinket-modal" class="help-modal trinket-modal" aria-labelledby="trinket-title">
+    <div class="help-card">
+      <header>
+        <h2 id="trinket-title">Trinket ranks</h2>
+        <button type="button" id="trinket-close" class="help-close">Close</button>
+      </header>
+      <div class="help-body trinket-body">
+        <p class="plan-lead">Drag trinkets into BIS or Upgrade. Unranked pieces stay waste in the table, footer math, and weekly-roll plan. These ranks belong to the current profile and spec.</p>
+        <div id="trinket-board" class="trinket-board"></div>
+      </div>
+    </div>
+  </dialog>
+
   <dialog id="plan-modal" class="help-modal plan-modal" aria-labelledby="plan-title">
     <div class="help-card">
       <header>
@@ -176,6 +198,6 @@
 
   <script src="loot-data.js"></script>
   <script src="spec-stat-defaults.js"></script>
-  <script src="app.js?v=drop-left"></script>
+  <script src="app.js?v=trinkets"></script>
 </body>
 </html>

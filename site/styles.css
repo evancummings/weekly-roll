@@ -248,6 +248,12 @@ h1 {
   max-height: calc(100vh - 20px);
 }
 
+.trinket-modal {
+  width: min(1180px, calc(100vw - 24px));
+  max-height: calc(100vh - 20px);
+}
+
+.trinket-modal .help-card,
 .plan-modal .help-card {
   max-height: calc(100vh - 20px);
 }
@@ -763,6 +769,12 @@ tbody th {
   gap: 8px;
 }
 
+.slot-head > span:first-child {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
 .alt-boxes {
   display: flex;
   gap: 4px;
@@ -868,8 +880,13 @@ tbody tr:hover td.match-faint { background: #262c1f; }
   transition: border-color 0.12s ease, background-color 0.12s ease;
 }
 
-.drop > .item-icon {
+.drop > .item-link {
   grid-row: 1 / -1;
+  line-height: 0;
+}
+
+.drop > .item-link .item-icon,
+.drop > .item-icon {
   width: 36px;
   height: 36px;
   border-radius: 4px;
@@ -881,7 +898,7 @@ tbody tr:hover td.match-faint { background: #262c1f; }
   min-width: 0;
 }
 
-.drop:not(:has(> .item-icon)) .drop-copy {
+.drop:not(:has(> .item-link)):not(:has(> .item-icon)) .drop-copy {
   grid-column: 1 / -1;
 }
 
@@ -893,6 +910,7 @@ tbody tr:hover td.match-faint { background: #262c1f; }
 }
 
 .bis-tag,
+.up-tag,
 .rolled-tag {
   display: inline-block;
   padding: 1px 6px;
@@ -905,6 +923,11 @@ tbody tr:hover td.match-faint { background: #262c1f; }
 .bis-tag {
   border: 1px solid #c9a227;
   color: #ffe066;
+}
+
+.up-tag {
+  border: 1px solid #6b7344;
+  color: #c5d18a;
 }
 
 .rolled-tag {
@@ -1158,6 +1181,182 @@ td.match-perfect .drop + .drop {
   border-radius: 3px;
   box-shadow: 0 0 0 1px #3a382c;
   object-fit: cover;
+}
+
+.item-link {
+  display: inline-flex;
+  flex-shrink: 0;
+  line-height: 0;
+  text-decoration: none;
+  color: inherit;
+}
+
+.item-link:hover .item-icon,
+.item-link:focus-visible .item-icon {
+  box-shadow: 0 0 0 1px #c9a227;
+}
+
+.slot-config {
+  margin-left: 6px;
+  padding: 1px 6px;
+  border: 1px solid var(--line);
+  border-radius: 3px;
+  background: var(--bg-elevated);
+  color: var(--muted);
+  font: inherit;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.slot-config:hover,
+.slot-config:focus-visible {
+  border-color: var(--accent);
+  color: #f2e08a;
+  outline: none;
+}
+
+.trinket-body {
+  display: grid;
+  gap: 16px;
+}
+
+.trinket-board {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  align-items: start;
+}
+
+.trinket-col {
+  display: grid;
+  gap: 8px;
+  min-height: 220px;
+  padding: 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #161812;
+}
+
+.trinket-col.drag-over {
+  border-color: var(--accent);
+  background: #221e12;
+}
+
+.trinket-col h3 {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+  margin: 0;
+  color: var(--accent);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.trinket-col h3 span {
+  color: var(--muted);
+  font-size: 11px;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.trinket-list {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.trinket-empty {
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.trinket-card {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 8px;
+  padding: 8px;
+  border: 1px solid #3a382c;
+  border-radius: 6px;
+  background: #1d211a;
+  cursor: grab;
+}
+
+.trinket-card:active {
+  cursor: grabbing;
+}
+
+.trinket-card .item-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 4px;
+}
+
+.trinket-card .copy {
+  display: grid;
+  gap: 4px;
+  min-width: 0;
+}
+
+.trinket-card strong {
+  color: var(--ink);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.trinket-card .meta {
+  color: var(--muted);
+  font-size: 11px;
+  line-height: 1.35;
+}
+
+.trinket-card .moves {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.trinket-card .moves button {
+  padding: 2px 7px;
+  border: 1px solid var(--line);
+  border-radius: 3px;
+  background: transparent;
+  color: var(--muted);
+  font: inherit;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.trinket-card .moves button:hover,
+.trinket-card .moves button:focus-visible,
+.trinket-card .moves button.active {
+  border-color: var(--accent);
+  color: #f2e08a;
+  outline: none;
+}
+
+.wowhead-tooltip,
+#wowhead-tooltip,
+#powerTip {
+  z-index: 2147483646 !important;
+}
+
+@media (max-width: 900px) {
+  .trinket-board {
+    grid-template-columns: 1fr;
+  }
 }
 
 .hand-tag {

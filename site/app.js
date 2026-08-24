@@ -17,6 +17,7 @@
   const STORAGE_ACTIVE_PROFILE = "weighted-dice.activeProfileId";
   const STORAGE_MODE = "weighted-dice.contentMode";
   const STORAGE_RAID = "weighted-dice.raidId";
+  const STORAGE_TRINKETS = "weighted-dice.trinketRanks";
   const CREATE_PROFILE = "__create__";
   const DEFAULT_RAID_ID = 1320;
   const SLOT_WEAPON = 10;
@@ -48,6 +49,10 @@
   const planOpen = document.getElementById("plan-open");
   const planClose = document.getElementById("plan-close");
   const planBody = document.getElementById("plan-body");
+  const trinketModal = document.getElementById("trinket-modal");
+  const trinketOpen = document.getElementById("trinket-open");
+  const trinketClose = document.getElementById("trinket-close");
+  const trinketBoard = document.getElementById("trinket-board");
   const historyModal = document.getElementById("history-modal");
   const historyOpen = document.getElementById("history-open");
   const historyCount = document.getElementById("history-count");
@@ -73,8 +78,10 @@
   let activeProfileId = readActiveProfileId();
   let contentMode = readContentMode();
   let selectedRaidId = readRaidId();
+  let trinketRanks = readTrinketRanks();
   let profileModalMode = "create";
   let dragIndex = null;
+  let trinketDragId = null;
 
   function raidList() {
     return Array.isArray(data.raids) ? data.raids : [];
@@ -105,6 +112,29 @@
 
   function readRaidId() {
     return normalizeRaidId(params.get("raid") || localStorage.getItem(STORAGE_RAID));
+  }
+
+  function readTrinketRanks() {
+    try {
+      const parsed = JSON.parse(localStorage.getItem(STORAGE_TRINKETS) || "{}");
+      return parsed && typeof parsed === "object" && !Array.isArray(parsed) ? parsed : {};
+    } catch (error) {
+      return {};
+    }
+  }
+
+  function normalizeTrinketRanks(value) {
+    const next = {};
+    if (!value || typeof value !== "object" || Array.isArray(value)) return next;
+    Object.entries(value).forEach(([specId, ranks]) => {
+      if (!ranks || typeof ranks !== "object" || Array.isArray(ranks)) return;
+      const specRanks = {};
+      Object.entries(ranks).forEach(([itemId, rank]) => {
+        if (rank === "bis" || rank === "upgrade") specRanks[String(itemId)] = rank;
+      });
+      if (Object.keys(specRanks).length) next[String(specId)] = specRanks;
+    });
+    return next;
   }
 
   function isRaidMode() {
@@ -275,7 +305,8 @@
       includeSlots: includeParam(),
       bonusWins: bonusWins.slice(),
       contentMode,
-      raidId: selectedRaidId
+      raidId: selectedRaidId,
+      trinketRanks: { ...trinketRanks }
     };
   }
 
@@ -294,7 +325,8 @@
       includeSlots: "",
       bonusWins: [],
       contentMode: "mplus",
-      raidId: defaultRaidId()
+      raidId: defaultRaidId(),
+      trinketRanks: {}
     };
   }
 
@@ -335,6 +367,7 @@
     bonusWins = Array.isArray(profile.bonusWins) ? profile.bonusWins.filter((win) => win && win.key) : [];
     contentMode = normalizeMode(profile.contentMode || contentMode);
     selectedRaidId = normalizeRaidId(profile.raidId || selectedRaidId);
+    trinketRanks = normalizeTrinketRanks(profile.trinketRanks || trinketRanks);
     fillProfileSelect();
     syncSetupControls();
     renderStatOrder();
@@ -566,7 +599,87 @@
 
   function iconHtml(icon) {
     if (!icon) return "";
-    return `<img class="item-icon" src="${escapeHtml(iconUrl(icon))}" alt="" width="20" height="20">`;
+    return `<img class="item-icon" src="${escapeHtml(iconUrl(icon))}" alt="" width="20" height="20" draggable="false">`;
+  }
+
+  function refreshWowheadTooltips() {
+    const power = window.$WowheadPower;
+    if (power && typeof power.refreshLinks === "function") {
+      power.refreshLinks();
+    }
+    const open = document.querySelector("dialog[open]");
+    const tip = document.getElementById("wowhead-tooltip")
+      || document.getElementById("powerTip")
+      || document.querySelector(".wowhead-tooltip");
+    if (open && tip && !open.contains(tip)) open.appendChild(tip);
+  }
+
+  function itemLinkHtml(entry) {
+    const icon = iconHtml(entry && entry.icon);
+    if (!icon) return "";
+    const id = Number(entry.id);
+    if (!id) return icon;
+    return `<a class="item-link" href="https://www.wowhead.com/item=${id}" target="_blank" rel="noopener noreferrer" data-wowhead="item=${id}">${icon}</a>`;
+  }
+
+  function specTrinketRanks() {
+    const specId = String(specSelect.value || "");
+    if (!specId) return {};
+    if (!trinketRanks[specId] || typeof trinketRanks[specId] !== "object") trinketRanks[specId] = {};
+    return trinketRanks[specId];
+  }
+
+  function trinketRank(entry) {
+    const id = entry && entry.id != null ? String(entry.id) : "";
+    const rank = specTrinketRanks()[id];
+    return rank === "bis" || rank === "upgrade" ? rank : "unranked";
+  }
+
+  function setTrinketRank(itemId, rank) {
+    const ranks = specTrinketRanks();
+    const id = String(itemId);
+    if (rank === "bis" || rank === "upgrade") ranks[id] = rank;
+    else delete ranks[id];
+    persist();
+    renderTrinketBoard();
+    renderTable();
+  }
+
+  function uniqueTrinkets() {
+    const byId = new Map();
+    const specId = specSelect.value;
+    const addFrom = (grid, columns, sourceType) => {
+      const specGrid = grid && specId ? grid[specId] || {} : {};
+      (columns || []).forEach((column) => {
+        const entries = (specGrid[column.id] && specGrid[column.id][SLOT_TRINKET]) || [];
+        entries.forEach((entry) => {
+          if (entry.id == null) return;
+          const id = String(entry.id);
+          if (!byId.has(id)) {
+            byId.set(id, {
+              id: entry.id,
+              name: entry.name,
+              icon: entry.icon || "",
+              sources: []
+            });
+          }
+          const label = column.shortName || column.name;
+          const item = byId.get(id);
+          const key = `${sourceType}:${column.id}`;
+          if (!item.sources.some((source) => source.key === key)) {
+            item.sources.push({
+              key,
+              type: sourceType,
+              name: column.name,
+              shortName: label
+            });
+          }
+        });
+      });
+    };
+    addFrom(data.grid, data.dungeons, "mplus");
+    addFrom(data.raidGrid, bossList(), "raid");
+    return [...byId.values()].sort((a, b) => String(a.name || "").localeCompare(String(b.name || ""), undefined, { sensitivity: "base" }));
   }
 
   function normalizeStat(stat) {
@@ -605,7 +718,11 @@
 
   function poolKind(entry, slot) {
     if (isSlotFilled(slot) || isWrongWeaponStyle(entry, slot)) return "waste";
-    if (isTrinketSlot(slot)) return "upgrade";
+    if (isTrinketSlot(slot)) {
+      const rank = trinketRank(entry);
+      if (rank === "bis" || rank === "upgrade") return rank;
+      return "waste";
+    }
     const present = itemStats(entry);
     const hasFirst = present.includes(statOrder[0]);
     const hasSecond = present.includes(statOrder[1]);
@@ -680,7 +797,7 @@
     return `<ul class="plan-targets">${ordered.map(({ kind, entry, slot }) => {
       const stats = isTrinketSlot(slot) ? "" : (entry.stats || []).join(" / ");
       const detail = [slot.name, stats].filter(Boolean).join(" · ");
-      return `<li><span class="plan-tag ${kind}">${kind === "bis" ? "BIS" : "UP"}</span>${iconHtml(entry.icon)}${escapeHtml(entry.name || "Unknown")}${detail ? ` · ${escapeHtml(detail)}` : ""}</li>`;
+      return `<li><span class="plan-tag ${kind}">${kind === "bis" ? "BIS" : "UP"}</span>${itemLinkHtml(entry)}${escapeHtml(entry.name || "Unknown")}${detail ? ` · ${escapeHtml(detail)}` : ""}</li>`;
     }).join("")}</ul>`;
   }
 
@@ -729,7 +846,7 @@
     const specName = specSelect.options[specSelect.selectedIndex]?.text || "this spec";
 
     planBody.innerHTML = `
-      <p class="plan-lead">Two weekly-roll rankings from the remaining ${escapeHtml(specName)} pool after your current stat order, weapon style, included slots, and bonus-roll wins. A bonus roll is a uniform draw from that ${columnNoun(false)}’s leftover items.</p>
+      <p class="plan-lead">Two weekly-roll rankings from the remaining ${escapeHtml(specName)} pool after your current stat order, weapon style, included slots, trinket ranks, and bonus-roll wins. A bonus roll is a uniform draw from that ${columnNoun(false)}’s leftover items.</p>
       <div class="plan-columns">
         ${renderPlanColumn(
           "Prioritize upgrades",
@@ -747,6 +864,7 @@
         )}
       </div>
     `;
+    refreshWowheadTooltips();
   }
 
   function formatPct(value) {
@@ -774,7 +892,13 @@
     entries.forEach((entry) => {
       if (isBonusWin(dropKey(dungeon, slot, entry))) return;
       if (isWrongWeaponStyle(entry, slot)) return;
-      if (isTrinketSlot(slot)) return;
+      if (isTrinketSlot(slot)) {
+        const rank = trinketRank(entry);
+        const tier = rank === "bis" ? "perfect" : rank === "upgrade" ? "high" : null;
+        if (!tier) return;
+        if (!best || TIER_RANK[tier] > TIER_RANK[best]) best = tier;
+        return;
+      }
       const tier = matchInfo(entry.stats).tier;
       if (!tier) return;
       if (!best || TIER_RANK[tier] > TIER_RANK[best]) best = tier;
@@ -789,7 +913,16 @@
     const filled = isSlotFilled(slot);
     const wrongStyle = isWrongWeaponStyle(entry, slot);
     const wasted = filled || wrongStyle;
-    const tier = won || wasted || isTrinketSlot(slot) ? null : matchInfo(stats).tier;
+    const ranked = isTrinketSlot(slot) ? trinketRank(entry) : null;
+    const tier = won || wasted
+      ? null
+      : ranked === "bis"
+        ? "perfect"
+        : ranked === "upgrade"
+          ? "high"
+          : isTrinketSlot(slot)
+            ? null
+            : matchInfo(stats).tier;
     const tag = handLabel(entry);
     const type = entry.weaponClass ? `${tag ? `${tag} ` : ""}${entry.weaponClass}` : tag;
     const titleParts = [entry.name, type, entry.droppedBy].filter(Boolean);
@@ -799,13 +932,16 @@
         ? escapeHtml(`${titleParts.join(" — ")} — slot filled, treated as waste`)
         : wrongStyle
           ? escapeHtml(`${titleParts.join(" — ")} — wrong weapon style, treated as waste`)
-          : escapeHtml(titleParts.join(" — "));
+          : ranked === "unranked"
+            ? escapeHtml(`${titleParts.join(" — ")} — unranked trinket, treated as waste`)
+            : escapeHtml(titleParts.join(" — "));
     const tagHtml = tag ? `<span class="hand-tag">${escapeHtml(tag)}</span>` : "";
     const bisHtml = tier === "perfect" ? `<span class="bis-tag">BIS</span>` : "";
+    const upHtml = ranked === "upgrade" && !won && !wasted ? `<span class="up-tag">UP</span>` : "";
     const rolledHtml = won ? `<span class="rolled-tag">Rolled</span>` : "";
     const statsHtml = stats.length
       ? `<span class="stat-line">${stats.map((stat) => `<span class="stat ${statClassName(stat)}">${escapeHtml(stat)}</span>`).join(" / ")}</span>${bisHtml}${rolledHtml}`
-      : `<span class="item-name">${tagHtml}${escapeHtml(entry.name || "No stats")}${rolledHtml}</span>`;
+      : `<span class="item-name">${tagHtml}${escapeHtml(entry.name || "No stats")}${bisHtml}${upHtml}${rolledHtml}</span>`;
     const nameHtml = stats.length && entry.name
       ? `<div class="item-name">${tagHtml}<span>${escapeHtml(entry.name)}</span></div>`
       : "";
@@ -815,10 +951,10 @@
         <img src="icons/dice.png?v=alpha" alt="" width="22" height="22">
       </button>`;
 
-    return `<div class="drop${tier ? ` match-${tier}` : ""}${won ? " bonus-won" : ""}${wasted && !won ? " slot-filled" : ""}" title="${title}">
+    return `<div class="drop${tier ? ` match-${tier}` : ""}${won ? " bonus-won" : ""}${wasted && !won ? " slot-filled" : ""}">
       ${rollHtml}
-      ${iconHtml(entry.icon)}
-      <div class="drop-copy">
+      ${itemLinkHtml(entry)}
+      <div class="drop-copy" title="${title}">
         <div class="stats">${statsHtml}</div>
         ${nameHtml}
       </div>
@@ -877,13 +1013,14 @@
         : `<span class="source-badge mplus">M+</span>`;
       return `<li class="bonus-win">
         <div class="copy">
-          <div class="name">${iconHtml(win.icon)}${escapeHtml(win.name)}${badge}</div>
+          <div class="name">${itemLinkHtml(win)}${escapeHtml(win.name)}${badge}</div>
           <div class="meta">${statsHtml ? `${statsHtml} · ` : ""}${escapeHtml(place)}</div>
           <div class="when">${when ? escapeHtml(when) : "Date unknown"}</div>
         </div>
         <button type="button" data-remove-win="${escapeHtml(win.key)}">Remove</button>
       </li>`;
     }).join("")}</ul>`;
+    refreshWowheadTooltips();
   }
 
   function renderStatOrder() {
@@ -937,6 +1074,7 @@
     }).join("");
 
     renderFooter(specGrid);
+    refreshWowheadTooltips();
   }
 
   function renderSlotHead(slot) {
@@ -952,9 +1090,12 @@
         <input type="checkbox" data-include-slot="${escapeHtml(slot.id)}" ${checked ? "checked" : ""} ${unused ? "disabled" : ""}>
       </label>`;
     }).join("");
+    const config = Number(slot.id) === SLOT_TRINKET
+      ? `<button type="button" class="slot-config" data-open-trinkets="1">Rank</button>`
+      : "";
     return `<th>
       <div class="slot-head">
-        <span>${escapeHtml(slot.name)}</span>
+        <span>${escapeHtml(slot.name)}${config}</span>
         <span class="alt-boxes${unused ? " inactive" : ""}">${boxes}</span>
       </div>
     </th>`;
@@ -986,15 +1127,15 @@
         ${countCells("remaining")}
       </tr>
       <tr class="pool-counts">
-        <th title="Remaining items with both of your top two stats">BIS</th>
+        <th title="Remaining items with both of your top two stats, plus trinkets marked BIS">BIS</th>
         ${countCells("bis")}
       </tr>
       <tr class="pool-counts">
-        <th title="Remaining items with exactly one of your top two stats">Upgrade</th>
+        <th title="Remaining items with exactly one of your top two stats, plus trinkets marked Upgrade">Upgrade</th>
         ${countCells("upgrade")}
       </tr>
       <tr class="pool-counts">
-        <th title="Remaining items with neither of your top two stats, a filled slot, or the wrong weapon style">Waste</th>
+        <th title="Remaining items with neither of your top two stats, an unranked trinket, a filled slot, or the wrong weapon style">Waste</th>
         ${countCells("waste")}
       </tr>
       <tr class="pool-pcts pool-rule">
@@ -1025,6 +1166,7 @@
       localStorage.setItem(STORAGE_INCLUDE, includeParam());
       localStorage.setItem(STORAGE_WEAPON, weaponStyle);
       localStorage.setItem(STORAGE_BONUS, JSON.stringify(bonusWins));
+      localStorage.setItem(STORAGE_TRINKETS, JSON.stringify(trinketRanks));
       localStorage.setItem(STORAGE_MODE, contentMode);
       if (selectedRaidId != null) localStorage.setItem(STORAGE_RAID, String(selectedRaidId));
       writeProfiles();
@@ -1141,6 +1283,7 @@
     persist();
     renderStatOrder();
     renderTable();
+    if (trinketModal?.open) renderTrinketBoard();
   });
 
   specSelect.addEventListener("change", () => {
@@ -1148,6 +1291,7 @@
     persist();
     renderStatOrder();
     renderTable();
+    if (trinketModal?.open) renderTrinketBoard();
   });
 
   document.querySelectorAll("input[name='content-mode']").forEach((input) => {
@@ -1194,6 +1338,10 @@
   });
 
   tbody.addEventListener("click", (event) => {
+    if (event.target.closest("[data-open-trinkets]")) {
+      openTrinketRanks();
+      return;
+    }
     const button = event.target.closest(".bonus-roll");
     if (!button) return;
     const dungeon = findColumn(button.dataset.dungeon);
@@ -1299,6 +1447,116 @@
     });
   }
 
+  function trinketSourceLabel(item) {
+    return (item.sources || []).map((source) => {
+      const tag = source.type === "raid" ? "Raid" : "M+";
+      return `${tag} ${source.name}`;
+    }).join(" · ");
+  }
+
+  function renderTrinketBoard() {
+    if (!trinketBoard) return;
+    const items = uniqueTrinkets();
+    const buckets = { unranked: [], upgrade: [], bis: [] };
+    items.forEach((item) => {
+      buckets[trinketRank(item)].push(item);
+    });
+
+    const column = (rank, title, blurb) => {
+      const rows = buckets[rank];
+      const list = rows.length
+        ? `<ul class="trinket-list">${rows.map((item) => {
+          return `<li class="trinket-card" draggable="true" data-item-id="${escapeHtml(item.id)}">
+            ${itemLinkHtml(item)}
+            <div class="copy">
+              <strong>${escapeHtml(item.name || "Unknown")}</strong>
+              <div class="meta">${escapeHtml(trinketSourceLabel(item) || "Unknown source")}</div>
+            </div>
+            <div class="moves">
+              <button type="button" data-item-id="${escapeHtml(item.id)}" data-rank="unranked"${rank === "unranked" ? " class=\"active\"" : ""}>None</button>
+              <button type="button" data-item-id="${escapeHtml(item.id)}" data-rank="upgrade"${rank === "upgrade" ? " class=\"active\"" : ""}>Upgrade</button>
+              <button type="button" data-item-id="${escapeHtml(item.id)}" data-rank="bis"${rank === "bis" ? " class=\"active\"" : ""}>BIS</button>
+            </div>
+          </li>`;
+        }).join("")}</ul>`
+        : `<p class="trinket-empty">None here yet.</p>`;
+      return `<section class="trinket-col" data-rank="${rank}">
+        <h3>${title}<span>${rows.length} · ${blurb}</span></h3>
+        ${list}
+      </section>`;
+    };
+
+    trinketBoard.innerHTML = [
+      column("unranked", "Unranked", "counts as waste"),
+      column("upgrade", "Upgrade", "minor upgrade"),
+      column("bis", "BIS", "best in slot")
+    ].join("");
+    refreshWowheadTooltips();
+  }
+
+  function openTrinketRanks() {
+    renderTrinketBoard();
+    if (trinketModal && typeof trinketModal.showModal === "function") trinketModal.showModal();
+  }
+
+  if (trinketOpen) trinketOpen.addEventListener("click", openTrinketRanks);
+  if (trinketClose) {
+    trinketClose.addEventListener("click", () => {
+      if (trinketModal.open) trinketModal.close();
+    });
+  }
+  if (trinketModal) {
+    trinketModal.addEventListener("click", (event) => {
+      if (event.target === trinketModal) trinketModal.close();
+    });
+  }
+  if (trinketBoard) {
+    trinketBoard.addEventListener("click", (event) => {
+      const button = event.target.closest("button[data-rank]");
+      if (!button) return;
+      setTrinketRank(button.dataset.itemId, button.dataset.rank);
+    });
+    trinketBoard.addEventListener("dragstart", (event) => {
+      const card = event.target.closest(".trinket-card");
+      if (!card) return;
+      trinketDragId = card.dataset.itemId;
+      event.dataTransfer.effectAllowed = "move";
+      event.dataTransfer.setData("text/plain", trinketDragId);
+      card.classList.add("dragging");
+    });
+    trinketBoard.addEventListener("dragend", (event) => {
+      const card = event.target.closest(".trinket-card");
+      if (card) card.classList.remove("dragging");
+      trinketBoard.querySelectorAll(".trinket-col").forEach((col) => col.classList.remove("drag-over"));
+      trinketDragId = null;
+    });
+    trinketBoard.addEventListener("dragover", (event) => {
+      const col = event.target.closest(".trinket-col");
+      if (!col) return;
+      event.preventDefault();
+      event.dataTransfer.dropEffect = "move";
+      trinketBoard.querySelectorAll(".trinket-col").forEach((item) => {
+        item.classList.toggle("drag-over", item === col);
+      });
+    });
+    trinketBoard.addEventListener("dragleave", (event) => {
+      const col = event.target.closest(".trinket-col");
+      if (col && !col.contains(event.relatedTarget)) col.classList.remove("drag-over");
+    });
+    trinketBoard.addEventListener("drop", (event) => {
+      const col = event.target.closest(".trinket-col");
+      if (!col) return;
+      event.preventDefault();
+      const itemId = trinketDragId || event.dataTransfer.getData("text/plain");
+      if (itemId) setTrinketRank(itemId, col.dataset.rank);
+    });
+  }
+
+  document.addEventListener("mouseover", (event) => {
+    if (!event.target.closest(".item-link")) return;
+    refreshWowheadTooltips();
+  });
+
   function openRollHistory() {
     renderBonusSummary();
     if (historyModal && typeof historyModal.showModal === "function") historyModal.showModal();
@@ -1325,6 +1583,7 @@
   if (!hasSeenInstructions()) openInstructions();
 
   window.addEventListener("pagehide", persist);
+  window.addEventListener("load", refreshWowheadTooltips);
   document.addEventListener("visibilitychange", () => {
     if (document.visibilityState === "hidden") persist();
   });
