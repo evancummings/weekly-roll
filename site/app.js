@@ -54,6 +54,8 @@
   const trinketClose = document.getElementById("trinket-close");
   const trinketBoard = document.getElementById("trinket-board");
   const trinketCount = document.getElementById("trinket-count");
+  const trinketIncludeMplusEl = document.getElementById("trinket-include-mplus");
+  const trinketIncludeRaidEl = document.getElementById("trinket-include-raid");
   const historyModal = document.getElementById("history-modal");
   const historyOpen = document.getElementById("history-open");
   const historyCount = document.getElementById("history-count");
@@ -80,6 +82,8 @@
   let contentMode = readContentMode();
   let selectedRaidId = readRaidId();
   let trinketRanks = readTrinketRanks();
+  let includeTrinketMplus = true;
+  let includeTrinketRaid = true;
   let profileModalMode = "create";
   let dragIndex = null;
   let trinketDragId = null;
@@ -131,11 +135,17 @@
       if (!ranks || typeof ranks !== "object" || Array.isArray(ranks)) return;
       const specRanks = {};
       Object.entries(ranks).forEach(([itemId, rank]) => {
-        if (rank === "bis" || rank === "upgrade") specRanks[String(itemId)] = rank;
+        if (rank === "bis" || rank === "upgrade" || rank === "unranked") specRanks[String(itemId)] = rank;
       });
       if (Object.keys(specRanks).length) next[String(specId)] = specRanks;
     });
     return next;
+  }
+
+  function readFlag(value, fallback) {
+    if (value === false || value === 0 || value === "0") return false;
+    if (value === true || value === 1 || value === "1") return true;
+    return fallback !== false;
   }
 
   function isRaidMode() {
@@ -307,7 +317,9 @@
       bonusWins: bonusWins.slice(),
       contentMode,
       raidId: selectedRaidId,
-      trinketRanks: normalizeTrinketRanks(trinketRanks)
+      trinketRanks: normalizeTrinketRanks(trinketRanks),
+      includeTrinketMplus,
+      includeTrinketRaid
     };
   }
 
@@ -327,7 +339,9 @@
       bonusWins: [],
       contentMode: "mplus",
       raidId: defaultRaidId(),
-      trinketRanks: {}
+      trinketRanks: {},
+      includeTrinketMplus: true,
+      includeTrinketRaid: true
     };
   }
 
@@ -368,7 +382,13 @@
     bonusWins = Array.isArray(profile.bonusWins) ? profile.bonusWins.filter((win) => win && win.key) : [];
     contentMode = normalizeMode(profile.contentMode || contentMode);
     selectedRaidId = normalizeRaidId(profile.raidId || selectedRaidId);
-    trinketRanks = normalizeTrinketRanks(profile.trinketRanks);
+    trinketRanks = stripCopiedTrinketDefaults(normalizeTrinketRanks(profile.trinketRanks));
+    includeTrinketMplus = readFlag(profile.includeTrinketMplus, true);
+    includeTrinketRaid = readFlag(profile.includeTrinketRaid, true);
+    if (!includeTrinketMplus && !includeTrinketRaid) {
+      includeTrinketMplus = true;
+      includeTrinketRaid = true;
+    }
     fillProfileSelect();
     syncSetupControls();
     renderStatOrder();
@@ -638,12 +658,61 @@
     return `<a class="item-link" href="https://www.wowhead.com/item=${id}" target="_blank" rel="noopener noreferrer" data-wowhead="item=${id}">${icon}</a>`;
   }
 
-  function wowheadTrinketDefault(specId) {
-    const raw = (window.SPEC_TRINKET_DEFAULTS || {})[String(specId)];
-    if (!raw || typeof raw !== "object" || Array.isArray(raw)) return {};
+  function rankMapFrom(raw) {
     const next = {};
+    if (!raw || typeof raw !== "object" || Array.isArray(raw)) return next;
     Object.entries(raw).forEach(([itemId, rank]) => {
       if (rank === "bis" || rank === "upgrade") next[String(itemId)] = rank;
+    });
+    return next;
+  }
+
+  function addRankMap(target, raw) {
+    Object.entries(rankMapFrom(raw)).forEach(([itemId, rank]) => {
+      if (rank === "bis") target[itemId] = "bis";
+      else if (rank === "upgrade" && target[itemId] !== "bis") target[itemId] = "upgrade";
+    });
+  }
+
+  function wowheadSpecDefaults(specId) {
+    return (window.SPEC_TRINKET_DEFAULTS || {})[String(specId)] || {};
+  }
+
+  function wowheadMergedDefault(specId) {
+    const raw = wowheadSpecDefaults(specId);
+    const next = {};
+    if (raw.raid || raw.mplus) {
+      addRankMap(next, raw.raid);
+      addRankMap(next, raw.mplus);
+    } else {
+      addRankMap(next, raw);
+    }
+    return next;
+  }
+
+  function wowheadTrinketDefault(specId) {
+    const raw = wowheadSpecDefaults(specId);
+    const next = {};
+    if (raw.raid || raw.mplus) {
+      if (includeTrinketRaid) addRankMap(next, raw.raid);
+      if (includeTrinketMplus) addRankMap(next, raw.mplus);
+    } else if (includeTrinketRaid || includeTrinketMplus) {
+      addRankMap(next, raw);
+    }
+    return next;
+  }
+
+  function ranksMatchDefaults(saved, defaults) {
+    const savedKeys = Object.keys(saved || {});
+    const defKeys = Object.keys(defaults || {});
+    if (!savedKeys.length || savedKeys.length !== defKeys.length) return false;
+    return savedKeys.every((key) => saved[key] === defaults[key]);
+  }
+
+  function stripCopiedTrinketDefaults(ranks) {
+    const next = {};
+    Object.entries(ranks || {}).forEach(([specId, saved]) => {
+      if (!ranksMatchDefaults(saved, wowheadMergedDefault(specId))) next[specId] = saved;
     });
     return next;
   }
@@ -651,25 +720,32 @@
   function specTrinketRanks() {
     const specId = String(specSelect.value || "");
     if (!specId) return {};
-    const existing = trinketRanks[specId];
-    if (existing && typeof existing === "object" && !Array.isArray(existing) && Object.keys(existing).length) {
-      return existing;
+    if (!trinketRanks[specId] || typeof trinketRanks[specId] !== "object" || Array.isArray(trinketRanks[specId])) {
+      trinketRanks[specId] = {};
     }
-    trinketRanks[specId] = wowheadTrinketDefault(specId);
     return trinketRanks[specId];
   }
 
-  function trinketRank(entry) {
+  function includeTrinketSource(type) {
+    return type === "raid" ? includeTrinketRaid : includeTrinketMplus;
+  }
+
+  function trinketRank(entry, sourceType) {
+    const type = sourceType === "raid" || sourceType === "mplus"
+      ? sourceType
+      : (entry && Array.isArray(entry.sources) ? null : (isRaidMode() ? "raid" : "mplus"));
+    if (type && !includeTrinketSource(type)) return "unranked";
     const id = entry && entry.id != null ? String(entry.id) : "";
-    const rank = specTrinketRanks()[id];
-    return rank === "bis" || rank === "upgrade" ? rank : "unranked";
+    const user = specTrinketRanks()[id];
+    if (user === "bis" || user === "upgrade" || user === "unranked") return user;
+    return wowheadTrinketDefault(specSelect.value)[id] || "unranked";
   }
 
   function syncTrinketButton() {
     if (!trinketOpen) return;
     const items = uniqueTrinkets();
     const ranked = items.filter((item) => trinketRank(item) !== "unranked").length;
-    const label = ranked ? `Trinkets ${ranked} selected` : "Trinkets";
+    const label = ranked ? `Rank ${ranked} selected` : "Rank trinkets";
     trinketOpen.setAttribute("aria-label", label);
     trinketOpen.title = label;
     if (trinketCount) trinketCount.textContent = String(ranked);
@@ -678,8 +754,13 @@
   function setTrinketRank(itemId, rank) {
     const ranks = specTrinketRanks();
     const id = String(itemId);
-    if (rank === "bis" || rank === "upgrade") ranks[id] = rank;
-    else delete ranks[id];
+    if (rank === "bis" || rank === "upgrade") {
+      ranks[id] = rank;
+    } else if (wowheadTrinketDefault(specSelect.value)[id]) {
+      ranks[id] = "unranked";
+    } else {
+      delete ranks[id];
+    }
     persist();
     renderTrinketBoard();
     renderTable();
@@ -689,6 +770,7 @@
     const byId = new Map();
     const specId = specSelect.value;
     const addFrom = (grid, columns, sourceType) => {
+      if (!includeTrinketSource(sourceType)) return;
       const specGrid = grid && specId ? grid[specId] || {} : {};
       (columns || []).forEach((column) => {
         const entries = (specGrid[column.id] && specGrid[column.id][SLOT_TRINKET]) || [];
@@ -1365,6 +1447,32 @@
     });
   });
 
+  function applyTrinketIncludes() {
+    if (!includeTrinketMplus && !includeTrinketRaid) {
+      includeTrinketMplus = true;
+      includeTrinketRaid = true;
+    }
+    syncSetupControls();
+    persist();
+    renderTable();
+    renderTrinketBoard();
+  }
+
+  if (trinketIncludeMplusEl) {
+    trinketIncludeMplusEl.addEventListener("change", () => {
+      includeTrinketMplus = trinketIncludeMplusEl.checked;
+      if (!includeTrinketMplus && !includeTrinketRaid) includeTrinketMplus = true;
+      applyTrinketIncludes();
+    });
+  }
+  if (trinketIncludeRaidEl) {
+    trinketIncludeRaidEl.addEventListener("change", () => {
+      includeTrinketRaid = trinketIncludeRaidEl.checked;
+      if (!includeTrinketMplus && !includeTrinketRaid) includeTrinketRaid = true;
+      applyTrinketIncludes();
+    });
+  }
+
   tbody.addEventListener("change", (event) => {
     const input = event.target.closest("input[data-include-slot]");
     if (!input) return;
@@ -1424,6 +1532,8 @@
     document.querySelectorAll("input[name='weapon-style']").forEach((input) => {
       input.checked = input.value === weaponStyle;
     });
+    if (trinketIncludeMplusEl) trinketIncludeMplusEl.checked = includeTrinketMplus;
+    if (trinketIncludeRaidEl) trinketIncludeRaidEl.checked = includeTrinketRaid;
     syncModeControls();
   }
 

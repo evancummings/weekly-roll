@@ -73,7 +73,10 @@ function Get-TrinketRanksFromHtml([string]$Html) {
         $chunk,
         '(?is)class="tier-label[^>]*">\s*([SABCD])\s*<|data-quality="q([2-5])"|wowhead\.com/(?:ptr/)?item=(\d+)/[^"]*"|data-variation="wow-(epic|rare|uncommon|legendary)"'
     )
-    $ranks = [ordered]@{}
+    $ranks = [ordered]@{
+        raid = [ordered]@{}
+        mplus = [ordered]@{}
+    }
     $current = $null
     $pendingId = $null
     $pendingSrc = $null
@@ -96,11 +99,12 @@ function Get-TrinketRanksFromHtml([string]$Html) {
         }
         if ($tok.Groups[3].Success) {
             $pendingId = $tok.Groups[3].Value
-            if ($pendingId -and $current -and $pendingSrc -in @("epic", "rare")) {
+            $bucket = if ($pendingSrc -eq "epic") { "raid" } elseif ($pendingSrc -eq "rare") { "mplus" } else { $null }
+            if ($pendingId -and $current -and $bucket) {
                 if ($current -eq "S") {
-                    $ranks[$pendingId] = "bis"
-                } elseif ($current -eq "A" -and $ranks[$pendingId] -ne "bis") {
-                    $ranks[$pendingId] = "upgrade"
+                    $ranks[$bucket][$pendingId] = "bis"
+                } elseif ($current -eq "A" -and $ranks[$bucket][$pendingId] -ne "bis") {
+                    $ranks[$bucket][$pendingId] = "upgrade"
                 }
             }
             continue
@@ -108,18 +112,20 @@ function Get-TrinketRanksFromHtml([string]$Html) {
         if (-not ($tok.Groups[4].Success -and $pendingId -and $current)) { continue }
         $src = $tok.Groups[4].Value
         if ($src -in @("uncommon", "legendary")) {
-            $ranks.Remove($pendingId)
+            $ranks.raid.Remove($pendingId)
+            $ranks.mplus.Remove($pendingId)
         } elseif ($src -in @("epic", "rare")) {
+            $bucket = if ($src -eq "epic") { "raid" } else { "mplus" }
             if ($current -eq "S") {
-                $ranks[$pendingId] = "bis"
-            } elseif ($current -eq "A" -and $ranks[$pendingId] -ne "bis") {
-                $ranks[$pendingId] = "upgrade"
+                $ranks[$bucket][$pendingId] = "bis"
+            } elseif ($current -eq "A" -and $ranks[$bucket][$pendingId] -ne "bis") {
+                $ranks[$bucket][$pendingId] = "upgrade"
             }
         }
         $pendingId = $null
         $pendingSrc = $null
     }
-    if ($ranks.Count -eq 0) { return $null }
+    if ($ranks.raid.Count -eq 0 -and $ranks.mplus.Count -eq 0) { return $null }
     return $ranks
 }
 
@@ -183,25 +189,41 @@ foreach ($spec in $toFetch) {
     }
     if ($ranks) {
         $results["$($spec.id)"] = $ranks
-        $bis = @($ranks.GetEnumerator() | Where-Object { $_.Value -eq "bis" }).Count
-        $up = @($ranks.GetEnumerator() | Where-Object { $_.Value -eq "upgrade" }).Count
-        Write-Host ("  {0}: {1} S / {2} A" -f $spec.id, $bis, $up)
+        $raidS = @($ranks.raid.GetEnumerator() | Where-Object { $_.Value -eq "bis" }).Count
+        $raidA = @($ranks.raid.GetEnumerator() | Where-Object { $_.Value -eq "upgrade" }).Count
+        $mplusS = @($ranks.mplus.GetEnumerator() | Where-Object { $_.Value -eq "bis" }).Count
+        $mplusA = @($ranks.mplus.GetEnumerator() | Where-Object { $_.Value -eq "upgrade" }).Count
+        Write-Host ("  {0}: raid {1}S/{2}A, m+ {3}S/{4}A" -f $spec.id, $raidS, $raidA, $mplusS, $mplusA)
     } else {
         $missing.Add($spec.name)
         Write-Host "  FAILED $($spec.name)"
     }
 }
 
+function Format-RankMap($map) {
+    if (-not $map -or $map.Count -eq 0) { return "{}" }
+    $pairs = @($map.Keys | Sort-Object { [int]$_ } | ForEach-Object { '"{0}": "{1}"' -f $_, $map[$_] })
+    return ("{{ {0} }}" -f ($pairs -join ", "))
+}
+
+function Parse-RankMap([string]$Text) {
+    $ranks = [ordered]@{}
+    foreach ($pair in [regex]::Matches($Text, '"(\d+)": "(bis|upgrade)"')) {
+        $ranks[$pair.Groups[1].Value] = $pair.Groups[2].Value
+    }
+    return $ranks
+}
+
 if ($SpecId.Count -and (Test-Path $OutputPath)) {
     $existing = Get-Content -Raw -Encoding utf8 $OutputPath
-    foreach ($match in [regex]::Matches($existing, '"(\d+)": \{([^}]*)\}')) {
+    foreach ($match in [regex]::Matches($existing, '"(\d+)": \{ "raid": (\{[^}]*\}), "mplus": (\{[^}]*\}) \}')) {
         $id = $match.Groups[1].Value
         if ($results.Contains($id)) { continue }
-        $ranks = [ordered]@{}
-        foreach ($pair in [regex]::Matches($match.Groups[2].Value, '"(\d+)": "(bis|upgrade)"')) {
-            $ranks[$pair.Groups[1].Value] = $pair.Groups[2].Value
+        $ranks = [ordered]@{
+            raid = Parse-RankMap $match.Groups[2].Value
+            mplus = Parse-RankMap $match.Groups[3].Value
         }
-        if ($ranks.Count) { $results[$id] = $ranks }
+        if ($ranks.raid.Count -or $ranks.mplus.Count) { $results[$id] = $ranks }
     }
 }
 
@@ -216,15 +238,14 @@ $resolved = [System.IO.Path]::GetFullPath($OutputPath)
 $lines = New-Object System.Collections.Generic.List[string]
 $lines.Add("// Wowhead Midnight Season 2 S/A raid and Mythic+ trinkets.")
 $lines.Add("// Regenerated by scripts/scrape-wowhead-trinkets.ps1")
-$lines.Add("// S-tier -> bis, A-tier -> upgrade. Delves and crafts are ignored.")
+$lines.Add("// S-tier -> bis, A-tier -> upgrade. Split by raid (epic) and Mythic+ (rare).")
 $lines.Add("window.SPEC_TRINKET_DEFAULTS = {")
 $keys = @($results.Keys)
 for ($i = 0; $i -lt $keys.Count; $i++) {
     $id = $keys[$i]
     $ranks = $results[$id]
-    $pairs = @($ranks.Keys | Sort-Object { [int]$_ } | ForEach-Object { '"{0}": "{1}"' -f $_, $ranks[$_] })
     $comma = if ($i -lt $keys.Count - 1) { "," } else { "" }
-    $lines.Add(('  "{0}": {{ {1} }}{2}' -f $id, ($pairs -join ", "), $comma))
+    $lines.Add(('  "{0}": {{ "raid": {1}, "mplus": {2} }}{3}' -f $id, (Format-RankMap $ranks.raid), (Format-RankMap $ranks.mplus), $comma))
 }
 $lines.Add("};")
 $lines.Add("")

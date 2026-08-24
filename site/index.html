@@ -6,7 +6,7 @@
   <title>Weekly Roll</title>
   <link rel="icon" href="icons/dice.png?v=alpha" type="image/png">
   <link rel="apple-touch-icon" href="icons/dice.png?v=alpha">
-  <link rel="stylesheet" href="styles.css?v=undo-roll">
+  <link rel="stylesheet" href="styles.css?v=trinket-src2">
   <script>
     window.whTooltips = { colorLinks: false, iconizeLinks: false, renameLinks: false };
   </script>
@@ -71,15 +71,24 @@
             <label><input type="radio" name="weapon-style" value="mhoh"> MH/OH</label>
           </div>
         </fieldset>
-        <button type="button" id="trinket-open" class="help-open trinket-open" aria-haspopup="dialog" aria-controls="trinket-modal">
-          Trinkets
-          <span id="trinket-count" class="trinket-count">0</span>
-        </button>
+        <div class="trinket-launch">
+          <span>Trinkets</span>
+          <div class="trinket-picks">
+            <button type="button" id="trinket-open" class="help-open trinket-open" aria-haspopup="dialog" aria-controls="trinket-modal">
+              Rank
+              <span id="trinket-count" class="trinket-count">0</span>
+            </button>
+            <div class="weapon-picks">
+              <label><input type="checkbox" id="trinket-include-mplus" checked> M+</label>
+              <label><input type="checkbox" id="trinket-include-raid" checked> Raid</label>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="header-actions">
-        <button type="button" id="help-open" class="help-open" aria-haspopup="dialog" aria-controls="help-modal">How This Works</button>
-        <button type="button" id="plan-open" class="help-open plan-open" aria-haspopup="dialog" aria-controls="plan-modal">Weekly roll</button>
-      </div>
+    </div>
+    <div class="header-actions">
+      <button type="button" id="help-open" class="help-open" aria-haspopup="dialog" aria-controls="help-modal">How This Works</button>
+      <button type="button" id="plan-open" class="help-open plan-open" aria-haspopup="dialog" aria-controls="plan-modal">Weekly roll</button>
     </div>
   </header>
 
@@ -131,7 +140,7 @@
         </section>
         <section>
           <h3>Trinkets</h3>
-          <p>Trinkets ignore secondary stats. Open <strong>Trinkets</strong> and sort each one into BIS or Upgrade. Wowhead S-tier raid and Mythic+ trinkets start as BIS and A-tier as Upgrade; unranked trinkets count as waste. Ranks are saved on this profile per spec and apply to both modes.</p>
+          <p>Trinkets ignore secondary stats. Open <strong>Rank</strong> and sort each one into BIS or Upgrade. Wowhead S-tier starts as BIS and A-tier as Upgrade. Use the <strong>M+</strong> and <strong>Raid</strong> toggles if you only farm one of those; the other source’s trinkets drop out of the ranking. Unranked trinkets count as waste. Ranks are saved on this profile per spec.</p>
         </section>
         <section>
           <h3>Weekly roll</h3>
@@ -183,7 +192,7 @@
         <button type="button" id="trinket-close" class="help-close">Close</button>
       </header>
       <div class="help-body trinket-body">
-        <p class="plan-lead">Drag trinkets into BIS or Upgrade. Unranked pieces stay waste in the table, footer math, and weekly-roll plan. Defaults come from Wowhead S-tier (BIS) and A-tier (Upgrade) for raid and Mythic+. These ranks belong to the current profile and spec.</p>
+        <p class="plan-lead">Drag trinkets into BIS or Upgrade. Unranked pieces stay waste in the table, footer math, and weekly-roll plan. Defaults come from Wowhead S-tier (BIS) and A-tier (Upgrade) for the sources you include. These ranks belong to the current profile and spec.</p>
         <div id="trinket-board" class="trinket-board"></div>
       </div>
     </div>
@@ -201,7 +210,7 @@
 
   <script src="loot-data.js"></script>
   <script src="spec-stat-defaults.js"></script>
-  <script src="spec-trinket-defaults.js?v=s2"></script>
-  <script src="app.js?v=s2-defaults"></script>
+  <script src="spec-trinket-defaults.js?v=s2-src"></script>
+  <script src="app.js?v=trinket-src"></script>
 </body>
 </html>
