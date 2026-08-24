@@ -639,12 +639,11 @@
   function syncTrinketButton() {
     if (!trinketOpen) return;
     const items = uniqueTrinkets();
-    const total = items.length;
     const ranked = items.filter((item) => trinketRank(item) !== "unranked").length;
-    const label = total ? `Trinkets ${ranked}/${total} ranked` : "Trinkets";
+    const label = ranked ? `Trinkets ${ranked} selected` : "Trinkets";
     trinketOpen.setAttribute("aria-label", label);
     trinketOpen.title = label;
-    if (trinketCount) trinketCount.textContent = total ? `${ranked}/${total}` : "0/0";
+    if (trinketCount) trinketCount.textContent = String(ranked);
   }
 
   function setTrinketRank(itemId, rank) {
