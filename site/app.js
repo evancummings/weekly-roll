@@ -558,8 +558,23 @@
     renderBonusSummary();
   }
 
+  function confirmRemoveBonusWin(key) {
+    const win = bonusWins.find((item) => item.key === key);
+    const label = win?.name || "this bonus-roll win";
+    if (!window.confirm(`Remove ${label} from bonus-roll wins?`)) return false;
+    bonusWins = bonusWins.filter((item) => item.key !== key);
+    persist();
+    renderTable();
+    renderBonusSummary();
+    return true;
+  }
+
+  function byName(a, b) {
+    return String(a.name || "").localeCompare(String(b.name || ""), undefined, { sensitivity: "base" });
+  }
+
   function fillClasses() {
-    classSelect.innerHTML = data.classes.map((cls) => {
+    classSelect.innerHTML = [...data.classes].sort(byName).map((cls) => {
       return `<option value="${cls.id}">${cls.name}</option>`;
     }).join("");
 
@@ -571,7 +586,7 @@
 
   function fillSpecs(preferredSpec) {
     const cls = selectedClass();
-    specSelect.innerHTML = (cls?.specs || []).map((spec) => {
+    specSelect.innerHTML = [...(cls?.specs || [])].sort(byName).map((spec) => {
       return `<option value="${spec.id}">${spec.name}</option>`;
     }).join("");
 
@@ -623,10 +638,24 @@
     return `<a class="item-link" href="https://www.wowhead.com/item=${id}" target="_blank" rel="noopener noreferrer" data-wowhead="item=${id}">${icon}</a>`;
   }
 
+  function wowheadTrinketDefault(specId) {
+    const raw = (window.SPEC_TRINKET_DEFAULTS || {})[String(specId)];
+    if (!raw || typeof raw !== "object" || Array.isArray(raw)) return {};
+    const next = {};
+    Object.entries(raw).forEach(([itemId, rank]) => {
+      if (rank === "bis" || rank === "upgrade") next[String(itemId)] = rank;
+    });
+    return next;
+  }
+
   function specTrinketRanks() {
     const specId = String(specSelect.value || "");
     if (!specId) return {};
-    if (!trinketRanks[specId] || typeof trinketRanks[specId] !== "object") trinketRanks[specId] = {};
+    const existing = trinketRanks[specId];
+    if (existing && typeof existing === "object" && !Array.isArray(existing) && Object.keys(existing).length) {
+      return existing;
+    }
+    trinketRanks[specId] = wowheadTrinketDefault(specId);
     return trinketRanks[specId];
   }
 
@@ -956,9 +985,8 @@
     const nameHtml = stats.length && entry.name
       ? `<div class="item-name">${tagHtml}<span>${escapeHtml(entry.name)}</span></div>`
       : "";
-    const rollHtml = won
-      ? ""
-      : `<button type="button" class="bonus-roll" data-key="${escapeHtml(key)}" data-dungeon="${escapeHtml(dungeon.id)}" data-slot="${escapeHtml(slot.id)}" aria-label="Mark as won by bonus roll" title="Mark as won by bonus roll">
+    const rollLabel = won ? "Remove from bonus-roll wins" : "Mark as won by bonus roll";
+    const rollHtml = `<button type="button" class="bonus-roll${won ? " bonus-roll-undo" : ""}" data-key="${escapeHtml(key)}" data-dungeon="${escapeHtml(dungeon.id)}" data-slot="${escapeHtml(slot.id)}" aria-label="${rollLabel}" title="${rollLabel}">
         <img src="icons/dice.png?v=alpha" alt="" width="22" height="22">
       </button>`;
 
@@ -1356,6 +1384,10 @@
     }
     const button = event.target.closest(".bonus-roll");
     if (!button) return;
+    if (isBonusWin(button.dataset.key)) {
+      confirmRemoveBonusWin(button.dataset.key);
+      return;
+    }
     const dungeon = findColumn(button.dataset.dungeon);
     const slot = data.slots.find((item) => String(item.id) === button.dataset.slot);
     const entry = dungeon && slot ? findEntry(dungeon.id, slot.id, button.dataset.key) : null;
@@ -1366,13 +1398,7 @@
   bonusWinsEl.addEventListener("click", (event) => {
     const button = event.target.closest("[data-remove-win]");
     if (!button) return;
-    const win = bonusWins.find((item) => item.key === button.dataset.removeWin);
-    const label = win?.name || "this bonus-roll win";
-    if (!window.confirm(`Remove ${label} from bonus-roll wins?`)) return;
-    bonusWins = bonusWins.filter((item) => item.key !== button.dataset.removeWin);
-    persist();
-    renderTable();
-    renderBonusSummary();
+    confirmRemoveBonusWin(button.dataset.removeWin);
   });
 
   function fillRaidSelect() {

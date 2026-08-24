@@ -992,12 +992,15 @@ tbody tr:hover td.match-faint { background: #262c1f; }
 }
 
 .drop.bonus-won {
-  padding-right: 7px;
   opacity: 0.55;
   filter: saturate(0.85);
   background: rgba(36, 98, 186, 0.4);
   box-shadow: inset 0 0 0 1px rgba(130, 184, 245, 0.55);
-  pointer-events: none;
+}
+
+.drop.bonus-won .bonus-roll {
+  opacity: 0.95;
+  filter: saturate(1);
 }
 
 .history-modal {

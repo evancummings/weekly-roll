@@ -6,7 +6,7 @@
   <title>Weekly Roll</title>
   <link rel="icon" href="icons/dice.png?v=alpha" type="image/png">
   <link rel="apple-touch-icon" href="icons/dice.png?v=alpha">
-  <link rel="stylesheet" href="styles.css?v=trinket-btn">
+  <link rel="stylesheet" href="styles.css?v=undo-roll">
   <script>
     window.whTooltips = { colorLinks: false, iconizeLinks: false, renameLinks: false };
   </script>
@@ -123,7 +123,7 @@
         </section>
         <section>
           <h3>Bonus rolls</h3>
-          <p>Click the dice on a drop when you win it. The item stays on the table but fades out of the remaining pool. Open <strong>Roll History</strong> to review wins and remove a mistake; it asks for confirmation.</p>
+          <p>Click the dice on a drop when you win it. The item stays on the table but fades out of the remaining pool. Click the dice again to undo; it asks for confirmation. Open <strong>Roll History</strong> to review wins the same way.</p>
         </section>
         <section>
           <h3>The footer math</h3>
@@ -131,7 +131,7 @@
         </section>
         <section>
           <h3>Trinkets</h3>
-          <p>Trinkets ignore secondary stats. Open <strong>Trinkets</strong> and sort each one into BIS or Upgrade. Unranked trinkets count as waste until you place them. Ranks are saved on this profile per spec and apply to both Mythic+ and Raid.</p>
+          <p>Trinkets ignore secondary stats. Open <strong>Trinkets</strong> and sort each one into BIS or Upgrade. Wowhead S-tier raid and Mythic+ trinkets start as BIS and A-tier as Upgrade; unranked trinkets count as waste. Ranks are saved on this profile per spec and apply to both modes.</p>
         </section>
         <section>
           <h3>Weekly roll</h3>
@@ -183,7 +183,7 @@
         <button type="button" id="trinket-close" class="help-close">Close</button>
       </header>
       <div class="help-body trinket-body">
-        <p class="plan-lead">Drag trinkets into BIS or Upgrade. Unranked pieces stay waste in the table, footer math, and weekly-roll plan. These ranks belong to the current profile and spec.</p>
+        <p class="plan-lead">Drag trinkets into BIS or Upgrade. Unranked pieces stay waste in the table, footer math, and weekly-roll plan. Defaults come from Wowhead S-tier (BIS) and A-tier (Upgrade) for raid and Mythic+. These ranks belong to the current profile and spec.</p>
         <div id="trinket-board" class="trinket-board"></div>
       </div>
     </div>
@@ -201,6 +201,7 @@
 
   <script src="loot-data.js"></script>
   <script src="spec-stat-defaults.js"></script>
-  <script src="app.js?v=trinket-selected"></script>
+  <script src="spec-trinket-defaults.js?v=s2"></script>
+  <script src="app.js?v=s2-defaults"></script>
 </body>
 </html>
