@@ -6,7 +6,7 @@
   <title>Weekly Roll</title>
   <link rel="icon" href="icons/dice.png?v=alpha" type="image/png">
   <link rel="apple-touch-icon" href="icons/dice.png?v=alpha">
-  <link rel="stylesheet" href="styles.css?v=trinket-modal-src">
+  <link rel="stylesheet" href="styles.css?v=marching-ants">
   <script>
     window.whTooltips = { colorLinks: false, iconizeLinks: false, renameLinks: false };
   </script>
@@ -79,7 +79,13 @@
     </div>
     <div class="header-actions">
       <button type="button" id="help-open" class="help-open" aria-haspopup="dialog" aria-controls="help-modal">How This Works</button>
-      <button type="button" id="plan-open" class="help-open plan-open" aria-haspopup="dialog" aria-controls="plan-modal">Weekly roll</button>
+      <button type="button" id="plan-open" class="help-open plan-open" aria-haspopup="dialog" aria-controls="plan-modal">
+        <svg class="plan-ants" aria-hidden="true" focusable="false">
+          <rect pathLength="100"></rect>
+        </svg>
+        <img src="icons/dice.png?v=alpha" alt="" width="18" height="18">
+        Weekly roll
+      </button>
     </div>
   </header>
 

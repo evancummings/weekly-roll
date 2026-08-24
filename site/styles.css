@@ -115,14 +115,81 @@ h1 {
   border-color: var(--accent);
   background: #2c2612;
   color: #f2e08a;
-  box-shadow: 0 0 0 1px rgba(201, 162, 39, 0.35);
-  animation: plan-attention 2.6s ease-in-out infinite;
 }
 
 .plan-open:hover,
 .plan-open:focus-visible {
   color: #fff3b0;
-  box-shadow: 0 0 0 1px #c9a227, 0 0 14px rgba(255, 214, 90, 0.35);
+}
+
+#plan-open {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding-left: 10px;
+  padding-right: 14px;
+  overflow: visible;
+  border-color: transparent;
+  box-shadow: none;
+}
+
+#plan-open img {
+  display: block;
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+  flex: 0 0 auto;
+}
+
+#plan-open .plan-ants {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  pointer-events: none;
+  z-index: 0;
+}
+
+#plan-open > :not(.plan-ants) {
+  position: relative;
+  z-index: 1;
+}
+
+#plan-open .plan-ants rect {
+  fill: none;
+  x: 1px;
+  y: 1px;
+  width: calc(100% - 2px);
+  height: calc(100% - 2px);
+  rx: 5px;
+  ry: 5px;
+  stroke: #f0d36a;
+  stroke-width: 1.6;
+  stroke-linecap: butt;
+  stroke-linejoin: round;
+  vector-effect: non-scaling-stroke;
+  stroke-dasharray: 7 5;
+  animation: ants-march 0.7s linear infinite;
+}
+
+#plan-open:hover .plan-ants rect,
+#plan-open:focus-visible .plan-ants rect {
+  stroke: #ffe58a;
+}
+
+@keyframes ants-march {
+  to {
+    stroke-dashoffset: -12;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #plan-open .plan-ants rect {
+    animation: none;
+    stroke-dasharray: none;
+  }
 }
 
 .header-actions {
@@ -130,22 +197,6 @@ h1 {
   align-items: flex-end;
   gap: 8px;
   margin-left: auto;
-}
-
-@keyframes plan-attention {
-  0%,
-  100% {
-    box-shadow: 0 0 0 0 rgba(201, 162, 39, 0.15);
-  }
-  50% {
-    box-shadow: 0 0 0 4px rgba(201, 162, 39, 0.2), 0 0 18px rgba(255, 214, 90, 0.4);
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .plan-open {
-    animation: none;
-  }
 }
 
 .help-modal {
