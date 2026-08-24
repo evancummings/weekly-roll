@@ -564,14 +564,31 @@ select:focus {
   min-width: 0;
 }
 
-.header-actions {
-  display: flex;
-  flex-wrap: wrap;
+.trinket-launch {
+  display: grid;
+  align-content: end;
+  gap: 6px;
+}
+
+.trinket-launch > span {
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.trinket-open {
+  display: inline-flex;
   align-items: center;
-  justify-content: flex-end;
-  gap: 8px;
-  height: var(--control-h);
-  margin-left: auto;
+  justify-content: center;
+  min-width: 76px;
+  padding: 0 12px;
+}
+
+.trinket-count {
+  font-variant-numeric: tabular-nums;
+  color: #f2e08a;
 }
 
 .weapon-style {
@@ -1447,7 +1464,8 @@ tfoot tr.pool-net td {
   .profile-field,
   .content-mode,
   .pref,
-  .setup-row {
+  .setup-row,
+  .trinket-launch {
     min-width: 0;
     flex-basis: auto;
     width: 100%;

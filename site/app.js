@@ -53,6 +53,7 @@
   const trinketOpen = document.getElementById("trinket-open");
   const trinketClose = document.getElementById("trinket-close");
   const trinketBoard = document.getElementById("trinket-board");
+  const trinketCount = document.getElementById("trinket-count");
   const historyModal = document.getElementById("history-modal");
   const historyOpen = document.getElementById("history-open");
   const historyCount = document.getElementById("history-count");
@@ -306,7 +307,7 @@
       bonusWins: bonusWins.slice(),
       contentMode,
       raidId: selectedRaidId,
-      trinketRanks: { ...trinketRanks }
+      trinketRanks: normalizeTrinketRanks(trinketRanks)
     };
   }
 
@@ -367,7 +368,7 @@
     bonusWins = Array.isArray(profile.bonusWins) ? profile.bonusWins.filter((win) => win && win.key) : [];
     contentMode = normalizeMode(profile.contentMode || contentMode);
     selectedRaidId = normalizeRaidId(profile.raidId || selectedRaidId);
-    trinketRanks = normalizeTrinketRanks(profile.trinketRanks || trinketRanks);
+    trinketRanks = normalizeTrinketRanks(profile.trinketRanks);
     fillProfileSelect();
     syncSetupControls();
     renderStatOrder();
@@ -633,6 +634,17 @@
     const id = entry && entry.id != null ? String(entry.id) : "";
     const rank = specTrinketRanks()[id];
     return rank === "bis" || rank === "upgrade" ? rank : "unranked";
+  }
+
+  function syncTrinketButton() {
+    if (!trinketOpen) return;
+    const items = uniqueTrinkets();
+    const total = items.length;
+    const ranked = items.filter((item) => trinketRank(item) !== "unranked").length;
+    const label = total ? `Trinkets ${ranked}/${total} ranked` : "Trinkets";
+    trinketOpen.setAttribute("aria-label", label);
+    trinketOpen.title = label;
+    if (trinketCount) trinketCount.textContent = total ? `${ranked}/${total}` : "0/0";
   }
 
   function setTrinketRank(itemId, rank) {
@@ -1074,6 +1086,7 @@
     }).join("");
 
     renderFooter(specGrid);
+    syncTrinketButton();
     refreshWowheadTooltips();
   }
 
