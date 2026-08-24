@@ -6,7 +6,7 @@
   <title>Weekly Roll</title>
   <link rel="icon" href="icons/dice.png?v=alpha" type="image/png">
   <link rel="apple-touch-icon" href="icons/dice.png?v=alpha">
-  <link rel="stylesheet" href="styles.css?v=trinket-count">
+  <link rel="stylesheet" href="styles.css?v=trinket-btn">
   <script>
     window.whTooltips = { colorLinks: false, iconizeLinks: false, renameLinks: false };
   </script>
@@ -71,12 +71,10 @@
             <label><input type="radio" name="weapon-style" value="mhoh"> MH/OH</label>
           </div>
         </fieldset>
-        <div class="trinket-launch">
-          <span>Trinkets</span>
-          <button type="button" id="trinket-open" class="help-open trinket-open" aria-haspopup="dialog" aria-controls="trinket-modal">
-            <span id="trinket-count">0/0</span>
-          </button>
-        </div>
+        <button type="button" id="trinket-open" class="help-open trinket-open" aria-haspopup="dialog" aria-controls="trinket-modal">
+          Trinkets
+          <span id="trinket-count" class="trinket-count">0/0</span>
+        </button>
       </div>
       <div class="header-actions">
         <button type="button" id="help-open" class="help-open" aria-haspopup="dialog" aria-controls="help-modal">How This Works</button>
@@ -203,6 +201,6 @@
 
   <script src="loot-data.js"></script>
   <script src="spec-stat-defaults.js"></script>
-  <script src="app.js?v=trinket-count"></script>
+  <script src="app.js?v=trinket-btn"></script>
 </body>
 </html>
